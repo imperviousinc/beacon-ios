@@ -1,7 +1,7 @@
 {
     "data": [{
             "slug": "ios-search-full-text",
-            "appId": "org.mozilla.ios.Fennec",
+            "appId": "com.impervious.ios.Trill",
             "appName": "firefox_ios",
             "channel": "nightly",
             "branches": [{
@@ -103,7 +103,7 @@
             "featureIds": [
                 "nimbus-validation"
             ],
-            "application": "org.mozilla.ios.Fennec",
+            "application": "com.impervious.ios.Trill",
             "bucketConfig": {
                 "count": 0,
                 "start": 0,
@@ -122,7 +122,7 @@
         },
         {
                 "slug": "mr2-homescreen-experiment",
-                "appId": "org.mozilla.ios.Fennec",
+                "appId": "com.impervious.ios.Trill",
                 "appName": "firefox_ios",
                 "channel": "nightly",
                 "branches": [
@@ -195,7 +195,7 @@
                 "featureIds": [
                     "homescreen"
                 ],
-                "application": "org.mozilla.firefox_beta",
+                "application": "com.impervious.browser_beta",
                 "bucketConfig": {
                     "count": 10000,
                     "start": 0,

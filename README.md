@@ -1,14 +1,14 @@
-Firefox for iOS [![codebeat badge](https://codebeat.co/badges/67e58b6d-bc89-4f22-ba8f-7668a9c15c5a)](https://codebeat.co/projects/github-com-mozilla-firefox-ios) [![BuddyBuild](https://dashboard.buddybuild.com/api/statusImage?appID=57bf25c0f096bc01001e21e0&branch=main&build=latest)](https://dashboard.buddybuild.com/apps/57bf25c0f096bc01001e21e0/build/latest) [![codecov](https://codecov.io/gh/mozilla-mobile/firefox-ios/branch/main/graph/badge.svg)](https://codecov.io/gh/mozilla-mobile/firefox-ios/branch/main)
+Impervious browser iOS 
 ===============
-
-Download on the [App Store](https://itunes.apple.com/app/firefox-web-browser/id989804926).
 
 This branch (main)
 -----------
 
 This branch works with [Xcode 13.0](https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_13/Xcode_13.xip), Swift 5.5 and supports iOS 13 and above.
 
-*Please note:* due to dependency issues, development of Firefox-iOS is currently only supported on Intel based Macs, and not Apple Silicon based Macs.
+*Please note:* due to dependency issues, development of Impervious-iOS is currently only supported on Intel based Macs, and not Apple Silicon based Macs.
+
+The current build bundles MobileHNS to build on a simulator you need to build it from source and bundle it for iossimulator. 
 
 Please make sure you aim your pull requests in the right direction.
 
@@ -16,8 +16,6 @@ For bug fixes and features for a specific release, use the version branch.
 
 Getting involved
 ----------------
-
-Want to contribute but don't know where to start? Here is a list of [issues that are contributor friendly](https://github.com/mozilla-mobile/firefox-ios/labels/Contributor%20OK)
 
 Building the code
 -----------------
@@ -32,15 +30,15 @@ Building the code
     ```
 1. Clone the repository:
     ```shell
-    git clone https://github.com/mozilla-mobile/firefox-ios
+    git clone https://github.com/imperviousinc/impervious-ios
     ```
 1. Pull in the project dependencies:
     ```shell
-    cd firefox-ios
+    cd impervious-ios
     sh ./bootstrap.sh
     ```
 1. Open `Client.xcodeproj` in Xcode.
-1. Build the `Fennec` scheme in Xcode.
+1. Build the `Trill` scheme in Xcode.
 
 Building User Scripts
 -----------------
@@ -76,7 +74,7 @@ npm run build
 Contributing
 -----------------
 
-Want to contribute to this repository? Check out [Contributing Guidelines](https://github.com/mozilla-mobile/firefox-ios/blob/main/CONTRIBUTING.md)
+Contributions welcome!
 
 License
 -----------------

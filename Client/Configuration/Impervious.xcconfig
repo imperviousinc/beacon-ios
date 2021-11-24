@@ -5,8 +5,8 @@
 #include "Common.xcconfig"
 #include "Release.xcconfig"
 
-MOZ_BUNDLE_DISPLAY_NAME = Firefox
-MOZ_BUNDLE_ID = org.mozilla.ios.Firefox
-CODE_SIGN_ENTITLEMENTS = Client/Entitlements/FirefoxApplication.entitlements
+MOZ_BUNDLE_DISPLAY_NAME = Impervious
+MOZ_BUNDLE_ID = com.impervious.ios.Browser
+CODE_SIGN_ENTITLEMENTS = Client/Entitlements/ImperviousApplication.entitlements
 OTHER_SWIFT_FLAGS = $(OTHER_SWIFT_FLAGS_common) -DMOZ_CHANNEL_RELEASE
-MOZ_INTERNAL_URL_SCHEME = firefox-internal
+MOZ_INTERNAL_URL_SCHEME = browser-internal

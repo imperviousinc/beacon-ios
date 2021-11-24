@@ -36,12 +36,20 @@ open class DefaultSuggestedSites {
     public static let sites = [
         "default": [
             SuggestedSiteData(
-                url: "https://m.facebook.com/",
+                url: "https://hns.blockclock/",
                 bgColor: "0x385185",
-                imageUrl: "asset://suggestedsites_facebook",
+                imageUrl: "asset://suggestedsites_blockclock",
+                faviconUrl: "asset://defaultFavicon",
+                trackingId: 629,
+                title: .DefaultSuggestedBlockClock
+            ),
+            SuggestedSiteData(
+                url: "https://proofofconcept/",
+                bgColor: "0x385185",
+                imageUrl: "asset://suggestedsites_proofofconcept",
                 faviconUrl: "asset://defaultFavicon",
                 trackingId: 632,
-                title: .DefaultSuggestedFacebook
+                title: .DefaultSuggestedProofofconept
             ),
             SuggestedSiteData(
                 url: "https://m.youtube.com/",
@@ -58,14 +66,6 @@ open class DefaultSuggestedSites {
                 faviconUrl: "asset://defaultFavicon",
                 trackingId: 630,
                 title: .DefaultSuggestedAmazon
-            ),
-            SuggestedSiteData(
-                url: "https://www.wikipedia.org/",
-                bgColor: "0x000000",
-                imageUrl: "asset://suggestedsites_wikipedia",
-                faviconUrl: "asset://defaultFavicon",
-                trackingId: 629,
-                title: .DefaultSuggestedWikipedia
             ),
             SuggestedSiteData(
                 url: "https://mobile.twitter.com/",

@@ -10,7 +10,7 @@ import UserNotifications
 import os.log
 
 func consoleLog(_ msg: String) {
-    os_log("%{public}@", log: OSLog(subsystem: "org.mozilla.firefox", category: "firefoxnotificationservice"), type: OSLogType.debug, msg)
+    os_log("%{public}@", log: OSLog(subsystem: "com.impervious.browser", category: "browsernotificationservice"), type: OSLogType.debug, msg)
 }
 
 class NotificationService: UNNotificationServiceExtension {
@@ -90,7 +90,7 @@ class SyncDataDisplay {
         self.contentHandler = contentHandler
         self.notificationContent = content
         self.tabQueue = tabQueue
-        Sentry.shared.setup(sendUsageData: true)
+        Sentry.shared.setup(sendUsageData: false)
     }
 
     func displayNotification(_ message: PushMessage? = nil, profile: ExtensionProfile?, with error: PushMessageError? = nil) {

@@ -9,7 +9,7 @@ import CoreSpotlight
 import MobileCoreServices
 import WebKit
 
-private let browsingActivityType: String = "org.mozilla.ios.firefox.browsing"
+private let browsingActivityType: String = "com.impervious.ios.browser.browsing"
 
 private let searchableIndex = CSSearchableIndex.default()
 
@@ -129,7 +129,7 @@ extension UserActivityHandler {
 
         let identifier = !page.url.isEmptyOrWhitespace() ? page.url : tab.currentURL()?.absoluteString
 
-        let item = CSSearchableItem(uniqueIdentifier: identifier, domainIdentifier: "org.mozilla.ios.firefox", attributeSet: attributeSet)
+        let item = CSSearchableItem(uniqueIdentifier: identifier, domainIdentifier: "com.impervious.ios.firefox", attributeSet: attributeSet)
 
         if let numDays = experimental.getInt("keep-for-days") {
             let day: TimeInterval = 60 * 60 * 24

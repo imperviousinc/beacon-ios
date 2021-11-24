@@ -286,7 +286,7 @@
 		435D660323D793DF0046EFA2 /* UpdateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D660223D793DF0046EFA2 /* UpdateModel.swift */; };
 		435D660523D794B90046EFA2 /* UpdateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D660423D794B90046EFA2 /* UpdateViewModel.swift */; };
 		435D660723D7962C0046EFA2 /* UpdateCoverSheetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D660623D7962C0046EFA2 /* UpdateCoverSheetTableViewCell.swift */; };
-		435D7CC32461EFDD0043ACB9 /* IntroScreenSyncView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D7CC22461EFDD0043ACB9 /* IntroScreenSyncView.swift */; };
+		435D7CC32461EFDD0043ACB9 /* IntroScreenHandshakeOnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D7CC22461EFDD0043ACB9 /* IntroScreenHandshakeOnboardView.swift */; };
 		435D7CC5246209AA0043ACB9 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D7CC4246209AA0043ACB9 /* IntroViewController.swift */; };
 		435E34B3254A6A6000406D92 /* TimeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E650758F1E37F7AB006961AC /* TimeConstants.swift */; };
 		436715892488216A006D1D4E /* TabTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436715882488216A006D1D4E /* TabTableViewCell.swift */; };
@@ -392,6 +392,20 @@
 		9699F77326F39E5100C5FA47 /* SiteImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9699F77226F39E5100C5FA47 /* SiteImageHelper.swift */; };
 		96D95016270238500079D39D /* Throttler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D95015270238500079D39D /* Throttler.swift */; };
 		96F627002669B0D100C82340 /* FxHomeRecentlySavedCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F626FF2669B0D100C82340 /* FxHomeRecentlySavedCollectionCell.swift */; };
+		9FA09E08271CF47000E8E54E /* libhsk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA09E06271CF46F00E8E54E /* libhsk.a */; };
+		9FA09E09271CF47000E8E54E /* libuv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA09E07271CF46F00E8E54E /* libuv.a */; };
+		9FA1418B2746839000EBF61E /* MobileHNS.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA1418A2746839000EBF61E /* MobileHNS.xcframework */; };
+		9FA1418F2747784900EBF61E /* DNSAuthExclusions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA1418E2747784900EBF61E /* DNSAuthExclusions.swift */; };
+		9FB7E6DE2717F5300039C9DC /* EncryptedDNSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7E6DD2717F5300039C9DC /* EncryptedDNSViewController.swift */; };
+		9FC85610274E12DA00A5FE1D /* HNSHomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC8560F274E12DA00A5FE1D /* HNSHomeHeaderView.swift */; };
+		9FDBFD9F2747ACB400143C8D /* DNSExt.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDBFD9D2747ACA900143C8D /* DNSExt.xcframework */; };
+		9FED5027272D4271001B3561 /* IntroScreenSyncView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FED5026272D4271001B3561 /* IntroScreenSyncView.swift */; };
+		9FED502B272DF159001B3561 /* IntroScreenEthereumOnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FED502A272DF159001B3561 /* IntroScreenEthereumOnboardView.swift */; };
+		9FED502D272EAE5D001B3561 /* IntroScreenEnableDNSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FED502C272EAE5D001B3561 /* IntroScreenEnableDNSView.swift */; };
+		9FED50472730AA51001B3561 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FED50332730A7E9001B3561 /* NetworkExtension.framework */; };
+		9FED504A2730AA51001B3561 /* PacketTunnelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FED50492730AA51001B3561 /* PacketTunnelProvider.swift */; };
+		9FED504F2730AA51001B3561 /* DNSAppExt.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9FED50462730AA51001B3561 /* DNSAppExt.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9FED505D2731098F001B3561 /* ImperviousAccessors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FED505C2731098F001B3561 /* ImperviousAccessors.swift */; };
 		A83E5AB71C1D993D0026D912 /* UIPasteboardExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E5AB61C1D993D0026D912 /* UIPasteboardExtensions.swift */; };
 		A83E5B1A1C1DA8BF0026D912 /* image.gif in Resources */ = {isa = PBXBuildFile; fileRef = A83E5B181C1DA8BF0026D912 /* image.gif */; };
 		A83E5B1B1C1DA8BF0026D912 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = A83E5B191C1DA8BF0026D912 /* image.png */; };
@@ -1056,6 +1070,13 @@
 			remoteGlobalIDString = F84B21BD1A090F8100AAB793;
 			remoteInfo = Client;
 		};
+		9FED504D2730AA51001B3561 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F84B21B61A090F8100AAB793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FED50452730AA51001B3561;
+			remoteInfo = DNSAppExt;
+		};
 		C82043702523DBEB00740B71 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F84B21B61A090F8100AAB793 /* Project object */;
@@ -1236,6 +1257,7 @@
 				390527561C874D35007E0BB7 /* Today.appex in Embed App Extensions */,
 				397848E21ED86605004C0C0B /* NotificationService.appex in Embed App Extensions */,
 				F8324A122649A188007E4BFA /* CredentialProvider.appex in Embed App Extensions */,
+				9FED504F2730AA51001B3561 /* DNSAppExt.appex in Embed App Extensions */,
 				F84B22541A0920C600AAB793 /* ShareTo.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
@@ -1966,12 +1988,12 @@
 		435D660223D793DF0046EFA2 /* UpdateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateModel.swift; sourceTree = "<group>"; };
 		435D660423D794B90046EFA2 /* UpdateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewModel.swift; sourceTree = "<group>"; };
 		435D660623D7962C0046EFA2 /* UpdateCoverSheetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateCoverSheetTableViewCell.swift; sourceTree = "<group>"; };
-		435D7CC22461EFDD0043ACB9 /* IntroScreenSyncView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreenSyncView.swift; sourceTree = "<group>"; };
+		435D7CC22461EFDD0043ACB9 /* IntroScreenHandshakeOnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreenHandshakeOnboardView.swift; sourceTree = "<group>"; };
 		435D7CC4246209AA0043ACB9 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		436715882488216A006D1D4E /* TabTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTableViewCell.swift; sourceTree = "<group>"; };
 		436B4FD998EBB793AB68FAA8 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/PrivateBrowsing.strings; sourceTree = "<group>"; };
-		437475CA26DD1B7300DF2822 /* CredentialProviderFirefoxBeta.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CredentialProviderFirefoxBeta.entitlements; sourceTree = "<group>"; };
-		437475CB26DD1E5B00DF2822 /* CredentialProviderFirefox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CredentialProviderFirefox.entitlements; sourceTree = "<group>"; };
+		437475CA26DD1B7300DF2822 /* CredentialProviderImperviousBeta.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CredentialProviderImperviousBeta.entitlements; sourceTree = "<group>"; };
+		437475CB26DD1E5B00DF2822 /* CredentialProviderImpervious.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CredentialProviderImpervious.entitlements; sourceTree = "<group>"; };
 		437A9B672681256800FB41C1 /* InactiveTabCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InactiveTabCell.swift; sourceTree = "<group>"; };
 		437A9B692681257F00FB41C1 /* InactiveTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InactiveTabViewModel.swift; sourceTree = "<group>"; };
 		43904ED28118BAD713896491 /* bg */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bg; path = bg.lproj/HistoryPanel.strings; sourceTree = "<group>"; };
@@ -2693,11 +2715,29 @@
 		9F1E48F5BEF75CE68465B2E0 /* br */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = br; path = br.lproj/Storage.strings; sourceTree = "<group>"; };
 		9F334BC995447815E1BD4BCA /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Storage.strings; sourceTree = "<group>"; };
 		9F3D4B77870190C941F00722 /* hi-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hi-IN"; path = "hi-IN.lproj/ClearHistoryConfirm.strings"; sourceTree = "<group>"; };
+		9F42D9D22732B65E00292647 /* DNSAppExtImperviousBeta.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DNSAppExtImperviousBeta.entitlements; sourceTree = "<group>"; };
 		9F4B414CB9293A0DA71796A6 /* bn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bn; path = bn.lproj/HistoryPanel.strings; sourceTree = "<group>"; };
 		9F604216BAE66894BFDC17BF /* kk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = kk; path = kk.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9F634ECAB2BF0DAD9583F136 /* nn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nn; path = nn.lproj/ClearPrivateDataConfirm.strings; sourceTree = "<group>"; };
 		9F974E3DAFCB46BF67A807D0 /* ta */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ta; path = ta.lproj/Search.strings; sourceTree = "<group>"; };
+		9FA09E06271CF46F00E8E54E /* libhsk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libhsk.a; sourceTree = "<group>"; };
+		9FA09E07271CF46F00E8E54E /* libuv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libuv.a; sourceTree = "<group>"; };
+		9FA1418A2746839000EBF61E /* MobileHNS.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MobileHNS.xcframework; sourceTree = "<group>"; };
+		9FA1418E2747784900EBF61E /* DNSAuthExclusions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNSAuthExclusions.swift; sourceTree = "<group>"; };
 		9FA740EF995B25873421D001 /* gl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = gl; path = gl.lproj/AuthenticationManager.strings; sourceTree = "<group>"; };
+		9FB7E6DD2717F5300039C9DC /* EncryptedDNSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptedDNSViewController.swift; sourceTree = "<group>"; };
+		9FC8560F274E12DA00A5FE1D /* HNSHomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HNSHomeHeaderView.swift; sourceTree = "<group>"; };
+		9FDBFD9D2747ACA900143C8D /* DNSExt.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = DNSExt.xcframework; sourceTree = "<group>"; };
+		9FED5026272D4271001B3561 /* IntroScreenSyncView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreenSyncView.swift; sourceTree = "<group>"; };
+		9FED502A272DF159001B3561 /* IntroScreenEthereumOnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreenEthereumOnboardView.swift; sourceTree = "<group>"; };
+		9FED502C272EAE5D001B3561 /* IntroScreenEnableDNSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreenEnableDNSView.swift; sourceTree = "<group>"; };
+		9FED50332730A7E9001B3561 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		9FED50462730AA51001B3561 /* DNSAppExt.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DNSAppExt.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FED50492730AA51001B3561 /* PacketTunnelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketTunnelProvider.swift; sourceTree = "<group>"; };
+		9FED504B2730AA51001B3561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FED504C2730AA51001B3561 /* DNSAppExt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DNSAppExt.entitlements; sourceTree = "<group>"; };
+		9FED505C2731098F001B3561 /* ImperviousAccessors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImperviousAccessors.swift; sourceTree = "<group>"; };
+		9FED505E2731307A001B3561 /* EncryptedDNSVPNViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptedDNSVPNViewController.swift; sourceTree = "<group>"; };
 		A00D4D7599E56079EE99A4C9 /* eu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = eu; path = eu.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A0584C2091A7B47A062CD7ED /* kab */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = kab; path = kab.lproj/Intro.strings; sourceTree = "<group>"; };
 		A0CE43FF808F6F9D400D83DC /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -3340,7 +3380,7 @@
 		D4A2419292C555D02004A495 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Storage.strings"; sourceTree = "<group>"; };
 		D4B5444899A0721B899F9E46 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D4C4BDCD2253725E00986F04 /* LibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryTests.swift; sourceTree = "<group>"; };
-		D4C792B625651FAE00FB7E86 /* Fennec_Enterprise_XCUITests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = Fennec_Enterprise_XCUITests.xctestplan; path = XCUITests/Fennec_Enterprise_XCUITests.xctestplan; sourceTree = "<group>"; };
+		D4C792B625651FAE00FB7E86 /* Trill_Enterprise_XCUITests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = Trill_Enterprise_XCUITests.xctestplan; path = XCUITests/Trill_Enterprise_XCUITests.xctestplan; sourceTree = "<group>"; };
 		D4C792CA25651FC500FB7E86 /* PerformanceTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = PerformanceTestPlan.xctestplan; path = XCUITests/PerformanceTestPlan.xctestplan; sourceTree = "<group>"; };
 		D4C794812565A13700FB7E86 /* SyncIntegrationTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = SyncIntegrationTestPlan.xctestplan; path = XCUITests/SyncIntegrationTestPlan.xctestplan; sourceTree = "<group>"; };
 		D4F3D788232F960600FBB9AA /* WhatsNewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewTest.swift; sourceTree = "<group>"; };
@@ -3745,10 +3785,10 @@
 		E3394EAC96D4DFB36584C749 /* sl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sl; path = sl.lproj/PrivateBrowsing.strings; sourceTree = "<group>"; };
 		E355448C9A9B7A2E4CAB5DB8 /* kab */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = kab; path = kab.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E3E74943AB243C8AA5730FF5 /* es-AR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-AR"; path = "es-AR.lproj/Shared.strings"; sourceTree = "<group>"; };
-		E40A18F71EDC73D5006B7F28 /* Fennec.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Fennec.entitlements; sourceTree = "<group>"; };
-		E40A18F81EDC73D5006B7F28 /* FennecEnterprise.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = FennecEnterprise.entitlements; sourceTree = "<group>"; };
-		E40A18F91EDC73D5006B7F28 /* Firefox.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Firefox.entitlements; sourceTree = "<group>"; };
-		E40A18FA1EDC73D5006B7F28 /* FirefoxBeta.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = FirefoxBeta.entitlements; sourceTree = "<group>"; };
+		E40A18F71EDC73D5006B7F28 /* Trill.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Trill.entitlements; sourceTree = "<group>"; };
+		E40A18F81EDC73D5006B7F28 /* TrillEnterprise.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = TrillEnterprise.entitlements; sourceTree = "<group>"; };
+		E40A18F91EDC73D5006B7F28 /* Impervious.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Impervious.entitlements; sourceTree = "<group>"; };
+		E40A18FA1EDC73D5006B7F28 /* ImperviousBeta.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = ImperviousBeta.entitlements; sourceTree = "<group>"; };
 		E40AFC531DD0E93300DA5651 /* L10nPermissionStringsSnapshotTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L10nPermissionStringsSnapshotTests.swift; sourceTree = "<group>"; };
 		E40AFC641DD0F25500DA5651 /* L10nBaseSnapshotTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L10nBaseSnapshotTests.swift; sourceTree = "<group>"; };
 		E40AFC6B1DD128DA00DA5651 /* L10nSuite1SnapshotTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L10nSuite1SnapshotTests.swift; sourceTree = "<group>"; };
@@ -3803,8 +3843,8 @@
 		E59A418F9208400903902F07 /* ses */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ses; path = ses.lproj/LoginManager.strings; sourceTree = "<group>"; };
 		E5C24864B9BA6790B352962E /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Search.strings; sourceTree = "<group>"; };
 		E5D343558F3C933F5CA7690C /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Storage.strings"; sourceTree = "<group>"; };
-		E60961861B62B8A700DD640F /* Fennec.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Fennec.xcconfig; path = Configuration/Fennec.xcconfig; sourceTree = "<group>"; };
-		E60961891B62B8C800DD640F /* Firefox.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Firefox.xcconfig; path = Configuration/Firefox.xcconfig; sourceTree = "<group>"; };
+		E60961861B62B8A700DD640F /* Trill.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Trill.xcconfig; path = Configuration/Trill.xcconfig; sourceTree = "<group>"; };
+		E60961891B62B8C800DD640F /* Impervious.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Impervious.xcconfig; path = Configuration/Impervious.xcconfig; sourceTree = "<group>"; };
 		E60D03171D511398002FE3F6 /* SyncStatusResolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyncStatusResolver.swift; sourceTree = "<group>"; };
 		E60D03291D5118DB002FE3F6 /* SyncStatusResolverTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyncStatusResolverTests.swift; sourceTree = "<group>"; };
 		E6108FF81C84E91C005D25E8 /* BasePasscodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasePasscodeViewController.swift; sourceTree = "<group>"; };
@@ -3812,7 +3852,7 @@
 		E61453BD1B750A1700C3F9D7 /* RollingFileLoggerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RollingFileLoggerTests.swift; sourceTree = "<group>"; };
 		E6231C001B90A44F005ABB0D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		E6231C041B90A472005ABB0D /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
-		E62AC15F1E956AFC00843532 /* FennecEnterpriseApplication.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FennecEnterpriseApplication.entitlements; sourceTree = "<group>"; };
+		E62AC15F1E956AFC00843532 /* TrillEnterpriseApplication.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrillEnterpriseApplication.entitlements; sourceTree = "<group>"; };
 		E6327A631BF6438E008D12E0 /* DebugSettingsBundleOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugSettingsBundleOptions.swift; sourceTree = "<group>"; };
 		E633E2D91C21EAF8001FFF6C /* LoginDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginDetailViewController.swift; path = ../Settings/LoginDetailViewController.swift; sourceTree = "<group>"; };
 		E633E3791C2204BE001FFF6C /* LoginManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginManagerTests.swift; sourceTree = "<group>"; };
@@ -3918,19 +3958,19 @@
 		E6CA4229B067C32CA10E19A9 /* ml */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ml; path = ml.lproj/Search.strings; sourceTree = "<group>"; };
 		E6CF28E61CB43B7900151AB3 /* SensitiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensitiveViewController.swift; sourceTree = "<group>"; };
 		E6D8D5E61B569D70009E5A58 /* BrowserTrayAnimators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserTrayAnimators.swift; sourceTree = "<group>"; };
-		E6DCC1ED1DCBB6AA00CEC4B7 /* Fennec.enterprise.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Fennec.enterprise.xcconfig; path = Configuration/Fennec.enterprise.xcconfig; sourceTree = "<group>"; };
+		E6DCC1ED1DCBB6AA00CEC4B7 /* Trill.enterprise.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Trill.enterprise.xcconfig; path = Configuration/Trill.enterprise.xcconfig; sourceTree = "<group>"; };
 		E6DD408EAF352F4B541022BA /* or */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = or; path = or.lproj/HistoryPanel.strings; sourceTree = "<group>"; };
 		E6EAC5951B29CB3A00E1DE1E /* scrollablePage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = scrollablePage.html; sourceTree = "<group>"; };
 		E6EC4E5DA51902A09A0F0957 /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = "hr.lproj/Default Browser.strings"; sourceTree = "<group>"; };
 		E6EDE81D1D524475007A0732 /* BatchingClientTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BatchingClientTests.swift; path = SyncTests/BatchingClientTests.swift; sourceTree = "<group>"; };
 		E6F368281D7F594F008CDD67 /* SQLiteHistoryRecommendations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteHistoryRecommendations.swift; sourceTree = "<group>"; };
-		E6F738741EB7A8D300B50143 /* FennecApplication.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FennecApplication.entitlements; sourceTree = "<group>"; };
-		E6F738751EB7A97100B50143 /* FirefoxBetaApplication.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FirefoxBetaApplication.entitlements; sourceTree = "<group>"; };
-		E6F738761EB7A97500B50143 /* FirefoxApplication.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FirefoxApplication.entitlements; sourceTree = "<group>"; };
+		E6F738741EB7A8D300B50143 /* TrillApplication.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrillApplication.entitlements; sourceTree = "<group>"; };
+		E6F738751EB7A97100B50143 /* ImperviousBetaApplication.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ImperviousBetaApplication.entitlements; sourceTree = "<group>"; };
+		E6F738761EB7A97500B50143 /* ImperviousApplication.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ImperviousApplication.entitlements; sourceTree = "<group>"; };
 		E6F9650C1B2F1CF20034B023 /* SharedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6F9650F1B2F1CF20034B023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6F9653B1B2F1D5D0034B023 /* NSURLExtensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSURLExtensionsTests.swift; sourceTree = "<group>"; };
-		E6FCC43C1C40565200DF6113 /* FirefoxBeta.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = FirefoxBeta.xcconfig; path = Configuration/FirefoxBeta.xcconfig; sourceTree = "<group>"; };
+		E6FCC43C1C40565200DF6113 /* ImperviousBeta.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = ImperviousBeta.xcconfig; path = Configuration/ImperviousBeta.xcconfig; sourceTree = "<group>"; };
 		E6FF6AC91D873CFF0070C294 /* PageMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageMetadata.swift; sourceTree = "<group>"; };
 		E70049799CF2243911759906 /* oc */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = oc; path = oc.lproj/Storage.strings; sourceTree = "<group>"; };
 		E70B441A9D02B00C3000646B /* te */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = te; path = te.lproj/Storage.strings; sourceTree = "<group>"; };
@@ -4098,7 +4138,7 @@
 		F8324A092649A188007E4BFA /* CredentialProviderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialProviderViewController.swift; sourceTree = "<group>"; };
 		F8324A0E2649A188007E4BFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8324A0F2649A188007E4BFA /* CredentialProvider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CredentialProvider.entitlements; sourceTree = "<group>"; };
-		F8324AE12649B3E7007E4BFA /* CredentialProviderFennec.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CredentialProviderFennec.entitlements; sourceTree = "<group>"; };
+		F8324AE12649B3E7007E4BFA /* CredentialProviderTrill.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CredentialProviderTrill.entitlements; sourceTree = "<group>"; };
 		F8324EB3B9CEED437A3D68A6 /* rm */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = rm; path = rm.lproj/ClearPrivateData.strings; sourceTree = "<group>"; };
 		F84B21BE1A090F8100AAB793 /* Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Client.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F84B21D31A090F8100AAB793 /* ClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -4210,10 +4250,13 @@
 				C82043852523DBF600740B71 /* Sync.framework in Frameworks */,
 				C877037A25222F30006E38EB /* Shared.framework in Frameworks */,
 				C8E18F20222EDED000E30E52 /* SafariServices.framework in Frameworks */,
+				9FA09E08271CF47000E8E54E /* libhsk.a in Frameworks */,
+				9FA09E09271CF47000E8E54E /* libuv.a in Frameworks */,
 				C8E18F1E222EDE4500E30E52 /* Accelerate.framework in Frameworks */,
 				F8324A7C2649A5A5007E4BFA /* AuthenticationServices.framework in Frameworks */,
 				E6231C051B90A472005ABB0D /* libxml2.2.tbd in Frameworks */,
 				EBCF403B221CBC5B00B38F28 /* SwiftProtobuf.framework in Frameworks */,
+				9FA1418B2746839000EBF61E /* MobileHNS.xcframework in Frameworks */,
 				4357697525B733CC0017B210 /* MozillaAppServices.framework in Frameworks */,
 				E6231C011B90A44F005ABB0D /* libz.tbd in Frameworks */,
 				E4B3348A1BBF23F9004E2BFF /* AdSupport.framework in Frameworks */,
@@ -4310,6 +4353,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FED50432730AA51001B3561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FED50472730AA51001B3561 /* NetworkExtension.framework in Frameworks */,
+				9FDBFD9F2747ACB400143C8D /* DNSExt.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4640,6 +4692,8 @@
 				EB9A178D20E525DF00B12184 /* ThemeSettingsController.swift */,
 				66CE54A720FCF6CF00CC310B /* WebsiteDataManagementViewController.swift */,
 				6669B5E1211418A200CA117B /* WebsiteDataSearchResultsViewController.swift */,
+				9FB7E6DD2717F5300039C9DC /* EncryptedDNSViewController.swift */,
+				9FED505E2731307A001B3561 /* EncryptedDNSVPNViewController.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -4800,6 +4854,7 @@
 			children = (
 				392ED7E31D0AEF56009D9B62 /* NewTabAccessors.swift */,
 				392ED7E51D0AEFEF009D9B62 /* HomePageAccessors.swift */,
+				9FED505C2731098F001B3561 /* ImperviousAccessors.swift */,
 			);
 			name = Accessors;
 			sourceTree = "<group>";
@@ -5091,6 +5146,29 @@
 				7B42406D1CA04CAC009B5C28 /* Menu.xcassets */,
 			);
 			path = Menu;
+			sourceTree = "<group>";
+		};
+		9FA09E05271CF45700E8E54E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FDBFD9D2747ACA900143C8D /* DNSExt.xcframework */,
+				9FA09E06271CF46F00E8E54E /* libhsk.a */,
+				9FA09E07271CF46F00E8E54E /* libuv.a */,
+				9FA1418A2746839000EBF61E /* MobileHNS.xcframework */,
+				9FED50332730A7E9001B3561 /* NetworkExtension.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FED50482730AA51001B3561 /* DNSAppExt */ = {
+			isa = PBXGroup;
+			children = (
+				9F42D9D22732B65E00292647 /* DNSAppExtImperviousBeta.entitlements */,
+				9FED50492730AA51001B3561 /* PacketTunnelProvider.swift */,
+				9FED504B2730AA51001B3561 /* Info.plist */,
+				9FED504C2730AA51001B3561 /* DNSAppExt.entitlements */,
+			);
+			path = DNSAppExt;
 			sourceTree = "<group>";
 		};
 		C82A94E3269CB74500624AA7 /* FeatureFlags */ = {
@@ -5661,10 +5739,10 @@
 		E40A18F61EDC73D5006B7F28 /* Entitlements */ = {
 			isa = PBXGroup;
 			children = (
-				E40A18F71EDC73D5006B7F28 /* Fennec.entitlements */,
-				E40A18F81EDC73D5006B7F28 /* FennecEnterprise.entitlements */,
-				E40A18F91EDC73D5006B7F28 /* Firefox.entitlements */,
-				E40A18FA1EDC73D5006B7F28 /* FirefoxBeta.entitlements */,
+				E40A18F71EDC73D5006B7F28 /* Trill.entitlements */,
+				E40A18F81EDC73D5006B7F28 /* TrillEnterprise.entitlements */,
+				E40A18F91EDC73D5006B7F28 /* Impervious.entitlements */,
+				E40A18FA1EDC73D5006B7F28 /* ImperviousBeta.entitlements */,
 			);
 			path = Entitlements;
 			sourceTree = "<group>";
@@ -5674,8 +5752,11 @@
 			children = (
 				E49943F61AE69EDD00BF9DE4 /* Intro.xcassets */,
 				435D7CC4246209AA0043ACB9 /* IntroViewController.swift */,
-				435D7CC22461EFDD0043ACB9 /* IntroScreenSyncView.swift */,
+				435D7CC22461EFDD0043ACB9 /* IntroScreenHandshakeOnboardView.swift */,
 				4334145624C6378B001541F3 /* IntroScreenWelcomeView.swift */,
+				9FED5026272D4271001B3561 /* IntroScreenSyncView.swift */,
+				9FED502A272DF159001B3561 /* IntroScreenEthereumOnboardView.swift */,
+				9FED502C272EAE5D001B3561 /* IntroScreenEnableDNSView.swift */,
 			);
 			path = Intro;
 			sourceTree = "<group>";
@@ -5759,10 +5840,10 @@
 		E60961841B62B7E100DD640F /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				E60961861B62B8A700DD640F /* Fennec.xcconfig */,
-				E6DCC1ED1DCBB6AA00CEC4B7 /* Fennec.enterprise.xcconfig */,
-				E6FCC43C1C40565200DF6113 /* FirefoxBeta.xcconfig */,
-				E60961891B62B8C800DD640F /* Firefox.xcconfig */,
+				E60961861B62B8A700DD640F /* Trill.xcconfig */,
+				E6DCC1ED1DCBB6AA00CEC4B7 /* Trill.enterprise.xcconfig */,
+				E6FCC43C1C40565200DF6113 /* ImperviousBeta.xcconfig */,
+				E60961891B62B8C800DD640F /* Impervious.xcconfig */,
 			);
 			name = Configuration;
 			sourceTree = "<group>";
@@ -5843,10 +5924,10 @@
 		E689C6FF1E0C716F008BAADB /* Entitlements */ = {
 			isa = PBXGroup;
 			children = (
-				E6F738761EB7A97500B50143 /* FirefoxApplication.entitlements */,
-				E6F738751EB7A97100B50143 /* FirefoxBetaApplication.entitlements */,
-				E6F738741EB7A8D300B50143 /* FennecApplication.entitlements */,
-				E62AC15F1E956AFC00843532 /* FennecEnterpriseApplication.entitlements */,
+				E6F738761EB7A97500B50143 /* ImperviousApplication.entitlements */,
+				E6F738751EB7A97100B50143 /* ImperviousBetaApplication.entitlements */,
+				E6F738741EB7A8D300B50143 /* TrillApplication.entitlements */,
+				E62AC15F1E956AFC00843532 /* TrillEnterpriseApplication.entitlements */,
 			);
 			path = Entitlements;
 			sourceTree = "<group>";
@@ -6058,10 +6139,10 @@
 				F80DF7402703BC8E00E4C37D /* CredentialPasscodeRequirementViewController.swift */,
 				F8324A0E2649A188007E4BFA /* Info.plist */,
 				F8324A0F2649A188007E4BFA /* CredentialProvider.entitlements */,
-				437475CB26DD1E5B00DF2822 /* CredentialProviderFirefox.entitlements */,
+				437475CB26DD1E5B00DF2822 /* CredentialProviderImpervious.entitlements */,
 				C893075C265501EE00A1DB2F /* CredentialAssets.xcassets */,
-				F8324AE12649B3E7007E4BFA /* CredentialProviderFennec.entitlements */,
-				437475CA26DD1B7300DF2822 /* CredentialProviderFirefoxBeta.entitlements */,
+				F8324AE12649B3E7007E4BFA /* CredentialProviderTrill.entitlements */,
+				437475CA26DD1B7300DF2822 /* CredentialProviderImperviousBeta.entitlements */,
 			);
 			path = CredentialProvider;
 			sourceTree = "<group>";
@@ -6069,9 +6150,11 @@
 		F84B21B51A090F8100AAB793 = {
 			isa = PBXGroup;
 			children = (
+				9FED50482730AA51001B3561 /* DNSAppExt */,
+				9FA09E05271CF45700E8E54E /* Frameworks */,
 				4F50486E25ACF98A0090EFF2 /* SmokeXCUITests.xctestplan */,
 				D4C794812565A13700FB7E86 /* SyncIntegrationTestPlan.xctestplan */,
-				D4C792B625651FAE00FB7E86 /* Fennec_Enterprise_XCUITests.xctestplan */,
+				D4C792B625651FAE00FB7E86 /* Trill_Enterprise_XCUITests.xctestplan */,
 				D4C792CA25651FC500FB7E86 /* PerformanceTestPlan.xctestplan */,
 				3E82980124BE4C31000A59FF /* FxATelemetryUtils.swift */,
 				C8E2E80623D20FB3005AACE6 /* RustFxA */,
@@ -6132,6 +6215,7 @@
 				397848DB1ED86605004C0C0B /* NotificationService.appex */,
 				047F9B2724E1FE1C00CD7DF7 /* WidgetKitExtension.appex */,
 				F8324A052649A188007E4BFA /* CredentialProvider.appex */,
+				9FED50462730AA51001B3561 /* DNSAppExt.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -6226,6 +6310,7 @@
 		F84B21E41A0910F600AAB793 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				9FA1418E2747784900EBF61E /* DNSAuthExclusions.swift */,
 				E652F6F91BF66A79007FFDD6 /* Delegates */,
 				D81E377D2242FF61006AC72D /* Client-Bridging-Header.h */,
 				E40FAB0B1A7ABB77009CB80D /* WebServer.swift */,
@@ -6331,6 +6416,7 @@
 				43AB6FA025DC53D30016B015 /* LibraryShortcutView.swift */,
 				43AB6FA125DC53D30016B015 /* PanelDataObservers.swift */,
 				966206CC2698DE1E005C0A55 /* FirefoxHomeRecentlySavedViewModel.swift */,
+				9FC8560F274E12DA00A5FE1D /* HNSHomeHeaderView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -6643,6 +6729,23 @@
 			productReference = 7BEB645A1C7345990092C02E /* MarketingUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		9FED50452730AA51001B3561 /* DNSAppExt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FED50502730AA52001B3561 /* Build configuration list for PBXNativeTarget "DNSAppExt" */;
+			buildPhases = (
+				9FED50422730AA51001B3561 /* Sources */,
+				9FED50432730AA51001B3561 /* Frameworks */,
+				9FED50442730AA51001B3561 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DNSAppExt;
+			productName = DNSAppExt;
+			productReference = 9FED50462730AA51001B3561 /* DNSAppExt.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		D39FA15E1A83E0EC00EE869C /* UITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D39FA1671A83E0EC00EE869C /* Build configuration list for PBXNativeTarget "UITests" */;
@@ -6762,6 +6865,7 @@
 				390527551C874D35007E0BB7 /* PBXTargetDependency */,
 				047F9B3124E1FE1F00CD7DF7 /* PBXTargetDependency */,
 				F8324A112649A188007E4BFA /* PBXTargetDependency */,
+				9FED504E2730AA51001B3561 /* PBXTargetDependency */,
 			);
 			name = Client;
 			productName = Client;
@@ -6815,13 +6919,12 @@
 			attributes = {
 				DefaultBuildSystemTypeForWorkspace = Latest;
 				LastSwiftMigration = 0700;
-				LastSwiftUpdateCheck = 1240;
+				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Mozilla;
 				TargetAttributes = {
 					047F9B2624E1FE1C00CD7DF7 = {
 						CreatedOnToolsVersion = 12.0;
-						DevelopmentTeam = 43AQ936H96;
 					};
 					2827315D1ABC9BE600AA1954 = {
 						CreatedOnToolsVersion = 6.2;
@@ -6829,7 +6932,7 @@
 					};
 					282731671ABC9BE700AA1954 = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = 43AQ936H96;
+						DevelopmentTeam = 4MA7A64R76;
 						LastSwiftMigration = 1000;
 						ProvisioningStyle = Manual;
 						TestTargetID = F84B21BD1A090F8100AAB793;
@@ -6840,26 +6943,26 @@
 					};
 					2FA435FA1ABB83B4008031D1 = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = 43AQ936H96;
+						DevelopmentTeam = 4MA7A64R76;
 						LastSwiftMigration = 1000;
 						ProvisioningStyle = Manual;
 					};
 					2FA436041ABB83B4008031D1 = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = 43AQ936H96;
+						DevelopmentTeam = 4MA7A64R76;
 						LastSwiftMigration = 1000;
 						ProvisioningStyle = Manual;
 						TestTargetID = F84B21BD1A090F8100AAB793;
 					};
 					2FCAE2191ABB51F800877008 = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = 43AQ936H96;
+						DevelopmentTeam = 4MA7A64R76;
 						LastSwiftMigration = 1000;
 						ProvisioningStyle = Manual;
 					};
 					2FCAE2231ABB51F800877008 = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = 43AQ936H96;
+						DevelopmentTeam = 4MA7A64R76;
 						LastSwiftMigration = 1000;
 						ProvisioningStyle = Manual;
 						TestTargetID = F84B21BD1A090F8100AAB793;
@@ -6879,51 +6982,55 @@
 					};
 					3B43E3CF1D95C48D00BBA9DB = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 43AQ936H96;
+						DevelopmentTeam = 4MA7A64R76;
 						LastSwiftMigration = 1000;
 						ProvisioningStyle = Manual;
 						TestTargetID = F84B21BD1A090F8100AAB793;
 					};
 					3BFE4B061D342FB800DDF53F = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 43AQ936H96;
+						DevelopmentTeam = 4MA7A64R76;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Manual;
 						TestTargetID = F84B21BD1A090F8100AAB793;
 					};
 					7BEB64401C7345600092C02E = {
-						DevelopmentTeam = 43AQ936H96;
+						DevelopmentTeam = 4MA7A64R76;
 						ProvisioningStyle = Manual;
 						TestTargetID = F84B21BD1A090F8100AAB793;
 					};
 					7BEB644F1C7345990092C02E = {
-						DevelopmentTeam = 43AQ936H96;
+						DevelopmentTeam = 4MA7A64R76;
 						ProvisioningStyle = Manual;
 						TestTargetID = F84B21BD1A090F8100AAB793;
 					};
+					9FED50452730AA51001B3561 = {
+						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
+					};
 					D39FA15E1A83E0EC00EE869C = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = 43AQ936H96;
+						DevelopmentTeam = 4MA7A64R76;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Manual;
 						TestTargetID = F84B21BD1A090F8100AAB793;
 					};
 					E69DB0741E97DEA9008A67E6 = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 43AQ936H96;
+						DevelopmentTeam = 4MA7A64R76;
 						LastSwiftMigration = 1000;
 						ProvisioningStyle = Manual;
 					};
 					E69DB07C1E97DEA9008A67E6 = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 43AQ936H96;
+						DevelopmentTeam = 4MA7A64R76;
 						LastSwiftMigration = 1000;
 						ProvisioningStyle = Manual;
 						TestTargetID = F84B21BD1A090F8100AAB793;
 					};
 					E6F9650B1B2F1CF20034B023 = {
 						CreatedOnToolsVersion = 6.3.2;
-						DevelopmentTeam = 43AQ936H96;
+						DevelopmentTeam = 4MA7A64R76;
 						LastSwiftMigration = 1000;
 						ProvisioningStyle = Manual;
 						TestTargetID = F84B21BD1A090F8100AAB793;
@@ -6954,7 +7061,7 @@
 					};
 					F84B21D21A090F8100AAB793 = {
 						CreatedOnToolsVersion = 6.1;
-						DevelopmentTeam = 43AQ936H96;
+						DevelopmentTeam = 4MA7A64R76;
 						LastSwiftMigration = 1000;
 						ProvisioningStyle = Manual;
 						TestTargetID = F84B21BD1A090F8100AAB793;
@@ -7103,6 +7210,7 @@
 				3BFE4B061D342FB800DDF53F /* XCUITests */,
 				3B43E3CF1D95C48D00BBA9DB /* StoragePerfTests */,
 				E69DB07C1E97DEA9008A67E6 /* SyncTelemetryTests */,
+				9FED50452730AA51001B3561 /* DNSAppExt */,
 			);
 		};
 /* End PBXProject section */
@@ -7230,6 +7338,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7BEB64541C7345990092C02E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FED50442730AA51001B3561 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -7439,7 +7554,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "rm -rf .venv; bash $SRCROOT/sdk_generator.sh -g MozillaAppServices\n";
+			shellScript = "#rm -rf .venv; bash $SRCROOT/sdk_generator.sh -g MozillaAppServices\n";
 		};
 		E4A69F612048AFEA00D9017B /* Copy Carthage Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -7469,7 +7584,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if [ \"${INCLUDE_SETTINGS_BUNDLE}\" = \"YES\" ]\nthen\n    cp -r \"${PROJECT_DIR}/${TARGET_NAME}/Application/Settings.bundle\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\"\nfi";
+			shellScript = "if [ \"${INCLUDE_SETTINGS_BUNDLE}\" = \"YES\" ]\nthen\n    cp -r \"${PROJECT_DIR}/${TARGET_NAME}/Application/Settings.bundle\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\"\nfi\n";
 		};
 		E6EC6EFC1E5354E20067985D /* Copy Carthage Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -7880,6 +7995,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9FED50422730AA51001B3561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FED504A2730AA51001B3561 /* PacketTunnelProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D39FA15B1A83E0EC00EE869C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -8002,6 +8125,7 @@
 				048B4C8324A53F26001B56E8 /* ButtonWithSublabel.swift in Sources */,
 				435D660323D793DF0046EFA2 /* UpdateModel.swift in Sources */,
 				EBF47E701F7979DF00899189 /* TelemetryWrapper.swift in Sources */,
+				9FB7E6DE2717F5300039C9DC /* EncryptedDNSViewController.swift in Sources */,
 				E68F36981EA694000048CF44 /* PanelDataObservers.swift in Sources */,
 				31ADB5DA1E58CEC300E87909 /* ClipboardBarDisplayHandler.swift in Sources */,
 				39EF4363260CEE5E0011E22E /* ExperimentConstants.swift in Sources */,
@@ -8020,6 +8144,7 @@
 				96D95016270238500079D39D /* Throttler.swift in Sources */,
 				EBA3B2CD2268F27500728BDB /* PhotonActionSheetWidgets.swift in Sources */,
 				D3C3696E1CC6B78800348A61 /* LocalRequestHelper.swift in Sources */,
+				9FA1418F2747784900EBF61E /* DNSAuthExclusions.swift in Sources */,
 				E4B423DD1ABA0318007E66C8 /* ReaderModeHandlers.swift in Sources */,
 				D308E4E41A5306F500842685 /* SearchEngines.swift in Sources */,
 				048B4C8924A53F81001B56E8 /* UIButtonExtensions.swift in Sources */,
@@ -8221,7 +8346,7 @@
 				EBB89504219398E500EB91A0 /* TrackingProtectionPageStats.swift in Sources */,
 				D31F95E91AC226CB005C9F3B /* ScreenshotHelper.swift in Sources */,
 				28EADE5D1AFC3A78007FB2FB /* UIImageViewExtensions.swift in Sources */,
-				435D7CC32461EFDD0043ACB9 /* IntroScreenSyncView.swift in Sources */,
+				435D7CC32461EFDD0043ACB9 /* IntroScreenHandshakeOnboardView.swift in Sources */,
 				4334145724C6378B001541F3 /* IntroScreenWelcomeView.swift in Sources */,
 				23B5B499254C955E009AE055 /* TabMoreMenuViewController.swift in Sources */,
 				D3968F251A38FE8500CEFD3B /* TabManager.swift in Sources */,
@@ -8229,6 +8354,7 @@
 				2816F0001B33E05400522243 /* UIConstants.swift in Sources */,
 				EBB89508219398E500EB91A0 /* ContentBlocker+Safelist.swift in Sources */,
 				437A9B6A2681257F00FB41C1 /* InactiveTabViewModel.swift in Sources */,
+				9FED505D2731098F001B3561 /* ImperviousAccessors.swift in Sources */,
 				D0B9483422A03468002F4AA1 /* BookmarkDetailPanel.swift in Sources */,
 				3B6889C51D66950E002AC85E /* UIImageColors.swift in Sources */,
 				392ED7E41D0AEF56009D9B62 /* NewTabAccessors.swift in Sources */,
@@ -8240,6 +8366,7 @@
 				9699F77326F39E5100C5FA47 /* SiteImageHelper.swift in Sources */,
 				048B4C8024A53EEB001B56E8 /* ImageButtonWithLabel.swift in Sources */,
 				D863C8F21F68BFC20058D95F /* GradientProgressBar.swift in Sources */,
+				9FED5027272D4271001B3561 /* IntroScreenSyncView.swift in Sources */,
 				C8445A14264428DC00B83F53 /* LibraryPanelViewState.swift in Sources */,
 				D5D052D92645ABF400759F85 /* ExperimentsSettingsView.swift in Sources */,
 				D59431ED25E9912900F0BA82 /* WidgetIntents.intentdefinition in Sources */,
@@ -8252,6 +8379,7 @@
 				D3BE7B261B054D4400641031 /* main.swift in Sources */,
 				EB8A0A77206ABCE000A9859A /* WebPagesForTesting.swift in Sources */,
 				D3A9949C1A3686BD008AD1AC /* BrowserViewController.swift in Sources */,
+				9FED502B272DF159001B3561 /* IntroScreenEthereumOnboardView.swift in Sources */,
 				E6CF28E71CB43B7900151AB3 /* SensitiveViewController.swift in Sources */,
 				E68E7ADA1CAC207400FDCA76 /* ChangePasscodeViewController.swift in Sources */,
 				43AB6FA225DC53D30016B015 /* GoogleTopSiteHelper.swift in Sources */,
@@ -8261,6 +8389,7 @@
 				8D8251811F4DE67F00780643 /* AdvancedAccountSettingViewController.swift in Sources */,
 				E633E2DA1C21EAF8001FFF6C /* LoginDetailViewController.swift in Sources */,
 				59A68B280D62462B85CF57A4 /* HistoryPanel.swift in Sources */,
+				9FC85610274E12DA00A5FE1D /* HNSHomeHeaderView.swift in Sources */,
 				E65D89181C8647420006EA35 /* AppAuthenticator.swift in Sources */,
 				C400467C1CF4E43E00B08303 /* BackForwardListViewController.swift in Sources */,
 				D5D237782640BBA600326204 /* ExperimentsSettingsViewController.swift in Sources */,
@@ -8278,6 +8407,7 @@
 				437A9B682681256800FB41C1 /* InactiveTabCell.swift in Sources */,
 				439B008B26E6CE2300DFAF14 /* GroupedTabCell.swift in Sources */,
 				E4C358551AF144BA00299F7E /* FSReadingList.m in Sources */,
+				9FED502D272EAE5D001B3561 /* IntroScreenEnableDNSView.swift in Sources */,
 				9609F4CA26B57CE800F81493 /* CalendarExtensions.swift in Sources */,
 				E692E3291C46E62D009D1240 /* AuthenticationSettingsViewController.swift in Sources */,
 				E663D5781BB341C4001EF30E /* ToggleButton.swift in Sources */,
@@ -8480,6 +8610,11 @@
 			isa = PBXTargetDependency;
 			target = F84B21BD1A090F8100AAB793 /* Client */;
 			targetProxy = 7BEB645C1C7346100092C02E /* PBXContainerItemProxy */;
+		};
+		9FED504E2730AA51001B3561 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FED50452730AA51001B3561 /* DNSAppExt */;
+			targetProxy = 9FED504D2730AA51001B3561 /* PBXContainerItemProxy */;
 		};
 		C82043712523DBEB00740B71 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -10690,7 +10825,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		282731771ABC9BE800AA1954 /* Fennec */ = {
+		282731771ABC9BE800AA1954 /* Trill */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -10698,9 +10833,9 @@
 				INFOPLIST_FILE = Sync/Info.plist;
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Sync/Sync-Bridging-Header.h";
 			};
-			name = Fennec;
+			name = Trill;
 		};
-		2827317A1ABC9BE800AA1954 /* Fennec */ = {
+		2827317A1ABC9BE800AA1954 /* Trill */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -10708,17 +10843,17 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/SyncTests/SyncTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = Fennec;
+			name = Trill;
 		};
-		288A2DA01AB8B3260023ABC3 /* Fennec */ = {
+		288A2DA01AB8B3260023ABC3 /* Trill */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 43AQ936H96;
+				DEVELOPMENT_TEAM = 4MA7A64R76;
 				INFOPLIST_FILE = "Shared/Supporting Files/Info.plist";
 				LOCALIZED_STRING_MACRO_NAMES = (
 					MZLocalizedString,
@@ -10729,9 +10864,9 @@
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Shared/Shared-Bridging-Header.h";
 			};
-			name = Fennec;
+			name = Trill;
 		};
-		2FA436151ABB83B4008031D1 /* Fennec */ = {
+		2FA436151ABB83B4008031D1 /* Trill */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
@@ -10752,9 +10887,9 @@
 				);
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Account/Account-Bridging-Header.h";
 			};
-			name = Fennec;
+			name = Trill;
 		};
-		2FA436191ABB83B4008031D1 /* Fennec */ = {
+		2FA436191ABB83B4008031D1 /* Trill */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -10762,9 +10897,9 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Account/Account-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = Fennec;
+			name = Trill;
 		};
-		2FCAE2341ABB51F900877008 /* Fennec */ = {
+		2FCAE2341ABB51F900877008 /* Trill */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
@@ -10774,9 +10909,9 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Storage/Storage-Bridging-Header.h";
 				VALIDATE_WORKSPACE = NO;
 			};
-			name = Fennec;
+			name = Trill;
 		};
-		2FCAE2381ABB51F900877008 /* Fennec */ = {
+		2FCAE2381ABB51F900877008 /* Trill */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -10784,118 +10919,125 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Storage/Storage-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = Fennec;
+			name = Trill;
 		};
-		39409A401C90E68300DAE683 /* Fennec */ = {
+		39409A401C90E68300DAE683 /* Trill */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/Fennec.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/Trill.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 43AQ936H96;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 4MA7A64R76;
 				INFOPLIST_FILE = Extensions/Today/Info.plist;
-				OTHER_SWIFT_FLAGS = "-DMOZ_CHANNEL_FENNEC -DMOZ_TARGET_TODAY";
+				OTHER_SWIFT_FLAGS = "-DMOZ_CHANNEL_Trill -DMOZ_TARGET_TODAY";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MOZ_BUNDLE_ID).$(PRODUCT_NAME)";
 				PRODUCT_NAME = Today;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
 			};
-			name = Fennec;
+			name = Trill;
 		};
-		39409A411C90E68300DAE683 /* Firefox */ = {
+		39409A411C90E68300DAE683 /* Impervious */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/Firefox.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/Impervious.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 43AQ936H96;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 4MA7A64R76;
 				INFOPLIST_FILE = Extensions/Today/Info.plist;
 				OTHER_SWIFT_FLAGS = "-DMOZ_CHANNEL_RELEASE -DMOZ_TARGET_TODAY";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MOZ_BUNDLE_ID).$(PRODUCT_NAME)";
 				PRODUCT_NAME = Today;
-				PROVISIONING_PROFILE_SPECIFIER = "org.mozilla.ios.Firefox.Today 2021-08-12";
+				PROVISIONING_PROFILE_SPECIFIER = "com.impervious.ios.Browser.Today 2021-08-12";
 				SKIP_INSTALL = NO;
 			};
-			name = Firefox;
+			name = Impervious;
 		};
-		39409A421C90E68300DAE683 /* FirefoxBeta */ = {
+		39409A421C90E68300DAE683 /* ImperviousBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/FirefoxBeta.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/ImperviousBeta.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 43AQ936H96;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 4MA7A64R76;
 				INFOPLIST_FILE = Extensions/Today/Info.plist;
 				OTHER_SWIFT_FLAGS = "-DMOZ_CHANNEL_BETA -DMOZ_TARGET_TODAY";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MOZ_BUNDLE_ID).$(PRODUCT_NAME)";
 				PRODUCT_NAME = Today;
-				PROVISIONING_PROFILE_SPECIFIER = "org.mozilla.ios.FirefoxBeta.Today 2021-08-12";
+				PROVISIONING_PROFILE_SPECIFIER = "Impervious Browser Beta - Today";
 				SKIP_INSTALL = NO;
 			};
-			name = FirefoxBeta;
+			name = ImperviousBeta;
 		};
-		3958DAB01ED98DCB0054AA27 /* Fennec_Enterprise */ = {
+		3958DAB01ED98DCB0054AA27 /* Trill_Enterprise */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/FennecEnterprise.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/TrillEnterprise.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Extensions/NotificationService/Info.plist;
-				OTHER_SWIFT_FLAGS = "-DMOZ_CHANNEL_FENNEC -DMOZ_TARGET_NOTIFICATIONSERVICE";
+				OTHER_SWIFT_FLAGS = "-DMOZ_CHANNEL_Trill -DMOZ_TARGET_NOTIFICATIONSERVICE";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MOZ_BUNDLE_ID).$(PRODUCT_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
 			};
-			name = Fennec_Enterprise;
+			name = Trill_Enterprise;
 		};
-		397848E31ED86605004C0C0B /* Fennec */ = {
+		397848E31ED86605004C0C0B /* Trill */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/Fennec.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/Trill.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 43AQ936H96;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 4MA7A64R76;
 				INFOPLIST_FILE = Extensions/NotificationService/Info.plist;
-				OTHER_SWIFT_FLAGS = "-DMOZ_CHANNEL_FENNEC -DMOZ_TARGET_NOTIFICATIONSERVICE";
+				OTHER_SWIFT_FLAGS = "-DMOZ_CHANNEL_Trill -DMOZ_TARGET_NOTIFICATIONSERVICE";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MOZ_BUNDLE_ID).$(PRODUCT_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
 			};
-			name = Fennec;
+			name = Trill;
 		};
-		397848E51ED86605004C0C0B /* Firefox */ = {
+		397848E51ED86605004C0C0B /* Impervious */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/Firefox.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/Impervious.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 43AQ936H96;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 4MA7A64R76;
 				INFOPLIST_FILE = Extensions/NotificationService/Info.plist;
 				OTHER_SWIFT_FLAGS = "-DMOZ_CHANNEL_RELEASE -DMOZ_TARGET_NOTIFICATIONSERVICE";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MOZ_BUNDLE_ID).$(PRODUCT_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "org.mozilla.ios.Firefox.NotificationService 210812";
+				PROVISIONING_PROFILE_SPECIFIER = "com.impervious.ios.Browser.NotificationService 210812";
 				SKIP_INSTALL = NO;
 			};
-			name = Firefox;
+			name = Impervious;
 		};
-		397848E61ED86605004C0C0B /* FirefoxBeta */ = {
+		397848E61ED86605004C0C0B /* ImperviousBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/FirefoxBeta.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/ImperviousBeta.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 43AQ936H96;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 4MA7A64R76;
 				INFOPLIST_FILE = Extensions/NotificationService/Info.plist;
 				OTHER_SWIFT_FLAGS = "-DMOZ_CHANNEL_BETA -DMOZ_TARGET_NOTIFICATIONSERVICE";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MOZ_BUNDLE_ID).$(PRODUCT_NAME)2";
 				PRODUCT_NAME = NotificationService;
-				PROVISIONING_PROFILE_SPECIFIER = "org.mozilla.ios.FirefoxBeta.NotificationService2 1";
+				PROVISIONING_PROFILE_SPECIFIER = "Impervious Browser Beta - Notification Service";
 				SKIP_INSTALL = NO;
 			};
-			name = FirefoxBeta;
+			name = ImperviousBeta;
 		};
-		3B43E3D71D95C48E00BBA9DB /* Fennec */ = {
+		3B43E3D71D95C48E00BBA9DB /* Trill */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -10903,7 +11045,7 @@
 				INFOPLIST_FILE = StoragePerfTests/Info.plist;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = Fennec;
+			name = Trill;
 		};
 		3B43E3D81D95C48E00BBA9DB /* Firefox */ = {
 			isa = XCBuildConfiguration;
@@ -10914,72 +11056,72 @@
 			};
 			name = Firefox;
 		};
-		3B43E3D91D95C48E00BBA9DB /* FirefoxBeta */ = {
+		3B43E3D91D95C48E00BBA9DB /* ImperviousBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
 				INFOPLIST_FILE = StoragePerfTests/Info.plist;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = FirefoxBeta;
+			name = ImperviousBeta;
 		};
-		3BFE4B0E1D342FB900DDF53F /* Fennec */ = {
+		3BFE4B0E1D342FB900DDF53F /* Trill */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				DEVELOPMENT_TEAM = 43AQ936H96;
+				DEVELOPMENT_TEAM = 4MA7A64R76;
 				INFOPLIST_FILE = XCUITests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "";
-				PROVISIONING_PROFILE_SPECIFIER = "org.mozilla.ios.XCUITests 2021-08-12";
+				PROVISIONING_PROFILE_SPECIFIER = "com.impervious.ios.XCUITests 2021-08-12";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/XCUITests/XCUITests-Bridging-Header.h";
 				TEST_TARGET_NAME = Client;
 			};
-			name = Fennec;
+			name = Trill;
 		};
 		3BFE4B0F1D342FB900DDF53F /* Firefox */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
-				DEVELOPMENT_TEAM = 43AQ936H96;
+				DEVELOPMENT_TEAM = 4MA7A64R76;
 				INFOPLIST_FILE = XCUITests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "";
-				PROVISIONING_PROFILE_SPECIFIER = "org.mozilla.ios.XCUITests 2021-08-12";
+				PROVISIONING_PROFILE_SPECIFIER = "com.impervious.ios.XCUITests 2021-08-12";
 				TEST_TARGET_NAME = Client;
 			};
 			name = Firefox;
 		};
-		3BFE4B101D342FB900DDF53F /* FirefoxBeta */ = {
+		3BFE4B101D342FB900DDF53F /* ImperviousBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
-				DEVELOPMENT_TEAM = 43AQ936H96;
+				DEVELOPMENT_TEAM = 4MA7A64R76;
 				INFOPLIST_FILE = XCUITests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "";
-				PROVISIONING_PROFILE_SPECIFIER = "org.mozilla.ios.XCUITests 2021-08-12";
+				PROVISIONING_PROFILE_SPECIFIER = "com.impervious.ios.XCUITests 2021-08-12";
 				TEST_TARGET_NAME = Client;
 			};
-			name = FirefoxBeta;
+			name = ImperviousBeta;
 		};
-		4354D3E124EEEEC5001184F6 /* Fennec */ = {
+		4354D3E124EEEEC5001184F6 /* Trill */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = Extensions/Entitlements/Fennec.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Extensions/Entitlements/Trill.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 43AQ936H96;
+				DEVELOPMENT_TEAM = 4MA7A64R76;
 				INFOPLIST_FILE = WidgetKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MOZ_BUNDLE_ID).WidgetKit";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
 			};
-			name = Fennec;
+			name = Trill;
 		};
-		4354D3E224EEEEC5001184F6 /* Fennec_Enterprise */ = {
+		4354D3E224EEEEC5001184F6 /* Trill_Enterprise */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = Extensions/Entitlements/FennecEnterprise.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Extensions/Entitlements/TrillEnterprise.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
@@ -10989,39 +11131,377 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
 			};
-			name = Fennec_Enterprise;
+			name = Trill_Enterprise;
 		};
-		4354D3E324EEEEC5001184F6 /* Firefox */ = {
+		4354D3E324EEEEC5001184F6 /* Impervious */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = Extensions/Entitlements/Firefox.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Extensions/Entitlements/Impervious.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 43AQ936H96;
+				DEVELOPMENT_TEAM = 4MA7A64R76;
 				INFOPLIST_FILE = WidgetKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MOZ_BUNDLE_ID).WidgetKit";
-				PROVISIONING_PROFILE_SPECIFIER = "org.mozilla.ios.Firefox.WidgetKit 2021-08-12";
+				PROVISIONING_PROFILE_SPECIFIER = "com.impervious.ios.Browser.WidgetKit 2021-08-12";
 				SKIP_INSTALL = NO;
 			};
-			name = Firefox;
+			name = Impervious;
 		};
-		4354D3E424EEEEC5001184F6 /* FirefoxBeta */ = {
+		4354D3E424EEEEC5001184F6 /* ImperviousBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = Extensions/Entitlements/FirefoxBeta.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_ENTITLEMENTS = Extensions/Entitlements/ImperviousBeta.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 43AQ936H96;
+				DEVELOPMENT_TEAM = 4MA7A64R76;
 				INFOPLIST_FILE = WidgetKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MOZ_BUNDLE_ID).WidgetKit";
-				PROVISIONING_PROFILE_SPECIFIER = "org.mozilla.ios.FirefoxBeta.WidgetKit 2021-08-12";
+				PROVISIONING_PROFILE_SPECIFIER = "Impervious Browser Beta - WidgetKit";
 				SKIP_INSTALL = NO;
 			};
-			name = FirefoxBeta;
+			name = ImperviousBeta;
 		};
-		D39FA1681A83E0EC00EE869C /* Fennec */ = {
+		9FB7E6DB2717E52F0039C9DC /* Impervious */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = XCUITests;
+			};
+			name = Impervious;
+		};
+		9FB7E6DC2717E52F0039C9DC /* Impervious */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = StoragePerfTests;
+			};
+			name = Impervious;
+		};
+		9FED50512730AA52001B3561 /* Trill */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = DNSAppExt/DNSAppExt.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 4MA7A64R76;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Frameworks/**";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DNSAppExt/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DNSAppExt;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2021 Impervious. All rights reserved.";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.impervious.ios.Trill.DNSAppExt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Trill;
+		};
+		9FED50522730AA52001B3561 /* Trill_Enterprise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = DNSAppExt/DNSAppExt.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 4MA7A64R76;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Frameworks/**";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DNSAppExt/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DNSAppExt;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2021 Impervious. All rights reserved.";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.impervious.ios.Trill.DNSAppExt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Trill_Enterprise;
+		};
+		9FED50532730AA52001B3561 /* Impervious */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = DNSAppExt/DNSAppExt.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 4MA7A64R76;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Frameworks/**";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DNSAppExt/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DNSAppExt;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2021 Impervious. All rights reserved.";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.impervious.ios.BrowserBeta.DNSAppExt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Impervious Browser Beta - DNS Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Impervious;
+		};
+		9FED50542730AA52001B3561 /* ImperviousBeta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = DNSAppExt/DNSAppExtImperviousBeta.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 4MA7A64R76;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Frameworks/**";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DNSAppExt/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DNSAppExt;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2021 Impervious. All rights reserved.";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.impervious.ios.BrowserBeta.DNSAppExt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Impervious Browser Beta - DNS Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = ImperviousBeta;
+		};
+		D39FA1681A83E0EC00EE869C /* Trill */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -11030,7 +11510,7 @@
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 				VALIDATE_WORKSPACE = YES;
 			};
-			name = Fennec;
+			name = Trill;
 		};
 		D39FA1691A83E0EC00EE869C /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -11041,38 +11521,43 @@
 			};
 			name = Release;
 		};
-		E448FC9D1AEE7A6000869B6C /* Firefox */ = {
+		E448FC9D1AEE7A6000869B6C /* Impervious */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E60961891B62B8C800DD640F /* Firefox.xcconfig */;
+			baseConfigurationReference = E60961891B62B8C800DD640F /* Impervious.xcconfig */;
 			buildSettings = {
 			};
-			name = Firefox;
+			name = Impervious;
 		};
-		E448FC9E1AEE7A6000869B6C /* Firefox */ = {
+		E448FC9E1AEE7A6000869B6C /* Impervious */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 43AQ936H96;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 4MA7A64R76;
 				EXCLUDED_SOURCE_FILE_NAMES = CredentialProvider.appex;
 				INFOPLIST_FILE = Client/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MOZ_BUNDLE_ID)";
 				PRODUCT_MODULE_NAME = Client;
 				PRODUCT_NAME = Client;
-				PROVISIONING_PROFILE_SPECIFIER = "org.mozilla.ios.Firefox 2021-08-12";
+				PROVISIONING_PROFILE_SPECIFIER = "com.impervious.ios.Browser 2021-08-12";
 				SKIP_INSTALL = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Client/Client-Bridging-Header.h";
 				VALIDATE_WORKSPACE = YES;
 			};
-			name = Firefox;
+			name = Impervious;
 		};
-		E448FC9F1AEE7A6000869B6C /* Firefox */ = {
+		E448FC9F1AEE7A6000869B6C /* Impervious */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -11080,40 +11565,41 @@
 				PRODUCT_NAME = ClientTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = Firefox;
+			name = Impervious;
 		};
-		E448FCA01AEE7A6000869B6C /* Firefox */ = {
+		E448FCA01AEE7A6000869B6C /* Impervious */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/Firefox.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/Impervious.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 43AQ936H96;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 4MA7A64R76;
 				INFOPLIST_FILE = Extensions/ShareTo/Info.plist;
 				OTHER_SWIFT_FLAGS = "-DMOZ_CHANNEL_RELEASE -DMOZ_TARGET_SHARETO";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MOZ_BUNDLE_ID).$(PRODUCT_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "org.mozilla.ios.Firefox.ShareTo 2021-08-12";
+				PROVISIONING_PROFILE_SPECIFIER = "com.impervious.ios.Browser.ShareTo 2021-08-12";
 				SKIP_INSTALL = NO;
 			};
-			name = Firefox;
+			name = Impervious;
 		};
-		E448FCA21AEE7A6000869B6C /* Firefox */ = {
+		E448FCA21AEE7A6000869B6C /* Impervious */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
 				VALIDATE_WORKSPACE = YES;
 			};
-			name = Firefox;
+			name = Impervious;
 		};
-		E448FCA31AEE7A6000869B6C /* Firefox */ = {
+		E448FCA31AEE7A6000869B6C /* Impervious */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 43AQ936H96;
+				DEVELOPMENT_TEAM = 4MA7A64R76;
 				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = "Shared/Supporting Files/Info.plist";
 				LOCALIZED_STRING_MACRO_NAMES = (
@@ -11125,9 +11611,9 @@
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Shared/Shared-Bridging-Header.h";
 			};
-			name = Firefox;
+			name = Impervious;
 		};
-		E448FCA41AEE7A6000869B6C /* Firefox */ = {
+		E448FCA41AEE7A6000869B6C /* Impervious */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
@@ -11135,9 +11621,9 @@
 				INFOPLIST_FILE = Storage/Info.plist;
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Storage/Storage-Bridging-Header.h";
 			};
-			name = Firefox;
+			name = Impervious;
 		};
-		E448FCA51AEE7A6000869B6C /* Firefox */ = {
+		E448FCA51AEE7A6000869B6C /* Impervious */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -11146,9 +11632,9 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Storage/Storage-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = Firefox;
+			name = Impervious;
 		};
-		E448FCA61AEE7A6000869B6C /* Firefox */ = {
+		E448FCA61AEE7A6000869B6C /* Impervious */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
@@ -11169,9 +11655,9 @@
 				);
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Account/Account-Bridging-Header.h";
 			};
-			name = Firefox;
+			name = Impervious;
 		};
-		E448FCA71AEE7A6000869B6C /* Firefox */ = {
+		E448FCA71AEE7A6000869B6C /* Impervious */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -11180,20 +11666,22 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Account/Account-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = Firefox;
+			name = Impervious;
 		};
-		E448FCA81AEE7A6000869B6C /* Firefox */ = {
+		E448FCA81AEE7A6000869B6C /* Impervious */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Distribution";
 				DEFINES_MODULE = YES;
 				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = Sync/Info.plist;
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Sync/Sync-Bridging-Header.h";
 			};
-			name = Firefox;
+			name = Impervious;
 		};
-		E448FCA91AEE7A6000869B6C /* Firefox */ = {
+		E448FCA91AEE7A6000869B6C /* Impervious */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -11201,9 +11689,9 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/SyncTests/SyncTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = Firefox;
+			name = Impervious;
 		};
-		E601384C1C89EAE600DF9756 /* Fennec */ = {
+		E601384C1C89EAE600DF9756 /* Trill */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -11211,9 +11699,9 @@
 				TEST_TARGET_NAME = Client;
 				USES_XCTRUNNER = YES;
 			};
-			name = Fennec;
+			name = Trill;
 		};
-		E601384D1C89EAE600DF9756 /* Firefox */ = {
+		E601384D1C89EAE600DF9756 /* Impervious */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -11221,9 +11709,9 @@
 				TEST_TARGET_NAME = Client;
 				USES_XCTRUNNER = YES;
 			};
-			name = Firefox;
+			name = Impervious;
 		};
-		E601384E1C89EAE600DF9756 /* FirefoxBeta */ = {
+		E601384E1C89EAE600DF9756 /* ImperviousBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -11231,116 +11719,121 @@
 				TEST_TARGET_NAME = Client;
 				USES_XCTRUNNER = YES;
 			};
-			name = FirefoxBeta;
+			name = ImperviousBeta;
 		};
-		E60138511C89EAE600DF9756 /* Fennec */ = {
+		E60138511C89EAE600DF9756 /* Trill */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
 				PRODUCT_NAME = MarketingUITests;
 			};
-			name = Fennec;
+			name = Trill;
 		};
-		E60138521C89EAE600DF9756 /* Firefox */ = {
+		E60138521C89EAE600DF9756 /* Impervious */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
 				PRODUCT_NAME = MarketingUITests;
 			};
-			name = Firefox;
+			name = Impervious;
 		};
-		E60138531C89EAE600DF9756 /* FirefoxBeta */ = {
+		E60138531C89EAE600DF9756 /* ImperviousBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
 				PRODUCT_NAME = MarketingUITests;
 			};
-			name = FirefoxBeta;
+			name = ImperviousBeta;
 		};
-		E69DB08D1E97DEAA008A67E6 /* Fennec */ = {
+		E69DB08D1E97DEAA008A67E6 /* Trill */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = SyncTelemetry/Info.plist;
 			};
-			name = Fennec;
+			name = Trill;
 		};
-		E69DB08E1E97DEAA008A67E6 /* Fennec_Enterprise */ = {
+		E69DB08E1E97DEAA008A67E6 /* Trill_Enterprise */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = SyncTelemetry/Info.plist;
 			};
-			name = Fennec_Enterprise;
+			name = Trill_Enterprise;
 		};
-		E69DB08F1E97DEAA008A67E6 /* Firefox */ = {
+		E69DB08F1E97DEAA008A67E6 /* Impervious */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = SyncTelemetry/Info.plist;
 			};
-			name = Firefox;
+			name = Impervious;
 		};
-		E69DB0901E97DEAA008A67E6 /* FirefoxBeta */ = {
+		E69DB0901E97DEAA008A67E6 /* ImperviousBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = SyncTelemetry/Info.plist;
 			};
-			name = FirefoxBeta;
+			name = ImperviousBeta;
 		};
-		E69DB0931E97DEAA008A67E6 /* Fennec */ = {
+		E69DB0931E97DEAA008A67E6 /* Trill */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
 				INFOPLIST_FILE = SyncTelemetryTests/Info.plist;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = Fennec;
+			name = Trill;
 		};
-		E69DB0941E97DEAA008A67E6 /* Fennec_Enterprise */ = {
+		E69DB0941E97DEAA008A67E6 /* Trill_Enterprise */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
 				INFOPLIST_FILE = SyncTelemetryTests/Info.plist;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = Fennec_Enterprise;
+			name = Trill_Enterprise;
 		};
-		E69DB0951E97DEAA008A67E6 /* Firefox */ = {
+		E69DB0951E97DEAA008A67E6 /* Impervious */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
 				INFOPLIST_FILE = SyncTelemetryTests/Info.plist;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = Firefox;
+			name = Impervious;
 		};
-		E69DB0961E97DEAA008A67E6 /* FirefoxBeta */ = {
+		E69DB0961E97DEAA008A67E6 /* ImperviousBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
 				INFOPLIST_FILE = SyncTelemetryTests/Info.plist;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = FirefoxBeta;
+			name = ImperviousBeta;
 		};
-		E6DCC2051DCBB6F100CEC4B7 /* Fennec_Enterprise */ = {
+		E6DCC2051DCBB6F100CEC4B7 /* Trill_Enterprise */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6DCC1ED1DCBB6AA00CEC4B7 /* Fennec.enterprise.xcconfig */;
+			baseConfigurationReference = E6DCC1ED1DCBB6AA00CEC4B7 /* Trill.enterprise.xcconfig */;
 			buildSettings = {
 			};
-			name = Fennec_Enterprise;
+			name = Trill_Enterprise;
 		};
-		E6DCC2061DCBB6F100CEC4B7 /* Fennec_Enterprise */ = {
+		E6DCC2061DCBB6F100CEC4B7 /* Trill_Enterprise */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Developer;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = "";
 				EXCLUDED_SOURCE_FILE_NAMES = CredentialProvider.appex;
 				INFOPLIST_FILE = Client/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MOZ_BUNDLE_ID)";
 				PRODUCT_MODULE_NAME = Client;
@@ -11351,48 +11844,50 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Client/Client-Bridging-Header.h";
 				VALIDATE_WORKSPACE = YES;
 			};
-			name = Fennec_Enterprise;
+			name = Trill_Enterprise;
 		};
-		E6DCC2081DCBB6F100CEC4B7 /* Fennec_Enterprise */ = {
+		E6DCC2081DCBB6F100CEC4B7 /* Trill_Enterprise */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/FennecEnterprise.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/TrillEnterprise.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Extensions/ShareTo/Info.plist;
-				OTHER_SWIFT_FLAGS = "-DMOZ_CHANNEL_FENNEC -DMOZ_TARGET_SHARETO";
+				OTHER_SWIFT_FLAGS = "-DMOZ_CHANNEL_Trill -DMOZ_TARGET_SHARETO";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MOZ_BUNDLE_ID).$(PRODUCT_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
 			};
-			name = Fennec_Enterprise;
+			name = Trill_Enterprise;
 		};
-		E6DCC2091DCBB6F100CEC4B7 /* Fennec_Enterprise */ = {
+		E6DCC2091DCBB6F100CEC4B7 /* Trill_Enterprise */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/FennecEnterprise.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/TrillEnterprise.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Extensions/Today/Info.plist;
-				OTHER_SWIFT_FLAGS = "-DMOZ_CHANNEL_FENNEC -DMOZ_TARGET_TODAY";
+				OTHER_SWIFT_FLAGS = "-DMOZ_CHANNEL_Trill -DMOZ_TARGET_TODAY";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MOZ_BUNDLE_ID).$(PRODUCT_NAME)";
 				PRODUCT_NAME = Today;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
 			};
-			name = Fennec_Enterprise;
+			name = Trill_Enterprise;
 		};
-		E6DCC20B1DCBB6F100CEC4B7 /* Fennec_Enterprise */ = {
+		E6DCC20B1DCBB6F100CEC4B7 /* Trill_Enterprise */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 43AQ936H96;
+				DEVELOPMENT_TEAM = 4MA7A64R76;
 				INFOPLIST_FILE = "Shared/Supporting Files/Info.plist";
 				LOCALIZED_STRING_MACRO_NAMES = (
 					MZLocalizedString,
@@ -11403,18 +11898,18 @@
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Shared/Shared-Bridging-Header.h";
 			};
-			name = Fennec_Enterprise;
+			name = Trill_Enterprise;
 		};
-		E6DCC20C1DCBB6F100CEC4B7 /* Fennec_Enterprise */ = {
+		E6DCC20C1DCBB6F100CEC4B7 /* Trill_Enterprise */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = Storage/Info.plist;
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Storage/Storage-Bridging-Header.h";
 			};
-			name = Fennec_Enterprise;
+			name = Trill_Enterprise;
 		};
-		E6DCC20D1DCBB6F100CEC4B7 /* Fennec_Enterprise */ = {
+		E6DCC20D1DCBB6F100CEC4B7 /* Trill_Enterprise */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
@@ -11435,9 +11930,9 @@
 				);
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Account/Account-Bridging-Header.h";
 			};
-			name = Fennec_Enterprise;
+			name = Trill_Enterprise;
 		};
-		E6DCC20E1DCBB6F100CEC4B7 /* Fennec_Enterprise */ = {
+		E6DCC20E1DCBB6F100CEC4B7 /* Trill_Enterprise */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -11445,9 +11940,9 @@
 				INFOPLIST_FILE = Sync/Info.plist;
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Sync/Sync-Bridging-Header.h";
 			};
-			name = Fennec_Enterprise;
+			name = Trill_Enterprise;
 		};
-		E6DCC2101DCBB6F100CEC4B7 /* Fennec_Enterprise */ = {
+		E6DCC2101DCBB6F100CEC4B7 /* Trill_Enterprise */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -11455,9 +11950,9 @@
 				PRODUCT_NAME = ClientTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = Fennec_Enterprise;
+			name = Trill_Enterprise;
 		};
-		E6DCC2111DCBB6F100CEC4B7 /* Fennec_Enterprise */ = {
+		E6DCC2111DCBB6F100CEC4B7 /* Trill_Enterprise */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -11466,9 +11961,9 @@
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 				VALIDATE_WORKSPACE = YES;
 			};
-			name = Fennec_Enterprise;
+			name = Trill_Enterprise;
 		};
-		E6DCC2131DCBB6F100CEC4B7 /* Fennec_Enterprise */ = {
+		E6DCC2131DCBB6F100CEC4B7 /* Trill_Enterprise */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -11476,9 +11971,9 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Storage/Storage-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = Fennec_Enterprise;
+			name = Trill_Enterprise;
 		};
-		E6DCC2141DCBB6F100CEC4B7 /* Fennec_Enterprise */ = {
+		E6DCC2141DCBB6F100CEC4B7 /* Trill_Enterprise */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -11486,9 +11981,9 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Account/Account-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = Fennec_Enterprise;
+			name = Trill_Enterprise;
 		};
-		E6DCC2151DCBB6F100CEC4B7 /* Fennec_Enterprise */ = {
+		E6DCC2151DCBB6F100CEC4B7 /* Trill_Enterprise */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -11496,9 +11991,9 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/SyncTests/SyncTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = Fennec_Enterprise;
+			name = Trill_Enterprise;
 		};
-		E6DCC2171DCBB6F100CEC4B7 /* Fennec_Enterprise */ = {
+		E6DCC2171DCBB6F100CEC4B7 /* Trill_Enterprise */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -11506,9 +12001,9 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Shared/Shared-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = Fennec_Enterprise;
+			name = Trill_Enterprise;
 		};
-		E6DCC2181DCBB6F100CEC4B7 /* Fennec_Enterprise */ = {
+		E6DCC2181DCBB6F100CEC4B7 /* Trill_Enterprise */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -11516,40 +12011,40 @@
 				TEST_TARGET_NAME = Client;
 				USES_XCTRUNNER = YES;
 			};
-			name = Fennec_Enterprise;
+			name = Trill_Enterprise;
 		};
-		E6DCC2191DCBB6F100CEC4B7 /* Fennec_Enterprise */ = {
+		E6DCC2191DCBB6F100CEC4B7 /* Trill_Enterprise */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
 				PRODUCT_NAME = MarketingUITests;
 			};
-			name = Fennec_Enterprise;
+			name = Trill_Enterprise;
 		};
-		E6DCC21A1DCBB6F100CEC4B7 /* Fennec_Enterprise */ = {
+		E6DCC21A1DCBB6F100CEC4B7 /* Trill_Enterprise */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				DEVELOPMENT_TEAM = 43AQ936H96;
+				DEVELOPMENT_TEAM = 4MA7A64R76;
 				INFOPLIST_FILE = XCUITests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "";
-				PROVISIONING_PROFILE_SPECIFIER = "org.mozilla.ios.XCUITests 2021-08-12";
+				PROVISIONING_PROFILE_SPECIFIER = "com.impervious.ios.XCUITests 2021-08-12";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/XCUITests/XCUITests-Bridging-Header.h";
 				TEST_TARGET_NAME = Client;
 			};
-			name = Fennec_Enterprise;
+			name = Trill_Enterprise;
 		};
-		E6DCC21B1DCBB6F100CEC4B7 /* Fennec_Enterprise */ = {
+		E6DCC21B1DCBB6F100CEC4B7 /* Trill_Enterprise */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
 				INFOPLIST_FILE = StoragePerfTests/Info.plist;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = Fennec_Enterprise;
+			name = Trill_Enterprise;
 		};
-		E6F965151B2F1CF20034B023 /* Fennec */ = {
+		E6F965151B2F1CF20034B023 /* Trill */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -11557,9 +12052,9 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Shared/Shared-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = Fennec;
+			name = Trill;
 		};
-		E6F965171B2F1CF20034B023 /* Firefox */ = {
+		E6F965171B2F1CF20034B023 /* Impervious */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -11567,39 +12062,45 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Shared/Shared-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = Firefox;
+			name = Impervious;
 		};
-		E6FCC4291C40562400DF6113 /* FirefoxBeta */ = {
+		E6FCC4291C40562400DF6113 /* ImperviousBeta */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6FCC43C1C40565200DF6113 /* FirefoxBeta.xcconfig */;
+			baseConfigurationReference = E6FCC43C1C40565200DF6113 /* ImperviousBeta.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Distribution";
 			};
-			name = FirefoxBeta;
+			name = ImperviousBeta;
 		};
-		E6FCC42A1C40562400DF6113 /* FirefoxBeta */ = {
+		E6FCC42A1C40562400DF6113 /* ImperviousBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Beta;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 43AQ936H96;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 4MA7A64R76;
 				INFOPLIST_FILE = Client/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MOZ_BUNDLE_ID)";
 				PRODUCT_MODULE_NAME = Client;
 				PRODUCT_NAME = Client;
-				PROVISIONING_PROFILE_SPECIFIER = "org.mozilla.ios.FirefoxBeta 2021-08-12";
+				PROVISIONING_PROFILE_SPECIFIER = "Impervious Browser Beta";
 				SKIP_INSTALL = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Client/Client-Bridging-Header.h";
 				VALIDATE_WORKSPACE = YES;
 			};
-			name = FirefoxBeta;
+			name = ImperviousBeta;
 		};
-		E6FCC42B1C40562400DF6113 /* FirefoxBeta */ = {
+		E6FCC42B1C40562400DF6113 /* ImperviousBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -11607,40 +12108,41 @@
 				PRODUCT_NAME = ClientTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = FirefoxBeta;
+			name = ImperviousBeta;
 		};
-		E6FCC42D1C40562400DF6113 /* FirefoxBeta */ = {
+		E6FCC42D1C40562400DF6113 /* ImperviousBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/FirefoxBeta.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/ImperviousBeta.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 43AQ936H96;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 4MA7A64R76;
 				INFOPLIST_FILE = Extensions/ShareTo/Info.plist;
 				OTHER_SWIFT_FLAGS = "-DMOZ_CHANNEL_BETA -DMOZ_TARGET_SHARETO";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MOZ_BUNDLE_ID).$(PRODUCT_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "org.mozilla.ios.FirefoxBeta.ShareTo 2021-08-12";
+				PROVISIONING_PROFILE_SPECIFIER = "Impervious Browser Beta - ShareTo";
 				SKIP_INSTALL = NO;
 			};
-			name = FirefoxBeta;
+			name = ImperviousBeta;
 		};
-		E6FCC42F1C40562400DF6113 /* FirefoxBeta */ = {
+		E6FCC42F1C40562400DF6113 /* ImperviousBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
 				VALIDATE_WORKSPACE = YES;
 			};
-			name = FirefoxBeta;
+			name = ImperviousBeta;
 		};
-		E6FCC4311C40562400DF6113 /* FirefoxBeta */ = {
+		E6FCC4311C40562400DF6113 /* ImperviousBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 43AQ936H96;
+				DEVELOPMENT_TEAM = 4MA7A64R76;
 				INFOPLIST_FILE = "Shared/Supporting Files/Info.plist";
 				LOCALIZED_STRING_MACRO_NAMES = (
 					MZLocalizedString,
@@ -11651,18 +12153,18 @@
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Shared/Shared-Bridging-Header.h";
 			};
-			name = FirefoxBeta;
+			name = ImperviousBeta;
 		};
-		E6FCC4321C40562400DF6113 /* FirefoxBeta */ = {
+		E6FCC4321C40562400DF6113 /* ImperviousBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = Storage/Info.plist;
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Storage/Storage-Bridging-Header.h";
 			};
-			name = FirefoxBeta;
+			name = ImperviousBeta;
 		};
-		E6FCC4331C40562400DF6113 /* FirefoxBeta */ = {
+		E6FCC4331C40562400DF6113 /* ImperviousBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -11671,9 +12173,9 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Storage/Storage-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = FirefoxBeta;
+			name = ImperviousBeta;
 		};
-		E6FCC4341C40562400DF6113 /* FirefoxBeta */ = {
+		E6FCC4341C40562400DF6113 /* ImperviousBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
@@ -11695,9 +12197,9 @@
 				);
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Account/Account-Bridging-Header.h";
 			};
-			name = FirefoxBeta;
+			name = ImperviousBeta;
 		};
-		E6FCC4351C40562400DF6113 /* FirefoxBeta */ = {
+		E6FCC4351C40562400DF6113 /* ImperviousBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -11706,26 +12208,26 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Account/Account-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = FirefoxBeta;
+			name = ImperviousBeta;
 		};
-		E6FCC4361C40562400DF6113 /* FirefoxBeta */ = {
+		E6FCC4361C40562400DF6113 /* ImperviousBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 43AQ936H96;
+				DEVELOPMENT_TEAM = 4MA7A64R76;
 				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = Sync/Info.plist;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Sync/Sync-Bridging-Header.h";
 			};
-			name = FirefoxBeta;
+			name = ImperviousBeta;
 		};
-		E6FCC4371C40562400DF6113 /* FirefoxBeta */ = {
+		E6FCC4371C40562400DF6113 /* ImperviousBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -11733,9 +12235,9 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/SyncTests/SyncTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = FirefoxBeta;
+			name = ImperviousBeta;
 		};
-		E6FCC43A1C40562400DF6113 /* FirefoxBeta */ = {
+		E6FCC43A1C40562400DF6113 /* ImperviousBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -11743,9 +12245,9 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Shared/Shared-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = FirefoxBeta;
+			name = ImperviousBeta;
 		};
-		F8324A132649A189007E4BFA /* Fennec */ = {
+		F8324A132649A189007E4BFA /* Trill */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -11778,12 +12280,12 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_ENTITLEMENTS = CredentialProvider/CredentialProviderFennec.entitlements;
+				CODE_SIGN_ENTITLEMENTS = CredentialProvider/CredentialProviderTrill.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 43AQ936H96;
+				DEVELOPMENT_TEAM = 4MA7A64R76;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -11810,7 +12312,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.mozilla.ios.Fennec.CredentialProvider;
+				PRODUCT_BUNDLE_IDENTIFIER = com.impervious.ios.Trill.CredentialProvider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -11820,9 +12322,9 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Fennec;
+			name = Trill;
 		};
-		F8324A142649A189007E4BFA /* Fennec_Enterprise */ = {
+		F8324A142649A189007E4BFA /* Trill_Enterprise */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -11879,7 +12381,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.mozilla.ios.FennecEnterprise.CredentialProvider;
+				PRODUCT_BUNDLE_IDENTIFIER = com.impervious.ios.TrillEnterprise.CredentialProvider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -11890,9 +12392,9 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Fennec_Enterprise;
+			name = Trill_Enterprise;
 		};
-		F8324A152649A189007E4BFA /* Firefox */ = {
+		F8324A152649A189007E4BFA /* Impervious */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -11925,12 +12427,12 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_ENTITLEMENTS = CredentialProvider/CredentialProviderFirefox.entitlements;
+				CODE_SIGN_ENTITLEMENTS = CredentialProvider/CredentialProviderImpervious.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 43AQ936H96;
+				DEVELOPMENT_TEAM = 4MA7A64R76;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -11950,9 +12452,9 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.mozilla.ios.Firefox.CredentialProvider;
+				PRODUCT_BUNDLE_IDENTIFIER = com.impervious.ios.Browser.CredentialProvider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = org.mozilla.ios.Firefox.CredentialProvider;
+				PROVISIONING_PROFILE_SPECIFIER = com.impervious.ios.Browser.CredentialProvider;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -11961,9 +12463,9 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Firefox;
+			name = Impervious;
 		};
-		F8324A162649A189007E4BFA /* FirefoxBeta */ = {
+		F8324A162649A189007E4BFA /* ImperviousBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -11996,12 +12498,12 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_ENTITLEMENTS = CredentialProvider/CredentialProviderFirefoxBeta.entitlements;
+				CODE_SIGN_ENTITLEMENTS = CredentialProvider/CredentialProviderImperviousBeta.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 43AQ936H96;
+				DEVELOPMENT_TEAM = 4MA7A64R76;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -12021,9 +12523,9 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.mozilla.ios.FirefoxBeta.CredentialProvider;
+				PRODUCT_BUNDLE_IDENTIFIER = com.impervious.ios.BrowserBeta.CredentialProvider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = org.mozilla.ios.FirefoxBeta.CredentialProvider;
+				PROVISIONING_PROFILE_SPECIFIER = "Impervious Browser Beta - Credential Provider";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -12032,27 +12534,34 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = FirefoxBeta;
+			name = ImperviousBeta;
 		};
-		F84B21DB1A090F8100AAB793 /* Fennec */ = {
+		F84B21DB1A090F8100AAB793 /* Trill */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E60961861B62B8A700DD640F /* Fennec.xcconfig */;
+			baseConfigurationReference = E60961861B62B8A700DD640F /* Trill.xcconfig */;
 			buildSettings = {
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "";
 			};
-			name = Fennec;
+			name = Trill;
 		};
-		F84B21DE1A090F8100AAB793 /* Fennec */ = {
+		F84B21DE1A090F8100AAB793 /* Trill */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Developer;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 43AQ936H96;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 4MA7A64R76;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "${PROJECT_DIR}/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MOZ_BUNDLE_ID)";
 				PRODUCT_MODULE_NAME = Client;
 				PRODUCT_NAME = Client;
@@ -12062,9 +12571,9 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Client/Client-Bridging-Header.h";
 				VALIDATE_WORKSPACE = YES;
 			};
-			name = Fennec;
+			name = Trill;
 		};
-		F84B21E11A090F8100AAB793 /* Fennec */ = {
+		F84B21E11A090F8100AAB793 /* Trill */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -12072,22 +12581,23 @@
 				PRODUCT_NAME = ClientTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = Fennec;
+			name = Trill;
 		};
-		F84B22561A0920C600AAB793 /* Fennec */ = {
+		F84B22561A0920C600AAB793 /* Trill */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/Fennec.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/Trill.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 43AQ936H96;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 4MA7A64R76;
 				INFOPLIST_FILE = Extensions/ShareTo/Info.plist;
-				OTHER_SWIFT_FLAGS = "-DMOZ_CHANNEL_FENNEC -DMOZ_TARGET_SHARETO";
+				OTHER_SWIFT_FLAGS = "-DMOZ_CHANNEL_Trill -DMOZ_TARGET_SHARETO";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MOZ_BUNDLE_ID).$(PRODUCT_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
 			};
-			name = Fennec;
+			name = Trill;
 		};
 /* End XCBuildConfiguration section */
 
@@ -12095,256 +12605,269 @@
 		047F9B3824E1FE1F00CD7DF7 /* Build configuration list for PBXNativeTarget "WidgetKitExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4354D3E124EEEEC5001184F6 /* Fennec */,
-				4354D3E224EEEEC5001184F6 /* Fennec_Enterprise */,
-				4354D3E324EEEEC5001184F6 /* Firefox */,
-				4354D3E424EEEEC5001184F6 /* FirefoxBeta */,
+				4354D3E124EEEEC5001184F6 /* Trill */,
+				4354D3E224EEEEC5001184F6 /* Trill_Enterprise */,
+				4354D3E324EEEEC5001184F6 /* Impervious */,
+				4354D3E424EEEEC5001184F6 /* ImperviousBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Fennec;
+			defaultConfigurationName = Trill;
 		};
 		282731971ABC9BE800AA1954 /* Build configuration list for PBXNativeTarget "Sync" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				282731771ABC9BE800AA1954 /* Fennec */,
-				E6DCC20E1DCBB6F100CEC4B7 /* Fennec_Enterprise */,
-				E448FCA81AEE7A6000869B6C /* Firefox */,
-				E6FCC4361C40562400DF6113 /* FirefoxBeta */,
+				282731771ABC9BE800AA1954 /* Trill */,
+				E6DCC20E1DCBB6F100CEC4B7 /* Trill_Enterprise */,
+				E448FCA81AEE7A6000869B6C /* Impervious */,
+				E6FCC4361C40562400DF6113 /* ImperviousBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Fennec;
+			defaultConfigurationName = Trill;
 		};
 		282731981ABC9BE800AA1954 /* Build configuration list for PBXNativeTarget "SyncTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2827317A1ABC9BE800AA1954 /* Fennec */,
-				E6DCC2151DCBB6F100CEC4B7 /* Fennec_Enterprise */,
-				E448FCA91AEE7A6000869B6C /* Firefox */,
-				E6FCC4371C40562400DF6113 /* FirefoxBeta */,
+				2827317A1ABC9BE800AA1954 /* Trill */,
+				E6DCC2151DCBB6F100CEC4B7 /* Trill_Enterprise */,
+				E448FCA91AEE7A6000869B6C /* Impervious */,
+				E6FCC4371C40562400DF6113 /* ImperviousBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Fennec;
+			defaultConfigurationName = Trill;
 		};
 		288A2D9F1AB8B3260023ABC3 /* Build configuration list for PBXNativeTarget "Shared" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				288A2DA01AB8B3260023ABC3 /* Fennec */,
-				E6DCC20B1DCBB6F100CEC4B7 /* Fennec_Enterprise */,
-				E448FCA31AEE7A6000869B6C /* Firefox */,
-				E6FCC4311C40562400DF6113 /* FirefoxBeta */,
+				288A2DA01AB8B3260023ABC3 /* Trill */,
+				E6DCC20B1DCBB6F100CEC4B7 /* Trill_Enterprise */,
+				E448FCA31AEE7A6000869B6C /* Impervious */,
+				E6FCC4311C40562400DF6113 /* ImperviousBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Fennec;
+			defaultConfigurationName = Trill;
 		};
 		2FA436141ABB83B4008031D1 /* Build configuration list for PBXNativeTarget "Account" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2FA436151ABB83B4008031D1 /* Fennec */,
-				E6DCC20D1DCBB6F100CEC4B7 /* Fennec_Enterprise */,
-				E448FCA61AEE7A6000869B6C /* Firefox */,
-				E6FCC4341C40562400DF6113 /* FirefoxBeta */,
+				2FA436151ABB83B4008031D1 /* Trill */,
+				E6DCC20D1DCBB6F100CEC4B7 /* Trill_Enterprise */,
+				E448FCA61AEE7A6000869B6C /* Impervious */,
+				E6FCC4341C40562400DF6113 /* ImperviousBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Fennec;
+			defaultConfigurationName = Trill;
 		};
 		2FA436181ABB83B4008031D1 /* Build configuration list for PBXNativeTarget "AccountTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2FA436191ABB83B4008031D1 /* Fennec */,
-				E6DCC2141DCBB6F100CEC4B7 /* Fennec_Enterprise */,
-				E448FCA71AEE7A6000869B6C /* Firefox */,
-				E6FCC4351C40562400DF6113 /* FirefoxBeta */,
+				2FA436191ABB83B4008031D1 /* Trill */,
+				E6DCC2141DCBB6F100CEC4B7 /* Trill_Enterprise */,
+				E448FCA71AEE7A6000869B6C /* Impervious */,
+				E6FCC4351C40562400DF6113 /* ImperviousBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Fennec;
+			defaultConfigurationName = Trill;
 		};
 		2FCAE2331ABB51F900877008 /* Build configuration list for PBXNativeTarget "Storage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2FCAE2341ABB51F900877008 /* Fennec */,
-				E6DCC20C1DCBB6F100CEC4B7 /* Fennec_Enterprise */,
-				E448FCA41AEE7A6000869B6C /* Firefox */,
-				E6FCC4321C40562400DF6113 /* FirefoxBeta */,
+				2FCAE2341ABB51F900877008 /* Trill */,
+				E6DCC20C1DCBB6F100CEC4B7 /* Trill_Enterprise */,
+				E448FCA41AEE7A6000869B6C /* Impervious */,
+				E6FCC4321C40562400DF6113 /* ImperviousBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Fennec;
+			defaultConfigurationName = Trill;
 		};
 		2FCAE2371ABB51F900877008 /* Build configuration list for PBXNativeTarget "StorageTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2FCAE2381ABB51F900877008 /* Fennec */,
-				E6DCC2131DCBB6F100CEC4B7 /* Fennec_Enterprise */,
-				E448FCA51AEE7A6000869B6C /* Firefox */,
-				E6FCC4331C40562400DF6113 /* FirefoxBeta */,
+				2FCAE2381ABB51F900877008 /* Trill */,
+				E6DCC2131DCBB6F100CEC4B7 /* Trill_Enterprise */,
+				E448FCA51AEE7A6000869B6C /* Impervious */,
+				E6FCC4331C40562400DF6113 /* ImperviousBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Fennec;
+			defaultConfigurationName = Trill;
 		};
 		39409A521C90E68300DAE683 /* Build configuration list for PBXNativeTarget "Today" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				39409A401C90E68300DAE683 /* Fennec */,
-				E6DCC2091DCBB6F100CEC4B7 /* Fennec_Enterprise */,
-				39409A411C90E68300DAE683 /* Firefox */,
-				39409A421C90E68300DAE683 /* FirefoxBeta */,
+				39409A401C90E68300DAE683 /* Trill */,
+				E6DCC2091DCBB6F100CEC4B7 /* Trill_Enterprise */,
+				39409A411C90E68300DAE683 /* Impervious */,
+				39409A421C90E68300DAE683 /* ImperviousBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Fennec;
+			defaultConfigurationName = Trill;
 		};
 		397848F51ED86605004C0C0B /* Build configuration list for PBXNativeTarget "NotificationService" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				397848E31ED86605004C0C0B /* Fennec */,
-				397848E51ED86605004C0C0B /* Firefox */,
-				397848E61ED86605004C0C0B /* FirefoxBeta */,
-				3958DAB01ED98DCB0054AA27 /* Fennec_Enterprise */,
+				397848E31ED86605004C0C0B /* Trill */,
+				397848E51ED86605004C0C0B /* Impervious */,
+				397848E61ED86605004C0C0B /* ImperviousBeta */,
+				3958DAB01ED98DCB0054AA27 /* Trill_Enterprise */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Fennec;
+			defaultConfigurationName = Trill;
 		};
 		3B43E3E91D95C48E00BBA9DB /* Build configuration list for PBXNativeTarget "StoragePerfTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B43E3D71D95C48E00BBA9DB /* Fennec */,
-				E6DCC21B1DCBB6F100CEC4B7 /* Fennec_Enterprise */,
+				3B43E3D71D95C48E00BBA9DB /* Trill */,
+				E6DCC21B1DCBB6F100CEC4B7 /* Trill_Enterprise */,
 				3B43E3D81D95C48E00BBA9DB /* Firefox */,
-				3B43E3D91D95C48E00BBA9DB /* FirefoxBeta */,
+				3B43E3D91D95C48E00BBA9DB /* ImperviousBeta */,
+				9FB7E6DC2717E52F0039C9DC /* Impervious */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Fennec;
+			defaultConfigurationName = Trill;
 		};
 		3BFE4B201D342FB900DDF53F /* Build configuration list for PBXNativeTarget "XCUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3BFE4B0E1D342FB900DDF53F /* Fennec */,
-				E6DCC21A1DCBB6F100CEC4B7 /* Fennec_Enterprise */,
+				3BFE4B0E1D342FB900DDF53F /* Trill */,
+				E6DCC21A1DCBB6F100CEC4B7 /* Trill_Enterprise */,
 				3BFE4B0F1D342FB900DDF53F /* Firefox */,
-				3BFE4B101D342FB900DDF53F /* FirefoxBeta */,
+				3BFE4B101D342FB900DDF53F /* ImperviousBeta */,
+				9FB7E6DB2717E52F0039C9DC /* Impervious */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Fennec;
+			defaultConfigurationName = Trill;
+		};
+		9FED50502730AA52001B3561 /* Build configuration list for PBXNativeTarget "DNSAppExt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FED50512730AA52001B3561 /* Trill */,
+				9FED50522730AA52001B3561 /* Trill_Enterprise */,
+				9FED50532730AA52001B3561 /* Impervious */,
+				9FED50542730AA52001B3561 /* ImperviousBeta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Trill;
 		};
 		D39FA1671A83E0EC00EE869C /* Build configuration list for PBXNativeTarget "UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D39FA1681A83E0EC00EE869C /* Fennec */,
-				E6DCC2111DCBB6F100CEC4B7 /* Fennec_Enterprise */,
+				D39FA1681A83E0EC00EE869C /* Trill */,
+				E6DCC2111DCBB6F100CEC4B7 /* Trill_Enterprise */,
 				D39FA1691A83E0EC00EE869C /* Release */,
-				E448FCA21AEE7A6000869B6C /* Firefox */,
-				E6FCC42F1C40562400DF6113 /* FirefoxBeta */,
+				E448FCA21AEE7A6000869B6C /* Impervious */,
+				E6FCC42F1C40562400DF6113 /* ImperviousBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Fennec;
+			defaultConfigurationName = Trill;
 		};
 		E60138631C89EAE700DF9756 /* Build configuration list for PBXNativeTarget "L10nSnapshotTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E601384C1C89EAE600DF9756 /* Fennec */,
-				E6DCC2181DCBB6F100CEC4B7 /* Fennec_Enterprise */,
-				E601384D1C89EAE600DF9756 /* Firefox */,
-				E601384E1C89EAE600DF9756 /* FirefoxBeta */,
+				E601384C1C89EAE600DF9756 /* Trill */,
+				E6DCC2181DCBB6F100CEC4B7 /* Trill_Enterprise */,
+				E601384D1C89EAE600DF9756 /* Impervious */,
+				E601384E1C89EAE600DF9756 /* ImperviousBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Fennec;
+			defaultConfigurationName = Trill;
 		};
 		E60138641C89EAE700DF9756 /* Build configuration list for PBXNativeTarget "MarketingUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E60138511C89EAE600DF9756 /* Fennec */,
-				E6DCC2191DCBB6F100CEC4B7 /* Fennec_Enterprise */,
-				E60138521C89EAE600DF9756 /* Firefox */,
-				E60138531C89EAE600DF9756 /* FirefoxBeta */,
+				E60138511C89EAE600DF9756 /* Trill */,
+				E6DCC2191DCBB6F100CEC4B7 /* Trill_Enterprise */,
+				E60138521C89EAE600DF9756 /* Impervious */,
+				E60138531C89EAE600DF9756 /* ImperviousBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Fennec;
+			defaultConfigurationName = Trill;
 		};
 		E69DB08C1E97DEAA008A67E6 /* Build configuration list for PBXNativeTarget "SyncTelemetry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E69DB08D1E97DEAA008A67E6 /* Fennec */,
-				E69DB08E1E97DEAA008A67E6 /* Fennec_Enterprise */,
-				E69DB08F1E97DEAA008A67E6 /* Firefox */,
-				E69DB0901E97DEAA008A67E6 /* FirefoxBeta */,
+				E69DB08D1E97DEAA008A67E6 /* Trill */,
+				E69DB08E1E97DEAA008A67E6 /* Trill_Enterprise */,
+				E69DB08F1E97DEAA008A67E6 /* Impervious */,
+				E69DB0901E97DEAA008A67E6 /* ImperviousBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Fennec;
+			defaultConfigurationName = Trill;
 		};
 		E69DB0921E97DEAA008A67E6 /* Build configuration list for PBXNativeTarget "SyncTelemetryTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E69DB0931E97DEAA008A67E6 /* Fennec */,
-				E69DB0941E97DEAA008A67E6 /* Fennec_Enterprise */,
-				E69DB0951E97DEAA008A67E6 /* Firefox */,
-				E69DB0961E97DEAA008A67E6 /* FirefoxBeta */,
+				E69DB0931E97DEAA008A67E6 /* Trill */,
+				E69DB0941E97DEAA008A67E6 /* Trill_Enterprise */,
+				E69DB0951E97DEAA008A67E6 /* Impervious */,
+				E69DB0961E97DEAA008A67E6 /* ImperviousBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Fennec;
+			defaultConfigurationName = Trill;
 		};
 		E6F965381B2F1CF20034B023 /* Build configuration list for PBXNativeTarget "SharedTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E6F965151B2F1CF20034B023 /* Fennec */,
-				E6DCC2171DCBB6F100CEC4B7 /* Fennec_Enterprise */,
-				E6F965171B2F1CF20034B023 /* Firefox */,
-				E6FCC43A1C40562400DF6113 /* FirefoxBeta */,
+				E6F965151B2F1CF20034B023 /* Trill */,
+				E6DCC2171DCBB6F100CEC4B7 /* Trill_Enterprise */,
+				E6F965171B2F1CF20034B023 /* Impervious */,
+				E6FCC43A1C40562400DF6113 /* ImperviousBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Fennec;
+			defaultConfigurationName = Trill;
 		};
 		F8324A172649A189007E4BFA /* Build configuration list for PBXNativeTarget "CredentialProvider" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F8324A132649A189007E4BFA /* Fennec */,
-				F8324A142649A189007E4BFA /* Fennec_Enterprise */,
-				F8324A152649A189007E4BFA /* Firefox */,
-				F8324A162649A189007E4BFA /* FirefoxBeta */,
+				F8324A132649A189007E4BFA /* Trill */,
+				F8324A142649A189007E4BFA /* Trill_Enterprise */,
+				F8324A152649A189007E4BFA /* Impervious */,
+				F8324A162649A189007E4BFA /* ImperviousBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Fennec;
+			defaultConfigurationName = Trill;
 		};
 		F84B21B91A090F8100AAB793 /* Build configuration list for PBXProject "Client" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F84B21DB1A090F8100AAB793 /* Fennec */,
-				E6DCC2051DCBB6F100CEC4B7 /* Fennec_Enterprise */,
-				E448FC9D1AEE7A6000869B6C /* Firefox */,
-				E6FCC4291C40562400DF6113 /* FirefoxBeta */,
+				F84B21DB1A090F8100AAB793 /* Trill */,
+				E6DCC2051DCBB6F100CEC4B7 /* Trill_Enterprise */,
+				E448FC9D1AEE7A6000869B6C /* Impervious */,
+				E6FCC4291C40562400DF6113 /* ImperviousBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Fennec;
+			defaultConfigurationName = Trill;
 		};
 		F84B21DD1A090F8100AAB793 /* Build configuration list for PBXNativeTarget "Client" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F84B21DE1A090F8100AAB793 /* Fennec */,
-				E6DCC2061DCBB6F100CEC4B7 /* Fennec_Enterprise */,
-				E448FC9E1AEE7A6000869B6C /* Firefox */,
-				E6FCC42A1C40562400DF6113 /* FirefoxBeta */,
+				F84B21DE1A090F8100AAB793 /* Trill */,
+				E6DCC2061DCBB6F100CEC4B7 /* Trill_Enterprise */,
+				E448FC9E1AEE7A6000869B6C /* Impervious */,
+				E6FCC42A1C40562400DF6113 /* ImperviousBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Fennec;
+			defaultConfigurationName = Trill;
 		};
 		F84B21E01A090F8100AAB793 /* Build configuration list for PBXNativeTarget "ClientTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F84B21E11A090F8100AAB793 /* Fennec */,
-				E6DCC2101DCBB6F100CEC4B7 /* Fennec_Enterprise */,
-				E448FC9F1AEE7A6000869B6C /* Firefox */,
-				E6FCC42B1C40562400DF6113 /* FirefoxBeta */,
+				F84B21E11A090F8100AAB793 /* Trill */,
+				E6DCC2101DCBB6F100CEC4B7 /* Trill_Enterprise */,
+				E448FC9F1AEE7A6000869B6C /* Impervious */,
+				E6FCC42B1C40562400DF6113 /* ImperviousBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Fennec;
+			defaultConfigurationName = Trill;
 		};
 		F84B22551A0920C600AAB793 /* Build configuration list for PBXNativeTarget "ShareTo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F84B22561A0920C600AAB793 /* Fennec */,
-				E6DCC2081DCBB6F100CEC4B7 /* Fennec_Enterprise */,
-				E448FCA01AEE7A6000869B6C /* Firefox */,
-				E6FCC42D1C40562400DF6113 /* FirefoxBeta */,
+				F84B22561A0920C600AAB793 /* Trill */,
+				E6DCC2081DCBB6F100CEC4B7 /* Trill_Enterprise */,
+				E448FCA01AEE7A6000869B6C /* Impervious */,
+				E6FCC42D1C40562400DF6113 /* ImperviousBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Fennec;
+			defaultConfigurationName = Trill;
 		};
 /* End XCConfigurationList section */
 	};

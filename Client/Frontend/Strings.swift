@@ -966,15 +966,15 @@ extension String {
 
 // MARK: - Default Browser
 extension String {
-    public static let DefaultBrowserCardTitle = MZLocalizedString("DefaultBrowserCard.Title", tableName: "Default Browser", value: "Switch Your Default Browser", comment: "Title for small card shown that allows user to switch their default browser to Firefox.")
-    public static let DefaultBrowserCardDescription = MZLocalizedString("DefaultBrowserCard.Description", tableName: "Default Browser", value: "Set links from websites, emails, and Messages to open automatically in Firefox.", comment: "Description for small card shown that allows user to switch their default browser to Firefox.")
+    public static let DefaultBrowserCardTitle = MZLocalizedString("DefaultBrowserCard.Title", tableName: "Default Browser", value: "Switch Your Default Browser", comment: "Title for small card shown that allows user to switch their default browser to Impervious.")
+    public static let DefaultBrowserCardDescription = MZLocalizedString("DefaultBrowserCard.Description", tableName: "Default Browser", value: "Set links from websites, emails, and Messages to open automatically in Impervious.", comment: "Description for small card shown that allows user to switch their default browser to Impervious.")
     public static let DefaultBrowserCardButton = MZLocalizedString("DefaultBrowserCard.Button.v2", tableName: "Default Browser", value: "Learn How", comment: "Button string to learn how to set your default browser.")
-    public static let DefaultBrowserMenuItem = MZLocalizedString("Settings.DefaultBrowserMenuItem", tableName: "Default Browser", value: "Set as Default Browser", comment: "Menu option for setting Firefox as default browser.")
-    public static let DefaultBrowserOnboardingScreenshot = MZLocalizedString("DefaultBrowserOnboarding.Screenshot", tableName: "Default Browser", value: "Default Browser App", comment: "Text for the screenshot of the iOS system settings page for Firefox.")
+    public static let DefaultBrowserMenuItem = MZLocalizedString("Settings.DefaultBrowserMenuItem", tableName: "Default Browser", value: "Set as Default Browser", comment: "Menu option for setting Impervious as default browser.")
+    public static let DefaultBrowserOnboardingScreenshot = MZLocalizedString("DefaultBrowserOnboarding.Screenshot", tableName: "Default Browser", value: "Default Browser App", comment: "Text for the screenshot of the iOS system settings page for Impervious.")
     public static let DefaultBrowserOnboardingDescriptionStep1 = MZLocalizedString("DefaultBrowserOnboarding.Description1", tableName: "Default Browser", value: "1. Go to Settings", comment: "Description for default browser onboarding card.")
     public static let DefaultBrowserOnboardingDescriptionStep2 = MZLocalizedString("DefaultBrowserOnboarding.Description2", tableName: "Default Browser", value: "2. Tap Default Browser App", comment: "Description for default browser onboarding card.")
-    public static let DefaultBrowserOnboardingDescriptionStep3 = MZLocalizedString("DefaultBrowserOnboarding.Description3", tableName: "Default Browser", value: "3. Select Firefox", comment: "Description for default browser onboarding card.")
-    public static let DefaultBrowserOnboardingButton = MZLocalizedString("DefaultBrowserOnboarding.Button", tableName: "Default Browser", value: "Go to Settings", comment: "Button string to open settings that allows user to switch their default browser to Firefox.")
+    public static let DefaultBrowserOnboardingDescriptionStep3 = MZLocalizedString("DefaultBrowserOnboarding.Description3", tableName: "Default Browser", value: "3. Select Impervious", comment: "Description for default browser onboarding card.")
+    public static let DefaultBrowserOnboardingButton = MZLocalizedString("DefaultBrowserOnboarding.Button", tableName: "Default Browser", value: "Go to Settings", comment: "Button string to open settings that allows user to switch their default browser to Impervious.")
 }
 
 // MARK: - FxAWebViewController
@@ -989,8 +989,8 @@ extension String {
 
 // MARK: - CrashOptInAlert
 extension String {
-    public static let CrashOptInAlertTitle = MZLocalizedString("Oops! Firefox crashed", comment: "Title for prompt displayed to user after the app crashes")
-    public static let CrashOptInAlertMessage = MZLocalizedString("Send a crash report so Mozilla can fix the problem?", comment: "Message displayed in the crash dialog above the buttons used to select when sending reports")
+    public static let CrashOptInAlertTitle = MZLocalizedString("Oops! Impervious crashed", comment: "Title for prompt displayed to user after the app crashes")
+    public static let CrashOptInAlertMessage = MZLocalizedString("Send a crash report so Impervious can fix the problem?", comment: "Message displayed in the crash dialog above the buttons used to select when sending reports")
     public static let CrashOptInAlertSend = MZLocalizedString("Send Report", comment: "Used as a button label for crash dialog prompt")
     public static let CrashOptInAlertAlwaysSend = MZLocalizedString("Always Send", comment: "Used as a button label for crash dialog prompt")
     public static let CrashOptInAlertDontSend = MZLocalizedString("Don’t Send", comment: "Used as a button label for crash dialog prompt")
@@ -999,7 +999,7 @@ extension String {
 // MARK: - RestoreTabsAlert
 extension String {
     public static let RestoreTabsAlertTitle = MZLocalizedString("Well, this is embarrassing.", comment: "Restore Tabs Prompt Title")
-    public static let RestoreTabsAlertMessage = MZLocalizedString("Looks like Firefox crashed previously. Would you like to restore your tabs?", comment: "Restore Tabs Prompt Description")
+    public static let RestoreTabsAlertMessage = MZLocalizedString("Looks like Impervious crashed previously. Would you like to restore your tabs?", comment: "Restore Tabs Prompt Description")
     public static let RestoreTabsAlertNo = MZLocalizedString("No", comment: "Restore Tabs Negative Action")
     public static let RestoreTabsAlertOkay = MZLocalizedString("Okay", comment: "Restore Tabs Affirmative Action")
 }
@@ -1376,6 +1376,8 @@ extension String {
 
 // MARK: - Default Suggested Site
 extension String {
+    public static let DefaultSuggestedProofofconept = MZLocalizedString("Proofofconcept", comment: "Tile title for Proofofconcept")
+    public static let DefaultSuggestedBlockClock = MZLocalizedString("Blockclock", comment: "Tile title for Blockclock")
     public static let DefaultSuggestedFacebook = MZLocalizedString("Facebook", comment: "Tile title for Facebook")
     public static let DefaultSuggestedYouTube = MZLocalizedString("YouTube", comment: "Tile title for YouTube")
     public static let DefaultSuggestedAmazon = MZLocalizedString("Amazon", comment: "Tile title for Amazon")
@@ -1439,7 +1441,7 @@ extension String {
     public static let SettingsCustomizeHomeRecentSearches = MZLocalizedString("Settings.Home.Option.RecentSearches", value: "Recent Searches", comment: "In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle Recent Searches section on the Firefox homepage on or off")
     public static let SettingsCustomizeHomeShortcuts = MZLocalizedString("Settings.Home.Option.Shortcuts", value: "Shortcuts", comment: "In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle Shortcuts section on the Firefox homepage on or off")
     public static let SettingsCustomizeHomePocket = MZLocalizedString("Settings.Home.Option.Pocket", value: "Recommended by Pocket", comment: "In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to turn the Pocket Recommendations section on the Firefox homepage on or off")
-    public static let SettingsCustomizeHomeDescritpion = MZLocalizedString("Settings.Home.Option.Description", value: "Choose content you see on the Firefox homepage.", comment: "In the settings menu, on the Firefox homepage customization section, this is the description below the section, describing what the options in the section are for.")
+    public static let SettingsCustomizeHomeDescritpion = MZLocalizedString("Settings.Home.Option.Description", value: "Choose content you see on the Impervious homepage.", comment: "In the settings menu, on the Firefox homepage customization section, this is the description below the section, describing what the options in the section are for.")
 
     // Tabs options
     public static let SettingsCustomizeTabsTitle = MZLocalizedString("Settings.Tabs.Title", value: "Tabs", comment: "In the settings menu, this is the title for the Tabs customization section option")

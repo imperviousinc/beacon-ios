@@ -700,7 +700,7 @@ workflows:
         inputs:
         - compile_bitcode: 'no'
         - upload_bitcode: 'no'
-        - team_id: 43AQ936H96
+        - team_id: 4MA7A64R76
         - export_method: app-store
         - output_tool: xcodebuild
         - configuration: "$BITRISE_SCHEME"
@@ -727,7 +727,7 @@ workflows:
         inputs:
         - compile_bitcode: 'no'
         - upload_bitcode: 'no'
-        - team_id: 43AQ936H96
+        - team_id: 4MA7A64R76
         - export_method: app-store
         - output_tool: xcodebuild
         - scheme: FirefoxBeta

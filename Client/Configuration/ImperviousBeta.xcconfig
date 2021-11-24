@@ -5,8 +5,8 @@
 #include "Common.xcconfig"
 #include "Release.xcconfig"
 
-MOZ_BUNDLE_DISPLAY_NAME = Firefox Beta
-MOZ_BUNDLE_ID = org.mozilla.ios.FirefoxBeta
-CODE_SIGN_ENTITLEMENTS = Client/Entitlements/FirefoxBetaApplication.entitlements
+MOZ_BUNDLE_DISPLAY_NAME = Impervious Beta
+MOZ_BUNDLE_ID = com.impervious.ios.BrowserBeta
+CODE_SIGN_ENTITLEMENTS = Client/Entitlements/ImperviousBetaApplication.entitlements
 OTHER_SWIFT_FLAGS = $(OTHER_SWIFT_FLAGS_common) -DMOZ_CHANNEL_BETA
-MOZ_INTERNAL_URL_SCHEME = firefox-beta
+MOZ_INTERNAL_URL_SCHEME = browser-beta

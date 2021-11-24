@@ -6,8 +6,8 @@
 	<string>$(APP_IDENTIFIER_PREFIX)</string>
 	<key>BGTaskSchedulerPermittedIdentifiers</key>
 	<array>
-		<string>org.mozilla.ios.sync.part1</string>
-		<string>org.mozilla.ios.sync.part2</string>
+		<string>com.impervious.ios.sync.part1</string>
+		<string>com.impervious.ios.sync.part2</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
@@ -31,7 +31,7 @@
 	<array>
 		<dict>
 			<key>CFBundleURLName</key>
-			<string>org.mozilla.Client</string>
+			<string>com.impervious.Client</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>$(MOZ_PUBLIC_URL_SCHEME)</string>
@@ -42,7 +42,7 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>INIntentsSupported</key>
 	<array>
 		<string>QuickActionIntent</string>
@@ -85,27 +85,27 @@
 		<true/>
 	</dict>
 	<key>NSCameraUsageDescription</key>
-	<string>Firefox uses your camera to scan QR codes and take photos and video.</string>
+	<string>Impervious uses your camera to scan QR codes and take photos and video.</string>
 	<key>NSFaceIDUsageDescription</key>
-	<string>Firefox requires Face ID to access your saved logins.</string>
+	<string>Impervious requires Face ID to access your saved logins.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Websites you visit may request your location.</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Firefox uses your microphone to record and upload audio.</string>
+	<string>Impervious uses your microphone to record and upload audio.</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>This lets you save photos.</string>
 	<key>NSUserActivityTypes</key>
 	<array>
 		<string>QuickActionIntent</string>
 		<string>QuickLinkSelectionIntent</string>
-		<string>org.mozilla.ios.firefox.browsing</string>
+		<string>com.impervious.ios.browser.browsing</string>
 	</array>
+	<key>NimbusURL</key>
+	<string>$(NIMBUS_URL)</string>
 	<key>PocketEnvironmentAPIKey</key>
 	<string>$(POCKET_API_KEY)</string>
 	<key>SentryDSN</key>
 	<string>$(SENTRY_DSN)</string>
-	<key>NimbusURL</key>
-	<string>$(NIMBUS_URL)</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>NewYorkMedium-Bold.otf</string>

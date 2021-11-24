@@ -6,7 +6,7 @@ import Foundation
 import Shared
 import SwiftyJSON
 
-let SearchSuggestClientErrorDomain = "org.mozilla.firefox.SearchSuggestClient"
+let SearchSuggestClientErrorDomain = "com.impervious.browser.SearchSuggestClient"
 let SearchSuggestClientErrorInvalidEngine = 0
 let SearchSuggestClientErrorInvalidResponse = 1
 

@@ -6,7 +6,7 @@ import Shared
 import Foundation
 import SwiftyJSON
 
-let TokenServerClientErrorDomain = "org.mozilla.token.error"
+let TokenServerClientErrorDomain = "com.impervious.token.error"
 let TokenServerClientUnknownError = TokenServerError.local(
     NSError(domain: TokenServerClientErrorDomain, code: 999,
     userInfo: [NSLocalizedDescriptionKey: "Invalid server response"]))

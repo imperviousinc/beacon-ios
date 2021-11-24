@@ -54,7 +54,10 @@ class TelemetryWrapper {
         telemetryConfig.userDefaultsSuiteName = AppInfo.sharedContainerIdentifier
         telemetryConfig.dataDirectory = .cachesDirectory
         telemetryConfig.updateChannel = AppConstants.BuildChannel.rawValue
-        let sendUsageData = profile.prefs.boolForKey(AppConstants.PrefSendUsageData) ?? true
+        
+        // Disable telemtry
+        let sendUsageData = profile.prefs.boolForKey(AppConstants.PrefSendUsageData) ?? false
+        //let sendUsageData = false
         telemetryConfig.isCollectionEnabled = sendUsageData
         telemetryConfig.isUploadEnabled = sendUsageData
 

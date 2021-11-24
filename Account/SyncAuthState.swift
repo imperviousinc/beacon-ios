@@ -9,7 +9,7 @@ import SwiftyJSON
 import MozillaAppServices
 
 
-public let FxAClientErrorDomain = "org.mozilla.fxa.error"
+public let FxAClientErrorDomain = "com.impervious.fxa.error"
 public let FxAClientUnknownError = NSError(domain: FxAClientErrorDomain, code: 999,
     userInfo: [NSLocalizedDescriptionKey: "Invalid server response"])
 

@@ -23,7 +23,7 @@
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Firefox"
+      buildConfiguration = "Impervious"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       systemAttachmentLifetime = "keepAlways"
@@ -44,7 +44,7 @@
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Firefox"
+      buildConfiguration = "Impervious"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -66,7 +66,7 @@
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
-      buildConfiguration = "Firefox"
+      buildConfiguration = "Impervious"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
@@ -82,10 +82,10 @@
       </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
-      buildConfiguration = "Firefox">
+      buildConfiguration = "Impervious">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Firefox"
+      buildConfiguration = "Impervious"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

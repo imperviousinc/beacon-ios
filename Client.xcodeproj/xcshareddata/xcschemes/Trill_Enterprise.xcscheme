@@ -23,38 +23,22 @@
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Firefox"
+      buildConfiguration = "Trill_Enterprise"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "NO"
       language = "en"
-      region = "US"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      region = "US">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F84B21BD1A090F8100AAB793"
+            BuildableName = "Client.app"
+            BlueprintName = "Client"
+            ReferencedContainer = "container:Client.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E69DB07C1E97DEA9008A67E6"
-               BuildableName = "SyncTelemetryTests.xctest"
-               BlueprintName = "SyncTelemetryTests"
-               ReferencedContainer = "container:Client.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2FA436041ABB83B4008031D1"
-               BuildableName = "AccountTests.xctest"
-               BlueprintName = "AccountTests"
-               ReferencedContainer = "container:Client.xcodeproj">
-            </BuildableReference>
-            <SkippedTests>
-               <Test
-                  Identifier = "SyncAuthStateTests">
-               </Test>
-            </SkippedTests>
-         </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
@@ -65,9 +49,6 @@
                ReferencedContainer = "container:Client.xcodeproj">
             </BuildableReference>
             <SkippedTests>
-               <Test
-                  Identifier = "SearchTests/testURIFixupPunyCode()">
-               </Test>
                <Test
                   Identifier = "TestFavicons/testFaviconFetcherParse()">
                </Test>
@@ -92,21 +73,6 @@
                BlueprintName = "SharedTests"
                ReferencedContainer = "container:Client.xcodeproj">
             </BuildableReference>
-            <SkippedTests>
-               <Test
-                  Identifier = "FeatureSwitchTests">
-               </Test>
-            </SkippedTests>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3B43E3CF1D95C48D00BBA9DB"
-               BuildableName = "StoragePerfTests.xctest"
-               BlueprintName = "StoragePerfTests"
-               ReferencedContainer = "container:Client.xcodeproj">
-            </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
@@ -129,25 +95,71 @@
             </BuildableReference>
             <SkippedTests>
                <Test
+                  Identifier = "LiveAccountTest">
+               </Test>
+               <Test
                   Identifier = "LiveStorageClientTests">
+               </Test>
+               <Test
+                  Identifier = "LiveStorageClientTests/testLive()">
+               </Test>
+               <Test
+                  Identifier = "LiveStorageClientTests/testStateMachine()">
                </Test>
             </SkippedTests>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "28F9520519D0F9FB00DCE892"
+               BuildableName = "FxATests.xctest"
+               BlueprintName = "FxATests"
+               ReferencedContainer = "container:FxA/FxA.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3B43E3CF1D95C48D00BBA9DB"
+               BuildableName = "StoragePerfTests.xctest"
+               BlueprintName = "StoragePerfTests"
+               ReferencedContainer = "container:Client.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2FA436041ABB83B4008031D1"
+               BuildableName = "AccountTests.xctest"
+               BlueprintName = "AccountTests"
+               ReferencedContainer = "container:Client.xcodeproj">
+            </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "SyncAuthStateTests">
+               </Test>
+               <Test
+                  Identifier = "SyncAuthStateTests/testLive()">
+               </Test>
+            </SkippedTests>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E69DB07C1E97DEA9008A67E6"
+               BuildableName = "SyncTelemetryTests.xctest"
+               BlueprintName = "SyncTelemetryTests"
+               ReferencedContainer = "container:Client.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F84B21BD1A090F8100AAB793"
-            BuildableName = "Client.app"
-            BlueprintName = "Client"
-            ReferencedContainer = "container:Client.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Firefox"
+      buildConfiguration = "Trill_Enterprise"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -173,11 +185,9 @@
             isEnabled = "YES">
          </EnvironmentVariable>
       </EnvironmentVariables>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
-      buildConfiguration = "Firefox"
+      buildConfiguration = "Trill_Enterprise"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
@@ -194,10 +204,10 @@
       </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
-      buildConfiguration = "Firefox">
+      buildConfiguration = "Trill_Enterprise">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Firefox"
+      buildConfiguration = "Trill_Enterprise"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

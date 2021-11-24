@@ -144,9 +144,9 @@
             buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3BFE4B061D342FB800DDF53F"
-               BuildableName = "XCUITests.xctest"
-               BlueprintName = "XCUITests"
+               BlueprintIdentifier = "D39FA15E1A83E0EC00EE869C"
+               BuildableName = "UITests.xctest"
+               BlueprintName = "UITests"
                ReferencedContainer = "container:Client.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -167,21 +167,12 @@
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Fennec"
+      buildConfiguration = "Trill"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "NO"
       language = "en"
       region = "US">
-      <PreActions>
-         <ExecutionAction
-            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
-            <ActionContent
-               title = "Run Script"
-               scriptText = "/usr/local/bin/carthage checkout">
-            </ActionContent>
-         </ExecutionAction>
-      </PreActions>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
@@ -201,67 +192,272 @@
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
-      <EnvironmentVariables>
-      </EnvironmentVariables>
+      <TestPlans>
+         <TestPlanReference
+            reference = "container:XCUITests/Trill_Enterprise_XCUITests.xctestplan"
+            default = "YES">
+         </TestPlanReference>
+         <TestPlanReference
+            reference = "container:XCUITests/PerformanceTestPlan.xctestplan">
+         </TestPlanReference>
+         <TestPlanReference
+            reference = "container:XCUITests/SyncIntegrationTestPlan.xctestplan">
+         </TestPlanReference>
+         <TestPlanReference
+            reference = "container:XCUITests/SmokeXCUITests.xctestplan">
+         </TestPlanReference>
+      </TestPlans>
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D39FA15E1A83E0EC00EE869C"
-               BuildableName = "UITests.xctest"
-               BlueprintName = "UITests"
+               BlueprintIdentifier = "3BFE4B061D342FB800DDF53F"
+               BuildableName = "XCUITests.xctest"
+               BlueprintName = "XCUITests"
                ReferencedContainer = "container:Client.xcodeproj">
             </BuildableReference>
             <SkippedTests>
                <Test
-                  Identifier = "BookmarkingTests">
+                  Identifier = "ActivityStreamTest/testActivityStreamPages()">
                </Test>
                <Test
-                  Identifier = "BrowserTests">
+                  Identifier = "ActivityStreamTest/testDefaultSites()">
                </Test>
                <Test
-                  Identifier = "FindInPageTests">
+                  Identifier = "ActivityStreamTest/testTopSitesOpenInNewPrivateTab()">
                </Test>
                <Test
-                  Identifier = "HomePageSettingsUITests">
+                  Identifier = "ActivityStreamTest/testTopSitesOpenInNewPrivateTabDefaultTopSite()">
                </Test>
                <Test
-                  Identifier = "LoginManagerTests/testLoginsDetailsPromptsForPasscodeOnReentryFromBackground()">
+                  Identifier = "ActivityStreamTest/testTopSitesOpenInNewTabDefaultTopSite()">
                </Test>
                <Test
-                  Identifier = "NavigationTests">
+                  Identifier = "AuthenticationTest/testPromptPassCodeUponReentry()">
                </Test>
                <Test
-                  Identifier = "PrivateBrowsingTests">
+                  Identifier = "BaseTestCase">
                </Test>
                <Test
-                  Identifier = "ReaderViewUITests">
+                  Identifier = "BookmarkingTests/testBookmarkLibraryAddDeleteBookmark()">
                </Test>
                <Test
-                  Identifier = "SearchSettingsUITests">
+                  Identifier = "BookmarkingTests/testBookmarksAwesomeBar()">
                </Test>
                <Test
-                  Identifier = "SearchTests">
+                  Identifier = "BrowsingPDFTests">
                </Test>
                <Test
-                  Identifier = "SettingsTests">
+                  Identifier = "ClipBoardTests/testClipboardPasteAndGo()">
                </Test>
                <Test
-                  Identifier = "TopTabsTests">
+                  Identifier = "CronTabsPerformanceTest">
                </Test>
                <Test
-                  Identifier = "ViewMemoryLeakTests">
+                  Identifier = "DataManagementTests/testWebSiteDataEnterFirstTime()">
+               </Test>
+               <Test
+                  Identifier = "DomainAutocompleteTest/testDeletingCharsUpdateTheResults()">
+               </Test>
+               <Test
+                  Identifier = "DownloadFilesTests/testToastButtonToGoToDownloads()">
+               </Test>
+               <Test
+                  Identifier = "DragAndDropTestIpad/testTryDragAndDropBookmarkToURLBar()">
+               </Test>
+               <Test
+                  Identifier = "DragAndDropTestIpad/testTryDragAndDropHistoryToURLBar()">
+               </Test>
+               <Test
+                  Identifier = "FindInPageTests/testFindFromMenu()">
+               </Test>
+               <Test
+                  Identifier = "FirstRunTourTests/testFirstRunTour()">
+               </Test>
+               <Test
+                  Identifier = "HistoryTests/testClearPrivateDataButtonDisabled()">
+               </Test>
+               <Test
+                  Identifier = "HistoryTests/testDeleteHistoryEntryBySwiping()">
+               </Test>
+               <Test
+                  Identifier = "HomePageSettingsTest">
+               </Test>
+               <Test
+                  Identifier = "HomePageUITest">
+               </Test>
+               <Test
+                  Identifier = "IntegrationTests">
+               </Test>
+               <Test
+                  Identifier = "IntegrationTests/testFxASyncBookmark()">
+               </Test>
+               <Test
+                  Identifier = "NavigationTest/testLongPressLinkOptions()">
+               </Test>
+               <Test
+                  Identifier = "NavigationTest/testNavigationPreservesDesktopSiteOnSameHost()">
+               </Test>
+               <Test
+                  Identifier = "NavigationTest/testPopUpBlocker()">
+               </Test>
+               <Test
+                  Identifier = "NavigationTest/testReloadPreservesMobileOrDesktopSite()">
+               </Test>
+               <Test
+                  Identifier = "NavigationTest/testSSL()">
+               </Test>
+               <Test
+                  Identifier = "NavigationTest/testScrollsToTopWithMultipleTabs()">
+               </Test>
+               <Test
+                  Identifier = "NavigationTest/testToggleBetweenMobileAndDesktopSiteFromSite()">
+               </Test>
+               <Test
+                  Identifier = "NewTabSettingsTest/testChangeNewTabSettingsShowBlankPage()">
+               </Test>
+               <Test
+                  Identifier = "NewTabSettingsTest/testChangeNewTabSettingsShowCustomURL()">
+               </Test>
+               <Test
+                  Identifier = "NewTabSettingsTest/testChangeNewTabSettingsShowYourBookmarks()">
+               </Test>
+               <Test
+                  Identifier = "NewTabSettingsTest/testChangeNewTabSettingsShowYourHistory()">
+               </Test>
+               <Test
+                  Identifier = "NewTabSettingsTest/testCheckNewTabSettingsByDefault()">
+               </Test>
+               <Test
+                  Identifier = "NewTabSettingsTest/testToggleOffOnAdditionalContentBookmarks()">
+               </Test>
+               <Test
+                  Identifier = "NoImageTests">
+               </Test>
+               <Test
+                  Identifier = "PhotonActionSheetTest/testPinToTop()">
+               </Test>
+               <Test
+                  Identifier = "PhotonActionSheetTest/testSendToDeviceFromShareOption()">
+               </Test>
+               <Test
+                  Identifier = "PhotonActionSheetTest/testShareOptionIsShownFromShortCut()">
+               </Test>
+               <Test
+                  Identifier = "PhotonActionSheetTest/testSharePageWithShareSheetOptions()">
+               </Test>
+               <Test
+                  Identifier = "PrivateBrowsingTest/testClosePrivateTabsOptionClosesPrivateTabsShortCutiPad()">
+               </Test>
+               <Test
+                  Identifier = "PrivateBrowsingTest/testiPadDirectAccessPrivateMode()">
+               </Test>
+               <Test
+                  Identifier = "PrivateBrowsingTest/testiPadDirectAccessPrivateModeBrowserTab()">
+               </Test>
+               <Test
+                  Identifier = "PrivateBrowsingTestIpad/testiPadDirectAccessPrivateMode()">
+               </Test>
+               <Test
+                  Identifier = "ReaderViewTest/testAddToReaderListOptions()">
+               </Test>
+               <Test
+                  Identifier = "ReaderViewTest/testAddToReadingList()">
+               </Test>
+               <Test
+                  Identifier = "ReaderViewTest/testLoadReaderContent()">
+               </Test>
+               <Test
+                  Identifier = "SaveLoginTest/testEditOneLoginEntry()">
+               </Test>
+               <Test
+                  Identifier = "SaveLoginTest/testSaveLogin()">
+               </Test>
+               <Test
+                  Identifier = "SaveLoginTest/testSavedLoginAutofilled()">
+               </Test>
+               <Test
+                  Identifier = "ScreenGraphTest/testUserStateChanges()">
+               </Test>
+               <Test
+                  Identifier = "SearchTests/testDismissPromptPresence()">
+               </Test>
+               <Test
+                  Identifier = "SearchTests/testSearchEngine()">
+               </Test>
+               <Test
+                  Identifier = "SearchTests/testSearchStartAfterTypingTwoWords()">
+               </Test>
+               <Test
+                  Identifier = "SiteLoadTest">
+               </Test>
+               <Test
+                  Identifier = "SyncUITests/testAccountManagementPage()">
+               </Test>
+               <Test
+                  Identifier = "TabTraySearchTabsTests/testSearchTabs()">
+               </Test>
+               <Test
+                  Identifier = "ToolbarTests/testShowDoNotShowToolbarWhenScrollingLandscape()">
+               </Test>
+               <Test
+                  Identifier = "ToolbarTests/testShowDoNotShowToolbarWhenScrollingPortrait()">
+               </Test>
+               <Test
+                  Identifier = "ToolbarTests/testShowToolbarWhenScrollingDefaultOption()">
+               </Test>
+               <Test
+                  Identifier = "TopTabsTest/testAddTabFromTabTray()">
+               </Test>
+               <Test
+                  Identifier = "TopTabsTest/testCloseAllTabsPrivateModeUndo()">
+               </Test>
+               <Test
+                  Identifier = "TopTabsTest/testCloseAllTabsUndo()">
+               </Test>
+               <Test
+                  Identifier = "TopTabsTest/testCloseTabFromPageOptionsMenu()">
+               </Test>
+               <Test
+                  Identifier = "TopTabsTest/testLongTapTabCounter()">
+               </Test>
+               <Test
+                  Identifier = "TopTabsTest/testSwitchBetweenTabsNoPrivatePrivateToastButton()">
+               </Test>
+               <Test
+                  Identifier = "TopTabsTest/testSwitchBetweenTabsToastButton()">
+               </Test>
+               <Test
+                  Identifier = "TopTabsTestIphone/testAddPrivateTabByLongPressTabsButton()">
+               </Test>
+               <Test
+                  Identifier = "TopTabsTestIphone/testAddTabByLongPressTabsButton()">
+               </Test>
+               <Test
+                  Identifier = "TopTabsTestIphone/testCloseTabFromLongPressTabsButton()">
+               </Test>
+               <Test
+                  Identifier = "TopTabsTestIphone/testSwitchBetweenTabsNoPrivatePrivateToastButton()">
+               </Test>
+               <Test
+                  Identifier = "TopTabsTestIphone/testSwitchBetweenTabsToastButton()">
+               </Test>
+               <Test
+                  Identifier = "TrackingProtectionTests/testEnableDisableTPforSite()">
+               </Test>
+               <Test
+                  Identifier = "TrackingProtectionTests/testTrackingProtection()">
                </Test>
             </SkippedTests>
          </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Fennec"
+      buildConfiguration = "Trill"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      launchStyle = "0"
+      launchStyle = "1"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
@@ -286,7 +482,7 @@
       </EnvironmentVariables>
    </LaunchAction>
    <ProfileAction
-      buildConfiguration = "Fennec"
+      buildConfiguration = "Trill"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
@@ -303,10 +499,10 @@
       </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
-      buildConfiguration = "Fennec">
+      buildConfiguration = "Trill">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Fennec"
+      buildConfiguration = "Trill"
       revealArchiveInOrganizer = "YES">
       <PreActions>
          <ExecutionAction

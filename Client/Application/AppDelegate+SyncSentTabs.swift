@@ -57,7 +57,7 @@ class AppSyncDelegate: SyncDelegate {
                 notificationContent.title = title
                 notificationContent.body = url.absoluteDisplayExternalString
                 notificationContent.userInfo = [SentTabAction.TabSendURLKey: url.absoluteString, SentTabAction.TabSendTitleKey: title]
-                notificationContent.categoryIdentifier = "org.mozilla.ios.SentTab.placeholder"
+                notificationContent.categoryIdentifier = "com.impervious.ios.SentTab.placeholder"
 
                 // `timeInterval` must be greater than zero
                 let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 0.1, repeats: false)

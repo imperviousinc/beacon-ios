@@ -136,12 +136,12 @@ class FeatureFlagsManager {
         /// `Experiments.shared` provides access to Nimbus. If false, it is a dummy object.
         let nimbus = FlaggableFeature(withID: .nimbus,
                                       and: profile,
-                                      enabledFor: [.release, .beta, .developer])
+                                      enabledFor: [])
         features[.nimbus] = nimbus
 
         let pocket = FlaggableFeature(withID: .pocket,
                                       and: profile,
-                                      enabledFor: [.release, .beta, .developer])
+                                      enabledFor: [])
         features[.pocket] = pocket
 
 

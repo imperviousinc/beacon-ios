@@ -5,11 +5,15 @@
 import Shared
 import Account
 
+var counter : Int = 0
+
 extension PhotonActionSheetProtocol {
 
     //Returns a list of actions which is used to build a menu
     //OpenURL is a closure that can open a given URL in some view controller. It is up to the class using the menu to know how to open it
+
     func getLibraryActions(vcDelegate: PageOptionsVC) -> [PhotonActionSheetItem] {
+        
         let bookmarks = PhotonActionSheetItem(title: Strings.AppMenuBookmarks, iconString: "menu-panel-Bookmarks") { _, _ in
             let bvc = vcDelegate as? BrowserViewController
             bvc?.showLibrary(panel: .bookmarks)
