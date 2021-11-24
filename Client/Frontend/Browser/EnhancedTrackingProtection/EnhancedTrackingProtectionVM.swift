@@ -23,6 +23,12 @@ class EnhancedTrackingProtectionMenuVM {
     }
 
     var connectionStatusString: String {
+        // TODO: use HandshakeCtx or store sites authenticated
+        // by DANE somewhere this won't be true in all cases
+        if CanAuthWithDANE(hostname: websiteTitle) && connectionSecure {
+            return "Secured by Handshake"
+        }
+        
         return connectionSecure ? .ProtectionStatusSecure : .ProtectionStatusNotSecure
     }
 
