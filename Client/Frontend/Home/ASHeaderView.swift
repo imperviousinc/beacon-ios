@@ -19,7 +19,7 @@ enum ASHeaderViewType {
 class ASHeaderView: UICollectionReusableView {
     static let verticalInsets: CGFloat = 4
     var sectionType: ASHeaderViewType = .normal
-
+    var firstHeader : Bool = false
     lazy var titleLabel: UILabel = {
         let titleLabel = UILabel()
         titleLabel.text = self.title
@@ -28,6 +28,7 @@ class ASHeaderView: UICollectionReusableView {
         titleLabel.minimumScaleFactor = 0.6
         titleLabel.numberOfLines = 1
         titleLabel.adjustsFontSizeToFitWidth = true
+        
         return titleLabel
     }()
 
@@ -76,7 +77,11 @@ class ASHeaderView: UICollectionReusableView {
         titleLabel.snp.makeConstraints { make in
             make.leading.equalTo(self.safeArea.leading).inset(titleInsets)
             make.trailing.equalTo(moreButton.snp.leading).inset(-FirefoxHomeHeaderViewUX.TitleTopInset)
-            make.bottom.equalToSuperview().offset(-10)
+            if !firstHeader {
+                make.bottom.equalToSuperview().offset(-10)
+            } else {
+                make.bottom.equalToSuperview().offset(10)
+            }
         }
     }
 
