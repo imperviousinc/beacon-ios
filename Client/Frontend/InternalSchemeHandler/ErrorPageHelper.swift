@@ -168,6 +168,30 @@ class ErrorPageHandler: InternalSchemeResponse {
             "error_title": errDescription,
             "short_description": errDomain,
             ]
+        
+        if errDomain == "HNSErrorNotReady" {
+            
+            let reloader = """
+<script>
+        function keepReloading() { location.replace((new URL(location.href)).searchParams.get(\"url\")); }
+        setInterval(keepReloading, 3000);
+</script>
+"""
+            variables["actions"] = reloader
+
+            let response = InternalSchemeHandler.response(forUrl: originalUrl)
+            guard let file = asset, var html = try? String(contentsOfFile: file) else {
+                assert(false)
+                return nil
+            }
+
+            variables.forEach { (arg, value) in
+                html = html.replacingOccurrences(of: "%\(arg)%", with: value)
+            }
+
+            guard let data = html.data(using: .utf8) else { return nil }
+            return (response, data)
+        }
 
         let tryAgain: String = .ErrorPageTryAgain
         var actions = "<script>function reloader() { location.replace((new URL(location.href)).searchParams.get(\"url\")); }" +
@@ -234,10 +258,12 @@ class ErrorPageHelper {
             return
         }
 
+        // If there's a different error, the page will keep showing the older one.
+        
         // Page has failed to load again, just return and keep showing the existing error page.
-        if let internalUrl = InternalURL(webViewUrl), internalUrl.originalURLFromErrorPage == url {
-            return
-        }
+//        if let internalUrl = InternalURL(webViewUrl), internalUrl.originalURLFromErrorPage == url {
+//            return
+//        }
 
         var queryItems = [
             URLQueryItem(name: InternalURL.Param.url.rawValue, value: url.absoluteString),
