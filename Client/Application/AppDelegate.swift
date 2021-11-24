@@ -16,6 +16,7 @@ import Sync
 import CoreSpotlight
 import UserNotifications
 import Account
+import MobileHNS
 
 #if canImport(BackgroundTasks)
  import BackgroundTasks
@@ -26,6 +27,8 @@ private let log = Logger.browserLogger
 let LatestAppVersionProfileKey = "latestAppVersion"
 let AllowThirdPartyKeyboardsKey = "settings.allowThirdPartyKeyboards"
 private let InitialPingSentKey = "initialPingSent"
+
+var HandshakeCtx : MobileHNS?
 
 class AppDelegate: UIResponder, UIApplicationDelegate, UIViewControllerRestoration {
     public static func viewController(withRestorationIdentifierPath identifierComponents: [String], coder: NSCoder) -> UIViewController? {
@@ -82,10 +85,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UIViewControllerRestorati
 
     func startApplication(_ application: UIApplication, withLaunchOptions launchOptions: [AnyHashable: Any]?) -> Bool {
         log.info("startApplication begin")
+        
+        // start hns
+        let hnsVerifierInitError : NSErrorPointer = nil
+        HandshakeCtx = MobileNewVerifier(DNSVPNConfiguration.getDoHURL(), hnsVerifierInitError)
+
 
         // Need to get "settings.sendUsageData" this way so that Sentry can be initialized
         // before getting the Profile.
-        let sendUsageData = NSUserDefaultsPrefs(prefix: "profile").boolForKey(AppConstants.PrefSendUsageData) ?? true
+        let sendUsageData = NSUserDefaultsPrefs(prefix: "profile").boolForKey(AppConstants.PrefSendUsageData) ?? false
         Sentry.shared.setup(sendUsageData: sendUsageData)
 
         // Set the Firefox UA for browsing.
@@ -169,12 +177,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UIViewControllerRestorati
     func applicationWillTerminate(_ application: UIApplication) {
         // We have only five seconds here, so let's hope this doesn't take too long.
         profile?._shutdown()
+        
 
         // Allow deinitializers to close our database connections.
         profile = nil
         tabManager = nil
         browserViewController = nil
         rootViewController = nil
+        
+        // shutdown handshake TA
+        HandshakeCtx?.shutdownTA()
     }
 
     /**
@@ -196,7 +208,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UIViewControllerRestorati
         return p
     }
 
+    @objc func runTrustAnchor() {
+        if let h = HandshakeCtx {
+            try! h.launchTA()
+        }
+    }
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        // Handshake Trust anchor
+        let thread = Thread.init(target: self, selector: #selector(runTrustAnchor), object: nil)
+        thread.start()
+                
         // Override point for customization after application launch.
         var shouldPerformAdditionalDelegateHandling = true
 
@@ -252,7 +275,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UIViewControllerRestorati
         }
 
         
-        BGTaskScheduler.shared.register(forTaskWithIdentifier: "org.mozilla.ios.sync.part1", using: DispatchQueue.global()) { task in
+        BGTaskScheduler.shared.register(forTaskWithIdentifier: "com.impervious.ios.sync.part1", using: DispatchQueue.global()) { task in
             guard self.profile?.hasSyncableAccount() ?? false else {
                 self.shutdownProfileWhenNotActive(application)
                 return
@@ -262,7 +285,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UIViewControllerRestorati
             let collection = ["bookmarks", "history"]
             self.profile?.syncManager.syncNamedCollections(why: .backgrounded, names: collection).uponQueue(.main) { _ in
                 task.setTaskCompleted(success: true)
-                let request = BGProcessingTaskRequest(identifier: "org.mozilla.ios.sync.part2")
+                let request = BGProcessingTaskRequest(identifier: "com.impervious.ios.sync.part2")
                 request.earliestBeginDate = Date(timeIntervalSinceNow: 1)
                 request.requiresNetworkConnectivity = true
                 do {
@@ -275,7 +298,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UIViewControllerRestorati
 
         // Split up the sync tasks so each can get maximal time for a bg task.
         // This task runs after the bookmarks+history sync.
-        BGTaskScheduler.shared.register(forTaskWithIdentifier: "org.mozilla.ios.sync.part2", using: DispatchQueue.global()) { task in
+        BGTaskScheduler.shared.register(forTaskWithIdentifier: "com.impervious.ios.sync.part2", using: DispatchQueue.global()) { task in
             NSLog("background sync part 2") // NSLog to see in device console
             let collection = ["tabs", "logins", "clients"]
             self.profile?.syncManager.syncNamedCollections(why: .backgrounded, names: collection).uponQueue(.main) { _ in
@@ -389,11 +412,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UIViewControllerRestorati
     }
 
     func applicationDidEnterBackground(_ application: UIApplication) {
+        _ = DNSVPNConfiguration.updateConnected()
         //
         // At this point we are happy to mark the app as CleanlyBackgrounded. If a crash happens in background
         // sync then that crash will still be reported. But we won't bother the user with the Restore Tabs
         // dialog. We don't have to because at this point we already saved the tab state properly.
         //
+        
 
         let defaults = UserDefaults()
         defaults.set(true, forKey: "ApplicationCleanlyBackgrounded")
@@ -442,6 +467,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UIViewControllerRestorati
         // is that this method is only invoked whenever the application is entering the foreground where as
         // `applicationDidBecomeActive` will get called whenever the Touch ID authentication overlay disappears.
         self.updateAuthenticationInfo()
+        _ = DNSVPNConfiguration.updateConnected()
     }
 
     fileprivate func updateAuthenticationInfo() {
@@ -569,7 +595,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UIViewControllerRestorati
             // Blocking call, however without sync running it should be instantaneous
             profile?._shutdown()
 
-            let request = BGProcessingTaskRequest(identifier: "org.mozilla.ios.sync.part1")
+            let request = BGProcessingTaskRequest(identifier: "com.impervious.ios.sync.part1")
             request.earliestBeginDate = Date(timeIntervalSinceNow: 1)
             request.requiresNetworkConnectivity = true
             do {
