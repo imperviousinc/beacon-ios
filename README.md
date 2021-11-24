@@ -1,8 +1,7 @@
-Impervious browser iOS 
+Impervious iOS 
 ===============
 
-This branch (main)
------------
+The first browser with support for native DNS-Based Authentication of Named Entities (DANE) with true downgrade protection, and the first browser to embed an SPV node to trustlessly verify DNSSEC over the [Handshake](https://handshake.org) network. Impervious iOS is a fork of [Firefox](https://github.com/mozilla-mobile/firefox-ios).
 
 This branch works with [Xcode 13.0](https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_13/Xcode_13.xip), Swift 5.5 and supports iOS 13 and above.
 
