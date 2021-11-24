@@ -30,9 +30,9 @@ class URIFixup {
         // make sure there's at least one "." in the host. This means
         // we'll allow single-word searches (e.g., "foo") at the expense
         // of breaking single-word hosts without a scheme (e.g., "localhost").
-        if trimmed.range(of: ".") == nil {
-            return nil
-        }
+//        if trimmed.range(of: ".") == nil {
+//            return nil
+//        }
 
         if trimmed.range(of: " ") != nil {
             return nil
