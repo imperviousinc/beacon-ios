@@ -1,16 +1,16 @@
-/* Button string to open settings that allows user to switch their default browser to Firefox. */
+/* Button string to open settings that allows user to switch their default browser to Impervious. */
 "DefaultBrowserCard.Button" = "Odpri nastavitve";
 
 /* Button string to learn how to set your default browser. */
 "DefaultBrowserCard.Button.v2" = "Več o tem";
 
-/* Description for small card shown that allows user to switch their default browser to Firefox. */
+/* Description for small card shown that allows user to switch their default browser to Impervious. */
 "DefaultBrowserCard.Description" = "Nastavite, naj se povezave s spletnih strani, iz e-pošte in sporočil odpirajo v Firefoxu.";
 
-/* Title for small card shown that allows user to switch their default browser to Firefox. */
+/* Title for small card shown that allows user to switch their default browser to Impervious. */
 "DefaultBrowserCard.Title" = "Zamenjajte privzeti brskalnik";
 
-/* Button string to open settings that allows user to switch their default browser to Firefox. */
+/* Button string to open settings that allows user to switch their default browser to Impervious. */
 "DefaultBrowserOnboarding.Button" = "Odpri nastavitve";
 
 /* Description for default browser onboarding card. */
@@ -20,11 +20,11 @@
 "DefaultBrowserOnboarding.Description2" = "2. Tapni Default Browser App";
 
 /* Description for default browser onboarding card. */
-"DefaultBrowserOnboarding.Description3" = "3. Izberi Firefox";
+"DefaultBrowserOnboarding.Description3" = "3. Izberi Impervious";
 
-/* Text for the screenshot of the iOS system settings page for Firefox. */
+/* Text for the screenshot of the iOS system settings page for Impervious. */
 "DefaultBrowserOnboarding.Screenshot" = "Privzet brskalnik";
 
-/* Menu option for setting Firefox as default browser. */
+/* Menu option for setting Impervious as default browser. */
 "Settings.DefaultBrowserMenuItem" = "Nastavi kot privzeti brskalnik";
 

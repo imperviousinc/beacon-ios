@@ -82,7 +82,7 @@
 /* Light theme setting in Reading View settings */
 "Light" = "එළිය";
 
-/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app. */
+/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Impervious reader mode from another app. */
 "Loading content…" = "අන්තර්ගත පූරණය වේ...";
 
 /* Authentication prompt log in button */
@@ -120,7 +120,7 @@
 /* Privacy section title */
 "Privacy" = "පුද්ගලිකත්වය";
 
-/* Show Firefox Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
+/* Show Impervious Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
 "Privacy Policy" = "පෞද්ගලිකත්ව ප්‍රතිපත්තිය";
 
 /* Accessibility label for the Reader View button */
@@ -190,7 +190,7 @@
 /* Username textbox in Authentication prompt */
 "Username" = "පරිශීලක නාමය";
 
-/* Version number of Firefox shown in settings */
+/* Version number of Impervious shown in settings */
 "Version %@ (%@)" = "නිකුතුව %1$@ (%2$@)";
 
 /* Accessibility label for the main web content view */

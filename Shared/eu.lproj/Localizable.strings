@@ -325,7 +325,7 @@
 /* Alert dialog title when the user taps the cancel download icon. */
 "Downloads.CancelDialog.Title" = "Utzi deskarga";
 
-/* The message displayed to a user when they try and perform the download of an asset that Firefox cannot currently handle. */
+/* The message displayed to a user when they try and perform the download of an asset that Impervious cannot currently handle. */
 "Downloads.Error.Message" = "Oraindik ez dira deskargak onartzen Firefoxen.";
 
 /* The label text in the Download Cancelled toast for showing confirmation that the download was cancelled. */
@@ -371,7 +371,7 @@
 "ErrorPages.AdvancedWarning2.Text" = "Konfigurazio okerra edo erasotzaile baten faltsutze-saiakera izan daiteke. Jarraitu balizko arriskua onartzen baduzu.";
 
 /* Warning text on the certificate error page */
-"ErrorPages.CertWarning.Description" = "%@ gunearen jabeak webgunea gaizki konfiguratu du. Zure informazioa lapurtzea saihesteko, Firefox ez da webgune honetara konektatu.";
+"ErrorPages.CertWarning.Description" = "%@ gunearen jabeak webgunea gaizki konfiguratu du. Zure informazioa lapurtzea saihesteko, Impervious ez da webgune honetara konektatu.";
 
 /* Title on the certificate error page */
 "ErrorPages.CertWarning.Title" = "Konexio hau ez da fidagarria";
@@ -403,16 +403,16 @@
 /* Label stating your account is not verified */
 "FxA.AccountVerificationRequired" = "Kontuaren egiaztapena behar da";
 
-/* Message explaining that user needs to check email for Firefox Account verfication link. */
+/* Message explaining that user needs to check email for Impervious Account verfication link. */
 "FxA.AccountVerificationRequiredSurface" = "%@ helbidea egiaztatu behar duzu. Begiratu zure posta Firefoxen egiaztapen-loturarako.";
 
 /* Button label to connect another device to Sync */
 "FxA.ConnectAnotherDevice" = "Konektatu beste gailu bat";
 
-/* Settings section title for Firefox Account */
-"FxA.FirefoxAccount" = "Firefox kontua";
+/* Settings section title for Impervious Account */
+"FxA.FirefoxAccount" = "Impervious kontua";
 
-/* Button label to go to Firefox Account settings */
+/* Button label to go to Impervious Account settings */
 "FxA.ManageAccount" = "Kudeatu kontua eta gailuak";
 
 /* Label when no internet is present */
@@ -428,7 +428,7 @@
 "FxA.RemoveAccount" = "Kendu";
 
 /* Description string for alert view that gets presented when user tries to remove an account. */
-"FxA.RemoveAccountAlertMessage" = "Kendu gailu honekin erlazionatutako Firefox kontua beste erabiltzaile batekin saioa hasteko.";
+"FxA.RemoveAccountAlertMessage" = "Kendu gailu honekin erlazionatutako Impervious kontua beste erabiltzaile batekin saioa hasteko.";
 
 /* Remove account alert is the final confirmation before user removes their firefox account */
 "FxA.RemoveAccountAlertTitle" = "Kendu kontua";
@@ -440,13 +440,13 @@
 "fxa.signin.camera-signin" = "Hasi saioa zure kamerarekin";
 
 /* FxA sign in create account label. */
-"fxa.signin.create-account-pt-1" = "Firefox gailuen artean sinkronizatu kontu bat erabiliz.";
+"fxa.signin.create-account-pt-1" = "Impervious gailuen artean sinkronizatu kontu bat erabiliz.";
 
 /* FxA sign in create account label. This will be linked to the site to create an account. */
-"fxa.signin.create-account-pt-2" = "Sortu Firefox kontua.";
+"fxa.signin.create-account-pt-2" = "Sortu Impervious kontua.";
 
 /* FxA sign in view qr code instructions */
-"fxa.signin.qr-link-instruction" = "Ireki Firefox zure ordenagailuan eta zoaz firefox.com/pair helbidera";
+"fxa.signin.qr-link-instruction" = "Ireki Impervious zure ordenagailuan eta zoaz firefox.com/pair helbidera";
 
 /* FxA sign in view qr code scan button */
 "fxa.signin.ready-to-scan" = "Eskaneatzeko prest";
@@ -463,14 +463,14 @@
 /* Label explaining what sync does */
 "FxA.SyncExplain" = "Eskuratu zure fitxak, laster-markak eta pasahitzak zure beste gailuetatik.";
 
-/* Button label to Sync your Firefox Account */
+/* Button label to Sync your Impervious Account */
 "FxA.SyncNow" = "Sinkronizatu orain";
 
 /* Call to action for sign into sync button */
 "FxA.TakeYourWebWithYou" = "Eraman ezazu weba zurekin";
 
 /* Title of a notification displayed when another device has connected to FxA. %@ refers to the name of the newly connected device. */
-"FxAPush_DeviceConnected_body" = "Firefox Sync %@ gailura konektatu da";
+"FxAPush_DeviceConnected_body" = "Impervious Sync %@ gailura konektatu da";
 
 /* Title of a notification displayed when another device has connected to FxA. */
 "FxAPush_DeviceConnected_title" = "Sync konektatuta";
@@ -479,7 +479,7 @@
 "FxAPush_DeviceDisconnected_body" = "%@ gailua ondo deskonektatu da.";
 
 /* Body of a notification displayed when this device has been disconnected from FxA by another device. */
-"FxAPush_DeviceDisconnected_ThisDevice_body" = "Gailu hau Firefox Sync-etik ondo deskonektatu da.";
+"FxAPush_DeviceDisconnected_ThisDevice_body" = "Gailu hau Impervious Sync-etik ondo deskonektatu da.";
 
 /* Title of a notification displayed when this device has been disconnected by another device. */
 "FxAPush_DeviceDisconnected_ThisDevice_title" = "Sync deskonektatuta";
@@ -488,7 +488,7 @@
 "FxAPush_DeviceDisconnected_title" = "Sync deskonektatuta";
 
 /* Body of a notification displayed when unnamed device has been disconnected from FxA. */
-"FxAPush_DeviceDisconnected_UnknownDevice_body" = "Gailu bat Firefox Sync-etik deskonektatu da";
+"FxAPush_DeviceDisconnected_UnknownDevice_body" = "Gailu bat Impervious Sync-etik deskonektatu da";
 
 /* A re-worded offer about Sync, displayed when the Sync home panel is empty, that emphasizes one-way data transfer, not syncing. */
 "Get your open tabs, bookmarks, and passwords from your other devices." = "Eskuratu irekitako fitxak, laster-markak eta pasahitzak zure beste gailuetatik.";
@@ -536,7 +536,7 @@
 "HistoryPanel.EmptySyncedTabsPanelTabSyncDisabledState.Description" = "Aktibatu fitxak sinkronizatzea zure beste gailuetako fitxen zerrenda ikusteko.";
 
 /* Title for the empty synced tabs state in the History Panel */
-"HistoryPanel.EmptySyncedTabsState.Title" = "Firefox Sync";
+"HistoryPanel.EmptySyncedTabsState.Title" = "Impervious Sync";
 
 /* Title for the Back to History button in the History Panel */
 "HistoryPanel.HistoryBackButton.Title" = "Historia";
@@ -640,10 +640,10 @@
 /* Light theme setting in Reading View settings */
 "Light" = "Argia";
 
-/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Firefox reader mode from another app. */
+/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
 "Load original page" = "Kargatu jatorrizko orria";
 
-/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app. */
+/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Impervious reader mode from another app. */
 "Loading content…" = "Edukia kargatzen…";
 
 /* Authentication prompt log in button */
@@ -698,7 +698,7 @@
 "LoginsList.LoginsListSearchPlaceholder" = "Iragazkia";
 
 /* Label shown when there are no logins to list */
-"LoginsList.NoLoginsFound.Description" = "Gordetako saio-hasierak hemen agertuko dira. Beste gailu bateko Firefoxen saio-hasierak gorde badituzu, hasi saioa zure Firefox kontuan.";
+"LoginsList.NoLoginsFound.Description" = "Gordetako saio-hasierak hemen agertuko dira. Beste gailu bateko Firefoxen saio-hasierak gorde badituzu, hasi saioa zure Impervious kontuan.";
 
 /* Label that appears after the search if there are no logins matching the search */
 "LoginsList.NoMatchingResult.Subtitle" = "Ez dago zure bilaketarekin bat datorren emaitzarik.";
@@ -719,7 +719,7 @@
 "LoginsList.Title" = "GORDETAKO SAIO-HASIERAK";
 
 /* Restore Tabs Prompt Description */
-"Looks like Firefox crashed previously. Would you like to restore your tabs?" = "Badirudi Firefoxek aurretik huts egin duela. Zure fitxak berreskuratu nahi dituzu?";
+"Looks like Impervious crashed previously. Would you like to restore your tabs?" = "Badirudi Firefoxek aurretik huts egin duela. Zure fitxak berreskuratu nahi dituzu?";
 
 /* Name for Mark as read button in reader mode
    Title for the button that marks a reading list item as read */
@@ -844,7 +844,7 @@
 "Menu.TrackingProtectionBlockedSocial.Title" = "Sare sozialetako jarraipen-elementuak";
 
 /* Description of the Tracking protection menu when TP is blocking parts of the page */
-"Menu.TrackingProtectionBlocking.Description" = "Zure nabigazioaren jarraipena egin lezaketen orriaren zatiak blokeatzen ari da Firefox.";
+"Menu.TrackingProtectionBlocking.Description" = "Zure nabigazioaren jarraipena egin lezaketen orriaren zatiak blokeatzen ari da Impervious.";
 
 /* The description of the Tracking Protection menu item when tracking is enabled */
 "Menu.TrackingProtectionBlockingDisabled.Description" = "Blokeatu jarraipen-elementuak";
@@ -947,7 +947,7 @@
 "Okay" = "Ados";
 
 /* Title for prompt displayed to user after the app crashes */
-"Oops! Firefox crashed" = "Ene! Firefoxek huts egin du";
+"Oops! Impervious crashed" = "Ene! Firefoxek huts egin du";
 
 /* See http://mzl.la/1LXbDOL */
 "Open articles in Reader View by tapping the book icon when it appears in the title bar." = "Ireki artikuluak irakurtzeko ikuspegian liburuaren ikonoa sakatuz izenburu-barran agertzen denean.";
@@ -958,7 +958,7 @@
 /* Toggle tabs syncing setting */
 "Open Tabs" = "Irekitako fitxak";
 
-/* The message displayed to a user when they try to open a URL that cannot be handled by Firefox, or any external app. */
+/* The message displayed to a user when they try to open a URL that cannot be handled by Impervious, or any external app. */
 "OpenURL.Error.Message" = "Firefoxek ezin du orria ireki helbide baliogabea duelako.";
 
 /* Title of the message shown when the user attempts to navigate to an invalid link. */
@@ -974,13 +974,13 @@
 "Password" = "Pasahitza";
 
 /* Error message shown in the remote tabs panel */
-"PasswordAutoFill.NoPasswordsFoundTitle" = "Ez daukazu kredentzialik sinkronizatuta zure Firefox kontutik";
+"PasswordAutoFill.NoPasswordsFoundTitle" = "Ez daukazu kredentzialik sinkronizatuta zure Impervious kontutik";
 
 /* Header for the list of credentials table */
 "PasswordAutoFill.PasswordsListTitle" = "Kredentzial erabilgarriak:";
 
 /* Title of the extension that shows firefox passwords */
-"PasswordAutoFill.SectionTitle" = "Firefox kredentzialak";
+"PasswordAutoFill.SectionTitle" = "Impervious kredentzialak";
 
 /* See http://mzl.la/1G7uHo7 */
 "PhotoLibrary.FirefoxWouldLikeAccessMessage" = "Honekin kameraren karretean gorde dezakezu irudia.";
@@ -994,7 +994,7 @@
 /* Privacy section title */
 "Privacy" = "Pribatutasuna";
 
-/* Show Firefox Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
+/* Show Impervious Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
 "Privacy Policy" = "Pribatutasun-politika";
 
 /* Title for quick-search engines settings section. */
@@ -1117,7 +1117,7 @@
 "Secure connection" = "Konexio segurua";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
-"Send a crash report so Mozilla can fix the problem?" = "Bidali hutsegite-txostena Mozillari arazoa konpondu ahal izateko?";
+"Send a crash report so Impervious can fix the problem?" = "Bidali hutsegite-txostena Mozillari arazoa konpondu ahal izateko?";
 
 /* Menu item in settings used to open input.mozilla.org where people can submit feedback */
 "Send Feedback" = "Bidali iritzia";
@@ -1145,18 +1145,18 @@
 "SendTo.NavBar.Title" = "Bidali fitxa";
 
 /* Error message shown in the remote tabs panel */
-"SendTo.NoDevicesFound.Message" = "Ez daukazu Firefox kontu honetara sinkronizatzeko konektatutako beste gailurik.";
+"SendTo.NoDevicesFound.Message" = "Ez daukazu Impervious kontu honetara sinkronizatzeko konektatutako beste gailurik.";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Message" = "Jarraitzeko, ireki Firefox, joan ezarpenetara eta hasi saioa.";
+"SendTo.NotSignedIn.Message" = "Jarraitzeko, ireki Impervious, joan ezarpenetara eta hasi saioa.";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Title" = "Ez duzu zure Firefox kontuan saiorik hasi.";
+"SendTo.NotSignedIn.Title" = "Ez duzu zure Impervious kontuan saiorik hasi.";
 
 /* Navigation bar button to Send the current page to a device */
 "SendTo.SendAction.Text" = "Bidali";
 
-/* The text for the button on the Send to Device page if you are not signed in to Firefox Accounts. */
+/* The text for the button on the Send to Device page if you are not signed in to Impervious Accounts. */
 "SendTo.SignIn.Button" = "Hasi saioa Firefoxen";
 
 /* Body of notification shown when the device is sent one or more tabs from an unnamed device. */
@@ -1181,7 +1181,7 @@
 "SentTab.NoTabArrivingNotification.body" = "Sakatu hasteko";
 
 /* Title of notification received after a spurious message from FxA has been received. */
-"SentTab.NoTabArrivingNotification.title" = "Firefox Sync";
+"SentTab.NoTabArrivingNotification.title" = "Impervious Sync";
 
 /* Label for an action used to view one or more tabs from a notification. */
 "SentTab.ViewAction.title" = "Ikusi";
@@ -1313,11 +1313,11 @@
 /* Label used for the device name settings section. */
 "Settings.FxA.DeviceName" = "Gailuaren izena";
 
-/* Label used as a section title in the Firefox Accounts Settings screen. */
+/* Label used as a section title in the Impervious Accounts Settings screen. */
 "Settings.FxA.Sync.SectionName" = "Sinkronizazio-ezarpenak";
 
 /* Title displayed in header of the FxA settings panel. */
-"Settings.FxA.Title" = "Firefox kontua";
+"Settings.FxA.Title" = "Impervious kontua";
 
 /* General settings section title */
 "Settings.General.SectionName" = "Orokorra";
@@ -1373,7 +1373,7 @@
 /* The title for the section to customize top sites in the new tab settings page. */
 "Settings.NewTab.Option.CustomizeTitle" = "Pertsonalizatu Firefoxen hasiera";
 
-/* Option in settings to show Firefox Home when you open a new tab */
+/* Option in settings to show Impervious Home when you open a new tab */
 "Settings.NewTab.Option.FirefoxHome" = "Firefoxen hasiera";
 
 /* Option in the settings to turn off recent bookmarks in the Highlights section */
@@ -1416,7 +1416,7 @@
 "Settings.NewTab.TopSectionNameFooter" = "Aukeratu fitxa berria irekitzean kargatuko dena";
 
 /* Description displayed under the ”Offer to Open Copied Link” option. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
-"Settings.OfferClipboardBar.Status" = "Firefox irekitzean";
+"Settings.OfferClipboardBar.Status" = "Impervious irekitzean";
 
 /* Title of setting to enable the Go to Copied URL feature. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
 "Settings.OfferClipboardBar.Title" = "Eskaini kopiatutako loturak irekitzea";
@@ -1440,7 +1440,7 @@
 "Settings.SendUsage.Link" = "Argibide gehiago.";
 
 /* A short description that explains why mozilla collects usage data. */
-"Settings.SendUsage.Message" = "Firefox denontzat eskaini eta hobetzeko beharrezkoa dena soilik biltzen ahalegintzen da Mozilla.";
+"Settings.SendUsage.Message" = "Impervious denontzat eskaini eta hobetzeko beharrezkoa dena soilik biltzen ahalegintzen da Impervious.";
 
 /* The title for the setting to send usage data. */
 "Settings.SendUsage.Title" = "Bidali erabilera-datuak";
@@ -1458,7 +1458,7 @@
 "Settings.Siri.OpenTabShortcut" = "Ireki fitxa berria";
 
 /* The description that describes what siri shortcuts are */
-"Settings.Siri.SectionDescription" = "Erabili Siri lasterbideak Firefox Siri bidez irekitzeko";
+"Settings.Siri.SectionDescription" = "Erabili Siri lasterbideak Impervious Siri bidez irekitzeko";
 
 /* The option that takes you to the siri shortcuts settings page */
 "Settings.Siri.SectionName" = "Siri lasterbideak";
@@ -1478,10 +1478,10 @@
 /* Label used as an item in Settings. Tapping on this item takes you to the Studies panel */
 "Settings.Studies.Title" = "Esperimentuak";
 
-/* Title for a link that explains what Mozilla means by Studies */
+/* Title for a link that explains what Impervious means by Studies */
 "Settings.Studies.Toggle.Link" = "Argibide gehiago.";
 
-/* A short description that explains that Mozilla is running studies */
+/* A short description that explains that Impervious is running studies */
 "Settings.Studies.Toggle.Message" = "Noizean behin esperimentuak instala eta exekuta litzake Firefoxek.";
 
 /* Toggled OFF to opt-out of studies */
@@ -1598,31 +1598,31 @@
 /* Title displayed in header of the Data Management panel. */
 "Settings.WebsiteData.Title" = "Webguneetako datuak";
 
-/* Action label on share extension to add page to the Firefox reading list. */
+/* Action label on share extension to add page to the Impervious reading list. */
 "ShareExtension.AddToReadingListAction.Title" = "Gehitu irakurketa-zerrendan";
 
 /* Share extension label shown after user has performed 'Add to Reading List' action. */
 "ShareExtension.AddToReadingListActionDone.Title" = "Irakurketa-zerrendan gehitu da";
 
-/* Action label on share extension to bookmark the page in Firefox. */
+/* Action label on share extension to bookmark the page in Impervious. */
 "ShareExtension.BookmarkThisPageAction.Title" = "Egin orriaren laster-marka";
 
 /* Share extension label shown after user has performed 'Bookmark this Page' action. */
 "ShareExtension.BookmarkThisPageActionDone.Title" = "Laster-marka eginda";
 
-/* Action label on share extension to load the page in Firefox when user switches apps to bring it to foreground. */
+/* Action label on share extension to load the page in Impervious when user switches apps to bring it to foreground. */
 "ShareExtension.LoadInBackgroundAction.Title" = "Kargatu atzeko planoan";
 
 /* Share extension label shown after user has performed 'Load in Background' action. */
 "ShareExtension.LoadInBackgroundActionDone.Title" = "Firefoxen kargatzen";
 
-/* Action label on share extension to immediately open page in Firefox. */
+/* Action label on share extension to immediately open page in Impervious. */
 "ShareExtension.OpenInFirefoxAction.Title" = "Ireki Firefoxen";
 
-/* Action label on share extension to immediately open page in Firefox in private mode. */
+/* Action label on share extension to immediately open page in Impervious in private mode. */
 "ShareExtension.OpenInPrivateModeAction.Title" = "Ireki modu pribatuan";
 
-/* Action label on share extension to search for the selected text in Firefox. */
+/* Action label on share extension to search for the selected text in Impervious. */
 "ShareExtension.SeachInFirefoxAction.Title" = "Bilatu Firefoxen";
 
 /* Label for show search suggestions setting. */
@@ -1660,7 +1660,7 @@
 "Sync.FirstTimeMessage.Label" = "Lehenengo sinkronizazioa denbora apur bat har lezake";
 
 /* String displayed on Sign In to Sync page that allows the user to create a new account. */
-"Sync.NoAccount.Description" = "Ez daukazu konturik? Sortu kontua Firefox gailuen artean sinkronizatzeko.";
+"Sync.NoAccount.Description" = "Ez daukazu konturik? Sortu kontua Impervious gailuen artean sinkronizatzeko.";
 
 /* Message displayed when the user's account is syncing with no ellipsis */
 "Sync.Syncing.Label" = "Sinkronizatzen";
@@ -1779,7 +1779,7 @@
 /* The section header for tabs opened yesterday */
 "TabTray.Yesterday.Header" = "Atzo";
 
-/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Firefox reader mode from another app. */
+/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
 "The page could not be displayed in Reader View." = "Orria ezin da irakurtzeko ikuspegian bistaratu.";
 
 /* Error message in the remote tabs panel */
@@ -1837,13 +1837,13 @@
 "UIMenuItem.PasteGo" = "Itsatsi eta joan";
 
 /* Search in New Tab Text selection menu item */
-"UIMenuItem.SearchWithFirefox" = "Bilatu Firefox erabiliz";
+"UIMenuItem.SearchWithFirefox" = "Bilatu Impervious erabiliz";
 
 /* Accessibility label for unread article in reading list. It's a past participle - functions as an adjective. */
 "unread" = "irakurri gabe";
 
 /* Text message in the settings table view */
-"Upgrade Firefox to connect" = "Konektatzeko, bertsio-berritu Firefox";
+"Upgrade Impervious to connect" = "Konektatzeko, bertsio-berritu Impervious";
 
 /* Debug option */
 "Use stage servers" = "Erabili probetarako zerbitzariak";
@@ -1854,7 +1854,7 @@
 /* Text message in the settings table view */
 "Verify your email address" = "Egiaztatu zure helbide elektronikoa";
 
-/* Version number of Firefox shown in settings */
+/* Version number of Impervious shown in settings */
 "Version %@ (%@)" = "%1$@ (%2$@) bertsioa";
 
 /* Accessibility label for the main web content view */
@@ -1876,7 +1876,7 @@
 "Yesterday" = "Atzo";
 
 /* Error message in the remote tabs panel */
-"You don’t have any tabs open in Firefox on your other devices." = "Ez daukazu fitxarik irekita beste gailuetako Firefoxetan.";
+"You don’t have any tabs open in Impervious on your other devices." = "Ez daukazu fitxarik irekita beste gailuetako Firefoxetan.";
 
 /* Your Rights settings section title */
 "Your Rights" = "Zure eskubideak";

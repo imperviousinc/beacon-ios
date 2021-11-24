@@ -270,7 +270,7 @@
 "Could not load page." = "Cha b’ urrainn dhuinn an duilleag a luchdadh.";
 
 /* Description for the new dark mode change in the version 22 app release. It describes the new automatic dark theme and how to change the theme settings. */
-"CoverSheet.v22.DarkMode.Description" = "Dùisgidh Firefox an t-ùrlar dorcha gu fèin-obrachail a-nis air iOS 13 ma bhios am fòn agad sa mhodh dorcha. Airson an giùlan seo atharrachadh, tadhail air “Roghainnean” > “An t-ùrlar”.";
+"CoverSheet.v22.DarkMode.Description" = "Dùisgidh Impervious an t-ùrlar dorcha gu fèin-obrachail a-nis air iOS 13 ma bhios am fòn agad sa mhodh dorcha. Airson an giùlan seo atharrachadh, tadhail air “Roghainnean” > “An t-ùrlar”.";
 
 /* Title for the new dark mode change in the version 22 app release. */
 "CoverSheet.v22.DarkMode.Title" = "Tha an t-ùrlar dorcha a’ gabhail a-staigh meur-chlàr dorcha agus sgrìn spladh dorch a-nis.";
@@ -325,8 +325,8 @@
 /* Alert dialog title when the user taps the cancel download icon. */
 "Downloads.CancelDialog.Title" = "Sguir dhen luchdadh a-nuas";
 
-/* The message displayed to a user when they try and perform the download of an asset that Firefox cannot currently handle. */
-"Downloads.Error.Message" = "Chan urrainnear luchdadh a-nuas ann am Firefox fhathast.";
+/* The message displayed to a user when they try and perform the download of an asset that Impervious cannot currently handle. */
+"Downloads.Error.Message" = "Chan urrainnear luchdadh a-nuas ann am Impervious fhathast.";
 
 /* The label text in the Download Cancelled toast for showing confirmation that the download was cancelled. */
 "Downloads.Toast.Cancelled.LabelText" = "Sguireadh dhen luchdadh a-nuas";
@@ -371,7 +371,7 @@
 "ErrorPages.AdvancedWarning2.Text" = "Dh’fhaoidte gu bheil e air a dhroch-rèiteachadh no gu bheil cuideigin a’ toirt ionnsaigh air. Lean air d’ adhart ma tha thu leagte ris a leithid a chunnart.";
 
 /* Warning text on the certificate error page */
-"ErrorPages.CertWarning.Description" = "Rinn an neach aig a bheil %@ droch-rèiteachadh air an làrach-lìn aca. Cha do rinn Firefox ceangal ris an làrach-lìn seo air eagal ’s gun rachadh dàta a ghoid ort.";
+"ErrorPages.CertWarning.Description" = "Rinn an neach aig a bheil %@ droch-rèiteachadh air an làrach-lìn aca. Cha do rinn Impervious ceangal ris an làrach-lìn seo air eagal ’s gun rachadh dàta a ghoid ort.";
 
 /* Title on the certificate error page */
 "ErrorPages.CertWarning.Title" = "Chan eil earbsa sa cheangal";
@@ -392,7 +392,7 @@
 "Facebook" = "Facebook";
 
 /* Title for firefox about:home page in tab history list */
-"Firefox.HomePage.Title" = "Duilleag mhòr Firefox";
+"Firefox.HomePage.Title" = "Duilleag mhòr Impervious";
 
 /* Accessibility Label for the tab toolbar Forward button */
 "Forward" = "Air adhart";
@@ -403,16 +403,16 @@
 /* Label stating your account is not verified */
 "FxA.AccountVerificationRequired" = "Feum air dearbhadh a’ chunntais";
 
-/* Message explaining that user needs to check email for Firefox Account verfication link. */
-"FxA.AccountVerificationRequiredSurface" = "Feumaidh tu %@ a dhearbhadh. Thoir sùil air a’ phost-d agad airson a’ cheangail dearbhaidh o Firefox.";
+/* Message explaining that user needs to check email for Impervious Account verfication link. */
+"FxA.AccountVerificationRequiredSurface" = "Feumaidh tu %@ a dhearbhadh. Thoir sùil air a’ phost-d agad airson a’ cheangail dearbhaidh o Impervious.";
 
 /* Button label to connect another device to Sync */
 "FxA.ConnectAnotherDevice" = "Ceangail uidheam eile ris";
 
-/* Settings section title for Firefox Account */
-"FxA.FirefoxAccount" = "Cunntas Firefox";
+/* Settings section title for Impervious Account */
+"FxA.FirefoxAccount" = "Cunntas Impervious";
 
-/* Button label to go to Firefox Account settings */
+/* Button label to go to Impervious Account settings */
 "FxA.ManageAccount" = "Stiùirich an cunntas ⁊ na h-uidheaman";
 
 /* Label when no internet is present */
@@ -428,7 +428,7 @@
 "FxA.RemoveAccount" = "Thoir air falbh";
 
 /* Description string for alert view that gets presented when user tries to remove an account. */
-"FxA.RemoveAccountAlertMessage" = "Thoir air falbh an cunntas Firefox a tha co-cheangailte ris an uidheam seo airson clàradh a-steach mar chleachdaiche eile.";
+"FxA.RemoveAccountAlertMessage" = "Thoir air falbh an cunntas Impervious a tha co-cheangailte ris an uidheam seo airson clàradh a-steach mar chleachdaiche eile.";
 
 /* Remove account alert is the final confirmation before user removes their firefox account */
 "FxA.RemoveAccountAlertTitle" = "Thoir an cunntas air falbh";
@@ -440,13 +440,13 @@
 "fxa.signin.camera-signin" = "Clàraich a-steach leis a’ chamara agad";
 
 /* FxA sign in create account label. */
-"fxa.signin.create-account-pt-1" = "Sioncronaich Firefox eadar uidheaman le cunntas.";
+"fxa.signin.create-account-pt-1" = "Sioncronaich Impervious eadar uidheaman le cunntas.";
 
 /* FxA sign in create account label. This will be linked to the site to create an account. */
-"fxa.signin.create-account-pt-2" = "Cruthaich cunntas Firefox.";
+"fxa.signin.create-account-pt-2" = "Cruthaich cunntas Impervious.";
 
 /* FxA sign in view qr code instructions */
-"fxa.signin.qr-link-instruction" = "Fosgail Firefox air a’ choimpiutair agad is tadhail air firefox.com/pair";
+"fxa.signin.qr-link-instruction" = "Fosgail Impervious air a’ choimpiutair agad is tadhail air firefox.com/pair";
 
 /* FxA sign in view qr code scan button */
 "fxa.signin.ready-to-scan" = "Deiseil airson sganadh";
@@ -463,14 +463,14 @@
 /* Label explaining what sync does */
 "FxA.SyncExplain" = "Faigh na tabaichean, comharran-lìn is faclan-faire o na h-uidheaman eile agad.";
 
-/* Button label to Sync your Firefox Account */
+/* Button label to Sync your Impervious Account */
 "FxA.SyncNow" = "Sioncronaich an-dràsta";
 
 /* Call to action for sign into sync button */
 "FxA.TakeYourWebWithYou" = "Thoir leat an lìon";
 
 /* Title of a notification displayed when another device has connected to FxA. %@ refers to the name of the newly connected device. */
-"FxAPush_DeviceConnected_body" = "Cheangail gleus sioncronachadh Firefox ri %@";
+"FxAPush_DeviceConnected_body" = "Cheangail gleus sioncronachadh Impervious ri %@";
 
 /* Title of a notification displayed when another device has connected to FxA. */
 "FxAPush_DeviceConnected_title" = "Rinn gleus an t-sioncronachaidh ceangal";
@@ -479,7 +479,7 @@
 "FxAPush_DeviceDisconnected_body" = "Chaidh %@ a dhì-cheangal.";
 
 /* Body of a notification displayed when this device has been disconnected from FxA by another device. */
-"FxAPush_DeviceDisconnected_ThisDevice_body" = "Chaidh an t-uidheam seo a dhì-cheangal o ghleus sioncronachadh Firefox.";
+"FxAPush_DeviceDisconnected_ThisDevice_body" = "Chaidh an t-uidheam seo a dhì-cheangal o ghleus sioncronachadh Impervious.";
 
 /* Title of a notification displayed when this device has been disconnected by another device. */
 "FxAPush_DeviceDisconnected_ThisDevice_title" = "Chaidh gleus an t-sioncronachaidh a dhì-cheangal";
@@ -488,7 +488,7 @@
 "FxAPush_DeviceDisconnected_title" = "Chaidh gleus an t-sioncronachaidh a dhì-cheangal";
 
 /* Body of a notification displayed when unnamed device has been disconnected from FxA. */
-"FxAPush_DeviceDisconnected_UnknownDevice_body" = "Dhì-cheangail uidheam o ghleus sioncronachadh Firefox";
+"FxAPush_DeviceDisconnected_UnknownDevice_body" = "Dhì-cheangail uidheam o ghleus sioncronachadh Impervious";
 
 /* A re-worded offer about Sync, displayed when the Sync home panel is empty, that emphasizes one-way data transfer, not syncing. */
 "Get your open tabs, bookmarks, and passwords from your other devices." = "Faigh tabaichean fosgailte, comharran-lìn is faclan-faire o uidheaman eile agad.";
@@ -536,7 +536,7 @@
 "HistoryPanel.EmptySyncedTabsPanelTabSyncDisabledState.Description" = "Cuir air sioncronachadh nan tabaichean airson cothrom fhaighinn air na tabaichean agad o uidheaman eile.";
 
 /* Title for the empty synced tabs state in the History Panel */
-"HistoryPanel.EmptySyncedTabsState.Title" = "Sioncronachadh Firefox";
+"HistoryPanel.EmptySyncedTabsState.Title" = "Sioncronachadh Impervious";
 
 /* Title for the Back to History button in the History Panel */
 "HistoryPanel.HistoryBackButton.Title" = "An eachdraidh";
@@ -640,10 +640,10 @@
 /* Light theme setting in Reading View settings */
 "Light" = "Sorcha";
 
-/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Firefox reader mode from another app. */
+/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
 "Load original page" = "Luchdaich an duilleag thùsail";
 
-/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app. */
+/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Impervious reader mode from another app. */
 "Loading content…" = "A’ luchdadh na susbaint…";
 
 /* Authentication prompt log in button */
@@ -698,7 +698,7 @@
 "LoginsList.Title" = "CLÀRAIDHEAN A-STEACH A SHÀBHAILEADH";
 
 /* Restore Tabs Prompt Description */
-"Looks like Firefox crashed previously. Would you like to restore your tabs?" = "Tha coltas gun do thuislich Firefox roimhe. A bheil thu ag iarraidh nan tabaichean air ais?";
+"Looks like Impervious crashed previously. Would you like to restore your tabs?" = "Tha coltas gun do thuislich Impervious roimhe. A bheil thu ag iarraidh nan tabaichean air ais?";
 
 /* Name for Mark as read button in reader mode
    Title for the button that marks a reading list item as read */
@@ -742,10 +742,10 @@
 "Menu.EnhancedTrackingProtectionOn.Title" = "Tha an dìon adhartach o thracadh air air an làrach seo.";
 
 /* Description for having standard ETP protection with ITP offered in iOS14+ */
-"Menu.EnhancedTrackingProtectionStandardWithITP.Title" = "Bacaidh Firefox tracaichean thar-làraich, tracaichean sòisealta, criopto-mhèinneadairean agus lorgaichean-meòir.";
+"Menu.EnhancedTrackingProtectionStandardWithITP.Title" = "Bacaidh Impervious tracaichean thar-làraich, tracaichean sòisealta, criopto-mhèinneadairean agus lorgaichean-meòir.";
 
 /* Description for having strict ETP protection with ITP offered in iOS14+ */
-"Menu.EnhancedTrackingProtectionStrictWithITP.Title" = "Bacaidh Firefox tracaichean thar-làraich, tracaichean sòisealta, criopto-mhèinneadairean, lorgaichean-meòir agus susbaint tracaidh.";
+"Menu.EnhancedTrackingProtectionStrictWithITP.Title" = "Bacaidh Impervious tracaichean thar-làraich, tracaichean sòisealta, criopto-mhèinneadairean, lorgaichean-meòir agus susbaint tracaidh.";
 
 /* Label for the button, displayed in the menu, takes you to to History screen when pressed. */
 "Menu.History.Label" = "An eachdraidh";
@@ -808,7 +808,7 @@
 "Menu.TrackingProtection.BlockedTitle" = "Air a bhacadh";
 
 /* Message in menu when no trackers blocked. */
-"Menu.TrackingProtection.NoTrackersBlockedTitle" = "Cha do mhothaich sinn do thracaiche as aithne dha Firefox air an duilleag seo.";
+"Menu.TrackingProtection.NoTrackersBlockedTitle" = "Cha do mhothaich sinn do thracaiche as aithne dha Impervious air an duilleag seo.";
 
 /* The title for tracking protection settings */
 "Menu.TrackingProtection.ProtectionSettings.Title" = "Roghainnean an dìon";
@@ -823,7 +823,7 @@
 "Menu.TrackingProtectionBlockedSocial.Title" = "Tracaichean sòisealta";
 
 /* Description of the Tracking protection menu when TP is blocking parts of the page */
-"Menu.TrackingProtectionBlocking.Description" = "Tha Firefox a’ bacadh nan rudan air an duilleag a dhèanadh tracadh ort.";
+"Menu.TrackingProtectionBlocking.Description" = "Tha Impervious a’ bacadh nan rudan air an duilleag a dhèanadh tracadh ort.";
 
 /* The description of the Tracking Protection menu item when tracking is enabled */
 "Menu.TrackingProtectionBlockingDisabled.Description" = "Bac tracaichean air loidhne";
@@ -926,7 +926,7 @@
 "Okay" = "Ceart ma-thà";
 
 /* Title for prompt displayed to user after the app crashes */
-"Oops! Firefox crashed" = "Ìoc! Thuislich Firefox";
+"Oops! Impervious crashed" = "Ìoc! Thuislich Impervious";
 
 /* See http://mzl.la/1LXbDOL */
 "Open articles in Reader View by tapping the book icon when it appears in the title bar." = "Fosgail artaigilean san t-sealladh leughaidh le gnogag air ìomhaigheag an leabhair nuair a nochdas e ann am bàr an tiotail.";
@@ -937,8 +937,8 @@
 /* Toggle tabs syncing setting */
 "Open Tabs" = "Tabaichean fosgailte";
 
-/* The message displayed to a user when they try to open a URL that cannot be handled by Firefox, or any external app. */
-"OpenURL.Error.Message" = "Chan urrainn dha Firefox an duilleag fhosgladh a chionn ’s gu bheul an seòladh cearr.";
+/* The message displayed to a user when they try to open a URL that cannot be handled by Impervious, or any external app. */
+"OpenURL.Error.Message" = "Chan urrainn dha Impervious an duilleag fhosgladh a chionn ’s gu bheul an seòladh cearr.";
 
 /* Title of the message shown when the user attempts to navigate to an invalid link. */
 "OpenURL.Error.Title" = "Cha ghabh an duilleag fhosgladh";
@@ -953,19 +953,19 @@
 "Password" = "Facal-faire";
 
 /* Error message shown in the remote tabs panel */
-"PasswordAutoFill.NoPasswordsFoundTitle" = "Chan eil ainm-cleachdaiche ’s facal-faire sam bith ann a chaidh a shioncronachadh a-nall on chunntas Firefox agad";
+"PasswordAutoFill.NoPasswordsFoundTitle" = "Chan eil ainm-cleachdaiche ’s facal-faire sam bith ann a chaidh a shioncronachadh a-nall on chunntas Impervious agad";
 
 /* Header for the list of credentials table */
 "PasswordAutoFill.PasswordsListTitle" = "Teisteasan a tha ri làimh:";
 
 /* Title of the extension that shows firefox passwords */
-"PasswordAutoFill.SectionTitle" = "Teisteasan Firefox";
+"PasswordAutoFill.SectionTitle" = "Teisteasan Impervious";
 
 /* See http://mzl.la/1G7uHo7 */
 "PhotoLibrary.FirefoxWouldLikeAccessMessage" = "Bheir seo comas dhut an dealbh a shàbhaladh ann an albam a’ chamara agad.";
 
 /* See http://mzl.la/1G7uHo7 */
-"PhotoLibrary.FirefoxWouldLikeAccessTitle" = "Bu mhath le Firefox cothrom air na dealbhan agad";
+"PhotoLibrary.FirefoxWouldLikeAccessTitle" = "Bu mhath le Impervious cothrom air na dealbhan agad";
 
 /* Button for closing the menu action sheet */
 "PhotonMenu.close" = "Dùin";
@@ -973,7 +973,7 @@
 /* Privacy section title */
 "Privacy" = "Prìobhaideachd";
 
-/* Show Firefox Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
+/* Show Impervious Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
 "Privacy Policy" = "Am poileasaidh prìobhaideachd";
 
 /* Title for quick-search engines settings section. */
@@ -1040,7 +1040,7 @@
 "ScanQRCode.InvalidDataError.Message" = "Tha an dàta mì-dhligheach";
 
 /* Text of the prompt user to setup the camera authorization. */
-"ScanQRCode.PermissionError.Message" = "Thoir inntrigeadh do chamara an uidheim agad dha Firefox ann an “Roghainnean” » “Prìobhaideachd” » “Camara”.";
+"ScanQRCode.PermissionError.Message" = "Thoir inntrigeadh do chamara an uidheim agad dha Impervious ann an “Roghainnean” » “Prìobhaideachd” » “Camara”.";
 
 /* Title for the QR code scanner view. */
 "ScanQRCode.View.Title" = "Sganaich an còd QR";
@@ -1096,7 +1096,7 @@
 "Secure connection" = "Ceangal tèarainte";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
-"Send a crash report so Mozilla can fix the problem?" = "A bheil thu deònach aithisg a chur gu Mozilla mun tuisleadh ach an urrainn dhuinn a chàradh?";
+"Send a crash report so Impervious can fix the problem?" = "A bheil thu deònach aithisg a chur gu Impervious mun tuisleadh ach an urrainn dhuinn a chàradh?";
 
 /* Menu item in settings used to open input.mozilla.org where people can submit feedback */
 "Send Feedback" = "Cuir thugainn do bheachdan";
@@ -1124,19 +1124,19 @@
 "SendTo.NavBar.Title" = "Cuir an taba";
 
 /* Error message shown in the remote tabs panel */
-"SendTo.NoDevicesFound.Message" = "Cha do cheangail thu uidheam sam bith eile ris a’ chunntas Firefox seo as urrainn dhut sioncronachadh.";
+"SendTo.NoDevicesFound.Message" = "Cha do cheangail thu uidheam sam bith eile ris a’ chunntas Impervious seo as urrainn dhut sioncronachadh.";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Message" = "Fosgail na roghainnean ann am Firefox is clàraich a-steach a leantainn air adhart.";
+"SendTo.NotSignedIn.Message" = "Fosgail na roghainnean ann am Impervious is clàraich a-steach a leantainn air adhart.";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Title" = "Cha do rinn thu clàradh a-steach dhan chunntas Firefox agad.";
+"SendTo.NotSignedIn.Title" = "Cha do rinn thu clàradh a-steach dhan chunntas Impervious agad.";
 
 /* Navigation bar button to Send the current page to a device */
 "SendTo.SendAction.Text" = "Cuir";
 
-/* The text for the button on the Send to Device page if you are not signed in to Firefox Accounts. */
-"SendTo.SignIn.Button" = "Clàraich a-steach gu Firefox";
+/* The text for the button on the Send to Device page if you are not signed in to Impervious Accounts. */
+"SendTo.SignIn.Button" = "Clàraich a-steach gu Impervious";
 
 /* Body of notification shown when the device is sent one or more tabs from an unnamed device. */
 "SentTab_TabArrivingNotification_NoDevice_body" = "Ràinig taba ùr o uidheam eile.";
@@ -1160,7 +1160,7 @@
 "SentTab.NoTabArrivingNotification.body" = "Thoir gnogag airson tòiseachadh";
 
 /* Title of notification received after a spurious message from FxA has been received. */
-"SentTab.NoTabArrivingNotification.title" = "Sioncronachadh Firefox";
+"SentTab.NoTabArrivingNotification.title" = "Sioncronachadh Impervious";
 
 /* Label for an action used to view one or more tabs from a notification. */
 "SentTab.ViewAction.title" = "Sealladh";
@@ -1223,7 +1223,7 @@
 "Settings.DataManagement.Title" = "Stiùireadh dàta";
 
 /* Body of the alert when prompting the user asking to disconnect. */
-"Settings.Disconnect.Body" = "Sguiridh Firefox de shioncronachadh a’ chunntais agad ach cha sguab e às gin dhen dàta brabhsaidh agad air an uidheam seo.";
+"Settings.Disconnect.Body" = "Sguiridh Impervious de shioncronachadh a’ chunntais agad ach cha sguab e às gin dhen dàta brabhsaidh agad air an uidheam seo.";
 
 /* Button displayed at the bottom of settings page allowing users to Disconnect from FxA */
 "Settings.Disconnect.Button" = "Dì-cheangail gleus an t-sioncronachaidh";
@@ -1292,11 +1292,11 @@
 /* Label used for the device name settings section. */
 "Settings.FxA.DeviceName" = "Ainm an uidheim";
 
-/* Label used as a section title in the Firefox Accounts Settings screen. */
+/* Label used as a section title in the Impervious Accounts Settings screen. */
 "Settings.FxA.Sync.SectionName" = "Roghainnean sioncronachaidh";
 
 /* Title displayed in header of the FxA settings panel. */
-"Settings.FxA.Title" = "Cunntas Firefox";
+"Settings.FxA.Title" = "Cunntas Impervious";
 
 /* General settings section title */
 "Settings.General.SectionName" = "Coitcheann";
@@ -1350,10 +1350,10 @@
 "Settings.NewTab.Option.CustomizeFooter2" = "Làraichean a shàbhail thu no a thadhail thu orra";
 
 /* The title for the section to customize top sites in the new tab settings page. */
-"Settings.NewTab.Option.CustomizeTitle" = "Gnàthaich dachaigh Firefox";
+"Settings.NewTab.Option.CustomizeTitle" = "Gnàthaich dachaigh Impervious";
 
-/* Option in settings to show Firefox Home when you open a new tab */
-"Settings.NewTab.Option.FirefoxHome" = "Dachaigh Firefox";
+/* Option in settings to show Impervious Home when you open a new tab */
+"Settings.NewTab.Option.FirefoxHome" = "Dachaigh Impervious";
 
 /* Option in the settings to turn off recent bookmarks in the Highlights section */
 "Settings.NewTab.Option.HighlightsBookmarks" = "Comharran-lìn ùra";
@@ -1395,7 +1395,7 @@
 "Settings.NewTab.TopSectionNameFooter" = "Tagh na thèid fhosgladh nuair a dh’fhosglas tu taba ùr";
 
 /* Description displayed under the ”Offer to Open Copied Link” option. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
-"Settings.OfferClipboardBar.Status" = "Nuair a dh’fhosglas mi Firefox";
+"Settings.OfferClipboardBar.Status" = "Nuair a dh’fhosglas mi Impervious";
 
 /* Title of setting to enable the Go to Copied URL feature. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
 "Settings.OfferClipboardBar.Title" = "faighnich a bheil mi airson ceangal a rinn mi lethbhreac dheth fhosgladh";
@@ -1419,7 +1419,7 @@
 "Settings.SendUsage.Link" = "Barrachd fiosrachaidh.";
 
 /* A short description that explains why mozilla collects usage data. */
-"Settings.SendUsage.Message" = "Tha Mozilla an dealas dìreach an dàta a chruinneachadh a dh’fheumas sinn airson Firefox a sholar is a leasachadh dhan a h-uile duine.";
+"Settings.SendUsage.Message" = "Tha Impervious an dealas dìreach an dàta a chruinneachadh a dh’fheumas sinn airson Impervious a sholar is a leasachadh dhan a h-uile duine.";
 
 /* The title for the setting to send usage data. */
 "Settings.SendUsage.Title" = "Cuir an dàta cleachdaidh";
@@ -1437,7 +1437,7 @@
 "Settings.Siri.OpenTabShortcut" = "Fosgail taba ùr";
 
 /* The description that describes what siri shortcuts are */
-"Settings.Siri.SectionDescription" = "Cleachd ath-ghoiridean Siri airson Firefox fhosgladh gu luath le Siri";
+"Settings.Siri.SectionDescription" = "Cleachd ath-ghoiridean Siri airson Impervious fhosgladh gu luath le Siri";
 
 /* The option that takes you to the siri shortcuts settings page */
 "Settings.Siri.SectionName" = "Ath-ghoiridean Siri";
@@ -1457,11 +1457,11 @@
 /* Label used as an item in Settings. Tapping on this item takes you to the Studies panel */
 "Settings.Studies.Title" = "Rannsachadh";
 
-/* Title for a link that explains what Mozilla means by Studies */
+/* Title for a link that explains what Impervious means by Studies */
 "Settings.Studies.Toggle.Link" = "Barrachd fiosrachaidh.";
 
-/* A short description that explains that Mozilla is running studies */
-"Settings.Studies.Toggle.Message" = "Dh’fhaoidte gun stàlaich is ruith Firefox rannsachadh o àm gu àm.";
+/* A short description that explains that Impervious is running studies */
+"Settings.Studies.Toggle.Message" = "Dh’fhaoidte gun stàlaich is ruith Impervious rannsachadh o àm gu àm.";
 
 /* Toggled OFF to opt-out of studies */
 "Settings.Studies.Toggle.Off" = "Dheth";
@@ -1482,7 +1482,7 @@
 "Settings.TrackingProtection.Alert.Title" = "An aire!";
 
 /* Header description for tracking protection options section where Basic/Strict block list can be selected */
-"Settings.TrackingProtection.BlockListsHeader" = "’S urrainn dhut fhèin taghadh dè an liosta a chleachdadh Firefox gus eileamaidean-lìn a bhacadh a thracaicheas na nì thu air loidhne ma dh’fhaoidte.";
+"Settings.TrackingProtection.BlockListsHeader" = "’S urrainn dhut fhèin taghadh dè an liosta a chleachdadh Impervious gus eileamaidean-lìn a bhacadh a thracaicheas na nì thu air loidhne ma dh’fhaoidte.";
 
 /* Explanation of basic mode. */
 "Settings.TrackingProtection.Info.BasicTitle" = "Cothromachadh eadar dìon is dèanadas.";
@@ -1577,32 +1577,32 @@
 /* Title displayed in header of the Data Management panel. */
 "Settings.WebsiteData.Title" = "Dàta nan làraichean-lìn";
 
-/* Action label on share extension to add page to the Firefox reading list. */
+/* Action label on share extension to add page to the Impervious reading list. */
 "ShareExtension.AddToReadingListAction.Title" = "Cuir ris an liosta-leughaidh";
 
 /* Share extension label shown after user has performed 'Add to Reading List' action. */
 "ShareExtension.AddToReadingListActionDone.Title" = "Air a chur ris an liosta-leughaidh";
 
-/* Action label on share extension to bookmark the page in Firefox. */
+/* Action label on share extension to bookmark the page in Impervious. */
 "ShareExtension.BookmarkThisPageAction.Title" = "Cruthaich comharra-lìn dhan duilleag seo";
 
 /* Share extension label shown after user has performed 'Bookmark this Page' action. */
 "ShareExtension.BookmarkThisPageActionDone.Title" = "Na chomharra-lìn";
 
-/* Action label on share extension to load the page in Firefox when user switches apps to bring it to foreground. */
+/* Action label on share extension to load the page in Impervious when user switches apps to bring it to foreground. */
 "ShareExtension.LoadInBackgroundAction.Title" = "Luchdaich sa chùlaibh";
 
 /* Share extension label shown after user has performed 'Load in Background' action. */
-"ShareExtension.LoadInBackgroundActionDone.Title" = "Ga luchdadh ann am Firefox";
+"ShareExtension.LoadInBackgroundActionDone.Title" = "Ga luchdadh ann am Impervious";
 
-/* Action label on share extension to immediately open page in Firefox. */
-"ShareExtension.OpenInFirefoxAction.Title" = "Fosgail ann am Firefox";
+/* Action label on share extension to immediately open page in Impervious. */
+"ShareExtension.OpenInFirefoxAction.Title" = "Fosgail ann am Impervious";
 
-/* Action label on share extension to immediately open page in Firefox in private mode. */
+/* Action label on share extension to immediately open page in Impervious in private mode. */
 "ShareExtension.OpenInPrivateModeAction.Title" = "Fosgail sa mhodh phrìobhaideach";
 
-/* Action label on share extension to search for the selected text in Firefox. */
-"ShareExtension.SeachInFirefoxAction.Title" = "Lorg ann am Firefox";
+/* Action label on share extension to search for the selected text in Impervious. */
+"ShareExtension.SeachInFirefoxAction.Title" = "Lorg ann am Impervious";
 
 /* Label for show search suggestions setting. */
 "Show Search Suggestions" = "Seall molaidhean-luirg";
@@ -1639,7 +1639,7 @@
 "Sync.FirstTimeMessage.Label" = "Dhʼfhaoidte gun doir aʼ chiad sionsronachadh greiseig mhath.";
 
 /* String displayed on Sign In to Sync page that allows the user to create a new account. */
-"Sync.NoAccount.Description" = "Nach eil cunntas agad? Cruthaich fear airson Firefox a shioncronachadh eadar uidheaman.";
+"Sync.NoAccount.Description" = "Nach eil cunntas agad? Cruthaich fear airson Impervious a shioncronachadh eadar uidheaman.";
 
 /* Message displayed when the user's account is syncing with no ellipsis */
 "Sync.Syncing.Label" = "ʼGa shioncronachadh";
@@ -1755,7 +1755,7 @@
 /* The section header for tabs opened yesterday */
 "TabTray.Yesterday.Header" = "An-dè";
 
-/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Firefox reader mode from another app. */
+/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
 "The page could not be displayed in Reader View." = "Cha b’ urrainn dhuinn an duilleag a thaisbeanadh ann an sealladh an leughadair.";
 
 /* Error message in the remote tabs panel */
@@ -1813,13 +1813,13 @@
 "UIMenuItem.PasteGo" = "Cuir ann ⁊ tadhail air";
 
 /* Search in New Tab Text selection menu item */
-"UIMenuItem.SearchWithFirefox" = "Lorg le Firefox";
+"UIMenuItem.SearchWithFirefox" = "Lorg le Impervious";
 
 /* Accessibility label for unread article in reading list. It's a past participle - functions as an adjective. */
 "unread" = "gun leughadh";
 
 /* Text message in the settings table view */
-"Upgrade Firefox to connect" = "Àrdaich Firefox ma tha thu airson ceangal";
+"Upgrade Impervious to connect" = "Àrdaich Impervious ma tha thu airson ceangal";
 
 /* Debug option */
 "Use stage servers" = "Cleachd frithealaichean stèidse";
@@ -1830,7 +1830,7 @@
 /* Text message in the settings table view */
 "Verify your email address" = "Dealbh am post-d agad";
 
-/* Version number of Firefox shown in settings */
+/* Version number of Impervious shown in settings */
 "Version %@ (%@)" = "Tionndadh %1$@ (%2$@)";
 
 /* Accessibility label for the main web content view */
@@ -1852,7 +1852,7 @@
 "Yesterday" = "An-dè";
 
 /* Error message in the remote tabs panel */
-"You don’t have any tabs open in Firefox on your other devices." = "Chan eil taba sam bith fosgailte agad ann am Firefox air uidheaman eile.";
+"You don’t have any tabs open in Impervious on your other devices." = "Chan eil taba sam bith fosgailte agad ann am Impervious air uidheaman eile.";
 
 /* Your Rights settings section title */
 "Your Rights" = "Do chòraichean";

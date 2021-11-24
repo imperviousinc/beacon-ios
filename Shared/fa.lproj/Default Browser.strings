@@ -1,13 +1,13 @@
-/* Button string to open settings that allows user to switch their default browser to Firefox. */
+/* Button string to open settings that allows user to switch their default browser to Impervious. */
 "DefaultBrowserCard.Button" = "برو به تنظیمات";
 
-/* Description for small card shown that allows user to switch their default browser to Firefox. */
-"DefaultBrowserCard.Description" = "پیوندهای وب سایت ها ، ایمیل ها و پیام ها را تنظیم کنید تا به طور خودکار در Firefox باز شوند.";
+/* Description for small card shown that allows user to switch their default browser to Impervious. */
+"DefaultBrowserCard.Description" = "پیوندهای وب سایت ها ، ایمیل ها و پیام ها را تنظیم کنید تا به طور خودکار در Impervious باز شوند.";
 
-/* Title for small card shown that allows user to switch their default browser to Firefox. */
+/* Title for small card shown that allows user to switch their default browser to Impervious. */
 "DefaultBrowserCard.Title" = "مرورگر یش‌فرض خود تغییر دهید";
 
-/* Button string to open settings that allows user to switch their default browser to Firefox. */
+/* Button string to open settings that allows user to switch their default browser to Impervious. */
 "DefaultBrowserOnboarding.Button" = "برو به تنظیمات";
 
 /* Description for default browser onboarding card. */
@@ -17,11 +17,11 @@
 "DefaultBrowserOnboarding.Description2" = "۲. تبدیل به مرورگر پیش‌فرض";
 
 /* Description for default browser onboarding card. */
-"DefaultBrowserOnboarding.Description3" = "3. Firefox را انتخاب کنید";
+"DefaultBrowserOnboarding.Description3" = "3. Impervious را انتخاب کنید";
 
-/* Text for the screenshot of the iOS system settings page for Firefox. */
+/* Text for the screenshot of the iOS system settings page for Impervious. */
 "DefaultBrowserOnboarding.Screenshot" = "مرورگر پیش‌فرض";
 
-/* Menu option for setting Firefox as default browser. */
+/* Menu option for setting Impervious as default browser. */
 "Settings.DefaultBrowserMenuItem" = "تبدیل به مرورگر پیش‌فرض";
 

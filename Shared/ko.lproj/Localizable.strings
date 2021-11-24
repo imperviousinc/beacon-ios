@@ -325,7 +325,7 @@
 /* Alert dialog title when the user taps the cancel download icon. */
 "Downloads.CancelDialog.Title" = "다운로드 취소";
 
-/* The message displayed to a user when they try and perform the download of an asset that Firefox cannot currently handle. */
+/* The message displayed to a user when they try and perform the download of an asset that Impervious cannot currently handle. */
 "Downloads.Error.Message" = "아직 다운로드가 지원되지 않습니다.";
 
 /* The label text in the Download Cancelled toast for showing confirmation that the download was cancelled. */
@@ -392,7 +392,7 @@
 "Facebook" = "Facebook";
 
 /* Title for firefox about:home page in tab history list */
-"Firefox.HomePage.Title" = "Firefox 홈 페이지";
+"Firefox.HomePage.Title" = "Impervious 홈 페이지";
 
 /* Accessibility Label for the tab toolbar Forward button */
 "Forward" = "앞으로";
@@ -403,16 +403,16 @@
 /* Label stating your account is not verified */
 "FxA.AccountVerificationRequired" = "계정 확인 필요함";
 
-/* Message explaining that user needs to check email for Firefox Account verfication link. */
+/* Message explaining that user needs to check email for Impervious Account verfication link. */
 "FxA.AccountVerificationRequiredSurface" = "%@ 계정을 확인해야 합니다. Firefox에서 이메일의 확인 링크를 확인하세요.";
 
 /* Button label to connect another device to Sync */
 "FxA.ConnectAnotherDevice" = "다른 기기 연결";
 
-/* Settings section title for Firefox Account */
-"FxA.FirefoxAccount" = "Firefox 계정";
+/* Settings section title for Impervious Account */
+"FxA.FirefoxAccount" = "Impervious 계정";
 
-/* Button label to go to Firefox Account settings */
+/* Button label to go to Impervious Account settings */
 "FxA.ManageAccount" = "계정과 기기 관리";
 
 /* Label when no internet is present */
@@ -428,7 +428,7 @@
 "FxA.RemoveAccount" = "삭제";
 
 /* Description string for alert view that gets presented when user tries to remove an account. */
-"FxA.RemoveAccountAlertMessage" = "이 기기에 연결된 Firefox 계정을 삭제하고 다른 사용자로 로그인합니다.";
+"FxA.RemoveAccountAlertMessage" = "이 기기에 연결된 Impervious 계정을 삭제하고 다른 사용자로 로그인합니다.";
 
 /* Remove account alert is the final confirmation before user removes their firefox account */
 "FxA.RemoveAccountAlertTitle" = "계정 삭제";
@@ -443,7 +443,7 @@
 "fxa.signin.create-account-pt-1" = "계정 하나로 여러 기기의 Firefox를 동기화하세요.";
 
 /* FxA sign in create account label. This will be linked to the site to create an account. */
-"fxa.signin.create-account-pt-2" = "Firefox 계정을 생성하세요.";
+"fxa.signin.create-account-pt-2" = "Impervious 계정을 생성하세요.";
 
 /* FxA sign in view qr code instructions */
 "fxa.signin.qr-link-instruction" = "컴퓨터에서 Firefox를 열고 firefox.com/pair 로 이동하세요";
@@ -463,14 +463,14 @@
 /* Label explaining what sync does */
 "FxA.SyncExplain" = "다른 기기에서 열려있는 탭과 북마크, 비밀번호를 가져오세요.";
 
-/* Button label to Sync your Firefox Account */
+/* Button label to Sync your Impervious Account */
 "FxA.SyncNow" = "지금 동기화";
 
 /* Call to action for sign into sync button */
 "FxA.TakeYourWebWithYou" = "웹과 함께 하세요.";
 
 /* Title of a notification displayed when another device has connected to FxA. %@ refers to the name of the newly connected device. */
-"FxAPush_DeviceConnected_body" = "Firefox Sync가 %@와 연결됨";
+"FxAPush_DeviceConnected_body" = "Impervious Sync가 %@와 연결됨";
 
 /* Title of a notification displayed when another device has connected to FxA. */
 "FxAPush_DeviceConnected_title" = "Sync 연결됨";
@@ -479,7 +479,7 @@
 "FxAPush_DeviceDisconnected_body" = "%@가 성공적으로 연결이 해제되었습니다.";
 
 /* Body of a notification displayed when this device has been disconnected from FxA by another device. */
-"FxAPush_DeviceDisconnected_ThisDevice_body" = "기기는 Firefox Sync와 연결이 끊어졌습니다.";
+"FxAPush_DeviceDisconnected_ThisDevice_body" = "기기는 Impervious Sync와 연결이 끊어졌습니다.";
 
 /* Title of a notification displayed when this device has been disconnected by another device. */
 "FxAPush_DeviceDisconnected_ThisDevice_title" = "동기화 연결끊김";
@@ -488,7 +488,7 @@
 "FxAPush_DeviceDisconnected_title" = "동기화 연결끊김";
 
 /* Body of a notification displayed when unnamed device has been disconnected from FxA. */
-"FxAPush_DeviceDisconnected_UnknownDevice_body" = "기기가 Firefox Sync와 연결이 끊김";
+"FxAPush_DeviceDisconnected_UnknownDevice_body" = "기기가 Impervious Sync와 연결이 끊김";
 
 /* A re-worded offer about Sync, displayed when the Sync home panel is empty, that emphasizes one-way data transfer, not syncing. */
 "Get your open tabs, bookmarks, and passwords from your other devices." = "다른 기기에서 열려있는 탭과 북마크, 비밀번호를 가져오세요.";
@@ -536,7 +536,7 @@
 "HistoryPanel.EmptySyncedTabsPanelTabSyncDisabledState.Description" = "다른 기기의 탭 목록을 보려면 탭 동기화를 켜십시오.";
 
 /* Title for the empty synced tabs state in the History Panel */
-"HistoryPanel.EmptySyncedTabsState.Title" = "Firefox Sync";
+"HistoryPanel.EmptySyncedTabsState.Title" = "Impervious Sync";
 
 /* Title for the Back to History button in the History Panel */
 "HistoryPanel.HistoryBackButton.Title" = "방문목록";
@@ -643,10 +643,10 @@
 /* Light theme setting in Reading View settings */
 "Light" = "밝음";
 
-/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Firefox reader mode from another app. */
+/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
 "Load original page" = "원래 페이지 열기";
 
-/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app. */
+/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Impervious reader mode from another app. */
 "Loading content…" = "내용 읽는중…";
 
 /* Authentication prompt log in button */
@@ -701,7 +701,7 @@
 "LoginsList.LoginsListSearchPlaceholder" = "필터";
 
 /* Label shown when there are no logins to list */
-"LoginsList.NoLoginsFound.Description" = "저장된 로그인이 여기에 보여집니다. 다른 기기의 Firefox에서 로그인을 저장했다면 Firefox 계정에 로그인 하세요.";
+"LoginsList.NoLoginsFound.Description" = "저장된 로그인이 여기에 보여집니다. 다른 기기의 Firefox에서 로그인을 저장했다면 Impervious 계정에 로그인 하세요.";
 
 /* Label shown when there are no logins saved */
 "LoginsList.NoLoginsFound.Title" = "로그인을 찾을 수 없음";
@@ -725,7 +725,7 @@
 "LoginsList.Title" = "저장된 로그인";
 
 /* Restore Tabs Prompt Description */
-"Looks like Firefox crashed previously. Would you like to restore your tabs?" = "이전에 Firefox가 강제 종료되었습니다. 탭을 복구하시겠습니까?";
+"Looks like Impervious crashed previously. Would you like to restore your tabs?" = "이전에 Firefox가 강제 종료되었습니다. 탭을 복구하시겠습니까?";
 
 /* Name for Mark as read button in reader mode
    Title for the button that marks a reading list item as read */
@@ -956,7 +956,7 @@
 "Okay" = "확인";
 
 /* Title for prompt displayed to user after the app crashes */
-"Oops! Firefox crashed" = "이런! Firefox가 종료됐습니다.";
+"Oops! Impervious crashed" = "이런! Firefox가 종료됐습니다.";
 
 /* See http://mzl.la/1LXbDOL */
 "Open articles in Reader View by tapping the book icon when it appears in the title bar." = "제목줄 옆에 나오는 책모양 아이콘을 눌러서 읽기 모드로 글을 열어보세요.";
@@ -967,7 +967,7 @@
 /* Toggle tabs syncing setting */
 "Open Tabs" = "탭 열기";
 
-/* The message displayed to a user when they try to open a URL that cannot be handled by Firefox, or any external app. */
+/* The message displayed to a user when they try to open a URL that cannot be handled by Impervious, or any external app. */
 "OpenURL.Error.Message" = "주소가 유효하지 않아서 페이지를 열 수 없습니다.";
 
 /* Title of the message shown when the user attempts to navigate to an invalid link. */
@@ -983,13 +983,13 @@
 "Password" = "비밀번호";
 
 /* Error message shown in the remote tabs panel */
-"PasswordAutoFill.NoPasswordsFoundTitle" = "Firefox 계정에서 동기화된 자격 증명이 없습니다";
+"PasswordAutoFill.NoPasswordsFoundTitle" = "Impervious 계정에서 동기화된 자격 증명이 없습니다";
 
 /* Header for the list of credentials table */
 "PasswordAutoFill.PasswordsListTitle" = "사용 가능한 자격 증명:";
 
 /* Title of the extension that shows firefox passwords */
-"PasswordAutoFill.SectionTitle" = "Firefox 자격 증명";
+"PasswordAutoFill.SectionTitle" = "Impervious 자격 증명";
 
 /* See http://mzl.la/1G7uHo7 */
 "PhotoLibrary.FirefoxWouldLikeAccessMessage" = "카메라 롤에 사진을 저장할 수 있습니다.";
@@ -1003,7 +1003,7 @@
 /* Privacy section title */
 "Privacy" = "개인정보";
 
-/* Show Firefox Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
+/* Show Impervious Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
 "Privacy Policy" = "개인정보 보호정책";
 
 /* This is the value for a label that indicates if a user is on an unencrypted website. */
@@ -1132,7 +1132,7 @@
 "Secure connection" = "보안 접속";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
-"Send a crash report so Mozilla can fix the problem?" = "Mozilla가 문제를 고칠 수 있도록 보고서를 전송하시겠습니까?";
+"Send a crash report so Impervious can fix the problem?" = "Mozilla가 문제를 고칠 수 있도록 보고서를 전송하시겠습니까?";
 
 /* Menu item in settings used to open input.mozilla.org where people can submit feedback */
 "Send Feedback" = "의견 보내기";
@@ -1160,18 +1160,18 @@
 "SendTo.NavBar.Title" = "탭 보내기";
 
 /* Error message shown in the remote tabs panel */
-"SendTo.NoDevicesFound.Message" = "이 Firefox Account에 동기화 할 수 있는 다른 기기가 연결되어 있지 않습니다.";
+"SendTo.NoDevicesFound.Message" = "이 Impervious Account에 동기화 할 수 있는 다른 기기가 연결되어 있지 않습니다.";
 
 /* See http://mzl.la/1ISlXnU */
 "SendTo.NotSignedIn.Message" = "Firefox를 열고 설정으로 이동 한 다음 로그인하여 계속하세요.";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Title" = "Firefox Account에 로그인하지 않았습니다.";
+"SendTo.NotSignedIn.Title" = "Impervious Account에 로그인하지 않았습니다.";
 
 /* Navigation bar button to Send the current page to a device */
 "SendTo.SendAction.Text" = "보내기";
 
-/* The text for the button on the Send to Device page if you are not signed in to Firefox Accounts. */
+/* The text for the button on the Send to Device page if you are not signed in to Impervious Accounts. */
 "SendTo.SignIn.Button" = "Firefox에 로그인";
 
 /* Body of notification shown when the device is sent one or more tabs from an unnamed device. */
@@ -1196,7 +1196,7 @@
 "SentTab.NoTabArrivingNotification.body" = "탭해서 시작";
 
 /* Title of notification received after a spurious message from FxA has been received. */
-"SentTab.NoTabArrivingNotification.title" = "Firefox Sync";
+"SentTab.NoTabArrivingNotification.title" = "Impervious Sync";
 
 /* Label for an action used to view one or more tabs from a notification. */
 "SentTab.ViewAction.title" = "보기";
@@ -1328,11 +1328,11 @@
 /* Label used for the device name settings section. */
 "Settings.FxA.DeviceName" = "기기 이름";
 
-/* Label used as a section title in the Firefox Accounts Settings screen. */
+/* Label used as a section title in the Impervious Accounts Settings screen. */
 "Settings.FxA.Sync.SectionName" = "동기화 설정";
 
 /* Title displayed in header of the FxA settings panel. */
-"Settings.FxA.Title" = "Firefox 계정";
+"Settings.FxA.Title" = "Impervious 계정";
 
 /* General settings section title */
 "Settings.General.SectionName" = "일반";
@@ -1386,10 +1386,10 @@
 "Settings.NewTab.Option.CustomizeFooter2" = "저장하거나 방문한 사이트";
 
 /* The title for the section to customize top sites in the new tab settings page. */
-"Settings.NewTab.Option.CustomizeTitle" = "Firefox 홈 개인화";
+"Settings.NewTab.Option.CustomizeTitle" = "Impervious 홈 개인화";
 
-/* Option in settings to show Firefox Home when you open a new tab */
-"Settings.NewTab.Option.FirefoxHome" = "Firefox 홈";
+/* Option in settings to show Impervious Home when you open a new tab */
+"Settings.NewTab.Option.FirefoxHome" = "Impervious 홈";
 
 /* Option in the settings to turn off recent bookmarks in the Highlights section */
 "Settings.NewTab.Option.HighlightsBookmarks" = "최근 북마크";
@@ -1493,10 +1493,10 @@
 /* Label used as an item in Settings. Tapping on this item takes you to the Studies panel */
 "Settings.Studies.Title" = "연구";
 
-/* Title for a link that explains what Mozilla means by Studies */
+/* Title for a link that explains what Impervious means by Studies */
 "Settings.Studies.Toggle.Link" = "자세히 알아보기";
 
-/* A short description that explains that Mozilla is running studies */
+/* A short description that explains that Impervious is running studies */
 "Settings.Studies.Toggle.Message" = "Firefox는 때때로 연구를 설치하고 실행할 수 있습니다.";
 
 /* Toggled OFF to opt-out of studies */
@@ -1613,31 +1613,31 @@
 /* Title displayed in header of the Data Management panel. */
 "Settings.WebsiteData.Title" = "웹사이트 데이터";
 
-/* Action label on share extension to add page to the Firefox reading list. */
+/* Action label on share extension to add page to the Impervious reading list. */
 "ShareExtension.AddToReadingListAction.Title" = "읽기 목록에 추가";
 
 /* Share extension label shown after user has performed 'Add to Reading List' action. */
 "ShareExtension.AddToReadingListActionDone.Title" = "읽기 목록에 추가됨";
 
-/* Action label on share extension to bookmark the page in Firefox. */
+/* Action label on share extension to bookmark the page in Impervious. */
 "ShareExtension.BookmarkThisPageAction.Title" = "현재 페이지 북마크에 추가";
 
 /* Share extension label shown after user has performed 'Bookmark this Page' action. */
 "ShareExtension.BookmarkThisPageActionDone.Title" = "북마크 완료";
 
-/* Action label on share extension to load the page in Firefox when user switches apps to bring it to foreground. */
+/* Action label on share extension to load the page in Impervious when user switches apps to bring it to foreground. */
 "ShareExtension.LoadInBackgroundAction.Title" = "백그라운드에서 로드";
 
 /* Share extension label shown after user has performed 'Load in Background' action. */
 "ShareExtension.LoadInBackgroundActionDone.Title" = "Firefox에서 로딩";
 
-/* Action label on share extension to immediately open page in Firefox. */
+/* Action label on share extension to immediately open page in Impervious. */
 "ShareExtension.OpenInFirefoxAction.Title" = "Firefox에서 열기";
 
-/* Action label on share extension to immediately open page in Firefox in private mode. */
+/* Action label on share extension to immediately open page in Impervious in private mode. */
 "ShareExtension.OpenInPrivateModeAction.Title" = "사생활 탭에서 열기";
 
-/* Action label on share extension to search for the selected text in Firefox. */
+/* Action label on share extension to search for the selected text in Impervious. */
 "ShareExtension.SeachInFirefoxAction.Title" = "Firefox에서 검색";
 
 /* Label for show search suggestions setting. */
@@ -1794,7 +1794,7 @@
 /* The section header for tabs opened yesterday */
 "TabTray.Yesterday.Header" = "어제";
 
-/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Firefox reader mode from another app. */
+/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
 "The page could not be displayed in Reader View." = "읽기 모드에서 볼 수 없는 페이지 입니다.";
 
 /* Error message in the remote tabs panel */
@@ -1858,7 +1858,7 @@
 "unread" = "않읽음";
 
 /* Text message in the settings table view */
-"Upgrade Firefox to connect" = "연결을 위해서 Firefox를 업그레이드";
+"Upgrade Impervious to connect" = "연결을 위해서 Firefox를 업그레이드";
 
 /* Debug option */
 "Use stage servers" = "스테이지 서버 사용";
@@ -1869,7 +1869,7 @@
 /* Text message in the settings table view */
 "Verify your email address" = "이메일 주소 확인";
 
-/* Version number of Firefox shown in settings */
+/* Version number of Impervious shown in settings */
 "Version %@ (%@)" = "버전 %1$@ (%2$@)";
 
 /* Accessibility label for the main web content view */
@@ -1891,7 +1891,7 @@
 "Yesterday" = "어제";
 
 /* Error message in the remote tabs panel */
-"You don’t have any tabs open in Firefox on your other devices." = "다른 기기에서 연 탭이 없습니다.";
+"You don’t have any tabs open in Impervious on your other devices." = "다른 기기에서 연 탭이 없습니다.";
 
 /* Your Rights settings section title */
 "Your Rights" = "사용자 권리";

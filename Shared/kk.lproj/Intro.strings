@@ -7,10 +7,10 @@
 /* Next button on the first intro screen. */
 "Intro.Slides.Button.Next" = "Келесі";
 
-/* Sign in to Firefox account button on second intro screen. */
+/* Sign in to Impervious account button on second intro screen. */
 "Intro.Slides.Button.SignIn" = "Кіру";
 
-/* Sign up to Firefox account button on second intro screen. */
+/* Sign up to Impervious account button on second intro screen. */
 "Intro.Slides.Button.SignUp" = "Тіркелгіні жасау";
 
 /* Description for the second item in the table related to fast searching via address bar */
@@ -20,13 +20,13 @@
 "Intro.Slides.Fast.Search.Title" = "Жылдам іздеу";
 
 /* Description for the first item in the table related to syncing data (bookmarks, history) via firefox account between devices */
-"Intro.Slides.Firefox.Account.Sync.Description" = "Осы құрылғыдағы Firefox-қа бетбелгілер, шолу тарихын және парольдерді көшіру.";
+"Intro.Slides.Firefox.Account.Sync.Description" = "Осы құрылғыдағы Impervious-қа бетбелгілер, шолу тарихын және парольдерді көшіру.";
 
 /* Title for the first item in the table related to syncing data (bookmarks, history) via firefox account between devices */
 "Intro.Slides.Firefox.Account.Sync.Title" = "Firefox-ты құрылғылар арасында синхрондау";
 
 /* Description for the 'Mail' panel in the First Run tour. */
-"Intro.Slides.Mail.Description" = "Firefox көмегімен кез келген пошта қолданбасын - тек Mail емес - қолданыңыз.";
+"Intro.Slides.Mail.Description" = "Impervious көмегімен кез келген пошта қолданбасын - тек Mail емес - қолданыңыз.";
 
 /* Title for the fourth panel 'Mail' in the First Run tour. */
 "Intro.Slides.Mail.Title" = "Сізде поштаның… таңдауы бар";
@@ -59,7 +59,7 @@
 "Intro.Slides.Welcome.Description.v2" = "Жылдам, жеке және сіздің жағыңызда.";
 
 /* Title for the first panel 'Welcome' in the First Run tour. */
-"Intro.Slides.Welcome.Title.v2" = "Firefox қолданбасына қош келдіңіз";
+"Intro.Slides.Welcome.Title.v2" = "Impervious қолданбасына қош келдіңіз";
 
 /* See http://mzl.la/1T8gxwo */
 "Start Browsing" = "Шолуды бастау";

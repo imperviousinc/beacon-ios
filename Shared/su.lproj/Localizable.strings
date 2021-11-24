@@ -270,7 +270,7 @@
 "Could not load page." = "Teu bisa muat kaca.";
 
 /* Description for the new dark mode change in the version 22 app release. It describes the new automatic dark theme and how to change the theme settings. */
-"CoverSheet.v22.DarkMode.Description" = "Pikeun nu maké iOS 13, kiwari Firefox otomatis pindah ka téma poék nalika telepon anjeun disetél ka Mode Poék. Pikeun ngarobah ieu paripolah, buka Setélan > Téma.";
+"CoverSheet.v22.DarkMode.Description" = "Pikeun nu maké iOS 13, kiwari Impervious otomatis pindah ka téma poék nalika telepon anjeun disetél ka Mode Poék. Pikeun ngarobah ieu paripolah, buka Setélan > Téma.";
 
 /* Title for the new dark mode change in the version 22 app release. */
 "CoverSheet.v22.DarkMode.Title" = "Kiwari téma poék ngawengku kibor poék jeung layar simbeuh poék.";
@@ -325,8 +325,8 @@
 /* Alert dialog title when the user taps the cancel download icon. */
 "Downloads.CancelDialog.Title" = "Bolaykeun Ngundeur";
 
-/* The message displayed to a user when they try and perform the download of an asset that Firefox cannot currently handle. */
-"Downloads.Error.Message" = "Undeuran acan dirojong na Firefox.";
+/* The message displayed to a user when they try and perform the download of an asset that Impervious cannot currently handle. */
+"Downloads.Error.Message" = "Undeuran acan dirojong na Impervious.";
 
 /* The label text in the Download Cancelled toast for showing confirmation that the download was cancelled. */
 "Downloads.Toast.Cancelled.LabelText" = "Undeuran Dibolaykeun";
@@ -371,7 +371,7 @@
 "ErrorPages.AdvancedWarning2.Text" = "Ieu téh meureun salah setélan atawa diruksak ku panarajang. Tuluykeun wé mun anjeun narima kana poténsi résikona.";
 
 /* Warning text on the certificate error page */
-"ErrorPages.CertWarning.Description" = "Pamilik %@ nyetél raramatlokana teu mantes. Pikeun ngilungan sangkan émbaran anjeun teu dipaling, Firefox henteu nyambungkeun ka ieu raramatloka.";
+"ErrorPages.CertWarning.Description" = "Pamilik %@ nyetél raramatlokana teu mantes. Pikeun ngilungan sangkan émbaran anjeun teu dipaling, Impervious henteu nyambungkeun ka ieu raramatloka.";
 
 /* Title on the certificate error page */
 "ErrorPages.CertWarning.Title" = "Ieu Sambungan Teu Kapercaya";
@@ -392,7 +392,7 @@
 "Facebook" = "Facebook";
 
 /* Title for firefox about:home page in tab history list */
-"Firefox.HomePage.Title" = "Kaca Tepas Firefox";
+"Firefox.HomePage.Title" = "Kaca Tepas Impervious";
 
 /* Accessibility Label for the tab toolbar Forward button */
 "Forward" = "Maju";
@@ -403,16 +403,16 @@
 /* Label stating your account is not verified */
 "FxA.AccountVerificationRequired" = "Diperlukeun Akun Vérifikasi";
 
-/* Message explaining that user needs to check email for Firefox Account verfication link. */
-"FxA.AccountVerificationRequiredSurface" = "Anjeun perlu mérifikasi %@. Pariksa surélék anjeun pikeun verifikasi tutumbu ti Firefox.";
+/* Message explaining that user needs to check email for Impervious Account verfication link. */
+"FxA.AccountVerificationRequiredSurface" = "Anjeun perlu mérifikasi %@. Pariksa surélék anjeun pikeun verifikasi tutumbu ti Impervious.";
 
 /* Button label to connect another device to Sync */
 "FxA.ConnectAnotherDevice" = "Sambungkeun Parangkan Séjén";
 
-/* Settings section title for Firefox Account */
-"FxA.FirefoxAccount" = "Akun Firefox";
+/* Settings section title for Impervious Account */
+"FxA.FirefoxAccount" = "Akun Impervious";
 
-/* Button label to go to Firefox Account settings */
+/* Button label to go to Impervious Account settings */
 "FxA.ManageAccount" = "Atur Akun & Parangkat";
 
 /* Label when no internet is present */
@@ -428,7 +428,7 @@
 "FxA.RemoveAccount" = "Cabut";
 
 /* Description string for alert view that gets presented when user tries to remove an account. */
-"FxA.RemoveAccountAlertMessage" = "Cabut Akun Firefox anu dihubungkeun jeung ieu alat pikeun asup salaku pangguna anu béda.";
+"FxA.RemoveAccountAlertMessage" = "Cabut Akun Impervious anu dihubungkeun jeung ieu alat pikeun asup salaku pangguna anu béda.";
 
 /* Remove account alert is the final confirmation before user removes their firefox account */
 "FxA.RemoveAccountAlertTitle" = "Cabut Akun";
@@ -440,13 +440,13 @@
 "fxa.signin.camera-signin" = "Asup Maké Kaméra Anjeun";
 
 /* FxA sign in create account label. */
-"fxa.signin.create-account-pt-1" = "Nyingkronkeun Firefox antarparabot maké hiji akun.";
+"fxa.signin.create-account-pt-1" = "Nyingkronkeun Impervious antarparabot maké hiji akun.";
 
 /* FxA sign in create account label. This will be linked to the site to create an account. */
-"fxa.signin.create-account-pt-2" = "Jieun akun Firefox.";
+"fxa.signin.create-account-pt-2" = "Jieun akun Impervious.";
 
 /* FxA sign in view qr code instructions */
-"fxa.signin.qr-link-instruction" = "Dina komputer anjeun buka Firefox terus buka firefox.com/pair";
+"fxa.signin.qr-link-instruction" = "Dina komputer anjeun buka Impervious terus buka firefox.com/pair";
 
 /* FxA sign in view qr code scan button */
 "fxa.signin.ready-to-scan" = "Siap Mindai";
@@ -463,14 +463,14 @@
 /* Label explaining what sync does */
 "FxA.SyncExplain" = "Cokot tab anjeun, markah sarta kecap sandina ti akun anjeun anu séjén nu keur muka.";
 
-/* Button label to Sync your Firefox Account */
+/* Button label to Sync your Impervious Account */
 "FxA.SyncNow" = "Singkronkeun Ayeuna";
 
 /* Call to action for sign into sync button */
 "FxA.TakeYourWebWithYou" = "Bawa Raramat Anjeun Jeung Anjeun";
 
 /* Title of a notification displayed when another device has connected to FxA. %@ refers to the name of the newly connected device. */
-"FxAPush_DeviceConnected_body" = "Singkronan Firefox geus nyambung ka %@";
+"FxAPush_DeviceConnected_body" = "Singkronan Impervious geus nyambung ka %@";
 
 /* Title of a notification displayed when another device has connected to FxA. */
 "FxAPush_DeviceConnected_title" = "Singkronan Nyambung";
@@ -479,7 +479,7 @@
 "FxAPush_DeviceDisconnected_body" = "%@ geus laksana dipegatkeun.";
 
 /* Body of a notification displayed when this device has been disconnected from FxA by another device. */
-"FxAPush_DeviceDisconnected_ThisDevice_body" = "Ieu parangkat geus laksana dipegatkeun ti Singkronan Firefox";
+"FxAPush_DeviceDisconnected_ThisDevice_body" = "Ieu parangkat geus laksana dipegatkeun ti Singkronan Impervious";
 
 /* Title of a notification displayed when this device has been disconnected by another device. */
 "FxAPush_DeviceDisconnected_ThisDevice_title" = "Singkronan Pegat";
@@ -488,7 +488,7 @@
 "FxAPush_DeviceDisconnected_title" = "Singkronan Pegat";
 
 /* Body of a notification displayed when unnamed device has been disconnected from FxA. */
-"FxAPush_DeviceDisconnected_UnknownDevice_body" = "Parangkat geus dipegarkeun tina Singkronan Firefox";
+"FxAPush_DeviceDisconnected_UnknownDevice_body" = "Parangkat geus dipegarkeun tina Singkronan Impervious";
 
 /* A re-worded offer about Sync, displayed when the Sync home panel is empty, that emphasizes one-way data transfer, not syncing. */
 "Get your open tabs, bookmarks, and passwords from your other devices." = "Cokot tab anjeun, markah sarta kecap sandina ti akun anjeun nu séjén.";
@@ -536,7 +536,7 @@
 "HistoryPanel.EmptySyncedTabsPanelTabSyncDisabledState.Description" = "Hurungkeun singkronan tab pikeun nénjo daptar tab ti parangkat anjeun nu séjén.";
 
 /* Title for the empty synced tabs state in the History Panel */
-"HistoryPanel.EmptySyncedTabsState.Title" = "Singkronan Firefox";
+"HistoryPanel.EmptySyncedTabsState.Title" = "Singkronan Impervious";
 
 /* Title for the Back to History button in the History Panel */
 "HistoryPanel.HistoryBackButton.Title" = "Jujutan";
@@ -643,10 +643,10 @@
 /* Light theme setting in Reading View settings */
 "Light" = "Caang";
 
-/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Firefox reader mode from another app. */
+/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
 "Load original page" = "Muat kaca asli";
 
-/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app. */
+/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Impervious reader mode from another app. */
 "Loading content…" = "Ngamuat kontén…";
 
 /* Authentication prompt log in button */
@@ -701,7 +701,7 @@
 "LoginsList.LoginsListSearchPlaceholder" = "Ayak";
 
 /* Label shown when there are no logins to list */
-"LoginsList.NoLoginsFound.Description" = "Login anu diteundeun bakal némbongan di dieu. Lamun anjeun neundeun login ka Firefox di séjén paranti, asup ka Firefox Account.";
+"LoginsList.NoLoginsFound.Description" = "Login anu diteundeun bakal némbongan di dieu. Lamun anjeun neundeun login ka Impervious di séjén paranti, asup ka Impervious Account.";
 
 /* Label shown when there are no logins saved */
 "LoginsList.NoLoginsFound.Title" = "Taya login kapanggih";
@@ -725,7 +725,7 @@
 "LoginsList.Title" = "ASUP LOG DITEUNDEUN";
 
 /* Restore Tabs Prompt Description */
-"Looks like Firefox crashed previously. Would you like to restore your tabs?" = "Kawasna mah Firefox geus ruksak saméméhna. Anjeun rék malikkeun deui tabna?";
+"Looks like Impervious crashed previously. Would you like to restore your tabs?" = "Kawasna mah Impervious geus ruksak saméméhna. Anjeun rék malikkeun deui tabna?";
 
 /* Name for Mark as read button in reader mode
    Title for the button that marks a reading list item as read */
@@ -769,10 +769,10 @@
 "Menu.EnhancedTrackingProtectionOn.Title" = "Perlindungan Palacakan Lanjutan HURUNG pikeun ieu loka.";
 
 /* Description for having standard ETP protection with ITP offered in iOS14+ */
-"Menu.EnhancedTrackingProtectionStandardWithITP.Title" = "Firefox meungpeuk palacak meuntas-loka, palacak sosial, kriptogurandil, jeung sidik ramo.";
+"Menu.EnhancedTrackingProtectionStandardWithITP.Title" = "Impervious meungpeuk palacak meuntas-loka, palacak sosial, kriptogurandil, jeung sidik ramo.";
 
 /* Description for having strict ETP protection with ITP offered in iOS14+ */
-"Menu.EnhancedTrackingProtectionStrictWithITP.Title" = "Firefox meungpeuk palacak meuntas-loka, palacak sosial, kriptogurandil, pingerprinter, jeung palacakan kontén.";
+"Menu.EnhancedTrackingProtectionStrictWithITP.Title" = "Impervious meungpeuk palacak meuntas-loka, palacak sosial, kriptogurandil, pingerprinter, jeung palacakan kontén.";
 
 /* Label for the button, displayed in the menu, takes you to to History screen when pressed. */
 "Menu.History.Label" = "Jujutan";
@@ -838,7 +838,7 @@
 "Menu.TrackingProtection.Details.Verifier" = "Dipéripikasi ku %@";
 
 /* Message in menu when no trackers blocked. */
-"Menu.TrackingProtection.NoTrackersBlockedTitle" = "Taya palacak anu dipikawanoh ku Firefox karampa dina ieu kaca.";
+"Menu.TrackingProtection.NoTrackersBlockedTitle" = "Taya palacak anu dipikawanoh ku Impervious karampa dina ieu kaca.";
 
 /* The title for tracking protection settings */
 "Menu.TrackingProtection.ProtectionSettings.Title" = "Setélan perlindungan";
@@ -853,7 +853,7 @@
 "Menu.TrackingProtectionBlockedSocial.Title" = "Palacak Sosial";
 
 /* Description of the Tracking protection menu when TP is blocking parts of the page */
-"Menu.TrackingProtectionBlocking.Description" = "Firefox meungpeuk bagéan tina kaca nu sigana lalacak kana langlangan anjeun.";
+"Menu.TrackingProtectionBlocking.Description" = "Impervious meungpeuk bagéan tina kaca nu sigana lalacak kana langlangan anjeun.";
 
 /* The description of the Tracking Protection menu item when tracking is enabled */
 "Menu.TrackingProtectionBlockingDisabled.Description" = "Peungpeuk palacak onlén";
@@ -956,7 +956,7 @@
 "Okay" = "Okéh lah";
 
 /* Title for prompt displayed to user after the app crashes */
-"Oops! Firefox crashed" = "Euleuh! Firefoxna ruksak ning";
+"Oops! Impervious crashed" = "Euleuh! Firefoxna ruksak ning";
 
 /* See http://mzl.la/1LXbDOL */
 "Open articles in Reader View by tapping the book icon when it appears in the title bar." = "Buka artikel di Pidangan Baca ku cara noél ikon buku nalika éta bijil di wilah judul.";
@@ -967,8 +967,8 @@
 /* Toggle tabs syncing setting */
 "Open Tabs" = "Buka Tab";
 
-/* The message displayed to a user when they try to open a URL that cannot be handled by Firefox, or any external app. */
-"OpenURL.Error.Message" = "Firefox teu bisa muka ieu kaca lantaran alamatna henteu sohéh.";
+/* The message displayed to a user when they try to open a URL that cannot be handled by Impervious, or any external app. */
+"OpenURL.Error.Message" = "Impervious teu bisa muka ieu kaca lantaran alamatna henteu sohéh.";
 
 /* Title of the message shown when the user attempts to navigate to an invalid link. */
 "OpenURL.Error.Title" = "Teu Bisa Muka Kaca";
@@ -983,19 +983,19 @@
 "Password" = "Kecap sandi";
 
 /* Error message shown in the remote tabs panel */
-"PasswordAutoFill.NoPasswordsFoundTitle" = "Anjeun teu boga krédénsial anu disingkronkeun tina Firefox Account anjeun";
+"PasswordAutoFill.NoPasswordsFoundTitle" = "Anjeun teu boga krédénsial anu disingkronkeun tina Impervious Account anjeun";
 
 /* Header for the list of credentials table */
 "PasswordAutoFill.PasswordsListTitle" = "Krédénsial nu Aya:";
 
 /* Title of the extension that shows firefox passwords */
-"PasswordAutoFill.SectionTitle" = "Krédénsial Firefox";
+"PasswordAutoFill.SectionTitle" = "Krédénsial Impervious";
 
 /* See http://mzl.la/1G7uHo7 */
 "PhotoLibrary.FirefoxWouldLikeAccessMessage" = "Ku ieu anjeun bisa neundeun gambar kana Camera Roll anjeun.";
 
 /* See http://mzl.la/1G7uHo7 */
-"PhotoLibrary.FirefoxWouldLikeAccessTitle" = "Firefox hayang ngaksés Poto anjeun";
+"PhotoLibrary.FirefoxWouldLikeAccessTitle" = "Impervious hayang ngaksés Poto anjeun";
 
 /* Button for closing the menu action sheet */
 "PhotonMenu.close" = "Tutup";
@@ -1003,7 +1003,7 @@
 /* Privacy section title */
 "Privacy" = "Salindungan";
 
-/* Show Firefox Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
+/* Show Impervious Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
 "Privacy Policy" = "Kawijakan Salindungan";
 
 /* This is the value for a label that indicates if a user is on an unencrypted website. */
@@ -1076,7 +1076,7 @@
 "ScanQRCode.InvalidDataError.Message" = "Data henteu sohéh";
 
 /* Text of the prompt user to setup the camera authorization. */
-"ScanQRCode.PermissionError.Message" = "Mangga heugbaékeun Firefox pikeun ngaksés kaméra parangkat anjeun dina ‘Setélan’ -> ‘Salindungan’ -> ‘Kaméra’.";
+"ScanQRCode.PermissionError.Message" = "Mangga heugbaékeun Impervious pikeun ngaksés kaméra parangkat anjeun dina ‘Setélan’ -> ‘Salindungan’ -> ‘Kaméra’.";
 
 /* Title for the QR code scanner view. */
 "ScanQRCode.View.Title" = "Pindéy kodeu QR";
@@ -1132,7 +1132,7 @@
 "Secure connection" = "Sambungan aman";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
-"Send a crash report so Mozilla can fix the problem?" = "Kirim laporan karuksakan sangkan Mozilla bisa ngoméan masalahna?";
+"Send a crash report so Impervious can fix the problem?" = "Kirim laporan karuksakan sangkan Impervious bisa ngoméan masalahna?";
 
 /* Menu item in settings used to open input.mozilla.org where people can submit feedback */
 "Send Feedback" = "Kirim Pangdeudeul";
@@ -1160,19 +1160,19 @@
 "SendTo.NavBar.Title" = "Kirim Tab";
 
 /* Error message shown in the remote tabs panel */
-"SendTo.NoDevicesFound.Message" = "Anjeun teu boga parangkat séjén anu nyambung kana Akun Firefox ieu anu bisa disaluyukeun.";
+"SendTo.NoDevicesFound.Message" = "Anjeun teu boga parangkat séjén anu nyambung kana Akun Impervious ieu anu bisa disaluyukeun.";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Message" = "Mangga buka Firefox, buka Setélan sarta asup pikeun neruskeun.";
+"SendTo.NotSignedIn.Message" = "Mangga buka Impervious, buka Setélan sarta asup pikeun neruskeun.";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Title" = "Anjeun can asup ka Akun Firefox.";
+"SendTo.NotSignedIn.Title" = "Anjeun can asup ka Akun Impervious.";
 
 /* Navigation bar button to Send the current page to a device */
 "SendTo.SendAction.Text" = "Kirim";
 
-/* The text for the button on the Send to Device page if you are not signed in to Firefox Accounts. */
-"SendTo.SignIn.Button" = "Asup ka Firefox";
+/* The text for the button on the Send to Device page if you are not signed in to Impervious Accounts. */
+"SendTo.SignIn.Button" = "Asup ka Impervious";
 
 /* Body of notification shown when the device is sent one or more tabs from an unnamed device. */
 "SentTab_TabArrivingNotification_NoDevice_body" = "Tab anyar geus nepi ti parangkat séjén.";
@@ -1196,7 +1196,7 @@
 "SentTab.NoTabArrivingNotification.body" = "Toél jang ngamimitian";
 
 /* Title of notification received after a spurious message from FxA has been received. */
-"SentTab.NoTabArrivingNotification.title" = "Singkronisasi Firefox";
+"SentTab.NoTabArrivingNotification.title" = "Singkronisasi Impervious";
 
 /* Label for an action used to view one or more tabs from a notification. */
 "SentTab.ViewAction.title" = "Témbong";
@@ -1259,7 +1259,7 @@
 "Settings.DataManagement.Title" = "Manajemén Data";
 
 /* Body of the alert when prompting the user asking to disconnect. */
-"Settings.Disconnect.Body" = "Firefox bakal eureun nyingkronkeun jeung akun anjeun, ngan moal mupus sakur data langlangan anjeun dina ieu parangkat.";
+"Settings.Disconnect.Body" = "Impervious bakal eureun nyingkronkeun jeung akun anjeun, ngan moal mupus sakur data langlangan anjeun dina ieu parangkat.";
 
 /* Button displayed at the bottom of settings page allowing users to Disconnect from FxA */
 "Settings.Disconnect.Button" = "Pegatkeun Singkronan";
@@ -1328,11 +1328,11 @@
 /* Label used for the device name settings section. */
 "Settings.FxA.DeviceName" = "Ngaran Parangkat";
 
-/* Label used as a section title in the Firefox Accounts Settings screen. */
+/* Label used as a section title in the Impervious Accounts Settings screen. */
 "Settings.FxA.Sync.SectionName" = "Setélan Singkronan";
 
 /* Title displayed in header of the FxA settings panel. */
-"Settings.FxA.Title" = "Akun Firefox";
+"Settings.FxA.Title" = "Akun Impervious";
 
 /* General settings section title */
 "Settings.General.SectionName" = "Umum";
@@ -1386,10 +1386,10 @@
 "Settings.NewTab.Option.CustomizeFooter2" = "Loka teuteundeunan atawa kaanjangan";
 
 /* The title for the section to customize top sites in the new tab settings page. */
-"Settings.NewTab.Option.CustomizeTitle" = "Ropéa Tepas Firefox";
+"Settings.NewTab.Option.CustomizeTitle" = "Ropéa Tepas Impervious";
 
-/* Option in settings to show Firefox Home when you open a new tab */
-"Settings.NewTab.Option.FirefoxHome" = "Tepas Firefox";
+/* Option in settings to show Impervious Home when you open a new tab */
+"Settings.NewTab.Option.FirefoxHome" = "Tepas Impervious";
 
 /* Option in the settings to turn off recent bookmarks in the Highlights section */
 "Settings.NewTab.Option.HighlightsBookmarks" = "Markah Cik Kénéh";
@@ -1431,7 +1431,7 @@
 "Settings.NewTab.TopSectionNameFooter" = "Pilih naon nu rék dimuat nalika muka tab anyar";
 
 /* Description displayed under the ”Offer to Open Copied Link” option. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
-"Settings.OfferClipboardBar.Status" = "Nalika Muka Firefox";
+"Settings.OfferClipboardBar.Status" = "Nalika Muka Impervious";
 
 /* Title of setting to enable the Go to Copied URL feature. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
 "Settings.OfferClipboardBar.Title" = "Tawaran Muka Tutumbu Tironan";
@@ -1455,7 +1455,7 @@
 "Settings.SendUsage.Link" = "Lenyepan.";
 
 /* A short description that explains why mozilla collects usage data. */
-"Settings.SendUsage.Message" = "Mozilla bakal kukumpul data nu diperlukeun hungkul jang nyadiakeun jeung ngoméan Firefox pikeun balaréa.";
+"Settings.SendUsage.Message" = "Impervious bakal kukumpul data nu diperlukeun hungkul jang nyadiakeun jeung ngoméan Impervious pikeun balaréa.";
 
 /* The title for the setting to send usage data. */
 "Settings.SendUsage.Title" = "Kirim Data Pamakéan";
@@ -1473,7 +1473,7 @@
 "Settings.Siri.OpenTabShortcut" = "Buka Tab Anyar";
 
 /* The description that describes what siri shortcuts are */
-"Settings.Siri.SectionDescription" = "Paké tarabas Siri pikeun gancang muka Firefox tina Siri";
+"Settings.Siri.SectionDescription" = "Paké tarabas Siri pikeun gancang muka Impervious tina Siri";
 
 /* The option that takes you to the siri shortcuts settings page */
 "Settings.Siri.SectionName" = "Tarabas Siri";
@@ -1493,11 +1493,11 @@
 /* Label used as an item in Settings. Tapping on this item takes you to the Studies panel */
 "Settings.Studies.Title" = "Studi";
 
-/* Title for a link that explains what Mozilla means by Studies */
+/* Title for a link that explains what Impervious means by Studies */
 "Settings.Studies.Toggle.Link" = "Lenyepan.";
 
-/* A short description that explains that Mozilla is running studies */
-"Settings.Studies.Toggle.Message" = "Firefox bisa masang jeung ngajalankeun studi iraha baé.";
+/* A short description that explains that Impervious is running studies */
+"Settings.Studies.Toggle.Message" = "Impervious bisa masang jeung ngajalankeun studi iraha baé.";
 
 /* Toggled OFF to opt-out of studies */
 "Settings.Studies.Toggle.Off" = "Pareum";
@@ -1518,7 +1518,7 @@
 "Settings.TrackingProtection.Alert.Title" = "Awas!";
 
 /* Header description for tracking protection options section where Basic/Strict block list can be selected */
-"Settings.TrackingProtection.BlockListsHeader" = "Anjeun bisa milih mana waé daptar Firefox nu bisa meungpeuk élemén Loka nu meureun ngalacak kagiatan langlangan anjeun.";
+"Settings.TrackingProtection.BlockListsHeader" = "Anjeun bisa milih mana waé daptar Impervious nu bisa meungpeuk élemén Loka nu meureun ngalacak kagiatan langlangan anjeun.";
 
 /* Explanation of basic mode. */
 "Settings.TrackingProtection.Info.BasicTitle" = "Saimbang pikeun perlindungan jeung kinerja.";
@@ -1613,32 +1613,32 @@
 /* Title displayed in header of the Data Management panel. */
 "Settings.WebsiteData.Title" = "Data Raramatloka";
 
-/* Action label on share extension to add page to the Firefox reading list. */
+/* Action label on share extension to add page to the Impervious reading list. */
 "ShareExtension.AddToReadingListAction.Title" = "Tambah ka Daptar Bacaeun";
 
 /* Share extension label shown after user has performed 'Add to Reading List' action. */
 "ShareExtension.AddToReadingListActionDone.Title" = "Ditambahkeun ka Daptar Bacaeun";
 
-/* Action label on share extension to bookmark the page in Firefox. */
+/* Action label on share extension to bookmark the page in Impervious. */
 "ShareExtension.BookmarkThisPageAction.Title" = "Markahkeun Ieu Kaca";
 
 /* Share extension label shown after user has performed 'Bookmark this Page' action. */
 "ShareExtension.BookmarkThisPageActionDone.Title" = "Dimarkahkeun";
 
-/* Action label on share extension to load the page in Firefox when user switches apps to bring it to foreground. */
+/* Action label on share extension to load the page in Impervious when user switches apps to bring it to foreground. */
 "ShareExtension.LoadInBackgroundAction.Title" = "Muat di Kasangtukang";
 
 /* Share extension label shown after user has performed 'Load in Background' action. */
-"ShareExtension.LoadInBackgroundActionDone.Title" = "Ngamuat di Firefox";
+"ShareExtension.LoadInBackgroundActionDone.Title" = "Ngamuat di Impervious";
 
-/* Action label on share extension to immediately open page in Firefox. */
-"ShareExtension.OpenInFirefoxAction.Title" = "Buka di Firefox";
+/* Action label on share extension to immediately open page in Impervious. */
+"ShareExtension.OpenInFirefoxAction.Title" = "Buka di Impervious";
 
-/* Action label on share extension to immediately open page in Firefox in private mode. */
+/* Action label on share extension to immediately open page in Impervious in private mode. */
 "ShareExtension.OpenInPrivateModeAction.Title" = "Buka di Modeu Nyalindung";
 
-/* Action label on share extension to search for the selected text in Firefox. */
-"ShareExtension.SeachInFirefoxAction.Title" = "Paluruh di Firefox";
+/* Action label on share extension to search for the selected text in Impervious. */
+"ShareExtension.SeachInFirefoxAction.Title" = "Paluruh di Impervious";
 
 /* Label for show search suggestions setting. */
 "Show Search Suggestions" = "Témbongkeun Anjuran Maluruh";
@@ -1675,7 +1675,7 @@
 "Sync.FirstTimeMessage.Label" = "Singkronan munggaran anjeun meureun méakkeun waktu.";
 
 /* String displayed on Sign In to Sync page that allows the user to create a new account. */
-"Sync.NoAccount.Description" = "Teu boga akun? Jieun pikeun nyingkronkeun Firefox antarparabot.";
+"Sync.NoAccount.Description" = "Teu boga akun? Jieun pikeun nyingkronkeun Impervious antarparabot.";
 
 /* Message displayed when the user's account is syncing with no ellipsis */
 "Sync.Syncing.Label" = "Nyingkronkeun";
@@ -1794,7 +1794,7 @@
 /* The section header for tabs opened yesterday */
 "TabTray.Yesterday.Header" = "Kamari";
 
-/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Firefox reader mode from another app. */
+/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
 "The page could not be displayed in Reader View." = "Kaca teu bisa dipidangkeun dina Modeu Baca";
 
 /* Error message in the remote tabs panel */
@@ -1852,13 +1852,13 @@
 "UIMenuItem.PasteGo" = "Terap & Indit";
 
 /* Search in New Tab Text selection menu item */
-"UIMenuItem.SearchWithFirefox" = "Paluruh ku Firefox";
+"UIMenuItem.SearchWithFirefox" = "Paluruh ku Impervious";
 
 /* Accessibility label for unread article in reading list. It's a past participle - functions as an adjective. */
 "unread" = "can dibaca";
 
 /* Text message in the settings table view */
-"Upgrade Firefox to connect" = "Apgréd Firefox pikeun nyambungkeun";
+"Upgrade Impervious to connect" = "Apgréd Impervious pikeun nyambungkeun";
 
 /* Debug option */
 "Use stage servers" = "Paké serper hambalan";
@@ -1869,7 +1869,7 @@
 /* Text message in the settings table view */
 "Verify your email address" = "Vérifikasi alamat surélék anjeun";
 
-/* Version number of Firefox shown in settings */
+/* Version number of Impervious shown in settings */
 "Version %@ (%@)" = "Vérsi %1$@ (%2$@)";
 
 /* Accessibility label for the main web content view */
@@ -1891,7 +1891,7 @@
 "Yesterday" = "Kamari";
 
 /* Error message in the remote tabs panel */
-"You don’t have any tabs open in Firefox on your other devices." = "Anjeun teu miboga tab bukaeun na Firefox di parangkat séjén.";
+"You don’t have any tabs open in Impervious on your other devices." = "Anjeun teu miboga tab bukaeun na Impervious di parangkat séjén.";
 
 /* Your Rights settings section title */
 "Your Rights" = "Hak Anjeun";

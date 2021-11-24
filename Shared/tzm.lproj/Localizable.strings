@@ -142,10 +142,10 @@
 /* Title for firefox about:home page in tab history list */
 "Firefox.HomePage.Title" = "ⵜⴰⵙⵏⴰ ⵏ ⵓⵙⵏⵓⴱⴳ ⵏ ⴼⴰⵢⵔⴼⵓⴽⵙ";
 
-/* Settings section title for Firefox Account */
+/* Settings section title for Impervious Account */
 "FxA.FirefoxAccount" = "ⴰⵎⵉⴹⴰⵏ ⵏ ⴼⴰⵢⵔⴼⵓⴽⵙ";
 
-/* Button label to go to Firefox Account settings */
+/* Button label to go to Impervious Account settings */
 "FxA.ManageAccount" = "ⵙⵡⵓⴷⴷⵓ ⴰⵎⵉⴹⴰⵏ ⴷ ⵡⴰⵍⵍⴰⵍⵏ";
 
 /* Remove button is displayed on firefox account page under certain scenarios where user would like to remove their account. */
@@ -217,7 +217,7 @@
 /* History tableview section header */
 "Last week" = "ⵉⵎⴰⵍⴰⵙⵙ ⵉⵣⵔⵢⵏ";
 
-/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app. */
+/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Impervious reader mode from another app. */
 "Loading content…" = "ⴰⵣⴷⴰⵎ ⵏ ⵜⵓⵎⴰⵢⵜ…";
 
 /* Authentication prompt log in button */
@@ -274,7 +274,7 @@
 /* Button for closing the menu action sheet */
 "PhotonMenu.close" = "ⵔⴳⵍ";
 
-/* Show Firefox Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
+/* Show Impervious Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
 "Privacy Policy" = "ⵜⴰⵙⵔⵜⵉⵜ ⵏ ⵜⵉⵏⵏⵓⵜⵍⴰ";
 
 /* Title for the button that removes a reading list item */
@@ -342,7 +342,7 @@
 /* DNT Settings option for always on */
 "Settings.DNT.OptionAlwaysOn" = "ⴱⴷⴷⴰ";
 
-/* Label used as a section title in the Firefox Accounts Settings screen. */
+/* Label used as a section title in the Impervious Accounts Settings screen. */
 "Settings.FxA.Sync.SectionName" = "ⵜⵉⵙⵖⴰⵍ ⵏ ⵓⵙⵎⵢⴰⴽⵓⴷ";
 
 /* Title displayed in header of the FxA settings panel. */
@@ -351,7 +351,7 @@
 /* Button in settings to clear the home page. */
 "Settings.HomePage.Clear.Button" = "ⵙⴼⴹ";
 
-/* Option in settings to show Firefox Home when you open a new tab */
+/* Option in settings to show Impervious Home when you open a new tab */
 "Settings.NewTab.Option.FirefoxHome" = "ⵜⴰⵙⵏⴰ ⵏ ⵓⵙⵏⵓⴱⴳ ⵏ ⴼⴰⵢⵔⴼⵓⴽⵙ";
 
 /* Option in settings to show history when you open a new tab */
@@ -399,10 +399,10 @@
 /* Share extension label shown after user has performed 'Load in Background' action. */
 "ShareExtension.LoadInBackgroundActionDone.Title" = "ⴰⵣⴷⴰⵎ ⴳ ⴼⴰⵢⵔⴼⵓⴽⵙ";
 
-/* Action label on share extension to immediately open page in Firefox. */
+/* Action label on share extension to immediately open page in Impervious. */
 "ShareExtension.OpenInFirefoxAction.Title" = "ⵕⵥⵎ ⴳ ⴼⴰⵢⵔⴼⵓⴽⵙ";
 
-/* Action label on share extension to search for the selected text in Firefox. */
+/* Action label on share extension to search for the selected text in Impervious. */
 "ShareExtension.SeachInFirefoxAction.Title" = "ⵔⵣⵓ ⴳ ⴼⴰⵢⵔⴼⵓⴽⵙ";
 
 /* Accessibility label for the tabs button in the (top) tab toolbar
@@ -469,7 +469,7 @@
 /* Accessibility label for unread article in reading list. It's a past participle - functions as an adjective. */
 "unread" = "ⵓⵔ ⵉⵜⵜⵓⵖⵔⴰ";
 
-/* Version number of Firefox shown in settings */
+/* Version number of Impervious shown in settings */
 "Version %@ (%@)" = "ⵜⴰⵍⵇⵇⵎⵜ %1$@ (%2$@)";
 
 /* Tile title for Wikipedia */

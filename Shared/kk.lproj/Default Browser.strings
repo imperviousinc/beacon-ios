@@ -1,16 +1,16 @@
-/* Button string to open settings that allows user to switch their default browser to Firefox. */
+/* Button string to open settings that allows user to switch their default browser to Impervious. */
 "DefaultBrowserCard.Button" = "Баптауларға өту";
 
 /* Button string to learn how to set your default browser. */
 "DefaultBrowserCard.Button.v2" = "Қалай екенін білу";
 
-/* Description for small card shown that allows user to switch their default browser to Firefox. */
-"DefaultBrowserCard.Description" = "Веб-сайттар, эл. пошта хаттары және хабарламалардан сілтемелерді Firefox-та автоматты түрде ашылатындай етіп баптау.";
+/* Description for small card shown that allows user to switch their default browser to Impervious. */
+"DefaultBrowserCard.Description" = "Веб-сайттар, эл. пошта хаттары және хабарламалардан сілтемелерді Impervious-та автоматты түрде ашылатындай етіп баптау.";
 
-/* Title for small card shown that allows user to switch their default browser to Firefox. */
+/* Title for small card shown that allows user to switch their default browser to Impervious. */
 "DefaultBrowserCard.Title" = "Негізгі браузерды ауыстыру";
 
-/* Button string to open settings that allows user to switch their default browser to Firefox. */
+/* Button string to open settings that allows user to switch their default browser to Impervious. */
 "DefaultBrowserOnboarding.Button" = "Баптауларға өту";
 
 /* Description for default browser onboarding card. */
@@ -20,11 +20,11 @@
 "DefaultBrowserOnboarding.Description2" = "2. Негізгі браузер қолданбасын шерту";
 
 /* Description for default browser onboarding card. */
-"DefaultBrowserOnboarding.Description3" = "3. Firefox таңдау";
+"DefaultBrowserOnboarding.Description3" = "3. Impervious таңдау";
 
-/* Text for the screenshot of the iOS system settings page for Firefox. */
+/* Text for the screenshot of the iOS system settings page for Impervious. */
 "DefaultBrowserOnboarding.Screenshot" = "Негізгі браузер қолданбасы";
 
-/* Menu option for setting Firefox as default browser. */
+/* Menu option for setting Impervious as default browser. */
 "Settings.DefaultBrowserMenuItem" = "Негізгі браузер қылу";
 

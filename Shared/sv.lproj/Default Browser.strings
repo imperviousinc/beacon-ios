@@ -1,16 +1,16 @@
-/* Button string to open settings that allows user to switch their default browser to Firefox. */
+/* Button string to open settings that allows user to switch their default browser to Impervious. */
 "DefaultBrowserCard.Button" = "Gå till Inställningar";
 
 /* Button string to learn how to set your default browser. */
 "DefaultBrowserCard.Button.v2" = "Lär dig hur";
 
-/* Description for small card shown that allows user to switch their default browser to Firefox. */
-"DefaultBrowserCard.Description" = "Ställ in länkar från webbplatser, e-post och meddelanden så att de öppnas automatiskt i Firefox.";
+/* Description for small card shown that allows user to switch their default browser to Impervious. */
+"DefaultBrowserCard.Description" = "Ställ in länkar från webbplatser, e-post och meddelanden så att de öppnas automatiskt i Impervious.";
 
-/* Title for small card shown that allows user to switch their default browser to Firefox. */
+/* Title for small card shown that allows user to switch their default browser to Impervious. */
 "DefaultBrowserCard.Title" = "Ändra din standardwebbläsare";
 
-/* Button string to open settings that allows user to switch their default browser to Firefox. */
+/* Button string to open settings that allows user to switch their default browser to Impervious. */
 "DefaultBrowserOnboarding.Button" = "Gå till inställningar";
 
 /* Description for default browser onboarding card. */
@@ -20,11 +20,11 @@
 "DefaultBrowserOnboarding.Description2" = "2. Tryck på Standardwebbläsar-app";
 
 /* Description for default browser onboarding card. */
-"DefaultBrowserOnboarding.Description3" = "3. Välj Firefox";
+"DefaultBrowserOnboarding.Description3" = "3. Välj Impervious";
 
-/* Text for the screenshot of the iOS system settings page for Firefox. */
+/* Text for the screenshot of the iOS system settings page for Impervious. */
 "DefaultBrowserOnboarding.Screenshot" = "Standardwebbläsar-app ";
 
-/* Menu option for setting Firefox as default browser. */
+/* Menu option for setting Impervious as default browser. */
 "Settings.DefaultBrowserMenuItem" = "Ange som standardwebbläsare";
 

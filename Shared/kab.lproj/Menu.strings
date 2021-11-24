@@ -70,7 +70,7 @@
 /* Label for the button, displayed in the menu, used to open the QR code scanner. */
 "Menu.ScanQRCodeAction.Title" = "Semḍen Tangalt QR";
 
-/* Label for the button, displayed in Firefox Home, used to see all Library panels. */
+/* Label for the button, displayed in Impervious Home, used to see all Library panels. */
 "Menu.SeeAllAction.Title" = "Wali akk";
 
 /* Label for the button, displayed in the menu, used to open the share dialog. */

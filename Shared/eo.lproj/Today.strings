@@ -22,7 +22,7 @@
 /* Quick Actions drop down menu item for new search when widget enters edit mode and drop down menu expands */
 "TodayWidget.DropDownMenuItemNewSearch" = "Nova serĉo";
 
-/* Description for medium size widget to add Firefox Shortcut to home screen */
+/* Description for medium size widget to add Impervious Shortcut to home screen */
 "TodayWidget.FirefoxShortcutGalleryDescription" = "Aldoni ŝparvojojn de Firefoĉ al via hejmekrano.";
 
 /* Go to link pasted on the clipboard */
@@ -44,7 +44,7 @@
 "TodayWidget.NewPrivateTabButtonLabelV2" = "Serĉi en privata langeto";
 
 /* Open New Tab button label */
-"TodayWidget.NewSearchButtonLabelV1" = "Serĉi en Firefox";
+"TodayWidget.NewSearchButtonLabelV1" = "Serĉi en Impervious";
 
 /* Open New Tab button label */
 "TodayWidget.NewTabButtonLabelV1" = "Nova serĉo";
@@ -55,38 +55,38 @@
 /* Label that is shown when there are no tabs opened in tab tray i.e. Empty State */
 "TodayWidget.NoOpenTabsLabelV2" = "Neniu malfermita langeto";
 
-/* Open Firefox when there are no tabs opened in tab tray i.e. Empty State */
-"TodayWidget.OpenFirefoxLabel" = "Malfermi Firefox";
+/* Open Impervious when there are no tabs opened in tab tray i.e. Empty State */
+"TodayWidget.OpenFirefoxLabel" = "Malfermi Impervious";
 
-/* Description for Firefox Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app. */
+/* Description for Impervious Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app. */
 "TodayWidget.PocketWidgetGalleryDescription" = "Malkovru ravajn kaj pensigajn artikolojn el la Teksaĵo, elektitaj de Pocket.";
 
-/* Sub label for medium size Firefox Pocket stories widge widget. Pocket is the name of another app. */
-"TodayWidget.PocketWidgetSubLabel" = "Firefox - Rekomenditaj de Pocket";
+/* Sub label for medium size Impervious Pocket stories widge widget. Pocket is the name of another app. */
+"TodayWidget.PocketWidgetSubLabel" = "Impervious - Rekomenditaj de Pocket";
 
-/* Title for Firefox Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app. */
+/* Title for Impervious Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app. */
 "TodayWidget.PocketWidgetTitle" = "Rekomendita de Pocket";
 
 /* Open New Private Tab button label */
 "TodayWidget.PrivateTabButtonLabelV1" = "Privata serĉo";
 
 /* Quick action description when widget enters edit mode */
-"TodayWidget.QuickActionDescription" = "Elektu ŝparvojon de Firefox por aldoni ĝin al via hejmekrano.";
+"TodayWidget.QuickActionDescription" = "Elektu ŝparvojon de Impervious por aldoni ĝin al via hejmekrano.";
 
 /* Quick Actions left label text for dropdown menu when widget enters edit mode */
 "TodayWidget.QuickActionDropDownMenu" = "Rapida ago";
 
 /* Description for small size widget to add it to home screen */
-"TodayWidget.QuickActionGalleryDescription" = "Aldonu ŝparvojon de Firefox al via hejmekrano. Post la aldono de la elemento, tuŝu longe por modifi ĝin kaj elekti alian ŝparvojon.";
+"TodayWidget.QuickActionGalleryDescription" = "Aldonu ŝparvojon de Impervious al via hejmekrano. Post la aldono de la elemento, tuŝu longe por modifi ĝin kaj elekti alian ŝparvojon.";
 
 /* Quick Actions title when widget enters edit mode */
 "TodayWidget.QuickActionsGalleryTitle" = "Rapidaj agoj";
 
-/* Firefox shortcuts title when widget enters edit mode. Do not translate the word Firefox. */
-"TodayWidget.QuickActionsGalleryTitleV2" = "Ŝparvojoj de Firefox";
+/* Impervious shortcuts title when widget enters edit mode. Do not translate the word Impervious. */
+"TodayWidget.QuickActionsGalleryTitleV2" = "Ŝparvojoj de Impervious";
 
 /* Sub label for medium size quick action widget */
-"TodayWidget.QuickActionsSubLabel" = "Firefox - Rapidaj agoj";
+"TodayWidget.QuickActionsSubLabel" = "Impervious - Rapidaj agoj";
 
 /* Description for Quick View widget in Gallery View where user can add it to home screen */
 "TodayWidget.QuickViewGalleryDescription" = "Aliru viajn malfermitajn langetojn rekte el via hejmekrano.";
@@ -101,35 +101,35 @@
 "TodayWidget.QuickViewLargeGalleryDescription" = "Aldoni ŝparvojojn al viaj malfermitaj langetoj.";
 
 /* Sub label for Top Sites widget */
-"TodayWidget.QuickViewOpenTabsSubLabel" = "Firefox - Malfermitaj langetoj";
+"TodayWidget.QuickViewOpenTabsSubLabel" = "Impervious - Malfermitaj langetoj";
 
-/* Title for small size widget which allows users to search in Firefox. Do not translate the word Firefox. */
-"TodayWidget.SearchInFirefoxTitle" = "Serĉi en Firefox";
+/* Title for small size widget which allows users to search in Impervious. Do not translate the word Impervious. */
+"TodayWidget.SearchInFirefoxTitle" = "Serĉi en Impervious";
 
-/* Search in Firefox. Do not translate the word Firefox */
+/* Search in Impervious. Do not translate the word Impervious */
 "TodayWidget.SearchInFirefoxV2" = "Serĉi en\nFirefox";
 
 /* Search in private tab */
 "TodayWidget.SearchInPrivateTabLabelV2" = "Serĉi en\nprivata langeto";
 
-/* Description for top sites widget to add Firefox top sites shotcuts to home screen */
+/* Description for top sites widget to add Impervious top sites shotcuts to home screen */
 "TodayWidget.TopSitesGalleryDescription" = "Aldoni ŝparvojojn al ofte kaj ĵuse vizititaj retejoj.";
 
-/* Title for top sites widget to add Firefox top sites shotcuts to home screen */
+/* Title for top sites widget to add Impervious top sites shotcuts to home screen */
 "TodayWidget.TopSitesGalleryTitle" = "Plej vizititaj retejoj";
 
-/* Title for top sites widget to add Firefox top sites shotcuts to home screen */
+/* Title for top sites widget to add Impervious top sites shotcuts to home screen */
 "TodayWidget.TopSitesGalleryTitleV2" = "Retejaj ŝparvojoj";
 
 /* Sub label for Top Sites widget */
-"TodayWidget.TopSitesSubLabel" = "Firefox - Plej vizititaj retejoj";
+"TodayWidget.TopSitesSubLabel" = "Impervious - Plej vizititaj retejoj";
 
 /* Sub label for Shortcuts widget */
-"TodayWidget.TopSitesSubLabel2" = "Firefox - Retejaj ŝparvojoj";
+"TodayWidget.TopSitesSubLabel2" = "Impervious - Retejaj ŝparvojoj";
 
 /* View More for Quick View widget in Gallery View where we don't know how many tabs might be opened */
 "TodayWidget.ViewMore" = "Montri pli";
 
-/* View More… for Firefox Pocket stories widget where we don't know how many articles are available. */
+/* View More… for Impervious Pocket stories widget where we don't know how many articles are available. */
 "TodayWidget.ViewMoreDots" = "Montri pli…";
 

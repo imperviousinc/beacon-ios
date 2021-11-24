@@ -7,10 +7,10 @@
 /* Next button on the first intro screen. */
 "Intro.Slides.Button.Next" = "அடுத்து";
 
-/* Sign in to Firefox account button on second intro screen. */
+/* Sign in to Impervious account button on second intro screen. */
 "Intro.Slides.Button.SignIn" = "உள்நுழை";
 
-/* Sign up to Firefox account button on second intro screen. */
+/* Sign up to Impervious account button on second intro screen. */
 "Intro.Slides.Button.SignUp" = "பதிவுபெறுக";
 
 /* Description for the second item in the table related to fast searching via address bar */

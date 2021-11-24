@@ -1,14 +1,14 @@
 /* Next button on the first intro screen. */
 "Intro.Slides.Button.Next" = "Næsti";
 
-/* Sign in to Firefox account button on second intro screen. */
+/* Sign in to Impervious account button on second intro screen. */
 "Intro.Slides.Button.SignIn" = "Innskráning";
 
-/* Sign up to Firefox account button on second intro screen. */
+/* Sign up to Impervious account button on second intro screen. */
 "Intro.Slides.Button.SignUp" = "Skráðu þig";
 
 /* Description for the 'Mail' panel in the First Run tour. */
-"Intro.Slides.Mail.Description" = "Nota hvaða tölvupóstforrit - ekki aðeins Mail - í Firefox.";
+"Intro.Slides.Mail.Description" = "Nota hvaða tölvupóstforrit - ekki aðeins Mail - í Impervious.";
 
 /* Title for the fourth panel 'Mail' in the First Run tour. */
 "Intro.Slides.Mail.Title" = "Þú hefur fengið póst... valkosti";
@@ -35,7 +35,7 @@
 "Intro.Slides.Welcome.Description.v2" = "Hraður, persónulegur og með þér í liði.";
 
 /* Title for the first panel 'Welcome' in the First Run tour. */
-"Intro.Slides.Welcome.Title.v2" = "Verið velkomin í Firefox";
+"Intro.Slides.Welcome.Title.v2" = "Verið velkomin í Impervious";
 
 /* See http://mzl.la/1T8gxwo */
 "Start Browsing" = "Fara að vafra";

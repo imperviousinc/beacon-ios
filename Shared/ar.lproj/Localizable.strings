@@ -258,7 +258,7 @@
 "Could not load page." = "تعذر تحميل الصفحة.";
 
 /* Description for the new dark mode change in the version 22 app release. It describes the new automatic dark theme and how to change the theme settings. */
-"CoverSheet.v22.DarkMode.Description" = "صار Firefox ينتقل تلقائيًا إلى السمة الداكنة (على آي‌أوإس 13) متى ما كان نظام الهاتف مضبوطًا على السمة الداكنة. لو أردت تغيير هذا السلوك فانتقل إلى الإعدادات > السمة.";
+"CoverSheet.v22.DarkMode.Description" = "صار Impervious ينتقل تلقائيًا إلى السمة الداكنة (على آي‌أوإس 13) متى ما كان نظام الهاتف مضبوطًا على السمة الداكنة. لو أردت تغيير هذا السلوك فانتقل إلى الإعدادات > السمة.";
 
 /* Title for the new dark mode change in the version 22 app release. */
 "CoverSheet.v22.DarkMode.Title" = "صارت تشمل السمة الداكنة الآن لوحة مفاتيح داكنة وشاشة بدء داكنة.";
@@ -313,8 +313,8 @@
 /* Alert dialog title when the user taps the cancel download icon. */
 "Downloads.CancelDialog.Title" = "ألغِ التنزيل";
 
-/* The message displayed to a user when they try and perform the download of an asset that Firefox cannot currently handle. */
-"Downloads.Error.Message" = "لا يدعم Firefox التنزيلات بعد.";
+/* The message displayed to a user when they try and perform the download of an asset that Impervious cannot currently handle. */
+"Downloads.Error.Message" = "لا يدعم Impervious التنزيلات بعد.";
 
 /* The label text in the Download Cancelled toast for showing confirmation that the download was cancelled. */
 "Downloads.Toast.Cancelled.LabelText" = "أُلغي التنزيل";
@@ -359,7 +359,7 @@
 "ErrorPages.AdvancedWarning2.Text" = "قد تكون مشكلة في إعدادات الموقع أو تلاعب من مخترق. لا تواصل إلا إن كنت تقبل بالمخاطرة.";
 
 /* Warning text on the certificate error page */
-"ErrorPages.CertWarning.Description" = "ضبط مالك %@ موقعه على نحو غير سليم. لحماية معلوماتك من السرقة، لم يتصل Firefox بهذا الموقع.";
+"ErrorPages.CertWarning.Description" = "ضبط مالك %@ موقعه على نحو غير سليم. لحماية معلوماتك من السرقة، لم يتصل Impervious بهذا الموقع.";
 
 /* Title on the certificate error page */
 "ErrorPages.CertWarning.Title" = "هذا الاتصال غير موثوق به";
@@ -380,7 +380,7 @@
 "Facebook" = "فيسبوك";
 
 /* Title for firefox about:home page in tab history list */
-"Firefox.HomePage.Title" = "صفحة Firefox الرئيسية";
+"Firefox.HomePage.Title" = "صفحة Impervious الرئيسية";
 
 /* Accessibility Label for the tab toolbar Forward button */
 "Forward" = "التالي";
@@ -391,16 +391,16 @@
 /* Label stating your account is not verified */
 "FxA.AccountVerificationRequired" = "استيثاق الحساب مطلوب";
 
-/* Message explaining that user needs to check email for Firefox Account verfication link. */
-"FxA.AccountVerificationRequiredSurface" = "عليك تأكيد %@. افحص بريدك بحثا عن رابط التأكيد من Firefox.";
+/* Message explaining that user needs to check email for Impervious Account verfication link. */
+"FxA.AccountVerificationRequiredSurface" = "عليك تأكيد %@. افحص بريدك بحثا عن رابط التأكيد من Impervious.";
 
 /* Button label to connect another device to Sync */
 "FxA.ConnectAnotherDevice" = "صِلْ جهازا آخر";
 
-/* Settings section title for Firefox Account */
-"FxA.FirefoxAccount" = "حساب Firefox";
+/* Settings section title for Impervious Account */
+"FxA.FirefoxAccount" = "حساب Impervious";
 
-/* Button label to go to Firefox Account settings */
+/* Button label to go to Impervious Account settings */
 "FxA.ManageAccount" = "أدِر الحساب و الأجهزة";
 
 /* Label when no internet is present */
@@ -416,7 +416,7 @@
 "FxA.RemoveAccount" = "أزِل";
 
 /* Description string for alert view that gets presented when user tries to remove an account. */
-"FxA.RemoveAccountAlertMessage" = "أزِل حساب Firefox المرتبط بهذا الجهاز لتلج كمستخدم آخر.";
+"FxA.RemoveAccountAlertMessage" = "أزِل حساب Impervious المرتبط بهذا الجهاز لتلج كمستخدم آخر.";
 
 /* Remove account alert is the final confirmation before user removes their firefox account */
 "FxA.RemoveAccountAlertTitle" = "أزِل الحساب";
@@ -428,13 +428,13 @@
 "fxa.signin.camera-signin" = "لِج باستخدام كمرتك";
 
 /* FxA sign in create account label. */
-"fxa.signin.create-account-pt-1" = "زامِن بيانات Firefox بين الأجهزة عبر حساب Firefox.";
+"fxa.signin.create-account-pt-1" = "زامِن بيانات Impervious بين الأجهزة عبر حساب Impervious.";
 
 /* FxA sign in create account label. This will be linked to the site to create an account. */
-"fxa.signin.create-account-pt-2" = "أنشِئ حساب Firefox.";
+"fxa.signin.create-account-pt-2" = "أنشِئ حساب Impervious.";
 
 /* FxA sign in view qr code instructions */
-"fxa.signin.qr-link-instruction" = "افتح Firefox على حاسوبك وانتقل إلى firefox.com/pair";
+"fxa.signin.qr-link-instruction" = "افتح Impervious على حاسوبك وانتقل إلى firefox.com/pair";
 
 /* FxA sign in view qr code scan button */
 "fxa.signin.ready-to-scan" = "جاهز للمسح الضوئي";
@@ -451,14 +451,14 @@
 /* Label explaining what sync does */
 "FxA.SyncExplain" = "اجلب الألسنة، والعلامات، وكلمات السر من أجهزتك الأخرى.";
 
-/* Button label to Sync your Firefox Account */
+/* Button label to Sync your Impervious Account */
 "FxA.SyncNow" = "زامِن الآن";
 
 /* Call to action for sign into sync button */
 "FxA.TakeYourWebWithYou" = "خُذ الوِب معك";
 
 /* Title of a notification displayed when another device has connected to FxA. %@ refers to the name of the newly connected device. */
-"FxAPush_DeviceConnected_body" = "اتَّصل «تزامن Firefox» بِ‍ %@";
+"FxAPush_DeviceConnected_body" = "اتَّصل «تزامن Impervious» بِ‍ %@";
 
 /* Title of a notification displayed when another device has connected to FxA. */
 "FxAPush_DeviceConnected_title" = "اتَّصل «تزامن»";
@@ -467,7 +467,7 @@
 "FxAPush_DeviceDisconnected_body" = "فُصِلَ %@ بنجاح.";
 
 /* Body of a notification displayed when this device has been disconnected from FxA by another device. */
-"FxAPush_DeviceDisconnected_ThisDevice_body" = "فُصِلَ هذا الجهاز بنجاح من «تزامن Firefox».";
+"FxAPush_DeviceDisconnected_ThisDevice_body" = "فُصِلَ هذا الجهاز بنجاح من «تزامن Impervious».";
 
 /* Title of a notification displayed when this device has been disconnected by another device. */
 "FxAPush_DeviceDisconnected_ThisDevice_title" = "فُصِلَ «تزامن»";
@@ -524,7 +524,7 @@
 "HistoryPanel.EmptySyncedTabsPanelTabSyncDisabledState.Description" = "فعّل مزامنة الألسنة لعرض قائمة بالألسنة من أجهزتك الأخرى.";
 
 /* Title for the empty synced tabs state in the History Panel */
-"HistoryPanel.EmptySyncedTabsState.Title" = "Firefox Sync";
+"HistoryPanel.EmptySyncedTabsState.Title" = "Impervious Sync";
 
 /* Title for the Back to History button in the History Panel */
 "HistoryPanel.HistoryBackButton.Title" = "التأريخ";
@@ -628,10 +628,10 @@
 /* Light theme setting in Reading View settings */
 "Light" = "فاتح";
 
-/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Firefox reader mode from another app. */
+/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
 "Load original page" = "حمّل الصفحة الأصلية";
 
-/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app. */
+/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Impervious reader mode from another app. */
 "Loading content…" = "يُحمّل المحتوى…";
 
 /* Authentication prompt log in button */
@@ -686,7 +686,7 @@
 "LoginsList.Title" = "جلسات الولوج المحفوظة";
 
 /* Restore Tabs Prompt Description */
-"Looks like Firefox crashed previously. Would you like to restore your tabs?" = "يبدو أن Firefox انهار مؤخرًا. أتريد استعادة ألسنتك؟";
+"Looks like Impervious crashed previously. Would you like to restore your tabs?" = "يبدو أن Impervious انهار مؤخرًا. أتريد استعادة ألسنتك؟";
 
 /* Name for Mark as read button in reader mode
    Title for the button that marks a reading list item as read */
@@ -730,10 +730,10 @@
 "Menu.EnhancedTrackingProtectionOn.Title" = "فُعّلت الحماية الموسّعة من التعقب في هذا الموقع.";
 
 /* Description for having standard ETP protection with ITP offered in iOS14+ */
-"Menu.EnhancedTrackingProtectionStandardWithITP.Title" = "يحجب Firefox المتعقّبات بين المواقع، والمتعقّبات الاجتماعية، والمُعدّنات المعمّاة ومسجّلات البصمات.";
+"Menu.EnhancedTrackingProtectionStandardWithITP.Title" = "يحجب Impervious المتعقّبات بين المواقع، والمتعقّبات الاجتماعية، والمُعدّنات المعمّاة ومسجّلات البصمات.";
 
 /* Description for having strict ETP protection with ITP offered in iOS14+ */
-"Menu.EnhancedTrackingProtectionStrictWithITP.Title" = "يحجب Firefox المتعقّبات بين المواقع، والمتعقّبات الاجتماعية، والمُعدّنات المعمّاة، ومسجّلات البصمات والمحتوى المتعقّب.";
+"Menu.EnhancedTrackingProtectionStrictWithITP.Title" = "يحجب Impervious المتعقّبات بين المواقع، والمتعقّبات الاجتماعية، والمُعدّنات المعمّاة، ومسجّلات البصمات والمحتوى المتعقّب.";
 
 /* Label for the button, displayed in the menu, takes you to to History screen when pressed. */
 "Menu.History.Label" = "التأريخ";
@@ -796,7 +796,7 @@
 "Menu.TrackingProtection.BlockedTitle" = "محجوبة";
 
 /* Message in menu when no trackers blocked. */
-"Menu.TrackingProtection.NoTrackersBlockedTitle" = "لم تُكتشف في هذه الصفحة أي متعقّبات يعرفها Firefox.";
+"Menu.TrackingProtection.NoTrackersBlockedTitle" = "لم تُكتشف في هذه الصفحة أي متعقّبات يعرفها Impervious.";
 
 /* The title for tracking protection settings */
 "Menu.TrackingProtection.ProtectionSettings.Title" = "إعدادات الحماية";
@@ -811,7 +811,7 @@
 "Menu.TrackingProtectionBlockedSocial.Title" = "متعقبات المواقع الاجتماعية";
 
 /* Description of the Tracking protection menu when TP is blocking parts of the page */
-"Menu.TrackingProtectionBlocking.Description" = "يحجب Firefox أجزاءً من الصفحة ربما تتعقب تصفّحك.";
+"Menu.TrackingProtectionBlocking.Description" = "يحجب Impervious أجزاءً من الصفحة ربما تتعقب تصفّحك.";
 
 /* The description of the Tracking Protection menu item when tracking is enabled */
 "Menu.TrackingProtectionBlockingDisabled.Description" = "احجب متعقبات الإنترنت";
@@ -914,7 +914,7 @@
 "Okay" = "حسنا";
 
 /* Title for prompt displayed to user after the app crashes */
-"Oops! Firefox crashed" = "عذرا! انهار Firefox";
+"Oops! Impervious crashed" = "عذرا! انهار Impervious";
 
 /* See http://mzl.la/1LXbDOL */
 "Open articles in Reader View by tapping the book icon when it appears in the title bar." = "افتح المقالات في منظور القارئ بالنقر على أيقونة الكتاب عندما تظهر في شريط العنوان.";
@@ -925,8 +925,8 @@
 /* Toggle tabs syncing setting */
 "Open Tabs" = "الألسنة المفتوحة";
 
-/* The message displayed to a user when they try to open a URL that cannot be handled by Firefox, or any external app. */
-"OpenURL.Error.Message" = "تعذّر على Firefox فتح الصفحة لأن عنوانها غير صحيح.";
+/* The message displayed to a user when they try to open a URL that cannot be handled by Impervious, or any external app. */
+"OpenURL.Error.Message" = "تعذّر على Impervious فتح الصفحة لأن عنوانها غير صحيح.";
 
 /* Title of the message shown when the user attempts to navigate to an invalid link. */
 "OpenURL.Error.Title" = "تعذّر فتح الصفحة";
@@ -941,19 +941,19 @@
 "Password" = "كلمة السر";
 
 /* Error message shown in the remote tabs panel */
-"PasswordAutoFill.NoPasswordsFoundTitle" = "ليس لديك أية معلومات ولوج جرت مزامنتها من حساب Firefox لديك";
+"PasswordAutoFill.NoPasswordsFoundTitle" = "ليس لديك أية معلومات ولوج جرت مزامنتها من حساب Impervious لديك";
 
 /* Header for the list of credentials table */
 "PasswordAutoFill.PasswordsListTitle" = "معلومات الولوج المتاحة:";
 
 /* Title of the extension that shows firefox passwords */
-"PasswordAutoFill.SectionTitle" = "معلومات ولوج Firefox";
+"PasswordAutoFill.SectionTitle" = "معلومات ولوج Impervious";
 
 /* See http://mzl.la/1G7uHo7 */
 "PhotoLibrary.FirefoxWouldLikeAccessMessage" = "يسمح لك هذا بحفظ الصورة في سجل الكمرة.";
 
 /* See http://mzl.la/1G7uHo7 */
-"PhotoLibrary.FirefoxWouldLikeAccessTitle" = "يريد Firefox الوصول إلى صورك";
+"PhotoLibrary.FirefoxWouldLikeAccessTitle" = "يريد Impervious الوصول إلى صورك";
 
 /* Button for closing the menu action sheet */
 "PhotonMenu.close" = "أغلق";
@@ -961,7 +961,7 @@
 /* Privacy section title */
 "Privacy" = "الخصوصية";
 
-/* Show Firefox Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
+/* Show Impervious Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
 "Privacy Policy" = "سياسة الخصوصية";
 
 /* Title for quick-search engines settings section. */
@@ -1025,7 +1025,7 @@
 "ScanQRCode.InvalidDataError.Message" = "البيانات غير سليمة";
 
 /* Text of the prompt user to setup the camera authorization. */
-"ScanQRCode.PermissionError.Message" = "رجاء اسمح لمتصفّح Firefox أن يستخدم كمرة الجهاز من ’الإعدادات‘ ← ’الخصوصية‘ ← ’الكاميرا‘.";
+"ScanQRCode.PermissionError.Message" = "رجاء اسمح لمتصفّح Impervious أن يستخدم كمرة الجهاز من ’الإعدادات‘ ← ’الخصوصية‘ ← ’الكاميرا‘.";
 
 /* Title for the QR code scanner view. */
 "ScanQRCode.View.Title" = "امسح رمز QR";
@@ -1081,7 +1081,7 @@
 "Secure connection" = "اتصال آمن";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
-"Send a crash report so Mozilla can fix the problem?" = "أتريد إرسال بلاغ عن الانهيار كي تساعد Mozilla في حل المشكلة؟";
+"Send a crash report so Impervious can fix the problem?" = "أتريد إرسال بلاغ عن الانهيار كي تساعد Impervious في حل المشكلة؟";
 
 /* Menu item in settings used to open input.mozilla.org where people can submit feedback */
 "Send Feedback" = "أرسِل انطباعك";
@@ -1109,19 +1109,19 @@
 "SendTo.NavBar.Title" = "أرسِل اللسان";
 
 /* Error message shown in the remote tabs panel */
-"SendTo.NoDevicesFound.Message" = "لا أجهزة أخرى متصلة بحساب Firefox لمزامنتها.";
+"SendTo.NoDevicesFound.Message" = "لا أجهزة أخرى متصلة بحساب Impervious لمزامنتها.";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Message" = "من فضلك افتح Firefox، و افتح الإعدادات، و لِج للمتابعة.";
+"SendTo.NotSignedIn.Message" = "من فضلك افتح Impervious، و افتح الإعدادات، و لِج للمتابعة.";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Title" = "لم تلج إلى حساب Firefox.";
+"SendTo.NotSignedIn.Title" = "لم تلج إلى حساب Impervious.";
 
 /* Navigation bar button to Send the current page to a device */
 "SendTo.SendAction.Text" = "أرسِل";
 
-/* The text for the button on the Send to Device page if you are not signed in to Firefox Accounts. */
-"SendTo.SignIn.Button" = "لِج إلى Firefox";
+/* The text for the button on the Send to Device page if you are not signed in to Impervious Accounts. */
+"SendTo.SignIn.Button" = "لِج إلى Impervious";
 
 /* Body of notification shown when the device is sent one or more tabs from an unnamed device. */
 "SentTab_TabArrivingNotification_NoDevice_body" = "وصل لسان جديد من جهاز آخر.";
@@ -1145,7 +1145,7 @@
 "SentTab.NoTabArrivingNotification.body" = "اضغط ليبدأ";
 
 /* Title of notification received after a spurious message from FxA has been received. */
-"SentTab.NoTabArrivingNotification.title" = "Firefox Sync";
+"SentTab.NoTabArrivingNotification.title" = "Impervious Sync";
 
 /* Label for an action used to view one or more tabs from a notification. */
 "SentTab.ViewAction.title" = "اعرض";
@@ -1205,7 +1205,7 @@
 "Settings.DataManagement.Title" = "إدارة البيانات";
 
 /* Body of the alert when prompting the user asking to disconnect. */
-"Settings.Disconnect.Body" = "سيتوقف Firefox عن مزامنة حسابك، لكن لن يحذف أيًا من بيانات تصفحك على هذا الجهاز.";
+"Settings.Disconnect.Body" = "سيتوقف Impervious عن مزامنة حسابك، لكن لن يحذف أيًا من بيانات تصفحك على هذا الجهاز.";
 
 /* Button displayed at the bottom of settings page allowing users to Disconnect from FxA */
 "Settings.Disconnect.Button" = "اقطع اتصال التزامن";
@@ -1274,11 +1274,11 @@
 /* Label used for the device name settings section. */
 "Settings.FxA.DeviceName" = "اسم الجهاز";
 
-/* Label used as a section title in the Firefox Accounts Settings screen. */
+/* Label used as a section title in the Impervious Accounts Settings screen. */
 "Settings.FxA.Sync.SectionName" = "إعدادات المزامنة";
 
 /* Title displayed in header of the FxA settings panel. */
-"Settings.FxA.Title" = "حساب Firefox";
+"Settings.FxA.Title" = "حساب Impervious";
 
 /* General settings section title */
 "Settings.General.SectionName" = "عام";
@@ -1332,10 +1332,10 @@
 "Settings.NewTab.Option.CustomizeFooter2" = "المواقع التي حفظتها أو زرتها";
 
 /* The title for the section to customize top sites in the new tab settings page. */
-"Settings.NewTab.Option.CustomizeTitle" = "خصّص شاشة بداية Firefox";
+"Settings.NewTab.Option.CustomizeTitle" = "خصّص شاشة بداية Impervious";
 
-/* Option in settings to show Firefox Home when you open a new tab */
-"Settings.NewTab.Option.FirefoxHome" = "شاشة بداية Firefox";
+/* Option in settings to show Impervious Home when you open a new tab */
+"Settings.NewTab.Option.FirefoxHome" = "شاشة بداية Impervious";
 
 /* Option in the settings to turn off recent bookmarks in the Highlights section */
 "Settings.NewTab.Option.HighlightsBookmarks" = "آخر العلامات";
@@ -1377,7 +1377,7 @@
 "Settings.NewTab.TopSectionNameFooter" = "اختر ما سيُحمّل عند فتح لسان جديد";
 
 /* Description displayed under the ”Offer to Open Copied Link” option. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
-"Settings.OfferClipboardBar.Status" = "عند فتح Firefox";
+"Settings.OfferClipboardBar.Status" = "عند فتح Impervious";
 
 /* Title of setting to enable the Go to Copied URL feature. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
 "Settings.OfferClipboardBar.Title" = "اطلب فتح الروابط المنسوخة";
@@ -1401,7 +1401,7 @@
 "Settings.SendUsage.Link" = "اطّلع على المزيد.";
 
 /* A short description that explains why mozilla collects usage data. */
-"Settings.SendUsage.Message" = "تحاول Mozilla ألا تجمع أكثر مما تحتاجه لإتاحة Firefox و تحسينه للجميع.";
+"Settings.SendUsage.Message" = "تحاول Impervious ألا تجمع أكثر مما تحتاجه لإتاحة Impervious و تحسينه للجميع.";
 
 /* The title for the setting to send usage data. */
 "Settings.SendUsage.Title" = "أرسِل بيانات الاستخدام";
@@ -1419,7 +1419,7 @@
 "Settings.Siri.OpenTabShortcut" = "افتح لسانًا جديدًا";
 
 /* The description that describes what siri shortcuts are */
-"Settings.Siri.SectionDescription" = "استخدم اختصارات «سيري» لفتح Firefox بسرعة عبر «سيري/Siri»";
+"Settings.Siri.SectionDescription" = "استخدم اختصارات «سيري» لفتح Impervious بسرعة عبر «سيري/Siri»";
 
 /* The option that takes you to the siri shortcuts settings page */
 "Settings.Siri.SectionName" = "اختصارات سيري";
@@ -1439,11 +1439,11 @@
 /* Label used as an item in Settings. Tapping on this item takes you to the Studies panel */
 "Settings.Studies.Title" = "الدراسات";
 
-/* Title for a link that explains what Mozilla means by Studies */
+/* Title for a link that explains what Impervious means by Studies */
 "Settings.Studies.Toggle.Link" = "اطّلع على المزيد.";
 
-/* A short description that explains that Mozilla is running studies */
-"Settings.Studies.Toggle.Message" = "قد يثبّت Firefox بعض الدراسات ويشغّلها من وقت لآخر.";
+/* A short description that explains that Impervious is running studies */
+"Settings.Studies.Toggle.Message" = "قد يثبّت Impervious بعض الدراسات ويشغّلها من وقت لآخر.";
 
 /* Toggled OFF to opt-out of studies */
 "Settings.Studies.Toggle.Off" = "معطّل";
@@ -1464,7 +1464,7 @@
 "Settings.TrackingProtection.Alert.Title" = "انتبه!";
 
 /* Header description for tracking protection options section where Basic/Strict block list can be selected */
-"Settings.TrackingProtection.BlockListsHeader" = "يمكنك اختيار أيّة قائمة سيستخدمها Firefox لحجب عناصر الوِب التي قد تتعقّب نشاط التصفح.";
+"Settings.TrackingProtection.BlockListsHeader" = "يمكنك اختيار أيّة قائمة سيستخدمها Impervious لحجب عناصر الوِب التي قد تتعقّب نشاط التصفح.";
 
 /* Explanation of basic mode. */
 "Settings.TrackingProtection.Info.BasicTitle" = "متوازنة تجمع بين الحماية والأداء.";
@@ -1556,32 +1556,32 @@
 /* Title displayed in header of the Data Management panel. */
 "Settings.WebsiteData.Title" = "بيانات الموقع";
 
-/* Action label on share extension to add page to the Firefox reading list. */
+/* Action label on share extension to add page to the Impervious reading list. */
 "ShareExtension.AddToReadingListAction.Title" = "أضِف إلى قائمة القراءة";
 
 /* Share extension label shown after user has performed 'Add to Reading List' action. */
 "ShareExtension.AddToReadingListActionDone.Title" = "أُضيفت إلى قائمة القراءة";
 
-/* Action label on share extension to bookmark the page in Firefox. */
+/* Action label on share extension to bookmark the page in Impervious. */
 "ShareExtension.BookmarkThisPageAction.Title" = "علّم هذه الصفحة";
 
 /* Share extension label shown after user has performed 'Bookmark this Page' action. */
 "ShareExtension.BookmarkThisPageActionDone.Title" = "عُلّمت";
 
-/* Action label on share extension to load the page in Firefox when user switches apps to bring it to foreground. */
+/* Action label on share extension to load the page in Impervious when user switches apps to bring it to foreground. */
 "ShareExtension.LoadInBackgroundAction.Title" = "حمِّل في الخلفية";
 
 /* Share extension label shown after user has performed 'Load in Background' action. */
-"ShareExtension.LoadInBackgroundActionDone.Title" = "حُمّل في Firefox";
+"ShareExtension.LoadInBackgroundActionDone.Title" = "حُمّل في Impervious";
 
-/* Action label on share extension to immediately open page in Firefox. */
-"ShareExtension.OpenInFirefoxAction.Title" = "افتح في Firefox";
+/* Action label on share extension to immediately open page in Impervious. */
+"ShareExtension.OpenInFirefoxAction.Title" = "افتح في Impervious";
 
-/* Action label on share extension to immediately open page in Firefox in private mode. */
+/* Action label on share extension to immediately open page in Impervious in private mode. */
 "ShareExtension.OpenInPrivateModeAction.Title" = "افتح في الوضع الخاص";
 
-/* Action label on share extension to search for the selected text in Firefox. */
-"ShareExtension.SeachInFirefoxAction.Title" = "ابحث في Firefox";
+/* Action label on share extension to search for the selected text in Impervious. */
+"ShareExtension.SeachInFirefoxAction.Title" = "ابحث في Impervious";
 
 /* Label for show search suggestions setting. */
 "Show Search Suggestions" = "أظهِر اقتراحات البحث";
@@ -1618,7 +1618,7 @@
 "Sync.FirstTimeMessage.Label" = "قد تأخذ أول مزامنة بعض الوقت";
 
 /* String displayed on Sign In to Sync page that allows the user to create a new account. */
-"Sync.NoAccount.Description" = "ليس لديك حساب؟ أنشِئ واحدًا لمزامنة Firefox بين الأجهزة.";
+"Sync.NoAccount.Description" = "ليس لديك حساب؟ أنشِئ واحدًا لمزامنة Impervious بين الأجهزة.";
 
 /* Message displayed when the user's account is syncing with no ellipsis */
 "Sync.Syncing.Label" = "يُزامِن";
@@ -1728,7 +1728,7 @@
 /* The section header for tabs opened yesterday */
 "TabTray.Yesterday.Header" = "الأمس";
 
-/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Firefox reader mode from another app. */
+/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
 "The page could not be displayed in Reader View." = "تعذّر عرض الصفحة في منظور القارئ.";
 
 /* Error message in the remote tabs panel */
@@ -1786,13 +1786,13 @@
 "UIMenuItem.PasteGo" = "ألصِق وانتقل";
 
 /* Search in New Tab Text selection menu item */
-"UIMenuItem.SearchWithFirefox" = "ابحث مستخدمًا Firefox";
+"UIMenuItem.SearchWithFirefox" = "ابحث مستخدمًا Impervious";
 
 /* Accessibility label for unread article in reading list. It's a past participle - functions as an adjective. */
 "unread" = "غير مقروء";
 
 /* Text message in the settings table view */
-"Upgrade Firefox to connect" = "حدّث Firefox للاتصال";
+"Upgrade Impervious to connect" = "حدّث Impervious للاتصال";
 
 /* Debug option */
 "Use stage servers" = "استعمل خواديم الإصدارات التجريبية";
@@ -1803,7 +1803,7 @@
 /* Text message in the settings table view */
 "Verify your email address" = "أكِّد بريدك الإلكتروني";
 
-/* Version number of Firefox shown in settings */
+/* Version number of Impervious shown in settings */
 "Version %@ (%@)" = "الإصدارة %1$@ (%2$@)";
 
 /* Accessibility label for the main web content view */
@@ -1825,7 +1825,7 @@
 "Yesterday" = "الأمس";
 
 /* Error message in the remote tabs panel */
-"You don’t have any tabs open in Firefox on your other devices." = "لا ألسنة مفتوحة في Firefox على أجهزتك الأخرى.";
+"You don’t have any tabs open in Impervious on your other devices." = "لا ألسنة مفتوحة في Impervious على أجهزتك الأخرى.";
 
 /* Your Rights settings section title */
 "Your Rights" = "حقوقك";

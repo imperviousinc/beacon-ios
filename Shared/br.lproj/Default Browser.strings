@@ -1,16 +1,16 @@
-/* Button string to open settings that allows user to switch their default browser to Firefox. */
+/* Button string to open settings that allows user to switch their default browser to Impervious. */
 "DefaultBrowserCard.Button" = "Mont d’an arventennoù";
 
 /* Button string to learn how to set your default browser. */
 "DefaultBrowserCard.Button.v2" = "Gouzout penaos";
 
-/* Description for small card shown that allows user to switch their default browser to Firefox. */
-"DefaultBrowserCard.Description" = "Lakaat da zigeriñ e Firefox en un doare emgefreek liammoù al lec’hiennoù, posteloù, ha kemennadennoù.";
+/* Description for small card shown that allows user to switch their default browser to Impervious. */
+"DefaultBrowserCard.Description" = "Lakaat da zigeriñ e Impervious en un doare emgefreek liammoù al lec’hiennoù, posteloù, ha kemennadennoù.";
 
-/* Title for small card shown that allows user to switch their default browser to Firefox. */
+/* Title for small card shown that allows user to switch their default browser to Impervious. */
 "DefaultBrowserCard.Title" = "Cheñch ho merdeer dre ziouer";
 
-/* Button string to open settings that allows user to switch their default browser to Firefox. */
+/* Button string to open settings that allows user to switch their default browser to Impervious. */
 "DefaultBrowserOnboarding.Button" = "Mont d’an arventennoù";
 
 /* Description for default browser onboarding card. */
@@ -20,11 +20,11 @@
 "DefaultBrowserOnboarding.Description2" = "2. Stokañ an arload merdeer dre ziouer";
 
 /* Description for default browser onboarding card. */
-"DefaultBrowserOnboarding.Description3" = "3. Dibab Firefox";
+"DefaultBrowserOnboarding.Description3" = "3. Dibab Impervious";
 
-/* Text for the screenshot of the iOS system settings page for Firefox. */
+/* Text for the screenshot of the iOS system settings page for Impervious. */
 "DefaultBrowserOnboarding.Screenshot" = "Arload merdeer dre ziouer";
 
-/* Menu option for setting Firefox as default browser. */
+/* Menu option for setting Impervious as default browser. */
 "Settings.DefaultBrowserMenuItem" = "Lakaat evel merdeer dre ziouer";
 

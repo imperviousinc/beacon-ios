@@ -270,7 +270,7 @@
 "Could not load page." = "Հնարավոր չէ բեռնել էջը:";
 
 /* Description for the new dark mode change in the version 22 app release. It describes the new automatic dark theme and how to change the theme settings. */
-"CoverSheet.v22.DarkMode.Description" = "iOS 13 օգտագործողների համար Firefox-ն այժմ ինքնաբերաբար անցնում է մութ թեմային, երբ ձեր հեռախոսը դրված է Մութ կերպում: Այս պահվածքը փոխելու համար անցեք Կարգավորումներ»Ձևավորում:";
+"CoverSheet.v22.DarkMode.Description" = "iOS 13 օգտագործողների համար Impervious-ն այժմ ինքնաբերաբար անցնում է մութ թեմային, երբ ձեր հեռախոսը դրված է Մութ կերպում: Այս պահվածքը փոխելու համար անցեք Կարգավորումներ»Ձևավորում:";
 
 /* Title for the new dark mode change in the version 22 app release. */
 "CoverSheet.v22.DarkMode.Title" = "Մուգ ձևավորումը այժմ ներառում է մուգ ստեղնաշար և մուգ պաշտպանիչ էկրան:";
@@ -325,8 +325,8 @@
 /* Alert dialog title when the user taps the cancel download icon. */
 "Downloads.CancelDialog.Title" = "Չեղարկել ներբեռնումը";
 
-/* The message displayed to a user when they try and perform the download of an asset that Firefox cannot currently handle. */
-"Downloads.Error.Message" = "Ներբեռնումները դեռ չեն աջակցվում Firefox-ի կողմից:";
+/* The message displayed to a user when they try and perform the download of an asset that Impervious cannot currently handle. */
+"Downloads.Error.Message" = "Ներբեռնումները դեռ չեն աջակցվում Impervious-ի կողմից:";
 
 /* The label text in the Download Cancelled toast for showing confirmation that the download was cancelled. */
 "Downloads.Toast.Cancelled.LabelText" = "Ներբեռնումը չեղարկվել է";
@@ -371,7 +371,7 @@
 "ErrorPages.AdvancedWarning2.Text" = "Դա կարող է լինել հարցակվողի կողմից սխալ կազմաձևում կամ խախտում։ Առաջ անցեք, եթե դուք ընդունում եք հնարավոր վտանգը։";
 
 /* Warning text on the certificate error page */
-"ErrorPages.CertWarning.Description" = "%@-ի սեփականատերը սխալ է տեղադրել իր կայքը։ Ձեր տեղեկատվությունը գողությունից պաշտպանելու համար Firefox֊ը չի միացել այս վեբ կայքին։";
+"ErrorPages.CertWarning.Description" = "%@-ի սեփականատերը սխալ է տեղադրել իր կայքը։ Ձեր տեղեկատվությունը գողությունից պաշտպանելու համար Impervious֊ը չի միացել այս վեբ կայքին։";
 
 /* Title on the certificate error page */
 "ErrorPages.CertWarning.Title" = "Այս միացումը անվստահելի է";
@@ -403,16 +403,16 @@
 /* Label stating your account is not verified */
 "FxA.AccountVerificationRequired" = "Պահանջվել է հաշվի հաստատում";
 
-/* Message explaining that user needs to check email for Firefox Account verfication link. */
-"FxA.AccountVerificationRequiredSurface" = "Դուք պետք է հաստատեք %@-ը։ Ստուգեք ձեր էլ֊. փոստը Firefox-ից հաստատման հղման համար։";
+/* Message explaining that user needs to check email for Impervious Account verfication link. */
+"FxA.AccountVerificationRequiredSurface" = "Դուք պետք է հաստատեք %@-ը։ Ստուգեք ձեր էլ֊. փոստը Impervious-ից հաստատման հղման համար։";
 
 /* Button label to connect another device to Sync */
 "FxA.ConnectAnotherDevice" = "Միացրեք այլ սարքի";
 
-/* Settings section title for Firefox Account */
-"FxA.FirefoxAccount" = "Firefox հաշիվ";
+/* Settings section title for Impervious Account */
+"FxA.FirefoxAccount" = "Impervious հաշիվ";
 
-/* Button label to go to Firefox Account settings */
+/* Button label to go to Impervious Account settings */
 "FxA.ManageAccount" = "Կառավարել հաշիվը";
 
 /* Label when no internet is present */
@@ -428,7 +428,7 @@
 "FxA.RemoveAccount" = "Ջնջել";
 
 /* Description string for alert view that gets presented when user tries to remove an account. */
-"FxA.RemoveAccountAlertMessage" = "Այլ օգտվողով մուտք գործելու համար ջնջեք այս սարքի հետ համակցված Firefox Հաշիվը:";
+"FxA.RemoveAccountAlertMessage" = "Այլ օգտվողով մուտք գործելու համար ջնջեք այս սարքի հետ համակցված Impervious Հաշիվը:";
 
 /* Remove account alert is the final confirmation before user removes their firefox account */
 "FxA.RemoveAccountAlertTitle" = "Ջնջել հաշիվը";
@@ -440,13 +440,13 @@
 "fxa.signin.camera-signin" = "Մուտք գործեք ձեր խցիկի հետ";
 
 /* FxA sign in create account label. */
-"fxa.signin.create-account-pt-1" = "Համաժամացրեք Firefox-ը սարքերի միջեւ հաշվով:";
+"fxa.signin.create-account-pt-1" = "Համաժամացրեք Impervious-ը սարքերի միջեւ հաշվով:";
 
 /* FxA sign in create account label. This will be linked to the site to create an account. */
-"fxa.signin.create-account-pt-2" = "Ստեղծել Firefox-ի հաշիվ:";
+"fxa.signin.create-account-pt-2" = "Ստեղծել Impervious-ի հաշիվ:";
 
 /* FxA sign in view qr code instructions */
-"fxa.signin.qr-link-instruction" = "Ձեր համակարգչի վրա բացեք Firefox-ը և անցեք firefox.com/pair";
+"fxa.signin.qr-link-instruction" = "Ձեր համակարգչի վրա բացեք Impervious-ը և անցեք firefox.com/pair";
 
 /* FxA sign in view qr code scan button */
 "fxa.signin.ready-to-scan" = "Պատրաստ է սկանավորել";
@@ -463,7 +463,7 @@
 /* Label explaining what sync does */
 "FxA.SyncExplain" = "ձեր այլ սարքերից ստացեք ձեր ներդիրները, էջանիշերը և գաղտնաբառերը։";
 
-/* Button label to Sync your Firefox Account */
+/* Button label to Sync your Impervious Account */
 "FxA.SyncNow" = "Համաժամեցնել";
 
 /* Call to action for sign into sync button */
@@ -479,7 +479,7 @@
 "FxAPush_DeviceDisconnected_body" = "%@-ը հաջողությամբ կապախզվել է:";
 
 /* Body of a notification displayed when this device has been disconnected from FxA by another device. */
-"FxAPush_DeviceDisconnected_ThisDevice_body" = "ԱՅս սարքը հաջողությամբ կապախզվել է Firefox Սինքից:";
+"FxAPush_DeviceDisconnected_ThisDevice_body" = "ԱՅս սարքը հաջողությամբ կապախզվել է Impervious Սինքից:";
 
 /* Title of a notification displayed when this device has been disconnected by another device. */
 "FxAPush_DeviceDisconnected_ThisDevice_title" = "Սինքը կապախզված է";
@@ -488,7 +488,7 @@
 "FxAPush_DeviceDisconnected_title" = "Սինքը կապախզված է";
 
 /* Body of a notification displayed when unnamed device has been disconnected from FxA. */
-"FxAPush_DeviceDisconnected_UnknownDevice_body" = "Սարքը կապախզվել է Firefox Սինքից";
+"FxAPush_DeviceDisconnected_UnknownDevice_body" = "Սարքը կապախզվել է Impervious Սինքից";
 
 /* A re-worded offer about Sync, displayed when the Sync home panel is empty, that emphasizes one-way data transfer, not syncing. */
 "Get your open tabs, bookmarks, and passwords from your other devices." = "Այլ սարքերից ստացեք ձեր ներդիրները, էջանիշերը և գաղտնաբառերը։";
@@ -536,7 +536,7 @@
 "HistoryPanel.EmptySyncedTabsPanelTabSyncDisabledState.Description" = "Միացրե՛ք ներդիրի համաժամեցումը ձեր այլ սարքերից ներդիրների ցուցակը տեսնելու համար։";
 
 /* Title for the empty synced tabs state in the History Panel */
-"HistoryPanel.EmptySyncedTabsState.Title" = "Firefox Սինք";
+"HistoryPanel.EmptySyncedTabsState.Title" = "Impervious Սինք";
 
 /* Title for the Back to History button in the History Panel */
 "HistoryPanel.HistoryBackButton.Title" = "Պատմություն";
@@ -643,10 +643,10 @@
 /* Light theme setting in Reading View settings */
 "Light" = "Բաց";
 
-/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Firefox reader mode from another app. */
+/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
 "Load original page" = "Բեռնել սկզբնական էջը";
 
-/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app. */
+/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Impervious reader mode from another app. */
 "Loading content…" = "Բովանդակության բեռնում...";
 
 /* Authentication prompt log in button */
@@ -701,7 +701,7 @@
 "LoginsList.LoginsListSearchPlaceholder" = "Զտիչ";
 
 /* Label shown when there are no logins to list */
-"LoginsList.NoLoginsFound.Description" = "Պահված մուտքագրումները կցուցադրվեն այստեղ: Եթե Firefox-ում մուտքագրումները պահել եք այլ սարքում, ապա մուտք գործեք ձեր Firefox հաշիվ:";
+"LoginsList.NoLoginsFound.Description" = "Պահված մուտքագրումները կցուցադրվեն այստեղ: Եթե Impervious-ում մուտքագրումները պահել եք այլ սարքում, ապա մուտք գործեք ձեր Impervious հաշիվ:";
 
 /* Label shown when there are no logins saved */
 "LoginsList.NoLoginsFound.Title" = "Մուտքագրումներ չկան";
@@ -725,7 +725,7 @@
 "LoginsList.Title" = "ՊԱՀՊԱՆՎԱԾ ՄՈՒՏՔԱՆՈՒՆՆԵՐ";
 
 /* Restore Tabs Prompt Description */
-"Looks like Firefox crashed previously. Would you like to restore your tabs?" = "Կարծես Firefox-ը վթարվել է: Վերականգնե՞լ ներդիրները:";
+"Looks like Impervious crashed previously. Would you like to restore your tabs?" = "Կարծես Impervious-ը վթարվել է: Վերականգնե՞լ ներդիրները:";
 
 /* Name for Mark as read button in reader mode
    Title for the button that marks a reading list item as read */
@@ -956,7 +956,7 @@
 "Okay" = "Լավ";
 
 /* Title for prompt displayed to user after the app crashes */
-"Oops! Firefox crashed" = "Վա՜յ, Firefox-ը վթարվեց:";
+"Oops! Impervious crashed" = "Վա՜յ, Impervious-ը վթարվեց:";
 
 /* See http://mzl.la/1LXbDOL */
 "Open articles in Reader View by tapping the book icon when it appears in the title bar." = "Բացեք հոդվածները Reader View֊ում՝ կտտացնելով գրքի պատկերակը, երբ այն հայտնվում է վերնագրի սանդղակում։";
@@ -967,7 +967,7 @@
 /* Toggle tabs syncing setting */
 "Open Tabs" = "Բացել ներդիրները";
 
-/* The message displayed to a user when they try to open a URL that cannot be handled by Firefox, or any external app. */
+/* The message displayed to a user when they try to open a URL that cannot be handled by Impervious, or any external app. */
 "OpenURL.Error.Message" = "Firefox-ը չի կարող բացել էջը, որովհետև այս ունի անվավեր հասցե։";
 
 /* Title of the message shown when the user attempts to navigate to an invalid link. */
@@ -983,7 +983,7 @@
 "Password" = "Գաղտնաբառ";
 
 /* Error message shown in the remote tabs panel */
-"PasswordAutoFill.NoPasswordsFoundTitle" = "Դուք չունեք որևէ հավատարմագրեր համաժամեցված ձեր Firefox- ի հաշվում";
+"PasswordAutoFill.NoPasswordsFoundTitle" = "Դուք չունեք որևէ հավատարմագրեր համաժամեցված ձեր Impervious- ի հաշվում";
 
 /* Header for the list of credentials table */
 "PasswordAutoFill.PasswordsListTitle" = "Հասանելի հավատարմագրեր․";
@@ -1003,7 +1003,7 @@
 /* Privacy section title */
 "Privacy" = "Գաղտնիություն";
 
-/* Show Firefox Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
+/* Show Impervious Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
 "Privacy Policy" = "Գաղտնիության Դրույթներ";
 
 /* This is the value for a label that indicates if a user is on an unencrypted website. */
@@ -1076,7 +1076,7 @@
 "ScanQRCode.InvalidDataError.Message" = "Տվյալը անվավեր է";
 
 /* Text of the prompt user to setup the camera authorization. */
-"ScanQRCode.PermissionError.Message" = "Խնդրում ենք Firefox֊ին թույլ տալ մուտք գործել ձեր սարքի տեսախցիկ «Կարգավորումներ» -> «Գաղտնիություն» -> «Տեսախցիկ»։";
+"ScanQRCode.PermissionError.Message" = "Խնդրում ենք Impervious֊ին թույլ տալ մուտք գործել ձեր սարքի տեսախցիկ «Կարգավորումներ» -> «Գաղտնիություն» -> «Տեսախցիկ»։";
 
 /* Title for the QR code scanner view. */
 "ScanQRCode.View.Title" = "Սկանավորել QR կոդը";
@@ -1132,7 +1132,7 @@
 "Secure connection" = "Անվտանգ կապակցում";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
-"Send a crash report so Mozilla can fix the problem?" = "Ուղարկե՞լ վթարի զեկույց Mozilla-ին, որպեսզի այն շտկվի:";
+"Send a crash report so Impervious can fix the problem?" = "Ուղարկե՞լ վթարի զեկույց Impervious-ին, որպեսզի այն շտկվի:";
 
 /* Menu item in settings used to open input.mozilla.org where people can submit feedback */
 "Send Feedback" = "Ուղարկել արձագանք";
@@ -1160,19 +1160,19 @@
 "SendTo.NavBar.Title" = "Ուղարկել ներդիրը";
 
 /* Error message shown in the remote tabs panel */
-"SendTo.NoDevicesFound.Message" = "Դուք չունեք մի սարք, որը կապված է Firefox֊ի այս հաշվին և առկա է համաժամեցման համար։";
+"SendTo.NoDevicesFound.Message" = "Դուք չունեք մի սարք, որը կապված է Impervious֊ի այս հաշվին և առկա է համաժամեցման համար։";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Message" = "Խնդրում ենք բացել Firefox֊ը, անցեք ընտրանքներ և գրանցվեք ՝ շարունակելու համար։";
+"SendTo.NotSignedIn.Message" = "Խնդրում ենք բացել Impervious֊ը, անցեք ընտրանքներ և գրանցվեք ՝ շարունակելու համար։";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Title" = "Դուք մուտք չեք գործել Firefox-ի ձեր Հաշիվ։";
+"SendTo.NotSignedIn.Title" = "Դուք մուտք չեք գործել Impervious-ի ձեր Հաշիվ։";
 
 /* Navigation bar button to Send the current page to a device */
 "SendTo.SendAction.Text" = "Ուղարկել";
 
-/* The text for the button on the Send to Device page if you are not signed in to Firefox Accounts. */
-"SendTo.SignIn.Button" = "Մուտք գործել Firefox";
+/* The text for the button on the Send to Device page if you are not signed in to Impervious Accounts. */
+"SendTo.SignIn.Button" = "Մուտք գործել Impervious";
 
 /* Body of notification shown when the device is sent one or more tabs from an unnamed device. */
 "SentTab_TabArrivingNotification_NoDevice_body" = "Նոր ներդիրը եկել է այլ սարքից:";
@@ -1196,7 +1196,7 @@
 "SentTab.NoTabArrivingNotification.body" = "Հպեք՝ սկսելու համար";
 
 /* Title of notification received after a spurious message from FxA has been received. */
-"SentTab.NoTabArrivingNotification.title" = "Firefox Սինք";
+"SentTab.NoTabArrivingNotification.title" = "Impervious Սինք";
 
 /* Label for an action used to view one or more tabs from a notification. */
 "SentTab.ViewAction.title" = "Տեսք";
@@ -1328,11 +1328,11 @@
 /* Label used for the device name settings section. */
 "Settings.FxA.DeviceName" = "Սարքի անունը";
 
-/* Label used as a section title in the Firefox Accounts Settings screen. */
+/* Label used as a section title in the Impervious Accounts Settings screen. */
 "Settings.FxA.Sync.SectionName" = "Սինքի կարգավորումներ";
 
 /* Title displayed in header of the FxA settings panel. */
-"Settings.FxA.Title" = "Firefox հաշիվ";
+"Settings.FxA.Title" = "Impervious հաշիվ";
 
 /* General settings section title */
 "Settings.General.SectionName" = "Գլխավոր";
@@ -1386,9 +1386,9 @@
 "Settings.NewTab.Option.CustomizeFooter2" = "Կայքեր, որոնք դուք պահպանել կամ այցելել եք";
 
 /* The title for the section to customize top sites in the new tab settings page. */
-"Settings.NewTab.Option.CustomizeTitle" = "Հարմարեցնել Firefox-ի սկիզբը";
+"Settings.NewTab.Option.CustomizeTitle" = "Հարմարեցնել Impervious-ի սկիզբը";
 
-/* Option in settings to show Firefox Home when you open a new tab */
+/* Option in settings to show Impervious Home when you open a new tab */
 "Settings.NewTab.Option.FirefoxHome" = "Firefox֊-ի սկիզբ";
 
 /* Option in the settings to turn off recent bookmarks in the Highlights section */
@@ -1455,7 +1455,7 @@
 "Settings.SendUsage.Link" = "Իմանալ ավելին:";
 
 /* A short description that explains why mozilla collects usage data. */
-"Settings.SendUsage.Message" = "Mozilla-ն ձգտում է հավաքել միայն այն ինչ անհրաժեշտ է տրամադրել՝ Firefox-ը բոլորի համար լավարկել ու համար:";
+"Settings.SendUsage.Message" = "Mozilla-ն ձգտում է հավաքել միայն այն ինչ անհրաժեշտ է տրամադրել՝ Impervious-ը բոլորի համար լավարկել ու համար:";
 
 /* The title for the setting to send usage data. */
 "Settings.SendUsage.Title" = "Ուղարկել օգտագործման տվյալները";
@@ -1473,7 +1473,7 @@
 "Settings.Siri.OpenTabShortcut" = "Բացել նոր ներդիր";
 
 /* The description that describes what siri shortcuts are */
-"Settings.Siri.SectionDescription" = "Օգտագործեք Siri-ի դյուրանցումները՝ Siri֊ի միջոցով Firefox-ը արագ բացելու համար";
+"Settings.Siri.SectionDescription" = "Օգտագործեք Siri-ի դյուրանցումները՝ Siri֊ի միջոցով Impervious-ը արագ բացելու համար";
 
 /* The option that takes you to the siri shortcuts settings page */
 "Settings.Siri.SectionName" = "Siri֊ի դյուրանցումներ";
@@ -1493,10 +1493,10 @@
 /* Label used as an item in Settings. Tapping on this item takes you to the Studies panel */
 "Settings.Studies.Title" = "Ուսումնասիրություններ";
 
-/* Title for a link that explains what Mozilla means by Studies */
+/* Title for a link that explains what Impervious means by Studies */
 "Settings.Studies.Toggle.Link" = "Իմանալ ավելին:";
 
-/* A short description that explains that Mozilla is running studies */
+/* A short description that explains that Impervious is running studies */
 "Settings.Studies.Toggle.Message" = "Firefox-ը կարող է ժամանակ առ ժամանակ տեղադրել և գործարկել ուսումնասիրություններ:";
 
 /* Toggled OFF to opt-out of studies */
@@ -1518,7 +1518,7 @@
 "Settings.TrackingProtection.Alert.Title" = "Ուշադրություն։";
 
 /* Header description for tracking protection options section where Basic/Strict block list can be selected */
-"Settings.TrackingProtection.BlockListsHeader" = "Կարող եք ընտրել, թե Firefox-ը որ ցուցակը օգտագործի արգելափակելու վեբ տարրերը, որոնք կարող են դանդաղեցնել ձեր աշխատանքը զննիչում։";
+"Settings.TrackingProtection.BlockListsHeader" = "Կարող եք ընտրել, թե Impervious-ը որ ցուցակը օգտագործի արգելափակելու վեբ տարրերը, որոնք կարող են դանդաղեցնել ձեր աշխատանքը զննիչում։";
 
 /* Explanation of basic mode. */
 "Settings.TrackingProtection.Info.BasicTitle" = "Հավասարակշռված է պաշտպանության իրականացումը։";
@@ -1613,32 +1613,32 @@
 /* Title displayed in header of the Data Management panel. */
 "Settings.WebsiteData.Title" = "Կայքի տվյալներ";
 
-/* Action label on share extension to add page to the Firefox reading list. */
+/* Action label on share extension to add page to the Impervious reading list. */
 "ShareExtension.AddToReadingListAction.Title" = "Ավելացնել ընթերցման ցուցակում";
 
 /* Share extension label shown after user has performed 'Add to Reading List' action. */
 "ShareExtension.AddToReadingListActionDone.Title" = "Ավելացված է ընթերցման ցուցակում";
 
-/* Action label on share extension to bookmark the page in Firefox. */
+/* Action label on share extension to bookmark the page in Impervious. */
 "ShareExtension.BookmarkThisPageAction.Title" = "Էջանշել այս էջը";
 
 /* Share extension label shown after user has performed 'Bookmark this Page' action. */
 "ShareExtension.BookmarkThisPageActionDone.Title" = "Էջանշված";
 
-/* Action label on share extension to load the page in Firefox when user switches apps to bring it to foreground. */
+/* Action label on share extension to load the page in Impervious when user switches apps to bring it to foreground. */
 "ShareExtension.LoadInBackgroundAction.Title" = "Բեռնվում է հետնաշերտում";
 
 /* Share extension label shown after user has performed 'Load in Background' action. */
-"ShareExtension.LoadInBackgroundActionDone.Title" = "Բեռնվում է Firefox-֊ում";
+"ShareExtension.LoadInBackgroundActionDone.Title" = "Բեռնվում է Impervious-֊ում";
 
-/* Action label on share extension to immediately open page in Firefox. */
-"ShareExtension.OpenInFirefoxAction.Title" = "Բացել Firefox-֊ում";
+/* Action label on share extension to immediately open page in Impervious. */
+"ShareExtension.OpenInFirefoxAction.Title" = "Բացել Impervious-֊ում";
 
-/* Action label on share extension to immediately open page in Firefox in private mode. */
+/* Action label on share extension to immediately open page in Impervious in private mode. */
 "ShareExtension.OpenInPrivateModeAction.Title" = "Բացել անձնական աշխատատեսակում";
 
-/* Action label on share extension to search for the selected text in Firefox. */
-"ShareExtension.SeachInFirefoxAction.Title" = "Որոնել Firefox֊-ում";
+/* Action label on share extension to search for the selected text in Impervious. */
+"ShareExtension.SeachInFirefoxAction.Title" = "Որոնել Impervious֊-ում";
 
 /* Label for show search suggestions setting. */
 "Show Search Suggestions" = "Ցուցադրել որոնման առաջարկները";
@@ -1675,7 +1675,7 @@
 "Sync.FirstTimeMessage.Label" = "Ձեր առաջին համաժամեցումը որոշ ժամանակ կտևի";
 
 /* String displayed on Sign In to Sync page that allows the user to create a new account. */
-"Sync.NoAccount.Description" = "Չունե՞ք հաշիվ: Ստեղծեք՝ Firefox-ը տարբեր սարքերի միջև համաժամեցնելու համար:";
+"Sync.NoAccount.Description" = "Չունե՞ք հաշիվ: Ստեղծեք՝ Impervious-ը տարբեր սարքերի միջև համաժամեցնելու համար:";
 
 /* Message displayed when the user's account is syncing with no ellipsis */
 "Sync.Syncing.Label" = "Համաժամեցում";
@@ -1794,7 +1794,7 @@
 /* The section header for tabs opened yesterday */
 "TabTray.Yesterday.Header" = "Երեկ";
 
-/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Firefox reader mode from another app. */
+/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
 "The page could not be displayed in Reader View." = "Էջը չի կարող ցուցադրվել ընթերցման դիտումում։";
 
 /* Error message in the remote tabs panel */
@@ -1852,13 +1852,13 @@
 "UIMenuItem.PasteGo" = "Տեղադրել և Առաջ";
 
 /* Search in New Tab Text selection menu item */
-"UIMenuItem.SearchWithFirefox" = "Որոնել Firefox֊-ով";
+"UIMenuItem.SearchWithFirefox" = "Որոնել Impervious֊-ով";
 
 /* Accessibility label for unread article in reading list. It's a past participle - functions as an adjective. */
 "unread" = "չընթերցված";
 
 /* Text message in the settings table view */
-"Upgrade Firefox to connect" = "Նորացնել Firefox-֊ը՝ կապակցելու համար";
+"Upgrade Impervious to connect" = "Նորացնել Impervious-֊ը՝ կապակցելու համար";
 
 /* Debug option */
 "Use stage servers" = "Օգտագործել փուլային սերվերներ";
@@ -1869,7 +1869,7 @@
 /* Text message in the settings table view */
 "Verify your email address" = "Հաստատեք ձեր էլ֊. փոստի հասցեն";
 
-/* Version number of Firefox shown in settings */
+/* Version number of Impervious shown in settings */
 "Version %@ (%@)" = "Տարբերակ %1$@ (%2$@)";
 
 /* Accessibility label for the main web content view */
@@ -1891,7 +1891,7 @@
 "Yesterday" = "Երեկ";
 
 /* Error message in the remote tabs panel */
-"You don’t have any tabs open in Firefox on your other devices." = "Դուք չունեք բացված որևէ ներդիր Firefox-ում՝ ձեր մյուս սարքերում:";
+"You don’t have any tabs open in Impervious on your other devices." = "Դուք չունեք բացված որևէ ներդիր Impervious-ում՝ ձեր մյուս սարքերում:";
 
 /* Your Rights settings section title */
 "Your Rights" = "Ձեր իրավունքները";

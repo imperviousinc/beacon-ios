@@ -1,9 +1,9 @@
 /* Sub label for Top Sites widget */
-"TodayWidget.QuickViewOpenTabsSubLabel" = "Firefox - отворени раздели";
+"TodayWidget.QuickViewOpenTabsSubLabel" = "Impervious - отворени раздели";
 
-/* Title for top sites widget to add Firefox top sites shotcuts to home screen */
+/* Title for top sites widget to add Impervious top sites shotcuts to home screen */
 "TodayWidget.TopSitesGalleryTitle" = "Предпочитани страници";
 
 /* Sub label for Top Sites widget */
-"TodayWidget.TopSitesSubLabel" = "Firefox - Предпочитани";
+"TodayWidget.TopSitesSubLabel" = "Impervious - Предпочитани";
 

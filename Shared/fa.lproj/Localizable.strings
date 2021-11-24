@@ -283,7 +283,7 @@
 /* Alert dialog title when the user taps the cancel download icon. */
 "Downloads.CancelDialog.Title" = "لغو کنسل";
 
-/* The message displayed to a user when they try and perform the download of an asset that Firefox cannot currently handle. */
+/* The message displayed to a user when they try and perform the download of an asset that Impervious cannot currently handle. */
 "Downloads.Error.Message" = "دریافت ها هنوز در فایرفاکس پشتیبانی نمی‌شود.";
 
 /* The label text in the Download Cancelled toast for showing confirmation that the download was cancelled. */
@@ -361,16 +361,16 @@
 /* Label stating your account is not verified */
 "FxA.AccountVerificationRequired" = "تأیید حساب کاربری مورد نیاز است";
 
-/* Message explaining that user needs to check email for Firefox Account verfication link. */
+/* Message explaining that user needs to check email for Impervious Account verfication link. */
 "FxA.AccountVerificationRequiredSurface" = "لازم است %@ را تایید کنید. رایانامه خود را برای پیوند تایید از سوی فایرفاکس بررسی کنید.";
 
 /* Button label to connect another device to Sync */
 "FxA.ConnectAnotherDevice" = "اتصال یک دستگاه دیگر";
 
-/* Settings section title for Firefox Account */
+/* Settings section title for Impervious Account */
 "FxA.FirefoxAccount" = "حساب فایرفاکس";
 
-/* Button label to go to Firefox Account settings */
+/* Button label to go to Impervious Account settings */
 "FxA.ManageAccount" = "مدیریت حساب و دستگاه‌ها";
 
 /* Label when no internet is present */
@@ -421,7 +421,7 @@
 /* Label explaining what sync does */
 "FxA.SyncExplain" = "زبانه‌ها، نشانک‌ها و گذرواژه‌هایتان را از دستگاه‌های دیگر دریافت کنید.";
 
-/* Button label to Sync your Firefox Account */
+/* Button label to Sync your Impervious Account */
 "FxA.SyncNow" = "هم‌اکنون همگام‌سازی کنید";
 
 /* Call to action for sign into sync button */
@@ -598,10 +598,10 @@
 /* Light theme setting in Reading View settings */
 "Light" = "نور";
 
-/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Firefox reader mode from another app. */
+/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
 "Load original page" = "بارگذاری صفحه اصلی";
 
-/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app. */
+/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Impervious reader mode from another app. */
 "Loading content…" = "بارگذاری محتوا…";
 
 /* Authentication prompt log in button */
@@ -656,7 +656,7 @@
 "LoginsList.Title" = "SAVED LOGINS";
 
 /* Restore Tabs Prompt Description */
-"Looks like Firefox crashed previously. Would you like to restore your tabs?" = "به نظر می‌رسید فایرفاکس قبلا دچار خرابی شده است. مایل هستید زبانه‌های خود را بازیابی کنید؟";
+"Looks like Impervious crashed previously. Would you like to restore your tabs?" = "به نظر می‌رسید فایرفاکس قبلا دچار خرابی شده است. مایل هستید زبانه‌های خود را بازیابی کنید؟";
 
 /* Name for Mark as read button in reader mode
    Title for the button that marks a reading list item as read */
@@ -688,10 +688,10 @@
 "Menu.EnhancedTrackingProtectionOn.Title" = "حفاظت پیشرفته در برابر ردیابی برای این سایت روشن است.";
 
 /* Description for having standard ETP protection with ITP offered in iOS14+ */
-"Menu.EnhancedTrackingProtectionStandardWithITP.Title" = "Firefox ردیاب های متقابل سایت ، ردیاب های اجتماعی ، رمزارزها و اثر انگشت را مسدود می کند.";
+"Menu.EnhancedTrackingProtectionStandardWithITP.Title" = "Impervious ردیاب های متقابل سایت ، ردیاب های اجتماعی ، رمزارزها و اثر انگشت را مسدود می کند.";
 
 /* Description for having strict ETP protection with ITP offered in iOS14+ */
-"Menu.EnhancedTrackingProtectionStrictWithITP.Title" = "Firefox ردیاب های متقابل سایت ، ردیاب های اجتماعی ، رمزارزها و اثر انگشت را مسدود می کند.";
+"Menu.EnhancedTrackingProtectionStrictWithITP.Title" = "Impervious ردیاب های متقابل سایت ، ردیاب های اجتماعی ، رمزارزها و اثر انگشت را مسدود می کند.";
 
 /* Label for the button displayed in the menu used to stop the reload of the webpage */
 "Menu.Library.StopReload" = "توقف";
@@ -848,7 +848,7 @@
 "Okay" = "تایید";
 
 /* Title for prompt displayed to user after the app crashes */
-"Oops! Firefox crashed" = "اوخ! فایرفاکس دچارخرابی شد";
+"Oops! Impervious crashed" = "اوخ! فایرفاکس دچارخرابی شد";
 
 /* See http://mzl.la/1LXbDOL */
 "Open articles in Reader View by tapping the book icon when it appears in the title bar." = "بازکردن مقاله در حالت مطالعه به وسیله تپ کردن بر روی آیکون کتاب وفتی در عنوان بار نمایش داده شد.";
@@ -859,7 +859,7 @@
 /* Toggle tabs syncing setting */
 "Open Tabs" = "زبانه‌های باز";
 
-/* The message displayed to a user when they try to open a URL that cannot be handled by Firefox, or any external app. */
+/* The message displayed to a user when they try to open a URL that cannot be handled by Impervious, or any external app. */
 "OpenURL.Error.Message" = "فایرفاکس به دلیل نامعتبر بودن آدرس قادر به بازکردن این صفحه نمی‌باشد.";
 
 /* Title of the message shown when the user attempts to navigate to an invalid link. */
@@ -895,7 +895,7 @@
 /* Privacy section title */
 "Privacy" = "حریم خصوصی";
 
-/* Show Firefox Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
+/* Show Impervious Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
 "Privacy Policy" = "سیاست حفظ حریم خصوصی";
 
 /* Title for quick-search engines settings section. */
@@ -1012,7 +1012,7 @@
 "Secure connection" = "اتصال امن";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
-"Send a crash report so Mozilla can fix the problem?" = "اطلاعات خرابی‌ها برای حل کردن مشکل به موزیلا ارسال شود؟";
+"Send a crash report so Impervious can fix the problem?" = "اطلاعات خرابی‌ها برای حل کردن مشکل به موزیلا ارسال شود؟";
 
 /* Menu item in settings used to open input.mozilla.org where people can submit feedback */
 "Send Feedback" = "ارسال بازخورد";
@@ -1051,7 +1051,7 @@
 /* Navigation bar button to Send the current page to a device */
 "SendTo.SendAction.Text" = "ارسال";
 
-/* The text for the button on the Send to Device page if you are not signed in to Firefox Accounts. */
+/* The text for the button on the Send to Device page if you are not signed in to Impervious Accounts. */
 "SendTo.SignIn.Button" = "ورود به فایرفاکس";
 
 /* Body of notification shown when the device is sent one or more tabs from an unnamed device. */
@@ -1205,7 +1205,7 @@
 /* Label used for the device name settings section. */
 "Settings.FxA.DeviceName" = "نام دستگاه";
 
-/* Label used as a section title in the Firefox Accounts Settings screen. */
+/* Label used as a section title in the Impervious Accounts Settings screen. */
 "Settings.FxA.Sync.SectionName" = "تنظیمات همگام سازی";
 
 /* Title displayed in header of the FxA settings panel. */
@@ -1262,7 +1262,7 @@
 /* The title for the section to customize top sites in the new tab settings page. */
 "Settings.NewTab.Option.CustomizeTitle" = "سفارشی‌سازی صفحه اصلی فایرفاکس";
 
-/* Option in settings to show Firefox Home when you open a new tab */
+/* Option in settings to show Impervious Home when you open a new tab */
 "Settings.NewTab.Option.FirefoxHome" = "صفحه اصلی فایرفاکس";
 
 /* Option in the settings to turn off recent bookmarks in the Highlights section */
@@ -1448,31 +1448,31 @@
 /* Title displayed in header of the Data Management panel. */
 "Settings.WebsiteData.Title" = "اطلاعات پایگاه اینترنتی";
 
-/* Action label on share extension to add page to the Firefox reading list. */
+/* Action label on share extension to add page to the Impervious reading list. */
 "ShareExtension.AddToReadingListAction.Title" = "اضافه کردن به فهرست خواندن";
 
 /* Share extension label shown after user has performed 'Add to Reading List' action. */
 "ShareExtension.AddToReadingListActionDone.Title" = "اضافه شده به فهرست خواندن";
 
-/* Action label on share extension to bookmark the page in Firefox. */
+/* Action label on share extension to bookmark the page in Impervious. */
 "ShareExtension.BookmarkThisPageAction.Title" = "نشانه‌گذاری این صفحه";
 
 /* Share extension label shown after user has performed 'Bookmark this Page' action. */
 "ShareExtension.BookmarkThisPageActionDone.Title" = "نشانه‌گذاری شده";
 
-/* Action label on share extension to load the page in Firefox when user switches apps to bring it to foreground. */
+/* Action label on share extension to load the page in Impervious when user switches apps to bring it to foreground. */
 "ShareExtension.LoadInBackgroundAction.Title" = "بارگذاری در پس زمینه";
 
 /* Share extension label shown after user has performed 'Load in Background' action. */
 "ShareExtension.LoadInBackgroundActionDone.Title" = "بارگذاری در فایرفاکس";
 
-/* Action label on share extension to immediately open page in Firefox. */
+/* Action label on share extension to immediately open page in Impervious. */
 "ShareExtension.OpenInFirefoxAction.Title" = "بازکردن در فایرفاکس";
 
-/* Action label on share extension to immediately open page in Firefox in private mode. */
+/* Action label on share extension to immediately open page in Impervious in private mode. */
 "ShareExtension.OpenInPrivateModeAction.Title" = "بازکردن در حالت شخصی";
 
-/* Action label on share extension to search for the selected text in Firefox. */
+/* Action label on share extension to search for the selected text in Impervious. */
 "ShareExtension.SeachInFirefoxAction.Title" = "جست‌وجو این فایرفاکس";
 
 /* Label for show search suggestions setting. */
@@ -1605,7 +1605,7 @@
 /* The section header for tabs opened yesterday */
 "TabTray.Yesterday.Header" = "دیروز";
 
-/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Firefox reader mode from another app. */
+/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
 "The page could not be displayed in Reader View." = "امکان نمایش این صفحه در نمای مطالعه وجود ندارد.";
 
 /* Error message in the remote tabs panel */
@@ -1669,7 +1669,7 @@
 "unread" = "خوانده‌ نشده";
 
 /* Text message in the settings table view */
-"Upgrade Firefox to connect" = "بروزرسانی فایرفاکس برای اتصال";
+"Upgrade Impervious to connect" = "بروزرسانی فایرفاکس برای اتصال";
 
 /* Debug option */
 "Use stage servers" = "استفاده از سرورهای مرحله";
@@ -1680,7 +1680,7 @@
 /* Text message in the settings table view */
 "Verify your email address" = "تایید آدرس پست الکترونیکی";
 
-/* Version number of Firefox shown in settings */
+/* Version number of Impervious shown in settings */
 "Version %@ (%@)" = "نسخه %1$@ (%2$@)";
 
 /* Accessibility label for the main web content view */
@@ -1702,7 +1702,7 @@
 "Yesterday" = "دیروز";
 
 /* Error message in the remote tabs panel */
-"You don’t have any tabs open in Firefox on your other devices." = "شما هیچ‌گونه زبانه باز دیگری در فایرفاکس در دستگاه‌های دیگر ندارید.";
+"You don’t have any tabs open in Impervious on your other devices." = "شما هیچ‌گونه زبانه باز دیگری در فایرفاکس در دستگاه‌های دیگر ندارید.";
 
 /* Your Rights settings section title */
 "Your Rights" = "حقوق شما";

@@ -55,7 +55,7 @@
 /* Label for the button, displayed in the menu, used to open the QR code scanner. */
 "Menu.ScanQRCodeAction.Title" = "QR കോഡ് സ്കാൻ ചെയ്യുക";
 
-/* Label for the button, displayed in Firefox Home, used to see all Library panels. */
+/* Label for the button, displayed in Impervious Home, used to see all Library panels. */
 "Menu.SeeAllAction.Title" = "മുഴുവന്‍ കാണുക";
 
 /* Label for the button, displayed in the menu, used to open the share dialog. */

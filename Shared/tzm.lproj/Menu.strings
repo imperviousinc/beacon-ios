@@ -22,7 +22,7 @@
 /* Label for the button, displayed in the menu, used to open the Settings menu. */
 "Menu.OpenSettingsAction.Title" = "ⵜⵉⵙⵖⴰⵍ";
 
-/* Label for the button, displayed in Firefox Home, used to see all Library panels. */
+/* Label for the button, displayed in Impervious Home, used to see all Library panels. */
 "Menu.SeeAllAction.Title" = "ⵥⵕ ⵎⴰⵕⵕⴰ";
 
 /* Label for the button, displayed in the menu, used to translate the current page. */

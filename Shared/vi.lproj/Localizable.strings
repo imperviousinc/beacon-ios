@@ -270,7 +270,7 @@
 "Could not load page." = "Không thể tải trang.";
 
 /* Description for the new dark mode change in the version 22 app release. It describes the new automatic dark theme and how to change the theme settings. */
-"CoverSheet.v22.DarkMode.Description" = "Đối với người dùng iOS 13, Firefox hiện tự động chuyển sang chủ đề tối khi điện thoại của bạn được đặt thành Chế độ tối. Để thay đổi chế độ này, hãy đi tới Cài đặt > Chủ đề.";
+"CoverSheet.v22.DarkMode.Description" = "Đối với người dùng iOS 13, Impervious hiện tự động chuyển sang chủ đề tối khi điện thoại của bạn được đặt thành Chế độ tối. Để thay đổi chế độ này, hãy đi tới Cài đặt > Chủ đề.";
 
 /* Title for the new dark mode change in the version 22 app release. */
 "CoverSheet.v22.DarkMode.Title" = "Chủ đề tối bây giờ bao gồm một bàn phím tối và màn hình khởi động tối.";
@@ -325,8 +325,8 @@
 /* Alert dialog title when the user taps the cancel download icon. */
 "Downloads.CancelDialog.Title" = "Hủy tải xuống";
 
-/* The message displayed to a user when they try and perform the download of an asset that Firefox cannot currently handle. */
-"Downloads.Error.Message" = "Tải xuống không được hỗ trợ trong Firefox.";
+/* The message displayed to a user when they try and perform the download of an asset that Impervious cannot currently handle. */
+"Downloads.Error.Message" = "Tải xuống không được hỗ trợ trong Impervious.";
 
 /* The label text in the Download Cancelled toast for showing confirmation that the download was cancelled. */
 "Downloads.Toast.Cancelled.LabelText" = "Đã hủy tải xuống";
@@ -371,7 +371,7 @@
 "ErrorPages.AdvancedWarning2.Text" = "Nó có thể là một cấu hình sai hoặc giả mạo bởi kẻ tấn công. Tiến hành nếu bạn chấp nhận rủi ro tiềm ẩn.";
 
 /* Warning text on the certificate error page */
-"ErrorPages.CertWarning.Description" = "Chủ sở hữu của %@ đã cấu hình trang web của họ không đúng cách. Để bảo vệ thông tin của bạn khỏi bị đánh cắp, Firefox đã không kết nối với trang web này.";
+"ErrorPages.CertWarning.Description" = "Chủ sở hữu của %@ đã cấu hình trang web của họ không đúng cách. Để bảo vệ thông tin của bạn khỏi bị đánh cắp, Impervious đã không kết nối với trang web này.";
 
 /* Title on the certificate error page */
 "ErrorPages.CertWarning.Title" = "Kết nối này không đáng tin";
@@ -392,7 +392,7 @@
 "Facebook" = "Facebook";
 
 /* Title for firefox about:home page in tab history list */
-"Firefox.HomePage.Title" = "Trang chủ Firefox";
+"Firefox.HomePage.Title" = "Trang chủ Impervious";
 
 /* Accessibility Label for the tab toolbar Forward button */
 "Forward" = "Tiến";
@@ -403,16 +403,16 @@
 /* Label stating your account is not verified */
 "FxA.AccountVerificationRequired" = "Yêu cầu xác minh tài khoản";
 
-/* Message explaining that user needs to check email for Firefox Account verfication link. */
-"FxA.AccountVerificationRequiredSurface" = "Bạn cần xác minh %@. Kiểm tra email của bạn để biết liên kết xác minh từ Firefox.";
+/* Message explaining that user needs to check email for Impervious Account verfication link. */
+"FxA.AccountVerificationRequiredSurface" = "Bạn cần xác minh %@. Kiểm tra email của bạn để biết liên kết xác minh từ Impervious.";
 
 /* Button label to connect another device to Sync */
 "FxA.ConnectAnotherDevice" = "Kết nối thiết bị khác";
 
-/* Settings section title for Firefox Account */
-"FxA.FirefoxAccount" = "Tài khoản Firefox";
+/* Settings section title for Impervious Account */
+"FxA.FirefoxAccount" = "Tài khoản Impervious";
 
-/* Button label to go to Firefox Account settings */
+/* Button label to go to Impervious Account settings */
 "FxA.ManageAccount" = "Quản lý tài khoản và thiết bị";
 
 /* Label when no internet is present */
@@ -428,7 +428,7 @@
 "FxA.RemoveAccount" = "Gỡ bỏ";
 
 /* Description string for alert view that gets presented when user tries to remove an account. */
-"FxA.RemoveAccountAlertMessage" = "Gỡ bỏ tài khoản Firefox được liên kết với thiết bị này để đăng nhập với tư cách người dùng khác.";
+"FxA.RemoveAccountAlertMessage" = "Gỡ bỏ tài khoản Impervious được liên kết với thiết bị này để đăng nhập với tư cách người dùng khác.";
 
 /* Remove account alert is the final confirmation before user removes their firefox account */
 "FxA.RemoveAccountAlertTitle" = "Gỡ bỏ tài khoản";
@@ -440,13 +440,13 @@
 "fxa.signin.camera-signin" = "Đăng nhập bằng máy ảnh của bạn";
 
 /* FxA sign in create account label. */
-"fxa.signin.create-account-pt-1" = "Đồng bộ Firefox giữa các thiết bị với một tài khoản.";
+"fxa.signin.create-account-pt-1" = "Đồng bộ Impervious giữa các thiết bị với một tài khoản.";
 
 /* FxA sign in create account label. This will be linked to the site to create an account. */
-"fxa.signin.create-account-pt-2" = "Tạo tài khoản Firefox.";
+"fxa.signin.create-account-pt-2" = "Tạo tài khoản Impervious.";
 
 /* FxA sign in view qr code instructions */
-"fxa.signin.qr-link-instruction" = "Trên máy tính của bạn, hãy mở Firefox và truy cập firefox.com/pair";
+"fxa.signin.qr-link-instruction" = "Trên máy tính của bạn, hãy mở Impervious và truy cập firefox.com/pair";
 
 /* FxA sign in view qr code scan button */
 "fxa.signin.ready-to-scan" = "Sẵn sàng để quét";
@@ -463,14 +463,14 @@
 /* Label explaining what sync does */
 "FxA.SyncExplain" = "Nhận các thẻ, dấu trang và mật khẩu từ các thiết bị khác của bạn.";
 
-/* Button label to Sync your Firefox Account */
+/* Button label to Sync your Impervious Account */
 "FxA.SyncNow" = "Đồng bộ ngay";
 
 /* Call to action for sign into sync button */
 "FxA.TakeYourWebWithYou" = "Mang trang web theo bạn";
 
 /* Title of a notification displayed when another device has connected to FxA. %@ refers to the name of the newly connected device. */
-"FxAPush_DeviceConnected_body" = "Đồng bộ hóa Firefox đã kết nối với %@";
+"FxAPush_DeviceConnected_body" = "Đồng bộ hóa Impervious đã kết nối với %@";
 
 /* Title of a notification displayed when another device has connected to FxA. */
 "FxAPush_DeviceConnected_title" = "Đồng bộ hóa được kết nối";
@@ -479,7 +479,7 @@
 "FxAPush_DeviceDisconnected_body" = "%@ đã ngắt kết nối thành công.";
 
 /* Body of a notification displayed when this device has been disconnected from FxA by another device. */
-"FxAPush_DeviceDisconnected_ThisDevice_body" = "Thiết bị này đã được ngắt kết nối thành công khỏi Đồng bộ hóa Firefox.";
+"FxAPush_DeviceDisconnected_ThisDevice_body" = "Thiết bị này đã được ngắt kết nối thành công khỏi Đồng bộ hóa Impervious.";
 
 /* Title of a notification displayed when this device has been disconnected by another device. */
 "FxAPush_DeviceDisconnected_ThisDevice_title" = "Đồng bộ hóa đã bị ngắt kết nối";
@@ -488,7 +488,7 @@
 "FxAPush_DeviceDisconnected_title" = "Đồng bộ hóa đã bị ngắt kết nối";
 
 /* Body of a notification displayed when unnamed device has been disconnected from FxA. */
-"FxAPush_DeviceDisconnected_UnknownDevice_body" = "Một thiết bị đã ngắt kết nối khỏi Đồng bộ hóa Firefox";
+"FxAPush_DeviceDisconnected_UnknownDevice_body" = "Một thiết bị đã ngắt kết nối khỏi Đồng bộ hóa Impervious";
 
 /* A re-worded offer about Sync, displayed when the Sync home panel is empty, that emphasizes one-way data transfer, not syncing. */
 "Get your open tabs, bookmarks, and passwords from your other devices." = "Nhận các thẻ, dấu trang và mật khẩu đang mở của bạn từ các thiết bị khác của bạn.";
@@ -536,7 +536,7 @@
 "HistoryPanel.EmptySyncedTabsPanelTabSyncDisabledState.Description" = "Bật đồng bộ thẻ để xem danh sách thẻ từ các thiết bị khác của bạn.";
 
 /* Title for the empty synced tabs state in the History Panel */
-"HistoryPanel.EmptySyncedTabsState.Title" = "Đồng bộ hóa Firefox";
+"HistoryPanel.EmptySyncedTabsState.Title" = "Đồng bộ hóa Impervious";
 
 /* Title for the Back to History button in the History Panel */
 "HistoryPanel.HistoryBackButton.Title" = "Lịch sử";
@@ -643,10 +643,10 @@
 /* Light theme setting in Reading View settings */
 "Light" = "Sáng";
 
-/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Firefox reader mode from another app. */
+/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
 "Load original page" = "Tải trang gốc";
 
-/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app. */
+/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Impervious reader mode from another app. */
 "Loading content…" = "Đang tải nội dung…";
 
 /* Authentication prompt log in button */
@@ -701,7 +701,7 @@
 "LoginsList.LoginsListSearchPlaceholder" = "Bộ lọc";
 
 /* Label shown when there are no logins to list */
-"LoginsList.NoLoginsFound.Description" = "Thông tin đăng nhập đã lưu sẽ hiển thị ở đây. Nếu bạn đã lưu thông tin đăng nhập của mình vào Firefox trên một thiết bị khác, hãy đăng nhập vào tài khoản Firefox của bạn.";
+"LoginsList.NoLoginsFound.Description" = "Thông tin đăng nhập đã lưu sẽ hiển thị ở đây. Nếu bạn đã lưu thông tin đăng nhập của mình vào Impervious trên một thiết bị khác, hãy đăng nhập vào tài khoản Impervious của bạn.";
 
 /* Label shown when there are no logins saved */
 "LoginsList.NoLoginsFound.Title" = "Không tìm thấy thông tin đăng nhập";
@@ -725,7 +725,7 @@
 "LoginsList.Title" = "THÔNG TIN ĐĂNG NHẬP ĐÃ LƯU";
 
 /* Restore Tabs Prompt Description */
-"Looks like Firefox crashed previously. Would you like to restore your tabs?" = "Có vẻ như Firefox đã gặp sự cố trước đó. Bạn có muốn khôi phục các thẻ của bạn?";
+"Looks like Impervious crashed previously. Would you like to restore your tabs?" = "Có vẻ như Impervious đã gặp sự cố trước đó. Bạn có muốn khôi phục các thẻ của bạn?";
 
 /* Name for Mark as read button in reader mode
    Title for the button that marks a reading list item as read */
@@ -769,10 +769,10 @@
 "Menu.EnhancedTrackingProtectionOn.Title" = "Trình chống theo dõi nâng cao đã được BẬT cho trang này.";
 
 /* Description for having standard ETP protection with ITP offered in iOS14+ */
-"Menu.EnhancedTrackingProtectionStandardWithITP.Title" = "Firefox chặn các trình theo dõi trên nhiều trang web, trình theo dõi xã hội, trình mã hóa và vân tay.";
+"Menu.EnhancedTrackingProtectionStandardWithITP.Title" = "Impervious chặn các trình theo dõi trên nhiều trang web, trình theo dõi xã hội, trình mã hóa và vân tay.";
 
 /* Description for having strict ETP protection with ITP offered in iOS14+ */
-"Menu.EnhancedTrackingProtectionStrictWithITP.Title" = "Firefox chặn các trình theo dõi trên nhiều trang web, trình theo dõi xã hội, trình mật mã, vân tay và nội dung theo dõi.";
+"Menu.EnhancedTrackingProtectionStrictWithITP.Title" = "Impervious chặn các trình theo dõi trên nhiều trang web, trình theo dõi xã hội, trình mật mã, vân tay và nội dung theo dõi.";
 
 /* Label for the button, displayed in the menu, takes you to to History screen when pressed. */
 "Menu.History.Label" = "Lịch sử";
@@ -838,7 +838,7 @@
 "Menu.TrackingProtection.Details.Verifier" = "Đã xác minh bởi %@";
 
 /* Message in menu when no trackers blocked. */
-"Menu.TrackingProtection.NoTrackersBlockedTitle" = "Không có trình theo dõi được phát hiện trên trang này bởi Firefox.";
+"Menu.TrackingProtection.NoTrackersBlockedTitle" = "Không có trình theo dõi được phát hiện trên trang này bởi Impervious.";
 
 /* The title for tracking protection settings */
 "Menu.TrackingProtection.ProtectionSettings.Title" = "Cài đặt bảo vệ";
@@ -853,7 +853,7 @@
 "Menu.TrackingProtectionBlockedSocial.Title" = "Trình theo dõi xã hội";
 
 /* Description of the Tracking protection menu when TP is blocking parts of the page */
-"Menu.TrackingProtectionBlocking.Description" = "Firefox chặn một số phần của trang có thể đang theo dõi bạn.";
+"Menu.TrackingProtectionBlocking.Description" = "Impervious chặn một số phần của trang có thể đang theo dõi bạn.";
 
 /* The description of the Tracking Protection menu item when tracking is enabled */
 "Menu.TrackingProtectionBlockingDisabled.Description" = "Chặn trình theo dõi trực tuyến";
@@ -956,7 +956,7 @@
 "Okay" = "OK";
 
 /* Title for prompt displayed to user after the app crashes */
-"Oops! Firefox crashed" = "Oops! Firefox đã gặp sự cố";
+"Oops! Impervious crashed" = "Oops! Impervious đã gặp sự cố";
 
 /* See http://mzl.la/1LXbDOL */
 "Open articles in Reader View by tapping the book icon when it appears in the title bar." = "Mở bài viết trong chế độ đọc sách bằng cách nhấn vào biểu tượng sách khi nó xuất hiện trên thanh tiêu đề.";
@@ -967,8 +967,8 @@
 /* Toggle tabs syncing setting */
 "Open Tabs" = "Các thẻ đang mở";
 
-/* The message displayed to a user when they try to open a URL that cannot be handled by Firefox, or any external app. */
-"OpenURL.Error.Message" = "Firefox không thể mở trang vì nó có địa chỉ không hợp lệ.";
+/* The message displayed to a user when they try to open a URL that cannot be handled by Impervious, or any external app. */
+"OpenURL.Error.Message" = "Impervious không thể mở trang vì nó có địa chỉ không hợp lệ.";
 
 /* Title of the message shown when the user attempts to navigate to an invalid link. */
 "OpenURL.Error.Title" = "Không thể mở trang";
@@ -983,19 +983,19 @@
 "Password" = "Mật khẩu";
 
 /* Error message shown in the remote tabs panel */
-"PasswordAutoFill.NoPasswordsFoundTitle" = "Bạn không có bất kỳ thông tin đăng nhập nào được đồng bộ hóa từ tài khoản Firefox của bạn";
+"PasswordAutoFill.NoPasswordsFoundTitle" = "Bạn không có bất kỳ thông tin đăng nhập nào được đồng bộ hóa từ tài khoản Impervious của bạn";
 
 /* Header for the list of credentials table */
 "PasswordAutoFill.PasswordsListTitle" = "Thông tin đăng nhập có sẵn:";
 
 /* Title of the extension that shows firefox passwords */
-"PasswordAutoFill.SectionTitle" = "Thông tin đăng nhập Firefox";
+"PasswordAutoFill.SectionTitle" = "Thông tin đăng nhập Impervious";
 
 /* See http://mzl.la/1G7uHo7 */
 "PhotoLibrary.FirefoxWouldLikeAccessMessage" = "Điều này cho phép bạn lưu hình ảnh vào Camera Roll của bạn.";
 
 /* See http://mzl.la/1G7uHo7 */
-"PhotoLibrary.FirefoxWouldLikeAccessTitle" = "Firefox muốn truy cập Ảnh của bạn";
+"PhotoLibrary.FirefoxWouldLikeAccessTitle" = "Impervious muốn truy cập Ảnh của bạn";
 
 /* Button for closing the menu action sheet */
 "PhotonMenu.close" = "Đóng";
@@ -1003,7 +1003,7 @@
 /* Privacy section title */
 "Privacy" = "Riêng tư";
 
-/* Show Firefox Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
+/* Show Impervious Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
 "Privacy Policy" = "Chính sách riêng tư";
 
 /* This is the value for a label that indicates if a user is on an unencrypted website. */
@@ -1076,7 +1076,7 @@
 "ScanQRCode.InvalidDataError.Message" = "Dữ liệu không hợp lệ";
 
 /* Text of the prompt user to setup the camera authorization. */
-"ScanQRCode.PermissionError.Message" = "Vui lòng cho phép Firefox truy cập vào máy ảnh của thiết bị của bạn trong 'Cài đặt' -> 'Quyền riêng tư' -> 'Camera'.";
+"ScanQRCode.PermissionError.Message" = "Vui lòng cho phép Impervious truy cập vào máy ảnh của thiết bị của bạn trong 'Cài đặt' -> 'Quyền riêng tư' -> 'Camera'.";
 
 /* Title for the QR code scanner view. */
 "ScanQRCode.View.Title" = "Quét mã QR";
@@ -1132,7 +1132,7 @@
 "Secure connection" = "Kết nối an toàn";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
-"Send a crash report so Mozilla can fix the problem?" = "Gửi báo cáo lỗi để Mozilla có thể khắc phục sự cố?";
+"Send a crash report so Impervious can fix the problem?" = "Gửi báo cáo lỗi để Impervious có thể khắc phục sự cố?";
 
 /* Menu item in settings used to open input.mozilla.org where people can submit feedback */
 "Send Feedback" = "Gửi phản hồi";
@@ -1160,19 +1160,19 @@
 "SendTo.NavBar.Title" = "Gửi thẻ";
 
 /* Error message shown in the remote tabs panel */
-"SendTo.NoDevicesFound.Message" = "Bạn không có thiết bị nào khác được kết nối với tài khoản Firefox này để đồng bộ hóa.";
+"SendTo.NoDevicesFound.Message" = "Bạn không có thiết bị nào khác được kết nối với tài khoản Impervious này để đồng bộ hóa.";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Message" = "Vui lòng mở Firefox, truy cập Cài đặt và đăng nhập để tiếp tục.";
+"SendTo.NotSignedIn.Message" = "Vui lòng mở Impervious, truy cập Cài đặt và đăng nhập để tiếp tục.";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Title" = "Bạn chưa đăng nhập vào tài khoản Firefox của mình.";
+"SendTo.NotSignedIn.Title" = "Bạn chưa đăng nhập vào tài khoản Impervious của mình.";
 
 /* Navigation bar button to Send the current page to a device */
 "SendTo.SendAction.Text" = "Gửi";
 
-/* The text for the button on the Send to Device page if you are not signed in to Firefox Accounts. */
-"SendTo.SignIn.Button" = "Đăng nhập vào Firefox";
+/* The text for the button on the Send to Device page if you are not signed in to Impervious Accounts. */
+"SendTo.SignIn.Button" = "Đăng nhập vào Impervious";
 
 /* Body of notification shown when the device is sent one or more tabs from an unnamed device. */
 "SentTab_TabArrivingNotification_NoDevice_body" = "Thẻ mới đến từ một thiết bị khác.";
@@ -1196,7 +1196,7 @@
 "SentTab.NoTabArrivingNotification.body" = "Chạm để bắt đầu";
 
 /* Title of notification received after a spurious message from FxA has been received. */
-"SentTab.NoTabArrivingNotification.title" = "Đồng bộ hóa Firefox";
+"SentTab.NoTabArrivingNotification.title" = "Đồng bộ hóa Impervious";
 
 /* Label for an action used to view one or more tabs from a notification. */
 "SentTab.ViewAction.title" = "Xem";
@@ -1259,7 +1259,7 @@
 "Settings.DataManagement.Title" = "Quản lý dữ liệu";
 
 /* Body of the alert when prompting the user asking to disconnect. */
-"Settings.Disconnect.Body" = "Firefox sẽ ngừng đồng bộ hóa với tài khoản của bạn, nhưng sẽ không xóa mọi dữ liệu duyệt web của bạn trên thiết bị này.";
+"Settings.Disconnect.Body" = "Impervious sẽ ngừng đồng bộ hóa với tài khoản của bạn, nhưng sẽ không xóa mọi dữ liệu duyệt web của bạn trên thiết bị này.";
 
 /* Button displayed at the bottom of settings page allowing users to Disconnect from FxA */
 "Settings.Disconnect.Button" = "Ngắt kết nối đồng bộ hóa";
@@ -1328,11 +1328,11 @@
 /* Label used for the device name settings section. */
 "Settings.FxA.DeviceName" = "Tên thiết bị";
 
-/* Label used as a section title in the Firefox Accounts Settings screen. */
+/* Label used as a section title in the Impervious Accounts Settings screen. */
 "Settings.FxA.Sync.SectionName" = "Cài đặt đồng bộ hóa";
 
 /* Title displayed in header of the FxA settings panel. */
-"Settings.FxA.Title" = "Tài khoản Firefox";
+"Settings.FxA.Title" = "Tài khoản Impervious";
 
 /* General settings section title */
 "Settings.General.SectionName" = "Tổng quát";
@@ -1386,10 +1386,10 @@
 "Settings.NewTab.Option.CustomizeFooter2" = "Các trang web bạn lưu hoặc truy cập";
 
 /* The title for the section to customize top sites in the new tab settings page. */
-"Settings.NewTab.Option.CustomizeTitle" = "Tùy biến trang chủ Firefox";
+"Settings.NewTab.Option.CustomizeTitle" = "Tùy biến trang chủ Impervious";
 
-/* Option in settings to show Firefox Home when you open a new tab */
-"Settings.NewTab.Option.FirefoxHome" = "Trang chủ Firefox";
+/* Option in settings to show Impervious Home when you open a new tab */
+"Settings.NewTab.Option.FirefoxHome" = "Trang chủ Impervious";
 
 /* Option in the settings to turn off recent bookmarks in the Highlights section */
 "Settings.NewTab.Option.HighlightsBookmarks" = "Dấu trang gần đây";
@@ -1431,7 +1431,7 @@
 "Settings.NewTab.TopSectionNameFooter" = "Chọn những gì để tải khi mở một thẻ mới";
 
 /* Description displayed under the ”Offer to Open Copied Link” option. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
-"Settings.OfferClipboardBar.Status" = "Khi mở Firefox";
+"Settings.OfferClipboardBar.Status" = "Khi mở Impervious";
 
 /* Title of setting to enable the Go to Copied URL feature. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
 "Settings.OfferClipboardBar.Title" = "Đề nghị mở các liên kết được sao chép";
@@ -1455,7 +1455,7 @@
 "Settings.SendUsage.Link" = "Tìm hiểu thêm.";
 
 /* A short description that explains why mozilla collects usage data. */
-"Settings.SendUsage.Message" = "Mozilla chỉ thu thập những gì chúng tôi cần cung cấp và cải tiến Firefox cho tất cả mọi người.";
+"Settings.SendUsage.Message" = "Impervious chỉ thu thập những gì chúng tôi cần cung cấp và cải tiến Impervious cho tất cả mọi người.";
 
 /* The title for the setting to send usage data. */
 "Settings.SendUsage.Title" = "Gửi dữ liệu sử dụng";
@@ -1473,7 +1473,7 @@
 "Settings.Siri.OpenTabShortcut" = "Mở thẻ mới";
 
 /* The description that describes what siri shortcuts are */
-"Settings.Siri.SectionDescription" = "Sử dụng phím tắt Siri để nhanh chóng mở Firefox qua Siri";
+"Settings.Siri.SectionDescription" = "Sử dụng phím tắt Siri để nhanh chóng mở Impervious qua Siri";
 
 /* The option that takes you to the siri shortcuts settings page */
 "Settings.Siri.SectionName" = "Phím tắt Siri";
@@ -1493,11 +1493,11 @@
 /* Label used as an item in Settings. Tapping on this item takes you to the Studies panel */
 "Settings.Studies.Title" = "Nghiên cứu";
 
-/* Title for a link that explains what Mozilla means by Studies */
+/* Title for a link that explains what Impervious means by Studies */
 "Settings.Studies.Toggle.Link" = "Tìm hiểu thêm.";
 
-/* A short description that explains that Mozilla is running studies */
-"Settings.Studies.Toggle.Message" = "Firefox có thể cài đặt và chạy các nghiên cứu theo thời gian.";
+/* A short description that explains that Impervious is running studies */
+"Settings.Studies.Toggle.Message" = "Impervious có thể cài đặt và chạy các nghiên cứu theo thời gian.";
 
 /* Toggled OFF to opt-out of studies */
 "Settings.Studies.Toggle.Off" = "Tắt";
@@ -1518,7 +1518,7 @@
 "Settings.TrackingProtection.Alert.Title" = "Hãy cân nhắc!";
 
 /* Header description for tracking protection options section where Basic/Strict block list can be selected */
-"Settings.TrackingProtection.BlockListsHeader" = "Bạn có thể chọn danh sách mà Firefox sẽ sử dụng để chặn các phần tử của trang có thể theo dõi hoạt động duyệt web của bạn.";
+"Settings.TrackingProtection.BlockListsHeader" = "Bạn có thể chọn danh sách mà Impervious sẽ sử dụng để chặn các phần tử của trang có thể theo dõi hoạt động duyệt web của bạn.";
 
 /* Explanation of basic mode. */
 "Settings.TrackingProtection.Info.BasicTitle" = "Cân bằng để bảo vệ và hiệu suất.";
@@ -1613,32 +1613,32 @@
 /* Title displayed in header of the Data Management panel. */
 "Settings.WebsiteData.Title" = "Dữ liệu trang web";
 
-/* Action label on share extension to add page to the Firefox reading list. */
+/* Action label on share extension to add page to the Impervious reading list. */
 "ShareExtension.AddToReadingListAction.Title" = "Thêm vào danh sách đọc";
 
 /* Share extension label shown after user has performed 'Add to Reading List' action. */
 "ShareExtension.AddToReadingListActionDone.Title" = "Đã thêm vào danh sách đọc";
 
-/* Action label on share extension to bookmark the page in Firefox. */
+/* Action label on share extension to bookmark the page in Impervious. */
 "ShareExtension.BookmarkThisPageAction.Title" = "Đánh dấu trang này";
 
 /* Share extension label shown after user has performed 'Bookmark this Page' action. */
 "ShareExtension.BookmarkThisPageActionDone.Title" = "Đã đánh dấu";
 
-/* Action label on share extension to load the page in Firefox when user switches apps to bring it to foreground. */
+/* Action label on share extension to load the page in Impervious when user switches apps to bring it to foreground. */
 "ShareExtension.LoadInBackgroundAction.Title" = "Tải trong nền";
 
 /* Share extension label shown after user has performed 'Load in Background' action. */
-"ShareExtension.LoadInBackgroundActionDone.Title" = "Đang tải trong Firefox";
+"ShareExtension.LoadInBackgroundActionDone.Title" = "Đang tải trong Impervious";
 
-/* Action label on share extension to immediately open page in Firefox. */
-"ShareExtension.OpenInFirefoxAction.Title" = "Mở trong Firefox";
+/* Action label on share extension to immediately open page in Impervious. */
+"ShareExtension.OpenInFirefoxAction.Title" = "Mở trong Impervious";
 
-/* Action label on share extension to immediately open page in Firefox in private mode. */
+/* Action label on share extension to immediately open page in Impervious in private mode. */
 "ShareExtension.OpenInPrivateModeAction.Title" = "Mở trong chế độ riêng tư";
 
-/* Action label on share extension to search for the selected text in Firefox. */
-"ShareExtension.SeachInFirefoxAction.Title" = "Tìm kiếm trong Firefox";
+/* Action label on share extension to search for the selected text in Impervious. */
+"ShareExtension.SeachInFirefoxAction.Title" = "Tìm kiếm trong Impervious";
 
 /* Label for show search suggestions setting. */
 "Show Search Suggestions" = "Hiển thị đề xuất tìm kiếm";
@@ -1675,7 +1675,7 @@
 "Sync.FirstTimeMessage.Label" = "Đồng bộ hóa đầu tiên của bạn có thể mất một lúc";
 
 /* String displayed on Sign In to Sync page that allows the user to create a new account. */
-"Sync.NoAccount.Description" = "Không có tài khoản? Tạo một cái để đồng bộ hóa Firefox giữa các thiết bị.";
+"Sync.NoAccount.Description" = "Không có tài khoản? Tạo một cái để đồng bộ hóa Impervious giữa các thiết bị.";
 
 /* Message displayed when the user's account is syncing with no ellipsis */
 "Sync.Syncing.Label" = "Đang đồng bộ hóa";
@@ -1794,7 +1794,7 @@
 /* The section header for tabs opened yesterday */
 "TabTray.Yesterday.Header" = "Hôm qua";
 
-/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Firefox reader mode from another app. */
+/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
 "The page could not be displayed in Reader View." = "Trang này không thể hiển thị trong chế độ đọc sách.";
 
 /* Error message in the remote tabs panel */
@@ -1852,13 +1852,13 @@
 "UIMenuItem.PasteGo" = "Dán & mở";
 
 /* Search in New Tab Text selection menu item */
-"UIMenuItem.SearchWithFirefox" = "Tìm kiếm bằng Firefox";
+"UIMenuItem.SearchWithFirefox" = "Tìm kiếm bằng Impervious";
 
 /* Accessibility label for unread article in reading list. It's a past participle - functions as an adjective. */
 "unread" = "chưa đọc";
 
 /* Text message in the settings table view */
-"Upgrade Firefox to connect" = "Nâng cấp Firefox để kết nối";
+"Upgrade Impervious to connect" = "Nâng cấp Impervious để kết nối";
 
 /* Debug option */
 "Use stage servers" = "Sử dụng máy chủ thử nghiệm";
@@ -1869,7 +1869,7 @@
 /* Text message in the settings table view */
 "Verify your email address" = "Vui lòng xác nhận địa chỉ email của bạn";
 
-/* Version number of Firefox shown in settings */
+/* Version number of Impervious shown in settings */
 "Version %@ (%@)" = "Phiên bản %1$@ (%2$@)";
 
 /* Accessibility label for the main web content view */
@@ -1891,7 +1891,7 @@
 "Yesterday" = "Hôm qua";
 
 /* Error message in the remote tabs panel */
-"You don’t have any tabs open in Firefox on your other devices." = "Bạn không có bất kỳ thẻ nào mở trong Firefox trên các thiết bị khác của bạn.";
+"You don’t have any tabs open in Impervious on your other devices." = "Bạn không có bất kỳ thẻ nào mở trong Impervious trên các thiết bị khác của bạn.";
 
 /* Your Rights settings section title */
 "Your Rights" = "Quyền lợi của bạn";

@@ -7,10 +7,10 @@
 /* Next button on the first intro screen. */
 "Intro.Slides.Button.Next" = "بعدی";
 
-/* Sign in to Firefox account button on second intro screen. */
+/* Sign in to Impervious account button on second intro screen. */
 "Intro.Slides.Button.SignIn" = "ورود";
 
-/* Sign up to Firefox account button on second intro screen. */
+/* Sign up to Impervious account button on second intro screen. */
 "Intro.Slides.Button.SignUp" = "عضویت";
 
 /* Description for the second item in the table related to fast searching via address bar */
@@ -38,7 +38,7 @@
 "Intro.Slides.Private.Title" = "بدون دغدغه نگاه‌ها مرور کنید";
 
 /* Description for the third item in the table related to safe syncing with a firefox account */
-"Intro.Slides.Safe.Sync.Description" = "از ورود و داده های خود در هر مکانی که از Firefox استفاده می کنید محافظت کنید.";
+"Intro.Slides.Safe.Sync.Description" = "از ورود و داده های خود در هر مکانی که از Impervious استفاده می کنید محافظت کنید.";
 
 /* Title for the third item in the table related to safe syncing with a firefox account */
 "Intro.Slides.Safe.Sync.Title" = "هم‌گام‌سازی ایمن";

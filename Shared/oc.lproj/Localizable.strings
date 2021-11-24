@@ -235,8 +235,8 @@
 /* Alert dialog title when the user taps the cancel download icon. */
 "Downloads.CancelDialog.Title" = "Anullar lo telecargament";
 
-/* The message displayed to a user when they try and perform the download of an asset that Firefox cannot currently handle. */
-"Downloads.Error.Message" = "Firefox permet pas encara los telecargaments.";
+/* The message displayed to a user when they try and perform the download of an asset that Impervious cannot currently handle. */
+"Downloads.Error.Message" = "Impervious permet pas encara los telecargaments.";
 
 /* The label text in the Download Cancelled toast for showing confirmation that the download was cancelled. */
 "Downloads.Toast.Cancelled.LabelText" = "Telecargament anullat";
@@ -290,7 +290,7 @@
 "Facebook" = "Facebook";
 
 /* Title for firefox about:home page in tab history list */
-"Firefox.HomePage.Title" = "Pagina d'acuèlh de Firefox";
+"Firefox.HomePage.Title" = "Pagina d'acuèlh de Impervious";
 
 /* Accessibility Label for the tab toolbar Forward button */
 "Forward" = "Pagina seguenta";
@@ -304,10 +304,10 @@
 /* Button label to connect another device to Sync */
 "FxA.ConnectAnotherDevice" = "Connectar un autre periferic";
 
-/* Settings section title for Firefox Account */
-"FxA.FirefoxAccount" = "Compte Firefox";
+/* Settings section title for Impervious Account */
+"FxA.FirefoxAccount" = "Compte Impervious";
 
-/* Button label to go to Firefox Account settings */
+/* Button label to go to Impervious Account settings */
 "FxA.ManageAccount" = "Gestion del compte";
 
 /* Label when no internet is present */
@@ -328,14 +328,14 @@
 /* Button label to sign into Sync */
 "FxA.SignIntoSync" = "Se connectar a Sync";
 
-/* Button label to Sync your Firefox Account */
+/* Button label to Sync your Impervious Account */
 "FxA.SyncNow" = "Sincronizar ara";
 
 /* Call to action for sign into sync button */
 "FxA.TakeYourWebWithYou" = "Emportatz vòstre Web pertot";
 
 /* Title of a notification displayed when another device has connected to FxA. %@ refers to the name of the newly connected device. */
-"FxAPush_DeviceConnected_body" = "Firefox Sync s’es connectat a %@";
+"FxAPush_DeviceConnected_body" = "Impervious Sync s’es connectat a %@";
 
 /* Title of a notification displayed when another device has connected to FxA. */
 "FxAPush_DeviceConnected_title" = "Sync connectat";
@@ -344,7 +344,7 @@
 "FxAPush_DeviceDisconnected_body" = "%@ es estat corrèctament desconnectat.";
 
 /* Body of a notification displayed when this device has been disconnected from FxA by another device. */
-"FxAPush_DeviceDisconnected_ThisDevice_body" = "Aqueste periferic es estat corrèctament desconnectat de Firefox Sync.";
+"FxAPush_DeviceDisconnected_ThisDevice_body" = "Aqueste periferic es estat corrèctament desconnectat de Impervious Sync.";
 
 /* Title of a notification displayed when this device has been disconnected by another device. */
 "FxAPush_DeviceDisconnected_ThisDevice_title" = "Sincronizacion desconnectada";
@@ -353,7 +353,7 @@
 "FxAPush_DeviceDisconnected_title" = "Sincronizacion desconnectada";
 
 /* Body of a notification displayed when unnamed device has been disconnected from FxA. */
-"FxAPush_DeviceDisconnected_UnknownDevice_body" = "Un periferic es estat desconnectat de Firefox Sync";
+"FxAPush_DeviceDisconnected_UnknownDevice_body" = "Un periferic es estat desconnectat de Impervious Sync";
 
 /* A re-worded offer about Sync, displayed when the Sync home panel is empty, that emphasizes one-way data transfer, not syncing. */
 "Get your open tabs, bookmarks, and passwords from your other devices." = "Trapatz vòstres onglets dobèrts, marcapaginas e senhals a partir d’autres periferics.";
@@ -389,7 +389,7 @@
 "HistoryPanel.EmptySyncedTabsPanelNotYetVerifiedState.Description" = "Cal que verifiquetz vòstre compte.";
 
 /* Title for the empty synced tabs state in the History Panel */
-"HistoryPanel.EmptySyncedTabsState.Title" = "Firefox Sync";
+"HistoryPanel.EmptySyncedTabsState.Title" = "Impervious Sync";
 
 /* Title for the Back to History button in the History Panel */
 "HistoryPanel.HistoryBackButton.Title" = "Istoric";
@@ -493,10 +493,10 @@
 /* Light theme setting in Reading View settings */
 "Light" = "Clar";
 
-/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Firefox reader mode from another app. */
+/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
 "Load original page" = "Cargar la pagina originala";
 
-/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app. */
+/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Impervious reader mode from another app. */
 "Loading content…" = "Cargament del contengut…";
 
 /* Authentication prompt log in button */
@@ -542,7 +542,7 @@
 "LoginsList.LoginsListSearchPlaceholder" = "Filtrar";
 
 /* Restore Tabs Prompt Description */
-"Looks like Firefox crashed previously. Would you like to restore your tabs?" = "Sembla que Firefox a fracassat. Volètz restablir los onglets ?";
+"Looks like Impervious crashed previously. Would you like to restore your tabs?" = "Sembla que Impervious a fracassat. Volètz restablir los onglets ?";
 
 /* Name for Mark as read button in reader mode
    Title for the button that marks a reading list item as read */
@@ -595,7 +595,7 @@
 "Menu.TrackingProtection.BlockedTitle" = "Blocats";
 
 /* Message in menu when no trackers blocked. */
-"Menu.TrackingProtection.NoTrackersBlockedTitle" = "Cap de traçador conegut per Firefox pas detectat sus aquesta pagina.";
+"Menu.TrackingProtection.NoTrackersBlockedTitle" = "Cap de traçador conegut per Impervious pas detectat sus aquesta pagina.";
 
 /* The title for tracking protection settings */
 "Menu.TrackingProtection.ProtectionSettings.Title" = "Paramètres de proteccion";
@@ -610,7 +610,7 @@
 "Menu.TrackingProtectionBlockedSocial.Title" = "Traçadors de malhums socials";
 
 /* Description of the Tracking protection menu when TP is blocking parts of the page */
-"Menu.TrackingProtectionBlocking.Description" = "Firefox a blocat d'elements de la pagina que pòdon pistar vòstra navegacion.";
+"Menu.TrackingProtectionBlocking.Description" = "Impervious a blocat d'elements de la pagina que pòdon pistar vòstra navegacion.";
 
 /* The description of the Tracking Protection menu item when tracking is enabled */
 "Menu.TrackingProtectionBlockingDisabled.Description" = "Blocar los traçadors";
@@ -677,7 +677,7 @@
 "Okay" = "OK";
 
 /* Title for prompt displayed to user after the app crashes */
-"Oops! Firefox crashed" = "Firefox a plantat";
+"Oops! Impervious crashed" = "Impervious a plantat";
 
 /* See http://mzl.la/1G7uHo7 */
 "Open Settings" = "Dobrir los paramètres";
@@ -685,8 +685,8 @@
 /* Toggle tabs syncing setting */
 "Open Tabs" = "Dobrir los onglets";
 
-/* The message displayed to a user when they try to open a URL that cannot be handled by Firefox, or any external app. */
-"OpenURL.Error.Message" = "Firefox pòt pas dobrir la pagina perque l’adreça es invalida.";
+/* The message displayed to a user when they try to open a URL that cannot be handled by Impervious, or any external app. */
+"OpenURL.Error.Message" = "Impervious pòt pas dobrir la pagina perque l’adreça es invalida.";
 
 /* Title of the message shown when the user attempts to navigate to an invalid link. */
 "OpenURL.Error.Title" = "Dobertura impossibla de la pagina";
@@ -706,7 +706,7 @@
 /* Privacy section title */
 "Privacy" = "Vida privada";
 
-/* Show Firefox Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
+/* Show Impervious Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
 "Privacy Policy" = "Politica de confidencialitat";
 
 /* Title for quick-search engines settings section. */
@@ -851,7 +851,7 @@
 "SentTab.NoTabArrivingNotification.body" = "Tocatz per començar";
 
 /* Title of notification received after a spurious message from FxA has been received. */
-"SentTab.NoTabArrivingNotification.title" = "Firefox Sync";
+"SentTab.NoTabArrivingNotification.title" = "Impervious Sync";
 
 /* Label for an action used to view one or more tabs from a notification. */
 "SentTab.ViewAction.title" = "Veire";
@@ -959,11 +959,11 @@
 /* Label used for the device name settings section. */
 "Settings.FxA.DeviceName" = "Nom del periferic";
 
-/* Label used as a section title in the Firefox Accounts Settings screen. */
+/* Label used as a section title in the Impervious Accounts Settings screen. */
 "Settings.FxA.Sync.SectionName" = "Paramètres de sincronizacion";
 
 /* Title displayed in header of the FxA settings panel. */
-"Settings.FxA.Title" = "Compte Firefox";
+"Settings.FxA.Title" = "Compte Impervious";
 
 /* General settings section title */
 "Settings.General.SectionName" = "General";
@@ -1011,10 +1011,10 @@
 "Settings.NewTab.Option.CustomizeFooter" = "Los sites que visitatz mai sovent";
 
 /* The title for the section to customize top sites in the new tab settings page. */
-"Settings.NewTab.Option.CustomizeTitle" = "Personalizar l’acuèlh de Firefox";
+"Settings.NewTab.Option.CustomizeTitle" = "Personalizar l’acuèlh de Impervious";
 
-/* Option in settings to show Firefox Home when you open a new tab */
-"Settings.NewTab.Option.FirefoxHome" = "Acuèlh de Firefox";
+/* Option in settings to show Impervious Home when you open a new tab */
+"Settings.NewTab.Option.FirefoxHome" = "Acuèlh de Impervious";
 
 /* Option in the settings to turn off recent bookmarks in the Highlights section */
 "Settings.NewTab.Option.HighlightsBookmarks" = "Marcats recentament";
@@ -1047,7 +1047,7 @@
 "Settings.NewTab.TopSectionNameFooter" = "Causissètz çò que cal mostrar en dobrir un onglet novèl";
 
 /* Description displayed under the ”Offer to Open Copied Link” option. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
-"Settings.OfferClipboardBar.Status" = "En dobrir Firefox";
+"Settings.OfferClipboardBar.Status" = "En dobrir Impervious";
 
 /* Button displayed at the top of the search settings. */
 "Settings.Search.Done.Button" = "Acabat";
@@ -1067,32 +1067,32 @@
 /* Title of link to help page to find out how to solve Sync issues */
 "Settings.TroubleShootSync.Title" = "Resolucion de problèmas";
 
-/* Action label on share extension to add page to the Firefox reading list. */
+/* Action label on share extension to add page to the Impervious reading list. */
 "ShareExtension.AddToReadingListAction.Title" = "Apondre a la lista de lectura";
 
 /* Share extension label shown after user has performed 'Add to Reading List' action. */
 "ShareExtension.AddToReadingListActionDone.Title" = "Aponduda a la lista de lectura";
 
-/* Action label on share extension to bookmark the page in Firefox. */
+/* Action label on share extension to bookmark the page in Impervious. */
 "ShareExtension.BookmarkThisPageAction.Title" = "Marcar aquesta pagina";
 
 /* Share extension label shown after user has performed 'Bookmark this Page' action. */
 "ShareExtension.BookmarkThisPageActionDone.Title" = "Apondut als marcapaginas";
 
-/* Action label on share extension to load the page in Firefox when user switches apps to bring it to foreground. */
+/* Action label on share extension to load the page in Impervious when user switches apps to bring it to foreground. */
 "ShareExtension.LoadInBackgroundAction.Title" = "Cargar en rèire plan";
 
 /* Share extension label shown after user has performed 'Load in Background' action. */
-"ShareExtension.LoadInBackgroundActionDone.Title" = "Cargament dins Firefox";
+"ShareExtension.LoadInBackgroundActionDone.Title" = "Cargament dins Impervious";
 
-/* Action label on share extension to immediately open page in Firefox. */
-"ShareExtension.OpenInFirefoxAction.Title" = "Dobrir dins Firefox";
+/* Action label on share extension to immediately open page in Impervious. */
+"ShareExtension.OpenInFirefoxAction.Title" = "Dobrir dins Impervious";
 
-/* Action label on share extension to immediately open page in Firefox in private mode. */
+/* Action label on share extension to immediately open page in Impervious in private mode. */
 "ShareExtension.OpenInPrivateModeAction.Title" = "Dobrir en navegacion privada";
 
-/* Action label on share extension to search for the selected text in Firefox. */
-"ShareExtension.SeachInFirefoxAction.Title" = "Cercar dins Firefox";
+/* Action label on share extension to search for the selected text in Impervious. */
+"ShareExtension.SeachInFirefoxAction.Title" = "Cercar dins Impervious";
 
 /* Label for show search suggestions setting. */
 "Show Search Suggestions" = "Afichar las suggestions de recèrca";
@@ -1204,12 +1204,12 @@
 "unread" = "pas legit";
 
 /* Text message in the settings table view */
-"Upgrade Firefox to connect" = "Metètz a jorn Firefox per vos connectar";
+"Upgrade Impervious to connect" = "Metètz a jorn Impervious per vos connectar";
 
 /* Username textbox in Authentication prompt */
 "Username" = "Nom d'utilizaire";
 
-/* Version number of Firefox shown in settings */
+/* Version number of Impervious shown in settings */
 "Version %@ (%@)" = "Version %1$@ (%2$@)";
 
 /* Accessibility label for the main web content view */

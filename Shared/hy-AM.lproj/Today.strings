@@ -22,7 +22,7 @@
 /* Quick Actions drop down menu item for new search when widget enters edit mode and drop down menu expands */
 "TodayWidget.DropDownMenuItemNewSearch" = "Նոր որոնում";
 
-/* Description for medium size widget to add Firefox Shortcut to home screen */
+/* Description for medium size widget to add Impervious Shortcut to home screen */
 "TodayWidget.FirefoxShortcutGalleryDescription" = "Firefox-ի դյուրանցումները ավելացնելք ձեր հիմնական էկրանին:";
 
 /* Go to link pasted on the clipboard */
@@ -44,7 +44,7 @@
 "TodayWidget.NewPrivateTabButtonLabelV2" = "Որոնել Գաղտնի ներդիրում";
 
 /* Open New Tab button label */
-"TodayWidget.NewSearchButtonLabelV1" = "Որոնել Firefox֊ում";
+"TodayWidget.NewSearchButtonLabelV1" = "Որոնել Impervious֊ում";
 
 /* Open New Tab button label */
 "TodayWidget.NewTabButtonLabelV1" = "Նոր որոնում";
@@ -55,38 +55,38 @@
 /* Label that is shown when there are no tabs opened in tab tray i.e. Empty State */
 "TodayWidget.NoOpenTabsLabelV2" = "Չկան բաց ներդիրներ";
 
-/* Open Firefox when there are no tabs opened in tab tray i.e. Empty State */
-"TodayWidget.OpenFirefoxLabel" = "Բացել Firefox-ը";
+/* Open Impervious when there are no tabs opened in tab tray i.e. Empty State */
+"TodayWidget.OpenFirefoxLabel" = "Բացել Impervious-ը";
 
-/* Description for Firefox Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app. */
+/* Description for Impervious Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app. */
 "TodayWidget.PocketWidgetGalleryDescription" = "Բացահայտեք հետաքրքրաշարժ և մտածելու տեղիք տվող պատմությունները համացանցի ամբողջ տարածքից, որի համադրողը Pocket- ն է:";
 
-/* Sub label for medium size Firefox Pocket stories widge widget. Pocket is the name of another app. */
-"TodayWidget.PocketWidgetSubLabel" = "Firefox - առաջարկվում է Pocket-ի կողմից";
+/* Sub label for medium size Impervious Pocket stories widge widget. Pocket is the name of another app. */
+"TodayWidget.PocketWidgetSubLabel" = "Impervious - առաջարկվում է Pocket-ի կողմից";
 
-/* Title for Firefox Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app. */
+/* Title for Impervious Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app. */
 "TodayWidget.PocketWidgetTitle" = "Առաջարկվում է Pocket-ի կողմից";
 
 /* Open New Private Tab button label */
 "TodayWidget.PrivateTabButtonLabelV1" = "Գաղտնի որոնում";
 
 /* Quick action description when widget enters edit mode */
-"TodayWidget.QuickActionDescription" = "Ընտրեք Firefox դյուրանցում՝ ձեր Հիմնական էկրանին ավելացնելու համար:";
+"TodayWidget.QuickActionDescription" = "Ընտրեք Impervious դյուրանցում՝ ձեր Հիմնական էկրանին ավելացնելու համար:";
 
 /* Quick Actions left label text for dropdown menu when widget enters edit mode */
 "TodayWidget.QuickActionDropDownMenu" = "Արագ գործողություն";
 
 /* Description for small size widget to add it to home screen */
-"TodayWidget.QuickActionGalleryDescription" = "Ձեր Հիմնական էկրանին ավելացրեք Firefox դյուրանցում: Վիջեթն ավելացնելուց հետո հպեք և պահեք այն խմբագրելու համար և ընտրեք այլ դյուրանցում:";
+"TodayWidget.QuickActionGalleryDescription" = "Ձեր Հիմնական էկրանին ավելացրեք Impervious դյուրանցում: Վիջեթն ավելացնելուց հետո հպեք և պահեք այն խմբագրելու համար և ընտրեք այլ դյուրանցում:";
 
 /* Quick Actions title when widget enters edit mode */
 "TodayWidget.QuickActionsGalleryTitle" = "Արագ գործողություններ";
 
-/* Firefox shortcuts title when widget enters edit mode. Do not translate the word Firefox. */
+/* Impervious shortcuts title when widget enters edit mode. Do not translate the word Impervious. */
 "TodayWidget.QuickActionsGalleryTitleV2" = "Firefox-ի դյուրանցումներ";
 
 /* Sub label for medium size quick action widget */
-"TodayWidget.QuickActionsSubLabel" = "Firefox - Արագ գործողություններ";
+"TodayWidget.QuickActionsSubLabel" = "Impervious - Արագ գործողություններ";
 
 /* Description for Quick View widget in Gallery View where user can add it to home screen */
 "TodayWidget.QuickViewGalleryDescription" = "Մուտք գործեք ձեր բաց ներդիրներն անմիջապես ձեր հիմնական էկրանից:";
@@ -101,35 +101,35 @@
 "TodayWidget.QuickViewLargeGalleryDescription" = "Ավելացրեք դյուրանցումներ ձեր բաց ներդիրներին:";
 
 /* Sub label for Top Sites widget */
-"TodayWidget.QuickViewOpenTabsSubLabel" = "Firefox - բաց ներդիրներ";
+"TodayWidget.QuickViewOpenTabsSubLabel" = "Impervious - բաց ներդիրներ";
 
-/* Title for small size widget which allows users to search in Firefox. Do not translate the word Firefox. */
-"TodayWidget.SearchInFirefoxTitle" = "Որոնել Firefox֊ում";
+/* Title for small size widget which allows users to search in Impervious. Do not translate the word Impervious. */
+"TodayWidget.SearchInFirefoxTitle" = "Որոնել Impervious֊ում";
 
-/* Search in Firefox. Do not translate the word Firefox */
-"TodayWidget.SearchInFirefoxV2" = "Որոնել Firefox֊ում";
+/* Search in Impervious. Do not translate the word Impervious */
+"TodayWidget.SearchInFirefoxV2" = "Որոնել Impervious֊ում";
 
 /* Search in private tab */
 "TodayWidget.SearchInPrivateTabLabelV2" = "Որոնել Գաղտնի ներդիրում";
 
-/* Description for top sites widget to add Firefox top sites shotcuts to home screen */
+/* Description for top sites widget to add Impervious top sites shotcuts to home screen */
 "TodayWidget.TopSitesGalleryDescription" = "Հաճախակի և վերջերս այցելած կայքերին դյուրանցումներ ավելացրեք:";
 
-/* Title for top sites widget to add Firefox top sites shotcuts to home screen */
+/* Title for top sites widget to add Impervious top sites shotcuts to home screen */
 "TodayWidget.TopSitesGalleryTitle" = "Լավագույն կայքեր";
 
-/* Title for top sites widget to add Firefox top sites shotcuts to home screen */
+/* Title for top sites widget to add Impervious top sites shotcuts to home screen */
 "TodayWidget.TopSitesGalleryTitleV2" = "Կայքի դյուրանցումներ";
 
 /* Sub label for Top Sites widget */
-"TodayWidget.TopSitesSubLabel" = "Firefox - Լավագույն կայքեր";
+"TodayWidget.TopSitesSubLabel" = "Impervious - Լավագույն կայքեր";
 
 /* Sub label for Shortcuts widget */
-"TodayWidget.TopSitesSubLabel2" = "Firefox -  կայքի դյուրանցումներ";
+"TodayWidget.TopSitesSubLabel2" = "Impervious -  կայքի դյուրանցումներ";
 
 /* View More for Quick View widget in Gallery View where we don't know how many tabs might be opened */
 "TodayWidget.ViewMore" = "Տեսնել ավելին";
 
-/* View More… for Firefox Pocket stories widget where we don't know how many articles are available. */
+/* View More… for Impervious Pocket stories widget where we don't know how many articles are available. */
 "TodayWidget.ViewMoreDots" = "Տեսնել ավելին…";
 

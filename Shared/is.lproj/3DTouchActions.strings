@@ -10,7 +10,7 @@
 /* String describing the action of opening the last added bookmark from the home screen Quick Actions via 3D Touch */
 "Open Last Bookmark" = "Opna síðasta bókamerki";
 
-/* String describing the action of opening the last tab sent to Firefox from the home screen Quick Actions via 3D Touch */
+/* String describing the action of opening the last tab sent to Impervious from the home screen Quick Actions via 3D Touch */
 "Open Last Tab" = "Opna síðasta flipa";
 
 /* Accessibility label, associated to the 3D Touch action on the current tab in the tab tray, used to display a larger preview of the tab. */

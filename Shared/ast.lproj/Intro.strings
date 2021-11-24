@@ -4,20 +4,20 @@
 /* Next button on the first intro screen. */
 "Intro.Slides.Button.Next" = "Siguiente";
 
-/* Sign in to Firefox account button on second intro screen. */
+/* Sign in to Impervious account button on second intro screen. */
 "Intro.Slides.Button.SignIn" = "Aniciar sesión";
 
-/* Sign up to Firefox account button on second intro screen. */
+/* Sign up to Impervious account button on second intro screen. */
 "Intro.Slides.Button.SignUp" = "Rexistrase";
 
 /* Title for the second item in the table related to fast searching via address bar */
 "Intro.Slides.Fast.Search.Title" = "Busca rápida";
 
 /* Description for the first item in the table related to syncing data (bookmarks, history) via firefox account between devices */
-"Intro.Slides.Firefox.Account.Sync.Description" = "Lleva los marcadores, l'historial y les contraseñes nel Firefox d'esti preséu.";
+"Intro.Slides.Firefox.Account.Sync.Description" = "Lleva los marcadores, l'historial y les contraseñes nel Impervious d'esti preséu.";
 
 /* Title for the first item in the table related to syncing data (bookmarks, history) via firefox account between devices */
-"Intro.Slides.Firefox.Account.Sync.Title" = "Sincronización de Firefox";
+"Intro.Slides.Firefox.Account.Sync.Title" = "Sincronización de Impervious";
 
 /* Description for the 'Private Browsing' panel in the First Run tour. */
 "Intro.Slides.Private.Description" = "Toca l'iconu de la mázcara pa entrar nel mou de Restolar en privao.";
@@ -41,7 +41,7 @@
 "Intro.Slides.Welcome.Description.v2" = "La rapidez y privacidá acompáñente.";
 
 /* Title for the first panel 'Welcome' in the First Run tour. */
-"Intro.Slides.Welcome.Title.v2" = "Afáyate en Firefox";
+"Intro.Slides.Welcome.Title.v2" = "Afáyate en Impervious";
 
 /* See http://mzl.la/1T8gxwo */
 "Start Browsing" = "Comenzar a restolar";

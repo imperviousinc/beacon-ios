@@ -5,8 +5,8 @@
 import UIKit
 
 public enum AppName: String, CustomStringConvertible {
-    case shortName = "Firefox"
-    case longName = "Firefox Daylight"
+    case shortName = "Impervious"
+    case longName = "Impervious "
 
     public var description: String {
         return self.rawValue
@@ -62,9 +62,9 @@ public struct AppConstants {
             return "unknown"
         }
 
-        let scheme = identifier.replacingOccurrences(of: "org.mozilla.ios.", with: "")
-        if scheme == "FirefoxNightly.enterprise" {
-            return "FirefoxNightly"
+        let scheme = identifier.replacingOccurrences(of: "com.impervious.ios.", with: "")
+        if scheme == "ImperviousNightly.enterprise" {
+            return "ImperviousNightly"
         }
         return scheme
     }()

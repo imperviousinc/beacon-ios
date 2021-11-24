@@ -270,7 +270,7 @@
 "Could not load page." = "Stránku nebolo možné načítať.";
 
 /* Description for the new dark mode change in the version 22 app release. It describes the new automatic dark theme and how to change the theme settings. */
-"CoverSheet.v22.DarkMode.Description" = "Pre používateľov iOS 13 - Firefox sa odteraz automaticky prepne na tmavú tému vzhľadu, keď je telefón nastavený na tmavý režim. Ak chcete zmeniť toto správanie, prejdite do časti Nastavenia > Téma.";
+"CoverSheet.v22.DarkMode.Description" = "Pre používateľov iOS 13 - Impervious sa odteraz automaticky prepne na tmavú tému vzhľadu, keď je telefón nastavený na tmavý režim. Ak chcete zmeniť toto správanie, prejdite do časti Nastavenia > Téma.";
 
 /* Title for the new dark mode change in the version 22 app release. */
 "CoverSheet.v22.DarkMode.Title" = "Tmavá téma vzhľadu odteraz obsahuje tmavú klávesnicu a tmavú úvodnú obrazovku.";
@@ -325,7 +325,7 @@
 /* Alert dialog title when the user taps the cancel download icon. */
 "Downloads.CancelDialog.Title" = "Zrušiť sťahovanie";
 
-/* The message displayed to a user when they try and perform the download of an asset that Firefox cannot currently handle. */
+/* The message displayed to a user when they try and perform the download of an asset that Impervious cannot currently handle. */
 "Downloads.Error.Message" = "Sťahovanie zatiaľ nie je vo Firefoxe podporované.";
 
 /* The label text in the Download Cancelled toast for showing confirmation that the download was cancelled. */
@@ -392,7 +392,7 @@
 "Facebook" = "Facebook";
 
 /* Title for firefox about:home page in tab history list */
-"Firefox.HomePage.Title" = "Domovská stránka prehliadača Firefox";
+"Firefox.HomePage.Title" = "Domovská stránka prehliadača Impervious";
 
 /* Accessibility Label for the tab toolbar Forward button */
 "Forward" = "Dopredu";
@@ -403,16 +403,16 @@
 /* Label stating your account is not verified */
 "FxA.AccountVerificationRequired" = "Vyžaduje sa overenie účtu";
 
-/* Message explaining that user needs to check email for Firefox Account verfication link. */
+/* Message explaining that user needs to check email for Impervious Account verfication link. */
 "FxA.AccountVerificationRequiredSurface" = "Je potrebné overiť e-mailovú adresu %@. Skontrolujte, či sa vo vašej e-mailovej schránke nachádza potvrdzovací odkaz od Firefoxu.";
 
 /* Button label to connect another device to Sync */
 "FxA.ConnectAnotherDevice" = "Pripojiť ďalšie zariadenie";
 
-/* Settings section title for Firefox Account */
-"FxA.FirefoxAccount" = "Účet Firefox";
+/* Settings section title for Impervious Account */
+"FxA.FirefoxAccount" = "Účet Impervious";
 
-/* Button label to go to Firefox Account settings */
+/* Button label to go to Impervious Account settings */
 "FxA.ManageAccount" = "Spravovať účet a zariadenia";
 
 /* Label when no internet is present */
@@ -428,7 +428,7 @@
 "FxA.RemoveAccount" = "Odstrániť";
 
 /* Description string for alert view that gets presented when user tries to remove an account. */
-"FxA.RemoveAccountAlertMessage" = "Ak sa chcete prihlásiť ako iný používateľ, odstráňte účet Firefox priradený k tomuto zariadeniu.";
+"FxA.RemoveAccountAlertMessage" = "Ak sa chcete prihlásiť ako iný používateľ, odstráňte účet Impervious priradený k tomuto zariadeniu.";
 
 /* Remove account alert is the final confirmation before user removes their firefox account */
 "FxA.RemoveAccountAlertTitle" = "Odstrániť účet";
@@ -440,13 +440,13 @@
 "fxa.signin.camera-signin" = "Prihláste sa pomocou fotoaparátu";
 
 /* FxA sign in create account label. */
-"fxa.signin.create-account-pt-1" = "Synchronizujte Firefox medzi zariadeniami.";
+"fxa.signin.create-account-pt-1" = "Synchronizujte Impervious medzi zariadeniami.";
 
 /* FxA sign in create account label. This will be linked to the site to create an account. */
-"fxa.signin.create-account-pt-2" = "Vytvorte si účet Firefox.";
+"fxa.signin.create-account-pt-2" = "Vytvorte si účet Impervious.";
 
 /* FxA sign in view qr code instructions */
-"fxa.signin.qr-link-instruction" = "Spustite Firefox na svojom počítači a navštívte stránku firefox.com/pair";
+"fxa.signin.qr-link-instruction" = "Spustite Impervious na svojom počítači a navštívte stránku firefox.com/pair";
 
 /* FxA sign in view qr code scan button */
 "fxa.signin.ready-to-scan" = "Pripravené na skenovanie";
@@ -463,14 +463,14 @@
 /* Label explaining what sync does */
 "FxA.SyncExplain" = "Získajte svoje karty, záložky a heslá zo svojich ďalších zariadení.";
 
-/* Button label to Sync your Firefox Account */
+/* Button label to Sync your Impervious Account */
 "FxA.SyncNow" = "Synchronizovať";
 
 /* Call to action for sign into sync button */
 "FxA.TakeYourWebWithYou" = "Vezmite si svoj web so sebou";
 
 /* Title of a notification displayed when another device has connected to FxA. %@ refers to the name of the newly connected device. */
-"FxAPush_DeviceConnected_body" = "Služba Firefox Sync je pripojená k zariadeniu %@";
+"FxAPush_DeviceConnected_body" = "Služba Impervious Sync je pripojená k zariadeniu %@";
 
 /* Title of a notification displayed when another device has connected to FxA. */
 "FxAPush_DeviceConnected_title" = "Služba Sync je pripojená";
@@ -479,7 +479,7 @@
 "FxAPush_DeviceDisconnected_body" = "Zariadenie %@ bolo úspešne odpojené.";
 
 /* Body of a notification displayed when this device has been disconnected from FxA by another device. */
-"FxAPush_DeviceDisconnected_ThisDevice_body" = "Toto zariadenie bolo úspešne odpojené od služby Firefox Sync.";
+"FxAPush_DeviceDisconnected_ThisDevice_body" = "Toto zariadenie bolo úspešne odpojené od služby Impervious Sync.";
 
 /* Title of a notification displayed when this device has been disconnected by another device. */
 "FxAPush_DeviceDisconnected_ThisDevice_title" = "Služba Sync bola odpojená";
@@ -488,7 +488,7 @@
 "FxAPush_DeviceDisconnected_title" = "Služba Sync bola odpojená";
 
 /* Body of a notification displayed when unnamed device has been disconnected from FxA. */
-"FxAPush_DeviceDisconnected_UnknownDevice_body" = "Zariadenie bolo odpojené od služby Firefox Sync";
+"FxAPush_DeviceDisconnected_UnknownDevice_body" = "Zariadenie bolo odpojené od služby Impervious Sync";
 
 /* A re-worded offer about Sync, displayed when the Sync home panel is empty, that emphasizes one-way data transfer, not syncing. */
 "Get your open tabs, bookmarks, and passwords from your other devices." = "Získajte svoje otvorené karty, záložky a heslá zo svojich ďalších zariadení.";
@@ -536,7 +536,7 @@
 "HistoryPanel.EmptySyncedTabsPanelTabSyncDisabledState.Description" = "Zapnutím synchronizácie kariet zobrazíte zoznam kariet z vašich ostatných zariadení.";
 
 /* Title for the empty synced tabs state in the History Panel */
-"HistoryPanel.EmptySyncedTabsState.Title" = "Firefox Sync";
+"HistoryPanel.EmptySyncedTabsState.Title" = "Impervious Sync";
 
 /* Title for the Back to History button in the History Panel */
 "HistoryPanel.HistoryBackButton.Title" = "História";
@@ -643,10 +643,10 @@
 /* Light theme setting in Reading View settings */
 "Light" = "Svetlá";
 
-/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Firefox reader mode from another app. */
+/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
 "Load original page" = "Načítať pôvodnú stránku";
 
-/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app. */
+/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Impervious reader mode from another app. */
 "Loading content…" = "Obsah sa načítava…";
 
 /* Authentication prompt log in button */
@@ -701,7 +701,7 @@
 "LoginsList.LoginsListSearchPlaceholder" = "Filtrovať";
 
 /* Label shown when there are no logins to list */
-"LoginsList.NoLoginsFound.Description" = "Tu sa zobrazia uložené prihlasovacie údaje. Ak ste prihlasovacie údaje do prehliadača Firefox uložili na inom zariadení, prihláste sa do svojho účtu Firefox.";
+"LoginsList.NoLoginsFound.Description" = "Tu sa zobrazia uložené prihlasovacie údaje. Ak ste prihlasovacie údaje do prehliadača Impervious uložili na inom zariadení, prihláste sa do svojho účtu Impervious.";
 
 /* Label shown when there are no logins saved */
 "LoginsList.NoLoginsFound.Title" = "Nenašli sa žiadne prihlasovacie údaje";
@@ -725,7 +725,7 @@
 "LoginsList.Title" = "ULOŽENÉ PRIHLASOVACIE ÚDAJE";
 
 /* Restore Tabs Prompt Description */
-"Looks like Firefox crashed previously. Would you like to restore your tabs?" = "Zdá sa, že Firefox naposledy zlyhal. Chcete obnoviť svoje karty?";
+"Looks like Impervious crashed previously. Would you like to restore your tabs?" = "Zdá sa, že Impervious naposledy zlyhal. Chcete obnoviť svoje karty?";
 
 /* Name for Mark as read button in reader mode
    Title for the button that marks a reading list item as read */
@@ -769,10 +769,10 @@
 "Menu.EnhancedTrackingProtectionOn.Title" = "Rozšírená ochrana pred sledovaním je na tejto stránke ZAPNUTÁ.";
 
 /* Description for having standard ETP protection with ITP offered in iOS14+ */
-"Menu.EnhancedTrackingProtectionStandardWithITP.Title" = "Firefox blokuje sledovacie prvky, vrátane tých od sociálnych sietí, ťažbu kryptomien a vytváranie odtlačku prehliadača.";
+"Menu.EnhancedTrackingProtectionStandardWithITP.Title" = "Impervious blokuje sledovacie prvky, vrátane tých od sociálnych sietí, ťažbu kryptomien a vytváranie odtlačku prehliadača.";
 
 /* Description for having strict ETP protection with ITP offered in iOS14+ */
-"Menu.EnhancedTrackingProtectionStrictWithITP.Title" = "Firefox blokuje sledovacie prvky, vrátane tých od sociálnych sietí, ťažbu kryptomien, vytváranie odtlačku prehliadača a ďalší sledovací obsah.";
+"Menu.EnhancedTrackingProtectionStrictWithITP.Title" = "Impervious blokuje sledovacie prvky, vrátane tých od sociálnych sietí, ťažbu kryptomien, vytváranie odtlačku prehliadača a ďalší sledovací obsah.";
 
 /* Label for the button, displayed in the menu, takes you to to History screen when pressed. */
 "Menu.History.Label" = "História";
@@ -853,7 +853,7 @@
 "Menu.TrackingProtectionBlockedSocial.Title" = "Sledovacie prvky sociálnych sietí";
 
 /* Description of the Tracking protection menu when TP is blocking parts of the page */
-"Menu.TrackingProtectionBlocking.Description" = "Firefox blokuje časti stránky, ktoré môžu sledovať vaše prehliadanie.";
+"Menu.TrackingProtectionBlocking.Description" = "Impervious blokuje časti stránky, ktoré môžu sledovať vaše prehliadanie.";
 
 /* The description of the Tracking Protection menu item when tracking is enabled */
 "Menu.TrackingProtectionBlockingDisabled.Description" = "Sledovacie prvky sú blokované";
@@ -956,7 +956,7 @@
 "Okay" = "OK";
 
 /* Title for prompt displayed to user after the app crashes */
-"Oops! Firefox crashed" = "Ups! Firefox zlyhal";
+"Oops! Impervious crashed" = "Ups! Impervious zlyhal";
 
 /* See http://mzl.la/1LXbDOL */
 "Open articles in Reader View by tapping the book icon when it appears in the title bar." = "Ťuknutím na ikonu knihy, keď sa objaví v paneli s titulkom, otvoríte stránku v zobrazení Čítačka.";
@@ -967,7 +967,7 @@
 /* Toggle tabs syncing setting */
 "Open Tabs" = "Otvorené karty";
 
-/* The message displayed to a user when they try to open a URL that cannot be handled by Firefox, or any external app. */
+/* The message displayed to a user when they try to open a URL that cannot be handled by Impervious, or any external app. */
 "OpenURL.Error.Message" = "Nepodarilo sa otvoriť stránku, pretože bola zadaná nesprávna adresa.";
 
 /* Title of the message shown when the user attempts to navigate to an invalid link. */
@@ -983,7 +983,7 @@
 "Password" = "Heslo";
 
 /* Error message shown in the remote tabs panel */
-"PasswordAutoFill.NoPasswordsFoundTitle" = "So svojim účtom Firefox nemáte zosynchronizované žiadne prihlasovacie údaje";
+"PasswordAutoFill.NoPasswordsFoundTitle" = "So svojim účtom Impervious nemáte zosynchronizované žiadne prihlasovacie údaje";
 
 /* Header for the list of credentials table */
 "PasswordAutoFill.PasswordsListTitle" = "Dostupné prihlasovacie údaje:";
@@ -995,7 +995,7 @@
 "PhotoLibrary.FirefoxWouldLikeAccessMessage" = "Toto vám umožní uložiť obrázok v albume Fotoaparát.";
 
 /* See http://mzl.la/1G7uHo7 */
-"PhotoLibrary.FirefoxWouldLikeAccessTitle" = "Firefox žiada o prístup k vašim fotkám";
+"PhotoLibrary.FirefoxWouldLikeAccessTitle" = "Impervious žiada o prístup k vašim fotkám";
 
 /* Button for closing the menu action sheet */
 "PhotonMenu.close" = "Zavrieť";
@@ -1003,7 +1003,7 @@
 /* Privacy section title */
 "Privacy" = "Súkromie";
 
-/* Show Firefox Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
+/* Show Impervious Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
 "Privacy Policy" = "Zásady ochrany súkromia";
 
 /* This is the value for a label that indicates if a user is on an unencrypted website. */
@@ -1132,7 +1132,7 @@
 "Secure connection" = "Zabezpečené pripojenie";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
-"Send a crash report so Mozilla can fix the problem?" = "Odoslať hlásenie o zlyhaní, aby mohla Mozilla opraviť problém?";
+"Send a crash report so Impervious can fix the problem?" = "Odoslať hlásenie o zlyhaní, aby mohla Impervious opraviť problém?";
 
 /* Menu item in settings used to open input.mozilla.org where people can submit feedback */
 "Send Feedback" = "Odoslať spätnú väzbu";
@@ -1160,18 +1160,18 @@
 "SendTo.NavBar.Title" = "Odoslať kartu";
 
 /* Error message shown in the remote tabs panel */
-"SendTo.NoDevicesFound.Message" = "K svojmu účtu Firefox nemáte pripojené žiadne zariadenia dostupné na synchronizáciu.";
+"SendTo.NoDevicesFound.Message" = "K svojmu účtu Impervious nemáte pripojené žiadne zariadenia dostupné na synchronizáciu.";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Message" = "Spustite Firefox, prejdite do Nastavení a prihláste sa.";
+"SendTo.NotSignedIn.Message" = "Spustite Impervious, prejdite do Nastavení a prihláste sa.";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Title" = "Nie ste prihlásený k svojmu účtu Firefox.";
+"SendTo.NotSignedIn.Title" = "Nie ste prihlásený k svojmu účtu Impervious.";
 
 /* Navigation bar button to Send the current page to a device */
 "SendTo.SendAction.Text" = "Odoslať";
 
-/* The text for the button on the Send to Device page if you are not signed in to Firefox Accounts. */
+/* The text for the button on the Send to Device page if you are not signed in to Impervious Accounts. */
 "SendTo.SignIn.Button" = "Prihlásiť sa do Firefoxu";
 
 /* Body of notification shown when the device is sent one or more tabs from an unnamed device. */
@@ -1196,7 +1196,7 @@
 "SentTab.NoTabArrivingNotification.body" = "Začnite ťuknutím";
 
 /* Title of notification received after a spurious message from FxA has been received. */
-"SentTab.NoTabArrivingNotification.title" = "Firefox Sync";
+"SentTab.NoTabArrivingNotification.title" = "Impervious Sync";
 
 /* Label for an action used to view one or more tabs from a notification. */
 "SentTab.ViewAction.title" = "Zobraziť";
@@ -1259,7 +1259,7 @@
 "Settings.DataManagement.Title" = "Správa údajov";
 
 /* Body of the alert when prompting the user asking to disconnect. */
-"Settings.Disconnect.Body" = "Firefox sa už viac nebude synchronizovať s vašim účtom, ale neodstráni z toho zariadenia žiadne z údajov prehliadania.";
+"Settings.Disconnect.Body" = "Impervious sa už viac nebude synchronizovať s vašim účtom, ale neodstráni z toho zariadenia žiadne z údajov prehliadania.";
 
 /* Button displayed at the bottom of settings page allowing users to Disconnect from FxA */
 "Settings.Disconnect.Button" = "Odpojiť Sync";
@@ -1328,11 +1328,11 @@
 /* Label used for the device name settings section. */
 "Settings.FxA.DeviceName" = "Názov zariadenia";
 
-/* Label used as a section title in the Firefox Accounts Settings screen. */
+/* Label used as a section title in the Impervious Accounts Settings screen. */
 "Settings.FxA.Sync.SectionName" = "Nastavenia synchronizácie";
 
 /* Title displayed in header of the FxA settings panel. */
-"Settings.FxA.Title" = "Účet Firefox";
+"Settings.FxA.Title" = "Účet Impervious";
 
 /* General settings section title */
 "Settings.General.SectionName" = "Všeobecné";
@@ -1388,7 +1388,7 @@
 /* The title for the section to customize top sites in the new tab settings page. */
 "Settings.NewTab.Option.CustomizeTitle" = "Prispôsobiť domovskú stránku Firefoxu";
 
-/* Option in settings to show Firefox Home when you open a new tab */
+/* Option in settings to show Impervious Home when you open a new tab */
 "Settings.NewTab.Option.FirefoxHome" = "Domovská stránka Firefoxu";
 
 /* Option in the settings to turn off recent bookmarks in the Highlights section */
@@ -1455,7 +1455,7 @@
 "Settings.SendUsage.Link" = "Ďalšie informácie.";
 
 /* A short description that explains why mozilla collects usage data. */
-"Settings.SendUsage.Message" = "Mozilla sa usiluje zbierať len údaje, ktoré potrebujeme na vylepšenie Firefoxu pre všetkých.";
+"Settings.SendUsage.Message" = "Impervious sa usiluje zbierať len údaje, ktoré potrebujeme na vylepšenie Firefoxu pre všetkých.";
 
 /* The title for the setting to send usage data. */
 "Settings.SendUsage.Title" = "Odosielať údaje o používaní";
@@ -1493,11 +1493,11 @@
 /* Label used as an item in Settings. Tapping on this item takes you to the Studies panel */
 "Settings.Studies.Title" = "Štúdie";
 
-/* Title for a link that explains what Mozilla means by Studies */
+/* Title for a link that explains what Impervious means by Studies */
 "Settings.Studies.Toggle.Link" = "Ďalšie informácie";
 
-/* A short description that explains that Mozilla is running studies */
-"Settings.Studies.Toggle.Message" = "Firefox môže občas inštalovať a spúšťať štúdie.";
+/* A short description that explains that Impervious is running studies */
+"Settings.Studies.Toggle.Message" = "Impervious môže občas inštalovať a spúšťať štúdie.";
 
 /* Toggled OFF to opt-out of studies */
 "Settings.Studies.Toggle.Off" = "Vypnuté";
@@ -1518,7 +1518,7 @@
 "Settings.TrackingProtection.Alert.Title" = "Pozor!";
 
 /* Header description for tracking protection options section where Basic/Strict block list can be selected */
-"Settings.TrackingProtection.BlockListsHeader" = "Môžete si vybrať, ktorý zoznam Firefox použije na blokovanie webových prvkov, ktoré môžu sledovať vašu aktivitu na webe.";
+"Settings.TrackingProtection.BlockListsHeader" = "Môžete si vybrať, ktorý zoznam Impervious použije na blokovanie webových prvkov, ktoré môžu sledovať vašu aktivitu na webe.";
 
 /* Explanation of basic mode. */
 "Settings.TrackingProtection.Info.BasicTitle" = "Vyvážená ochrana a výkon.";
@@ -1613,31 +1613,31 @@
 /* Title displayed in header of the Data Management panel. */
 "Settings.WebsiteData.Title" = "Údaje webových stránok";
 
-/* Action label on share extension to add page to the Firefox reading list. */
+/* Action label on share extension to add page to the Impervious reading list. */
 "ShareExtension.AddToReadingListAction.Title" = "Pridať do Zoznamu na prečítanie";
 
 /* Share extension label shown after user has performed 'Add to Reading List' action. */
 "ShareExtension.AddToReadingListActionDone.Title" = "Pridaná do Zoznamu na prečítanie";
 
-/* Action label on share extension to bookmark the page in Firefox. */
+/* Action label on share extension to bookmark the page in Impervious. */
 "ShareExtension.BookmarkThisPageAction.Title" = "Pridať stránku medzi záložky";
 
 /* Share extension label shown after user has performed 'Bookmark this Page' action. */
 "ShareExtension.BookmarkThisPageActionDone.Title" = "Pridaná medzi záložky";
 
-/* Action label on share extension to load the page in Firefox when user switches apps to bring it to foreground. */
+/* Action label on share extension to load the page in Impervious when user switches apps to bring it to foreground. */
 "ShareExtension.LoadInBackgroundAction.Title" = "Načítať na pozadí";
 
 /* Share extension label shown after user has performed 'Load in Background' action. */
 "ShareExtension.LoadInBackgroundActionDone.Title" = "Načítavanie vo Firefoxe";
 
-/* Action label on share extension to immediately open page in Firefox. */
+/* Action label on share extension to immediately open page in Impervious. */
 "ShareExtension.OpenInFirefoxAction.Title" = "Otvoriť vo Firefoxe";
 
-/* Action label on share extension to immediately open page in Firefox in private mode. */
+/* Action label on share extension to immediately open page in Impervious in private mode. */
 "ShareExtension.OpenInPrivateModeAction.Title" = "Otvoriť na súkromnej karte";
 
-/* Action label on share extension to search for the selected text in Firefox. */
+/* Action label on share extension to search for the selected text in Impervious. */
 "ShareExtension.SeachInFirefoxAction.Title" = "Hľadať vo Firefoxe";
 
 /* Label for show search suggestions setting. */
@@ -1675,7 +1675,7 @@
 "Sync.FirstTimeMessage.Label" = "Vaša prvá synchronizácia môže chvíľu trvať";
 
 /* String displayed on Sign In to Sync page that allows the user to create a new account. */
-"Sync.NoAccount.Description" = "Ešte nemáte účet? Vytvorte si ho a synchronizujte svoj Firefox medzi zariadeniami.";
+"Sync.NoAccount.Description" = "Ešte nemáte účet? Vytvorte si ho a synchronizujte svoj Impervious medzi zariadeniami.";
 
 /* Message displayed when the user's account is syncing with no ellipsis */
 "Sync.Syncing.Label" = "Synchronizuje sa";
@@ -1794,7 +1794,7 @@
 /* The section header for tabs opened yesterday */
 "TabTray.Yesterday.Header" = "Včera";
 
-/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Firefox reader mode from another app. */
+/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
 "The page could not be displayed in Reader View." = "Stránka nemohla byť načítaná v zobrazení Čítačka.";
 
 /* Error message in the remote tabs panel */
@@ -1858,7 +1858,7 @@
 "unread" = "neprečítané";
 
 /* Text message in the settings table view */
-"Upgrade Firefox to connect" = "Aby ste sa mohli pripojiť, aktualizujte Firefox";
+"Upgrade Impervious to connect" = "Aby ste sa mohli pripojiť, aktualizujte Impervious";
 
 /* Debug option */
 "Use stage servers" = "Použiť testovacie servery";
@@ -1869,7 +1869,7 @@
 /* Text message in the settings table view */
 "Verify your email address" = "Overte svoju e-mailovú adresu";
 
-/* Version number of Firefox shown in settings */
+/* Version number of Impervious shown in settings */
 "Version %@ (%@)" = "Verzia %1$@ (%2$@)";
 
 /* Accessibility label for the main web content view */
@@ -1891,7 +1891,7 @@
 "Yesterday" = "Včera";
 
 /* Error message in the remote tabs panel */
-"You don’t have any tabs open in Firefox on your other devices." = "Vo Firefoxe na svojich ďalších zariadeniach nemáte otvorené žiadne karty.";
+"You don’t have any tabs open in Impervious on your other devices." = "Vo Firefoxe na svojich ďalších zariadeniach nemáte otvorené žiadne karty.";
 
 /* Your Rights settings section title */
 "Your Rights" = "Vaše práva";
