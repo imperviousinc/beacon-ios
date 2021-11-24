@@ -116,14 +116,14 @@ extension BrowserViewController: TabToolbarDelegate, PhotonActionSheetProtocol {
         var section1 = getOtherPanelActions(vcDelegate: self)
         let section2 = getSettingsAction(vcDelegate: self)
         
-        let optionalActions = [viewLogins, syncAction].compactMap { $0 }
+        let optionalActions = [viewLogins].compactMap { $0 }
         if !optionalActions.isEmpty {
             section1.append(contentsOf: optionalActions)
         }
         
-        if let whatsNewAction = whatsNewAction {
-            section1.append(whatsNewAction)
-        }
+//        if let whatsNewAction = whatsNewAction {
+//            section1.append(whatsNewAction)
+//        }
         
         actions.append(contentsOf: [section0, section1, section2])
 
