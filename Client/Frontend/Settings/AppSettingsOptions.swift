@@ -692,7 +692,7 @@ class YourRightsSetting: Setting {
     }
 
     override var url: URL? {
-        return URL(string: "https://www.mozilla.org/about/legal/terms/firefox/")
+        return URL(string: "https://impervious.com/browser/terms-of-use")
     }
 
     override func onClick(_ navigationController: UINavigationController?) {
@@ -724,11 +724,44 @@ class SendFeedbackSetting: Setting {
     }
 
     override var url: URL? {
-        return URL(string: "https://mozilla.crowdicity.com/")
+        let subject = "Impervious Browser - Feedback"
+        let subjectEncoded = subject.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!
+
+        return URL(string: "mailto:support@impervious.com?subject=\(subjectEncoded)")
     }
 
     override func onClick(_ navigationController: UINavigationController?) {
-        setUpAndPushSettingsContentViewController(navigationController, self.url)
+        UIApplication.shared.open(url!, options: [:])
+        //setUpAndPushSettingsContentViewController(navigationController, self.url)
+    }
+}
+
+class DNSVPNSetting : BoolSetting {
+   
+    
+    init(prefs: Prefs, delegate: SettingsDelegate?, callback: @escaping ((Bool) -> Void)) {
+        let statusText = NSMutableAttributedString()
+       
+        statusText.append(NSAttributedString(string: "You should enable this option, if your device doesn't resolve HNS names.", attributes: [NSAttributedString.Key.foregroundColor: UIColor.theme.general.highlightBlue]))
+
+        super.init(
+            prefs: prefs, prefKey: "ImperviousSecureDNSSystem", defaultValue: false,
+            attributedTitleText: NSAttributedString(string: "System DNS"),
+            attributedStatusText: statusText,
+            settingDidChange: { enabled in
+                callback(enabled)
+                if enabled {
+                    DNSVPNConfiguration.enableVPN()                    
+                } else {
+                    DNSVPNConfiguration.stopVPN()
+                    
+                }
+            }
+        )
+    }
+    
+    override func displayBool(_ control: UISwitch) {
+        control.isOn = DNSVPNConfiguration.updateConnected()
     }
 }
 
@@ -740,7 +773,7 @@ class SendAnonymousUsageDataSetting: BoolSetting {
         statusText.append(NSAttributedString(string: Strings.SendUsageSettingLink, attributes: [NSAttributedString.Key.foregroundColor: UIColor.theme.general.highlightBlue]))
 
         super.init(
-            prefs: prefs, prefKey: AppConstants.PrefSendUsageData, defaultValue: true,
+            prefs: prefs, prefKey: AppConstants.PrefSendUsageData, defaultValue: false,
             attributedTitleText: NSAttributedString(string: Strings.SendUsageSettingTitle),
             attributedStatusText: statusText,
             settingDidChange: {
@@ -798,7 +831,7 @@ class OpenSupportPageSetting: Setting {
 
     override func onClick(_ navigationController: UINavigationController?) {
         navigationController?.dismiss(animated: true) {
-            if let url = URL(string: "https://support.mozilla.org/products/ios") {
+            if let url = URL(string: "https://github.com/imperviousinc/browser-ios") {
                 self.delegate?.settingsOpenURLInNewTab(url)
             }
         }
@@ -956,7 +989,7 @@ class PrivacyPolicySetting: Setting {
     }
 
     override var url: URL? {
-        return URL(string: "https://www.mozilla.org/privacy/firefox/")
+        return URL(string: "https://impervious.com/browser/privacy")
     }
 
     override func onClick(_ navigationController: UINavigationController?) {
@@ -1042,6 +1075,31 @@ class NewTabPageSetting: Setting {
 
     override func onClick(_ navigationController: UINavigationController?) {
         let viewController = NewTabContentSettingsViewController(prefs: profile.prefs)
+        viewController.profile = profile
+        navigationController?.pushViewController(viewController, animated: true)
+    }
+}
+
+class DNSSetting: Setting {
+    let profile: Profile
+
+    override var accessoryView: UIImageView? { return disclosureIndicator }
+
+    override var accessibilityIdentifier: String? { return "DNS" }
+
+    override var status: NSAttributedString {
+        return NSAttributedString(string: DNSAccessors.getSecureDNSOption(profile.prefs))
+    }
+
+    override var style: UITableViewCell.CellStyle { return .value1 }
+
+    init(settings: SettingsTableViewController) {
+        self.profile = settings.profile
+        super.init(title: NSAttributedString(string: "DNS Server", attributes: [NSAttributedString.Key.foregroundColor: UIColor.theme.tableView.rowText]))
+    }
+
+    override func onClick(_ navigationController: UINavigationController?) {
+        let viewController = EncryptedDNSViewController(prefs: profile.prefs)
         viewController.profile = profile
         navigationController?.pushViewController(viewController, animated: true)
     }

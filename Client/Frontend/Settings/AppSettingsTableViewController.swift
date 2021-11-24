@@ -4,6 +4,7 @@
 
 import UIKit
 import Shared
+import NetworkExtension
 
 enum AppSettingsDeeplinkOption {
     case contentBlocker
@@ -14,6 +15,71 @@ enum AppSettingsDeeplinkOption {
 class AppSettingsTableViewController: SettingsTableViewController, FeatureFlagsProtocol {
     var deeplinkTo: AppSettingsDeeplinkOption?
 
+    func enableDNSProgressDialog() -> UIAlertController {
+            //create an alert controller
+        let pending = UIAlertController(title: "Enabling DNS", message: "\n\n", preferredStyle: .alert)
+
+            //create an activity indicator
+            let indicator = UIActivityIndicatorView(frame: pending.view.bounds)
+            indicator.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+
+            //add the activity indicator as a subview of the alert controller's view
+            pending.view.addSubview(indicator)
+            indicator.isUserInteractionEnabled = false
+            indicator.startAnimating()
+
+        self.present(pending, animated: true, completion: nil)
+
+            return pending
+    }
+    
+    var vpnManager : NEVPNManager?
+    
+    override func viewWillAppear(_ animated: Bool) {
+        NotificationCenter.default.removeObserver(self,
+                                                  name: .NEVPNStatusDidChange, object: vpnManager?.connection)
+        
+        DNSVPNConfiguration.getManager() { m in
+            guard let manager = m else {
+                return
+            }
+            
+            self.vpnManager = manager
+            NotificationCenter.default.addObserver(self, selector: #selector(self.vpnStatusChanged),
+                                                   name: .NEVPNStatusDidChange, object: self.vpnManager?.connection)
+        }
+       
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        NotificationCenter.default.removeObserver(self,
+                                                  name: .NEVPNStatusDidChange, object: self.vpnManager?.connection)
+        self.vpnManager = nil
+    }
+    
+    @objc func vpnStatusChanged() {
+        guard let manager = self.vpnManager else {
+                
+                    DispatchQueue.main.async {
+                        if DNSVPNConfiguration.status {
+                            DNSVPNConfiguration.status = false
+                        self.tableView.reloadData()
+                        }
+                    }
+                
+                return
+            }
+        DispatchQueue.main.async {
+            let oldStatus = DNSVPNConfiguration.status
+            DNSVPNConfiguration.status = DNSVPNConfiguration.connStatus(manager.connection.status)
+            if oldStatus != DNSVPNConfiguration.status {
+               
+                    self.tableView.reloadData()
+                }
+            }
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -56,12 +122,27 @@ class AppSettingsTableViewController: SettingsTableViewController, FeatureFlagsP
         viewController.navigationItem.rightBarButtonItem = navigationItem.rightBarButtonItem
     }
 
+    weak var dnsSetting : DNSVPNSetting?
+    
     override func generateSettings() -> [SettingSection] {
         var settings = [SettingSection]()
 
         let prefs = profile.prefs
+        
+        let dnsSettingObj =  DNSVPNSetting(prefs:prefs, delegate: settingsDelegate, callback: {d in
+           
+        })
+        dnsSetting = dnsSettingObj
+        
+        let encryptedDNSSettings: [Setting] = [
+            DNSSetting(settings: self),
+            dnsSettingObj,
+       ]
+       
+        
         var generalSettings: [Setting] = [
             SearchSetting(settings: self),
+           
             NewTabPageSetting(settings: self),
             HomeSetting(settings: self),
             OpenWithSetting(settings: self),
@@ -76,15 +157,7 @@ class AppSettingsTableViewController: SettingsTableViewController, FeatureFlagsP
             generalSettings.insert(TabsSetting(), at: 3)
         }
 
-        let accountChinaSyncSetting: [Setting]
-        if !AppInfo.isChinaEdition {
-            accountChinaSyncSetting = []
-        } else {
-            accountChinaSyncSetting = [
-                // Show China sync service setting:
-                ChinaSyncServiceSetting(settings: self)
-            ]
-        }
+    
         // There is nothing to show in the Customize section if we don't include the compact tab layout
         // setting on iPad. When more options are added that work on both device types, this logic can
         // be changed.
@@ -103,20 +176,8 @@ class AppSettingsTableViewController: SettingsTableViewController, FeatureFlagsP
                 SettingSection(footerTitle: NSAttributedString(string: String.DefaultBrowserCardDescription), children: [DefaultBrowserSetting()])
             ]
         }
-
-        let accountSectionTitle = NSAttributedString(string: Strings.FxAFirefoxAccount)
-
-        let footerText = !profile.hasAccount() ? NSAttributedString(string: Strings.FxASyncUsageDetails) : nil
-        settings += [
-            SettingSection(title: accountSectionTitle, footerTitle: footerText, children: [
-                // Without a Firefox Account:
-                ConnectSetting(settings: self),
-                AdvancedAccountSetting(settings: self),
-                // With a Firefox Account:
-                AccountStatusSetting(settings: self),
-                SyncNowSetting(settings: self)
-            ] + accountChinaSyncSetting )]
-
+        settings += [ SettingSection(title: NSAttributedString(string: "Encrypted DNS"), children: encryptedDNSSettings)]
+      
         settings += [ SettingSection(title: NSAttributedString(string: Strings.SettingsGeneralSectionTitle), children: generalSettings)]
 
         var privacySettings = [Setting]()
@@ -144,9 +205,8 @@ class AppSettingsTableViewController: SettingsTableViewController, FeatureFlagsP
             SettingSection(title: NSAttributedString(string: .AppSettingsSupport), children: [
                 ShowIntroductionSetting(settings: self),
                 SendFeedbackSetting(),
-                SendAnonymousUsageDataSetting(prefs: prefs, delegate: settingsDelegate),
-                StudiesToggleSetting(prefs: prefs, delegate: settingsDelegate),
-                OpenSupportPageSetting(delegate: settingsDelegate),
+//                SendAnonymousUsageDataSetting(prefs: prefs, delegate: settingsDelegate),
+//                OpenSupportPageSetting(delegate: settingsDelegate),
             ]),
             SettingSection(title: NSAttributedString(string: .AppSettingsAbout), children: [
                 VersionSetting(settings: self),
