@@ -1,0 +1,8 @@
+framework module "DNSExt" {
+	header "ref.h"
+    header "Dnsext.objc.h"
+    header "Universe.objc.h"
+    header "DNSExt.h"
+
+    export *
+}
