@@ -8,6 +8,8 @@ import Shared
 
 class IntroViewController: UIViewController, OnViewDismissable {
     var onViewDismissed: (() -> Void)? = nil
+    var timer:Timer?
+
     // private var
     // Private views
     private lazy var welcomeCard: IntroScreenWelcomeView = {
@@ -16,11 +18,30 @@ class IntroViewController: UIViewController, OnViewDismissable {
         welcomeCardView.clipsToBounds = true
         return welcomeCardView
     }()
+    private lazy var handshakeCard: IntroScreenHandshakeOnboardView = {
+        let handshakeCardView = IntroScreenHandshakeOnboardView()
+        handshakeCardView.translatesAutoresizingMaskIntoConstraints = false
+        handshakeCardView.clipsToBounds = true
+        return handshakeCardView
+    }()
+    private lazy var ethereumCard: IntroScreenEthereumOnboardView = {
+        let ethereumCardView = IntroScreenEthereumOnboardView()
+        ethereumCardView.translatesAutoresizingMaskIntoConstraints = false
+        ethereumCardView.clipsToBounds = true
+        return ethereumCardView
+    }()
     private lazy var syncCard: IntroScreenSyncView = {
         let syncCardView = IntroScreenSyncView()
         syncCardView.translatesAutoresizingMaskIntoConstraints = false
         syncCardView.clipsToBounds = true
+        
         return syncCardView
+    }()
+    private lazy var enableDNSCard: IntroScreenEnableDNSView = {
+        let enableDNSCardView = IntroScreenEnableDNSView()
+        enableDNSCardView.translatesAutoresizingMaskIntoConstraints = false
+        enableDNSCardView.clipsToBounds = true
+        return enableDNSCardView
     }()
     // Closure delegate
     var didFinishClosure: ((IntroViewController, FxAPageType?) -> Void)?
@@ -37,12 +58,27 @@ class IntroViewController: UIViewController, OnViewDismissable {
     override func viewDidLoad() {
         super.viewDidLoad()
         initialViewSetup()
+       
+    }
+    
+    @objc func updateProgressView() {
+        let p = HandshakeCtx?.progress() ?? 0
+        let height = HandshakeCtx?.height() ?? 0
+        syncCard.updateProgress(progress: p, height: Int64(height))
+        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        self.timer = Timer.scheduledTimer(timeInterval: 0.3, target: self, selector: #selector(updateProgressView), userInfo: nil, repeats: true)
+
     }
 
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
         onViewDismissed?()
         onViewDismissed = nil
+        self.timer?.invalidate()
     }
     
     // MARK: View setup
@@ -53,12 +89,49 @@ class IntroViewController: UIViewController, OnViewDismissable {
     //onboarding intro view
     private func setupIntroView() {
         // Initialize
+        view.addSubview(enableDNSCard)
         view.addSubview(syncCard)
+        view.addSubview(ethereumCard)
+        view.addSubview(handshakeCard)
         view.addSubview(welcomeCard)
         
         // Constraints
         setupWelcomeCard()
+        setupHandshakeCard()
+        setupEthereumCard()
         setupSyncCard()
+        setupEnableDNSCard()
+    }
+    
+    private func setupSyncCard() {
+        NSLayoutConstraint.activate([
+            syncCard.topAnchor.constraint(equalTo: view.topAnchor),
+            syncCard.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            syncCard.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+            syncCard.trailingAnchor.constraint(equalTo: view.trailingAnchor)
+        ])
+        
+        // Buton action closures
+        // Next button action
+        syncCard.onNext = {
+            UIView.animate(withDuration: 0.3, animations: {
+                self.syncCard.alpha = 0
+            }) { _ in
+                self.syncCard.isHidden = true
+            }
+        }
+        // Close button action
+//        syncCard.closeClosure = {
+//            self.didFinishClosure?(self, nil)
+//        }
+//        // Sign in button closure
+//        syncCard.signInClosure = {
+//            self.didFinishClosure?(self, .emailLoginFlow)
+//        }
+//        // Sign up button closure
+//        syncCard.signUpClosure = {
+//            self.didFinishClosure?(self, .emailLoginFlow)
+//        }
     }
     
     private func setupWelcomeCard() {
@@ -93,20 +166,62 @@ class IntroViewController: UIViewController, OnViewDismissable {
         }
     }
     
-    private func setupSyncCard() {
+    private func setupHandshakeCard() {
         NSLayoutConstraint.activate([
-            syncCard.topAnchor.constraint(equalTo: view.topAnchor),
-            syncCard.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            syncCard.bottomAnchor.constraint(equalTo: view.bottomAnchor),
-            syncCard.trailingAnchor.constraint(equalTo: view.trailingAnchor)
+            handshakeCard.topAnchor.constraint(equalTo: view.topAnchor),
+            handshakeCard.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            handshakeCard.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+            handshakeCard.trailingAnchor.constraint(equalTo: view.trailingAnchor)
         ])
         // Start browsing button action
-        syncCard.startBrowsing = {
+        handshakeCard.startBrowsing = {
             self.didFinishClosure?(self, nil)
         }
         // Sign-up browsing button action
-        syncCard.signUp = {
-            self.didFinishClosure?(self, .emailLoginFlow)
+        handshakeCard.onNext = {
+            UIView.animate(withDuration: 0.3, animations: {
+                self.handshakeCard.alpha = 0
+            }) { _ in
+                self.handshakeCard.isHidden = true
+            }
+        }
+    }
+    
+    private func setupEnableDNSCard() {
+        NSLayoutConstraint.activate([
+            enableDNSCard.topAnchor.constraint(equalTo: view.topAnchor),
+            enableDNSCard.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            enableDNSCard.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+            enableDNSCard.trailingAnchor.constraint(equalTo: view.trailingAnchor)
+        ])
+        // Start browsing button action
+        enableDNSCard.startBrowsing = {
+            self.didFinishClosure?(self, nil)
+        }
+        // Sign-up browsing button action
+        enableDNSCard.onNext = {
+            self.didFinishClosure?(self, nil)
+        }
+    }
+    
+    private func setupEthereumCard() {
+        NSLayoutConstraint.activate([
+            ethereumCard.topAnchor.constraint(equalTo: view.topAnchor),
+            ethereumCard.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            ethereumCard.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+            ethereumCard.trailingAnchor.constraint(equalTo: view.trailingAnchor)
+        ])
+        // Start browsing button action
+        ethereumCard.startBrowsing = {
+            self.didFinishClosure?(self, nil)
+        }
+        // Sign-up browsing button action
+        ethereumCard.onNext = {
+            UIView.animate(withDuration: 0.3, animations: {
+                self.ethereumCard.alpha = 0
+            }) { _ in
+                self.ethereumCard.isHidden = true
+            }
         }
     }
 }

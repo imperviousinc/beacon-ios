@@ -38,7 +38,7 @@ to make it center in the top container view.
 
 */
 
-class IntroScreenSyncView: UIView, CardTheme {
+class IntroScreenHandshakeOnboardView: UIView, CardTheme {
     // Private vars
     private var fxTextThemeColour: UIColor {
         // For dark theme we want to show light colours and for light we want to show dark colours
@@ -54,7 +54,7 @@ class IntroScreenSyncView: UIView, CardTheme {
     }()
     private lazy var titleLabel: UILabel = {
         let label = UILabel()
-        label.text = "Client Sync Status"
+        label.text = "A step towards a secure & encrypted web without certificate authorities."
         label.textColor = fxTextThemeColour
         label.font = UIFont.systemFont(ofSize: 24, weight: .semibold)
         label.textAlignment = .left
@@ -63,36 +63,20 @@ class IntroScreenSyncView: UIView, CardTheme {
     }()
     private lazy var descriptionLabel: UILabel = {
         let label = UILabel()
-        label.text = "Please wait a few seconds for the initial sync to complete."
+        label.text = "The first browser to use a p2p light client to verify the identity of websites without trusting third parties that have the power to eavesdrop on your communication."
         label.textColor = fxTextThemeColour
         label.font = UIFont.systemFont(ofSize: 16, weight: .regular)
         label.textAlignment = .left
         label.numberOfLines = 0
         return label
     }()
-    private lazy var blockHeightLabel: UILabel = {
-        let label = UILabel()
-        label.text = "Block height: #0"
-        label.textColor = fxTextThemeColour
-        label.font = UIFont.systemFont(ofSize: 16, weight: .regular)
-        label.textAlignment = .center
-        label.numberOfLines = 0
-        return label
-    }()
-    private lazy var progressBar: UIProgressView = {
-        let progress = UIProgressView()
-        progress.setProgress(0, animated: false)
-        return progress
-    }()
     private var nextButton: UIButton = {
         let button = UIButton()
         button.titleLabel?.font = UIFont.systemFont(ofSize: 18, weight: .semibold)
         button.layer.cornerRadius = 10
-        button.backgroundColor = UIColor.Photon.Grey50
-        //button.backgroundColor = UIColor.Photon.Blue50
+        button.backgroundColor = UIColor.Photon.Blue50
         button.setTitle(Strings.IntroNextButtonTitle, for: .normal)
         button.accessibilityIdentifier = "signUpButtonSyncView"
-        button.isEnabled = false
         return button
     }()
     private lazy var startBrowsingButton: UIButton = {
@@ -128,23 +112,10 @@ class IntroScreenSyncView: UIView, CardTheme {
     private func initialViewSetup() {
         combinedView.addSubview(titleLabel)
         combinedView.addSubview(descriptionLabel)
-        combinedView.addSubview(blockHeightLabel)
-        combinedView.addSubview(progressBar)
         combinedView.addSubview(titleImageView)
         topContainerView.addSubview(combinedView)
         addSubview(topContainerView)
         addSubview(nextButton)
-    }
-    
-    func updateProgress(progress : Float, height : Int64) {
-    
-        blockHeightLabel.text = "Block height: #\(height)"
-        progressBar.setProgress(progress, animated: true)
-        
-        if progress > 0.98 {
-            nextButton.isEnabled = true
-            nextButton.backgroundColor = UIColor.Photon.Blue50
-        }
     }
     
     // MARK: View setup
@@ -153,36 +124,21 @@ class IntroScreenSyncView: UIView, CardTheme {
         backgroundColor = fxBackgroundThemeColour
         // Height constants
         let titleLabelHeight = 200
-        let descriptionLabelHeight = 20
-        let blockHeightLabelHeight = 20
-        let progressHeight = 10
+        let descriptionLabelHeight = 80
         let titleImageHeight = screenSize.height > 600 ? 150 : 100
         // Title label constraints
         titleLabel.snp.makeConstraints { make in
             make.left.right.equalToSuperview().inset(24)
-            make.top.equalTo(titleImageView.snp.bottom).offset(50)
-            make.height.equalTo(80)
+            make.top.equalTo(titleImageView.snp.bottom)
+            make.height.equalTo(titleLabelHeight)
         }
 
         // Description label constraints
         descriptionLabel.snp.makeConstraints { make in
             make.left.right.equalToSuperview().inset(24)
             make.top.equalTo(titleLabel.snp.bottom)
-          //  make.height.equalTo(descriptionLabelHeight)
+            make.height.equalTo(descriptionLabelHeight)
         }
-        
-        blockHeightLabel.snp.makeConstraints { make in
-            make.left.right.equalToSuperview().inset(24)
-            make.top.equalTo(descriptionLabel.snp.bottom).offset(80)
-          //  make.height.equalTo(blockHeightLabelHeight)
-        }
-        
-        progressBar.snp.makeConstraints { make in
-            make.left.right.equalToSuperview().inset(24)
-            make.top.equalTo(blockHeightLabel.snp.bottom).offset(20)
-            make.height.equalTo(progressHeight)
-        }
-        
         // Title image view constraints
         titleImageView.snp.makeConstraints { make in
             make.left.right.equalToSuperview()
@@ -198,7 +154,7 @@ class IntroScreenSyncView: UIView, CardTheme {
         
         // Combined view constraints
         combinedView.snp.makeConstraints { make in
-            make.height.equalTo(titleLabelHeight + descriptionLabelHeight + 60 + titleImageHeight)
+            make.height.equalTo(titleLabelHeight + descriptionLabelHeight + titleImageHeight)
             make.centerY.equalToSuperview()
             make.left.right.equalToSuperview()
         }
