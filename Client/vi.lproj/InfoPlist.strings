@@ -2,7 +2,7 @@
 "NSCameraUsageDescription" = "Điều này cho phép bạn chụp và tải hình ảnh lên.";
 
 /* Privacy - Face ID Usage Description */
-"NSFaceIDUsageDescription" = "Firefox yêu cầu Face ID để truy cập thông tin đăng nhập đã lưu của bạn.";
+"NSFaceIDUsageDescription" = "Impervious yêu cầu Face ID để truy cập thông tin đăng nhập đã lưu của bạn.";
 
 /* This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this

@@ -2,7 +2,7 @@
 "NSCameraUsageDescription" = "यह आपको तस्वीरें लेने और अपलोड करने देता है।";
 
 /* Privacy - Face ID Usage Description */
-"NSFaceIDUsageDescription" = "Firefox को आपके सहेजे गए लॉगिन तक पहुंचने के लिए फेस आईडी की ज़रूरत है।";
+"NSFaceIDUsageDescription" = "Impervious को आपके सहेजे गए लॉगिन तक पहुंचने के लिए फेस आईडी की ज़रूरत है।";
 
 /* This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this

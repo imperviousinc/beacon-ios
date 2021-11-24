@@ -2,7 +2,7 @@
 "NSCameraUsageDescription" = "Toto vám umožňuje tvoriť a nahrávať fotky.";
 
 /* Privacy - Face ID Usage Description */
-"NSFaceIDUsageDescription" = "Pre prístup k uloženým prihláseniam vyžaduje Firefox Face ID.";
+"NSFaceIDUsageDescription" = "Pre prístup k uloženým prihláseniam vyžaduje Impervious Face ID.";
 
 /* This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this

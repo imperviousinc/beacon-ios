@@ -1,8 +1,8 @@
 /* Privacy - Camera Usage Description */
-"NSCameraUsageDescription" = "Firefox usa la cámara pa escaniar códigos QR y facer semeyes y vídeos.";
+"NSCameraUsageDescription" = "Impervious usa la cámara pa escaniar códigos QR y facer semeyes y vídeos.";
 
 /* Privacy - Face ID Usage Description */
-"NSFaceIDUsageDescription" = "Firefox rique Face ID p'acceder a los anicios de sesión guardaos.";
+"NSFaceIDUsageDescription" = "Impervious rique Face ID p'acceder a los anicios de sesión guardaos.";
 
 /* This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -10,7 +10,7 @@
 "NSLocationWhenInUseUsageDescription" = "Los sitios web que visites puen solicitate l'allugamientu.";
 
 /* Privacy - Microphone Usage Description */
-"NSMicrophoneUsageDescription" = "Firefox usa'l micrófonu pa grabar y xubir audiu.";
+"NSMicrophoneUsageDescription" = "Impervious usa'l micrófonu pa grabar y xubir audiu.";
 
 /* Privacy - Photo Library Additions Usage Description */
 "NSPhotoLibraryAddUsageDescription" = "Esto déxate guardar les semeyes.";

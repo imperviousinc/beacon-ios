@@ -1,8 +1,8 @@
 /* Privacy - Camera Usage Description */
-"NSCameraUsageDescription" = "Firefox 需要使用您的相机来扫码、拍摄照片或视频。";
+"NSCameraUsageDescription" = "Impervious 需要使用您的相机来扫码、拍摄照片或视频。";
 
 /* Privacy - Face ID Usage Description */
-"NSFaceIDUsageDescription" = "Firefox 需进行面容 ID 验证才能访问您保存的登录信息。";
+"NSFaceIDUsageDescription" = "Impervious 需进行面容 ID 验证才能访问您保存的登录信息。";
 
 /* This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -10,7 +10,7 @@
 "NSLocationWhenInUseUsageDescription" = "您访问的网站可能会请求您的地理位置。";
 
 /* Privacy - Microphone Usage Description */
-"NSMicrophoneUsageDescription" = "Firefox 需要使用您的麦克风来录制并上传音频。";
+"NSMicrophoneUsageDescription" = "Impervious 需要使用您的麦克风来录制并上传音频。";
 
 /* Privacy - Photo Library Additions Usage Description */
 "NSPhotoLibraryAddUsageDescription" = "让您可以保存照片。";

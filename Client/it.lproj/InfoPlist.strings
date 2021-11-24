@@ -2,7 +2,7 @@
 "NSCameraUsageDescription" = "Garantisci il permesso di scattare e caricare foto.";
 
 /* Privacy - Face ID Usage Description */
-"NSFaceIDUsageDescription" = "Firefox richiede Face ID per accedere alle credenziali di accesso salvate.";
+"NSFaceIDUsageDescription" = "Impervious richiede Face ID per accedere alle credenziali di accesso salvate.";
 
 /* This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this

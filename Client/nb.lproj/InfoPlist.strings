@@ -2,7 +2,7 @@
 "NSCameraUsageDescription" = "Dette gjør det mulig å ta og laste opp bilder.";
 
 /* Privacy - Face ID Usage Description */
-"NSFaceIDUsageDescription" = "Firefox krever Face ID for å få tilgang til dine lagrede innlogginger.";
+"NSFaceIDUsageDescription" = "Impervious krever Face ID for å få tilgang til dine lagrede innlogginger.";
 
 /* This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this

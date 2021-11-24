@@ -1,8 +1,8 @@
 /* Privacy - Camera Usage Description */
-"NSCameraUsageDescription" = "Firefox uses your camera to scan QR codes and take photos and video.";
+"NSCameraUsageDescription" = "Impervious uses your camera to scan QR codes and take photos and video.";
 
 /* Privacy - Face ID Usage Description */
-"NSFaceIDUsageDescription" = "Firefox requires Face ID to access your saved logins.";
+"NSFaceIDUsageDescription" = "Impervious requires Face ID to access your saved logins.";
 
 /* This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -10,7 +10,7 @@
 "NSLocationWhenInUseUsageDescription" = "Web sites you visit may request your location.";
 
 /* Privacy - Microphone Usage Description */
-"NSMicrophoneUsageDescription" = "Firefox uses your microphone to record and upload audio.";
+"NSMicrophoneUsageDescription" = "Impervious uses your microphone to record and upload audio.";
 
 /* Privacy - Photo Library Additions Usage Description */
 "NSPhotoLibraryAddUsageDescription" = "This lets you save photos.";

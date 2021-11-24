@@ -2,7 +2,7 @@
 "NSCameraUsageDescription" = "Näin voit ottaa ja ladata kuvia.";
 
 /* Privacy - Face ID Usage Description */
-"NSFaceIDUsageDescription" = "Firefox vaatii Face ID:n, jotta voit käyttää tallennettuja kirjautumistietoja.";
+"NSFaceIDUsageDescription" = "Impervious vaatii Face ID:n, jotta voit käyttää tallennettuja kirjautumistietoja.";
 
 /* This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this

@@ -2,7 +2,7 @@
 "NSCameraUsageDescription" = "To vam omogoča slikati in pošiljati fotografije.";
 
 /* Privacy - Face ID Usage Description */
-"NSFaceIDUsageDescription" = "Firefox za dostop do shranjenih prijav zahteva Face ID.";
+"NSFaceIDUsageDescription" = "Impervious za dostop do shranjenih prijav zahteva Face ID.";
 
 /* This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
