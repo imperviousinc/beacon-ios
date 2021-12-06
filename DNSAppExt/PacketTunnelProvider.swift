@@ -69,7 +69,28 @@ class PacketTunnelProvider: NEPacketTunnelProvider {
         let dnsSettings = NEDNSSettings(servers: ["127.0.0.1", "::1"])
         dnsSettings.matchDomains = [""]
         settings.dnsSettings = dnsSettings
+        
+        let condition = NSCondition()
+        var saveErr : Error?
+        
+        condition.lock()
+        defer { condition.unlock() }
+        
+        
         self.setTunnelNetworkSettings(settings) { error in
+            saveErr = error
+            condition.signal()
+        }
+        
+        // Sometimes setTunnelNetworkSettings callback never
+        // gets called we should call completionHandler after
+        // some timeout either way
+        // based on: https://github.com/WireGuard/wireguard-apple/blob/master/Sources/WireGuardKit/WireGuardAdapter.swift#L314
+        let timeout: TimeInterval = 5 // seconds
+        if condition.wait(until: Date().addingTimeInterval(timeout)) {
+              completionHandler(saveErr)
+        } else {
+            // timeout continue anyway
             completionHandler(nil)
         }
     }
