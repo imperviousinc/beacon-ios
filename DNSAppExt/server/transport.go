@@ -3,6 +3,7 @@ package dnsext
 import (
 	"context"
 	"crypto/tls"
+	"errors"
 	"fmt"
 	"github.com/miekg/dns"
 	"golang.org/x/sync/errgroup"
@@ -13,6 +14,42 @@ import (
 	"sync"
 	"time"
 )
+
+var mobileTransport = &MobileTransport{
+	tr: internalTransport,
+}
+
+type MobileTransport struct {
+	tr *http.Transport
+	sync.RWMutex
+}
+
+func (m *MobileTransport) CloseIdleConnections() {
+	m.RLock()
+	m.tr.CloseIdleConnections()
+	m.RUnlock()
+}
+
+
+func (m *MobileTransport) CloseAllConnections() {
+	m.CloseIdleConnections()
+
+	m.Lock()
+	m.tr = m.tr.Clone()
+	m.Unlock()
+}
+
+func (m *MobileTransport) RoundTrip(req *http.Request) (*http.Response, error) {
+	m.RLock()
+	tr := m.tr
+	m.RUnlock()
+
+	if tr == nil {
+		return nil, errors.New("no http transport available")
+	}
+
+	return tr.RoundTrip(req)
+}
 
 var (
 	// if net.LookupHost fails
@@ -39,13 +76,17 @@ type addrList struct {
 
 var (
 	dialer = &net.Dialer{
-		Timeout: 10 * time.Second,
+		Timeout: 5 * time.Second,
 	}
 
 	addrRes = newAddrList()
 
-	dohTransport = &http.Transport{
+	internalTransport = &http.Transport{
 		ForceAttemptHTTP2: true,
+		MaxIdleConnsPerHost: 30,
+		TLSHandshakeTimeout: 10*time.Second,
+		ExpectContinueTimeout: 10*time.Second,
+		MaxResponseHeaderBytes: 4096,
 		DialTLSContext: func(ctx context.Context, network, addr string) (net.Conn, error) {
 			host, port, err := net.SplitHostPort(addr)
 			if err != nil {
@@ -135,6 +176,7 @@ func (a *addrList) lookupIPv(ctx context.Context, host, server string, ip4, tls 
 func (a *addrList) lookupIP(ctx context.Context, host string, tryOS, tryTLS bool) ([]net.IP, time.Time, error) {
 	if tryOS {
 		ips, err := net.LookupIP(host)
+
 		if err == nil && len(ips) > 0 {
 			for _, ip := range ips {
 				// only accept if addr isn't 0.0.0.0
@@ -251,27 +293,19 @@ func (a *addrList) lookupDialAddrList(ctx context.Context, host string) ([]net.I
 		return []net.IP{ip}, nil
 	}
 
-	if host == "hs.dnssec.dev" {
-		return []net.IP {
-			net.ParseIP("178.128.128.111"),
-			net.ParseIP("2604:a880:2:d0::15c5:b001"),
-			net.ParseIP("178.128.128.118"),
-			net.ParseIP("2604:a880:2:d0::227a:1001"),
-		}, nil
-	}
-
 	if addrs := a.getCachedAddrs(host); len(addrs) > 0 {
 		return addrs, nil
 	}
 
-	ctx, cancel := context.WithTimeout(ctx, 8*time.Second)
-	ips, exp, err := a.lookupIP(ctx, host, true, true)
+	// try lookup with Dns over TLS max 1 second
+	ctx, cancel := context.WithTimeout(ctx, time.Second)
+	ips, exp, err := a.lookupIP(ctx, host, false, true)
 	cancel()
 
 	if err != nil {
-		// try without OS or TLS
-		ctx, cancel := context.WithTimeout(ctx, 8*time.Second)
-		ips, exp, err = a.lookupIP(ctx, host, false, false)
+		// try with OS or without TLS
+		ctx, cancel := context.WithTimeout(ctx, 5*time.Second)
+		ips, exp, err = a.lookupIP(ctx, host, true, false)
 		cancel()
 
 		if err != nil {
@@ -284,6 +318,8 @@ func (a *addrList) lookupDialAddrList(ctx context.Context, host string) ([]net.I
 	a.host = host
 	a.addrs = ips
 	a.Unlock()
+
+	log.Printf("fetched resolver ip addresses: %v", ips)
 
 	return ips, nil
 }

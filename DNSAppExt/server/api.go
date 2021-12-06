@@ -4,14 +4,15 @@ import (
 	"log"
 	"runtime/debug"
 	"time"
+	_ "golang.org/x/mobile/bind"
 )
 
 var server *Server
 
 
-func InitServer(l, doh string) int {
+func InitServer(listenIP4, listenIP6, doh string) int {
 	var err error
-	if server, err = NewServer(l, doh) ; err != nil {
+	if server, err = NewServer(listenIP4, listenIP6, doh) ; err != nil {
 		log.Printf("failed creating server: %v", err)
 		return -1
 	}

@@ -10,13 +10,17 @@ import (
 	"time"
 )
 
+func TestInitServer(t *testing.T) {
+
+}
+
 func TestServer_ListenAndServe(t *testing.T) {
-	InitServer("127.0.0.1:5451", "https://hns.dnssec.dev/dns-query")
+	InitServer("127.0.0.1:5451", "[::1]:5451", "https://hs.dnssec.dev/dns-query")
 	ListenAndServe()
 }
 
 func TestNewServer(t *testing.T) {
-	InitServer("127.0.0.1:5450", "https://hns.dnssec.dev/dns-query")
+	InitServer("127.0.0.1:5451", "[::1]:5451", "https://hs.dnssec.dev/dns-query")
 	go ListenAndServe()
 
 	time.Sleep(1 * time.Second)

@@ -52,31 +52,31 @@ class PacketTunnelProvider: NEPacketTunnelProvider {
                 self.dohURL = secureOpt as! String
             }
             
-            DnsextInitServer("0.0.0.0:53", self.dohURL)
+            
+            DnsextInitServer("127.0.0.1:53", "[::1]:53", self.dohURL)
             
             let thread = Thread.init(target: self, selector: #selector(self.ListenAndServe), object: nil)
             thread.start()
-            self.reactivateTunnel()
+            self.saveNetworkSettings(completionHandler: completionHandler)
             
+        }
+    }
+    
+    func saveNetworkSettings(completionHandler: @escaping (Error?) -> Void) {
+        let settings = NEPacketTunnelNetworkSettings(tunnelRemoteAddress: "127.0.0.1")
+        settings.mtu = 1280
+        
+        let dnsSettings = NEDNSSettings(servers: ["127.0.0.1", "::1"])
+        dnsSettings.matchDomains = [""]
+        settings.dnsSettings = dnsSettings
+        self.setTunnelNetworkSettings(settings) { error in
+            completionHandler(nil)
         }
     }
     
     func reactivateTunnel() {
         workQueue.async {
-            if !self.reasserting {
-                self.reasserting = true
-                DnsextCloseIdleConnections()
-                
-                let settings = NEPacketTunnelNetworkSettings(tunnelRemoteAddress: "127.0.0.1")
-                settings.mtu = 1280
-                
-                let dnsSettings = NEDNSSettings(servers: ["127.0.0.1", "::1"])
-                dnsSettings.matchDomains = [""]
-                settings.dnsSettings = dnsSettings
-                self.setTunnelNetworkSettings(settings) { error in
-                    self.reasserting = false
-                }
-            }
+           DnsextCloseIdleConnections()
         }
     }
     

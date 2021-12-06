@@ -16,10 +16,11 @@ import (
 
 type dohConn struct {
 	endpoint *url.URL
-	http     *http.Client
+	tr     *MobileTransport
 
 	body *io.Reader
 	ctx  context.Context
+	cancelFunc func()
 
 	deadline time.Time
 }
@@ -59,8 +60,9 @@ func (d *dohConn) Write(b []byte) (n int, err error) {
 	req.Header.Add("Content-Type", "application/dns-message")
 	req.Host = d.endpoint.Host
 
-	resp, err := d.http.Do(req)
+	resp, err := d.tr.RoundTrip(req)
 	if err != nil {
+		d.tr.CloseIdleConnections()
 		return 0, fmt.Errorf("failed reading http response: %v", err)
 	}
 	defer resp.Body.Close()
@@ -84,6 +86,7 @@ func (d *dohConn) Write(b []byte) (n int, err error) {
 }
 
 func (d *dohConn) Close() error {
+
 	return nil
 }
 

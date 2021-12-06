@@ -9,23 +9,21 @@ import (
 	"hash/fnv"
 	"log"
 	"net"
-	"net/http"
 	"net/url"
 	"strings"
 	"time"
 )
 
 var (
-	minTTL = 1 * time.Minute
+	minTTL = 30 * time.Second
 	maxTTL = 6 * time.Hour
+	dnsLookupTimeout = 8 * time.Second
 )
 
 type Server struct {
-	http  http.Client
 	url   *url.URL
-	dns   dns.Client
+	dns   *dns.Client
 	cache *lru.Cache
-	addr  string
 
 	ipv4Loopback *dns.Server
 	ipv6Loopback *dns.Server
@@ -36,29 +34,25 @@ type cacheEntry struct {
 	expire time.Time
 }
 
-func NewServer(listenAddr string, dohServer string) (s *Server, err error) {
+func NewServer(listenIP4, listenIP6 string, dohServer string) (s *Server, err error) {
 	s = &Server{
-		http: http.Client{},
-		dns:  dns.Client{},
-		addr: listenAddr,
+		dns:  &dns.Client{Net: "tcp-tls"},
 		ipv4Loopback: &dns.Server{
-			Addr:         "127.0.0.1:53",
+			Addr:         listenIP4,
 			Net:          "udp",
 			ReadTimeout:  10 * time.Second,
 			WriteTimeout: 10 * time.Second,
 		},
 		ipv6Loopback: &dns.Server{
-			Addr:         "[::1]:53",
+			Addr:         listenIP6,
 			Net:          "udp",
 			ReadTimeout:  10 * time.Second,
 			WriteTimeout: 10 * time.Second,
 		},
 	}
-	s.http.Transport = dohTransport
 
 	s.ipv4Loopback.Handler = s.handleDnsRequest()
 	s.ipv6Loopback.Handler = s.handleDnsRequest()
-	s.http.Timeout = time.Second * 6
 
 	if s.url, err = url.Parse(dohServer); err != nil {
 		return nil, err
@@ -125,7 +119,7 @@ func (s *Server) exchangeWithCache(ctx context.Context, req *dns.Msg) (*dns.Msg,
 func (s *Server) exchange(ctx context.Context, msg *dns.Msg) (re *dns.Msg, rtt time.Duration, err error) {
 	re, rtt, err = s.dns.ExchangeWithConn(msg, &dns.Conn{Conn: &dohConn{
 		endpoint: s.url,
-		http:     &s.http,
+		tr:       mobileTransport,
 		ctx:      ctx,
 	}})
 
@@ -202,8 +196,9 @@ func answerHINFO(msg *dns.Msg, hinfoStr string) {
 
 func (s *Server) handleDnsRequest() dns.HandlerFunc {
 	return func(w dns.ResponseWriter, req *dns.Msg) {
-		ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
+		ctx, cancel := context.WithTimeout(context.Background(), dnsLookupTimeout)
 		defer cancel()
+
 		resp, err := s.exchangeWithCache(ctx, req)
 
 		// if there's an error and we haven't reached the ctx timeout yet
@@ -253,15 +248,18 @@ func (s *Server) handleDnsRequest() dns.HandlerFunc {
 }
 
 func (s *Server) ListenAndServe() {
-	log.Printf("starting listening")
+	log.Printf("started listening on %s, %s", s.ipv6Loopback.Addr, s.ipv4Loopback.Addr)
+	log.Printf("host %s", s.url.Host)
 	// attempt to find & cache DoH address
 	host, _, err := net.SplitHostPort(s.url.Host)
+	if err != nil {
+		host = s.url.Host
+	}
+
 	ctx, cancel := context.WithCancel(context.Background())
 	defer cancel()
 
-	if err == nil {
-		go addrRes.lookupDialAddrList(ctx, host)
-	}
+	go addrRes.lookupDialAddrList(ctx, host)
 
 	go func() {
 		s.ipv6Loopback.ListenAndServe()
@@ -278,7 +276,7 @@ func (s *Server) ListenAndServe() {
 
 func (s *Server) CloseIdleConnections() {
 	if s != nil {
-		s.http.CloseIdleConnections()
+		mobileTransport.CloseAllConnections()
 	}
 }
 
