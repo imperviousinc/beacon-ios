@@ -56,7 +56,7 @@ class IntroScreenEthereumOnboardView: UIView, CardTheme {
         let label = UILabel()
         label.text = "Access domains on Ethereum!"
         label.textColor = fxTextThemeColour
-        label.font = UIFont.systemFont(ofSize: 24, weight: .semibold)
+        label.font = UIFont.systemFont(ofSize: screenSize.height > 700 ? 24 : 18, weight: .semibold)
         label.textAlignment = .left
         label.numberOfLines = 0
         return label
@@ -133,10 +133,9 @@ class IntroScreenEthereumOnboardView: UIView, CardTheme {
         // Background colour setup
         backgroundColor = fxBackgroundThemeColour
         // Height constants
-        let titleLabelHeight = 100
-        let descriptionLabelHeight = 80
-        let descriptionLabelHeight2 = 80
-        let titleImageHeight = screenSize.height > 600 ? 200 : 150
+        let titleLabelHeight = screenSize.height > 700 ? 100 : 80
+        let additionalSpaceHeight = screenSize.height > 700 ? 180 : 120
+        let titleImageHeight = screenSize.height > 700 ? 200 : 150
         // Title label constraints
         titleLabel.snp.makeConstraints { make in
             make.left.right.equalToSuperview().inset(24)
@@ -148,12 +147,10 @@ class IntroScreenEthereumOnboardView: UIView, CardTheme {
         descriptionLabel.snp.makeConstraints { make in
             make.left.right.equalToSuperview().inset(24)
             make.top.equalTo(titleLabel.snp.bottom)
-            make.height.equalTo(descriptionLabelHeight)
         }
         descriptionLabel2.snp.makeConstraints { make in
             make.left.right.equalToSuperview().inset(24)
-            make.top.equalTo(descriptionLabel.snp.bottom)
-            make.height.equalTo(descriptionLabelHeight)
+            make.top.equalTo(descriptionLabel.snp.bottom).offset(20)
         }
         // Title image view constraints
         titleImageView.snp.makeConstraints { make in
@@ -170,7 +167,7 @@ class IntroScreenEthereumOnboardView: UIView, CardTheme {
         
         // Combined view constraints
         combinedView.snp.makeConstraints { make in
-            make.height.equalTo(100 + titleLabelHeight + descriptionLabelHeight + titleImageHeight)
+            make.height.equalTo(additionalSpaceHeight + titleLabelHeight + titleImageHeight)
             make.centerY.equalToSuperview()
             make.left.right.equalToSuperview()
         }
@@ -183,7 +180,7 @@ class IntroScreenEthereumOnboardView: UIView, CardTheme {
         nextButton.snp.makeConstraints { make in
             make.left.right.equalToSuperview().inset(buttonEdgeInset)
             // On large iPhone screens, bump this up from the bottom
-            make.bottom.equalToSuperview().inset(95)
+            make.bottom.equalToSuperview().inset(screenSize.height > 700 ? 95 : 60)
             make.height.equalTo(buttonHeight)
         }
         

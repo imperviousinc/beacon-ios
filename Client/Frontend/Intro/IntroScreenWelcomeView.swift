@@ -137,12 +137,12 @@ class IntroScreenWelcomeView: UIView, CardTheme {
         }
         
         titleLabel.snp.makeConstraints { make in
-            make.left.right.equalToSuperview().inset(10)
+            make.left.right.equalToSuperview().inset(24)
             make.top.equalToSuperview()
         }
         
         subTitleLabelPage1.snp.makeConstraints { make in
-            make.left.right.equalToSuperview().inset(35)
+            make.left.right.equalToSuperview().inset(24)
             make.top.equalTo(titleLabel.snp.bottom).offset(20)
         }
         

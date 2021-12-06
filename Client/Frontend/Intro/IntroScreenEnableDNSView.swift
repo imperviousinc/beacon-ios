@@ -134,20 +134,17 @@ class IntroScreenEnableDNSView: UIView, CardTheme {
         // Background colour setup
         backgroundColor = fxBackgroundThemeColour
         // Height constants
-        let titleLabelHeight = 200
-        let descriptionLabelHeight = 80
-        let titleImageHeight = screenSize.height > 600 ? 150 : 100
+        let additionalSpaceHeight = screenSize.height > 700 ? 580 : 450
         // Title label constraints
         titleLabel.snp.makeConstraints { make in
             make.left.right.equalToSuperview().inset(24)
-            make.top.equalToSuperview()
-            make.height.equalTo(100)
+            make.top.equalToSuperview().offset(35)
         }
 
         // Description label constraints
         descriptionLabel.snp.makeConstraints { make in
             make.left.right.equalToSuperview().inset(24)
-            make.top.equalTo(titleLabel.snp.bottom)
+            make.top.equalTo(titleLabel.snp.bottom).offset(24)
         }
         
         descriptionLabel2.snp.makeConstraints { make in
@@ -170,7 +167,7 @@ class IntroScreenEnableDNSView: UIView, CardTheme {
         
         // Combined view constraints
         combinedView.snp.makeConstraints { make in
-            make.height.equalTo(150 + titleLabelHeight + descriptionLabelHeight + titleImageHeight)
+            make.height.equalTo(additionalSpaceHeight)
             make.centerY.equalToSuperview()
             make.left.right.equalToSuperview()
         }

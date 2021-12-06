@@ -152,15 +152,15 @@ class IntroScreenSyncView: UIView, CardTheme {
         // Background colour setup
         backgroundColor = fxBackgroundThemeColour
         // Height constants
-        let titleLabelHeight = 200
+        let titleLabelHeight = screenSize.height > 700 ? 200 : 150
         let descriptionLabelHeight = 20
-        let blockHeightLabelHeight = 20
+        let additionalSpaceHeight = screenSize.height > 700 ? 60 : 0
         let progressHeight = 10
-        let titleImageHeight = screenSize.height > 600 ? 150 : 100
+        let titleImageHeight = screenSize.height > 700 ? 150 : 100
         // Title label constraints
         titleLabel.snp.makeConstraints { make in
             make.left.right.equalToSuperview().inset(24)
-            make.top.equalTo(titleImageView.snp.bottom).offset(50)
+            make.top.equalTo(titleImageView.snp.bottom).offset(screenSize.height > 700 ? 50 : 0)
             make.height.equalTo(80)
         }
 
@@ -168,13 +168,11 @@ class IntroScreenSyncView: UIView, CardTheme {
         descriptionLabel.snp.makeConstraints { make in
             make.left.right.equalToSuperview().inset(24)
             make.top.equalTo(titleLabel.snp.bottom)
-          //  make.height.equalTo(descriptionLabelHeight)
         }
         
         blockHeightLabel.snp.makeConstraints { make in
             make.left.right.equalToSuperview().inset(24)
             make.top.equalTo(descriptionLabel.snp.bottom).offset(80)
-          //  make.height.equalTo(blockHeightLabelHeight)
         }
         
         progressBar.snp.makeConstraints { make in
@@ -198,7 +196,7 @@ class IntroScreenSyncView: UIView, CardTheme {
         
         // Combined view constraints
         combinedView.snp.makeConstraints { make in
-            make.height.equalTo(titleLabelHeight + descriptionLabelHeight + 60 + titleImageHeight)
+            make.height.equalTo(titleLabelHeight + descriptionLabelHeight + additionalSpaceHeight + titleImageHeight)
             make.centerY.equalToSuperview()
             make.left.right.equalToSuperview()
         }
@@ -211,7 +209,7 @@ class IntroScreenSyncView: UIView, CardTheme {
         nextButton.snp.makeConstraints { make in
             make.left.right.equalToSuperview().inset(buttonEdgeInset)
             // On large iPhone screens, bump this up from the bottom
-            make.bottom.equalToSuperview().inset(95)
+            make.bottom.equalToSuperview().inset(screenSize.height > 700 ? 95 : 60)
             make.height.equalTo(buttonHeight)
         }
         

@@ -123,9 +123,9 @@ class IntroScreenHandshakeOnboardView: UIView, CardTheme {
         // Background colour setup
         backgroundColor = fxBackgroundThemeColour
         // Height constants
-        let titleLabelHeight = 200
+        let titleLabelHeight = screenSize.height > 700 ? 200 : 150
         let descriptionLabelHeight = 80
-        let titleImageHeight = screenSize.height > 600 ? 150 : 100
+        let titleImageHeight = screenSize.height > 700 ? 150 : 100
         // Title label constraints
         titleLabel.snp.makeConstraints { make in
             make.left.right.equalToSuperview().inset(24)
@@ -137,7 +137,7 @@ class IntroScreenHandshakeOnboardView: UIView, CardTheme {
         descriptionLabel.snp.makeConstraints { make in
             make.left.right.equalToSuperview().inset(24)
             make.top.equalTo(titleLabel.snp.bottom)
-            make.height.equalTo(descriptionLabelHeight)
+            
         }
         // Title image view constraints
         titleImageView.snp.makeConstraints { make in
@@ -167,7 +167,7 @@ class IntroScreenHandshakeOnboardView: UIView, CardTheme {
         nextButton.snp.makeConstraints { make in
             make.left.right.equalToSuperview().inset(buttonEdgeInset)
             // On large iPhone screens, bump this up from the bottom
-            make.bottom.equalToSuperview().inset(95)
+            make.bottom.equalToSuperview().inset(screenSize.height > 700 ? 95 : 60)
             make.height.equalTo(buttonHeight)
         }
         
