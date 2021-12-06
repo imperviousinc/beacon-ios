@@ -11,14 +11,35 @@
 #include "Universe.objc.h"
 
 
+@class DnsextMobileTransport;
 @class DnsextServer;
+
+@interface DnsextMobileTransport : NSObject <goSeqRefInterface> {
+}
+@property(strong, readonly) _Nonnull id _ref;
+
+- (nonnull instancetype)initWithRef:(_Nonnull id)ref;
+- (nonnull instancetype)init;
+// skipped field MobileTransport.RWMutex with unsupported type: sync.RWMutex
+
+- (void)closeAllConnections;
+- (void)closeIdleConnections;
+- (void)lock;
+- (void)rLock;
+// skipped method MobileTransport.RLocker with unsupported parameter or return types
+
+- (void)rUnlock;
+// skipped method MobileTransport.RoundTrip with unsupported parameter or return types
+
+- (void)unlock;
+@end
 
 @interface DnsextServer : NSObject <goSeqRefInterface> {
 }
 @property(strong, readonly) _Nonnull id _ref;
 
 - (nonnull instancetype)initWithRef:(_Nonnull id)ref;
-- (nullable instancetype)init:(NSString* _Nullable)listenAddr dohServer:(NSString* _Nullable)dohServer;
+- (nullable instancetype)init:(NSString* _Nullable)listenIP4 listenIP6:(NSString* _Nullable)listenIP6 dohServer:(NSString* _Nullable)dohServer;
 - (void)closeIdleConnections;
 - (void)listenAndServe;
 - (void)shutdown;
@@ -26,11 +47,11 @@
 
 FOUNDATION_EXPORT void DnsextCloseIdleConnections(void);
 
-FOUNDATION_EXPORT long DnsextInitServer(NSString* _Nullable l, NSString* _Nullable doh);
+FOUNDATION_EXPORT long DnsextInitServer(NSString* _Nullable listenIP4, NSString* _Nullable listenIP6, NSString* _Nullable doh);
 
 FOUNDATION_EXPORT void DnsextListenAndServe(void);
 
-FOUNDATION_EXPORT DnsextServer* _Nullable DnsextNewServer(NSString* _Nullable listenAddr, NSString* _Nullable dohServer, NSError* _Nullable* _Nullable error);
+FOUNDATION_EXPORT DnsextServer* _Nullable DnsextNewServer(NSString* _Nullable listenIP4, NSString* _Nullable listenIP6, NSString* _Nullable dohServer, NSError* _Nullable* _Nullable error);
 
 FOUNDATION_EXPORT void DnsextShutdown(void);
 
