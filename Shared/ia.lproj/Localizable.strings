@@ -270,7 +270,7 @@
 "Could not load page." = "Impossibile cargar le pagina.";
 
 /* Description for the new dark mode change in the version 22 app release. It describes the new automatic dark theme and how to change the theme settings. */
-"CoverSheet.v22.DarkMode.Description" = "Pro le usatores de iOS 13, Impervious ora commuta automaticamente a un thema obscur quando tu telephono es configurate a Modo obscur. Pro cambiar tal comportamento, ir a Parametros > Thema.";
+"CoverSheet.v22.DarkMode.Description" = "Pro le usatores de iOS 13, Beacon ora commuta automaticamente a un thema obscur quando tu telephono es configurate a Modo obscur. Pro cambiar tal comportamento, ir a Parametros > Thema.";
 
 /* Title for the new dark mode change in the version 22 app release. */
 "CoverSheet.v22.DarkMode.Title" = "Le thema obscur include ora un claviero obscur e pagina initial obscur.";
@@ -325,8 +325,8 @@
 /* Alert dialog title when the user taps the cancel download icon. */
 "Downloads.CancelDialog.Title" = "Cancellar le discargamento";
 
-/* The message displayed to a user when they try and perform the download of an asset that Impervious cannot currently handle. */
-"Downloads.Error.Message" = "Le discargamentos non es ancora possibile in Impervious.";
+/* The message displayed to a user when they try and perform the download of an asset that Beacon cannot currently handle. */
+"Downloads.Error.Message" = "Le discargamentos non es ancora possibile in Beacon.";
 
 /* The label text in the Download Cancelled toast for showing confirmation that the download was cancelled. */
 "Downloads.Toast.Cancelled.LabelText" = "Discargamento cancellate";
@@ -371,7 +371,7 @@
 "ErrorPages.AdvancedWarning2.Text" = "Pote esser un mal configuration o un tentativa de attacco. Procede solmente si tu accepta le risco potential.";
 
 /* Warning text on the certificate error page */
-"ErrorPages.CertWarning.Description" = "Le proprietario de %@ ha configurate su sito incorrectemente. Pro proteger tu informationes contra furto, Impervious non se ha connectite a iste sito web.";
+"ErrorPages.CertWarning.Description" = "Le proprietario de %@ ha configurate su sito incorrectemente. Pro proteger tu informationes contra furto, Beacon non se ha connectite a iste sito web.";
 
 /* Title on the certificate error page */
 "ErrorPages.CertWarning.Title" = "Iste connexion non es digne de fide";
@@ -392,7 +392,7 @@
 "Facebook" = "Facebook";
 
 /* Title for firefox about:home page in tab history list */
-"Firefox.HomePage.Title" = "Pagina initial de Impervious";
+"Beacon.HomePage.Title" = "Pagina initial de Beacon";
 
 /* Accessibility Label for the tab toolbar Forward button */
 "Forward" = "Avante";
@@ -403,16 +403,16 @@
 /* Label stating your account is not verified */
 "FxA.AccountVerificationRequired" = "Verification del conto necessari";
 
-/* Message explaining that user needs to check email for Impervious Account verfication link. */
-"FxA.AccountVerificationRequiredSurface" = "Tu debe verificar %@. Cerca in tu e-mail le ligamine de verification de Impervious.";
+/* Message explaining that user needs to check email for Beacon Account verfication link. */
+"FxA.AccountVerificationRequiredSurface" = "Tu debe verificar %@. Cerca in tu e-mail le ligamine de verification de Beacon.";
 
 /* Button label to connect another device to Sync */
 "FxA.ConnectAnotherDevice" = "Connecter un altere apparato";
 
-/* Settings section title for Impervious Account */
-"FxA.FirefoxAccount" = "Conto Impervious";
+/* Settings section title for Beacon Account */
+"FxA.FirefoxAccount" = "Conto Beacon";
 
-/* Button label to go to Impervious Account settings */
+/* Button label to go to Beacon Account settings */
 "FxA.ManageAccount" = "Gerer le conto";
 
 /* Label when no internet is present */
@@ -428,7 +428,7 @@
 "FxA.RemoveAccount" = "Remover";
 
 /* Description string for alert view that gets presented when user tries to remove an account. */
-"FxA.RemoveAccountAlertMessage" = "Remove le conto Impervious associate a iste apparato pro aperir session como un altere usator.";
+"FxA.RemoveAccountAlertMessage" = "Remove le conto Beacon associate a iste apparato pro aperir session como un altere usator.";
 
 /* Remove account alert is the final confirmation before user removes their firefox account */
 "FxA.RemoveAccountAlertTitle" = "Remover le conto";
@@ -440,13 +440,13 @@
 "fxa.signin.camera-signin" = "Accede con tu camera";
 
 /* FxA sign in create account label. */
-"fxa.signin.create-account-pt-1" = "Synchronisa Impervious inter apparatos con un conto.";
+"fxa.signin.create-account-pt-1" = "Synchronisa Beacon inter apparatos con un conto.";
 
 /* FxA sign in create account label. This will be linked to the site to create an account. */
-"fxa.signin.create-account-pt-2" = "Crear un conto Impervious";
+"fxa.signin.create-account-pt-2" = "Crear un conto Beacon";
 
 /* FxA sign in view qr code instructions */
-"fxa.signin.qr-link-instruction" = "Aperi Impervious sur tu computator e va a firefox.com/pair";
+"fxa.signin.qr-link-instruction" = "Aperi Beacon sur tu computator e va a firefox.com/pair";
 
 /* FxA sign in view qr code scan button */
 "fxa.signin.ready-to-scan" = "Preste a scannar";
@@ -463,14 +463,14 @@
 /* Label explaining what sync does */
 "FxA.SyncExplain" = "Obtene le schedas, le marcapaginas e le contrasignos de tu altere apparatos.";
 
-/* Button label to Sync your Impervious Account */
+/* Button label to Sync your Beacon Account */
 "FxA.SyncNow" = "Synchronisar ora";
 
 /* Call to action for sign into sync button */
 "FxA.TakeYourWebWithYou" = "Porta le web con te";
 
 /* Title of a notification displayed when another device has connected to FxA. %@ refers to the name of the newly connected device. */
-"FxAPush_DeviceConnected_body" = "Impervious Sync se ha connectite a %@";
+"FxAPush_DeviceConnected_body" = "Beacon Sync se ha connectite a %@";
 
 /* Title of a notification displayed when another device has connected to FxA. */
 "FxAPush_DeviceConnected_title" = "Sync connectite";
@@ -479,7 +479,7 @@
 "FxAPush_DeviceDisconnected_body" = "%@ se ha disconnectite correctemente.";
 
 /* Body of a notification displayed when this device has been disconnected from FxA by another device. */
-"FxAPush_DeviceDisconnected_ThisDevice_body" = "Iste apparato se ha disconnectite correctemente de Impervious Sync.";
+"FxAPush_DeviceDisconnected_ThisDevice_body" = "Iste apparato se ha disconnectite correctemente de Beacon Sync.";
 
 /* Title of a notification displayed when this device has been disconnected by another device. */
 "FxAPush_DeviceDisconnected_ThisDevice_title" = "Sync disconnectite";
@@ -488,7 +488,7 @@
 "FxAPush_DeviceDisconnected_title" = "Sync disconnectite";
 
 /* Body of a notification displayed when unnamed device has been disconnected from FxA. */
-"FxAPush_DeviceDisconnected_UnknownDevice_body" = "Un apparato se ha disconnectite de Impervious Sync";
+"FxAPush_DeviceDisconnected_UnknownDevice_body" = "Un apparato se ha disconnectite de Beacon Sync";
 
 /* A re-worded offer about Sync, displayed when the Sync home panel is empty, that emphasizes one-way data transfer, not syncing. */
 "Get your open tabs, bookmarks, and passwords from your other devices." = "Obtene le schedas aperte, le marcapaginas e le contrasignos de tu altere apparatos.";
@@ -536,7 +536,7 @@
 "HistoryPanel.EmptySyncedTabsPanelTabSyncDisabledState.Description" = "Activa le synchronisation pro vider un lista de schedas de tu altere apparatos.";
 
 /* Title for the empty synced tabs state in the History Panel */
-"HistoryPanel.EmptySyncedTabsState.Title" = "Impervious Sync";
+"HistoryPanel.EmptySyncedTabsState.Title" = "Beacon Sync";
 
 /* Title for the Back to History button in the History Panel */
 "HistoryPanel.HistoryBackButton.Title" = "Chronologia";
@@ -643,10 +643,10 @@
 /* Light theme setting in Reading View settings */
 "Light" = "Clar";
 
-/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Beacon reader mode from another app. */
 "Load original page" = "Cargar le pagina original";
 
-/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Beacon reader mode from another app. */
 "Loading content…" = "Cargante le contento…";
 
 /* Authentication prompt log in button */
@@ -701,7 +701,7 @@
 "LoginsList.LoginsListSearchPlaceholder" = "Filtro";
 
 /* Label shown when there are no logins to list */
-"LoginsList.NoLoginsFound.Description" = "Le credentiales salvate apparera hic. Si tu ha salvate tu credentiales in Impervious sur un altere apparato, aperi session in tu Conto de Impervious.";
+"LoginsList.NoLoginsFound.Description" = "Le credentiales salvate apparera hic. Si tu ha salvate tu credentiales in Beacon sur un altere apparato, aperi session in tu Conto de Beacon.";
 
 /* Label shown when there are no logins saved */
 "LoginsList.NoLoginsFound.Title" = "Nulle credentiales trovate";
@@ -725,7 +725,7 @@
 "LoginsList.Title" = "ACCESSOS SALVATE";
 
 /* Restore Tabs Prompt Description */
-"Looks like Impervious crashed previously. Would you like to restore your tabs?" = "Il sembla que Impervious collabeva antea. Desira tu restaurar tu schedas?";
+"Looks like Beacon crashed previously. Would you like to restore your tabs?" = "Il sembla que Beacon collabeva antea. Desira tu restaurar tu schedas?";
 
 /* Name for Mark as read button in reader mode
    Title for the button that marks a reading list item as read */
@@ -769,10 +769,10 @@
 "Menu.EnhancedTrackingProtectionOn.Title" = "Le protection antitraciamento reinfortiate es ACTIVE pro iste sito.";
 
 /* Description for having standard ETP protection with ITP offered in iOS14+ */
-"Menu.EnhancedTrackingProtectionStandardWithITP.Title" = "Impervious bloca traciatores inter sitos, traciatores de medios social, cryptominatores e dactylogrammatores.";
+"Menu.EnhancedTrackingProtectionStandardWithITP.Title" = "Beacon bloca traciatores inter sitos, traciatores de medios social, cryptominatores e dactylogrammatores.";
 
 /* Description for having strict ETP protection with ITP offered in iOS14+ */
-"Menu.EnhancedTrackingProtectionStrictWithITP.Title" = "Impervious bloca traciatores inter sitos, traciatores de medios social, cryptominatores, dactylogrammatores e contento que te tracia.";
+"Menu.EnhancedTrackingProtectionStrictWithITP.Title" = "Beacon bloca traciatores inter sitos, traciatores de medios social, cryptominatores, dactylogrammatores e contento que te tracia.";
 
 /* Label for the button, displayed in the menu, takes you to to History screen when pressed. */
 "Menu.History.Label" = "Chronologia";
@@ -838,7 +838,7 @@
 "Menu.TrackingProtection.Details.Verifier" = "Verificate per %@";
 
 /* Message in menu when no trackers blocked. */
-"Menu.TrackingProtection.NoTrackersBlockedTitle" = "Nulle traciator cognoscite per Impervious ha essite detegite sur iste pagina.";
+"Menu.TrackingProtection.NoTrackersBlockedTitle" = "Nulle traciator cognoscite per Beacon ha essite detegite sur iste pagina.";
 
 /* The title for tracking protection settings */
 "Menu.TrackingProtection.ProtectionSettings.Title" = "Parametros de protection";
@@ -853,7 +853,7 @@
 "Menu.TrackingProtectionBlockedSocial.Title" = "Traciatores social";
 
 /* Description of the Tracking protection menu when TP is blocking parts of the page */
-"Menu.TrackingProtectionBlocking.Description" = "Impervious bloca partes del pagina que pote traciar tu navigation.";
+"Menu.TrackingProtectionBlocking.Description" = "Beacon bloca partes del pagina que pote traciar tu navigation.";
 
 /* The description of the Tracking Protection menu item when tracking is enabled */
 "Menu.TrackingProtectionBlockingDisabled.Description" = "Blocar traciatores in linea";
@@ -956,7 +956,7 @@
 "Okay" = "OK";
 
 /* Title for prompt displayed to user after the app crashes */
-"Oops! Impervious crashed" = "Ups! Impervious ha collabite";
+"Oops! Beacon crashed" = "Ups! Beacon ha collabite";
 
 /* See http://mzl.la/1LXbDOL */
 "Open articles in Reader View by tapping the book icon when it appears in the title bar." = "Aperir le articulos in le vista de lectura toccante le icone del libro quando illo appare in le barra de titulo.";
@@ -967,8 +967,8 @@
 /* Toggle tabs syncing setting */
 "Open Tabs" = "Schedas aperte";
 
-/* The message displayed to a user when they try to open a URL that cannot be handled by Impervious, or any external app. */
-"OpenURL.Error.Message" = "Impervious non pote aperir le pagina perque illo ha un adresse invalide.";
+/* The message displayed to a user when they try to open a URL that cannot be handled by Beacon, or any external app. */
+"OpenURL.Error.Message" = "Beacon non pote aperir le pagina perque illo ha un adresse invalide.";
 
 /* Title of the message shown when the user attempts to navigate to an invalid link. */
 "OpenURL.Error.Title" = "Impossibile aperir le pagina";
@@ -983,19 +983,19 @@
 "Password" = "Contrasigno";
 
 /* Error message shown in the remote tabs panel */
-"PasswordAutoFill.NoPasswordsFoundTitle" = "Tu non ha credentiales synchronisate ab tu Conto de Impervious";
+"PasswordAutoFill.NoPasswordsFoundTitle" = "Tu non ha credentiales synchronisate ab tu Conto de Beacon";
 
 /* Header for the list of credentials table */
 "PasswordAutoFill.PasswordsListTitle" = "Credentiales disponibile:";
 
 /* Title of the extension that shows firefox passwords */
-"PasswordAutoFill.SectionTitle" = "Credentiales de Impervious";
+"PasswordAutoFill.SectionTitle" = "Credentiales de Beacon";
 
 /* See http://mzl.la/1G7uHo7 */
 "PhotoLibrary.FirefoxWouldLikeAccessMessage" = "Isto permitte que tu salva le imagine in tu rolo de camera.";
 
 /* See http://mzl.la/1G7uHo7 */
-"PhotoLibrary.FirefoxWouldLikeAccessTitle" = "Impervious desira acceder a tu photos";
+"PhotoLibrary.FirefoxWouldLikeAccessTitle" = "Beacon desira acceder a tu photos";
 
 /* Button for closing the menu action sheet */
 "PhotonMenu.close" = "Clauder";
@@ -1003,7 +1003,7 @@
 /* Privacy section title */
 "Privacy" = "Confidentialitate";
 
-/* Show Impervious Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
+/* Show Beacon Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
 "Privacy Policy" = "Politica de confidentialitate";
 
 /* This is the value for a label that indicates if a user is on an unencrypted website. */
@@ -1076,7 +1076,7 @@
 "ScanQRCode.InvalidDataError.Message" = "Le datos es invalide";
 
 /* Text of the prompt user to setup the camera authorization. */
-"ScanQRCode.PermissionError.Message" = "Per favor permitte a Impervious de acceder al camera de tu apparato in ‘Parametros’ -> ‘Confidentialitate’ -> ‘Camera’.";
+"ScanQRCode.PermissionError.Message" = "Per favor permitte a Beacon de acceder al camera de tu apparato in ‘Parametros’ -> ‘Confidentialitate’ -> ‘Camera’.";
 
 /* Title for the QR code scanner view. */
 "ScanQRCode.View.Title" = "Scannar codice QR";
@@ -1132,7 +1132,7 @@
 "Secure connection" = "Connexion secur";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
-"Send a crash report so Impervious can fix the problem?" = "Inviar un reporto de collapso a fin que Impervious pote corriger le problema?";
+"Send a crash report so Beacon can fix the problem?" = "Inviar un reporto de collapso a fin que Beacon pote corriger le problema?";
 
 /* Menu item in settings used to open input.mozilla.org where people can submit feedback */
 "Send Feedback" = "Inviar tu opinion";
@@ -1160,19 +1160,19 @@
 "SendTo.NavBar.Title" = "Inviar le scheda";
 
 /* Error message shown in the remote tabs panel */
-"SendTo.NoDevicesFound.Message" = "Tu non ha altere apparatos connectite a iste conto Impervious disponibile a synchronisar.";
+"SendTo.NoDevicesFound.Message" = "Tu non ha altere apparatos connectite a iste conto Beacon disponibile a synchronisar.";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Message" = "Per favor aperi Impervious, va al parametros e accede pro continuar.";
+"SendTo.NotSignedIn.Message" = "Per favor aperi Beacon, va al parametros e accede pro continuar.";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Title" = "Tu non ha aperite session in tu conto Impervious.";
+"SendTo.NotSignedIn.Title" = "Tu non ha aperite session in tu conto Beacon.";
 
 /* Navigation bar button to Send the current page to a device */
 "SendTo.SendAction.Text" = "Inviar";
 
-/* The text for the button on the Send to Device page if you are not signed in to Impervious Accounts. */
-"SendTo.SignIn.Button" = "Aperir session in Impervious";
+/* The text for the button on the Send to Device page if you are not signed in to Beacon Accounts. */
+"SendTo.SignIn.Button" = "Aperir session in Beacon";
 
 /* Body of notification shown when the device is sent one or more tabs from an unnamed device. */
 "SentTab_TabArrivingNotification_NoDevice_body" = "Nove scheda arrivate de altere apparato.";
@@ -1196,7 +1196,7 @@
 "SentTab.NoTabArrivingNotification.body" = "Tocca pro comenciar";
 
 /* Title of notification received after a spurious message from FxA has been received. */
-"SentTab.NoTabArrivingNotification.title" = "Impervious Sync";
+"SentTab.NoTabArrivingNotification.title" = "Beacon Sync";
 
 /* Label for an action used to view one or more tabs from a notification. */
 "SentTab.ViewAction.title" = "Vider";
@@ -1259,7 +1259,7 @@
 "Settings.DataManagement.Title" = "Gestion de datos";
 
 /* Body of the alert when prompting the user asking to disconnect. */
-"Settings.Disconnect.Body" = "Impervious stoppara le synchronisation con tu conto, ma non delera alcun de tu datos de navigation sur iste apparato.";
+"Settings.Disconnect.Body" = "Beacon stoppara le synchronisation con tu conto, ma non delera alcun de tu datos de navigation sur iste apparato.";
 
 /* Button displayed at the bottom of settings page allowing users to Disconnect from FxA */
 "Settings.Disconnect.Button" = "Disconnecter Sync";
@@ -1328,11 +1328,11 @@
 /* Label used for the device name settings section. */
 "Settings.FxA.DeviceName" = "Nomine del apparato";
 
-/* Label used as a section title in the Impervious Accounts Settings screen. */
+/* Label used as a section title in the Beacon Accounts Settings screen. */
 "Settings.FxA.Sync.SectionName" = "Parametros de Sync";
 
 /* Title displayed in header of the FxA settings panel. */
-"Settings.FxA.Title" = "Conto Impervious";
+"Settings.FxA.Title" = "Conto Beacon";
 
 /* General settings section title */
 "Settings.General.SectionName" = "General";
@@ -1386,10 +1386,10 @@
 "Settings.NewTab.Option.CustomizeFooter2" = "Sitos que tu salva o visita";
 
 /* The title for the section to customize top sites in the new tab settings page. */
-"Settings.NewTab.Option.CustomizeTitle" = "Personalisar le pagina initial de Impervious";
+"Settings.NewTab.Option.CustomizeTitle" = "Personalisar le pagina initial de Beacon";
 
-/* Option in settings to show Impervious Home when you open a new tab */
-"Settings.NewTab.Option.FirefoxHome" = "Pagina initial de Impervious";
+/* Option in settings to show Beacon Home when you open a new tab */
+"Settings.NewTab.Option.FirefoxHome" = "Pagina initial de Beacon";
 
 /* Option in the settings to turn off recent bookmarks in the Highlights section */
 "Settings.NewTab.Option.HighlightsBookmarks" = "Marcapaginas recente";
@@ -1431,7 +1431,7 @@
 "Settings.NewTab.TopSectionNameFooter" = "Elige lo que cargar al apertura de un scheda";
 
 /* Description displayed under the ”Offer to Open Copied Link” option. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
-"Settings.OfferClipboardBar.Status" = "Quando Impervious se aperi";
+"Settings.OfferClipboardBar.Status" = "Quando Beacon se aperi";
 
 /* Title of setting to enable the Go to Copied URL feature. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
 "Settings.OfferClipboardBar.Title" = "Proponer aperir le ligamines copiate";
@@ -1455,7 +1455,7 @@
 "Settings.SendUsage.Link" = "Saper plus.";
 
 /* A short description that explains why mozilla collects usage data. */
-"Settings.SendUsage.Message" = "Impervious se effortia a colliger solmente le informationes necessari pro fornir e meliorar Impervious pro totes.";
+"Settings.SendUsage.Message" = "Beacon se effortia a colliger solmente le informationes necessari pro fornir e meliorar Beacon pro totes.";
 
 /* The title for the setting to send usage data. */
 "Settings.SendUsage.Title" = "Inviar datos de uso";
@@ -1473,7 +1473,7 @@
 "Settings.Siri.OpenTabShortcut" = "Aperir un nove scheda";
 
 /* The description that describes what siri shortcuts are */
-"Settings.Siri.SectionDescription" = "Usa le accessos directe de Siri pro aperir rapidemente Impervious via Siri";
+"Settings.Siri.SectionDescription" = "Usa le accessos directe de Siri pro aperir rapidemente Beacon via Siri";
 
 /* The option that takes you to the siri shortcuts settings page */
 "Settings.Siri.SectionName" = "Accessos directe de Siri";
@@ -1493,11 +1493,11 @@
 /* Label used as an item in Settings. Tapping on this item takes you to the Studies panel */
 "Settings.Studies.Title" = "Studios";
 
-/* Title for a link that explains what Impervious means by Studies */
+/* Title for a link that explains what Beacon means by Studies */
 "Settings.Studies.Toggle.Link" = "Saper plus.";
 
-/* A short description that explains that Impervious is running studies */
-"Settings.Studies.Toggle.Message" = "Impervious pote installar e conducer studios de tempore in tempore.";
+/* A short description that explains that Beacon is running studies */
+"Settings.Studies.Toggle.Message" = "Beacon pote installar e conducer studios de tempore in tempore.";
 
 /* Toggled OFF to opt-out of studies */
 "Settings.Studies.Toggle.Off" = "Inactive";
@@ -1518,7 +1518,7 @@
 "Settings.TrackingProtection.Alert.Title" = "Attention!";
 
 /* Header description for tracking protection options section where Basic/Strict block list can be selected */
-"Settings.TrackingProtection.BlockListsHeader" = "Tu pote eliger qual lista Impervious usara pro blocar le elementos web que pote traciar tu activitate de navigation.";
+"Settings.TrackingProtection.BlockListsHeader" = "Tu pote eliger qual lista Beacon usara pro blocar le elementos web que pote traciar tu activitate de navigation.";
 
 /* Explanation of basic mode. */
 "Settings.TrackingProtection.Info.BasicTitle" = "Balanciate pro protection e rendimento.";
@@ -1613,32 +1613,32 @@
 /* Title displayed in header of the Data Management panel. */
 "Settings.WebsiteData.Title" = "Datos de sitos web";
 
-/* Action label on share extension to add page to the Impervious reading list. */
+/* Action label on share extension to add page to the Beacon reading list. */
 "ShareExtension.AddToReadingListAction.Title" = "Adder al lista de lectura";
 
 /* Share extension label shown after user has performed 'Add to Reading List' action. */
 "ShareExtension.AddToReadingListActionDone.Title" = "Addite al lista de lectura";
 
-/* Action label on share extension to bookmark the page in Impervious. */
+/* Action label on share extension to bookmark the page in Beacon. */
 "ShareExtension.BookmarkThisPageAction.Title" = "Adder al marcapaginas";
 
 /* Share extension label shown after user has performed 'Bookmark this Page' action. */
 "ShareExtension.BookmarkThisPageActionDone.Title" = "Marcapaginas addite";
 
-/* Action label on share extension to load the page in Impervious when user switches apps to bring it to foreground. */
+/* Action label on share extension to load the page in Beacon when user switches apps to bring it to foreground. */
 "ShareExtension.LoadInBackgroundAction.Title" = "Cargar in secunde plano";
 
 /* Share extension label shown after user has performed 'Load in Background' action. */
-"ShareExtension.LoadInBackgroundActionDone.Title" = "Cargante in Impervious";
+"ShareExtension.LoadInBackgroundActionDone.Title" = "Cargante in Beacon";
 
-/* Action label on share extension to immediately open page in Impervious. */
-"ShareExtension.OpenInFirefoxAction.Title" = "Aperir in Impervious";
+/* Action label on share extension to immediately open page in Beacon. */
+"ShareExtension.OpenInFirefoxAction.Title" = "Aperir in Beacon";
 
-/* Action label on share extension to immediately open page in Impervious in private mode. */
+/* Action label on share extension to immediately open page in Beacon in private mode. */
 "ShareExtension.OpenInPrivateModeAction.Title" = "Aperir in modo private";
 
-/* Action label on share extension to search for the selected text in Impervious. */
-"ShareExtension.SeachInFirefoxAction.Title" = "Cercar in Impervious";
+/* Action label on share extension to search for the selected text in Beacon. */
+"ShareExtension.SeachInFirefoxAction.Title" = "Cercar in Beacon";
 
 /* Label for show search suggestions setting. */
 "Show Search Suggestions" = "Monstrar suggestiones de recerca";
@@ -1675,7 +1675,7 @@
 "Sync.FirstTimeMessage.Label" = "Tu prime synchronisation pote durar un momento";
 
 /* String displayed on Sign In to Sync page that allows the user to create a new account. */
-"Sync.NoAccount.Description" = "Non ha tu un conto? Crea un pro synchronisar Impervious inter apparatos.";
+"Sync.NoAccount.Description" = "Non ha tu un conto? Crea un pro synchronisar Beacon inter apparatos.";
 
 /* Message displayed when the user's account is syncing with no ellipsis */
 "Sync.Syncing.Label" = "Synchronisation";
@@ -1794,7 +1794,7 @@
 /* The section header for tabs opened yesterday */
 "TabTray.Yesterday.Header" = "Heri";
 
-/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Beacon reader mode from another app. */
 "The page could not be displayed in Reader View." = "Le pagina non ha potite esser presentate in vista de lectura.";
 
 /* Error message in the remote tabs panel */
@@ -1852,13 +1852,13 @@
 "UIMenuItem.PasteGo" = "Collar e ir";
 
 /* Search in New Tab Text selection menu item */
-"UIMenuItem.SearchWithFirefox" = "Cercar con Impervious";
+"UIMenuItem.SearchWithFirefox" = "Cercar con Beacon";
 
 /* Accessibility label for unread article in reading list. It's a past participle - functions as an adjective. */
 "unread" = "non legite";
 
 /* Text message in the settings table view */
-"Upgrade Impervious to connect" = "Actualisa Impervious pro connecter te";
+"Upgrade Beacon to connect" = "Actualisa Beacon pro connecter te";
 
 /* Debug option */
 "Use stage servers" = "Usar servitores de test";
@@ -1869,7 +1869,7 @@
 /* Text message in the settings table view */
 "Verify your email address" = "Verifica tu adresse de e-mail";
 
-/* Version number of Impervious shown in settings */
+/* Version number of Beacon shown in settings */
 "Version %@ (%@)" = "Version %1$@ (%2$@)";
 
 /* Accessibility label for the main web content view */
@@ -1891,7 +1891,7 @@
 "Yesterday" = "Heri";
 
 /* Error message in the remote tabs panel */
-"You don’t have any tabs open in Impervious on your other devices." = "Tu non ha schedas aperte in Impervious sur tu altere apparatos.";
+"You don’t have any tabs open in Beacon on your other devices." = "Tu non ha schedas aperte in Beacon sur tu altere apparatos.";
 
 /* Your Rights settings section title */
 "Your Rights" = "Tu derectos";

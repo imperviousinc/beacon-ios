@@ -7,10 +7,10 @@
 /* Next button on the first intro screen. */
 "Intro.Slides.Button.Next" = "Tuluy";
 
-/* Sign in to Impervious account button on second intro screen. */
+/* Sign in to Beacon account button on second intro screen. */
 "Intro.Slides.Button.SignIn" = "Asup";
 
-/* Sign up to Impervious account button on second intro screen. */
+/* Sign up to Beacon account button on second intro screen. */
 "Intro.Slides.Button.SignUp" = "Daptar";
 
 /* Description for the second item in the table related to fast searching via address bar */
@@ -20,13 +20,13 @@
 "Intro.Slides.Fast.Search.Title" = "Maluruh Gancang";
 
 /* Description for the first item in the table related to syncing data (bookmarks, history) via firefox account between devices */
-"Intro.Slides.Firefox.Account.Sync.Description" = "Bawa markah, jujutan, jeung kecap sandi ka Impervious di ieu gawai.";
+"Intro.Slides.Beacon.Account.Sync.Description" = "Bawa markah, jujutan, jeung kecap sandi ka Beacon di ieu gawai.";
 
 /* Title for the first item in the table related to syncing data (bookmarks, history) via firefox account between devices */
-"Intro.Slides.Firefox.Account.Sync.Title" = "Singkronkeun Impervious Antara Gawai";
+"Intro.Slides.Beacon.Account.Sync.Title" = "Singkronkeun Beacon Antara Gawai";
 
 /* Description for the 'Mail' panel in the First Run tour. */
-"Intro.Slides.Mail.Description" = "Pake email app naon wae — teu saukur Mail — jeung Impervious.";
+"Intro.Slides.Mail.Description" = "Pake email app naon wae — teu saukur Mail — jeung Beacon.";
 
 /* Title for the fourth panel 'Mail' in the First Run tour. */
 "Intro.Slides.Mail.Title" = "Anjeun meunang surélék … piliheun";
@@ -38,7 +38,7 @@
 "Intro.Slides.Private.Title" = "Ngalanglang téh kawas euweuh nu nénjokeun";
 
 /* Description for the third item in the table related to safe syncing with a firefox account */
-"Intro.Slides.Safe.Sync.Description" = "Jaga login jeung data anjeun di mana waé anjeun maké Impervious.";
+"Intro.Slides.Safe.Sync.Description" = "Jaga login jeung data anjeun di mana waé anjeun maké Beacon.";
 
 /* Title for the third item in the table related to safe syncing with a firefox account */
 "Intro.Slides.Safe.Sync.Title" = "Singk Aman";
@@ -59,7 +59,7 @@
 "Intro.Slides.Welcome.Description.v2" = "Gancang, nyamuni, di gigireun anjeun.";
 
 /* Title for the first panel 'Welcome' in the First Run tour. */
-"Intro.Slides.Welcome.Title.v2" = "Wilujeng sumping di Impervious";
+"Intro.Slides.Welcome.Title.v2" = "Wilujeng sumping di Beacon";
 
 /* See http://mzl.la/1T8gxwo */
 "Start Browsing" = "Mitembeyan Ngalanglang";

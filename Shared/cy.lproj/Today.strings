@@ -22,7 +22,7 @@
 /* Quick Actions drop down menu item for new search when widget enters edit mode and drop down menu expands */
 "TodayWidget.DropDownMenuItemNewSearch" = "Chwilio Newydd";
 
-/* Description for medium size widget to add Impervious Shortcut to home screen */
+/* Description for medium size widget to add Beacon Shortcut to home screen */
 "TodayWidget.FirefoxShortcutGalleryDescription" = "Ychwanegu llwybrau byr i'ch sgrin Cartref.";
 
 /* Go to link pasted on the clipboard */
@@ -44,7 +44,7 @@
 "TodayWidget.NewPrivateTabButtonLabelV2" = "Chwilio mewn Tab Preifat";
 
 /* Open New Tab button label */
-"TodayWidget.NewSearchButtonLabelV1" = "Chwilio yn Impervious";
+"TodayWidget.NewSearchButtonLabelV1" = "Chwilio yn Beacon";
 
 /* Open New Tab button label */
 "TodayWidget.NewTabButtonLabelV1" = "Chwilio Newydd";
@@ -55,38 +55,38 @@
 /* Label that is shown when there are no tabs opened in tab tray i.e. Empty State */
 "TodayWidget.NoOpenTabsLabelV2" = "Dim Tabiau Agored";
 
-/* Open Impervious when there are no tabs opened in tab tray i.e. Empty State */
-"TodayWidget.OpenFirefoxLabel" = "Agor Impervious";
+/* Open Beacon when there are no tabs opened in tab tray i.e. Empty State */
+"TodayWidget.OpenFirefoxLabel" = "Agor Beacon";
 
-/* Description for Impervious Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app. */
+/* Description for Beacon Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app. */
 "TodayWidget.PocketWidgetGalleryDescription" = "Darganfod straeon hynod ddiddorol sy'n procio'r meddwl o bob rhan o'r we, wedi'u curadu gan Pocket.";
 
-/* Sub label for medium size Impervious Pocket stories widge widget. Pocket is the name of another app. */
-"TodayWidget.PocketWidgetSubLabel" = "Impervious - Argymhellir gan Pocket";
+/* Sub label for medium size Beacon Pocket stories widge widget. Pocket is the name of another app. */
+"TodayWidget.PocketWidgetSubLabel" = "Beacon - Argymhellir gan Pocket";
 
-/* Title for Impervious Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app. */
+/* Title for Beacon Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app. */
 "TodayWidget.PocketWidgetTitle" = "Argymhellir gan Pocket";
 
 /* Open New Private Tab button label */
 "TodayWidget.PrivateTabButtonLabelV1" = "Chwilio Preifat";
 
 /* Quick action description when widget enters edit mode */
-"TodayWidget.QuickActionDescription" = "Dewiswch llwybr byr Impervious i'w ychwanegu at eich sgrin Cartref.";
+"TodayWidget.QuickActionDescription" = "Dewiswch llwybr byr Beacon i'w ychwanegu at eich sgrin Cartref.";
 
 /* Quick Actions left label text for dropdown menu when widget enters edit mode */
 "TodayWidget.QuickActionDropDownMenu" = "Gweithred gyflym";
 
 /* Description for small size widget to add it to home screen */
-"TodayWidget.QuickActionGalleryDescription" = "Ychwanegwch llwybr byr Impervious i'ch sgrin Cartref. Ar ôl ychwanegu'r teclyn, cyffwrdd a dal i'w olygu a dewis llwybr byr gwahanol.";
+"TodayWidget.QuickActionGalleryDescription" = "Ychwanegwch llwybr byr Beacon i'ch sgrin Cartref. Ar ôl ychwanegu'r teclyn, cyffwrdd a dal i'w olygu a dewis llwybr byr gwahanol.";
 
 /* Quick Actions title when widget enters edit mode */
 "TodayWidget.QuickActionsGalleryTitle" = "Gweithredoedd Cyflym";
 
-/* Impervious shortcuts title when widget enters edit mode. Do not translate the word Impervious. */
-"TodayWidget.QuickActionsGalleryTitleV2" = "Llwybrau Byr Impervious";
+/* Beacon shortcuts title when widget enters edit mode. Do not translate the word Beacon. */
+"TodayWidget.QuickActionsGalleryTitleV2" = "Llwybrau Byr Beacon";
 
 /* Sub label for medium size quick action widget */
-"TodayWidget.QuickActionsSubLabel" = "Impervious - Gweithredoedd Cyflym";
+"TodayWidget.QuickActionsSubLabel" = "Beacon - Gweithredoedd Cyflym";
 
 /* Description for Quick View widget in Gallery View where user can add it to home screen */
 "TodayWidget.QuickViewGalleryDescription" = "Cael mynediad i'ch tabiau agored yn syth ar eich sgrin cartref.";
@@ -101,35 +101,35 @@
 "TodayWidget.QuickViewLargeGalleryDescription" = "Ychwanegu llwybrau byr i'ch tabiau agored.";
 
 /* Sub label for Top Sites widget */
-"TodayWidget.QuickViewOpenTabsSubLabel" = "Impervious - Tabiau Agored";
+"TodayWidget.QuickViewOpenTabsSubLabel" = "Beacon - Tabiau Agored";
 
-/* Title for small size widget which allows users to search in Impervious. Do not translate the word Impervious. */
-"TodayWidget.SearchInFirefoxTitle" = "Chwilio yn Impervious";
+/* Title for small size widget which allows users to search in Beacon. Do not translate the word Beacon. */
+"TodayWidget.SearchInFirefoxTitle" = "Chwilio yn Beacon";
 
-/* Search in Impervious. Do not translate the word Impervious */
-"TodayWidget.SearchInFirefoxV2" = "Chwilio yn Impervious";
+/* Search in Beacon. Do not translate the word Beacon */
+"TodayWidget.SearchInFirefoxV2" = "Chwilio yn Beacon";
 
 /* Search in private tab */
 "TodayWidget.SearchInPrivateTabLabelV2" = "Chwilio mewn Tab Preifat";
 
-/* Description for top sites widget to add Impervious top sites shotcuts to home screen */
+/* Description for top sites widget to add Beacon top sites shotcuts to home screen */
 "TodayWidget.TopSitesGalleryDescription" = "Ychwanegu llwybrau byr i wefannau ymwelwyd â nhw'n aml ac yn ddiweddar.";
 
-/* Title for top sites widget to add Impervious top sites shotcuts to home screen */
+/* Title for top sites widget to add Beacon top sites shotcuts to home screen */
 "TodayWidget.TopSitesGalleryTitle" = "Hoff Wefannau";
 
-/* Title for top sites widget to add Impervious top sites shotcuts to home screen */
+/* Title for top sites widget to add Beacon top sites shotcuts to home screen */
 "TodayWidget.TopSitesGalleryTitleV2" = "Llwybrau Byr y Wefan";
 
 /* Sub label for Top Sites widget */
-"TodayWidget.TopSitesSubLabel" = "Impervious - Hoff Wefannau";
+"TodayWidget.TopSitesSubLabel" = "Beacon - Hoff Wefannau";
 
 /* Sub label for Shortcuts widget */
-"TodayWidget.TopSitesSubLabel2" = "Impervious - Llwybrau Byr Gwefan";
+"TodayWidget.TopSitesSubLabel2" = "Beacon - Llwybrau Byr Gwefan";
 
 /* View More for Quick View widget in Gallery View where we don't know how many tabs might be opened */
 "TodayWidget.ViewMore" = "Gweld Rhagor";
 
-/* View More… for Impervious Pocket stories widget where we don't know how many articles are available. */
+/* View More… for Beacon Pocket stories widget where we don't know how many articles are available. */
 "TodayWidget.ViewMoreDots" = "Gweld Rhagor…";
 

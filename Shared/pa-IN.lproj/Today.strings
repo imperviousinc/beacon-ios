@@ -22,7 +22,7 @@
 /* Quick Actions drop down menu item for new search when widget enters edit mode and drop down menu expands */
 "TodayWidget.DropDownMenuItemNewSearch" = "ਨਵੀਂ ਖੋਜ";
 
-/* Description for medium size widget to add Impervious Shortcut to home screen */
+/* Description for medium size widget to add Beacon Shortcut to home screen */
 "TodayWidget.FirefoxShortcutGalleryDescription" = "ਫਾਇਰਫਾਕਸ ਸ਼ਾਰਟਕੱਟ ਨੂੰ ਆਪਣੀ ਮੁੱਖ ਸਕਰੀਨ ਉੱਤੇ ਜੋੜੋ";
 
 /* Go to link pasted on the clipboard */
@@ -55,16 +55,16 @@
 /* Label that is shown when there are no tabs opened in tab tray i.e. Empty State */
 "TodayWidget.NoOpenTabsLabelV2" = "ਕੋਈ ਖੁੱਲ੍ਹੀ ਟੈਬ ਨਹੀਂ ਹੈ";
 
-/* Open Impervious when there are no tabs opened in tab tray i.e. Empty State */
+/* Open Beacon when there are no tabs opened in tab tray i.e. Empty State */
 "TodayWidget.OpenFirefoxLabel" = "ਫਾਇਰਫਾਕਸ ਖੋਲ੍ਹੋ";
 
-/* Description for Impervious Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app. */
+/* Description for Beacon Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app. */
 "TodayWidget.PocketWidgetGalleryDescription" = "ਪੂਰੇ ਵੈਬ ਤੋਂ ਰੌਚਕ ਅਤੇ ਸੋਚਣ ਲਈ ਮਜ਼ਬੂਰ ਕਰਨ ਵਾਲੀਆਂ, Pocket ਵਲੋਂ ਇਕੱਤਰ ਕੀਤੀਆਂ ਕਹਾਣੀਆਂ ਲਵੋ।";
 
-/* Sub label for medium size Impervious Pocket stories widge widget. Pocket is the name of another app. */
-"TodayWidget.PocketWidgetSubLabel" = "Impervious - Pocket ਵਲੋਂ ਸਿਫਾਰਸ਼ੀ";
+/* Sub label for medium size Beacon Pocket stories widge widget. Pocket is the name of another app. */
+"TodayWidget.PocketWidgetSubLabel" = "Beacon - Pocket ਵਲੋਂ ਸਿਫਾਰਸ਼ੀ";
 
-/* Title for Impervious Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app. */
+/* Title for Beacon Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app. */
 "TodayWidget.PocketWidgetTitle" = "Pocket ਵਲੋਂ ਸਿਫਾਰਸ਼ੀ";
 
 /* Open New Private Tab button label */
@@ -77,12 +77,12 @@
 "TodayWidget.QuickActionDropDownMenu" = "ਫ਼ੌਰੀ ਕਾਰਵਾਈ";
 
 /* Description for small size widget to add it to home screen */
-"TodayWidget.QuickActionGalleryDescription" = "ਆਪਣੀ ਮੁੱਖ ਸਕਰੀਨ ਉੱਤੇ Impervious ਜੋੜੋ। ਵਿਜੈਟ ਜੋੜਨ ਦੇ ਬਾਅਦ ਇਸ ਨੂੰ ਸੋਧਣ ਲਈ ਛੂਹ ਕੇ ਰੱਖੋ ਅਤੇ ਵੱਖਰਾ ਸ਼ਾਰਟਕੱਟ ਚੁਣੋ।";
+"TodayWidget.QuickActionGalleryDescription" = "ਆਪਣੀ ਮੁੱਖ ਸਕਰੀਨ ਉੱਤੇ Beacon ਜੋੜੋ। ਵਿਜੈਟ ਜੋੜਨ ਦੇ ਬਾਅਦ ਇਸ ਨੂੰ ਸੋਧਣ ਲਈ ਛੂਹ ਕੇ ਰੱਖੋ ਅਤੇ ਵੱਖਰਾ ਸ਼ਾਰਟਕੱਟ ਚੁਣੋ।";
 
 /* Quick Actions title when widget enters edit mode */
 "TodayWidget.QuickActionsGalleryTitle" = "ਫ਼ੌਰੀ ਕਾਰਵਾਈਆਂ";
 
-/* Impervious shortcuts title when widget enters edit mode. Do not translate the word Impervious. */
+/* Beacon shortcuts title when widget enters edit mode. Do not translate the word Beacon. */
 "TodayWidget.QuickActionsGalleryTitleV2" = "ਫਾਇਰਫਾਕਸ ਸ਼ਾਰਟਕੱਟ";
 
 /* Sub label for medium size quick action widget */
@@ -103,33 +103,33 @@
 /* Sub label for Top Sites widget */
 "TodayWidget.QuickViewOpenTabsSubLabel" = "ਫਾਇਰਫਾਕਸ - ਟੈਬਾਂ ਖੋਲ੍ਹੋ";
 
-/* Title for small size widget which allows users to search in Impervious. Do not translate the word Impervious. */
+/* Title for small size widget which allows users to search in Beacon. Do not translate the word Beacon. */
 "TodayWidget.SearchInFirefoxTitle" = "ਫਾਇਰਫਾਕਸ ਵਿੱਚ ਖੋਜੋ";
 
-/* Search in Impervious. Do not translate the word Impervious */
+/* Search in Beacon. Do not translate the word Beacon */
 "TodayWidget.SearchInFirefoxV2" = "ਫਾਇਰਫਾਕਸ ਵਿੱਚ ਖੋਜੋ";
 
 /* Search in private tab */
 "TodayWidget.SearchInPrivateTabLabelV2" = "ਪ੍ਰਾਈਵੇਟ ਟੈਬ ਵਿੱਚ ਖੋਜੋ";
 
-/* Description for top sites widget to add Impervious top sites shotcuts to home screen */
+/* Description for top sites widget to add Beacon top sites shotcuts to home screen */
 "TodayWidget.TopSitesGalleryDescription" = "ਅਕਸਰ ਅਤੇ ਤਾਜ਼ਾ ਵੇਖੀਆਂ ਵੈੱਬਸਾਈਟਾਂ ਲਈ ਸ਼ਾਰਟਕੱਟ ਜੋੜੋ।";
 
-/* Title for top sites widget to add Impervious top sites shotcuts to home screen */
+/* Title for top sites widget to add Beacon top sites shotcuts to home screen */
 "TodayWidget.TopSitesGalleryTitle" = "ਮੁੱਖ ਸਾਈਟਾਂ";
 
-/* Title for top sites widget to add Impervious top sites shotcuts to home screen */
+/* Title for top sites widget to add Beacon top sites shotcuts to home screen */
 "TodayWidget.TopSitesGalleryTitleV2" = "ਵੈੱਬਸਾਈਟ ਸ਼ਾਰਟਕੱਟ";
 
 /* Sub label for Top Sites widget */
 "TodayWidget.TopSitesSubLabel" = "ਫਾਇਰਫਾਕਸ - ਮੁੱਖ ਸਾਈਟਾਂ";
 
 /* Sub label for Shortcuts widget */
-"TodayWidget.TopSitesSubLabel2" = "Impervious - ਵੈੱਬਸਾਈਟ ਸ਼ਾਰਟਕੱਟ";
+"TodayWidget.TopSitesSubLabel2" = "Beacon - ਵੈੱਬਸਾਈਟ ਸ਼ਾਰਟਕੱਟ";
 
 /* View More for Quick View widget in Gallery View where we don't know how many tabs might be opened */
 "TodayWidget.ViewMore" = "ਹੋਰ ਵੇਖੋ";
 
-/* View More… for Impervious Pocket stories widget where we don't know how many articles are available. */
+/* View More… for Beacon Pocket stories widget where we don't know how many articles are available. */
 "TodayWidget.ViewMoreDots" = "ਹੋਰ ਵੇਖੋ…";
 

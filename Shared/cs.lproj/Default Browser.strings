@@ -1,16 +1,16 @@
-/* Button string to open settings that allows user to switch their default browser to Impervious. */
+/* Button string to open settings that allows user to switch their default browser to Beacon. */
 "DefaultBrowserCard.Button" = "Přejít do nastavení";
 
 /* Button string to learn how to set your default browser. */
 "DefaultBrowserCard.Button.v2" = "Zjistit více";
 
-/* Description for small card shown that allows user to switch their default browser to Impervious. */
+/* Description for small card shown that allows user to switch their default browser to Beacon. */
 "DefaultBrowserCard.Description" = "Nastavte si automatické otevírání odkazů, e-mailů a zpráv ve Firefoxu.";
 
-/* Title for small card shown that allows user to switch their default browser to Impervious. */
+/* Title for small card shown that allows user to switch their default browser to Beacon. */
 "DefaultBrowserCard.Title" = "Nastavte si svůj výchozí prohlížeč";
 
-/* Button string to open settings that allows user to switch their default browser to Impervious. */
+/* Button string to open settings that allows user to switch their default browser to Beacon. */
 "DefaultBrowserOnboarding.Button" = "Přejít do nastavení";
 
 /* Description for default browser onboarding card. */
@@ -20,11 +20,11 @@
 "DefaultBrowserOnboarding.Description2" = "2. Klepněte na „Výchozí prohlížeč“";
 
 /* Description for default browser onboarding card. */
-"DefaultBrowserOnboarding.Description3" = "3. Vyberte Impervious";
+"DefaultBrowserOnboarding.Description3" = "3. Vyberte Beacon";
 
-/* Text for the screenshot of the iOS system settings page for Impervious. */
+/* Text for the screenshot of the iOS system settings page for Beacon. */
 "DefaultBrowserOnboarding.Screenshot" = "Výchozí prohlížeč";
 
-/* Menu option for setting Impervious as default browser. */
+/* Menu option for setting Beacon as default browser. */
 "Settings.DefaultBrowserMenuItem" = "Nastavit jako výchozí prohlížeč";
 

@@ -1,16 +1,16 @@
-/* Button string to open settings that allows user to switch their default browser to Impervious. */
+/* Button string to open settings that allows user to switch their default browser to Beacon. */
 "DefaultBrowserCard.Button" = "Mynd i Gosodiadau";
 
 /* Button string to learn how to set your default browser. */
 "DefaultBrowserCard.Button.v2" = "Dysgu Sut";
 
-/* Description for small card shown that allows user to switch their default browser to Impervious. */
-"DefaultBrowserCard.Description" = "Gosod dolenni o wefannau, e-byst, a Messages i agor yn awtomatig yn Impervious.";
+/* Description for small card shown that allows user to switch their default browser to Beacon. */
+"DefaultBrowserCard.Description" = "Gosod dolenni o wefannau, e-byst, a Messages i agor yn awtomatig yn Beacon.";
 
-/* Title for small card shown that allows user to switch their default browser to Impervious. */
+/* Title for small card shown that allows user to switch their default browser to Beacon. */
 "DefaultBrowserCard.Title" = "Newid Eich Porwr Rhagosodedig";
 
-/* Button string to open settings that allows user to switch their default browser to Impervious. */
+/* Button string to open settings that allows user to switch their default browser to Beacon. */
 "DefaultBrowserOnboarding.Button" = "Mynd i'r Gosodiadau";
 
 /* Description for default browser onboarding card. */
@@ -20,11 +20,11 @@
 "DefaultBrowserOnboarding.Description2" = "2. Tapio Default Browser App";
 
 /* Description for default browser onboarding card. */
-"DefaultBrowserOnboarding.Description3" = "3. Dewis Impervious";
+"DefaultBrowserOnboarding.Description3" = "3. Dewis Beacon";
 
-/* Text for the screenshot of the iOS system settings page for Impervious. */
+/* Text for the screenshot of the iOS system settings page for Beacon. */
 "DefaultBrowserOnboarding.Screenshot" = "Ap Porwr Rhagosodedig";
 
-/* Menu option for setting Impervious as default browser. */
+/* Menu option for setting Beacon as default browser. */
 "Settings.DefaultBrowserMenuItem" = "Gosod fel y Porwr Ragosodedig";
 

@@ -2,7 +2,7 @@
 "NSCameraUsageDescription" = "Mae hwn yn caniatáu i chi gymryd lluniau a'u llwytho i fyny.";
 
 /* Privacy - Face ID Usage Description */
-"NSFaceIDUsageDescription" = "Mae Impervious angen mynediad i Face ID i'ch mewngofnodion sydd wedi'u cadw.";
+"NSFaceIDUsageDescription" = "Mae Beacon angen mynediad i Face ID i'ch mewngofnodion sydd wedi'u cadw.";
 
 /* This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this

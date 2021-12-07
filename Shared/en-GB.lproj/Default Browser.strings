@@ -1,16 +1,16 @@
-/* Button string to open settings that allows user to switch their default browser to Impervious. */
+/* Button string to open settings that allows user to switch their default browser to Beacon. */
 "DefaultBrowserCard.Button" = "Go to Settings";
 
 /* Button string to learn how to set your default browser. */
 "DefaultBrowserCard.Button.v2" = "Learn How";
 
-/* Description for small card shown that allows user to switch their default browser to Impervious. */
-"DefaultBrowserCard.Description" = "Set links from web sites, emails, and Messages to open automatically in Impervious.";
+/* Description for small card shown that allows user to switch their default browser to Beacon. */
+"DefaultBrowserCard.Description" = "Set links from web sites, emails, and Messages to open automatically in Beacon.";
 
-/* Title for small card shown that allows user to switch their default browser to Impervious. */
+/* Title for small card shown that allows user to switch their default browser to Beacon. */
 "DefaultBrowserCard.Title" = "Switch Your Default Browser";
 
-/* Button string to open settings that allows user to switch their default browser to Impervious. */
+/* Button string to open settings that allows user to switch their default browser to Beacon. */
 "DefaultBrowserOnboarding.Button" = "Go to Settings";
 
 /* Description for default browser onboarding card. */
@@ -20,11 +20,11 @@
 "DefaultBrowserOnboarding.Description2" = "2. Tap Default Browser App";
 
 /* Description for default browser onboarding card. */
-"DefaultBrowserOnboarding.Description3" = "3. Select Impervious";
+"DefaultBrowserOnboarding.Description3" = "3. Select Beacon";
 
-/* Text for the screenshot of the iOS system settings page for Impervious. */
+/* Text for the screenshot of the iOS system settings page for Beacon. */
 "DefaultBrowserOnboarding.Screenshot" = "Default Browser App";
 
-/* Menu option for setting Impervious as default browser. */
+/* Menu option for setting Beacon as default browser. */
 "Settings.DefaultBrowserMenuItem" = "Set as Default Browser";
 

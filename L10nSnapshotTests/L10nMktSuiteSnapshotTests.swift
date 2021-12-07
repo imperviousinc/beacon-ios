@@ -121,7 +121,7 @@ class L10nMktSuiteSnapshotTests: L10nBaseSnapshotTests {
         // Dismiss the edit mode
         element.tap()
             
-        // Wait for the Search in Firefox widget and tap on it
+        // Wait for the Search in Beacon widget and tap on it
         sleep(1)
         snapshot("Widget-01")
         // Tap on Edit and then on Add to Widget

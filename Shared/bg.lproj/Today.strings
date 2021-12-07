@@ -1,9 +1,9 @@
 /* Sub label for Top Sites widget */
-"TodayWidget.QuickViewOpenTabsSubLabel" = "Impervious - отворени раздели";
+"TodayWidget.QuickViewOpenTabsSubLabel" = "Beacon - отворени раздели";
 
-/* Title for top sites widget to add Impervious top sites shotcuts to home screen */
+/* Title for top sites widget to add Beacon top sites shotcuts to home screen */
 "TodayWidget.TopSitesGalleryTitle" = "Предпочитани страници";
 
 /* Sub label for Top Sites widget */
-"TodayWidget.TopSitesSubLabel" = "Impervious - Предпочитани";
+"TodayWidget.TopSitesSubLabel" = "Beacon - Предпочитани";
 

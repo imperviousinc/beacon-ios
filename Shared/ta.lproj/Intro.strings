@@ -7,10 +7,10 @@
 /* Next button on the first intro screen. */
 "Intro.Slides.Button.Next" = "அடுத்து";
 
-/* Sign in to Impervious account button on second intro screen. */
+/* Sign in to Beacon account button on second intro screen. */
 "Intro.Slides.Button.SignIn" = "உள்நுழை";
 
-/* Sign up to Impervious account button on second intro screen. */
+/* Sign up to Beacon account button on second intro screen. */
 "Intro.Slides.Button.SignUp" = "பதிவுபெறுக";
 
 /* Description for the second item in the table related to fast searching via address bar */
@@ -20,10 +20,10 @@
 "Intro.Slides.Fast.Search.Title" = "விரைவான தேடல்";
 
 /* Description for the first item in the table related to syncing data (bookmarks, history) via firefox account between devices */
-"Intro.Slides.Firefox.Account.Sync.Description" = "இச்சாதனத்திற்கு பயர்பாக்சு புத்தகக்குறிகள், வரலாறு மற்றும் கடவுச்சொற்களைக் கொண்டு வாருங்கள்.";
+"Intro.Slides.Beacon.Account.Sync.Description" = "இச்சாதனத்திற்கு பயர்பாக்சு புத்தகக்குறிகள், வரலாறு மற்றும் கடவுச்சொற்களைக் கொண்டு வாருங்கள்.";
 
 /* Title for the first item in the table related to syncing data (bookmarks, history) via firefox account between devices */
-"Intro.Slides.Firefox.Account.Sync.Title" = "கருவிகளிடையே பயர்பாக்சை ஒத்திசைக்கவும்";
+"Intro.Slides.Beacon.Account.Sync.Title" = "கருவிகளிடையே பயர்பாக்சை ஒத்திசைக்கவும்";
 
 /* Description for the 'Mail' panel in the First Run tour. */
 "Intro.Slides.Mail.Description" = "ஏதேனும் மின்னஞ்சல் செயலியைப் பயன்படுத்தவும் - பயர்பாக்சுடன் - வெறும் மின்னஞ்சல் மட்டுமல்ல.";

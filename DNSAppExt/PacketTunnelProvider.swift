@@ -2,7 +2,7 @@
 //  PacketTunnelProvider.swift
 //  DNSAppExt
 //
-//  Copyright © 2021 Impervious. All rights reserved.
+//  Copyright © 2021 Beacon. All rights reserved.
 //
 
 import NetworkExtension
@@ -12,7 +12,7 @@ class PacketTunnelProvider: NEPacketTunnelProvider {
     var tunnelStarted = false
     var dohURL = "https://hs.dnssec.dev/dns-query"
     
-    private let workQueue = DispatchQueue(label: "ImperviousWorkQueue")
+    private let workQueue = DispatchQueue(label: "BeaconWorkQueue")
     
     @objc func ListenAndServe() {
         DnsextListenAndServe()

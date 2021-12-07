@@ -24,7 +24,7 @@ enum BlockingStrength: String {
 }
 
 /**
- Firefox-specific implementation of tab content blocking.
+ Beacon-specific implementation of tab content blocking.
  */
 class FirefoxTabContentBlocker: TabContentBlocker, TabContentScript {
     let userPrefs: Prefs

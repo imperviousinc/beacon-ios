@@ -163,7 +163,7 @@ extension Date {
 let MaxTimestampAsDouble = Double(UInt64.max)
 
 /** This is just like decimalSecondsStringToTimestamp, but it looks for values that seem to be
- *  milliseconds and fixes them. That's necessary because Firefox for iOS <= 7.3 uploaded millis
+ *  milliseconds and fixes them. That's necessary because Beacon for iOS <= 7.3 uploaded millis
  *  when seconds were expected.
  */
 public func someKindOfTimestampStringToTimestamp(_ input: String) -> Timestamp? {

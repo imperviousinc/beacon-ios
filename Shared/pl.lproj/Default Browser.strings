@@ -1,16 +1,16 @@
-/* Button string to open settings that allows user to switch their default browser to Impervious. */
+/* Button string to open settings that allows user to switch their default browser to Beacon. */
 "DefaultBrowserCard.Button" = "Przejdź do ustawień";
 
 /* Button string to learn how to set your default browser. */
 "DefaultBrowserCard.Button.v2" = "Dowiedz się, jak to zrobić";
 
-/* Description for small card shown that allows user to switch their default browser to Impervious. */
+/* Description for small card shown that allows user to switch their default browser to Beacon. */
 "DefaultBrowserCard.Description" = "Ustaw automatyczne otwieranie odnośników z witryn, wiadomości e-mail i aplikacji Messages w Firefoksie.";
 
-/* Title for small card shown that allows user to switch their default browser to Impervious. */
+/* Title for small card shown that allows user to switch their default browser to Beacon. */
 "DefaultBrowserCard.Title" = "Przełącz domyślną przeglądarkę";
 
-/* Button string to open settings that allows user to switch their default browser to Impervious. */
+/* Button string to open settings that allows user to switch their default browser to Beacon. */
 "DefaultBrowserOnboarding.Button" = "Przejdź do ustawień";
 
 /* Description for default browser onboarding card. */
@@ -22,9 +22,9 @@
 /* Description for default browser onboarding card. */
 "DefaultBrowserOnboarding.Description3" = "3. Wybierz Firefoksa";
 
-/* Text for the screenshot of the iOS system settings page for Impervious. */
+/* Text for the screenshot of the iOS system settings page for Beacon. */
 "DefaultBrowserOnboarding.Screenshot" = "Domyślna przeglądarka";
 
-/* Menu option for setting Impervious as default browser. */
+/* Menu option for setting Beacon as default browser. */
 "Settings.DefaultBrowserMenuItem" = "Ustaw jako domyślną przeglądarkę";
 

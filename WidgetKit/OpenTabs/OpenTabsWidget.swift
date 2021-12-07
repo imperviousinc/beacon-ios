@@ -57,7 +57,7 @@ struct OpenTabsView: View {
     var openFirefoxButton: some View {
         HStack(alignment: .center, spacing: 15) {
             Image("openFirefox").foregroundColor(Color.white)
-            Text("Open Firefox").foregroundColor(Color.white).lineLimit(1).font(.system(size: 13, weight: .semibold, design: .default))
+            Text("Open Beacon").foregroundColor(Color.white).lineLimit(1).font(.system(size: 13, weight: .semibold, design: .default))
             Spacer()
         }.padding([.horizontal])
     }

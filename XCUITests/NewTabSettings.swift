@@ -14,7 +14,7 @@ class NewTabSettingsTest: BaseTestCase {
         navigator.nowAt(NewTabScreen)
         navigator.goto(NewTabSettings)
         waitForExistence(app.navigationBars["New Tab"])
-        XCTAssertTrue(app.tables.cells["Firefox Home"].exists)
+        XCTAssertTrue(app.tables.cells["Beacon Home"].exists)
         XCTAssertTrue(app.tables.cells["Blank Page"].exists)
         XCTAssertTrue(app.tables.cells["NewTabAsCustomURL"].exists)
     }
@@ -101,6 +101,6 @@ class NewTabSettingsTest: BaseTestCase {
         navigator.performAction(Action.SelectNewTabAsFirefoxHomePage)
         navigator.nowAt(NewTabSettings)
         navigator.goto(SettingsScreen)
-        XCTAssertEqual(app.tables.cells["NewTab"].label, "New Tab, Firefox Home")
+        XCTAssertEqual(app.tables.cells["NewTab"].label, "New Tab, Beacon Home")
     }
 }

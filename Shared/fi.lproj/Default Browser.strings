@@ -1,15 +1,15 @@
-/* Description for small card shown that allows user to switch their default browser to Impervious. */
+/* Description for small card shown that allows user to switch their default browser to Beacon. */
 "DefaultBrowserCard.Description" = "Aseta verkkosivustojen, sähköpostien ja viestien linkit avautumaan automaattisesti Firefoxissa.";
 
-/* Title for small card shown that allows user to switch their default browser to Impervious. */
+/* Title for small card shown that allows user to switch their default browser to Beacon. */
 "DefaultBrowserCard.Title" = "Vaihda oletusselain";
 
 /* Description for default browser onboarding card. */
-"DefaultBrowserOnboarding.Description3" = "3. Valitse Impervious";
+"DefaultBrowserOnboarding.Description3" = "3. Valitse Beacon";
 
-/* Text for the screenshot of the iOS system settings page for Impervious. */
+/* Text for the screenshot of the iOS system settings page for Beacon. */
 "DefaultBrowserOnboarding.Screenshot" = "Oletusselain";
 
-/* Menu option for setting Impervious as default browser. */
+/* Menu option for setting Beacon as default browser. */
 "Settings.DefaultBrowserMenuItem" = "Aseta oletusselaimeksi";
 

@@ -225,7 +225,7 @@
 "Could not load page." = "पृष्ठ लोड नहीं हो सका।";
 
 /* Description for the new dark mode change in the version 22 app release. It describes the new automatic dark theme and how to change the theme settings. */
-"CoverSheet.v22.DarkMode.Description" = "iOS 13 के उपयोगकर्ताओं के लिए, जब आपका फोन डार्क मोड पर सेट हो, तो Impervious अब स्वतः ही डार्क थीम में बदल जाता है। इस बदलाव को रोकने के लिए, सेटिंग > थीम में जाएं।";
+"CoverSheet.v22.DarkMode.Description" = "iOS 13 के उपयोगकर्ताओं के लिए, जब आपका फोन डार्क मोड पर सेट हो, तो Beacon अब स्वतः ही डार्क थीम में बदल जाता है। इस बदलाव को रोकने के लिए, सेटिंग > थीम में जाएं।";
 
 /* Title for the new dark mode change in the version 22 app release. */
 "CoverSheet.v22.DarkMode.Title" = "डार्क थीम में अब डार्क कीबोर्ड तथा डार्क स्प्लैश स्क्रीन शामिल है।";
@@ -280,8 +280,8 @@
 /* Alert dialog title when the user taps the cancel download icon. */
 "Downloads.CancelDialog.Title" = "डाउनलोड रद्द करें";
 
-/* The message displayed to a user when they try and perform the download of an asset that Impervious cannot currently handle. */
-"Downloads.Error.Message" = "Impervious में अब तक डाउनलोड समर्थित नहीं है।";
+/* The message displayed to a user when they try and perform the download of an asset that Beacon cannot currently handle. */
+"Downloads.Error.Message" = "Beacon में अब तक डाउनलोड समर्थित नहीं है।";
 
 /* The label text in the Download Cancelled toast for showing confirmation that the download was cancelled. */
 "Downloads.Toast.Cancelled.LabelText" = "डाउनलोड रद्द";
@@ -326,7 +326,7 @@
 "ErrorPages.AdvancedWarning2.Text" = "यह समाकृति में एक चूक या एक आक्रमणकर्ता द्वारा छेड़छाड़ हो सकती है। यदि आप संभावित जोखिम स्वीकार करते हैं तो आगे बढ़ें।";
 
 /* Warning text on the certificate error page */
-"ErrorPages.CertWarning.Description" = "%@ के उत्तराधिकारी ने वेबसाइट को गलत तरीके से कॉन्फ़िगर किया है। अपनी जानकारी को चोरी होने से सुरक्षित रखने के लिए, Impervious इस वेबसाइट से नहीं जुड़ा।";
+"ErrorPages.CertWarning.Description" = "%@ के उत्तराधिकारी ने वेबसाइट को गलत तरीके से कॉन्फ़िगर किया है। अपनी जानकारी को चोरी होने से सुरक्षित रखने के लिए, Beacon इस वेबसाइट से नहीं जुड़ा।";
 
 /* Title on the certificate error page */
 "ErrorPages.CertWarning.Title" = "यह संपर्क अविश्वसनीय है";
@@ -347,7 +347,7 @@
 "Facebook" = "Facebook";
 
 /* Title for firefox about:home page in tab history list */
-"Firefox.HomePage.Title" = "Impervious मुख्य पृष्ठ";
+"Beacon.HomePage.Title" = "Beacon मुख्य पृष्ठ";
 
 /* Accessibility Label for the tab toolbar Forward button */
 "Forward" = "आगे बढ़ाएं";
@@ -358,16 +358,16 @@
 /* Label stating your account is not verified */
 "FxA.AccountVerificationRequired" = "खाता सत्यापन आवश्यक";
 
-/* Message explaining that user needs to check email for Impervious Account verfication link. */
-"FxA.AccountVerificationRequiredSurface" = "आपको %@ सत्यापित करने की आवश्यकता है। Impervious से मिले सत्यापन लिंक के लिए अपना ईमेल जांचें।";
+/* Message explaining that user needs to check email for Beacon Account verfication link. */
+"FxA.AccountVerificationRequiredSurface" = "आपको %@ सत्यापित करने की आवश्यकता है। Beacon से मिले सत्यापन लिंक के लिए अपना ईमेल जांचें।";
 
 /* Button label to connect another device to Sync */
 "FxA.ConnectAnotherDevice" = "अन्य उपकरण जोड़ें";
 
-/* Settings section title for Impervious Account */
-"FxA.FirefoxAccount" = "Impervious Account";
+/* Settings section title for Beacon Account */
+"FxA.FirefoxAccount" = "Beacon Account";
 
-/* Button label to go to Impervious Account settings */
+/* Button label to go to Beacon Account settings */
 "FxA.ManageAccount" = "खाता एवं उपकरण प्रबंधित करें";
 
 /* Label when no internet is present */
@@ -383,7 +383,7 @@
 "FxA.RemoveAccount" = "हटाएं";
 
 /* Description string for alert view that gets presented when user tries to remove an account. */
-"FxA.RemoveAccountAlertMessage" = "दूसरे उपयोगकर्ता के तौर पर साइन इन करने के लिए इस उपकरण पर मौजूद Impervious Account को हटाएं।";
+"FxA.RemoveAccountAlertMessage" = "दूसरे उपयोगकर्ता के तौर पर साइन इन करने के लिए इस उपकरण पर मौजूद Beacon Account को हटाएं।";
 
 /* Remove account alert is the final confirmation before user removes their firefox account */
 "FxA.RemoveAccountAlertTitle" = "खाता हटाएं";
@@ -395,10 +395,10 @@
 "fxa.signin.camera-signin" = "अपने कैमरे से साइन इन करें";
 
 /* FxA sign in create account label. This will be linked to the site to create an account. */
-"fxa.signin.create-account-pt-2" = "Impervious खाता बनाएं";
+"fxa.signin.create-account-pt-2" = "Beacon खाता बनाएं";
 
 /* FxA sign in view qr code instructions */
-"fxa.signin.qr-link-instruction" = "अपने कंप्यूटर पर Impervious खोलें और firefox.com/pair पर जाएं";
+"fxa.signin.qr-link-instruction" = "अपने कंप्यूटर पर Beacon खोलें और firefox.com/pair पर जाएं";
 
 /* FxA sign in view qr code scan button */
 "fxa.signin.ready-to-scan" = "स्कैन के लिए तैयार";
@@ -415,14 +415,14 @@
 /* Label explaining what sync does */
 "FxA.SyncExplain" = "अपने दूसरे उपकरणों से अपना टैब, बुकमार्क और पासवर्ड पाएं।";
 
-/* Button label to Sync your Impervious Account */
+/* Button label to Sync your Beacon Account */
 "FxA.SyncNow" = "अभी सिंक करें";
 
 /* Call to action for sign into sync button */
 "FxA.TakeYourWebWithYou" = "अपना वेब अपने साथ रखें";
 
 /* Title of a notification displayed when another device has connected to FxA. %@ refers to the name of the newly connected device. */
-"FxAPush_DeviceConnected_body" = "Impervious सिंक %@ में जोड़ा गया";
+"FxAPush_DeviceConnected_body" = "Beacon सिंक %@ में जोड़ा गया";
 
 /* Title of a notification displayed when another device has connected to FxA. */
 "FxAPush_DeviceConnected_title" = "सिंक जुड़ गया";
@@ -431,7 +431,7 @@
 "FxAPush_DeviceDisconnected_body" = "%@ सफलतापूर्वक डिसकनेक्ट किया गया।";
 
 /* Body of a notification displayed when this device has been disconnected from FxA by another device. */
-"FxAPush_DeviceDisconnected_ThisDevice_body" = "यह उपकरण Impervious सिंक से सफलतापूर्वक डिसकनेक्ट हो गया।";
+"FxAPush_DeviceDisconnected_ThisDevice_body" = "यह उपकरण Beacon सिंक से सफलतापूर्वक डिसकनेक्ट हो गया।";
 
 /* Title of a notification displayed when this device has been disconnected by another device. */
 "FxAPush_DeviceDisconnected_ThisDevice_title" = "सिंक डिस्कनेक्ट किया गया";
@@ -440,7 +440,7 @@
 "FxAPush_DeviceDisconnected_title" = "सिंक डिसकनेक्ट हुआ";
 
 /* Body of a notification displayed when unnamed device has been disconnected from FxA. */
-"FxAPush_DeviceDisconnected_UnknownDevice_body" = "एक उपकरण Impervious सिंक से डिस्कनेक्ट कर दिया है";
+"FxAPush_DeviceDisconnected_UnknownDevice_body" = "एक उपकरण Beacon सिंक से डिस्कनेक्ट कर दिया है";
 
 /* A re-worded offer about Sync, displayed when the Sync home panel is empty, that emphasizes one-way data transfer, not syncing. */
 "Get your open tabs, bookmarks, and passwords from your other devices." = "अपने दूसरे उपकरणों से बुकमार्क, पासवर्ड और अपने खुले टैब पाएं।";
@@ -488,7 +488,7 @@
 "HistoryPanel.EmptySyncedTabsPanelTabSyncDisabledState.Description" = "टैब की सूची देखने के लिए अपने दूसरे उपकरणों से टैब सिंक करना चालू करें।";
 
 /* Title for the empty synced tabs state in the History Panel */
-"HistoryPanel.EmptySyncedTabsState.Title" = "Impervious सिंक";
+"HistoryPanel.EmptySyncedTabsState.Title" = "Beacon सिंक";
 
 /* Title for the Back to History button in the History Panel */
 "HistoryPanel.HistoryBackButton.Title" = "इतिहास";
@@ -592,10 +592,10 @@
 /* Light theme setting in Reading View settings */
 "Light" = "हल्का";
 
-/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Beacon reader mode from another app. */
 "Load original page" = "मूल पृष्ठ लोड करें";
 
-/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Beacon reader mode from another app. */
 "Loading content…" = "सामग्री लोड हो रही है ...";
 
 /* Authentication prompt log in button */
@@ -650,7 +650,7 @@
 "LoginsList.Title" = "लॉग इन सहेजा गया";
 
 /* Restore Tabs Prompt Description */
-"Looks like Impervious crashed previously. Would you like to restore your tabs?" = "ऐसा लगता है जैसे कि Impervious पूर्व में नष्ट हो गया। क्या आप अपने टैब को पूर्ववत करना चाहेंगे?";
+"Looks like Beacon crashed previously. Would you like to restore your tabs?" = "ऐसा लगता है जैसे कि Beacon पूर्व में नष्ट हो गया। क्या आप अपने टैब को पूर्ववत करना चाहेंगे?";
 
 /* Name for Mark as read button in reader mode
    Title for the button that marks a reading list item as read */
@@ -727,7 +727,7 @@
 "Menu.TrackingProtection.BlockedTitle" = "अवरोधित";
 
 /* Message in menu when no trackers blocked. */
-"Menu.TrackingProtection.NoTrackersBlockedTitle" = "इस पृष्ठ पर Impervious से जुड़े किसी भी ट्रैकर का पता नहीं चला।";
+"Menu.TrackingProtection.NoTrackersBlockedTitle" = "इस पृष्ठ पर Beacon से जुड़े किसी भी ट्रैकर का पता नहीं चला।";
 
 /* The title for tracking protection settings */
 "Menu.TrackingProtection.ProtectionSettings.Title" = "सुरक्षा सेटिंग";
@@ -742,7 +742,7 @@
 "Menu.TrackingProtectionBlockedSocial.Title" = "सामाजिक ट्रैकर";
 
 /* Description of the Tracking protection menu when TP is blocking parts of the page */
-"Menu.TrackingProtectionBlocking.Description" = "Impervious उन हिस्सों को बाधित कर रहा है जो आपके ऑनलाइन गतिविधियों को ट्रैक कर सकते हैं।";
+"Menu.TrackingProtectionBlocking.Description" = "Beacon उन हिस्सों को बाधित कर रहा है जो आपके ऑनलाइन गतिविधियों को ट्रैक कर सकते हैं।";
 
 /* The description of the Tracking Protection menu item when tracking is enabled */
 "Menu.TrackingProtectionBlockingDisabled.Description" = "ऑनलाइन ट्रैकर को अवरुद्ध करें";
@@ -845,7 +845,7 @@
 "Okay" = "ठीक है";
 
 /* Title for prompt displayed to user after the app crashes */
-"Oops! Impervious crashed" = "उफ़! Impervious नष्ट हो गया";
+"Oops! Beacon crashed" = "उफ़! Beacon नष्ट हो गया";
 
 /* See http://mzl.la/1LXbDOL */
 "Open articles in Reader View by tapping the book icon when it appears in the title bar." = "पुस्तक प्रतीक को दबाकर आलेखों को पाठक दृश्य में खोलें जब यह शीर्षक पट्टी में दिखाई देता है।";
@@ -856,8 +856,8 @@
 /* Toggle tabs syncing setting */
 "Open Tabs" = "टैब खोलें";
 
-/* The message displayed to a user when they try to open a URL that cannot be handled by Impervious, or any external app. */
-"OpenURL.Error.Message" = "Impervious पृष्ठ को नही खोल सकता हैं क्योंकि इसमें एक अमान्य पता है।";
+/* The message displayed to a user when they try to open a URL that cannot be handled by Beacon, or any external app. */
+"OpenURL.Error.Message" = "Beacon पृष्ठ को नही खोल सकता हैं क्योंकि इसमें एक अमान्य पता है।";
 
 /* Title of the message shown when the user attempts to navigate to an invalid link. */
 "OpenURL.Error.Title" = "पृष्ठ नहीं खोला जा सकता है";
@@ -872,19 +872,19 @@
 "Password" = "पासवर्ड";
 
 /* Error message shown in the remote tabs panel */
-"PasswordAutoFill.NoPasswordsFoundTitle" = "आपके पास आपके Impervious खाते से कोई भी प्रत्यायक सिंक नहीं है";
+"PasswordAutoFill.NoPasswordsFoundTitle" = "आपके पास आपके Beacon खाते से कोई भी प्रत्यायक सिंक नहीं है";
 
 /* Header for the list of credentials table */
 "PasswordAutoFill.PasswordsListTitle" = "उपलब्ध प्रत्यायक:";
 
 /* Title of the extension that shows firefox passwords */
-"PasswordAutoFill.SectionTitle" = "Impervious प्रत्यायक";
+"PasswordAutoFill.SectionTitle" = "Beacon प्रत्यायक";
 
 /* See http://mzl.la/1G7uHo7 */
 "PhotoLibrary.FirefoxWouldLikeAccessMessage" = "यह आपको अपने कैमरा रोल करने में चित्रों को सहेजने की अनुमति देता है।";
 
 /* See http://mzl.la/1G7uHo7 */
-"PhotoLibrary.FirefoxWouldLikeAccessTitle" = "Impervious आपके फ़ोटो को एक्सेस करना चाहेंगे";
+"PhotoLibrary.FirefoxWouldLikeAccessTitle" = "Beacon आपके फ़ोटो को एक्सेस करना चाहेंगे";
 
 /* Button for closing the menu action sheet */
 "PhotonMenu.close" = "बंद करें";
@@ -892,7 +892,7 @@
 /* Privacy section title */
 "Privacy" = "गोपनीयता";
 
-/* Show Impervious Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
+/* Show Beacon Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
 "Privacy Policy" = "गोपनीयता नीति";
 
 /* Title for quick-search engines settings section. */
@@ -956,7 +956,7 @@
 "ScanQRCode.InvalidDataError.Message" = "डेटा अमान्य है";
 
 /* Text of the prompt user to setup the camera authorization. */
-"ScanQRCode.PermissionError.Message" = "कृपया Impervious को आपके उपकरण के कैमरा तक पहुंचने की अनुमति ‘सेटिंग’ -> ‘गोपनीयता’ -> ‘कैमरा’ में दें।";
+"ScanQRCode.PermissionError.Message" = "कृपया Beacon को आपके उपकरण के कैमरा तक पहुंचने की अनुमति ‘सेटिंग’ -> ‘गोपनीयता’ -> ‘कैमरा’ में दें।";
 
 /* Title for the QR code scanner view. */
 "ScanQRCode.View.Title" = "QR कोड स्कैन करें";
@@ -1009,7 +1009,7 @@
 "Secure connection" = "सुरक्षित कनेक्शन";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
-"Send a crash report so Impervious can fix the problem?" = "खराबी की एक विवरण भेजें, ताकि Impervious समस्या को ठीक कर सके?";
+"Send a crash report so Beacon can fix the problem?" = "खराबी की एक विवरण भेजें, ताकि Beacon समस्या को ठीक कर सके?";
 
 /* Menu item in settings used to open input.mozilla.org where people can submit feedback */
 "Send Feedback" = "प्रतिक्रिया भेजें";
@@ -1037,19 +1037,19 @@
 "SendTo.NavBar.Title" = "टैब भेजें";
 
 /* Error message shown in the remote tabs panel */
-"SendTo.NoDevicesFound.Message" = "आपके पास सिंक के लिए इस Impervious खाते से जुड़े कोई अन्य उपकरण उपलब्ध नहीं हैं।";
+"SendTo.NoDevicesFound.Message" = "आपके पास सिंक के लिए इस Beacon खाते से जुड़े कोई अन्य उपकरण उपलब्ध नहीं हैं।";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Message" = "कृपया Impervious खोलें, सेटिंग में जाएं और जारी रखने के लिए साइन इन करें।";
+"SendTo.NotSignedIn.Message" = "कृपया Beacon खोलें, सेटिंग में जाएं और जारी रखने के लिए साइन इन करें।";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Title" = "आप अपने Impervious खाते में साइन इन नहीं हैं।";
+"SendTo.NotSignedIn.Title" = "आप अपने Beacon खाते में साइन इन नहीं हैं।";
 
 /* Navigation bar button to Send the current page to a device */
 "SendTo.SendAction.Text" = "भेजें";
 
-/* The text for the button on the Send to Device page if you are not signed in to Impervious Accounts. */
-"SendTo.SignIn.Button" = "Impervious में साइन इन करें";
+/* The text for the button on the Send to Device page if you are not signed in to Beacon Accounts. */
+"SendTo.SignIn.Button" = "Beacon में साइन इन करें";
 
 /* Body of notification shown when the device is sent one or more tabs from an unnamed device. */
 "SentTab_TabArrivingNotification_NoDevice_body" = "दूसरे उपकरण से नया टैब आ गया।";
@@ -1073,7 +1073,7 @@
 "SentTab.NoTabArrivingNotification.body" = "शुरू करने के लिए टैप करें";
 
 /* Title of notification received after a spurious message from FxA has been received. */
-"SentTab.NoTabArrivingNotification.title" = "Impervious सिंक";
+"SentTab.NoTabArrivingNotification.title" = "Beacon सिंक";
 
 /* Label for an action used to view one or more tabs from a notification. */
 "SentTab.ViewAction.title" = "देखें";
@@ -1133,7 +1133,7 @@
 "Settings.DataManagement.Title" = "डेटा प्रबंधन";
 
 /* Body of the alert when prompting the user asking to disconnect. */
-"Settings.Disconnect.Body" = "Impervious आपके खाते के साथ सिंक करना बंद कर देगा, लेकिन इस उपकरण पर स्थित आपका कोई भी ब्राउजिंग डाटा नहीं मिटाएगा।";
+"Settings.Disconnect.Body" = "Beacon आपके खाते के साथ सिंक करना बंद कर देगा, लेकिन इस उपकरण पर स्थित आपका कोई भी ब्राउजिंग डाटा नहीं मिटाएगा।";
 
 /* Button displayed at the bottom of settings page allowing users to Disconnect from FxA */
 "Settings.Disconnect.Button" = "डिस्कनेक्ट करें";
@@ -1202,11 +1202,11 @@
 /* Label used for the device name settings section. */
 "Settings.FxA.DeviceName" = "उपकरण का नाम";
 
-/* Label used as a section title in the Impervious Accounts Settings screen. */
+/* Label used as a section title in the Beacon Accounts Settings screen. */
 "Settings.FxA.Sync.SectionName" = "सिंक सेटिंग";
 
 /* Title displayed in header of the FxA settings panel. */
-"Settings.FxA.Title" = "Impervious खाता";
+"Settings.FxA.Title" = "Beacon खाता";
 
 /* General settings section title */
 "Settings.General.SectionName" = "सामान्य";
@@ -1257,10 +1257,10 @@
 "Settings.NewTab.Option.CustomizeFooter" = "साइटें जिनपर आप सर्वाधिक जाते हैं";
 
 /* The title for the section to customize top sites in the new tab settings page. */
-"Settings.NewTab.Option.CustomizeTitle" = "Impervious मुखपृष्ठ अनुकूलित करें";
+"Settings.NewTab.Option.CustomizeTitle" = "Beacon मुखपृष्ठ अनुकूलित करें";
 
-/* Option in settings to show Impervious Home when you open a new tab */
-"Settings.NewTab.Option.FirefoxHome" = "Impervious मुख्य पृष्ठ";
+/* Option in settings to show Beacon Home when you open a new tab */
+"Settings.NewTab.Option.FirefoxHome" = "Beacon मुख्य पृष्ठ";
 
 /* Option in the settings to turn off recent bookmarks in the Highlights section */
 "Settings.NewTab.Option.HighlightsBookmarks" = "आधुनिक बुकमार्क";
@@ -1296,7 +1296,7 @@
 "Settings.NewTab.TopSectionNameFooter" = "चयन करें कि नया टैब खोलने पर आप क्या देखेंगे";
 
 /* Description displayed under the ”Offer to Open Copied Link” option. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
-"Settings.OfferClipboardBar.Status" = "Impervious खुलते समय";
+"Settings.OfferClipboardBar.Status" = "Beacon खुलते समय";
 
 /* Title of setting to enable the Go to Copied URL feature. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
 "Settings.OfferClipboardBar.Title" = "कॉपी किए लिंक को खोलने का प्रस्ताव दें";
@@ -1320,7 +1320,7 @@
 "Settings.SendUsage.Link" = "अधिक जानें।";
 
 /* A short description that explains why mozilla collects usage data. */
-"Settings.SendUsage.Message" = "Impervious मात्र उसे एकत्रित करने का प्रयास करता है जिसकी हमें आवश्यकता होती है तथा Impervious को सभी के लिए बेहतर बनता है।";
+"Settings.SendUsage.Message" = "Beacon मात्र उसे एकत्रित करने का प्रयास करता है जिसकी हमें आवश्यकता होती है तथा Beacon को सभी के लिए बेहतर बनता है।";
 
 /* The title for the setting to send usage data. */
 "Settings.SendUsage.Title" = "उपयोगित डेटा भेजें";
@@ -1335,12 +1335,12 @@
 "Settings.Siri.OpenTabShortcut" = "नया टैब खोलें";
 
 /* The description that describes what siri shortcuts are */
-"Settings.Siri.SectionDescription" = "Siri के द्वारा तुरंत Impervious खोलने के लिए Siri शॉर्टकट का उपयोग करें";
+"Settings.Siri.SectionDescription" = "Siri के द्वारा तुरंत Beacon खोलने के लिए Siri शॉर्टकट का उपयोग करें";
 
 /* The option that takes you to the siri shortcuts settings page */
 "Settings.Siri.SectionName" = "Siri शॉर्टकट";
 
-/* Title for a link that explains what Impervious means by Studies */
+/* Title for a link that explains what Beacon means by Studies */
 "Settings.Studies.Toggle.Link" = "अधिक जानें।";
 
 /* Dismiss button for the tracker protection alert. */
@@ -1350,7 +1350,7 @@
 "Settings.TrackingProtection.Alert.Title" = "सावधान!";
 
 /* Header description for tracking protection options section where Basic/Strict block list can be selected */
-"Settings.TrackingProtection.BlockListsHeader" = "आप चुन सकते हैं कि Impervious वेब तत्वों को ब्लाॅक करने के लिए कौन सी सूची प्रयोग करेगा जो आपकी ब्राउजिंग गतिविधि को ट्रैक कर सकते हैं।";
+"Settings.TrackingProtection.BlockListsHeader" = "आप चुन सकते हैं कि Beacon वेब तत्वों को ब्लाॅक करने के लिए कौन सी सूची प्रयोग करेगा जो आपकी ब्राउजिंग गतिविधि को ट्रैक कर सकते हैं।";
 
 /* Explanation of basic mode. */
 "Settings.TrackingProtection.Info.BasicTitle" = "सुरक्षा और प्रदर्शन के लिए संतुलित।";
@@ -1436,32 +1436,32 @@
 /* Title displayed in header of the Data Management panel. */
 "Settings.WebsiteData.Title" = "वेबसाइट डेटा";
 
-/* Action label on share extension to add page to the Impervious reading list. */
+/* Action label on share extension to add page to the Beacon reading list. */
 "ShareExtension.AddToReadingListAction.Title" = "पठन सूची में जोड़ें";
 
 /* Share extension label shown after user has performed 'Add to Reading List' action. */
 "ShareExtension.AddToReadingListActionDone.Title" = "पठन सूची में जोड़ा गया";
 
-/* Action label on share extension to bookmark the page in Impervious. */
+/* Action label on share extension to bookmark the page in Beacon. */
 "ShareExtension.BookmarkThisPageAction.Title" = "यह पृष्ठ बुकमार्क करें";
 
 /* Share extension label shown after user has performed 'Bookmark this Page' action. */
 "ShareExtension.BookmarkThisPageActionDone.Title" = "बुकमार्क हो गया";
 
-/* Action label on share extension to load the page in Impervious when user switches apps to bring it to foreground. */
+/* Action label on share extension to load the page in Beacon when user switches apps to bring it to foreground. */
 "ShareExtension.LoadInBackgroundAction.Title" = "बैकग्राउंड में लोड करें";
 
 /* Share extension label shown after user has performed 'Load in Background' action. */
-"ShareExtension.LoadInBackgroundActionDone.Title" = "Impervious में लोड हो रहा है";
+"ShareExtension.LoadInBackgroundActionDone.Title" = "Beacon में लोड हो रहा है";
 
-/* Action label on share extension to immediately open page in Impervious. */
-"ShareExtension.OpenInFirefoxAction.Title" = "Impervious में खोलें";
+/* Action label on share extension to immediately open page in Beacon. */
+"ShareExtension.OpenInFirefoxAction.Title" = "Beacon में खोलें";
 
-/* Action label on share extension to immediately open page in Impervious in private mode. */
+/* Action label on share extension to immediately open page in Beacon in private mode. */
 "ShareExtension.OpenInPrivateModeAction.Title" = "निजी मोड में खोलें";
 
-/* Action label on share extension to search for the selected text in Impervious. */
-"ShareExtension.SeachInFirefoxAction.Title" = "Impervious में खोजें";
+/* Action label on share extension to search for the selected text in Beacon. */
+"ShareExtension.SeachInFirefoxAction.Title" = "Beacon में खोजें";
 
 /* Label for show search suggestions setting. */
 "Show Search Suggestions" = "खोज सुझाव दिखाएं";
@@ -1498,7 +1498,7 @@
 "Sync.FirstTimeMessage.Label" = "आपका पहला सिंक कुछ समय ले सकता है";
 
 /* String displayed on Sign In to Sync page that allows the user to create a new account. */
-"Sync.NoAccount.Description" = "खाता नहीं है? डिवाइस के बीच Impervious सिंक करने के लिए एक खाता बनाएं।";
+"Sync.NoAccount.Description" = "खाता नहीं है? डिवाइस के बीच Beacon सिंक करने के लिए एक खाता बनाएं।";
 
 /* Message displayed when the user's account is syncing with no ellipsis */
 "Sync.Syncing.Label" = "सिंक हो रहा है";
@@ -1596,7 +1596,7 @@
 /* The section header for tabs opened yesterday */
 "TabTray.Yesterday.Header" = "कल";
 
-/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Beacon reader mode from another app. */
 "The page could not be displayed in Reader View." = "पृष्ठ पाठक परिदृश्य में प्रदर्शित नहीं किया जा सकता है।";
 
 /* Error message in the remote tabs panel */
@@ -1654,13 +1654,13 @@
 "UIMenuItem.PasteGo" = "पेस्ट करें और आगे बढ़ें";
 
 /* Search in New Tab Text selection menu item */
-"UIMenuItem.SearchWithFirefox" = "Impervious के साथ खोजें";
+"UIMenuItem.SearchWithFirefox" = "Beacon के साथ खोजें";
 
 /* Accessibility label for unread article in reading list. It's a past participle - functions as an adjective. */
 "unread" = "अपठित";
 
 /* Text message in the settings table view */
-"Upgrade Impervious to connect" = "संपर्क हेतु Impervious को अपग्रेड करें";
+"Upgrade Beacon to connect" = "संपर्क हेतु Beacon को अपग्रेड करें";
 
 /* Debug option */
 "Use stage servers" = "स्टेज सर्वर का उपयोग करें";
@@ -1671,7 +1671,7 @@
 /* Text message in the settings table view */
 "Verify your email address" = "अपना ईमेल सत्यापित करें";
 
-/* Version number of Impervious shown in settings */
+/* Version number of Beacon shown in settings */
 "Version %@ (%@)" = "संस्करण %1$@ (%2$@)";
 
 /* Accessibility label for the main web content view */
@@ -1693,7 +1693,7 @@
 "Yesterday" = "कल";
 
 /* Error message in the remote tabs panel */
-"You don’t have any tabs open in Impervious on your other devices." = "आपके अन्य उपकरणों पर Impervious में कोई टैब खुला नहीं है।";
+"You don’t have any tabs open in Beacon on your other devices." = "आपके अन्य उपकरणों पर Beacon में कोई टैब खुला नहीं है।";
 
 /* Your Rights settings section title */
 "Your Rights" = "आपके अधिकार";

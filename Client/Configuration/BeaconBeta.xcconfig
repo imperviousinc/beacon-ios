@@ -5,8 +5,8 @@
 #include "Common.xcconfig"
 #include "Release.xcconfig"
 
-MOZ_BUNDLE_DISPLAY_NAME = Impervious Beta
+MOZ_BUNDLE_DISPLAY_NAME = Beacon Beta
 MOZ_BUNDLE_ID = com.impervious.ios.BrowserBeta
-CODE_SIGN_ENTITLEMENTS = Client/Entitlements/ImperviousBetaApplication.entitlements
+CODE_SIGN_ENTITLEMENTS = Client/Entitlements/BeaconBetaApplication.entitlements
 OTHER_SWIFT_FLAGS = $(OTHER_SWIFT_FLAGS_common) -DMOZ_CHANNEL_BETA
 MOZ_INTERNAL_URL_SCHEME = browser-beta

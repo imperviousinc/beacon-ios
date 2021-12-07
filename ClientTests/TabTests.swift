@@ -7,13 +7,13 @@ import XCTest
 
 class TabTests: XCTestCase {
     func testWithoutMobilePrefixRemovesMobilePrefixes() {
-        let url = URL(string: "https://m.wikipedia.org/wiki/Firefox")!
+        let url = URL(string: "https://m.wikipedia.org/wiki/Beacon")!
         let newUrl = url.withoutMobilePrefix()
         XCTAssertEqual(newUrl.host, "wikipedia.org")
     }
 
     func testWithoutMobilePrefixRemovesMobile() {
-        let url = URL(string: "https://en.mobile.wikipedia.org/wiki/Firefox")!
+        let url = URL(string: "https://en.mobile.wikipedia.org/wiki/Beacon")!
         let newUrl = url.withoutMobilePrefix()
         XCTAssertEqual(newUrl.host, "en.wikipedia.org")
     }

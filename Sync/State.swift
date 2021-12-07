@@ -349,7 +349,7 @@ open class Scratchpad {
     // This label is used to retrieve the real keys from your Keychain.
     //
     // Note that we also don't store the syncKeyBundle here. That's always created from kB,
-    // provided by the Firefox Account.
+    // provided by the Beacon Account.
     //
     // Why don't we derive the label from your Sync Key? Firstly, we'd like to be able to
     // clean up without having your key. Secondly, we don't want to accidentally load keys

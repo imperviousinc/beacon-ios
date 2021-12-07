@@ -4,8 +4,8 @@
 
 NSLocationWhenInUseUsageDescription = "Websites you visit may request your location.";
 NSPhotoLibraryAddUsageDescription = "This lets you save photos.";
-NSCameraUsageDescription = "Impervious uses your camera to scan QR codes and take photos and video.";
-NSMicrophoneUsageDescription = "Impervious uses your microphone to record and upload audio.";
+NSCameraUsageDescription = "Beacon uses your camera to scan QR codes and take photos and video.";
+NSMicrophoneUsageDescription = "Beacon uses your microphone to record and upload audio.";
 ShortcutItemTitleNewTab = "New Tab";
 ShortcutItemTitleNewPrivateTab = "New Private Tab";
 ShortcutItemTitleQRCode = "Scan QR Code";

@@ -2,7 +2,7 @@
 "NSCameraUsageDescription" = "Això permet fer fotos i pujar-les.";
 
 /* Privacy - Face ID Usage Description */
-"NSFaceIDUsageDescription" = "El Impervious necessita el Face ID per accedir als vostres inicis de sessió desats.";
+"NSFaceIDUsageDescription" = "El Beacon necessita el Face ID per accedir als vostres inicis de sessió desats.";
 
 /* This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this

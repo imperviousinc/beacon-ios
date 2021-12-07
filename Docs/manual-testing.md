@@ -1,6 +1,6 @@
-Firefox for iOS Testing
+Beacon for iOS Testing
 
-Softvision Mobile QA - Firefox for iOS testing tasks and process
+Softvision Mobile QA - Beacon for iOS testing tasks and process
 
 ## Release
 

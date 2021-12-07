@@ -36,7 +36,7 @@ class HiddenSetting: Setting {
     }
 }
 
-// Sync setting for connecting a Firefox Account.  Shown when we don't have an account.
+// Sync setting for connecting a Beacon Account.  Shown when we don't have an account.
 class ConnectSetting: WithoutAccountSetting {
     override var accessoryView: UIImageView? { return disclosureIndicator }
 
@@ -294,7 +294,7 @@ class SyncNowSetting: WithAccountSetting {
     }
 }
 
-// Sync setting that shows the current Firefox Account status.
+// Sync setting that shows the current Beacon Account status.
 class AccountStatusSetting: WithAccountSetting {
     override init(settings: SettingsTableViewController) {
         super.init(settings: settings)
@@ -609,7 +609,7 @@ class ToggleInactiveTabs: HiddenSetting, FeatureFlagsProtocol {
     }
 }
 
-// Show the current version of Firefox
+// Show the current version of Beacon
 class VersionSetting: Setting {
     unowned let settings: SettingsTableViewController
 
@@ -724,7 +724,7 @@ class SendFeedbackSetting: Setting {
     }
 
     override var url: URL? {
-        let subject = "Impervious Browser - Feedback"
+        let subject = "Beacon Browser - Feedback"
         let subjectEncoded = subject.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!
 
         return URL(string: "mailto:support@impervious.com?subject=\(subjectEncoded)")
@@ -745,7 +745,7 @@ class DNSVPNSetting : BoolSetting {
         statusText.append(NSAttributedString(string: "You should enable this option, if your device doesn't resolve HNS names.", attributes: [NSAttributedString.Key.foregroundColor: UIColor.theme.general.highlightBlue]))
 
         super.init(
-            prefs: prefs, prefKey: "ImperviousSecureDNSSystem", defaultValue: false,
+            prefs: prefs, prefKey: "BeaconSecureDNSSystem", defaultValue: false,
             attributedTitleText: NSAttributedString(string: "System DNS"),
             attributedStatusText: statusText,
             settingDidChange: { enabled in

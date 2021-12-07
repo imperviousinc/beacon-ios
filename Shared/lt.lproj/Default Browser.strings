@@ -1,16 +1,16 @@
-/* Button string to open settings that allows user to switch their default browser to Impervious. */
+/* Button string to open settings that allows user to switch their default browser to Beacon. */
 "DefaultBrowserCard.Button" = "Eiti į nustatymus";
 
 /* Button string to learn how to set your default browser. */
 "DefaultBrowserCard.Button.v2" = "Sužinoti kaip";
 
-/* Description for small card shown that allows user to switch their default browser to Impervious. */
-"DefaultBrowserCard.Description" = "Leiskite saitams iš svetainių, el. laiškų, ir „Messages“ būti automatiškai atvertiems per „Firefox“.";
+/* Description for small card shown that allows user to switch their default browser to Beacon. */
+"DefaultBrowserCard.Description" = "Leiskite saitams iš svetainių, el. laiškų, ir „Messages“ būti automatiškai atvertiems per „Beacon“.";
 
-/* Title for small card shown that allows user to switch their default browser to Impervious. */
+/* Title for small card shown that allows user to switch their default browser to Beacon. */
 "DefaultBrowserCard.Title" = "Pakeiskite numatytąją naršyklę";
 
-/* Button string to open settings that allows user to switch their default browser to Impervious. */
+/* Button string to open settings that allows user to switch their default browser to Beacon. */
 "DefaultBrowserOnboarding.Button" = "Eiti į nuostatas";
 
 /* Description for default browser onboarding card. */
@@ -20,11 +20,11 @@
 "DefaultBrowserOnboarding.Description2" = "2. Bakstelėkite „Numatytoji naršyklė“";
 
 /* Description for default browser onboarding card. */
-"DefaultBrowserOnboarding.Description3" = "3. Pasirinkite „Firefox“";
+"DefaultBrowserOnboarding.Description3" = "3. Pasirinkite „Beacon“";
 
-/* Text for the screenshot of the iOS system settings page for Impervious. */
+/* Text for the screenshot of the iOS system settings page for Beacon. */
 "DefaultBrowserOnboarding.Screenshot" = "Numatytoji naršyklė";
 
-/* Menu option for setting Impervious as default browser. */
+/* Menu option for setting Beacon as default browser. */
 "Settings.DefaultBrowserMenuItem" = "Skirti numatytąja naršykle";
 

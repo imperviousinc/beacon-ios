@@ -5,7 +5,7 @@
 "ContextMenu.OpenInNewPrivateTabButtonTitle" = "פתיחה בלשונית פרטית חדשה";
 
 /* Description text displayed when there are no open tabs while in private mode */
-"Impervious won’t remember any of your history or cookies, but new bookmarks will be saved." = "‏Impervious לא ישמור את ההיסטוריה או העוגיות שלך, אבל סימניות חדשות יישמרו.";
+"Beacon won’t remember any of your history or cookies, but new bookmarks will be saved." = "‏Beacon לא ישמור את ההיסטוריה או העוגיות שלך, אבל סימניות חדשות יישמרו.";
 
 /* Text button displayed when there are no tabs open while in private mode */
 "Learn More" = "מידע נוסף";

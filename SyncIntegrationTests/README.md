@@ -1,4 +1,4 @@
-# Firefox iOS integration tests
+# Beacon iOS integration tests
 
 To run these tests you will need [Python 3][] and [pipenv][] installed. Once
 you have these, make sure you're in the `SyncIntegrationTests` directory and

@@ -7,10 +7,10 @@
 /* Next button on the first intro screen. */
 "Intro.Slides.Button.Next" = "Επόμενο";
 
-/* Sign in to Impervious account button on second intro screen. */
+/* Sign in to Beacon account button on second intro screen. */
 "Intro.Slides.Button.SignIn" = "Σύνδεση";
 
-/* Sign up to Impervious account button on second intro screen. */
+/* Sign up to Beacon account button on second intro screen. */
 "Intro.Slides.Button.SignUp" = "Εγγραφή";
 
 /* Description for the second item in the table related to fast searching via address bar */
@@ -20,13 +20,13 @@
 "Intro.Slides.Fast.Search.Title" = "Γρήγορη αναζήτηση";
 
 /* Description for the first item in the table related to syncing data (bookmarks, history) via firefox account between devices */
-"Intro.Slides.Firefox.Account.Sync.Description" = "Φέρτε σελιδοδείκτες, ιστορικό και κωδικούς πρόσβασης στο Impervious σε αυτή τη συσκευή.";
+"Intro.Slides.Beacon.Account.Sync.Description" = "Φέρτε σελιδοδείκτες, ιστορικό και κωδικούς πρόσβασης στο Beacon σε αυτή τη συσκευή.";
 
 /* Title for the first item in the table related to syncing data (bookmarks, history) via firefox account between devices */
-"Intro.Slides.Firefox.Account.Sync.Title" = "Συγχρονισμός του Impervious μεταξύ συσκευών";
+"Intro.Slides.Beacon.Account.Sync.Title" = "Συγχρονισμός του Beacon μεταξύ συσκευών";
 
 /* Description for the 'Mail' panel in the First Run tour. */
-"Intro.Slides.Mail.Description" = "Χρησιμοποιήστε οποιαδήποτε εφαρμογή email - όχι μόνο το Mail - με το Impervious.";
+"Intro.Slides.Mail.Description" = "Χρησιμοποιήστε οποιαδήποτε εφαρμογή email - όχι μόνο το Mail - με το Beacon.";
 
 /* Title for the fourth panel 'Mail' in the First Run tour. */
 "Intro.Slides.Mail.Title" = "Έχετε επιλογές… αλληλογραφίας";
@@ -38,7 +38,7 @@
 "Intro.Slides.Private.Title" = "Περιηγηθείτε σαν να μην σας βλέπει κανείς";
 
 /* Description for the third item in the table related to safe syncing with a firefox account */
-"Intro.Slides.Safe.Sync.Description" = "Προστατέψτε τις συνδέσεις και τα δεδομένα σας όπου κι αν χρησιμοποιήσετε το Impervious.";
+"Intro.Slides.Safe.Sync.Description" = "Προστατέψτε τις συνδέσεις και τα δεδομένα σας όπου κι αν χρησιμοποιήσετε το Beacon.";
 
 /* Title for the third item in the table related to safe syncing with a firefox account */
 "Intro.Slides.Safe.Sync.Title" = "Ασφαλής συγχρονισμός";
@@ -59,7 +59,7 @@
 "Intro.Slides.Welcome.Description.v2" = "Γρήγορο, ιδιωτικό, στο πλευρό σας.";
 
 /* Title for the first panel 'Welcome' in the First Run tour. */
-"Intro.Slides.Welcome.Title.v2" = "Καλώς ορίσατε στο Impervious";
+"Intro.Slides.Welcome.Title.v2" = "Καλώς ορίσατε στο Beacon";
 
 /* See http://mzl.la/1T8gxwo */
 "Start Browsing" = "Έναρξη περιήγησης";

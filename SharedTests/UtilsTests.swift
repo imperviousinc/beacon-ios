@@ -78,7 +78,7 @@ class UtilsTests: XCTestCase {
     }
 
     func testParseTimestamps() {
-        let millis = "1492316843992"        // Firefox for iOS produced millisecond timestamps. Oops.
+        let millis = "1492316843992"        // Beacon for iOS produced millisecond timestamps. Oops.
         let decimal = "1492316843.99"
         let truncated = "1492316843"
         let huge = "1844674407370955161512"

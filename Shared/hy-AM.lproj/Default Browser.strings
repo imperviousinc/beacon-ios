@@ -1,16 +1,16 @@
-/* Button string to open settings that allows user to switch their default browser to Impervious. */
+/* Button string to open settings that allows user to switch their default browser to Beacon. */
 "DefaultBrowserCard.Button" = "Անցնել Կարգավորումներին";
 
 /* Button string to learn how to set your default browser. */
 "DefaultBrowserCard.Button.v2" = "Իմանալ ինչպես";
 
-/* Description for small card shown that allows user to switch their default browser to Impervious. */
-"DefaultBrowserCard.Description" = "Տեղադրեք հղումներ կայքերից, էլ. նամակներից և հաղորդագրություններից՝ Impervious-ում ավտոմատ կերպով բացելու համար:";
+/* Description for small card shown that allows user to switch their default browser to Beacon. */
+"DefaultBrowserCard.Description" = "Տեղադրեք հղումներ կայքերից, էլ. նամակներից և հաղորդագրություններից՝ Beacon-ում ավտոմատ կերպով բացելու համար:";
 
-/* Title for small card shown that allows user to switch their default browser to Impervious. */
+/* Title for small card shown that allows user to switch their default browser to Beacon. */
 "DefaultBrowserCard.Title" = "Փոխարկեք ձեր կանխադրված զննարկիչը";
 
-/* Button string to open settings that allows user to switch their default browser to Impervious. */
+/* Button string to open settings that allows user to switch their default browser to Beacon. */
 "DefaultBrowserOnboarding.Button" = "Անցնել Կարգավորումներին";
 
 /* Description for default browser onboarding card. */
@@ -20,11 +20,11 @@
 "DefaultBrowserOnboarding.Description2" = "2. Հպեք սկզբնադիր զննարկիչի հավելվածին";
 
 /* Description for default browser onboarding card. */
-"DefaultBrowserOnboarding.Description3" = "3. Ընտրեք Impervious-ը";
+"DefaultBrowserOnboarding.Description3" = "3. Ընտրեք Beacon-ը";
 
-/* Text for the screenshot of the iOS system settings page for Impervious. */
+/* Text for the screenshot of the iOS system settings page for Beacon. */
 "DefaultBrowserOnboarding.Screenshot" = "Սկզբնադիր զննարկիչի հավելված";
 
-/* Menu option for setting Impervious as default browser. */
+/* Menu option for setting Beacon as default browser. */
 "Settings.DefaultBrowserMenuItem" = "Կայել որպես սկզբնադիր դիտարկիչ";
 

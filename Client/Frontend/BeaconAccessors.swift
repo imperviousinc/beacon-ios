@@ -1,17 +1,17 @@
 //
-//  ImperviousAccessors.swift
+//  BeaconAccessors.swift
 //  Client
 //
-//  Copyright © 2021 Impervious. All rights reserved.
+//  Copyright © 2021 Beacon. All rights reserved.
 //
 import Shared
 import Foundation
 import NetworkExtension
 
-class ImperviousConstants {
+class BeaconConstants {
     public static let SecureDNSPrefKey = "ImpSecureDNSPref"
     public static let SecureDNSURLPrefKey = "ImpSecureDNSURLPref"
-    public static let SecureDNSDefaultOption = "Impervious"
+    public static let SecureDNSDefaultOption = "Beacon"
     public static let SecureDNSCustomOption = "Custom"
     public static let SecureDNSDisabled = "Disabled"
     public static let SecureDNSDefaultURL = "https://hs.dnssec.dev/dns-query"
@@ -40,19 +40,19 @@ class DNSVPNConfiguration {
     }
     
     static func getDoHURL() -> String {
-        var url = ImperviousConstants.SecureDNSDefaultURL
-        let choice = NSUserDefaultsPrefs(prefix: "profile").stringForKey(ImperviousConstants.SecureDNSPrefKey)
+        var url = BeaconConstants.SecureDNSDefaultURL
+        let choice = NSUserDefaultsPrefs(prefix: "profile").stringForKey(BeaconConstants.SecureDNSPrefKey)
         if choice == "Custom" {
-            url = NSUserDefaultsPrefs(prefix: "profile").stringForKey(ImperviousConstants.SecureDNSURLPrefKey) ?? ImperviousConstants.SecureDNSDefaultURL
+            url = NSUserDefaultsPrefs(prefix: "profile").stringForKey(BeaconConstants.SecureDNSURLPrefKey) ?? BeaconConstants.SecureDNSDefaultURL
         }
         return url
     }
     
     static func startVPN() {
-        var url = ImperviousConstants.SecureDNSDefaultURL
-        let choice = NSUserDefaultsPrefs(prefix: "profile").stringForKey(ImperviousConstants.SecureDNSPrefKey)
+        var url = BeaconConstants.SecureDNSDefaultURL
+        let choice = NSUserDefaultsPrefs(prefix: "profile").stringForKey(BeaconConstants.SecureDNSPrefKey)
         if choice == "Custom" {
-            url = NSUserDefaultsPrefs(prefix: "profile").stringForKey(ImperviousConstants.SecureDNSURLPrefKey) ?? ImperviousConstants.SecureDNSDefaultURL
+            url = NSUserDefaultsPrefs(prefix: "profile").stringForKey(BeaconConstants.SecureDNSURLPrefKey) ?? BeaconConstants.SecureDNSDefaultURL
         }
         
         getManager() { m in
@@ -107,11 +107,11 @@ class DNSVPNConfiguration {
                 let manager = NETunnelProviderManager()
                 let protoConfig = NETunnelProviderProtocol()
                 protoConfig.providerBundleIdentifier = (Bundle.main.bundleIdentifier ?? "com.impervious.ios.browser") + ".DNSAppExt"
-                protoConfig.serverAddress = "Impervious DNS"
+                protoConfig.serverAddress = "Beacon DNS"
                 protoConfig.providerConfiguration = ["l": 1]
                 let connectRule = NEOnDemandRuleConnect()
                 manager.onDemandRules = [connectRule]
-                manager.localizedDescription = "Impervious DNS"
+                manager.localizedDescription = "Beacon DNS"
                 manager.protocolConfiguration = protoConfig
                 manager.isEnabled = true
                 manager.isOnDemandEnabled = true
@@ -139,16 +139,16 @@ class DNSVPNConfiguration {
 
 class DNSAccessors {
     static func getSecureDNSOption(_ prefs: Prefs) -> String {
-        return prefs.stringForKey(ImperviousConstants.SecureDNSPrefKey) ?? ImperviousConstants.SecureDNSDefaultOption
+        return prefs.stringForKey(BeaconConstants.SecureDNSPrefKey) ?? BeaconConstants.SecureDNSDefaultOption
     }
     
     static func getDoHServer(_ prefs: Prefs) -> String {
-        let opt = prefs.stringForKey(ImperviousConstants.SecureDNSPrefKey) ?? ImperviousConstants.SecureDNSDefaultOption
-        if opt == ImperviousConstants.SecureDNSDefaultOption {
-            return ImperviousConstants.SecureDNSDefaultURL
+        let opt = prefs.stringForKey(BeaconConstants.SecureDNSPrefKey) ?? BeaconConstants.SecureDNSDefaultOption
+        if opt == BeaconConstants.SecureDNSDefaultOption {
+            return BeaconConstants.SecureDNSDefaultURL
         }
         
-        return prefs.stringForKey(ImperviousConstants.SecureDNSURLPrefKey) ?? ImperviousConstants.SecureDNSDefaultURL
+        return prefs.stringForKey(BeaconConstants.SecureDNSURLPrefKey) ?? BeaconConstants.SecureDNSDefaultURL
 
     }
 }

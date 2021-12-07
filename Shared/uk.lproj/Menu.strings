@@ -70,7 +70,7 @@
 /* Label for the button, displayed in the menu, used to open the QR code scanner. */
 "Menu.ScanQRCodeAction.Title" = "Сканувати QR-код";
 
-/* Label for the button, displayed in Impervious Home, used to see all Library panels. */
+/* Label for the button, displayed in Beacon Home, used to see all Library panels. */
 "Menu.SeeAllAction.Title" = "Дивитись все";
 
 /* Label for the button, displayed in the menu, used to open the share dialog. */

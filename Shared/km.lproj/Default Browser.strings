@@ -1,16 +1,16 @@
-/* Button string to open settings that allows user to switch their default browser to Impervious. */
+/* Button string to open settings that allows user to switch their default browser to Beacon. */
 "DefaultBrowserCard.Button" = "ចូលទៅកាន់​ការកំណត់";
 
 /* Button string to learn how to set your default browser. */
 "DefaultBrowserCard.Button.v2" = "ស្វែងយល់​របៀប";
 
-/* Description for small card shown that allows user to switch their default browser to Impervious. */
-"DefaultBrowserCard.Description" = "កំណត់​តំណ​ពី​គេហទំព័រ អ៊ីមែល និង Messages ដើម្បីបើក​នៅក្នុង Impervious ដោយ​ស្វ័យប្រវត្តិ។";
+/* Description for small card shown that allows user to switch their default browser to Beacon. */
+"DefaultBrowserCard.Description" = "កំណត់​តំណ​ពី​គេហទំព័រ អ៊ីមែល និង Messages ដើម្បីបើក​នៅក្នុង Beacon ដោយ​ស្វ័យប្រវត្តិ។";
 
-/* Title for small card shown that allows user to switch their default browser to Impervious. */
+/* Title for small card shown that allows user to switch their default browser to Beacon. */
 "DefaultBrowserCard.Title" = "ប្ដូរ​កម្មវិធី​រុករក​តាមអ៊ីនធឺណិត​លំនាំដើម​របស់​អ្នក";
 
-/* Button string to open settings that allows user to switch their default browser to Impervious. */
+/* Button string to open settings that allows user to switch their default browser to Beacon. */
 "DefaultBrowserOnboarding.Button" = "ចូលទៅកាន់​ការកំណត់";
 
 /* Description for default browser onboarding card. */
@@ -20,11 +20,11 @@
 "DefaultBrowserOnboarding.Description2" = "2. ចុច​កម្មវិធី​រុករក​តាម​អ៊ីនធឺណិត​លំនាំដើម";
 
 /* Description for default browser onboarding card. */
-"DefaultBrowserOnboarding.Description3" = "3. ជ្រើសរើស Impervious";
+"DefaultBrowserOnboarding.Description3" = "3. ជ្រើសរើស Beacon";
 
-/* Text for the screenshot of the iOS system settings page for Impervious. */
+/* Text for the screenshot of the iOS system settings page for Beacon. */
 "DefaultBrowserOnboarding.Screenshot" = "កម្មវិធី​រុករក​តាម​អ៊ីនធឺណិត​លំនាំដើម";
 
-/* Menu option for setting Impervious as default browser. */
+/* Menu option for setting Beacon as default browser. */
 "Settings.DefaultBrowserMenuItem" = "កំណត់​ជា​កម្មវិធី​រុករក​តាម​អ៊ីនធឺណិត​លំនាំដើម";
 

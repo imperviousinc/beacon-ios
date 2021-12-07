@@ -161,7 +161,7 @@ class OpenSearchEngine: NSObject, NSCoding {
  * OpenSearch XML parser.
  *
  * This parser accepts standards-compliant OpenSearch 1.1 XML documents in addition to
- * the Firefox-specific search plugin format.
+ * the Beacon-specific search plugin format.
  *
  * OpenSearch spec: http://www.opensearch.org/Specifications/OpenSearch/1.1
  */

@@ -1,16 +1,16 @@
-/* Button string to open settings that allows user to switch their default browser to Impervious. */
+/* Button string to open settings that allows user to switch their default browser to Beacon. */
 "DefaultBrowserCard.Button" = "ᱥᱟᱡᱟᱣ ᱠᱚ ᱨᱮ ᱪᱟᱞᱟᱜ ᱢᱮ";
 
 /* Button string to learn how to set your default browser. */
 "DefaultBrowserCard.Button.v2" = "ᱪᱮᱫᱢᱮ ᱚᱠᱟᱞᱠᱟ";
 
-/* Description for small card shown that allows user to switch their default browser to Impervious. */
-"DefaultBrowserCard.Description" = "ᱞᱤᱱᱠ ᱠᱚ ᱥᱟᱡᱟᱣ ᱢᱮ ᱣᱮᱵᱥᱟᱭᱤᱴ, ᱤᱢᱮᱞ, ᱟᱨ ᱢᱮᱥᱮᱡ ᱠᱷᱚᱱ Impervious ᱨᱮ ᱟᱪᱛᱮ ᱡᱷᱤᱜ ᱞᱚᱜᱤᱛ.";
+/* Description for small card shown that allows user to switch their default browser to Beacon. */
+"DefaultBrowserCard.Description" = "ᱞᱤᱱᱠ ᱠᱚ ᱥᱟᱡᱟᱣ ᱢᱮ ᱣᱮᱵᱥᱟᱭᱤᱴ, ᱤᱢᱮᱞ, ᱟᱨ ᱢᱮᱥᱮᱡ ᱠᱷᱚᱱ Beacon ᱨᱮ ᱟᱪᱛᱮ ᱡᱷᱤᱜ ᱞᱚᱜᱤᱛ.";
 
-/* Title for small card shown that allows user to switch their default browser to Impervious. */
+/* Title for small card shown that allows user to switch their default browser to Beacon. */
 "DefaultBrowserCard.Title" = "ᱟᱢᱟᱜ ᱢᱩᱞ ᱯᱟᱱᱛᱮᱭᱟᱜ ᱵᱚᱫᱚᱞ ᱢᱮ";
 
-/* Button string to open settings that allows user to switch their default browser to Impervious. */
+/* Button string to open settings that allows user to switch their default browser to Beacon. */
 "DefaultBrowserOnboarding.Button" = "ᱥᱟᱡᱟᱣ ᱨᱮ ᱪᱟᱞᱟᱜ ᱢᱮ";
 
 /* Description for default browser onboarding card. */
@@ -20,11 +20,11 @@
 "DefaultBrowserOnboarding.Description2" = "2. ᱢᱩᱞ ᱵᱨᱟᱩᱡᱽᱟᱹᱨ ᱮᱯ ᱨᱮ ᱚᱛᱟᱭ ᱢᱮ";
 
 /* Description for default browser onboarding card. */
-"DefaultBrowserOnboarding.Description3" = "3. Impervious ᱵᱟᱪᱷᱟᱣᱢᱮ";
+"DefaultBrowserOnboarding.Description3" = "3. Beacon ᱵᱟᱪᱷᱟᱣᱢᱮ";
 
-/* Text for the screenshot of the iOS system settings page for Impervious. */
+/* Text for the screenshot of the iOS system settings page for Beacon. */
 "DefaultBrowserOnboarding.Screenshot" = "ᱢᱩᱞ ᱵᱨᱟᱩᱡᱽᱟᱹᱨ ᱮᱯ";
 
-/* Menu option for setting Impervious as default browser. */
+/* Menu option for setting Beacon as default browser. */
 "Settings.DefaultBrowserMenuItem" = "ᱢᱩᱞ ᱯᱟᱱᱛᱮᱭᱟᱜ ᱞᱮᱠᱟ ᱥᱟᱡᱟᱣ ᱢᱮ";
 

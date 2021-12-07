@@ -263,7 +263,7 @@
 "ErrorPages.Advanced.Button" = "ಸುಧಾರಿತ";
 
 /* Warning text on the certificate error page */
-"ErrorPages.CertWarning.Description" = "%@ ನ ಮಾಲಿಕ ಅವರ ಜಾಲತಾಣವನ್ನು ಸರಿಯಾಗಿ ಸಂರಚಿಸಿಲ್ಲ. ನಿಮ್ಮ ಮಾಹಿತಿಯನ್ನು ಕಳ್ಳತನದಿಂದ ಸುರಕ್ಷಿತವಾಗಿರಿಸಲು, Impervious ಈ ಜಾಲತಾಣದೊಂದಿಗೆ ಸಂಪರ್ಕವನ್ನು ಹೊಂದಿಲ್ಲ.";
+"ErrorPages.CertWarning.Description" = "%@ ನ ಮಾಲಿಕ ಅವರ ಜಾಲತಾಣವನ್ನು ಸರಿಯಾಗಿ ಸಂರಚಿಸಿಲ್ಲ. ನಿಮ್ಮ ಮಾಹಿತಿಯನ್ನು ಕಳ್ಳತನದಿಂದ ಸುರಕ್ಷಿತವಾಗಿರಿಸಲು, Beacon ಈ ಜಾಲತಾಣದೊಂದಿಗೆ ಸಂಪರ್ಕವನ್ನು ಹೊಂದಿಲ್ಲ.";
 
 /* Title on the certificate error page */
 "ErrorPages.CertWarning.Title" = "ಈ ಸಂಪರ್ಕ ನಂಬಲರ್ಹವಲ್ಲ";
@@ -275,7 +275,7 @@
 "Facebook" = "ಫೇಸ್‌ಬುಕ್‌";
 
 /* Title for firefox about:home page in tab history list */
-"Firefox.HomePage.Title" = "Impervious ಮುಖ್ಯ ಪುಟ";
+"Beacon.HomePage.Title" = "Beacon ಮುಖ್ಯ ಪುಟ";
 
 /* Accessibility Label for the tab toolbar Forward button */
 "Forward" = "ಮುಂದೆ";
@@ -283,10 +283,10 @@
 /* Label stating your account is not verified */
 "FxA.AccountVerificationRequired" = "ಖಾತೆಯ ದೃಢೀಕರಣದ ಅಗತ್ಯವಿದೆ";
 
-/* Settings section title for Impervious Account */
-"FxA.FirefoxAccount" = "Impervious ಖಾತೆ";
+/* Settings section title for Beacon Account */
+"FxA.FirefoxAccount" = "Beacon ಖಾತೆ";
 
-/* Button label to go to Impervious Account settings */
+/* Button label to go to Beacon Account settings */
 "FxA.ManageAccount" = "ಖಾತೆ ಮತ್ತು ಸಾಧನಗಳನ್ನು ನಿರ್ವಹಿಸು‍";
 
 /* Label when no internet is present */
@@ -301,7 +301,7 @@
 /* Button label to sign into Sync */
 "FxA.SignIntoSync" = "ಸಿಂಕ್ ಮಾಡಲು ಸೈನ್ ಇನ್ ಆಗಿ";
 
-/* Button label to Sync your Impervious Account */
+/* Button label to Sync your Beacon Account */
 "FxA.SyncNow" = "ಈಗ ಸಿಂಕ್ ಮಾಡು";
 
 /* Call to action for sign into sync button */
@@ -332,7 +332,7 @@
 "HistoryPanel.EmptySyncedTabsNullState.Description" = "ನಿಮ್ಮ ಬೇರೆ ಸಾಧನಗಳ ಟ್ಯಾಬ್‍‍ಗಳು ಇಲ್ಲಿ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತವೆ.";
 
 /* Title for the empty synced tabs state in the History Panel */
-"HistoryPanel.EmptySyncedTabsState.Title" = "Impervious ಸಿಂಕ್";
+"HistoryPanel.EmptySyncedTabsState.Title" = "Beacon ಸಿಂಕ್";
 
 /* Title for the Back to History button in the History Panel */
 "HistoryPanel.HistoryBackButton.Title" = "ಇತಿಹಾಸ";
@@ -433,10 +433,10 @@
 /* Light theme setting in Reading View settings */
 "Light" = "ಬೆಳಕು";
 
-/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Beacon reader mode from another app. */
 "Load original page" = "ಮೂಲ ಪುಟವನ್ನು ಲೋಡ್ ಮಾಡಿ";
 
-/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Beacon reader mode from another app. */
 "Loading content…" = "ವಿಷಯವನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ…";
 
 /* Authentication prompt log in button */
@@ -485,7 +485,7 @@
 "LoginsList.Title" = "SAVED LOGINS";
 
 /* Restore Tabs Prompt Description */
-"Looks like Impervious crashed previously. Would you like to restore your tabs?" = "ಈ ಹಿಂದೆ ಫೈರ್ಫಾಕ್ಸ್ ಕುಸಿದಂತೆ ತೋರುತ್ತಿದೆ. ನಿಮ್ಮ ಟ್ಯಾಬ್ಗಳನ್ನು ಮರುಸ್ಥಾಪಿಸಲು ಬಯಸುವಿರಾ?";
+"Looks like Beacon crashed previously. Would you like to restore your tabs?" = "ಈ ಹಿಂದೆ ಫೈರ್ಫಾಕ್ಸ್ ಕುಸಿದಂತೆ ತೋರುತ್ತಿದೆ. ನಿಮ್ಮ ಟ್ಯಾಬ್ಗಳನ್ನು ಮರುಸ್ಥಾಪಿಸಲು ಬಯಸುವಿರಾ?";
 
 /* Name for Mark as read button in reader mode
    Title for the button that marks a reading list item as read */
@@ -566,7 +566,7 @@
 "Okay" = "ಸರಿ";
 
 /* Title for prompt displayed to user after the app crashes */
-"Oops! Impervious crashed" = "‍ಓಹ್ ಓ! ‍Firefox ಕುಸಿತಗೊಂಡಿದೆ";
+"Oops! Beacon crashed" = "‍ಓಹ್ ಓ! ‍Firefox ಕುಸಿತಗೊಂಡಿದೆ";
 
 /* See http://mzl.la/1G7uHo7 */
 "Open Settings" = "ಸಿದ್ಧತೆಗಳನ್ನು ತೆರೆ";
@@ -595,7 +595,7 @@
 /* Privacy section title */
 "Privacy" = "ಗೌಪ್ಯತೆ";
 
-/* Show Impervious Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
+/* Show Beacon Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
 "Privacy Policy" = "ಗೌಪ್ಯತಾ ನಿಯಮ";
 
 /* Title for quick-search engines settings section. */
@@ -707,7 +707,7 @@
 "SentTab.NoTabArrivingNotification.body" = "ಪ್ರಾರಂಭಿಸಲು ಮೆಲ್ಲಗೆ ತಟ್ಟಿ";
 
 /* Title of notification received after a spurious message from FxA has been received. */
-"SentTab.NoTabArrivingNotification.title" = "Impervious ಸಿಂಕ್";
+"SentTab.NoTabArrivingNotification.title" = "Beacon ಸಿಂಕ್";
 
 /* Label for an action used to view one or more tabs from a notification. */
 "SentTab.ViewAction.title" = "ನೋಟ";
@@ -779,11 +779,11 @@
 /* Label used for the device name settings section. */
 "Settings.FxA.DeviceName" = "ಸಾಧನದ ಹೆಸರು";
 
-/* Label used as a section title in the Impervious Accounts Settings screen. */
+/* Label used as a section title in the Beacon Accounts Settings screen. */
 "Settings.FxA.Sync.SectionName" = "ಸಿಂಕ್‍ನ ಸಿದ್ಧತೆಗಳು";
 
 /* Title displayed in header of the FxA settings panel. */
-"Settings.FxA.Title" = "Impervious ಖಾತೆ";
+"Settings.FxA.Title" = "Beacon ಖಾತೆ";
 
 /* General settings section title */
 "Settings.General.SectionName" = "ಸಾಮಾನ್ಯ";
@@ -870,7 +870,7 @@
 "Settings.TrackingProtection.Alert.Button" = "ಸರಿ, ಗೊತ್ತಾಯಿತು";
 
 /* Header description for tracking protection options section where Basic/Strict block list can be selected */
-"Settings.TrackingProtection.BlockListsHeader" = "ನೀಮ್ಮ ಜಾಲಾಟದ ಚಟುವಟಿಕೆಗಳ ಜಾಡುಹಿಡಿಯಬಲ್ಲ ಜಾಲ ಘಟಕಗಳನ್ನು ತಡೆಹಿಡಿಯಲು Impervious ಬಳಸಬಹುದಾದ ಪಟ್ಟಿಯನ್ನು ನೀವು ಆಯ್ಕೆ ಮಾಡಬಹುದು.";
+"Settings.TrackingProtection.BlockListsHeader" = "ನೀಮ್ಮ ಜಾಲಾಟದ ಚಟುವಟಿಕೆಗಳ ಜಾಡುಹಿಡಿಯಬಲ್ಲ ಜಾಲ ಘಟಕಗಳನ್ನು ತಡೆಹಿಡಿಯಲು Beacon ಬಳಸಬಹುದಾದ ಪಟ್ಟಿಯನ್ನು ನೀವು ಆಯ್ಕೆ ಮಾಡಬಹುದು.";
 
 /* Row in top-level of settings that gets tapped to show the tracking protection settings detail view. */
 "Settings.TrackingProtection.SectionName" = "ಜಾಡು ಇರಿಸುವಿಕೆ ಇಂದ ರಕ್ಷಣೆ";
@@ -905,31 +905,31 @@
 /* Title displayed in header of the Data Management panel. */
 "Settings.WebsiteData.Title" = "ಜಾಲತಾಣ ದತ್ತಾಂಶ";
 
-/* Action label on share extension to add page to the Impervious reading list. */
+/* Action label on share extension to add page to the Beacon reading list. */
 "ShareExtension.AddToReadingListAction.Title" = "ಓದುಗ ಪಟ್ಟಿಗೆ ಸೇರಿಸು";
 
 /* Share extension label shown after user has performed 'Add to Reading List' action. */
 "ShareExtension.AddToReadingListActionDone.Title" = "ಓದುಗ ಪಟ್ಟಿಗೆ ಸೇರಿಸಲಾಗಿದೆ";
 
-/* Action label on share extension to bookmark the page in Impervious. */
+/* Action label on share extension to bookmark the page in Beacon. */
 "ShareExtension.BookmarkThisPageAction.Title" = "ಈ ಪುಟವನ್ನು ಪುಟಗುರುತು ಮಾಡು";
 
 /* Share extension label shown after user has performed 'Bookmark this Page' action. */
 "ShareExtension.BookmarkThisPageActionDone.Title" = "ಪುಟಗುರುತು ಮಾಡಲಾದ";
 
-/* Action label on share extension to load the page in Impervious when user switches apps to bring it to foreground. */
+/* Action label on share extension to load the page in Beacon when user switches apps to bring it to foreground. */
 "ShareExtension.LoadInBackgroundAction.Title" = "ಹಿನ್ನೆಲೆಯಲ್ಲಿ ಮೂಡಿಸು";
 
 /* Share extension label shown after user has performed 'Load in Background' action. */
 "ShareExtension.LoadInBackgroundActionDone.Title" = "ಫೈರ್ಫಾಕ್ಸ್ನಲ್ಲಿ ಲೋಡ್ ಆಗುತ್ತಿದೆ";
 
-/* Action label on share extension to immediately open page in Impervious. */
+/* Action label on share extension to immediately open page in Beacon. */
 "ShareExtension.OpenInFirefoxAction.Title" = "ಫೈರ್ಫಾಕ್ಸ್ನಲ್ಲಿ ತೆರೆಯಿರಿ";
 
-/* Action label on share extension to immediately open page in Impervious in private mode. */
+/* Action label on share extension to immediately open page in Beacon in private mode. */
 "ShareExtension.OpenInPrivateModeAction.Title" = "ಖಾಸಗಿ ಮೋಡ್ನಲ್ಲಿ ತೆರೆಯಿರಿ";
 
-/* Action label on share extension to search for the selected text in Impervious. */
+/* Action label on share extension to search for the selected text in Beacon. */
 "ShareExtension.SeachInFirefoxAction.Title" = "ಫೈರ್ಫಾಕ್ಸ್ನಲ್ಲಿ ಹುಡುಕಿ";
 
 /* Label for show search suggestions setting. */
@@ -1066,7 +1066,7 @@
 "unread" = "ಓದದೆ ಇರುವ";
 
 /* Text message in the settings table view */
-"Upgrade Impervious to connect" = "ಫೈರ್ಫಾಕ್ಸ್ ಅನ್ನು ಸಂಪರ್ಕಿಸಲು ಪರಿಷ್ಕರಣೆ ಮಾಡಿ";
+"Upgrade Beacon to connect" = "ಫೈರ್ಫಾಕ್ಸ್ ಅನ್ನು ಸಂಪರ್ಕಿಸಲು ಪರಿಷ್ಕರಣೆ ಮಾಡಿ";
 
 /* Username textbox in Authentication prompt */
 "Username" = "ಬಳಕೆದಾರನ ಹೆಸರು";
@@ -1074,7 +1074,7 @@
 /* Text message in the settings table view */
 "Verify your email address" = "ನಿಮ್ಮ ಇಮೇಲ್ ವಿಳಾಸವನ್ನು ಧೃಡೀಕರಿಸಿ";
 
-/* Version number of Impervious shown in settings */
+/* Version number of Beacon shown in settings */
 "Version %@ (%@)" = "ಆವೃತ್ತಿ %1$@ (%2$@)";
 
 /* Accessibility label for the main web content view */

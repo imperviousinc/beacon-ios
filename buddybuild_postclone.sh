@@ -23,7 +23,7 @@ npm run build
 
 git clone https://github.com/mozilla-mobile/ios-l10n-scripts.git || exit 1
 
-if [ "$BUDDYBUILD_SCHEME" = "Firefox" ]; then
+if [ "$BUDDYBUILD_SCHEME" = "Beacon" ]; then
   setup_virtualenv
   ./ios-l10n-scripts/import-locales-firefox.sh --release
 fi

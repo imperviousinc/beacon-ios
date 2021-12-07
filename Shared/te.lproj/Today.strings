@@ -23,20 +23,20 @@
 "TodayWidget.PrivateTabButtonLabelV1" = "అంతరంగిక వెతుకులాట";
 
 /* Sub label for Top Sites widget */
-"TodayWidget.QuickViewOpenTabsSubLabel" = "Impervious - తెరిచివున్న ట్యాబులు";
+"TodayWidget.QuickViewOpenTabsSubLabel" = "Beacon - తెరిచివున్న ట్యాబులు";
 
-/* Title for small size widget which allows users to search in Impervious. Do not translate the word Impervious. */
+/* Title for small size widget which allows users to search in Beacon. Do not translate the word Beacon. */
 "TodayWidget.SearchInFirefoxTitle" = "Firefox‌తో వెతుకు";
 
-/* Title for top sites widget to add Impervious top sites shotcuts to home screen */
+/* Title for top sites widget to add Beacon top sites shotcuts to home screen */
 "TodayWidget.TopSitesGalleryTitle" = "మేటి సైట్లు";
 
 /* Sub label for Top Sites widget */
-"TodayWidget.TopSitesSubLabel" = "Impervious - మేటి సైట్లు";
+"TodayWidget.TopSitesSubLabel" = "Beacon - మేటి సైట్లు";
 
 /* View More for Quick View widget in Gallery View where we don't know how many tabs might be opened */
 "TodayWidget.ViewMore" = "ఇంకా చూడండి";
 
-/* View More… for Impervious Pocket stories widget where we don't know how many articles are available. */
+/* View More… for Beacon Pocket stories widget where we don't know how many articles are available. */
 "TodayWidget.ViewMoreDots" = "ఇంకా చూడండి…";
 

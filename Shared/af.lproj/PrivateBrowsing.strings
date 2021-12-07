@@ -2,7 +2,7 @@
 "Close Private Tabs" = "Sluit private oortjies";
 
 /* Description text displayed when there are no open tabs while in private mode */
-"Impervious won’t remember any of your history or cookies, but new bookmarks will be saved." = "Impervious sal nie geskiedenis en koekies onthou nie, maar nuwe boekmerke sal gestoor word.";
+"Beacon won’t remember any of your history or cookies, but new bookmarks will be saved." = "Beacon sal nie geskiedenis en koekies onthou nie, maar nuwe boekmerke sal gestoor word.";
 
 /* Text button displayed when there are no tabs open while in private mode */
 "Learn More" = "Meer inligting";

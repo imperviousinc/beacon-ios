@@ -270,7 +270,7 @@
 "Could not load page." = "ページを読み込めませんでした。";
 
 /* Description for the new dark mode change in the version 22 app release. It describes the new automatic dark theme and how to change the theme settings. */
-"CoverSheet.v22.DarkMode.Description" = "iOS 13 ユーザーは、端末がダークモードに設定されている場合、Impervious も自動的にダークテーマに切り替わります。この動作を変更するには、「設定」 > 「テーマ」の順に開いてください。";
+"CoverSheet.v22.DarkMode.Description" = "iOS 13 ユーザーは、端末がダークモードに設定されている場合、Beacon も自動的にダークテーマに切り替わります。この動作を変更するには、「設定」 > 「テーマ」の順に開いてください。";
 
 /* Title for the new dark mode change in the version 22 app release. */
 "CoverSheet.v22.DarkMode.Title" = "ダークテーマは、ダークキーボードとダークスプラッシュ画面を含みます。";
@@ -325,7 +325,7 @@
 /* Alert dialog title when the user taps the cancel download icon. */
 "Downloads.CancelDialog.Title" = "ダウンロードを中止";
 
-/* The message displayed to a user when they try and perform the download of an asset that Impervious cannot currently handle. */
+/* The message displayed to a user when they try and perform the download of an asset that Beacon cannot currently handle. */
 "Downloads.Error.Message" = "ダウンロードはまだサポートされていません。";
 
 /* The label text in the Download Cancelled toast for showing confirmation that the download was cancelled. */
@@ -392,7 +392,7 @@
 "Facebook" = "Facebook";
 
 /* Title for firefox about:home page in tab history list */
-"Firefox.HomePage.Title" = "Impervious ホームページ";
+"Beacon.HomePage.Title" = "Beacon ホームページ";
 
 /* Accessibility Label for the tab toolbar Forward button */
 "Forward" = "進む";
@@ -403,16 +403,16 @@
 /* Label stating your account is not verified */
 "FxA.AccountVerificationRequired" = "アカウントの確認が必要です";
 
-/* Message explaining that user needs to check email for Impervious Account verfication link. */
-"FxA.AccountVerificationRequiredSurface" = "%@ を確認する必要があります。確認のリンクが書かれた Impervious からのメールをチェックしてください。";
+/* Message explaining that user needs to check email for Beacon Account verfication link. */
+"FxA.AccountVerificationRequiredSurface" = "%@ を確認する必要があります。確認のリンクが書かれた Beacon からのメールをチェックしてください。";
 
 /* Button label to connect another device to Sync */
 "FxA.ConnectAnotherDevice" = "他の端末を接続";
 
-/* Settings section title for Impervious Account */
-"FxA.FirefoxAccount" = "Impervious アカウント";
+/* Settings section title for Beacon Account */
+"FxA.FirefoxAccount" = "Beacon アカウント";
 
-/* Button label to go to Impervious Account settings */
+/* Button label to go to Beacon Account settings */
 "FxA.ManageAccount" = "アカウントと端末の管理";
 
 /* Label when no internet is present */
@@ -428,7 +428,7 @@
 "FxA.RemoveAccount" = "削除";
 
 /* Description string for alert view that gets presented when user tries to remove an account. */
-"FxA.RemoveAccountAlertMessage" = "このデバイスに関連付けされた Impervious アカウントを削除し、別のユーザーでログインする。";
+"FxA.RemoveAccountAlertMessage" = "このデバイスに関連付けされた Beacon アカウントを削除し、別のユーザーでログインする。";
 
 /* Remove account alert is the final confirmation before user removes their firefox account */
 "FxA.RemoveAccountAlertTitle" = "アカウントを削除";
@@ -440,13 +440,13 @@
 "fxa.signin.camera-signin" = "カメラを使ってログイン";
 
 /* FxA sign in create account label. */
-"fxa.signin.create-account-pt-1" = "アカウントを持つ端末間で Impervious を同期する。";
+"fxa.signin.create-account-pt-1" = "アカウントを持つ端末間で Beacon を同期する。";
 
 /* FxA sign in create account label. This will be linked to the site to create an account. */
-"fxa.signin.create-account-pt-2" = "Impervious アカウントを作成する。";
+"fxa.signin.create-account-pt-2" = "Beacon アカウントを作成する。";
 
 /* FxA sign in view qr code instructions */
-"fxa.signin.qr-link-instruction" = "コンピューターの Impervious で firefox.com/pair を開いてください";
+"fxa.signin.qr-link-instruction" = "コンピューターの Beacon で firefox.com/pair を開いてください";
 
 /* FxA sign in view qr code scan button */
 "fxa.signin.ready-to-scan" = "スキャンの準備ができました";
@@ -463,14 +463,14 @@
 /* Label explaining what sync does */
 "FxA.SyncExplain" = "他の端末で開いたタブや、ブックマーク、パスワードを読み込めます。";
 
-/* Button label to Sync your Impervious Account */
+/* Button label to Sync your Beacon Account */
 "FxA.SyncNow" = "今すぐ同期";
 
 /* Call to action for sign into sync button */
 "FxA.TakeYourWebWithYou" = "ウェブを持ち歩こう";
 
 /* Title of a notification displayed when another device has connected to FxA. %@ refers to the name of the newly connected device. */
-"FxAPush_DeviceConnected_body" = "Impervious Sync が %@ に接続しました";
+"FxAPush_DeviceConnected_body" = "Beacon Sync が %@ に接続しました";
 
 /* Title of a notification displayed when another device has connected to FxA. */
 "FxAPush_DeviceConnected_title" = "Sync に接続しました";
@@ -479,7 +479,7 @@
 "FxAPush_DeviceDisconnected_body" = "%@ の接続が正常に解除されました。";
 
 /* Body of a notification displayed when this device has been disconnected from FxA by another device. */
-"FxAPush_DeviceDisconnected_ThisDevice_body" = "この端末は Impervious Sync から正常に切断されました。";
+"FxAPush_DeviceDisconnected_ThisDevice_body" = "この端末は Beacon Sync から正常に切断されました。";
 
 /* Title of a notification displayed when this device has been disconnected by another device. */
 "FxAPush_DeviceDisconnected_ThisDevice_title" = "Sync から切断されました";
@@ -488,7 +488,7 @@
 "FxAPush_DeviceDisconnected_title" = "Sync から切断されました";
 
 /* Body of a notification displayed when unnamed device has been disconnected from FxA. */
-"FxAPush_DeviceDisconnected_UnknownDevice_body" = "端末のひとつが Impervious Sync から切断されました";
+"FxAPush_DeviceDisconnected_UnknownDevice_body" = "端末のひとつが Beacon Sync から切断されました";
 
 /* A re-worded offer about Sync, displayed when the Sync home panel is empty, that emphasizes one-way data transfer, not syncing. */
 "Get your open tabs, bookmarks, and passwords from your other devices." = "他の端末で開いたタブや、ブックマーク、パスワードを読み込めます。";
@@ -536,7 +536,7 @@
 "HistoryPanel.EmptySyncedTabsPanelTabSyncDisabledState.Description" = "他の端末で開いているタブの一覧を表示するにはタブの同期を有効にしてください。";
 
 /* Title for the empty synced tabs state in the History Panel */
-"HistoryPanel.EmptySyncedTabsState.Title" = "Impervious Sync";
+"HistoryPanel.EmptySyncedTabsState.Title" = "Beacon Sync";
 
 /* Title for the Back to History button in the History Panel */
 "HistoryPanel.HistoryBackButton.Title" = "履歴";
@@ -643,10 +643,10 @@
 /* Light theme setting in Reading View settings */
 "Light" = "ライト";
 
-/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Beacon reader mode from another app. */
 "Load original page" = "元のページを読み込む";
 
-/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Beacon reader mode from another app. */
 "Loading content…" = "コンテンツを読み込んでいます…";
 
 /* Authentication prompt log in button */
@@ -701,7 +701,7 @@
 "LoginsList.LoginsListSearchPlaceholder" = "フィルター";
 
 /* Label shown when there are no logins to list */
-"LoginsList.NoLoginsFound.Description" = "保存されたログイン情報がここに表示されます。別の端末の Impervious で保存したログイン情報を表示するには、Impervious アカウントにログインしてください。";
+"LoginsList.NoLoginsFound.Description" = "保存されたログイン情報がここに表示されます。別の端末の Beacon で保存したログイン情報を表示するには、Beacon アカウントにログインしてください。";
 
 /* Label shown when there are no logins saved */
 "LoginsList.NoLoginsFound.Title" = "ログイン情報はありません";
@@ -725,7 +725,7 @@
 "LoginsList.Title" = "保存されたログイン情報";
 
 /* Restore Tabs Prompt Description */
-"Looks like Impervious crashed previously. Would you like to restore your tabs?" = "Impervious は予期せず終了しました。タブを復元しますか？";
+"Looks like Beacon crashed previously. Would you like to restore your tabs?" = "Beacon は予期せず終了しました。タブを復元しますか？";
 
 /* Name for Mark as read button in reader mode
    Title for the button that marks a reading list item as read */
@@ -769,10 +769,10 @@
 "Menu.EnhancedTrackingProtectionOn.Title" = "強化型トラッキング防止機能はこのサイトでオンです。";
 
 /* Description for having standard ETP protection with ITP offered in iOS14+ */
-"Menu.EnhancedTrackingProtectionStandardWithITP.Title" = "Impervious はクロスサイトトラッカー、ソーシャルトラッカー、暗号通貨マイニング、フィンガープリント採取をブロックします。";
+"Menu.EnhancedTrackingProtectionStandardWithITP.Title" = "Beacon はクロスサイトトラッカー、ソーシャルトラッカー、暗号通貨マイニング、フィンガープリント採取をブロックします。";
 
 /* Description for having strict ETP protection with ITP offered in iOS14+ */
-"Menu.EnhancedTrackingProtectionStrictWithITP.Title" = "Impervious はクロスサイトトラッカー、ソーシャルトラッカー、暗号通貨マイニング、フィンガープリント採取および追跡コンテンツをブロックします。";
+"Menu.EnhancedTrackingProtectionStrictWithITP.Title" = "Beacon はクロスサイトトラッカー、ソーシャルトラッカー、暗号通貨マイニング、フィンガープリント採取および追跡コンテンツをブロックします。";
 
 /* Label for the button, displayed in the menu, takes you to to History screen when pressed. */
 "Menu.History.Label" = "履歴";
@@ -853,7 +853,7 @@
 "Menu.TrackingProtectionBlockedSocial.Title" = "ソーシャルトラッカー";
 
 /* Description of the Tracking protection menu when TP is blocking parts of the page */
-"Menu.TrackingProtectionBlocking.Description" = "ユーザーのブラウジングを追跡する可能性のあるページの一部を Impervious がブロックしています。";
+"Menu.TrackingProtectionBlocking.Description" = "ユーザーのブラウジングを追跡する可能性のあるページの一部を Beacon がブロックしています。";
 
 /* The description of the Tracking Protection menu item when tracking is enabled */
 "Menu.TrackingProtectionBlockingDisabled.Description" = "オンライン追跡をブロック";
@@ -956,7 +956,7 @@
 "Okay" = "OK";
 
 /* Title for prompt displayed to user after the app crashes */
-"Oops! Impervious crashed" = "Impervious の動作に問題が発生し、不正終了してしまいました";
+"Oops! Beacon crashed" = "Beacon の動作に問題が発生し、不正終了してしまいました";
 
 /* See http://mzl.la/1LXbDOL */
 "Open articles in Reader View by tapping the book icon when it appears in the title bar." = "タイトルバーに表示されたブックアイコンをタップすると、記事をリーダービューで開きます。";
@@ -967,8 +967,8 @@
 /* Toggle tabs syncing setting */
 "Open Tabs" = "タブを開く";
 
-/* The message displayed to a user when they try to open a URL that cannot be handled by Impervious, or any external app. */
-"OpenURL.Error.Message" = "アドレスが正しくないため、Impervious はこのページを開けません。";
+/* The message displayed to a user when they try to open a URL that cannot be handled by Beacon, or any external app. */
+"OpenURL.Error.Message" = "アドレスが正しくないため、Beacon はこのページを開けません。";
 
 /* Title of the message shown when the user attempts to navigate to an invalid link. */
 "OpenURL.Error.Title" = "ページを開けません";
@@ -983,19 +983,19 @@
 "Password" = "パスワード";
 
 /* Error message shown in the remote tabs panel */
-"PasswordAutoFill.NoPasswordsFoundTitle" = "Impervious アカウントで同期しているログイン情報はありません";
+"PasswordAutoFill.NoPasswordsFoundTitle" = "Beacon アカウントで同期しているログイン情報はありません";
 
 /* Header for the list of credentials table */
 "PasswordAutoFill.PasswordsListTitle" = "利用可能なログイン情報:";
 
 /* Title of the extension that shows firefox passwords */
-"PasswordAutoFill.SectionTitle" = "Impervious ログイン情報";
+"PasswordAutoFill.SectionTitle" = "Beacon ログイン情報";
 
 /* See http://mzl.la/1G7uHo7 */
 "PhotoLibrary.FirefoxWouldLikeAccessMessage" = "これは、画像を Camera Roll に保存することを許可します。";
 
 /* See http://mzl.la/1G7uHo7 */
-"PhotoLibrary.FirefoxWouldLikeAccessTitle" = "Impervious が写真データにアクセスしようとしています";
+"PhotoLibrary.FirefoxWouldLikeAccessTitle" = "Beacon が写真データにアクセスしようとしています";
 
 /* Button for closing the menu action sheet */
 "PhotonMenu.close" = "閉じる";
@@ -1003,7 +1003,7 @@
 /* Privacy section title */
 "Privacy" = "プライバシー";
 
-/* Show Impervious Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
+/* Show Beacon Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
 "Privacy Policy" = "プライバシーポリシー";
 
 /* This is the value for a label that indicates if a user is on an unencrypted website. */
@@ -1076,7 +1076,7 @@
 "ScanQRCode.InvalidDataError.Message" = "データが無効です";
 
 /* Text of the prompt user to setup the camera authorization. */
-"ScanQRCode.PermissionError.Message" = "Impervious に端末のカメラへのアクセスを許可してください。設定 - > プライバシー -> カメラ。";
+"ScanQRCode.PermissionError.Message" = "Beacon に端末のカメラへのアクセスを許可してください。設定 - > プライバシー -> カメラ。";
 
 /* Title for the QR code scanner view. */
 "ScanQRCode.View.Title" = "QR コードを読み取り";
@@ -1132,7 +1132,7 @@
 "Secure connection" = "安全な接続";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
-"Send a crash report so Impervious can fix the problem?" = "問題の原因特定と解決のためにご協力いただだける方は、クラッシュレポートの送信をお願いします。";
+"Send a crash report so Beacon can fix the problem?" = "問題の原因特定と解決のためにご協力いただだける方は、クラッシュレポートの送信をお願いします。";
 
 /* Menu item in settings used to open input.mozilla.org where people can submit feedback */
 "Send Feedback" = "フィードバックを送信";
@@ -1160,19 +1160,19 @@
 "SendTo.NavBar.Title" = "タブを送る";
 
 /* Error message shown in the remote tabs panel */
-"SendTo.NoDevicesFound.Message" = "この Impervious アカウントに接続された同期可能な端末はありません。";
+"SendTo.NoDevicesFound.Message" = "この Beacon アカウントに接続された同期可能な端末はありません。";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Message" = "続けるには、Impervious を開いて環境設定からログインしてください。";
+"SendTo.NotSignedIn.Message" = "続けるには、Beacon を開いて環境設定からログインしてください。";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Title" = "Impervious アカウントにログインしていません。";
+"SendTo.NotSignedIn.Title" = "Beacon アカウントにログインしていません。";
 
 /* Navigation bar button to Send the current page to a device */
 "SendTo.SendAction.Text" = "送信";
 
-/* The text for the button on the Send to Device page if you are not signed in to Impervious Accounts. */
-"SendTo.SignIn.Button" = "Impervious にログイン";
+/* The text for the button on the Send to Device page if you are not signed in to Beacon Accounts. */
+"SendTo.SignIn.Button" = "Beacon にログイン";
 
 /* Body of notification shown when the device is sent one or more tabs from an unnamed device. */
 "SentTab_TabArrivingNotification_NoDevice_body" = "他の端末から新規タブが到着しました。";
@@ -1196,7 +1196,7 @@
 "SentTab.NoTabArrivingNotification.body" = "タップして開始する";
 
 /* Title of notification received after a spurious message from FxA has been received. */
-"SentTab.NoTabArrivingNotification.title" = "Impervious Sync";
+"SentTab.NoTabArrivingNotification.title" = "Beacon Sync";
 
 /* Label for an action used to view one or more tabs from a notification. */
 "SentTab.ViewAction.title" = "表示";
@@ -1259,7 +1259,7 @@
 "Settings.DataManagement.Title" = "データ管理";
 
 /* Body of the alert when prompting the user asking to disconnect. */
-"Settings.Disconnect.Body" = "Impervious はあなたのアカウントとの同期を中止しますが、この端末上の閲覧履歴は消去されません。";
+"Settings.Disconnect.Body" = "Beacon はあなたのアカウントとの同期を中止しますが、この端末上の閲覧履歴は消去されません。";
 
 /* Button displayed at the bottom of settings page allowing users to Disconnect from FxA */
 "Settings.Disconnect.Button" = "Sync との接続を解除";
@@ -1328,11 +1328,11 @@
 /* Label used for the device name settings section. */
 "Settings.FxA.DeviceName" = "端末名";
 
-/* Label used as a section title in the Impervious Accounts Settings screen. */
+/* Label used as a section title in the Beacon Accounts Settings screen. */
 "Settings.FxA.Sync.SectionName" = "Sync 設定";
 
 /* Title displayed in header of the FxA settings panel. */
-"Settings.FxA.Title" = "Impervious アカウント";
+"Settings.FxA.Title" = "Beacon アカウント";
 
 /* General settings section title */
 "Settings.General.SectionName" = "一般";
@@ -1386,10 +1386,10 @@
 "Settings.NewTab.Option.CustomizeFooter2" = "保存または訪問したサイト";
 
 /* The title for the section to customize top sites in the new tab settings page. */
-"Settings.NewTab.Option.CustomizeTitle" = "Impervious ホーム画面の設定";
+"Settings.NewTab.Option.CustomizeTitle" = "Beacon ホーム画面の設定";
 
-/* Option in settings to show Impervious Home when you open a new tab */
-"Settings.NewTab.Option.FirefoxHome" = "Impervious ホーム";
+/* Option in settings to show Beacon Home when you open a new tab */
+"Settings.NewTab.Option.FirefoxHome" = "Beacon ホーム";
 
 /* Option in the settings to turn off recent bookmarks in the Highlights section */
 "Settings.NewTab.Option.HighlightsBookmarks" = "最近追加したブックマーク";
@@ -1431,7 +1431,7 @@
 "Settings.NewTab.TopSectionNameFooter" = "新規タブを開いたときに読み込む内容を選択します";
 
 /* Description displayed under the ”Offer to Open Copied Link” option. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
-"Settings.OfferClipboardBar.Status" = "Impervious 起動時";
+"Settings.OfferClipboardBar.Status" = "Beacon 起動時";
 
 /* Title of setting to enable the Go to Copied URL feature. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
 "Settings.OfferClipboardBar.Title" = "コピーしたリンクを開くか尋ねる";
@@ -1455,7 +1455,7 @@
 "Settings.SendUsage.Link" = "詳細情報。";
 
 /* A short description that explains why mozilla collects usage data. */
-"Settings.SendUsage.Message" = "Impervious は Impervious を皆さんに提供し改善するために必要な情報だけを収集するよう努めています。";
+"Settings.SendUsage.Message" = "Beacon は Beacon を皆さんに提供し改善するために必要な情報だけを収集するよう努めています。";
 
 /* The title for the setting to send usage data. */
 "Settings.SendUsage.Title" = "利用統計データを送信";
@@ -1473,7 +1473,7 @@
 "Settings.Siri.OpenTabShortcut" = "新規タブを開く";
 
 /* The description that describes what siri shortcuts are */
-"Settings.Siri.SectionDescription" = "Siri ショートカットを使用して Siri から Impervious を素早く開きましょう";
+"Settings.Siri.SectionDescription" = "Siri ショートカットを使用して Siri から Beacon を素早く開きましょう";
 
 /* The option that takes you to the siri shortcuts settings page */
 "Settings.Siri.SectionName" = "Siri ショートカット";
@@ -1493,11 +1493,11 @@
 /* Label used as an item in Settings. Tapping on this item takes you to the Studies panel */
 "Settings.Studies.Title" = "調査";
 
-/* Title for a link that explains what Impervious means by Studies */
+/* Title for a link that explains what Beacon means by Studies */
 "Settings.Studies.Toggle.Link" = "詳細情報";
 
-/* A short description that explains that Impervious is running studies */
-"Settings.Studies.Toggle.Message" = "Impervious が調査をインストールして実行することがあります。";
+/* A short description that explains that Beacon is running studies */
+"Settings.Studies.Toggle.Message" = "Beacon が調査をインストールして実行することがあります。";
 
 /* Toggled OFF to opt-out of studies */
 "Settings.Studies.Toggle.Off" = "オフ";
@@ -1613,32 +1613,32 @@
 /* Title displayed in header of the Data Management panel. */
 "Settings.WebsiteData.Title" = "ウェブサイトデータ";
 
-/* Action label on share extension to add page to the Impervious reading list. */
+/* Action label on share extension to add page to the Beacon reading list. */
 "ShareExtension.AddToReadingListAction.Title" = "リーディングリストに追加";
 
 /* Share extension label shown after user has performed 'Add to Reading List' action. */
 "ShareExtension.AddToReadingListActionDone.Title" = "リーディングリストに追加しました";
 
-/* Action label on share extension to bookmark the page in Impervious. */
+/* Action label on share extension to bookmark the page in Beacon. */
 "ShareExtension.BookmarkThisPageAction.Title" = "このページをブックマーク";
 
 /* Share extension label shown after user has performed 'Bookmark this Page' action. */
 "ShareExtension.BookmarkThisPageActionDone.Title" = "ブックマーク済み";
 
-/* Action label on share extension to load the page in Impervious when user switches apps to bring it to foreground. */
+/* Action label on share extension to load the page in Beacon when user switches apps to bring it to foreground. */
 "ShareExtension.LoadInBackgroundAction.Title" = "バックグラウンドで読み込む";
 
 /* Share extension label shown after user has performed 'Load in Background' action. */
-"ShareExtension.LoadInBackgroundActionDone.Title" = "Impervious で読み込んでいます";
+"ShareExtension.LoadInBackgroundActionDone.Title" = "Beacon で読み込んでいます";
 
-/* Action label on share extension to immediately open page in Impervious. */
-"ShareExtension.OpenInFirefoxAction.Title" = "Impervious で開く";
+/* Action label on share extension to immediately open page in Beacon. */
+"ShareExtension.OpenInFirefoxAction.Title" = "Beacon で開く";
 
-/* Action label on share extension to immediately open page in Impervious in private mode. */
+/* Action label on share extension to immediately open page in Beacon in private mode. */
 "ShareExtension.OpenInPrivateModeAction.Title" = "プライベートモードで開く";
 
-/* Action label on share extension to search for the selected text in Impervious. */
-"ShareExtension.SeachInFirefoxAction.Title" = "Impervious で検索";
+/* Action label on share extension to search for the selected text in Beacon. */
+"ShareExtension.SeachInFirefoxAction.Title" = "Beacon で検索";
 
 /* Label for show search suggestions setting. */
 "Show Search Suggestions" = "検索語句の候補を表示";
@@ -1675,7 +1675,7 @@
 "Sync.FirstTimeMessage.Label" = "初回の同期には時間がかかる場合があります";
 
 /* String displayed on Sign In to Sync page that allows the user to create a new account. */
-"Sync.NoAccount.Description" = "アカウントをお持ちでない方は、アカウントを作成して Impervious を端末間で同期しましょう。";
+"Sync.NoAccount.Description" = "アカウントをお持ちでない方は、アカウントを作成して Beacon を端末間で同期しましょう。";
 
 /* Message displayed when the user's account is syncing with no ellipsis */
 "Sync.Syncing.Label" = "同期中";
@@ -1794,7 +1794,7 @@
 /* The section header for tabs opened yesterday */
 "TabTray.Yesterday.Header" = "昨日";
 
-/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Beacon reader mode from another app. */
 "The page could not be displayed in Reader View." = "ページをリーダービューで表示できませんでした。";
 
 /* Error message in the remote tabs panel */
@@ -1852,13 +1852,13 @@
 "UIMenuItem.PasteGo" = "貼り付けて移動";
 
 /* Search in New Tab Text selection menu item */
-"UIMenuItem.SearchWithFirefox" = "Impervious で検索";
+"UIMenuItem.SearchWithFirefox" = "Beacon で検索";
 
 /* Accessibility label for unread article in reading list. It's a past participle - functions as an adjective. */
 "unread" = "未読";
 
 /* Text message in the settings table view */
-"Upgrade Impervious to connect" = "接続するには Impervious をアップグレードしてください";
+"Upgrade Beacon to connect" = "接続するには Beacon をアップグレードしてください";
 
 /* Debug option */
 "Use stage servers" = "ステージサーバーを使用";
@@ -1869,7 +1869,7 @@
 /* Text message in the settings table view */
 "Verify your email address" = "メールアドレスを確認してください";
 
-/* Version number of Impervious shown in settings */
+/* Version number of Beacon shown in settings */
 "Version %@ (%@)" = "バージョン %1$@ (%2$@)";
 
 /* Accessibility label for the main web content view */
@@ -1891,7 +1891,7 @@
 "Yesterday" = "昨日";
 
 /* Error message in the remote tabs panel */
-"You don’t have any tabs open in Impervious on your other devices." = "他の端末の Impervious で開いているタブはありません。";
+"You don’t have any tabs open in Beacon on your other devices." = "他の端末の Beacon で開いているタブはありません。";
 
 /* Your Rights settings section title */
 "Your Rights" = "あなたの権利";

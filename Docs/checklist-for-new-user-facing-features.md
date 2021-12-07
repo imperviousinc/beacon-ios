@@ -38,7 +38,7 @@ You've landed the code, it's indented properly, it looks lovely! What's Next!?
 
   * Should it go on the What's New page? (to tell the users)
   * Should it be documented?
-  * Have you told These Weeks in Mobile Firefox?
+  * Have you told These Weeks in Mobile Beacon?
   * Have you told Marketing?
 
 ### Have you found something you should do for other features, but isn't on this checklist?

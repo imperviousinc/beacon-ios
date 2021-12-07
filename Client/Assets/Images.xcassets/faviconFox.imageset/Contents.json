@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Impervious transparent hand 87x87.png",
+      "filename" : "Beacon transparent hand 87x87.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Impervious transparent hand 87x87@2x.png",
+      "filename" : "Beacon transparent hand 87x87@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Impervious transparent hand 87x87@3x.png",
+      "filename" : "Beacon transparent hand 87x87@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

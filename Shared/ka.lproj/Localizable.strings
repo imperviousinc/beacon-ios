@@ -270,7 +270,7 @@
 "Could not load page." = "ჩატვირთვა ვერ მოხერხდა.";
 
 /* Description for the new dark mode change in the version 22 app release. It describes the new automatic dark theme and how to change the theme settings. */
-"CoverSheet.v22.DarkMode.Description" = "iOS 13 ვერსიის მომხმარებელთათვის, Impervious ახლა უკვე თავისთავად გადაერთვება მუქ იერსახეზე, როცა ტელეფონში მუქი რეჟიმი იქნება დაყენებული. შესაცვლელად, იხილეთ პარამეტრები > იერსახე.";
+"CoverSheet.v22.DarkMode.Description" = "iOS 13 ვერსიის მომხმარებელთათვის, Beacon ახლა უკვე თავისთავად გადაერთვება მუქ იერსახეზე, როცა ტელეფონში მუქი რეჟიმი იქნება დაყენებული. შესაცვლელად, იხილეთ პარამეტრები > იერსახე.";
 
 /* Title for the new dark mode change in the version 22 app release. */
 "CoverSheet.v22.DarkMode.Title" = "მუქი იერსახე ახლა უკვე მოიცავს მუქ კლავიატურასა და ჩატვირთვის ეკრანს.";
@@ -325,8 +325,8 @@
 /* Alert dialog title when the user taps the cancel download icon. */
 "Downloads.CancelDialog.Title" = "ჩამოტვირთვის გაუქმება";
 
-/* The message displayed to a user when they try and perform the download of an asset that Impervious cannot currently handle. */
-"Downloads.Error.Message" = "ჩამოტვირთვები ჯერ არაა მხარდაჭერილი Impervious-ში.";
+/* The message displayed to a user when they try and perform the download of an asset that Beacon cannot currently handle. */
+"Downloads.Error.Message" = "ჩამოტვირთვები ჯერ არაა მხარდაჭერილი Beacon-ში.";
 
 /* The label text in the Download Cancelled toast for showing confirmation that the download was cancelled. */
 "Downloads.Toast.Cancelled.LabelText" = "ჩამოტვირთვა გაუქმებულია";
@@ -371,7 +371,7 @@
 "ErrorPages.AdvancedWarning2.Text" = "შესაძლოა არაა სწორად გამართული, ან თავდამსხმელმა ხელყო. განაგრძეთ, საკუთარი რისკის ფასად.";
 
 /* Warning text on the certificate error page */
-"ErrorPages.CertWarning.Description" = "%@-ის მფლობელს არასათანადოდ აქვს ვებსაიტი გამართული. ინფორმაციის მოპარვისგან დაცვის მიზნით, Impervious ამ საიტს არ დაუკავშირდება.";
+"ErrorPages.CertWarning.Description" = "%@-ის მფლობელს არასათანადოდ აქვს ვებსაიტი გამართული. ინფორმაციის მოპარვისგან დაცვის მიზნით, Beacon ამ საიტს არ დაუკავშირდება.";
 
 /* Title on the certificate error page */
 "ErrorPages.CertWarning.Title" = "კავშირი სანდო არაა";
@@ -392,7 +392,7 @@
 "Facebook" = "Facebook";
 
 /* Title for firefox about:home page in tab history list */
-"Firefox.HomePage.Title" = "Impervious საწყისი გვერდი";
+"Beacon.HomePage.Title" = "Beacon საწყისი გვერდი";
 
 /* Accessibility Label for the tab toolbar Forward button */
 "Forward" = "მომდევნო";
@@ -403,16 +403,16 @@
 /* Label stating your account is not verified */
 "FxA.AccountVerificationRequired" = "საჭიროა ანგარიშის დამოწმება";
 
-/* Message explaining that user needs to check email for Impervious Account verfication link. */
-"FxA.AccountVerificationRequiredSurface" = "საჭიროა %@ ანგარიშის დამოწმება. შეამოწმეთ თქვენი ელფოსტა, რომელზეც გამოიგზავნება დასადასტურებელი ბმული Impervious-ისგან.";
+/* Message explaining that user needs to check email for Beacon Account verfication link. */
+"FxA.AccountVerificationRequiredSurface" = "საჭიროა %@ ანგარიშის დამოწმება. შეამოწმეთ თქვენი ელფოსტა, რომელზეც გამოიგზავნება დასადასტურებელი ბმული Beacon-ისგან.";
 
 /* Button label to connect another device to Sync */
 "FxA.ConnectAnotherDevice" = "სხვა მოწყობილობის დაკავშირება";
 
-/* Settings section title for Impervious Account */
-"FxA.FirefoxAccount" = "Firefox-ანგარიში";
+/* Settings section title for Beacon Account */
+"FxA.FirefoxAccount" = "Beacon-ანგარიში";
 
-/* Button label to go to Impervious Account settings */
+/* Button label to go to Beacon Account settings */
 "FxA.ManageAccount" = "ანგარიშის და მოწყობილობების მართვა";
 
 /* Label when no internet is present */
@@ -428,7 +428,7 @@
 "FxA.RemoveAccount" = "მოცილება";
 
 /* Description string for alert view that gets presented when user tries to remove an account. */
-"FxA.RemoveAccountAlertMessage" = "ამ მოწყობილობასთან დაკავშირებული Impervious-ანგარიშის მოცილება, სხვა მომხმარებლით შესასვლელად.";
+"FxA.RemoveAccountAlertMessage" = "ამ მოწყობილობასთან დაკავშირებული Beacon-ანგარიშის მოცილება, სხვა მომხმარებლით შესასვლელად.";
 
 /* Remove account alert is the final confirmation before user removes their firefox account */
 "FxA.RemoveAccountAlertTitle" = "ანგარიშის მოცილება";
@@ -440,13 +440,13 @@
 "fxa.signin.camera-signin" = "შედით კამერის მეშვეობით";
 
 /* FxA sign in create account label. */
-"fxa.signin.create-account-pt-1" = "დაასინქრონეთ Impervious მოწყობილობებს შორის საერთო ანგარიშით.";
+"fxa.signin.create-account-pt-1" = "დაასინქრონეთ Beacon მოწყობილობებს შორის საერთო ანგარიშით.";
 
 /* FxA sign in create account label. This will be linked to the site to create an account. */
-"fxa.signin.create-account-pt-2" = "შექმენით Impervious-ანგარიში.";
+"fxa.signin.create-account-pt-2" = "შექმენით Beacon-ანგარიში.";
 
 /* FxA sign in view qr code instructions */
-"fxa.signin.qr-link-instruction" = "გახსენით კომპიუტერში Impervious და იხილეთ გვერდი firefox.com/pair";
+"fxa.signin.qr-link-instruction" = "გახსენით კომპიუტერში Beacon და იხილეთ გვერდი firefox.com/pair";
 
 /* FxA sign in view qr code scan button */
 "fxa.signin.ready-to-scan" = "მზადაა წასაკითხად";
@@ -463,14 +463,14 @@
 /* Label explaining what sync does */
 "FxA.SyncExplain" = "მიიღეთ წვდომა თქვენს ჩანართებთან, სანიშნებთან და პაროლებთან, ყველა თქვენი მოწყობილობიდან.";
 
-/* Button label to Sync your Impervious Account */
+/* Button label to Sync your Beacon Account */
 "FxA.SyncNow" = "დასინქრონება ახლავე";
 
 /* Call to action for sign into sync button */
 "FxA.TakeYourWebWithYou" = "წაიყოლეთ თქვენი მონაცემები თან";
 
 /* Title of a notification displayed when another device has connected to FxA. %@ refers to the name of the newly connected device. */
-"FxAPush_DeviceConnected_body" = "Impervious Sync დაკავშირებულია %@-სთან";
+"FxAPush_DeviceConnected_body" = "Beacon Sync დაკავშირებულია %@-სთან";
 
 /* Title of a notification displayed when another device has connected to FxA. */
 "FxAPush_DeviceConnected_title" = "Sync დაკავშირებულია";
@@ -479,7 +479,7 @@
 "FxAPush_DeviceDisconnected_body" = "%@ წარმატებით გამოითიშა.";
 
 /* Body of a notification displayed when this device has been disconnected from FxA by another device. */
-"FxAPush_DeviceDisconnected_ThisDevice_body" = "მოწყობილობა წარმატებით გამოითიშა Impervious Sync-იდან.";
+"FxAPush_DeviceDisconnected_ThisDevice_body" = "მოწყობილობა წარმატებით გამოითიშა Beacon Sync-იდან.";
 
 /* Title of a notification displayed when this device has been disconnected by another device. */
 "FxAPush_DeviceDisconnected_ThisDevice_title" = "დასინქრონება გათიშულია";
@@ -488,7 +488,7 @@
 "FxAPush_DeviceDisconnected_title" = "დასინქრონება გათიშულია";
 
 /* Body of a notification displayed when unnamed device has been disconnected from FxA. */
-"FxAPush_DeviceDisconnected_UnknownDevice_body" = "მოწყობილობა გამოთიშულია Impervious-სინქრონიზაციიდან";
+"FxAPush_DeviceDisconnected_UnknownDevice_body" = "მოწყობილობა გამოთიშულია Beacon-სინქრონიზაციიდან";
 
 /* A re-worded offer about Sync, displayed when the Sync home panel is empty, that emphasizes one-way data transfer, not syncing. */
 "Get your open tabs, bookmarks, and passwords from your other devices." = "მიიღეთ წვდომა თქვენს გახსნილ ჩანართებთან, სანიშნებთან და პაროლებთან, ყველა თქვენი მოწყობილობიდან.";
@@ -536,7 +536,7 @@
 "HistoryPanel.EmptySyncedTabsPanelTabSyncDisabledState.Description" = "ჩართეთ ჩანართების სინქრონიზაცია თქვენი სხვა მოწყობილობებიდან ჩანართების სიის სანახავად.";
 
 /* Title for the empty synced tabs state in the History Panel */
-"HistoryPanel.EmptySyncedTabsState.Title" = "Impervious Sync";
+"HistoryPanel.EmptySyncedTabsState.Title" = "Beacon Sync";
 
 /* Title for the Back to History button in the History Panel */
 "HistoryPanel.HistoryBackButton.Title" = "ისტორია";
@@ -643,10 +643,10 @@
 /* Light theme setting in Reading View settings */
 "Light" = "ნათელი";
 
-/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Beacon reader mode from another app. */
 "Load original page" = "ჩვეულებრივი გვერდის გახსნა";
 
-/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Beacon reader mode from another app. */
 "Loading content…" = "შიგთავსის ჩატვირთვა…";
 
 /* Authentication prompt log in button */
@@ -701,7 +701,7 @@
 "LoginsList.LoginsListSearchPlaceholder" = "ფილტრი";
 
 /* Label shown when there are no logins to list */
-"LoginsList.NoLoginsFound.Description" = "შენახული ანგარიშები აქ გამოჩნდება. თუ სხვა მოწყობილობის Impervious-ზე ინახავთ, შედით თქვენი Impervious-ანგარიშით.";
+"LoginsList.NoLoginsFound.Description" = "შენახული ანგარიშები აქ გამოჩნდება. თუ სხვა მოწყობილობის Beacon-ზე ინახავთ, შედით თქვენი Beacon-ანგარიშით.";
 
 /* Label shown when there are no logins saved */
 "LoginsList.NoLoginsFound.Title" = "მონაცემები ვერ მოიძებნა";
@@ -725,7 +725,7 @@
 "LoginsList.Title" = "შენახული ანგარიშები";
 
 /* Restore Tabs Prompt Description */
-"Looks like Impervious crashed previously. Would you like to restore your tabs?" = "როგორც ჩანს, Impervious წინა ჯერზე უეცრად გაითიშა. გსურთ, ჩანართების აღდგენა?";
+"Looks like Beacon crashed previously. Would you like to restore your tabs?" = "როგორც ჩანს, Beacon წინა ჯერზე უეცრად გაითიშა. გსურთ, ჩანართების აღდგენა?";
 
 /* Name for Mark as read button in reader mode
    Title for the button that marks a reading list item as read */
@@ -769,10 +769,10 @@
 "Menu.EnhancedTrackingProtectionOn.Title" = "თვალთვალისგან გაძლიერებული დაცვა ჩართულია ამ საიტზე.";
 
 /* Description for having standard ETP protection with ITP offered in iOS14+ */
-"Menu.EnhancedTrackingProtectionStandardWithITP.Title" = "Impervious ზღუდავს საიტთაშორის, სოცქსელის, კრიპტო, ამომცნობ და მეთვალყურე შიგთავსს.";
+"Menu.EnhancedTrackingProtectionStandardWithITP.Title" = "Beacon ზღუდავს საიტთაშორის, სოცქსელის, კრიპტო, ამომცნობ და მეთვალყურე შიგთავსს.";
 
 /* Description for having strict ETP protection with ITP offered in iOS14+ */
-"Menu.EnhancedTrackingProtectionStrictWithITP.Title" = "Impervious ზღუდავს საიტთაშორის, სოცქსელის, კრიპტო, ამომცნობ და მეთვალყურე შიგთავსს.";
+"Menu.EnhancedTrackingProtectionStrictWithITP.Title" = "Beacon ზღუდავს საიტთაშორის, სოცქსელის, კრიპტო, ამომცნობ და მეთვალყურე შიგთავსს.";
 
 /* Label for the button, displayed in the menu, takes you to to History screen when pressed. */
 "Menu.History.Label" = "ისტორია";
@@ -838,7 +838,7 @@
 "Menu.TrackingProtection.Details.Verifier" = "დამმოწმებელია %@";
 
 /* Message in menu when no trackers blocked. */
-"Menu.TrackingProtection.NoTrackersBlockedTitle" = "ამ გვერდზე მეთვალყურეები, რომელთაც Impervious ცნობს, არ აღმოჩენილა.";
+"Menu.TrackingProtection.NoTrackersBlockedTitle" = "ამ გვერდზე მეთვალყურეები, რომელთაც Beacon ცნობს, არ აღმოჩენილა.";
 
 /* The title for tracking protection settings */
 "Menu.TrackingProtection.ProtectionSettings.Title" = "დაცვის პარამეტრები";
@@ -853,7 +853,7 @@
 "Menu.TrackingProtectionBlockedSocial.Title" = "სოცქსელის მეთვალყურეები";
 
 /* Description of the Tracking protection menu when TP is blocking parts of the page */
-"Menu.TrackingProtectionBlocking.Description" = "Impervious ზღუდავს საიტის იმ ნაწილებს, რომლებსაც თქვენს მოქმედებებზე თვალყურის დევნება შეუძლია.";
+"Menu.TrackingProtectionBlocking.Description" = "Beacon ზღუდავს საიტის იმ ნაწილებს, რომლებსაც თქვენს მოქმედებებზე თვალყურის დევნება შეუძლია.";
 
 /* The description of the Tracking Protection menu item when tracking is enabled */
 "Menu.TrackingProtectionBlockingDisabled.Description" = "მეთვალყურეების შეზღუდვა";
@@ -956,7 +956,7 @@
 "Okay" = "კარგი";
 
 /* Title for prompt displayed to user after the app crashes */
-"Oops! Impervious crashed" = "ჰმ! Impervious უეცრად გაითიშა";
+"Oops! Beacon crashed" = "ჰმ! Beacon უეცრად გაითიშა";
 
 /* See http://mzl.la/1LXbDOL */
 "Open articles in Reader View by tapping the book icon when it appears in the title bar." = "სტატიების, კითხვის რეჟიმში გასახსნელად, შეეხეთ წიგნის ნიშანს, როცა მისამართების ველში გამოჩნდება.";
@@ -967,8 +967,8 @@
 /* Toggle tabs syncing setting */
 "Open Tabs" = "გახსნილი ჩანართები";
 
-/* The message displayed to a user when they try to open a URL that cannot be handled by Impervious, or any external app. */
-"OpenURL.Error.Message" = "Impervious ვერ ახერხებს გვერდის გახსნას, რადგან არასწორი მისამართი აქვს.";
+/* The message displayed to a user when they try to open a URL that cannot be handled by Beacon, or any external app. */
+"OpenURL.Error.Message" = "Beacon ვერ ახერხებს გვერდის გახსნას, რადგან არასწორი მისამართი აქვს.";
 
 /* Title of the message shown when the user attempts to navigate to an invalid link. */
 "OpenURL.Error.Title" = "გვერდი ვერ იხსნება";
@@ -983,19 +983,19 @@
 "Password" = "პაროლი";
 
 /* Error message shown in the remote tabs panel */
-"PasswordAutoFill.NoPasswordsFoundTitle" = "თქვენ არ გაქვთ ანგარიშების დასინქრონებული მონაცემები Impervious-ანგარიშიდან";
+"PasswordAutoFill.NoPasswordsFoundTitle" = "თქვენ არ გაქვთ ანგარიშების დასინქრონებული მონაცემები Beacon-ანგარიშიდან";
 
 /* Header for the list of credentials table */
 "PasswordAutoFill.PasswordsListTitle" = "ანგარიშების ხელმისაწვდომი მონაცემები:";
 
 /* Title of the extension that shows firefox passwords */
-"PasswordAutoFill.SectionTitle" = "Firefox-ის ანგარიშების მონაცემები";
+"PasswordAutoFill.SectionTitle" = "Beacon-ის ანგარიშების მონაცემები";
 
 /* See http://mzl.la/1G7uHo7 */
 "PhotoLibrary.FirefoxWouldLikeAccessMessage" = "ამის საშუალებით, შეგეძლებათ სურათის ფოტოგალერეაში შენახვა.";
 
 /* See http://mzl.la/1G7uHo7 */
-"PhotoLibrary.FirefoxWouldLikeAccessTitle" = "Impervious ცდილობს თქვენს სურათებთან წვდომის მიღებას";
+"PhotoLibrary.FirefoxWouldLikeAccessTitle" = "Beacon ცდილობს თქვენს სურათებთან წვდომის მიღებას";
 
 /* Button for closing the menu action sheet */
 "PhotonMenu.close" = "დახურვა";
@@ -1003,7 +1003,7 @@
 /* Privacy section title */
 "Privacy" = "პირადულობა";
 
-/* Show Impervious Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
+/* Show Beacon Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
 "Privacy Policy" = "პირადულობის დებულება";
 
 /* This is the value for a label that indicates if a user is on an unencrypted website. */
@@ -1076,7 +1076,7 @@
 "ScanQRCode.InvalidDataError.Message" = "მონაცემი არასწორია";
 
 /* Text of the prompt user to setup the camera authorization. */
-"ScanQRCode.PermissionError.Message" = "გთხოვთ, დართოთ Impervious-ს კამერასთან წვდომის ნება ‘პარამეტრებიდან’-> ‘პირადულობა’ -> ‘კამერა’.";
+"ScanQRCode.PermissionError.Message" = "გთხოვთ, დართოთ Beacon-ს კამერასთან წვდომის ნება ‘პარამეტრებიდან’-> ‘პირადულობა’ -> ‘კამერა’.";
 
 /* Title for the QR code scanner view. */
 "ScanQRCode.View.Title" = "QR კოდის წაკითხვა";
@@ -1132,7 +1132,7 @@
 "Secure connection" = "დაცული კავშირი";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
-"Send a crash report so Impervious can fix the problem?" = "მოგვახსენებთ, უეცარი გათიშვის შესახებ, რომ Impervious-მ შეძლოს ხარვეზის აღმოფხვრა?";
+"Send a crash report so Beacon can fix the problem?" = "მოგვახსენებთ, უეცარი გათიშვის შესახებ, რომ Beacon-მ შეძლოს ხარვეზის აღმოფხვრა?";
 
 /* Menu item in settings used to open input.mozilla.org where people can submit feedback */
 "Send Feedback" = "გამოხმაურება";
@@ -1160,19 +1160,19 @@
 "SendTo.NavBar.Title" = "ჩანართის გაგზავნა";
 
 /* Error message shown in the remote tabs panel */
-"SendTo.NoDevicesFound.Message" = "Firefox-ანგარიშთან, არცერთი სხვა მოწყობილობა არ გაქვთ დაკავშირებული, დასინქრონებისთვის.";
+"SendTo.NoDevicesFound.Message" = "Beacon-ანგარიშთან, არცერთი სხვა მოწყობილობა არ გაქვთ დაკავშირებული, დასინქრონებისთვის.";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Message" = "გასაგრძელებლად გთხოვთ, გახსნათ Impervious, გადახვიდეთ პარამეტრებზე და შეხვიდეთ ანგარიშზე.";
+"SendTo.NotSignedIn.Message" = "გასაგრძელებლად გთხოვთ, გახსნათ Beacon, გადახვიდეთ პარამეტრებზე და შეხვიდეთ ანგარიშზე.";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Title" = "თქვენ არ ხართ შესული Impervious-ანგარიშზე.";
+"SendTo.NotSignedIn.Title" = "თქვენ არ ხართ შესული Beacon-ანგარიშზე.";
 
 /* Navigation bar button to Send the current page to a device */
 "SendTo.SendAction.Text" = "გაგზავნა";
 
-/* The text for the button on the Send to Device page if you are not signed in to Impervious Accounts. */
-"SendTo.SignIn.Button" = "შესვლა Impervious-ში";
+/* The text for the button on the Send to Device page if you are not signed in to Beacon Accounts. */
+"SendTo.SignIn.Button" = "შესვლა Beacon-ში";
 
 /* Body of notification shown when the device is sent one or more tabs from an unnamed device. */
 "SentTab_TabArrivingNotification_NoDevice_body" = "ახალი ჩანართი სხვა მოწყობილობიდანაა დასინქრონებული.";
@@ -1196,7 +1196,7 @@
 "SentTab.NoTabArrivingNotification.body" = "შეეხეთ დასაწყებად";
 
 /* Title of notification received after a spurious message from FxA has been received. */
-"SentTab.NoTabArrivingNotification.title" = "Impervious Sync";
+"SentTab.NoTabArrivingNotification.title" = "Beacon Sync";
 
 /* Label for an action used to view one or more tabs from a notification. */
 "SentTab.ViewAction.title" = "ჩვენება";
@@ -1259,7 +1259,7 @@
 "Settings.DataManagement.Title" = "მონაცემთა მართვა";
 
 /* Body of the alert when prompting the user asking to disconnect. */
-"Settings.Disconnect.Body" = "Impervious შეწყვეტს ამ ანგარიშის სინქრონიზაციას, მაგრამ ამ მოწყობილობიდან დათვალიერების მონაცემები არ წაიშლება.";
+"Settings.Disconnect.Body" = "Beacon შეწყვეტს ამ ანგარიშის სინქრონიზაციას, მაგრამ ამ მოწყობილობიდან დათვალიერების მონაცემები არ წაიშლება.";
 
 /* Button displayed at the bottom of settings page allowing users to Disconnect from FxA */
 "Settings.Disconnect.Button" = "გამოთიშვა სინქრონიზაციიდან";
@@ -1328,11 +1328,11 @@
 /* Label used for the device name settings section. */
 "Settings.FxA.DeviceName" = "მოწყობილობის სახელი";
 
-/* Label used as a section title in the Impervious Accounts Settings screen. */
+/* Label used as a section title in the Beacon Accounts Settings screen. */
 "Settings.FxA.Sync.SectionName" = "სინქრონიზაციის პარამეტრები";
 
 /* Title displayed in header of the FxA settings panel. */
-"Settings.FxA.Title" = "Firefox-ანგარიში";
+"Settings.FxA.Title" = "Beacon-ანგარიში";
 
 /* General settings section title */
 "Settings.General.SectionName" = "მთავარი";
@@ -1386,10 +1386,10 @@
 "Settings.NewTab.Option.CustomizeFooter2" = "საიტები, რომლებსაც ინახავთ ან სტუმრობთ";
 
 /* The title for the section to customize top sites in the new tab settings page. */
-"Settings.NewTab.Option.CustomizeTitle" = "Firefox-ის საწყისი გვერდის მორგება";
+"Settings.NewTab.Option.CustomizeTitle" = "Beacon-ის საწყისი გვერდის მორგება";
 
-/* Option in settings to show Impervious Home when you open a new tab */
-"Settings.NewTab.Option.FirefoxHome" = "Impervious საწყისი";
+/* Option in settings to show Beacon Home when you open a new tab */
+"Settings.NewTab.Option.FirefoxHome" = "Beacon საწყისი";
 
 /* Option in the settings to turn off recent bookmarks in the Highlights section */
 "Settings.NewTab.Option.HighlightsBookmarks" = "ბოლოს ჩანიშნული";
@@ -1431,7 +1431,7 @@
 "Settings.NewTab.TopSectionNameFooter" = "აირჩიეთ რისი ხილვა გსურთ ახალი ჩანართის გახსნისას";
 
 /* Description displayed under the ”Offer to Open Copied Link” option. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
-"Settings.OfferClipboardBar.Status" = "Firefox-ის გახსნისას";
+"Settings.OfferClipboardBar.Status" = "Beacon-ის გახსნისას";
 
 /* Title of setting to enable the Go to Copied URL feature. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
 "Settings.OfferClipboardBar.Title" = "აღებულ ბმულებზე გადასვლის შემოთავაზება";
@@ -1455,7 +1455,7 @@
 "Settings.SendUsage.Link" = "ვრცლად.";
 
 /* A short description that explains why mozilla collects usage data. */
-"Settings.SendUsage.Message" = "Impervious აღრიცხავს მხოლოდ იმ მონაცემებს, რომლებიც საჭიროა Impervious-ის გასაუმჯობესებლად.";
+"Settings.SendUsage.Message" = "Beacon აღრიცხავს მხოლოდ იმ მონაცემებს, რომლებიც საჭიროა Beacon-ის გასაუმჯობესებლად.";
 
 /* The title for the setting to send usage data. */
 "Settings.SendUsage.Title" = "მონაცემების აღრიცხვა";
@@ -1473,7 +1473,7 @@
 "Settings.Siri.OpenTabShortcut" = "ახალი ჩანართის გახსნა";
 
 /* The description that describes what siri shortcuts are */
-"Settings.Siri.SectionDescription" = "Siri-ს მალსახმობების გამოყენება, Impervious-ის სწრაფად გახსნისთვის";
+"Settings.Siri.SectionDescription" = "Siri-ს მალსახმობების გამოყენება, Beacon-ის სწრაფად გახსნისთვის";
 
 /* The option that takes you to the siri shortcuts settings page */
 "Settings.Siri.SectionName" = "Siri-ს მალსახმობები";
@@ -1493,11 +1493,11 @@
 /* Label used as an item in Settings. Tapping on this item takes you to the Studies panel */
 "Settings.Studies.Title" = "კვლევები";
 
-/* Title for a link that explains what Impervious means by Studies */
+/* Title for a link that explains what Beacon means by Studies */
 "Settings.Studies.Toggle.Link" = "იხილეთ ვრცლად.";
 
-/* A short description that explains that Impervious is running studies */
-"Settings.Studies.Toggle.Message" = "Impervious დროდადრო აყენებს და ატარებს კვლევებს.";
+/* A short description that explains that Beacon is running studies */
+"Settings.Studies.Toggle.Message" = "Beacon დროდადრო აყენებს და ატარებს კვლევებს.";
 
 /* Toggled OFF to opt-out of studies */
 "Settings.Studies.Toggle.Off" = "გამორთ.";
@@ -1518,7 +1518,7 @@
 "Settings.TrackingProtection.Alert.Title" = "ყურადღება!";
 
 /* Header description for tracking protection options section where Basic/Strict block list can be selected */
-"Settings.TrackingProtection.BlockListsHeader" = "აირჩიეთ სია, რომლის მიხედვითაც Impervious შეზღუდავს ვებგვერდის იმ ნაწილებს, რომელიც შეიძლება თვალყურს ადევნებდეს თქვენს მოქმედებებს.";
+"Settings.TrackingProtection.BlockListsHeader" = "აირჩიეთ სია, რომლის მიხედვითაც Beacon შეზღუდავს ვებგვერდის იმ ნაწილებს, რომელიც შეიძლება თვალყურს ადევნებდეს თქვენს მოქმედებებს.";
 
 /* Explanation of basic mode. */
 "Settings.TrackingProtection.Info.BasicTitle" = "წონასწორული, უსაფრთხოებასა და წარმადობას შორის";
@@ -1613,32 +1613,32 @@
 /* Title displayed in header of the Data Management panel. */
 "Settings.WebsiteData.Title" = "საიტის მონაცემები";
 
-/* Action label on share extension to add page to the Impervious reading list. */
+/* Action label on share extension to add page to the Beacon reading list. */
 "ShareExtension.AddToReadingListAction.Title" = "წასაკითხებში დამატება";
 
 /* Share extension label shown after user has performed 'Add to Reading List' action. */
 "ShareExtension.AddToReadingListActionDone.Title" = "წასაკითხებში დამატებულია";
 
-/* Action label on share extension to bookmark the page in Impervious. */
+/* Action label on share extension to bookmark the page in Beacon. */
 "ShareExtension.BookmarkThisPageAction.Title" = "გვერდის ჩანიშვნა";
 
 /* Share extension label shown after user has performed 'Bookmark this Page' action. */
 "ShareExtension.BookmarkThisPageActionDone.Title" = "ჩანიშნულია";
 
-/* Action label on share extension to load the page in Impervious when user switches apps to bring it to foreground. */
+/* Action label on share extension to load the page in Beacon when user switches apps to bring it to foreground. */
 "ShareExtension.LoadInBackgroundAction.Title" = "ფონურად ჩატვირთვა";
 
 /* Share extension label shown after user has performed 'Load in Background' action. */
-"ShareExtension.LoadInBackgroundActionDone.Title" = "იტვირთება Impervious-ში";
+"ShareExtension.LoadInBackgroundActionDone.Title" = "იტვირთება Beacon-ში";
 
-/* Action label on share extension to immediately open page in Impervious. */
-"ShareExtension.OpenInFirefoxAction.Title" = "Firefox-ში გახსნა";
+/* Action label on share extension to immediately open page in Beacon. */
+"ShareExtension.OpenInFirefoxAction.Title" = "Beacon-ში გახსნა";
 
-/* Action label on share extension to immediately open page in Impervious in private mode. */
+/* Action label on share extension to immediately open page in Beacon in private mode. */
 "ShareExtension.OpenInPrivateModeAction.Title" = "პირად რეჟიმში გახსნა";
 
-/* Action label on share extension to search for the selected text in Impervious. */
-"ShareExtension.SeachInFirefoxAction.Title" = "Firefox-ში მოძიება";
+/* Action label on share extension to search for the selected text in Beacon. */
+"ShareExtension.SeachInFirefoxAction.Title" = "Beacon-ში მოძიება";
 
 /* Label for show search suggestions setting. */
 "Show Search Suggestions" = "ძიების შემოთავაზების ჩვენება";
@@ -1675,7 +1675,7 @@
 "Sync.FirstTimeMessage.Label" = "პირველმა დასინქრონებამ, შესაძლოა ოდნავ დიდხანს გასტანოს";
 
 /* String displayed on Sign In to Sync page that allows the user to create a new account. */
-"Sync.NoAccount.Description" = "არ გაქვთ ანგარიში? შექმენით და დაასინქრონეთ Impervious მოწყობილობებზე.";
+"Sync.NoAccount.Description" = "არ გაქვთ ანგარიში? შექმენით და დაასინქრონეთ Beacon მოწყობილობებზე.";
 
 /* Message displayed when the user's account is syncing with no ellipsis */
 "Sync.Syncing.Label" = "სინქრონდება";
@@ -1794,7 +1794,7 @@
 /* The section header for tabs opened yesterday */
 "TabTray.Yesterday.Header" = "გუშინ";
 
-/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Beacon reader mode from another app. */
 "The page could not be displayed in Reader View." = "გვერდის კითხვის რეჟიმში ჩვენება შეუძლებელია.";
 
 /* Error message in the remote tabs panel */
@@ -1852,13 +1852,13 @@
 "UIMenuItem.PasteGo" = "ჩასმა და გადასვლა";
 
 /* Search in New Tab Text selection menu item */
-"UIMenuItem.SearchWithFirefox" = "Firefox-ში მოძიება";
+"UIMenuItem.SearchWithFirefox" = "Beacon-ში მოძიება";
 
 /* Accessibility label for unread article in reading list. It's a past participle - functions as an adjective. */
 "unread" = "წასაკითხი";
 
 /* Text message in the settings table view */
-"Upgrade Impervious to connect" = "დასაკავშირებლად განაახლეთ Impervious";
+"Upgrade Beacon to connect" = "დასაკავშირებლად განაახლეთ Beacon";
 
 /* Debug option */
 "Use stage servers" = "საცდელი სერვერების გამოყენება";
@@ -1869,7 +1869,7 @@
 /* Text message in the settings table view */
 "Verify your email address" = "ელფოსტის მისამართის დამოწმება";
 
-/* Version number of Impervious shown in settings */
+/* Version number of Beacon shown in settings */
 "Version %@ (%@)" = "%1$@ ვერსია (%2$@)";
 
 /* Accessibility label for the main web content view */
@@ -1891,7 +1891,7 @@
 "Yesterday" = "გუშინ";
 
 /* Error message in the remote tabs panel */
-"You don’t have any tabs open in Impervious on your other devices." = "თქვენ არ გაქვთ, Impervious-ის გახსნილი ჩანართები, სხვა მოწყობილობებზე.";
+"You don’t have any tabs open in Beacon on your other devices." = "თქვენ არ გაქვთ, Beacon-ის გახსნილი ჩანართები, სხვა მოწყობილობებზე.";
 
 /* Your Rights settings section title */
 "Your Rights" = "თქვენი უფლებები";

@@ -87,7 +87,7 @@ class NavigationTest: BaseTestCase {
         waitForTabsButton()
         navigator.nowAt(NewTabScreen)
         navigator.goto(SettingsScreen)
-        // Open FxAccount from settings menu and check the Sign in to Firefox scren
+        // Open FxAccount from settings menu and check the Sign in to Beacon scren
         let signInToFirefoxStaticText = app.tables["AppSettingsTableViewController.tableView"].staticTexts["Sign in to Sync"]
         signInToFirefoxStaticText.tap()
         checkFirefoxSyncScreenShownViaSettings()
@@ -100,7 +100,7 @@ class NavigationTest: BaseTestCase {
         closeButtonFxView.tap()
     }
     
-    // Beacuse the Settings menu does not stretch tot the top we need a different function to check if the Firefox Sync screen is shown
+    // Beacuse the Settings menu does not stretch tot the top we need a different function to check if the Beacon Sync screen is shown
     private func checkFirefoxSyncScreenShownViaSettings() {
         waitForExistence(app.navigationBars["Turn on Sync"], timeout: 20)
         app.buttons["EmailSignIn.button"].tap()
@@ -117,7 +117,7 @@ class NavigationTest: BaseTestCase {
         navigator.performAction(Action.CloseURLBarOpen)
         waitForTabsButton()
         navigator.nowAt(NewTabScreen)
-        // Open FxAccount from remote tab panel and check the Sign in to Firefox scren
+        // Open FxAccount from remote tab panel and check the Sign in to Beacon scren
         navigator.goto(TabTray)
         navigator.performAction(Action.ToggleSyncMode)
 

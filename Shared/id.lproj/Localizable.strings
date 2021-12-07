@@ -270,7 +270,7 @@
 "Could not load page." = "Tidak dapat memuat laman.";
 
 /* Description for the new dark mode change in the version 22 app release. It describes the new automatic dark theme and how to change the theme settings. */
-"CoverSheet.v22.DarkMode.Description" = "Untuk pengguna iOS 13, kini Impervious secara otomatis berganti ke tema gelap ketika ponsel Anda diatur menggunakan Mode Gelap. Untuk mengubah pengaturan ini, buka Pengaturan > Tema.";
+"CoverSheet.v22.DarkMode.Description" = "Untuk pengguna iOS 13, kini Beacon secara otomatis berganti ke tema gelap ketika ponsel Anda diatur menggunakan Mode Gelap. Untuk mengubah pengaturan ini, buka Pengaturan > Tema.";
 
 /* Title for the new dark mode change in the version 22 app release. */
 "CoverSheet.v22.DarkMode.Title" = "Sekarang tema gelap mencakup papan ketik dan layar pembuka gelap.";
@@ -325,8 +325,8 @@
 /* Alert dialog title when the user taps the cancel download icon. */
 "Downloads.CancelDialog.Title" = "Batalkan Unduhan";
 
-/* The message displayed to a user when they try and perform the download of an asset that Impervious cannot currently handle. */
-"Downloads.Error.Message" = "Unduhan masih belum didukung di Impervious.";
+/* The message displayed to a user when they try and perform the download of an asset that Beacon cannot currently handle. */
+"Downloads.Error.Message" = "Unduhan masih belum didukung di Beacon.";
 
 /* The label text in the Download Cancelled toast for showing confirmation that the download was cancelled. */
 "Downloads.Toast.Cancelled.LabelText" = "Unduhan Dibatalkan";
@@ -371,7 +371,7 @@
 "ErrorPages.AdvancedWarning2.Text" = "Mungkin ini disebabkan konfigurasi yang salah atau sabotase penyerang. Lanjutkan hanya jika Anda siap menanggung risikonya.";
 
 /* Warning text on the certificate error page */
-"ErrorPages.CertWarning.Description" = "Pemilik %@ telah mengonfigurasi situs webnya secara salah. Untuk melindungi pencurian informasi Anda, Impervious tidak menyambung ke situs web ini.";
+"ErrorPages.CertWarning.Description" = "Pemilik %@ telah mengonfigurasi situs webnya secara salah. Untuk melindungi pencurian informasi Anda, Beacon tidak menyambung ke situs web ini.";
 
 /* Title on the certificate error page */
 "ErrorPages.CertWarning.Title" = "Sambungan Ini Tidak Terpercaya";
@@ -392,7 +392,7 @@
 "Facebook" = "Facebook";
 
 /* Title for firefox about:home page in tab history list */
-"Firefox.HomePage.Title" = "Beranda Impervious";
+"Beacon.HomePage.Title" = "Beranda Beacon";
 
 /* Accessibility Label for the tab toolbar Forward button */
 "Forward" = "Maju";
@@ -403,16 +403,16 @@
 /* Label stating your account is not verified */
 "FxA.AccountVerificationRequired" = "Verfikasi Akun Diperlukan";
 
-/* Message explaining that user needs to check email for Impervious Account verfication link. */
-"FxA.AccountVerificationRequiredSurface" = "Anda perlu memverifikasi %@. Periksa surel Anda untuk tautan verifikasi dari Impervious.";
+/* Message explaining that user needs to check email for Beacon Account verfication link. */
+"FxA.AccountVerificationRequiredSurface" = "Anda perlu memverifikasi %@. Periksa surel Anda untuk tautan verifikasi dari Beacon.";
 
 /* Button label to connect another device to Sync */
 "FxA.ConnectAnotherDevice" = "Sambungkan Peranti Lain";
 
-/* Settings section title for Impervious Account */
-"FxA.FirefoxAccount" = "Impervious Account";
+/* Settings section title for Beacon Account */
+"FxA.FirefoxAccount" = "Beacon Account";
 
-/* Button label to go to Impervious Account settings */
+/* Button label to go to Beacon Account settings */
 "FxA.ManageAccount" = "Kelola Akun & Peranti";
 
 /* Label when no internet is present */
@@ -428,7 +428,7 @@
 "FxA.RemoveAccount" = "Hapus";
 
 /* Description string for alert view that gets presented when user tries to remove an account. */
-"FxA.RemoveAccountAlertMessage" = "Hapus akun Impervious yang terhubung dengan perangkat ini untuk masuk sebagai pengguna lain.";
+"FxA.RemoveAccountAlertMessage" = "Hapus akun Beacon yang terhubung dengan perangkat ini untuk masuk sebagai pengguna lain.";
 
 /* Remove account alert is the final confirmation before user removes their firefox account */
 "FxA.RemoveAccountAlertTitle" = "Hapus Akun";
@@ -440,13 +440,13 @@
 "fxa.signin.camera-signin" = "Masuk Dengan Kamera Anda";
 
 /* FxA sign in create account label. */
-"fxa.signin.create-account-pt-1" = "Sinkronkan Impervious antara perangkat dengan akun.";
+"fxa.signin.create-account-pt-1" = "Sinkronkan Beacon antara perangkat dengan akun.";
 
 /* FxA sign in create account label. This will be linked to the site to create an account. */
-"fxa.signin.create-account-pt-2" = "Buat Impervious Account";
+"fxa.signin.create-account-pt-2" = "Buat Beacon Account";
 
 /* FxA sign in view qr code instructions */
-"fxa.signin.qr-link-instruction" = "Di komputer Anda, buka Impervious dan buka firefox.com/pair";
+"fxa.signin.qr-link-instruction" = "Di komputer Anda, buka Beacon dan buka firefox.com/pair";
 
 /* FxA sign in view qr code scan button */
 "fxa.signin.ready-to-scan" = "Siap Memindai";
@@ -463,14 +463,14 @@
 /* Label explaining what sync does */
 "FxA.SyncExplain" = "Dapatkan tab, markah, dan sandi Anda dari perangkat lainnya.";
 
-/* Button label to Sync your Impervious Account */
+/* Button label to Sync your Beacon Account */
 "FxA.SyncNow" = "Sinkronkan Sekarang";
 
 /* Call to action for sign into sync button */
 "FxA.TakeYourWebWithYou" = "Bawalah Web bersama Anda";
 
 /* Title of a notification displayed when another device has connected to FxA. %@ refers to the name of the newly connected device. */
-"FxAPush_DeviceConnected_body" = "Impervious Sync telah terhubung ke %@";
+"FxAPush_DeviceConnected_body" = "Beacon Sync telah terhubung ke %@";
 
 /* Title of a notification displayed when another device has connected to FxA. */
 "FxAPush_DeviceConnected_title" = "Sync Terhubung";
@@ -479,7 +479,7 @@
 "FxAPush_DeviceDisconnected_body" = "%@ telah berhasil terputus.";
 
 /* Body of a notification displayed when this device has been disconnected from FxA by another device. */
-"FxAPush_DeviceDisconnected_ThisDevice_body" = "Peranti ini telah berhasil diputuskan dari Impervious Sync.";
+"FxAPush_DeviceDisconnected_ThisDevice_body" = "Peranti ini telah berhasil diputuskan dari Beacon Sync.";
 
 /* Title of a notification displayed when this device has been disconnected by another device. */
 "FxAPush_DeviceDisconnected_ThisDevice_title" = "Sinkronisasi Terputus";
@@ -488,7 +488,7 @@
 "FxAPush_DeviceDisconnected_title" = "Sync Terputus";
 
 /* Body of a notification displayed when unnamed device has been disconnected from FxA. */
-"FxAPush_DeviceDisconnected_UnknownDevice_body" = "Peranti telah diputuskan dari Impervious Sync";
+"FxAPush_DeviceDisconnected_UnknownDevice_body" = "Peranti telah diputuskan dari Beacon Sync";
 
 /* A re-worded offer about Sync, displayed when the Sync home panel is empty, that emphasizes one-way data transfer, not syncing. */
 "Get your open tabs, bookmarks, and passwords from your other devices." = "Dapatkan tab terbuka, markah, dan sandi dari perangkat lainnya.";
@@ -536,7 +536,7 @@
 "HistoryPanel.EmptySyncedTabsPanelTabSyncDisabledState.Description" = "Aktifkan sinkronisasi tab untuk melihat daftar tab dari peranti Anda lainnya.";
 
 /* Title for the empty synced tabs state in the History Panel */
-"HistoryPanel.EmptySyncedTabsState.Title" = "Impervious Sync";
+"HistoryPanel.EmptySyncedTabsState.Title" = "Beacon Sync";
 
 /* Title for the Back to History button in the History Panel */
 "HistoryPanel.HistoryBackButton.Title" = "Riwayat";
@@ -643,10 +643,10 @@
 /* Light theme setting in Reading View settings */
 "Light" = "Terang";
 
-/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Beacon reader mode from another app. */
 "Load original page" = "Muat laman aslinya";
 
-/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Beacon reader mode from another app. */
 "Loading content…" = "Memuat konten…";
 
 /* Authentication prompt log in button */
@@ -701,7 +701,7 @@
 "LoginsList.LoginsListSearchPlaceholder" = "Filter";
 
 /* Label shown when there are no logins to list */
-"LoginsList.NoLoginsFound.Description" = "Info masuk tersimpan akan muncul di sini. Jika Anda menyimpan info masuk ke Impervious pada perangkat yang berbeda, masuk ke Impervious Account Anda.";
+"LoginsList.NoLoginsFound.Description" = "Info masuk tersimpan akan muncul di sini. Jika Anda menyimpan info masuk ke Beacon pada perangkat yang berbeda, masuk ke Beacon Account Anda.";
 
 /* Label shown when there are no logins saved */
 "LoginsList.NoLoginsFound.Title" = "Tidak ada info masuk ditemukan";
@@ -725,7 +725,7 @@
 "LoginsList.Title" = "INFO MASUK TERSIMPAN";
 
 /* Restore Tabs Prompt Description */
-"Looks like Impervious crashed previously. Would you like to restore your tabs?" = "Tampaknya tadi Impervious mogok. Ingin memulihkan tab Anda?";
+"Looks like Beacon crashed previously. Would you like to restore your tabs?" = "Tampaknya tadi Beacon mogok. Ingin memulihkan tab Anda?";
 
 /* Name for Mark as read button in reader mode
    Title for the button that marks a reading list item as read */
@@ -769,10 +769,10 @@
 "Menu.EnhancedTrackingProtectionOn.Title" = "Perlindungan Pelacakan yang Ditingkatkan AKTIF untuk situs ini.";
 
 /* Description for having standard ETP protection with ITP offered in iOS14+ */
-"Menu.EnhancedTrackingProtectionStandardWithITP.Title" = "Impervious memblokir pelacak lintas situs, pelacak media sosial, penambang kripto, dan pengumpul sidik jari.";
+"Menu.EnhancedTrackingProtectionStandardWithITP.Title" = "Beacon memblokir pelacak lintas situs, pelacak media sosial, penambang kripto, dan pengumpul sidik jari.";
 
 /* Description for having strict ETP protection with ITP offered in iOS14+ */
-"Menu.EnhancedTrackingProtectionStrictWithITP.Title" = "Impervious memblokir pelacak lintas situs, pelacak media sosial, penambang kripto, pengumpul sidik jari, dan konten pelacak.";
+"Menu.EnhancedTrackingProtectionStrictWithITP.Title" = "Beacon memblokir pelacak lintas situs, pelacak media sosial, penambang kripto, pengumpul sidik jari, dan konten pelacak.";
 
 /* Label for the button, displayed in the menu, takes you to to History screen when pressed. */
 "Menu.History.Label" = "Riwayat";
@@ -838,7 +838,7 @@
 "Menu.TrackingProtection.Details.Verifier" = "Diverifikasi oleh %@";
 
 /* Message in menu when no trackers blocked. */
-"Menu.TrackingProtection.NoTrackersBlockedTitle" = "Tidak ada pelacak dikenal Impervious terdeteksi pada laman ini.";
+"Menu.TrackingProtection.NoTrackersBlockedTitle" = "Tidak ada pelacak dikenal Beacon terdeteksi pada laman ini.";
 
 /* The title for tracking protection settings */
 "Menu.TrackingProtection.ProtectionSettings.Title" = "Setelan Perlindungan";
@@ -853,7 +853,7 @@
 "Menu.TrackingProtectionBlockedSocial.Title" = "Pelacak Sosial";
 
 /* Description of the Tracking protection menu when TP is blocking parts of the page */
-"Menu.TrackingProtectionBlocking.Description" = "Impervious memblokir bagian dari laman yang mungkin melacak penjelajahan Anda.";
+"Menu.TrackingProtectionBlocking.Description" = "Beacon memblokir bagian dari laman yang mungkin melacak penjelajahan Anda.";
 
 /* The description of the Tracking Protection menu item when tracking is enabled */
 "Menu.TrackingProtectionBlockingDisabled.Description" = "Blokir pelacak daring";
@@ -956,7 +956,7 @@
 "Okay" = "Oke";
 
 /* Title for prompt displayed to user after the app crashes */
-"Oops! Impervious crashed" = "Waduh! Impervious mogok";
+"Oops! Beacon crashed" = "Waduh! Beacon mogok";
 
 /* See http://mzl.la/1LXbDOL */
 "Open articles in Reader View by tapping the book icon when it appears in the title bar." = "Buka artikel di Tampilan Baca dengan mengetuk ikon buku saat tampil di bilah judul.";
@@ -967,8 +967,8 @@
 /* Toggle tabs syncing setting */
 "Open Tabs" = "Buka Tab";
 
-/* The message displayed to a user when they try to open a URL that cannot be handled by Impervious, or any external app. */
-"OpenURL.Error.Message" = "Impervious tidak dapat membuka halaman karena alamatnya tidak valid.";
+/* The message displayed to a user when they try to open a URL that cannot be handled by Beacon, or any external app. */
+"OpenURL.Error.Message" = "Beacon tidak dapat membuka halaman karena alamatnya tidak valid.";
 
 /* Title of the message shown when the user attempts to navigate to an invalid link. */
 "OpenURL.Error.Title" = "Tidak Dapat Membuka Laman";
@@ -983,19 +983,19 @@
 "Password" = "Sandi";
 
 /* Error message shown in the remote tabs panel */
-"PasswordAutoFill.NoPasswordsFoundTitle" = "Anda tidak memiliki kredensial yang disinkronisasi dari Impervious Account Anda";
+"PasswordAutoFill.NoPasswordsFoundTitle" = "Anda tidak memiliki kredensial yang disinkronisasi dari Beacon Account Anda";
 
 /* Header for the list of credentials table */
 "PasswordAutoFill.PasswordsListTitle" = "Kredensial yang Tersedia:";
 
 /* Title of the extension that shows firefox passwords */
-"PasswordAutoFill.SectionTitle" = "Impervious Credentials";
+"PasswordAutoFill.SectionTitle" = "Beacon Credentials";
 
 /* See http://mzl.la/1G7uHo7 */
 "PhotoLibrary.FirefoxWouldLikeAccessMessage" = "Hal ini memungkinkan Anda menyimpan gambar ke Rol Kamera.";
 
 /* See http://mzl.la/1G7uHo7 */
-"PhotoLibrary.FirefoxWouldLikeAccessTitle" = "Impervious ingin mengakses Foto Anda";
+"PhotoLibrary.FirefoxWouldLikeAccessTitle" = "Beacon ingin mengakses Foto Anda";
 
 /* Button for closing the menu action sheet */
 "PhotonMenu.close" = "Tutup";
@@ -1003,7 +1003,7 @@
 /* Privacy section title */
 "Privacy" = "Privasi";
 
-/* Show Impervious Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
+/* Show Beacon Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
 "Privacy Policy" = "Kebijakan Privasi";
 
 /* This is the value for a label that indicates if a user is on an unencrypted website. */
@@ -1076,7 +1076,7 @@
 "ScanQRCode.InvalidDataError.Message" = "Data tidak valid";
 
 /* Text of the prompt user to setup the camera authorization. */
-"ScanQRCode.PermissionError.Message" = "Izinkan Impervious untuk mengakses kamera peranti Anda di ‘Setelan‘ -> ‘Privasi‘ -> ‘Kamera‘.";
+"ScanQRCode.PermissionError.Message" = "Izinkan Beacon untuk mengakses kamera peranti Anda di ‘Setelan‘ -> ‘Privasi‘ -> ‘Kamera‘.";
 
 /* Title for the QR code scanner view. */
 "ScanQRCode.View.Title" = "Pindai Kode QR";
@@ -1132,7 +1132,7 @@
 "Secure connection" = "Sambungan aman";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
-"Send a crash report so Impervious can fix the problem?" = "Kirimkan laporan mogok agar Impervious bisa memperbaikinya?";
+"Send a crash report so Beacon can fix the problem?" = "Kirimkan laporan mogok agar Beacon bisa memperbaikinya?";
 
 /* Menu item in settings used to open input.mozilla.org where people can submit feedback */
 "Send Feedback" = "Kirim Masukan";
@@ -1160,19 +1160,19 @@
 "SendTo.NavBar.Title" = "Kirim Tab";
 
 /* Error message shown in the remote tabs panel */
-"SendTo.NoDevicesFound.Message" = "Anda tidak memiliki perangkat lainnya yang terhubung dengan Impervious Account ini untuk dapat disinkronkan.";
+"SendTo.NoDevicesFound.Message" = "Anda tidak memiliki perangkat lainnya yang terhubung dengan Beacon Account ini untuk dapat disinkronkan.";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Message" = "Silakan buka Impervious, kunjungi Setelan, dan masuk untuk melanjutkan.";
+"SendTo.NotSignedIn.Message" = "Silakan buka Beacon, kunjungi Setelan, dan masuk untuk melanjutkan.";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Title" = "Anda belum masuk ke Akun Impervious.";
+"SendTo.NotSignedIn.Title" = "Anda belum masuk ke Akun Beacon.";
 
 /* Navigation bar button to Send the current page to a device */
 "SendTo.SendAction.Text" = "Kirim";
 
-/* The text for the button on the Send to Device page if you are not signed in to Impervious Accounts. */
-"SendTo.SignIn.Button" = "Masuk ke Impervious";
+/* The text for the button on the Send to Device page if you are not signed in to Beacon Accounts. */
+"SendTo.SignIn.Button" = "Masuk ke Beacon";
 
 /* Body of notification shown when the device is sent one or more tabs from an unnamed device. */
 "SentTab_TabArrivingNotification_NoDevice_body" = "Tab baru datang dari perangkat lain.";
@@ -1196,7 +1196,7 @@
 "SentTab.NoTabArrivingNotification.body" = "Ketuk untuk memulai";
 
 /* Title of notification received after a spurious message from FxA has been received. */
-"SentTab.NoTabArrivingNotification.title" = "Impervious Sync";
+"SentTab.NoTabArrivingNotification.title" = "Beacon Sync";
 
 /* Label for an action used to view one or more tabs from a notification. */
 "SentTab.ViewAction.title" = "Tampilkan";
@@ -1259,7 +1259,7 @@
 "Settings.DataManagement.Title" = "Manajemen Data";
 
 /* Body of the alert when prompting the user asking to disconnect. */
-"Settings.Disconnect.Body" = "Impervious akan berhenti menyinkronkan dengan akun Anda, tetapi tidak akan menghapus data penjelajahan Anda di peranti ini.";
+"Settings.Disconnect.Body" = "Beacon akan berhenti menyinkronkan dengan akun Anda, tetapi tidak akan menghapus data penjelajahan Anda di peranti ini.";
 
 /* Button displayed at the bottom of settings page allowing users to Disconnect from FxA */
 "Settings.Disconnect.Button" = "Putuskan Sync";
@@ -1328,11 +1328,11 @@
 /* Label used for the device name settings section. */
 "Settings.FxA.DeviceName" = "Nama Peranti";
 
-/* Label used as a section title in the Impervious Accounts Settings screen. */
+/* Label used as a section title in the Beacon Accounts Settings screen. */
 "Settings.FxA.Sync.SectionName" = "Setelan Sinkronisasi";
 
 /* Title displayed in header of the FxA settings panel. */
-"Settings.FxA.Title" = "Impervious Account";
+"Settings.FxA.Title" = "Beacon Account";
 
 /* General settings section title */
 "Settings.General.SectionName" = "Umum";
@@ -1386,10 +1386,10 @@
 "Settings.NewTab.Option.CustomizeFooter2" = "Situs yang Anda simpan atau kunjungi";
 
 /* The title for the section to customize top sites in the new tab settings page. */
-"Settings.NewTab.Option.CustomizeTitle" = "Ubahsuai Impervious Home";
+"Settings.NewTab.Option.CustomizeTitle" = "Ubahsuai Beacon Home";
 
-/* Option in settings to show Impervious Home when you open a new tab */
-"Settings.NewTab.Option.FirefoxHome" = "Impervious Home";
+/* Option in settings to show Beacon Home when you open a new tab */
+"Settings.NewTab.Option.FirefoxHome" = "Beacon Home";
 
 /* Option in the settings to turn off recent bookmarks in the Highlights section */
 "Settings.NewTab.Option.HighlightsBookmarks" = "Markah Terbaru";
@@ -1431,7 +1431,7 @@
 "Settings.NewTab.TopSectionNameFooter" = "Pilih apa yang akan dimuat ketika membuka tab baru";
 
 /* Description displayed under the ”Offer to Open Copied Link” option. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
-"Settings.OfferClipboardBar.Status" = "Ketika Membuka Impervious";
+"Settings.OfferClipboardBar.Status" = "Ketika Membuka Beacon";
 
 /* Title of setting to enable the Go to Copied URL feature. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
 "Settings.OfferClipboardBar.Title" = "Sarankan untuk Membuka Tautan Tersalin";
@@ -1455,7 +1455,7 @@
 "Settings.SendUsage.Link" = "Pelajari Lebih Lanjut.";
 
 /* A short description that explains why mozilla collects usage data. */
-"Settings.SendUsage.Message" = "Impervious berusaha untuk hanya mengumpulkan yang kami perlu untuk menghadirkan dan meningkatkan Impervious untuk setiap orang.";
+"Settings.SendUsage.Message" = "Beacon berusaha untuk hanya mengumpulkan yang kami perlu untuk menghadirkan dan meningkatkan Beacon untuk setiap orang.";
 
 /* The title for the setting to send usage data. */
 "Settings.SendUsage.Title" = "Kirim Data Penggunaan";
@@ -1473,7 +1473,7 @@
 "Settings.Siri.OpenTabShortcut" = "Buka Tab Baru";
 
 /* The description that describes what siri shortcuts are */
-"Settings.Siri.SectionDescription" = "Gunakan Siri shortcuts untuk membuat Impervious dengan cepat lewat Siri";
+"Settings.Siri.SectionDescription" = "Gunakan Siri shortcuts untuk membuat Beacon dengan cepat lewat Siri";
 
 /* The option that takes you to the siri shortcuts settings page */
 "Settings.Siri.SectionName" = "Siri Shortcuts";
@@ -1493,11 +1493,11 @@
 /* Label used as an item in Settings. Tapping on this item takes you to the Studies panel */
 "Settings.Studies.Title" = "Kajian";
 
-/* Title for a link that explains what Impervious means by Studies */
+/* Title for a link that explains what Beacon means by Studies */
 "Settings.Studies.Toggle.Link" = "Pelajari Lebih Lanjut.";
 
-/* A short description that explains that Impervious is running studies */
-"Settings.Studies.Toggle.Message" = "Impervious dapat memasang dan menjalankan kajian dari waktu ke waktu.";
+/* A short description that explains that Beacon is running studies */
+"Settings.Studies.Toggle.Message" = "Beacon dapat memasang dan menjalankan kajian dari waktu ke waktu.";
 
 /* Toggled OFF to opt-out of studies */
 "Settings.Studies.Toggle.Off" = "Mati";
@@ -1518,7 +1518,7 @@
 "Settings.TrackingProtection.Alert.Title" = "Perhatian!";
 
 /* Header description for tracking protection options section where Basic/Strict block list can be selected */
-"Settings.TrackingProtection.BlockListsHeader" = "Anda bisa memilih daftar mana yang digunakan Impervious untuk mencegah elemen Web yang mungkin melacak aktivitas penjelajahan Anda.";
+"Settings.TrackingProtection.BlockListsHeader" = "Anda bisa memilih daftar mana yang digunakan Beacon untuk mencegah elemen Web yang mungkin melacak aktivitas penjelajahan Anda.";
 
 /* Explanation of basic mode. */
 "Settings.TrackingProtection.Info.BasicTitle" = "Seimbang untuk perlindungan dan kinerja.";
@@ -1613,32 +1613,32 @@
 /* Title displayed in header of the Data Management panel. */
 "Settings.WebsiteData.Title" = "Data Situs Web";
 
-/* Action label on share extension to add page to the Impervious reading list. */
+/* Action label on share extension to add page to the Beacon reading list. */
 "ShareExtension.AddToReadingListAction.Title" = "Tambahkan ke Daftar Bacaan";
 
 /* Share extension label shown after user has performed 'Add to Reading List' action. */
 "ShareExtension.AddToReadingListActionDone.Title" = "Ditambahkan ke Daftar Bacaan";
 
-/* Action label on share extension to bookmark the page in Impervious. */
+/* Action label on share extension to bookmark the page in Beacon. */
 "ShareExtension.BookmarkThisPageAction.Title" = "Markahi Laman Ini";
 
 /* Share extension label shown after user has performed 'Bookmark this Page' action. */
 "ShareExtension.BookmarkThisPageActionDone.Title" = "Dimarkahi";
 
-/* Action label on share extension to load the page in Impervious when user switches apps to bring it to foreground. */
+/* Action label on share extension to load the page in Beacon when user switches apps to bring it to foreground. */
 "ShareExtension.LoadInBackgroundAction.Title" = "Muat di Belakang";
 
 /* Share extension label shown after user has performed 'Load in Background' action. */
-"ShareExtension.LoadInBackgroundActionDone.Title" = "Memuat di Impervious";
+"ShareExtension.LoadInBackgroundActionDone.Title" = "Memuat di Beacon";
 
-/* Action label on share extension to immediately open page in Impervious. */
-"ShareExtension.OpenInFirefoxAction.Title" = "Buka di Impervious";
+/* Action label on share extension to immediately open page in Beacon. */
+"ShareExtension.OpenInFirefoxAction.Title" = "Buka di Beacon";
 
-/* Action label on share extension to immediately open page in Impervious in private mode. */
+/* Action label on share extension to immediately open page in Beacon in private mode. */
 "ShareExtension.OpenInPrivateModeAction.Title" = "Buka di Mode Pribadi";
 
-/* Action label on share extension to search for the selected text in Impervious. */
-"ShareExtension.SeachInFirefoxAction.Title" = "Cari di Impervious";
+/* Action label on share extension to search for the selected text in Beacon. */
+"ShareExtension.SeachInFirefoxAction.Title" = "Cari di Beacon";
 
 /* Label for show search suggestions setting. */
 "Show Search Suggestions" = "Tampilkan Saran Pencarian";
@@ -1675,7 +1675,7 @@
 "Sync.FirstTimeMessage.Label" = "Sinkronisasi pertama Anda mungkin memerlukan waktu agak lama";
 
 /* String displayed on Sign In to Sync page that allows the user to create a new account. */
-"Sync.NoAccount.Description" = "Tidak ada akun? <u>Buat akun</u> untuk menyinkronkan Impervious antar-perangkat.";
+"Sync.NoAccount.Description" = "Tidak ada akun? <u>Buat akun</u> untuk menyinkronkan Beacon antar-perangkat.";
 
 /* Message displayed when the user's account is syncing with no ellipsis */
 "Sync.Syncing.Label" = "Menyinkronkan";
@@ -1794,7 +1794,7 @@
 /* The section header for tabs opened yesterday */
 "TabTray.Yesterday.Header" = "Kemarin";
 
-/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Beacon reader mode from another app. */
 "The page could not be displayed in Reader View." = "Laman ini tidak dapat ditampilkan di Tampilan Baca.";
 
 /* Error message in the remote tabs panel */
@@ -1852,13 +1852,13 @@
 "UIMenuItem.PasteGo" = "Tempel & Kunjungi";
 
 /* Search in New Tab Text selection menu item */
-"UIMenuItem.SearchWithFirefox" = "Cari dengan Impervious";
+"UIMenuItem.SearchWithFirefox" = "Cari dengan Beacon";
 
 /* Accessibility label for unread article in reading list. It's a past participle - functions as an adjective. */
 "unread" = "belum dibaca";
 
 /* Text message in the settings table view */
-"Upgrade Impervious to connect" = "Perbarui Impervious untuk terhubung";
+"Upgrade Beacon to connect" = "Perbarui Beacon untuk terhubung";
 
 /* Debug option */
 "Use stage servers" = "Gunakan server pentahapan";
@@ -1869,7 +1869,7 @@
 /* Text message in the settings table view */
 "Verify your email address" = "Verifikasi alamat surel Anda";
 
-/* Version number of Impervious shown in settings */
+/* Version number of Beacon shown in settings */
 "Version %@ (%@)" = "Versi %1$@ (%2$@)";
 
 /* Accessibility label for the main web content view */
@@ -1891,7 +1891,7 @@
 "Yesterday" = "Kemarin";
 
 /* Error message in the remote tabs panel */
-"You don’t have any tabs open in Impervious on your other devices." = "Anda tidak memiliki tab terbuka di Impervious pada perangkat Anda lainnya.";
+"You don’t have any tabs open in Beacon on your other devices." = "Anda tidak memiliki tab terbuka di Beacon pada perangkat Anda lainnya.";
 
 /* Your Rights settings section title */
 "Your Rights" = "Hak Anda";

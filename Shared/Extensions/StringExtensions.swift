@@ -54,7 +54,7 @@ public extension String {
     }
 
     var asURL: URL? {
-        // Firefox and NSURL disagree about the valid contents of a URL.
+        // Beacon and NSURL disagree about the valid contents of a URL.
         // Let's escape | for them.
         // We'd love to use one of the more sophisticated CFURL* or NSString.* functions, but
         // none seem to be quite suitable.

@@ -42,7 +42,7 @@ class HistoryTests: BaseTestCase {
         navigator.nowAt(NewTabScreen)
         navigator.goto(TabTray)
         navigator.performAction(Action.ToggleSyncMode)
-        waitForExistence(app.tables.cells.staticTexts["Firefox Sync"])
+        waitForExistence(app.tables.cells.staticTexts["Beacon Sync"])
         XCTAssertTrue(app.tables.buttons["Sign in to Sync"].exists, "Sing in button does not appear")
     }
 

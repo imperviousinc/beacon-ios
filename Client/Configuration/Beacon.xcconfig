@@ -5,8 +5,8 @@
 #include "Common.xcconfig"
 #include "Release.xcconfig"
 
-MOZ_BUNDLE_DISPLAY_NAME = Impervious
+MOZ_BUNDLE_DISPLAY_NAME = Beacon
 MOZ_BUNDLE_ID = com.impervious.ios.Browser
-CODE_SIGN_ENTITLEMENTS = Client/Entitlements/ImperviousApplication.entitlements
+CODE_SIGN_ENTITLEMENTS = Client/Entitlements/BeaconApplication.entitlements
 OTHER_SWIFT_FLAGS = $(OTHER_SWIFT_FLAGS_common) -DMOZ_CHANNEL_RELEASE
 MOZ_INTERNAL_URL_SCHEME = browser-internal

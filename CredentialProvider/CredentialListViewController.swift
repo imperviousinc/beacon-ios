@@ -77,7 +77,7 @@ class CredentialListViewController: UIViewController, CredentialListViewProtocol
     }
     
     private func styleNavigationBar() {
-        navigationItem.title = "Firefox"
+        navigationItem.title = "Beacon"
         navigationItem.largeTitleDisplayMode = .never
         navigationController?.navigationBar.accessibilityIdentifier = "firefox.navigationBar"
         navigationController?.navigationBar.titleTextAttributes = [

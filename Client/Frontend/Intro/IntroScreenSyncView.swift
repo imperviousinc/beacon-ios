@@ -45,7 +45,7 @@ class IntroScreenSyncView: UIView, CardTheme {
         return theme == .dark ? .white : .black
     }
     private var fxBackgroundThemeColour: UIColor {
-        return theme == .dark ? UIColor.Firefox.DarkGrey10 : .white
+        return theme == .dark ? UIColor.Beacon.DarkGrey10 : .white
     }
     private lazy var titleImageView: UIImageView = {
         let imgView = UIImageView(image: #imageLiteral(resourceName: "tour-sync-v2"))

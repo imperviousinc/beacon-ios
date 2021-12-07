@@ -7,10 +7,10 @@
 /* Next button on the first intro screen. */
 "Intro.Slides.Button.Next" = "Hurrengoa";
 
-/* Sign in to Impervious account button on second intro screen. */
+/* Sign in to Beacon account button on second intro screen. */
 "Intro.Slides.Button.SignIn" = "Hasi saioa";
 
-/* Sign up to Impervious account button on second intro screen. */
+/* Sign up to Beacon account button on second intro screen. */
 "Intro.Slides.Button.SignUp" = "Eman izena";
 
 /* Description for the second item in the table related to fast searching via address bar */
@@ -20,10 +20,10 @@
 "Intro.Slides.Fast.Search.Title" = "Bilaketa azkarra";
 
 /* Description for the first item in the table related to syncing data (bookmarks, history) via firefox account between devices */
-"Intro.Slides.Firefox.Account.Sync.Description" = "Ekarri laster-markak, historia eta pasahitzak gailu honetako Firefoxera.";
+"Intro.Slides.Beacon.Account.Sync.Description" = "Ekarri laster-markak, historia eta pasahitzak gailu honetako Firefoxera.";
 
 /* Title for the first item in the table related to syncing data (bookmarks, history) via firefox account between devices */
-"Intro.Slides.Firefox.Account.Sync.Title" = "Sinkronizatu Impervious gailuen artean";
+"Intro.Slides.Beacon.Account.Sync.Title" = "Sinkronizatu Beacon gailuen artean";
 
 /* Description for the 'Mail' panel in the First Run tour. */
 "Intro.Slides.Mail.Description" = "Erabili edozein posta-aplikazio Firefoxekin.";
@@ -38,7 +38,7 @@
 "Intro.Slides.Private.Title" = "Nabigatu inor begira ez balego bezala";
 
 /* Description for the third item in the table related to safe syncing with a firefox account */
-"Intro.Slides.Safe.Sync.Description" = "Babestu zure saio-hasierak eta datuak Impervious erabiltzen duzun toki orotan.";
+"Intro.Slides.Safe.Sync.Description" = "Babestu zure saio-hasierak eta datuak Beacon erabiltzen duzun toki orotan.";
 
 /* Title for the third item in the table related to safe syncing with a firefox account */
 "Intro.Slides.Safe.Sync.Title" = "Sinkronizazio segurua";

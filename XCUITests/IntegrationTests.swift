@@ -63,7 +63,7 @@ class IntegrationTests: BaseTestCase {
 
     func testFxASyncHistory () {
         // History is generated using the DB so go directly to Sign in
-        // Sign into Firefox Accounts
+        // Sign into Beacon Accounts
         app.buttons["urlBar-cancel"].tap()
         navigator.goto(BrowserTabMenu)
         signInFxAccounts()
@@ -74,7 +74,7 @@ class IntegrationTests: BaseTestCase {
 
     func testFxASyncPageUsingChinaFxA () {
         // History is generated using the DB so go directly to Sign in
-        // Sign into Firefox Accounts
+        // Sign into Beacon Accounts
         app.buttons["urlBar-cancel"].tap()
         navigator.goto(BrowserTabMenu)
         navigator.goto(Intro_FxASignin)
@@ -83,13 +83,13 @@ class IntegrationTests: BaseTestCase {
         waitForExistence(app.webViews.textFields["Email"], timeout: 20)
 
         // Wait for element not present on FxA sign in page China FxA server
-        waitForNoExistence(app.webViews.otherElements.staticTexts["Firefox Monitor"])
-        XCTAssertFalse(app.webViews.otherElements.staticTexts["Firefox Monitor"].exists)
+        waitForNoExistence(app.webViews.otherElements.staticTexts["Beacon Monitor"])
+        XCTAssertFalse(app.webViews.otherElements.staticTexts["Beacon Monitor"].exists)
     }
 
     func testFxASyncBookmark () {
         // Bookmark is added by the DB
-        // Sign into Firefox Accounts
+        // Sign into Beacon Accounts
         app.buttons["urlBar-cancel"].tap()
         signInFxAccounts()
 
@@ -98,7 +98,7 @@ class IntegrationTests: BaseTestCase {
     }
 
     func testFxASyncBookmarkDesktop () {
-        // Sign into Firefox Accounts
+        // Sign into Beacon Accounts
         app.buttons["urlBar-cancel"].tap()
         signInFxAccounts()
 
@@ -155,7 +155,7 @@ class IntegrationTests: BaseTestCase {
 
     func testFxASyncHistoryDesktop () {
         app.buttons["urlBar-cancel"].tap()
-        // Sign into Firefox Accounts
+        // Sign into Beacon Accounts
         signInFxAccounts()
 
         // Wait for initial sync to complete
@@ -168,7 +168,7 @@ class IntegrationTests: BaseTestCase {
 
     func testFxASyncPasswordDesktop () {
         app.buttons["urlBar-cancel"].tap()
-        // Sign into Firefox Accounts
+        // Sign into Beacon Accounts
         signInFxAccounts()
 
         // Wait for initial sync to complete
@@ -183,7 +183,7 @@ class IntegrationTests: BaseTestCase {
 
     func testFxASyncTabsDesktop () {
         app.buttons["urlBar-cancel"].tap()
-        // Sign into Firefox Accounts
+        // Sign into Beacon Accounts
         signInFxAccounts()
 
         // Wait for initial sync to complete
@@ -202,7 +202,7 @@ class IntegrationTests: BaseTestCase {
 
     func testFxADisconnectConnect() {
         app.buttons["urlBar-cancel"].tap()
-        // Sign into Firefox Accounts
+        // Sign into Beacon Accounts
         signInFxAccounts()
         sleep(3)
 

@@ -26,7 +26,7 @@ class EncryptedDNSViewController: SettingsTableViewController {
         self.currentChoice  = DNSAccessors.getSecureDNSOption(self.prefs)
 
         let onFinished = {
-            self.prefs.setString(self.currentChoice, forKey: ImperviousConstants.SecureDNSPrefKey)
+            self.prefs.setString(self.currentChoice, forKey: BeaconConstants.SecureDNSPrefKey)
             self.tableView.reloadData()
             DNSVPNConfiguration.getManager() {m in
                 guard let manager = m else {
@@ -39,14 +39,14 @@ class EncryptedDNSViewController: SettingsTableViewController {
             }
         }
 
-        let defaultDoHServer = CheckmarkSetting(title: NSAttributedString(string: "Impervious"), subtitle: nil, accessibilityIdentifier: "ImperviousDNSServer", isChecked: {return self.currentChoice == "Impervious"}, onChecked: {
-            self.currentChoice = ImperviousConstants.SecureDNSDefaultOption
+        let defaultDoHServer = CheckmarkSetting(title: NSAttributedString(string: "Beacon"), subtitle: nil, accessibilityIdentifier: "BeaconDNSServer", isChecked: {return self.currentChoice == "Beacon"}, onChecked: {
+            self.currentChoice = BeaconConstants.SecureDNSDefaultOption
             onFinished()
         })
         
        
-        let customDoHServer = WebPageSetting(prefs: prefs, prefKey: ImperviousConstants.SecureDNSURLPrefKey, defaultValue: nil, placeholder: "https://server.example/dns-query", accessibilityIdentifier: "CustomDNSServer", isChecked: {return !defaultDoHServer.isChecked()}, settingDidChange: { (string) in
-            self.currentChoice = ImperviousConstants.SecureDNSCustomOption
+        let customDoHServer = WebPageSetting(prefs: prefs, prefKey: BeaconConstants.SecureDNSURLPrefKey, defaultValue: nil, placeholder: "https://server.example/dns-query", accessibilityIdentifier: "CustomDNSServer", isChecked: {return !defaultDoHServer.isChecked()}, settingDidChange: { (string) in
+            self.currentChoice = BeaconConstants.SecureDNSCustomOption
             onFinished()
         })
         

@@ -193,8 +193,8 @@ class SearchTests: BaseTestCase {
         waitForExistence(app.webViews.staticTexts["cloud"], timeout: 10)
         // Select some text and long press to find the option
         app.webViews.staticTexts["cloud"].press(forDuration: 1)
-        waitForExistence(app.menuItems["Search with Firefox"])
-        app.menuItems["Search with Firefox"].tap()
+        waitForExistence(app.menuItems["Search with Beacon"])
+        app.menuItems["Search with Beacon"].tap()
         waitUntilPageLoad()
         waitForValueContains(app.textFields["url"], value: "google")
         // Now there should be two tabs open

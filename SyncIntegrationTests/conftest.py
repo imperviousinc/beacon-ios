@@ -153,7 +153,7 @@ def pytest_runtest_makereport(item, call):
                     with io.open(path, 'r', encoding='utf8') as f:
                         extra.append(pytest_html.extras.text(f.read(), 'Sync'))
                 report.sections.append(('Sync', 'Log: {}'.format(path)))
-    for log in ('Firefox', 'TPS', 'XCodeBuild'):
+    for log in ('Beacon', 'TPS', 'XCodeBuild'):
         attr = '_{}_log'.format(log.lower())
         path = getattr(item.config, attr, None)
         if path is not None and os.path.exists(path):

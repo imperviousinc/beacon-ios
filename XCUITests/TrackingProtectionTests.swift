@@ -4,8 +4,8 @@
 
 import XCTest
 
-let standardBlockedElementsString = "Firefox blocks cross-site trackers, social trackers, cryptominers, and fingerprinters."
-let strictBlockedElementsString = "Firefox blocks cross-site trackers, social trackers, cryptominers, fingerprinters, and tracking content."
+let standardBlockedElementsString = "Beacon blocks cross-site trackers, social trackers, cryptominers, and fingerprinters."
+let strictBlockedElementsString = "Beacon blocks cross-site trackers, social trackers, cryptominers, fingerprinters, and tracking content."
 
 let websiteWithBlockedElements = "twitter.com"
 let differentWebsite = path(forTestPage: "test-example.html")

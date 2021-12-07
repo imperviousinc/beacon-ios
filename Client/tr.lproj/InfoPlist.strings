@@ -2,7 +2,7 @@
 "NSCameraUsageDescription" = "Fotoğraf çekmenizi ve yüklemenizi sağlar.";
 
 /* Privacy - Face ID Usage Description */
-"NSFaceIDUsageDescription" = "Firefox, kayıtlı hesaplarınıza erişmek için Face ID gerektirir.";
+"NSFaceIDUsageDescription" = "Beacon, kayıtlı hesaplarınıza erişmek için Face ID gerektirir.";
 
 /* This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this

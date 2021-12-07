@@ -5,7 +5,7 @@
 "ContextMenu.OpenInNewPrivateTabButtonTitle" = "เปิดในแท็บส่วนตัวใหม่";
 
 /* Description text displayed when there are no open tabs while in private mode */
-"Impervious won’t remember any of your history or cookies, but new bookmarks will be saved." = "Impervious จะไม่จดจำประวัติหรือคุกกี้ใด ๆ ของคุณ แต่จะบันทึกที่คั่นหน้าใหม่ไว้";
+"Beacon won’t remember any of your history or cookies, but new bookmarks will be saved." = "Beacon จะไม่จดจำประวัติหรือคุกกี้ใด ๆ ของคุณ แต่จะบันทึกที่คั่นหน้าใหม่ไว้";
 
 /* Text button displayed when there are no tabs open while in private mode */
 "Learn More" = "เรียนรู้เพิ่มเติม";

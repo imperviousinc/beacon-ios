@@ -2,7 +2,7 @@
 "NSCameraUsageDescription" = "Hiermit können Sie Fotos machen und hochladen.";
 
 /* Privacy - Face ID Usage Description */
-"NSFaceIDUsageDescription" = "Impervious benötigt Face ID, um auf Ihre gespeicherten Zugangsdaten zuzugreifen.";
+"NSFaceIDUsageDescription" = "Beacon benötigt Face ID, um auf Ihre gespeicherten Zugangsdaten zuzugreifen.";
 
 /* This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this

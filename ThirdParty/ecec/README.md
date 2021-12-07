@@ -91,7 +91,7 @@ free(plaintext);
 
 ### `aesgcm`
 
-All [Web Push libraries](https://github.com/web-push-libs) support the "aesgcm" scheme, as well as Firefox 46+ and Chrome 50+. The app server includes its public key in the `Crypto-Key` HTTP header, the salt and record size in the `Encryption` header, and the encrypted payload in the body of the `POST` request.
+All [Web Push libraries](https://github.com/web-push-libs) support the "aesgcm" scheme, as well as Beacon 46+ and Chrome 50+. The app server includes its public key in the `Crypto-Key` HTTP header, the salt and record size in the `Encryption` header, and the encrypted payload in the body of the `POST` request.
 
 * The `Crypto-Key` header comprises one or more comma-delimited parameters. The first parameter must include a `dh` name-value pair, containing the sender's Base64url-encoded public key.
 * The `Encryption` header must include a `salt` name-value pair containing the sender's Base64url-encoded salt, and an optional `rs` pair specifying the record size.

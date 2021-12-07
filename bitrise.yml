@@ -229,12 +229,12 @@ workflows:
             set -x
 
             cd Client.xcodeproj
-            sed -i '' 's/"Fennec Development"/"Bitrise Firefox iOS Dev"/' project.pbxproj
-            sed -i '' 's/Fennec Today Development/Bitrise Firefox iOS Dev - Fennec Today/' project.pbxproj
-            sed -i '' 's/Fennec ShareTo Development/Bitrise Firefox iOS Dev - Share To/' project.pbxproj
-            sed -i '' 's/Fennec WidgetKit Development/Bitrise Firefox iOS Dev - WidgetKit/' project.pbxproj
-            sed -i '' 's/"XCUITests"/"Bitrise Firefox iOS Dev - XCUI Tests"/' project.pbxproj
-            sed -i '' 's/Fennec NotificationService Development/Bitrise Firefox iOS Dev - Notification Service/' project.pbxproj
+            sed -i '' 's/"Fennec Development"/"Bitrise Beacon iOS Dev"/' project.pbxproj
+            sed -i '' 's/Fennec Today Development/Bitrise Beacon iOS Dev - Fennec Today/' project.pbxproj
+            sed -i '' 's/Fennec ShareTo Development/Bitrise Beacon iOS Dev - Share To/' project.pbxproj
+            sed -i '' 's/Fennec WidgetKit Development/Bitrise Beacon iOS Dev - WidgetKit/' project.pbxproj
+            sed -i '' 's/"XCUITests"/"Bitrise Beacon iOS Dev - XCUI Tests"/' project.pbxproj
+            sed -i '' 's/Fennec NotificationService Development/Bitrise Beacon iOS Dev - Notification Service/' project.pbxproj
             sed -i '' 's/CODE_SIGN_IDENTITY = "iPhone Developer"/CODE_SIGN_IDENTITY = "iPhone Distribution"/' project.pbxproj
             cd -
         title: Set provisioning to Bitrise in xcodeproj
@@ -742,8 +742,8 @@ workflows:
     envs:
     - opts:
         is_expand: false
-      BITRISE_SCHEME: Firefox
-    description: This step is to build, archive and upload Firefox Release and Beta
+      BITRISE_SCHEME: Beacon
+    description: This step is to build, archive and upload Beacon Release and Beta
     meta:
       bitrise.io:
         stack: osx-xcode-13.0.x

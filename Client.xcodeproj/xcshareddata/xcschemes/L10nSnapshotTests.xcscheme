@@ -23,7 +23,7 @@
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "ImperviousBetaEnterprise"
+      buildConfiguration = "BeaconBetaEnterprise"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
@@ -57,7 +57,7 @@
       </Testables>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "ImperviousBetaEnterprise"
+      buildConfiguration = "BeaconBetaEnterprise"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -77,7 +77,7 @@
       </MacroExpansion>
    </LaunchAction>
    <ProfileAction
-      buildConfiguration = "ImperviousBetaEnterprise"
+      buildConfiguration = "BeaconBetaEnterprise"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
@@ -93,10 +93,10 @@
       </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
-      buildConfiguration = "ImperviousBetaEnterprise">
+      buildConfiguration = "BeaconBetaEnterprise">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "ImperviousBetaEnterprise"
+      buildConfiguration = "BeaconBetaEnterprise"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

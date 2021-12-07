@@ -270,7 +270,7 @@
 "Could not load page." = "Αδυναμία φόρτωσης σελίδας.";
 
 /* Description for the new dark mode change in the version 22 app release. It describes the new automatic dark theme and how to change the theme settings. */
-"CoverSheet.v22.DarkMode.Description" = "Για τους χρήστες του iOS 13, το Impervious κάνει πλέον αυτόματα την εναλλαγή στο σκούρο θέμα, όταν το τηλέφωνό σας οριστεί σε αυτή τη λειτουργία. Για να αλλάξετε αυτή τη συμπεριφορά, μεταβείτε στις Ρυθμίσεις > Θέμα.";
+"CoverSheet.v22.DarkMode.Description" = "Για τους χρήστες του iOS 13, το Beacon κάνει πλέον αυτόματα την εναλλαγή στο σκούρο θέμα, όταν το τηλέφωνό σας οριστεί σε αυτή τη λειτουργία. Για να αλλάξετε αυτή τη συμπεριφορά, μεταβείτε στις Ρυθμίσεις > Θέμα.";
 
 /* Title for the new dark mode change in the version 22 app release. */
 "CoverSheet.v22.DarkMode.Title" = "Το σκοτεινό θέμα περιλαμβάνει πλέον ένα σκούρο πληκτρολόγιο και μια σκούρα οθόνη φόρτωσης.";
@@ -325,8 +325,8 @@
 /* Alert dialog title when the user taps the cancel download icon. */
 "Downloads.CancelDialog.Title" = "Ακύρωση λήψης";
 
-/* The message displayed to a user when they try and perform the download of an asset that Impervious cannot currently handle. */
-"Downloads.Error.Message" = "Οι λήψεις δεν υποστηρίζονται ακόμα στο Impervious.";
+/* The message displayed to a user when they try and perform the download of an asset that Beacon cannot currently handle. */
+"Downloads.Error.Message" = "Οι λήψεις δεν υποστηρίζονται ακόμα στο Beacon.";
 
 /* The label text in the Download Cancelled toast for showing confirmation that the download was cancelled. */
 "Downloads.Toast.Cancelled.LabelText" = "Η λήψη ακυρώθηκε";
@@ -371,7 +371,7 @@
 "ErrorPages.AdvancedWarning2.Text" = "Ενδέχεται να είναι μια λάθος ρύθμιση ή αλλοίωση από τρίτους. Συνεχίστε αν αποδέχεστε τον πιθανό κίνδυνο.";
 
 /* Warning text on the certificate error page */
-"ErrorPages.CertWarning.Description" = "Ο ιδιοκτήτης του %@ δεν έχει ρυθμίσει σωστά την ιστοσελίδα του. Για την προστασία των πληροφοριών σας από κλοπή, το Impervious δεν έχει συνδεθεί σε αυτή την ιστοσελίδα.";
+"ErrorPages.CertWarning.Description" = "Ο ιδιοκτήτης του %@ δεν έχει ρυθμίσει σωστά την ιστοσελίδα του. Για την προστασία των πληροφοριών σας από κλοπή, το Beacon δεν έχει συνδεθεί σε αυτή την ιστοσελίδα.";
 
 /* Title on the certificate error page */
 "ErrorPages.CertWarning.Title" = "Αυτή η σύνδεση δεν είναι αξιόπιστη";
@@ -392,7 +392,7 @@
 "Facebook" = "Facebook";
 
 /* Title for firefox about:home page in tab history list */
-"Firefox.HomePage.Title" = "Αρχική σελίδα Impervious";
+"Beacon.HomePage.Title" = "Αρχική σελίδα Beacon";
 
 /* Accessibility Label for the tab toolbar Forward button */
 "Forward" = "Εμπρός";
@@ -403,16 +403,16 @@
 /* Label stating your account is not verified */
 "FxA.AccountVerificationRequired" = "Απαιτείται επαλήθευση λογαριασμού";
 
-/* Message explaining that user needs to check email for Impervious Account verfication link. */
-"FxA.AccountVerificationRequiredSurface" = "Πρέπει να επαληθεύσετε το %@. Ελέγξτε το email σας για τον σύνδεσμο επαλήθευσης από το Impervious.";
+/* Message explaining that user needs to check email for Beacon Account verfication link. */
+"FxA.AccountVerificationRequiredSurface" = "Πρέπει να επαληθεύσετε το %@. Ελέγξτε το email σας για τον σύνδεσμο επαλήθευσης από το Beacon.";
 
 /* Button label to connect another device to Sync */
 "FxA.ConnectAnotherDevice" = "Σύνδεση άλλης συσκευής";
 
-/* Settings section title for Impervious Account */
-"FxA.FirefoxAccount" = "Λογαριασμός Impervious";
+/* Settings section title for Beacon Account */
+"FxA.FirefoxAccount" = "Λογαριασμός Beacon";
 
-/* Button label to go to Impervious Account settings */
+/* Button label to go to Beacon Account settings */
 "FxA.ManageAccount" = "Διαχείριση λογαριασμού & συσκευών";
 
 /* Label when no internet is present */
@@ -428,7 +428,7 @@
 "FxA.RemoveAccount" = "Αφαίρεση";
 
 /* Description string for alert view that gets presented when user tries to remove an account. */
-"FxA.RemoveAccountAlertMessage" = "Αφαιρέστε το λογαριασμό Impervious που σχετίζεται με αυτή τη συσκευή για να συνδεθείτε ως διαφορειτκός χρήστης.";
+"FxA.RemoveAccountAlertMessage" = "Αφαιρέστε το λογαριασμό Beacon που σχετίζεται με αυτή τη συσκευή για να συνδεθείτε ως διαφορειτκός χρήστης.";
 
 /* Remove account alert is the final confirmation before user removes their firefox account */
 "FxA.RemoveAccountAlertTitle" = "Αφαίρεση λογαριασμού";
@@ -440,13 +440,13 @@
 "fxa.signin.camera-signin" = "Σύνδεση με την κάμερά σας";
 
 /* FxA sign in create account label. */
-"fxa.signin.create-account-pt-1" = "Συγχρονίστε το Impervious με τις συσκευές σας με έναν λογαριασμό.";
+"fxa.signin.create-account-pt-1" = "Συγχρονίστε το Beacon με τις συσκευές σας με έναν λογαριασμό.";
 
 /* FxA sign in create account label. This will be linked to the site to create an account. */
-"fxa.signin.create-account-pt-2" = "Δημιουργία λογαριασμού Impervious.";
+"fxa.signin.create-account-pt-2" = "Δημιουργία λογαριασμού Beacon.";
 
 /* FxA sign in view qr code instructions */
-"fxa.signin.qr-link-instruction" = "Στον υπολογιστή σας, ανοίξτε το Impervious και μεταβείτε στο firefox.com/pair";
+"fxa.signin.qr-link-instruction" = "Στον υπολογιστή σας, ανοίξτε το Beacon και μεταβείτε στο firefox.com/pair";
 
 /* FxA sign in view qr code scan button */
 "fxa.signin.ready-to-scan" = "Σάρωση";
@@ -463,14 +463,14 @@
 /* Label explaining what sync does */
 "FxA.SyncExplain" = "Λάβετε τις καρτέλες, τους σελιδοδείκτες και τους κωδικούς πρόσβασής σας από τις άλλες σας συσκευές.";
 
-/* Button label to Sync your Impervious Account */
+/* Button label to Sync your Beacon Account */
 "FxA.SyncNow" = "Συγχρονισμός τώρα";
 
 /* Call to action for sign into sync button */
 "FxA.TakeYourWebWithYou" = "Πάρτε μαζί σας το διαδίκτυο";
 
 /* Title of a notification displayed when another device has connected to FxA. %@ refers to the name of the newly connected device. */
-"FxAPush_DeviceConnected_body" = "Το Impervious Sync έχει συνδεθεί με τη συσκευή %@";
+"FxAPush_DeviceConnected_body" = "Το Beacon Sync έχει συνδεθεί με τη συσκευή %@";
 
 /* Title of a notification displayed when another device has connected to FxA. */
 "FxAPush_DeviceConnected_title" = "Το Sync συνδέθηκε";
@@ -479,7 +479,7 @@
 "FxAPush_DeviceDisconnected_body" = "Η συσκευή %@ έχει αποσυνδεθεί επιτυχώς.";
 
 /* Body of a notification displayed when this device has been disconnected from FxA by another device. */
-"FxAPush_DeviceDisconnected_ThisDevice_body" = "Αυτή η συσκευή έχει αποσυνδεθεί επιτυχώς από το Impervious Sync.";
+"FxAPush_DeviceDisconnected_ThisDevice_body" = "Αυτή η συσκευή έχει αποσυνδεθεί επιτυχώς από το Beacon Sync.";
 
 /* Title of a notification displayed when this device has been disconnected by another device. */
 "FxAPush_DeviceDisconnected_ThisDevice_title" = "Το Sync αποσυνδέθηκε";
@@ -488,7 +488,7 @@
 "FxAPush_DeviceDisconnected_title" = "Το Sync αποσυνδέθηκε";
 
 /* Body of a notification displayed when unnamed device has been disconnected from FxA. */
-"FxAPush_DeviceDisconnected_UnknownDevice_body" = "Μια συσκευή αποσυνδέθηκε από το Impervious Sync";
+"FxAPush_DeviceDisconnected_UnknownDevice_body" = "Μια συσκευή αποσυνδέθηκε από το Beacon Sync";
 
 /* A re-worded offer about Sync, displayed when the Sync home panel is empty, that emphasizes one-way data transfer, not syncing. */
 "Get your open tabs, bookmarks, and passwords from your other devices." = "Λάβετε τις ανοικτές σας καρτέλες, σελιδοδείκτες και κωδικούς πρόσβασης από τις άλλες σας συσκευές.";
@@ -536,7 +536,7 @@
 "HistoryPanel.EmptySyncedTabsPanelTabSyncDisabledState.Description" = "Ενεργοποιήστε το συγχρονισμό καρτελών για να βλέπετε μια λίστα με τις καρτέλες σας από τις άλλες σας συσκευές.";
 
 /* Title for the empty synced tabs state in the History Panel */
-"HistoryPanel.EmptySyncedTabsState.Title" = "Impervious Sync";
+"HistoryPanel.EmptySyncedTabsState.Title" = "Beacon Sync";
 
 /* Title for the Back to History button in the History Panel */
 "HistoryPanel.HistoryBackButton.Title" = "Ιστορικό";
@@ -643,10 +643,10 @@
 /* Light theme setting in Reading View settings */
 "Light" = "Φωτεινό";
 
-/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Beacon reader mode from another app. */
 "Load original page" = "Φόρτωση αρχικής σελίδας";
 
-/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Beacon reader mode from another app. */
 "Loading content…" = "Φόρτωση περιεχομένου…";
 
 /* Authentication prompt log in button */
@@ -701,7 +701,7 @@
 "LoginsList.LoginsListSearchPlaceholder" = "Φίλτρο";
 
 /* Label shown when there are no logins to list */
-"LoginsList.NoLoginsFound.Description" = "Οι αποθηκευμένες συνδέσεις θα εμφανίζονται εδώ. Εάν αποθηκεύσατε τις συνδέσεις σας στο Impervious διαφορετικής συσκευής, συνδεθείτε στον λογαριασμό Impervious σας.";
+"LoginsList.NoLoginsFound.Description" = "Οι αποθηκευμένες συνδέσεις θα εμφανίζονται εδώ. Εάν αποθηκεύσατε τις συνδέσεις σας στο Beacon διαφορετικής συσκευής, συνδεθείτε στον λογαριασμό Beacon σας.";
 
 /* Label shown when there are no logins saved */
 "LoginsList.NoLoginsFound.Title" = "Δεν βρέθηκαν συνδέσεις";
@@ -725,7 +725,7 @@
 "LoginsList.Title" = "ΑΠΟΘΗΚΕΥΜΕΝΕΣ ΣΥΝΔΕΣΕΙΣ";
 
 /* Restore Tabs Prompt Description */
-"Looks like Impervious crashed previously. Would you like to restore your tabs?" = "Φαίνεται πως το Impervious κατέρρευσε προηγουμένως. Θα θέλατε να επαναφέρετε τις καρτέλες σας;";
+"Looks like Beacon crashed previously. Would you like to restore your tabs?" = "Φαίνεται πως το Beacon κατέρρευσε προηγουμένως. Θα θέλατε να επαναφέρετε τις καρτέλες σας;";
 
 /* Name for Mark as read button in reader mode
    Title for the button that marks a reading list item as read */
@@ -769,10 +769,10 @@
 "Menu.EnhancedTrackingProtectionOn.Title" = "Η ενισχυμένη προστασία από καταγραφή είναι ενεργή για αυτή την ιστοσελίδα.";
 
 /* Description for having standard ETP protection with ITP offered in iOS14+ */
-"Menu.EnhancedTrackingProtectionStandardWithITP.Title" = "Το Impervious αποκλείει ιχνηλάτες μεταξύ σελίδων, κοινωνικών δικτύων, cryptominers και fingerprinters.";
+"Menu.EnhancedTrackingProtectionStandardWithITP.Title" = "Το Beacon αποκλείει ιχνηλάτες μεταξύ σελίδων, κοινωνικών δικτύων, cryptominers και fingerprinters.";
 
 /* Description for having strict ETP protection with ITP offered in iOS14+ */
-"Menu.EnhancedTrackingProtectionStrictWithITP.Title" = "Το Impervious αποκλείει ιχνηλάτες μεταξύ σελίδων, κοινωνικών δικτύων, cryptominers, fingerprinters και περιεχόμενο καταγραφής.";
+"Menu.EnhancedTrackingProtectionStrictWithITP.Title" = "Το Beacon αποκλείει ιχνηλάτες μεταξύ σελίδων, κοινωνικών δικτύων, cryptominers, fingerprinters και περιεχόμενο καταγραφής.";
 
 /* Label for the button, displayed in the menu, takes you to to History screen when pressed. */
 "Menu.History.Label" = "Ιστορικό";
@@ -838,7 +838,7 @@
 "Menu.TrackingProtection.Details.Verifier" = "Επαλήθευση από %@";
 
 /* Message in menu when no trackers blocked. */
-"Menu.TrackingProtection.NoTrackersBlockedTitle" = "Δεν εντοπίστηκαν ιχνηλάτες γνωστοί στο Impervious σε αυτή τη σελίδα.";
+"Menu.TrackingProtection.NoTrackersBlockedTitle" = "Δεν εντοπίστηκαν ιχνηλάτες γνωστοί στο Beacon σε αυτή τη σελίδα.";
 
 /* The title for tracking protection settings */
 "Menu.TrackingProtection.ProtectionSettings.Title" = "Ρυθμίσεις προστασίας";
@@ -853,7 +853,7 @@
 "Menu.TrackingProtectionBlockedSocial.Title" = "Ιχνηλάτες κοινωνικών δικτύων";
 
 /* Description of the Tracking protection menu when TP is blocking parts of the page */
-"Menu.TrackingProtectionBlocking.Description" = "Το Impervious αποκλείει τμήματα της σελίδας που ενδέχεται να καταγράψουν την περιήγησή σας.";
+"Menu.TrackingProtectionBlocking.Description" = "Το Beacon αποκλείει τμήματα της σελίδας που ενδέχεται να καταγράψουν την περιήγησή σας.";
 
 /* The description of the Tracking Protection menu item when tracking is enabled */
 "Menu.TrackingProtectionBlockingDisabled.Description" = "Φραγή διαδικτυακών ιχνηλατών";
@@ -956,7 +956,7 @@
 "Okay" = "Εντάξει";
 
 /* Title for prompt displayed to user after the app crashes */
-"Oops! Impervious crashed" = "Ωχ! Το Impervious κατέρρευσε";
+"Oops! Beacon crashed" = "Ωχ! Το Beacon κατέρρευσε";
 
 /* See http://mzl.la/1LXbDOL */
 "Open articles in Reader View by tapping the book icon when it appears in the title bar." = "Ανοίξτε τα άρθρα στην προβολή ανάγνωσης πατώντας στο εικονίδιο-βιβλίο όταν εμφανίζεται στη γραμμή τίτλου.";
@@ -967,8 +967,8 @@
 /* Toggle tabs syncing setting */
 "Open Tabs" = "Άνοιγμα καρτελών";
 
-/* The message displayed to a user when they try to open a URL that cannot be handled by Impervious, or any external app. */
-"OpenURL.Error.Message" = "Το Impervious δεν μπορεί να ανοίξει τη σελίδα επειδή έχει μια μη έγκυρη διεύθυνση.";
+/* The message displayed to a user when they try to open a URL that cannot be handled by Beacon, or any external app. */
+"OpenURL.Error.Message" = "Το Beacon δεν μπορεί να ανοίξει τη σελίδα επειδή έχει μια μη έγκυρη διεύθυνση.";
 
 /* Title of the message shown when the user attempts to navigate to an invalid link. */
 "OpenURL.Error.Title" = "Αδυναμία ανοίγματος σελίδας";
@@ -983,19 +983,19 @@
 "Password" = "Κωδικός πρόσβασης";
 
 /* Error message shown in the remote tabs panel */
-"PasswordAutoFill.NoPasswordsFoundTitle" = "Δεν έχετε συγχρονίσει διαπιστευτήρια από το λογαριασμό Impervious σας";
+"PasswordAutoFill.NoPasswordsFoundTitle" = "Δεν έχετε συγχρονίσει διαπιστευτήρια από το λογαριασμό Beacon σας";
 
 /* Header for the list of credentials table */
 "PasswordAutoFill.PasswordsListTitle" = "Διαθέσιμα διαπιστευτήρια:";
 
 /* Title of the extension that shows firefox passwords */
-"PasswordAutoFill.SectionTitle" = "Διαπιστευτήρια Impervious";
+"PasswordAutoFill.SectionTitle" = "Διαπιστευτήρια Beacon";
 
 /* See http://mzl.la/1G7uHo7 */
 "PhotoLibrary.FirefoxWouldLikeAccessMessage" = "Σας επιτρέπει να αποθηκεύετε την εικόνα στο Άλμπουμ κάμερας.";
 
 /* See http://mzl.la/1G7uHo7 */
-"PhotoLibrary.FirefoxWouldLikeAccessTitle" = "Το Impervious θα ήθελε πρόσβαση στις φωτογραφίες σας";
+"PhotoLibrary.FirefoxWouldLikeAccessTitle" = "Το Beacon θα ήθελε πρόσβαση στις φωτογραφίες σας";
 
 /* Button for closing the menu action sheet */
 "PhotonMenu.close" = "Κλείσιμο";
@@ -1003,7 +1003,7 @@
 /* Privacy section title */
 "Privacy" = "Απόρρητο";
 
-/* Show Impervious Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
+/* Show Beacon Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
 "Privacy Policy" = "Πολιτική απορρήτου";
 
 /* This is the value for a label that indicates if a user is on an unencrypted website. */
@@ -1076,7 +1076,7 @@
 "ScanQRCode.InvalidDataError.Message" = "Άκυρα δεδομένα";
 
 /* Text of the prompt user to setup the camera authorization. */
-"ScanQRCode.PermissionError.Message" = "Παρακαλούμε επιτρέψτε στο Impervious την πρόσβαση στην κάμερα της συσκευής σας στις ‘Ρυθμίσεις’ -> ‘Απόρρητο’ -> ‘Κάμερα’.";
+"ScanQRCode.PermissionError.Message" = "Παρακαλούμε επιτρέψτε στο Beacon την πρόσβαση στην κάμερα της συσκευής σας στις ‘Ρυθμίσεις’ -> ‘Απόρρητο’ -> ‘Κάμερα’.";
 
 /* Title for the QR code scanner view. */
 "ScanQRCode.View.Title" = "Σάρωση κωδικού QR";
@@ -1132,7 +1132,7 @@
 "Secure connection" = "Ασφαλής σύνδεση";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
-"Send a crash report so Impervious can fix the problem?" = "Αποστολή αναφοράς κατάρρευσης, ώστε να μπορέσει η Impervious να διορθώσει το πρόβλημα;";
+"Send a crash report so Beacon can fix the problem?" = "Αποστολή αναφοράς κατάρρευσης, ώστε να μπορέσει η Beacon να διορθώσει το πρόβλημα;";
 
 /* Menu item in settings used to open input.mozilla.org where people can submit feedback */
 "Send Feedback" = "Αποστολή σχολίων";
@@ -1160,19 +1160,19 @@
 "SendTo.NavBar.Title" = "Αποστολή καρτέλας";
 
 /* Error message shown in the remote tabs panel */
-"SendTo.NoDevicesFound.Message" = "Δεν έχετε συνδέσει καμία άλλη, διαθέσιμη προς συγχρονισμό, συσκευή σε αυτό το λογαριασμό Impervious.";
+"SendTo.NoDevicesFound.Message" = "Δεν έχετε συνδέσει καμία άλλη, διαθέσιμη προς συγχρονισμό, συσκευή σε αυτό το λογαριασμό Beacon.";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Message" = "Παρακαλούμε ανοίξτε το Impervious, μεταβείτε στις Ρυθμίσεις και συνδεθείτε για να συνεχίσετε.";
+"SendTo.NotSignedIn.Message" = "Παρακαλούμε ανοίξτε το Beacon, μεταβείτε στις Ρυθμίσεις και συνδεθείτε για να συνεχίσετε.";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Title" = "Δεν έχετε συνδεθεί στον λογαριασμό Impervious σας.";
+"SendTo.NotSignedIn.Title" = "Δεν έχετε συνδεθεί στον λογαριασμό Beacon σας.";
 
 /* Navigation bar button to Send the current page to a device */
 "SendTo.SendAction.Text" = "Αποστολή";
 
-/* The text for the button on the Send to Device page if you are not signed in to Impervious Accounts. */
-"SendTo.SignIn.Button" = "Σύνδεση στο Impervious";
+/* The text for the button on the Send to Device page if you are not signed in to Beacon Accounts. */
+"SendTo.SignIn.Button" = "Σύνδεση στο Beacon";
 
 /* Body of notification shown when the device is sent one or more tabs from an unnamed device. */
 "SentTab_TabArrivingNotification_NoDevice_body" = "Έφτασε νέα καρτέλα από άλλη συσκευή.";
@@ -1196,7 +1196,7 @@
 "SentTab.NoTabArrivingNotification.body" = "Πατήστε για έναρξη";
 
 /* Title of notification received after a spurious message from FxA has been received. */
-"SentTab.NoTabArrivingNotification.title" = "Impervious Sync";
+"SentTab.NoTabArrivingNotification.title" = "Beacon Sync";
 
 /* Label for an action used to view one or more tabs from a notification. */
 "SentTab.ViewAction.title" = "Προβολή";
@@ -1259,7 +1259,7 @@
 "Settings.DataManagement.Title" = "Διαχείριση δεδομένων";
 
 /* Body of the alert when prompting the user asking to disconnect. */
-"Settings.Disconnect.Body" = "Το Impervious θα σταματήσει το συγχρονισμό με το λογαριασμό σας, αλλά δεν θα διαγράψει τα δεδομένα περιήγησής σας από αυτή τη συσκευή.";
+"Settings.Disconnect.Body" = "Το Beacon θα σταματήσει το συγχρονισμό με το λογαριασμό σας, αλλά δεν θα διαγράψει τα δεδομένα περιήγησής σας από αυτή τη συσκευή.";
 
 /* Button displayed at the bottom of settings page allowing users to Disconnect from FxA */
 "Settings.Disconnect.Button" = "Αποσύνδεση Sync";
@@ -1328,11 +1328,11 @@
 /* Label used for the device name settings section. */
 "Settings.FxA.DeviceName" = "Όνομα συσκευής";
 
-/* Label used as a section title in the Impervious Accounts Settings screen. */
+/* Label used as a section title in the Beacon Accounts Settings screen. */
 "Settings.FxA.Sync.SectionName" = "Ρυθμίσεις συγχρονισμού";
 
 /* Title displayed in header of the FxA settings panel. */
-"Settings.FxA.Title" = "Λογαριασμός Impervious";
+"Settings.FxA.Title" = "Λογαριασμός Beacon";
 
 /* General settings section title */
 "Settings.General.SectionName" = "Γενικά";
@@ -1386,10 +1386,10 @@
 "Settings.NewTab.Option.CustomizeFooter2" = "Ιστοσελίδες από σελιδοδείκτες και ιστορικό";
 
 /* The title for the section to customize top sites in the new tab settings page. */
-"Settings.NewTab.Option.CustomizeTitle" = "Προσαρμογή αρχικής σελίδας Impervious";
+"Settings.NewTab.Option.CustomizeTitle" = "Προσαρμογή αρχικής σελίδας Beacon";
 
-/* Option in settings to show Impervious Home when you open a new tab */
-"Settings.NewTab.Option.FirefoxHome" = "Αρχική Impervious";
+/* Option in settings to show Beacon Home when you open a new tab */
+"Settings.NewTab.Option.FirefoxHome" = "Αρχική Beacon";
 
 /* Option in the settings to turn off recent bookmarks in the Highlights section */
 "Settings.NewTab.Option.HighlightsBookmarks" = "Πρόσφατοι σελιδοδείκτες";
@@ -1431,7 +1431,7 @@
 "Settings.NewTab.TopSectionNameFooter" = "Επιλέξτε τι θα φορτώνεται κατά το άνοιγμα νέας καρτέλας";
 
 /* Description displayed under the ”Offer to Open Copied Link” option. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
-"Settings.OfferClipboardBar.Status" = "Κατά το άνοιγμα του Impervious";
+"Settings.OfferClipboardBar.Status" = "Κατά το άνοιγμα του Beacon";
 
 /* Title of setting to enable the Go to Copied URL feature. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
 "Settings.OfferClipboardBar.Title" = "Επιλογή για άνοιγμα αντιγραμμένων συνδέσμων";
@@ -1455,7 +1455,7 @@
 "Settings.SendUsage.Link" = "Μάθετε περισσότερα.";
 
 /* A short description that explains why mozilla collects usage data. */
-"Settings.SendUsage.Message" = "Η Impervious αγωνίζεται για να συλλέγει μόνο ό,τι χρειάζεται για να παρέχει και να βελτιώνει το Impervious για όλους.";
+"Settings.SendUsage.Message" = "Η Beacon αγωνίζεται για να συλλέγει μόνο ό,τι χρειάζεται για να παρέχει και να βελτιώνει το Beacon για όλους.";
 
 /* The title for the setting to send usage data. */
 "Settings.SendUsage.Title" = "Αποστολή δεδομένων χρήσης";
@@ -1473,7 +1473,7 @@
 "Settings.Siri.OpenTabShortcut" = "Άνοιγμα νέας καρτέλας";
 
 /* The description that describes what siri shortcuts are */
-"Settings.Siri.SectionDescription" = "Χρήση συντομεύσεων Siri για ταχύ άνοιγμα του Impervious μέσω Siri";
+"Settings.Siri.SectionDescription" = "Χρήση συντομεύσεων Siri για ταχύ άνοιγμα του Beacon μέσω Siri";
 
 /* The option that takes you to the siri shortcuts settings page */
 "Settings.Siri.SectionName" = "Συντομεύσεις Siri";
@@ -1493,11 +1493,11 @@
 /* Label used as an item in Settings. Tapping on this item takes you to the Studies panel */
 "Settings.Studies.Title" = "Μελέτες";
 
-/* Title for a link that explains what Impervious means by Studies */
+/* Title for a link that explains what Beacon means by Studies */
 "Settings.Studies.Toggle.Link" = "Μάθετε περισσότερα.";
 
-/* A short description that explains that Impervious is running studies */
-"Settings.Studies.Toggle.Message" = "Το Impervious ενδέχεται να εγκαθιστά και να εκτελεί περιστασιακά μελέτες.";
+/* A short description that explains that Beacon is running studies */
+"Settings.Studies.Toggle.Message" = "Το Beacon ενδέχεται να εγκαθιστά και να εκτελεί περιστασιακά μελέτες.";
 
 /* Toggled OFF to opt-out of studies */
 "Settings.Studies.Toggle.Off" = "Ανενεργό";
@@ -1518,7 +1518,7 @@
 "Settings.TrackingProtection.Alert.Title" = "Προσοχή!";
 
 /* Header description for tracking protection options section where Basic/Strict block list can be selected */
-"Settings.TrackingProtection.BlockListsHeader" = "Μπορείτε να επιλέξετε ποια λίστα θα χρησιμοποιήσει το Impervious για τη φραγή διαδικτυακών στοιχείων, που ενδέχεται να ιχνηλατήσουν τη δραστηριότητά σας.";
+"Settings.TrackingProtection.BlockListsHeader" = "Μπορείτε να επιλέξετε ποια λίστα θα χρησιμοποιήσει το Beacon για τη φραγή διαδικτυακών στοιχείων, που ενδέχεται να ιχνηλατήσουν τη δραστηριότητά σας.";
 
 /* Explanation of basic mode. */
 "Settings.TrackingProtection.Info.BasicTitle" = "Ισορροπημένο για προστασία και επιδόσεις.";
@@ -1613,32 +1613,32 @@
 /* Title displayed in header of the Data Management panel. */
 "Settings.WebsiteData.Title" = "Δεδομένα ιστοσελίδων";
 
-/* Action label on share extension to add page to the Impervious reading list. */
+/* Action label on share extension to add page to the Beacon reading list. */
 "ShareExtension.AddToReadingListAction.Title" = "Προσθήκη στη λίστα ανάγνωσης";
 
 /* Share extension label shown after user has performed 'Add to Reading List' action. */
 "ShareExtension.AddToReadingListActionDone.Title" = "Προστέθηκε στη λίστα ανάγνωσης";
 
-/* Action label on share extension to bookmark the page in Impervious. */
+/* Action label on share extension to bookmark the page in Beacon. */
 "ShareExtension.BookmarkThisPageAction.Title" = "Προσθήκη σελιδοδείκτη";
 
 /* Share extension label shown after user has performed 'Bookmark this Page' action. */
 "ShareExtension.BookmarkThisPageActionDone.Title" = "Σε σελιδοδείκτη";
 
-/* Action label on share extension to load the page in Impervious when user switches apps to bring it to foreground. */
+/* Action label on share extension to load the page in Beacon when user switches apps to bring it to foreground. */
 "ShareExtension.LoadInBackgroundAction.Title" = "Φόρτωση στο παρασκήνιο";
 
 /* Share extension label shown after user has performed 'Load in Background' action. */
-"ShareExtension.LoadInBackgroundActionDone.Title" = "Φόρτωση στο Impervious";
+"ShareExtension.LoadInBackgroundActionDone.Title" = "Φόρτωση στο Beacon";
 
-/* Action label on share extension to immediately open page in Impervious. */
-"ShareExtension.OpenInFirefoxAction.Title" = "Άνοιγμα στο Impervious";
+/* Action label on share extension to immediately open page in Beacon. */
+"ShareExtension.OpenInFirefoxAction.Title" = "Άνοιγμα στο Beacon";
 
-/* Action label on share extension to immediately open page in Impervious in private mode. */
+/* Action label on share extension to immediately open page in Beacon in private mode. */
 "ShareExtension.OpenInPrivateModeAction.Title" = "Άνοιγμα σε ιδιωτική λειτουργία";
 
-/* Action label on share extension to search for the selected text in Impervious. */
-"ShareExtension.SeachInFirefoxAction.Title" = "Αναζήτηση στο Impervious";
+/* Action label on share extension to search for the selected text in Beacon. */
+"ShareExtension.SeachInFirefoxAction.Title" = "Αναζήτηση στο Beacon";
 
 /* Label for show search suggestions setting. */
 "Show Search Suggestions" = "Εμφάνιση προτάσεων αναζήτησης";
@@ -1675,7 +1675,7 @@
 "Sync.FirstTimeMessage.Label" = "Ο πρώτος συγχρονισμός ίσως διαρκέσει αρκετή ώρα";
 
 /* String displayed on Sign In to Sync page that allows the user to create a new account. */
-"Sync.NoAccount.Description" = "Δεν έχετε λογαριασμό; Δημιουργήστε έναν για συγχρονισμό του Impervious μεταξύ συσκευών.";
+"Sync.NoAccount.Description" = "Δεν έχετε λογαριασμό; Δημιουργήστε έναν για συγχρονισμό του Beacon μεταξύ συσκευών.";
 
 /* Message displayed when the user's account is syncing with no ellipsis */
 "Sync.Syncing.Label" = "Συγχρονισμός";
@@ -1794,7 +1794,7 @@
 /* The section header for tabs opened yesterday */
 "TabTray.Yesterday.Header" = "Χθες";
 
-/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Beacon reader mode from another app. */
 "The page could not be displayed in Reader View." = "Δεν ήταν δυνατή η προβολή της σελίδας στην προβολή ανάγνωσης.";
 
 /* Error message in the remote tabs panel */
@@ -1852,13 +1852,13 @@
 "UIMenuItem.PasteGo" = "Επικόλληση & μετάβαση";
 
 /* Search in New Tab Text selection menu item */
-"UIMenuItem.SearchWithFirefox" = "Αναζήτηση με το Impervious";
+"UIMenuItem.SearchWithFirefox" = "Αναζήτηση με το Beacon";
 
 /* Accessibility label for unread article in reading list. It's a past participle - functions as an adjective. */
 "unread" = "μη αναγνωσμένο";
 
 /* Text message in the settings table view */
-"Upgrade Impervious to connect" = "Αναβαθμίστε το Impervious για σύνδεση";
+"Upgrade Beacon to connect" = "Αναβαθμίστε το Beacon για σύνδεση";
 
 /* Debug option */
 "Use stage servers" = "Χρήση διακομιστών δοκιμής";
@@ -1869,7 +1869,7 @@
 /* Text message in the settings table view */
 "Verify your email address" = "Επιβεβαιώστε τη διεύθυνση email σας";
 
-/* Version number of Impervious shown in settings */
+/* Version number of Beacon shown in settings */
 "Version %@ (%@)" = "Έκδοση %1$@ (%2$@)";
 
 /* Accessibility label for the main web content view */
@@ -1891,7 +1891,7 @@
 "Yesterday" = "Χθες";
 
 /* Error message in the remote tabs panel */
-"You don’t have any tabs open in Impervious on your other devices." = "Δεν έχετε καμία ανοικτή καρτέλα στο Impervious στις άλλες σας συσκευές.";
+"You don’t have any tabs open in Beacon on your other devices." = "Δεν έχετε καμία ανοικτή καρτέλα στο Beacon στις άλλες σας συσκευές.";
 
 /* Your Rights settings section title */
 "Your Rights" = "Τα δικαιώματά σας";

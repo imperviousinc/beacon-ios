@@ -1,17 +1,17 @@
 /* Next button on the first intro screen. */
 "Intro.Slides.Button.Next" = "Sonrakı";
 
-/* Sign in to Impervious account button on second intro screen. */
+/* Sign in to Beacon account button on second intro screen. */
 "Intro.Slides.Button.SignIn" = "Daxil ol";
 
-/* Sign up to Impervious account button on second intro screen. */
+/* Sign up to Beacon account button on second intro screen. */
 "Intro.Slides.Button.SignUp" = "Qeyd ol";
 
 /* Title for the second item in the table related to fast searching via address bar */
 "Intro.Slides.Fast.Search.Title" = "Sürətli Axtarış";
 
 /* Description for the 'Mail' panel in the First Run tour. */
-"Intro.Slides.Mail.Description" = "İstənilən e-poçt tətbiqini işlədin - sadəcə Mail-i deyil - Impervious ilə.";
+"Intro.Slides.Mail.Description" = "İstənilən e-poçt tətbiqini işlədin - sadəcə Mail-i deyil - Beacon ilə.";
 
 /* Title for the fourth panel 'Mail' in the First Run tour. */
 "Intro.Slides.Mail.Title" = "E-poçt seçimləri";
@@ -38,7 +38,7 @@
 "Intro.Slides.Welcome.Description.v2" = "Sürətli, məxfi və sizin tərəfinizdə.";
 
 /* Title for the first panel 'Welcome' in the First Run tour. */
-"Intro.Slides.Welcome.Title.v2" = "Firefox-a Xoş Gəldiniz";
+"Intro.Slides.Welcome.Title.v2" = "Beacon-a Xoş Gəldiniz";
 
 /* See http://mzl.la/1T8gxwo */
 "Start Browsing" = "Səyahətə Başla";

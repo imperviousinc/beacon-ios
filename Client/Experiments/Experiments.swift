@@ -13,7 +13,7 @@ private let NIMBUS_URL_KEY = "NimbusURL"
 private let NIMBUS_LOCAL_DATA_KEY = "nimbus_local_data"
 private let NIMBUS_USE_PREVIEW_COLLECTION_KEY = "nimbus_use_preview_collection"
 
-/// `Experiments` is the main entry point to use the `Nimbus` experimentation platform in Firefox for iOS.
+/// `Experiments` is the main entry point to use the `Nimbus` experimentation platform in Beacon for iOS.
 ///
 /// This class is a application specific holder for a the singleton `NimbusApi` class.
 ///

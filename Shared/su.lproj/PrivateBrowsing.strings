@@ -5,7 +5,7 @@
 "ContextMenu.OpenInNewPrivateTabButtonTitle" = "Buka dina Tab Nyamuni Anyar";
 
 /* Description text displayed when there are no open tabs while in private mode */
-"Impervious won’t remember any of your history or cookies, but new bookmarks will be saved." = "Impervious moal nginget jujutan jeung réréméh anjeun, anu diteundeun ukur markah anyar.";
+"Beacon won’t remember any of your history or cookies, but new bookmarks will be saved." = "Beacon moal nginget jujutan jeung réréméh anjeun, anu diteundeun ukur markah anyar.";
 
 /* Text button displayed when there are no tabs open while in private mode */
 "Learn More" = "Lenyepan";

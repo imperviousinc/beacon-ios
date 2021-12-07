@@ -7,10 +7,10 @@
 /* Next button on the first intro screen. */
 "Intro.Slides.Button.Next" = "Neste";
 
-/* Sign in to Impervious account button on second intro screen. */
+/* Sign in to Beacon account button on second intro screen. */
 "Intro.Slides.Button.SignIn" = "Logg inn";
 
-/* Sign up to Impervious account button on second intro screen. */
+/* Sign up to Beacon account button on second intro screen. */
 "Intro.Slides.Button.SignUp" = "Registrer deg";
 
 /* Description for the second item in the table related to fast searching via address bar */
@@ -20,13 +20,13 @@
 "Intro.Slides.Fast.Search.Title" = "Rask søking";
 
 /* Description for the first item in the table related to syncing data (bookmarks, history) via firefox account between devices */
-"Intro.Slides.Firefox.Account.Sync.Description" = "Ta med bokmerker, historikk og passord til Impervious på denne enheten.";
+"Intro.Slides.Beacon.Account.Sync.Description" = "Ta med bokmerker, historikk og passord til Beacon på denne enheten.";
 
 /* Title for the first item in the table related to syncing data (bookmarks, history) via firefox account between devices */
-"Intro.Slides.Firefox.Account.Sync.Title" = "Synkroniser Impervious mellom enheter";
+"Intro.Slides.Beacon.Account.Sync.Title" = "Synkroniser Beacon mellom enheter";
 
 /* Description for the 'Mail' panel in the First Run tour. */
-"Intro.Slides.Mail.Description" = "Anvend hvilken som helst e-post-app - ikke bare Mail - med Impervious.";
+"Intro.Slides.Mail.Description" = "Anvend hvilken som helst e-post-app - ikke bare Mail - med Beacon.";
 
 /* Title for the fourth panel 'Mail' in the First Run tour. */
 "Intro.Slides.Mail.Title" = "Du har e-post… innstillinger";
@@ -38,7 +38,7 @@
 "Intro.Slides.Private.Title" = "Surf uten å føle deg overvåket";
 
 /* Description for the third item in the table related to safe syncing with a firefox account */
-"Intro.Slides.Safe.Sync.Description" = "Beskytt innloggingene og dataene dine overalt hvor du bruker Impervious.";
+"Intro.Slides.Safe.Sync.Description" = "Beskytt innloggingene og dataene dine overalt hvor du bruker Beacon.";
 
 /* Title for the third item in the table related to safe syncing with a firefox account */
 "Intro.Slides.Safe.Sync.Title" = "Sikker synkronisering";
@@ -59,7 +59,7 @@
 "Intro.Slides.Welcome.Description.v2" = "Rask, privat og på din side.";
 
 /* Title for the first panel 'Welcome' in the First Run tour. */
-"Intro.Slides.Welcome.Title.v2" = "Velkommen til Impervious";
+"Intro.Slides.Welcome.Title.v2" = "Velkommen til Beacon";
 
 /* See http://mzl.la/1T8gxwo */
 "Start Browsing" = "Begynn å surfe";

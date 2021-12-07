@@ -12,7 +12,7 @@ class FirstRunTourTests: BaseTestCase {
     func testFirstRunTour() {
         // Complet the First run from first screen to the latest one
         // Check that the first's tour screen is shown as well as all the elements in there
-        waitForExistence(app.staticTexts["Welcome to Firefox"])
+        waitForExistence(app.staticTexts["Welcome to Beacon"])
         XCTAssertTrue(app.buttons["nextOnboardingButton"].exists)
         XCTAssertTrue(app.buttons["signInOnboardingButton"].exists)
         XCTAssertTrue(app.buttons["signUpOnboardingButton"].exists)
@@ -45,6 +45,6 @@ class FirstRunTourTests: BaseTestCase {
         tapStartBrowsingButton()
         app.buttons["urlBar-cancel"].tap()
         navigator.goto(ShowTourInSettings)
-        waitForExistence(app.staticTexts["Welcome to Firefox"])
+        waitForExistence(app.staticTexts["Welcome to Beacon"])
     }
 }

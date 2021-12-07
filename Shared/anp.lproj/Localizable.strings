@@ -277,8 +277,8 @@
 /* Alert dialog title when the user taps the cancel download icon. */
 "Downloads.CancelDialog.Title" = "डाउनलोड रद्द करोॅ";
 
-/* The message displayed to a user when they try and perform the download of an asset that Impervious cannot currently handle. */
-"Downloads.Error.Message" = "Impervious में अभी डाउनलोड समर्थित नै छै ।";
+/* The message displayed to a user when they try and perform the download of an asset that Beacon cannot currently handle. */
+"Downloads.Error.Message" = "Beacon में अभी डाउनलोड समर्थित नै छै ।";
 
 /* The label text in the Download Cancelled toast for showing confirmation that the download was cancelled. */
 "Downloads.Toast.Cancelled.LabelText" = "डाउनलोड रद्द होय गेल छै";
@@ -338,7 +338,7 @@
 "Facebook" = "Facebook";
 
 /* Title for firefox about:home page in tab history list */
-"Firefox.HomePage.Title" = "Impervious होम पेज";
+"Beacon.HomePage.Title" = "Beacon होम पेज";
 
 /* Accessibility Label for the tab toolbar Forward button */
 "Forward" = "आगू बढ़ावोॅ";
@@ -349,16 +349,16 @@
 /* Label stating your account is not verified */
 "FxA.AccountVerificationRequired" = "खाता प्रमाणीकरण जरुरी छै";
 
-/* Message explaining that user needs to check email for Impervious Account verfication link. */
-"FxA.AccountVerificationRequiredSurface" = "आपनोॅ %@ रो सत्यापन रो जरुरी छै. Impervious से लिंक रो सत्यापन खातिर आपनोॅ ईमेल देखोॅ";
+/* Message explaining that user needs to check email for Beacon Account verfication link. */
+"FxA.AccountVerificationRequiredSurface" = "आपनोॅ %@ रो सत्यापन रो जरुरी छै. Beacon से लिंक रो सत्यापन खातिर आपनोॅ ईमेल देखोॅ";
 
 /* Button label to connect another device to Sync */
 "FxA.ConnectAnotherDevice" = "दोसरो डिवाइस जोरोॅ";
 
-/* Settings section title for Impervious Account */
-"FxA.FirefoxAccount" = "Impervious खाता";
+/* Settings section title for Beacon Account */
+"FxA.FirefoxAccount" = "Beacon खाता";
 
-/* Button label to go to Impervious Account settings */
+/* Button label to go to Beacon Account settings */
 "FxA.ManageAccount" = "खाता आरू उपकरण प्रबंधित करोॅ";
 
 /* Label when no internet is present */
@@ -371,7 +371,7 @@
 "FxA.RemoveAccount" = "हटाबोॅ";
 
 /* Description string for alert view that gets presented when user tries to remove an account. */
-"FxA.RemoveAccountAlertMessage" = "दूसरे उपयोगकर्ता रो रूप में साइन इन करै ले ई उपकरण पर मौजूद Impervious खाता हटाबोॅ।";
+"FxA.RemoveAccountAlertMessage" = "दूसरे उपयोगकर्ता रो रूप में साइन इन करै ले ई उपकरण पर मौजूद Beacon खाता हटाबोॅ।";
 
 /* Remove account alert is the final confirmation before user removes their firefox account */
 "FxA.RemoveAccountAlertTitle" = "खाता हटाबोॅ";
@@ -385,14 +385,14 @@
 /* Label explaining what sync does */
 "FxA.SyncExplain" = "अपनोॅ दोसरो उपकरणों सेॅॅ अपनोॅ टैब, बुकमार्क और पासवर्ड पाभोॅ.";
 
-/* Button label to Sync your Impervious Account */
+/* Button label to Sync your Beacon Account */
 "FxA.SyncNow" = "अब सिंक करोॅ";
 
 /* Call to action for sign into sync button */
 "FxA.TakeYourWebWithYou" = "अपना वेब अपनो साथ रखोॅ";
 
 /* Title of a notification displayed when another device has connected to FxA. %@ refers to the name of the newly connected device. */
-"FxAPush_DeviceConnected_body" = "Impervious सिंक %@ में जोड़ देल गेलै.";
+"FxAPush_DeviceConnected_body" = "Beacon सिंक %@ में जोड़ देल गेलै.";
 
 /* Title of a notification displayed when another device has connected to FxA. */
 "FxAPush_DeviceConnected_title" = "सिंक जुड़ गेल";
@@ -401,7 +401,7 @@
 "FxAPush_DeviceDisconnected_body" = "%@ सफलतापूर्ण डिसकनेक्ट करलो गेल।";
 
 /* Body of a notification displayed when this device has been disconnected from FxA by another device. */
-"FxAPush_DeviceDisconnected_ThisDevice_body" = "कंप्यूटर रो Impervious सिंक सेॅ पूरी तरह से डिसकनेक्ट भे गेल";
+"FxAPush_DeviceDisconnected_ThisDevice_body" = "कंप्यूटर रो Beacon सिंक सेॅ पूरी तरह से डिसकनेक्ट भे गेल";
 
 /* Title of a notification displayed when this device has been disconnected by another device. */
 "FxAPush_DeviceDisconnected_ThisDevice_title" = "सिंक डिसकनेक्ट भेल";
@@ -410,7 +410,7 @@
 "FxAPush_DeviceDisconnected_title" = "सिंक डिसकनेक्ट भेल";
 
 /* Body of a notification displayed when unnamed device has been disconnected from FxA. */
-"FxAPush_DeviceDisconnected_UnknownDevice_body" = "ई उपकरण Impervious सिंक सेॅ डिसकनेक्ट होय गेल छै";
+"FxAPush_DeviceDisconnected_UnknownDevice_body" = "ई उपकरण Beacon सिंक सेॅ डिसकनेक्ट होय गेल छै";
 
 /* A re-worded offer about Sync, displayed when the Sync home panel is empty, that emphasizes one-way data transfer, not syncing. */
 "Get your open tabs, bookmarks, and passwords from your other devices." = "अपनोॅ दोसरो उपकरणों सेॅॅ अपनोॅ खुलल टैब, बुकमार्क और पासवर्ड पाभोॅ.";
@@ -455,7 +455,7 @@
 "HistoryPanel.EmptySyncedTabsPanelTabSyncDisabledState.Description" = "आपन दोसरो उपकरणों से टैब की सूची देखै ले टैब सिंक चालू करो।";
 
 /* Title for the empty synced tabs state in the History Panel */
-"HistoryPanel.EmptySyncedTabsState.Title" = "Impervious सिंक";
+"HistoryPanel.EmptySyncedTabsState.Title" = "Beacon सिंक";
 
 /* Title for the Back to History button in the History Panel */
 "HistoryPanel.HistoryBackButton.Title" = "इतिहास";
@@ -674,7 +674,7 @@
 /* Privacy section title */
 "Privacy" = "गोपनीयता";
 
-/* Show Impervious Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
+/* Show Beacon Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
 "Privacy Policy" = "गोपनीयता नीति";
 
 /* Accessibility label for read article in reading list. It's a past participle - functions as an adjective. */
@@ -762,7 +762,7 @@
 "SentTab.BookmarkAction.title" = "बुकमार्क";
 
 /* Title of notification received after a spurious message from FxA has been received. */
-"SentTab.NoTabArrivingNotification.title" = "Impervious सिंक";
+"SentTab.NoTabArrivingNotification.title" = "Beacon सिंक";
 
 /* Title in the settings view controller title bar */
 "Settings" = "सेटिंग्स";
@@ -822,7 +822,7 @@
 "Settings.FxA.DeviceName" = "डिवाइस रो नाम";
 
 /* Title displayed in header of the FxA settings panel. */
-"Settings.FxA.Title" = "Impervious खाता";
+"Settings.FxA.Title" = "Beacon खाता";
 
 /* General settings section title */
 "Settings.General.SectionName" = "सामान्य";
@@ -848,8 +848,8 @@
 /* Option in settings to show bookmarks when you open a new tab */
 "Settings.NewTab.Option.Bookmarks" = "बुकमार्कस";
 
-/* Option in settings to show Impervious Home when you open a new tab */
-"Settings.NewTab.Option.FirefoxHome" = "Impervious होम";
+/* Option in settings to show Beacon Home when you open a new tab */
+"Settings.NewTab.Option.FirefoxHome" = "Beacon होम";
 
 /* Option in the settings to turn off recent bookmarks in the Highlights section */
 "Settings.NewTab.Option.HighlightsBookmarks" = "हाल के बुकमार्कस";
@@ -894,7 +894,7 @@
 "Settings.SendUsage.Link" = "बेसी जानकारी";
 
 /* A short description that explains why mozilla collects usage data. */
-"Settings.SendUsage.Message" = "मोजिला खलि ओ चीज के जमा करै छै जकरा Impervious मे सभक लेली सुधार करै के आवश्यक्ता छै.";
+"Settings.SendUsage.Message" = "मोजिला खलि ओ चीज के जमा करै छै जकरा Beacon मे सभक लेली सुधार करै के आवश्यक्ता छै.";
 
 /* The title for the setting to send usage data. */
 "Settings.SendUsage.Title" = "उपयोग डेटा भेजियै";
@@ -935,29 +935,29 @@
 /* Description of the confirmation dialog shown when a user tries to clear their private data. */
 "Settings.WebsiteData.ConfirmPrompt" = "इ क्रिया आपनों वेबसाइट डेटा के साफ़ कैर देतै। जेकरा तू फेनु पाए नै सकै छोॅ";
 
-/* Action label on share extension to add page to the Impervious reading list. */
+/* Action label on share extension to add page to the Beacon reading list. */
 "ShareExtension.AddToReadingListAction.Title" = "पठन सूची में जोड़ियै";
 
 /* Share extension label shown after user has performed 'Add to Reading List' action. */
 "ShareExtension.AddToReadingListActionDone.Title" = "पठन सूची रो जोड़लोॅ गेल";
 
-/* Action label on share extension to bookmark the page in Impervious. */
+/* Action label on share extension to bookmark the page in Beacon. */
 "ShareExtension.BookmarkThisPageAction.Title" = "पेज रो बुकमार्क करोॅ";
 
 /* Share extension label shown after user has performed 'Bookmark this Page' action. */
 "ShareExtension.BookmarkThisPageActionDone.Title" = "बुकमार्कड";
 
 /* Share extension label shown after user has performed 'Load in Background' action. */
-"ShareExtension.LoadInBackgroundActionDone.Title" = "Impervious में लोड भे रहलो छै";
+"ShareExtension.LoadInBackgroundActionDone.Title" = "Beacon में लोड भे रहलो छै";
 
-/* Action label on share extension to immediately open page in Impervious. */
-"ShareExtension.OpenInFirefoxAction.Title" = "Impervious में खोलियै";
+/* Action label on share extension to immediately open page in Beacon. */
+"ShareExtension.OpenInFirefoxAction.Title" = "Beacon में खोलियै";
 
-/* Action label on share extension to immediately open page in Impervious in private mode. */
+/* Action label on share extension to immediately open page in Beacon in private mode. */
 "ShareExtension.OpenInPrivateModeAction.Title" = "निजी ब्राउज़िंग मोड में खोलियै";
 
-/* Action label on share extension to search for the selected text in Impervious. */
-"ShareExtension.SeachInFirefoxAction.Title" = "Impervious में खोजियै";
+/* Action label on share extension to search for the selected text in Beacon. */
+"ShareExtension.SeachInFirefoxAction.Title" = "Beacon में खोजियै";
 
 /* Label for show search suggestions setting. */
 "Show Search Suggestions" = "खोज सुझाव दिखाबियै";
@@ -1038,7 +1038,7 @@
 "UIMenuItem.PasteGo" = "पेस्ट आरु गो";
 
 /* Search in New Tab Text selection menu item */
-"UIMenuItem.SearchWithFirefox" = "Impervious सेॅ खोजोॅ";
+"UIMenuItem.SearchWithFirefox" = "Beacon सेॅ खोजोॅ";
 
 /* Username textbox in Authentication prompt */
 "Username" = "यूजरनाम";

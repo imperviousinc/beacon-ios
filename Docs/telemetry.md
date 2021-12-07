@@ -4,9 +4,9 @@
 
 > **NOTE:** If there is anything in this document that is not clear, is incorrect, or that requires more detail, please file a request through [Bugzilla](https://bugzilla.mozilla.org/enter_bug.cgi?product=Firefox%20for%20iOS&component=Telemetry). Also feel free to submit corrections or additional information.
 
-Firefox for iOS uses Mozilla's own [Telemetry](https://wiki.mozilla.org/Firefox/Data_Collection) service for anonymous insight into usage of various app features. This event tracking is turned on by default for Firefox for iOS (opt-out).
+Beacon for iOS uses Mozilla's own [Telemetry](https://wiki.mozilla.org/Firefox/Data_Collection) service for anonymous insight into usage of various app features. This event tracking is turned on by default for Beacon for iOS (opt-out).
 
-The app uses Mozilla's own framework linked into Firefox for iOS and a [data collection service](https://wiki.mozilla.org/Telemetry) run by Mozilla. The framework is open source and MPL 2.0 licensed. It is hosted at [https://github.com/mozilla-mobile/telemetry-ios](https://github.com/mozilla-mobile/telemetry-ios). Firefox for iOS pulls in an unmodified copy of the framework via [Carthage](https://github.com/Carthage/Carthage).
+The app uses Mozilla's own framework linked into Beacon for iOS and a [data collection service](https://wiki.mozilla.org/Telemetry) run by Mozilla. The framework is open source and MPL 2.0 licensed. It is hosted at [https://github.com/mozilla-mobile/telemetry-ios](https://github.com/mozilla-mobile/telemetry-ios). Beacon for iOS pulls in an unmodified copy of the framework via [Carthage](https://github.com/Carthage/Carthage).
 
 <sup>Example of bug to add telemetry: https://bugzilla.mozilla.org/show_bug.cgi?id=1455672</sup>
 
@@ -160,8 +160,8 @@ The event ping contains a list of events ([see event format on readthedocs.io](h
 | Event                          | category | method    | object                  |
 |--------------------------------|----------|-----------|-------------------------|
 | Send to device tapped    | app-extension-action   | send-to-device    |  "url"  |
-| Open in Firefox tapped (URL) | app-extension-action   | application-open-url    | "url" |
-| Open in Firefox tapped (search text) | app-extension-action   | application-open-url    | "searchText" |
+| Open in Beacon tapped (URL) | app-extension-action   | application-open-url    | "url" |
+| Open in Beacon tapped (search text) | app-extension-action   | application-open-url    | "searchText" |
 | Bookmark this page tapped | app-extension-action   | bookmark-this-page   | "url"  |
 | Add to reading list tapped | app-extension-action   | add-to-reading-list    | "url"  |
 | Load in Background tapped | app-extension-action   | load-in-background    | "url"  |

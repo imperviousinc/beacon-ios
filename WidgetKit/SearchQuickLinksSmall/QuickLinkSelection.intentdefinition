@@ -27,7 +27,7 @@
 				</dict>
 				<dict>
 					<key>INEnumValueDisplayName</key>
-					<string>Search in Firefox</string>
+					<string>Search in Beacon</string>
 					<key>INEnumValueDisplayNameID</key>
 					<string>MXB2K6</string>
 					<key>INEnumValueIndex</key>

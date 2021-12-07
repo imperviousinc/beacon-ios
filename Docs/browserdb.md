@@ -1,6 +1,6 @@
 # How to get your browser DB off the device
 
-* Launch Firefox.
+* Launch Beacon.
 * Open Settings.
 * Scroll down to "Version" and tap it several times.
 * Scroll down and hit "Debug: copy databases to app container".

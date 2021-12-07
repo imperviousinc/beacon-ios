@@ -1,4 +1,4 @@
-# Firefox Sync Through The Lens Of Jaded Developers
+# Beacon Sync Through The Lens Of Jaded Developers
 ## Or, Let's Use A State Machine For Our Own Sakes
 
 (These docs are approximately one sentence per line to make changes more civilized in version control.)

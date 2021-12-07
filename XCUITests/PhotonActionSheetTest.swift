@@ -66,7 +66,7 @@ class PhotonActionSheetTest: BaseTestCase {
         waitUntilPageLoad()
         navigator.browserPerformAction(.sendToDeviceOption)
         waitForExistence(app.navigationBars["Client.InstructionsView"])
-        XCTAssertTrue(app.staticTexts["You are not signed in to your Firefox Account."].exists)
+        XCTAssertTrue(app.staticTexts["You are not signed in to your Beacon Account."].exists)
     }
     // Disable issue #5554, More button is not accessible
     /*
@@ -89,7 +89,7 @@ class PhotonActionSheetTest: BaseTestCase {
 
         // User not logged in
         waitForExistence(app.images["emptySync"])
-        XCTAssertTrue(app.staticTexts["You are not signed in to your Firefox Account."].exists)
+        XCTAssertTrue(app.staticTexts["You are not signed in to your Beacon Account."].exists)
     }*/
 
     private func openNewShareSheet() {
@@ -130,8 +130,8 @@ class PhotonActionSheetTest: BaseTestCase {
     // Smoketest
     func testSharePageWithShareSheetOptions() {
         openNewShareSheet()
-        waitForExistence(app.staticTexts["Open in Firefox"], timeout: 10)
-        XCTAssertTrue(app.staticTexts["Open in Firefox"].exists)
+        waitForExistence(app.staticTexts["Open in Beacon"], timeout: 10)
+        XCTAssertTrue(app.staticTexts["Open in Beacon"].exists)
         XCTAssertTrue(app.staticTexts["Load in Background"].exists)
         XCTAssertTrue(app.staticTexts["Bookmark This Page"].exists)
         XCTAssertTrue(app.staticTexts["Add to Reading List"].exists)
@@ -143,7 +143,7 @@ class PhotonActionSheetTest: BaseTestCase {
         app.staticTexts["Send to Device"].tap()
         waitForExistence(app.navigationBars.buttons["InstructionsViewController.navigationItem.leftBarButtonItem"], timeout: 10)
 
-        XCTAssertTrue(app.staticTexts["You are not signed in to your Firefox Account."].exists)
+        XCTAssertTrue(app.staticTexts["You are not signed in to your Beacon Account."].exists)
         app.navigationBars.buttons["InstructionsViewController.navigationItem.leftBarButtonItem"].tap()
     }
 

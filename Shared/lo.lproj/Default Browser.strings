@@ -1,16 +1,16 @@
-/* Button string to open settings that allows user to switch their default browser to Impervious. */
+/* Button string to open settings that allows user to switch their default browser to Beacon. */
 "DefaultBrowserCard.Button" = "ໄປທີ່ການຕັ້ງຄ່າ";
 
 /* Button string to learn how to set your default browser. */
 "DefaultBrowserCard.Button.v2" = "ຮຽນຮູ້ວິທີການ";
 
-/* Description for small card shown that allows user to switch their default browser to Impervious. */
-"DefaultBrowserCard.Description" = "ຕັ້ງໃຫ້ເປີດລີ້ງຈາກເວັບໄຊທ, ອີເມລ ແລະ ຂໍ້ຄວາມແບບອັດຕະໂນມັດໃນ Impervious.";
+/* Description for small card shown that allows user to switch their default browser to Beacon. */
+"DefaultBrowserCard.Description" = "ຕັ້ງໃຫ້ເປີດລີ້ງຈາກເວັບໄຊທ, ອີເມລ ແລະ ຂໍ້ຄວາມແບບອັດຕະໂນມັດໃນ Beacon.";
 
-/* Title for small card shown that allows user to switch their default browser to Impervious. */
+/* Title for small card shown that allows user to switch their default browser to Beacon. */
 "DefaultBrowserCard.Title" = "ປ່ຽນບຣາວເຊີຫລັກຂອງທ່ານ";
 
-/* Button string to open settings that allows user to switch their default browser to Impervious. */
+/* Button string to open settings that allows user to switch their default browser to Beacon. */
 "DefaultBrowserOnboarding.Button" = "ໄປທີ່ການຕັ້ງຄ່າ";
 
 /* Description for default browser onboarding card. */
@@ -20,11 +20,11 @@
 "DefaultBrowserOnboarding.Description2" = "2. ແຕະໃສ່ແອັບບຣາວເຊີຫລັກ";
 
 /* Description for default browser onboarding card. */
-"DefaultBrowserOnboarding.Description3" = "3. ເລືອກ Impervious";
+"DefaultBrowserOnboarding.Description3" = "3. ເລືອກ Beacon";
 
-/* Text for the screenshot of the iOS system settings page for Impervious. */
+/* Text for the screenshot of the iOS system settings page for Beacon. */
 "DefaultBrowserOnboarding.Screenshot" = "ບຣາວເຊີຫລັກ";
 
-/* Menu option for setting Impervious as default browser. */
+/* Menu option for setting Beacon as default browser. */
 "Settings.DefaultBrowserMenuItem" = "ຕັ້ງໃຫ້ເປັນບຣາວເຊີຫລັກ";
 

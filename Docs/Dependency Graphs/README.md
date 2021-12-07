@@ -2,9 +2,9 @@
 Available Dependency Graphs
 ===============
 
-* `digraph-fxios` - a graph showing dependencies between the different targets in Firefox for iOS
-* `digraph-fxios-carthage` - a graph showing dependencies between Firefox for iOS targets and our Carthage Dependencies
-* `digraph-carthage-fxios` - a graph showing dependencies between our Carthage Dependencies and Firefox for iOS targets
+* `digraph-fxios` - a graph showing dependencies between the different targets in Beacon for iOS
+* `digraph-fxios-carthage` - a graph showing dependencies between Beacon for iOS targets and our Carthage Dependencies
+* `digraph-carthage-fxios` - a graph showing dependencies between our Carthage Dependencies and Beacon for iOS targets
 
 Generating dependency graphs
 -----------

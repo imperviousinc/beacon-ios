@@ -2,7 +2,7 @@
 "NSCameraUsageDescription" = "Gant se e c’hallit kemer ha pellgas luc’hskeudennoù.";
 
 /* Privacy - Face ID Usage Description */
-"NSFaceIDUsageDescription" = "Goulennet eo ar FaceId evit ma c’hallfe Impervious haeziñ an titouroù kennaskañ enrollet.";
+"NSFaceIDUsageDescription" = "Goulennet eo ar FaceId evit ma c’hallfe Beacon haeziñ an titouroù kennaskañ enrollet.";
 
 /* This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this

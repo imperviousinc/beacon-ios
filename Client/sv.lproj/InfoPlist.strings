@@ -2,7 +2,7 @@
 "NSCameraUsageDescription" = "Detta gör det möjligt att ta och ladda upp bilder.";
 
 /* Privacy - Face ID Usage Description */
-"NSFaceIDUsageDescription" = "Impervious kräver Face ID för att komma åt dina sparade inloggningar.";
+"NSFaceIDUsageDescription" = "Beacon kräver Face ID för att komma åt dina sparade inloggningar.";
 
 /* This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this

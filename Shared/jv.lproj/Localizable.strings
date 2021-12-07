@@ -238,8 +238,8 @@
 /* Alert dialog title when the user taps the cancel download icon. */
 "Downloads.CancelDialog.Title" = "Batalaké Undhuhan";
 
-/* The message displayed to a user when they try and perform the download of an asset that Impervious cannot currently handle. */
-"Downloads.Error.Message" = "Undhuhan durung disengkuyung ing Impervious.";
+/* The message displayed to a user when they try and perform the download of an asset that Beacon cannot currently handle. */
+"Downloads.Error.Message" = "Undhuhan durung disengkuyung ing Beacon.";
 
 /* The label text in the Download Cancelled toast for showing confirmation that the download was cancelled. */
 "Downloads.Toast.Cancelled.LabelText" = "Undhuhan Dibatalaké";
@@ -284,7 +284,7 @@
 "ErrorPages.AdvancedWarning2.Text" = "Mungkin ana ralat konfigurasi utawa rusak déning panyerang. Bacutaké yèn sampéyan nrima risikoné.";
 
 /* Warning text on the certificate error page */
-"ErrorPages.CertWarning.Description" = "Wong sing duwèni %@ bar ngatur situsé kang ora bener. Kanggo ngamanaké informasi sampéyan bèn ora dicolong, Impervious medhot konèksi menyang situs iki.";
+"ErrorPages.CertWarning.Description" = "Wong sing duwèni %@ bar ngatur situsé kang ora bener. Kanggo ngamanaké informasi sampéyan bèn ora dicolong, Beacon medhot konèksi menyang situs iki.";
 
 /* Title on the certificate error page */
 "ErrorPages.CertWarning.Title" = "Sambungan Iki ora Dipercaya";
@@ -305,7 +305,7 @@
 "Facebook" = "Facebook";
 
 /* Title for firefox about:home page in tab history list */
-"Firefox.HomePage.Title" = "Tepas Impervious";
+"Beacon.HomePage.Title" = "Tepas Beacon";
 
 /* Accessibility Label for the tab toolbar Forward button */
 "Forward" = "Bacutaké";
@@ -316,16 +316,16 @@
 /* Label stating your account is not verified */
 "FxA.AccountVerificationRequired" = "Butuh Verifikasi Akun";
 
-/* Message explaining that user needs to check email for Impervious Account verfication link. */
-"FxA.AccountVerificationRequiredSurface" = "Sampéyan perlu verifikasi %@. Cèk layang-èl sampéyan kanggo verifikasi pranala saka Impervious.";
+/* Message explaining that user needs to check email for Beacon Account verfication link. */
+"FxA.AccountVerificationRequiredSurface" = "Sampéyan perlu verifikasi %@. Cèk layang-èl sampéyan kanggo verifikasi pranala saka Beacon.";
 
 /* Button label to connect another device to Sync */
 "FxA.ConnectAnotherDevice" = "Sambung Piranti Liyané";
 
-/* Settings section title for Impervious Account */
-"FxA.FirefoxAccount" = "Akun Impervious";
+/* Settings section title for Beacon Account */
+"FxA.FirefoxAccount" = "Akun Beacon";
 
-/* Button label to go to Impervious Account settings */
+/* Button label to go to Beacon Account settings */
 "FxA.ManageAccount" = "Atur Akun & Piranti";
 
 /* Label when no internet is present */
@@ -338,7 +338,7 @@
 "FxA.RemoveAccount" = "Busak";
 
 /* Description string for alert view that gets presented when user tries to remove an account. */
-"FxA.RemoveAccountAlertMessage" = "Busak akun Impervious sing duwé sesambungan karo piranti iki kanggo mlebu minangka beda panganggo.";
+"FxA.RemoveAccountAlertMessage" = "Busak akun Beacon sing duwé sesambungan karo piranti iki kanggo mlebu minangka beda panganggo.";
 
 /* Remove account alert is the final confirmation before user removes their firefox account */
 "FxA.RemoveAccountAlertTitle" = "Busak Akun";
@@ -352,14 +352,14 @@
 /* Label explaining what sync does */
 "FxA.SyncExplain" = "Jupuk tab, tetenger, lan sandhi saka piranti liyané.";
 
-/* Button label to Sync your Impervious Account */
+/* Button label to Sync your Beacon Account */
 "FxA.SyncNow" = "Sync Saiki";
 
 /* Call to action for sign into sync button */
 "FxA.TakeYourWebWithYou" = "Gawanen Situs Sampéyan";
 
 /* Title of a notification displayed when another device has connected to FxA. %@ refers to the name of the newly connected device. */
-"FxAPush_DeviceConnected_body" = "Sync Impervious wis nyambung karo %@";
+"FxAPush_DeviceConnected_body" = "Sync Beacon wis nyambung karo %@";
 
 /* Title of a notification displayed when another device has connected to FxA. */
 "FxAPush_DeviceConnected_title" = "Sync Nyambung";
@@ -368,7 +368,7 @@
 "FxAPush_DeviceDisconnected_body" = "%@ wis suksès dipedhot.";
 
 /* Body of a notification displayed when this device has been disconnected from FxA by another device. */
-"FxAPush_DeviceDisconnected_ThisDevice_body" = "Piranti iki suksès pisah saka Impervious Sync.";
+"FxAPush_DeviceDisconnected_ThisDevice_body" = "Piranti iki suksès pisah saka Beacon Sync.";
 
 /* Title of a notification displayed when this device has been disconnected by another device. */
 "FxAPush_DeviceDisconnected_ThisDevice_title" = "Sync Dipedhot";
@@ -377,7 +377,7 @@
 "FxAPush_DeviceDisconnected_title" = "Sync Dipedhot";
 
 /* Body of a notification displayed when unnamed device has been disconnected from FxA. */
-"FxAPush_DeviceDisconnected_UnknownDevice_body" = "Piranti wis dipedhot saka Sync Impervious";
+"FxAPush_DeviceDisconnected_UnknownDevice_body" = "Piranti wis dipedhot saka Sync Beacon";
 
 /* A re-worded offer about Sync, displayed when the Sync home panel is empty, that emphasizes one-way data transfer, not syncing. */
 "Get your open tabs, bookmarks, and passwords from your other devices." = "Jupuk tab, tetenger, lan sandhi saka piranti liyané.";
@@ -422,7 +422,7 @@
 "HistoryPanel.EmptySyncedTabsPanelSingleDeviceSyncState.Description" = "Pèngèn weruh tab sampéyan saka piranti liya ning kéné?";
 
 /* Title for the empty synced tabs state in the History Panel */
-"HistoryPanel.EmptySyncedTabsState.Title" = "Impervious Sync";
+"HistoryPanel.EmptySyncedTabsState.Title" = "Beacon Sync";
 
 /* Title for the Back to History button in the History Panel */
 "HistoryPanel.HistoryBackButton.Title" = "Riwayat";
@@ -520,10 +520,10 @@
 /* Light theme setting in Reading View settings */
 "Light" = "Padhang";
 
-/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Beacon reader mode from another app. */
 "Load original page" = "Ngemot kaca asli";
 
-/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Beacon reader mode from another app. */
 "Loading content…" = "Ngemot isi…";
 
 /* Authentication prompt log in button */
@@ -572,7 +572,7 @@
 "LoginsList.Title" = "LOG MLEBU KASIMPEN";
 
 /* Restore Tabs Prompt Description */
-"Looks like Impervious crashed previously. Would you like to restore your tabs?" = "Impervious kayané bar mandheg. Apa sampéyan arep mbalèni ngemot tab sampéyan?";
+"Looks like Beacon crashed previously. Would you like to restore your tabs?" = "Beacon kayané bar mandheg. Apa sampéyan arep mbalèni ngemot tab sampéyan?";
 
 /* Name for Mark as read button in reader mode
    Title for the button that marks a reading list item as read */
@@ -625,7 +625,7 @@
 "Menu.TrackingProtection.BlockedTitle" = "Diblokir";
 
 /* Message in menu when no trackers blocked. */
-"Menu.TrackingProtection.NoTrackersBlockedTitle" = "Ora ana sing nglacak sing dikenal karo Impervious sing ora ditemokaké ing kaca iki.";
+"Menu.TrackingProtection.NoTrackersBlockedTitle" = "Ora ana sing nglacak sing dikenal karo Beacon sing ora ditemokaké ing kaca iki.";
 
 /* The title for tracking protection settings */
 "Menu.TrackingProtection.ProtectionSettings.Title" = "Setèlan Perlindhungan";
@@ -640,7 +640,7 @@
 "Menu.TrackingProtectionBlockedSocial.Title" = "Pelacak sosial";
 
 /* Description of the Tracking protection menu when TP is blocking parts of the page */
-"Menu.TrackingProtectionBlocking.Description" = "Impervious ngalangi bagéan kaca sing bisa dilacak dlajahan sampéyan.";
+"Menu.TrackingProtectionBlocking.Description" = "Beacon ngalangi bagéan kaca sing bisa dilacak dlajahan sampéyan.";
 
 /* The description of the Tracking Protection menu item when tracking is enabled */
 "Menu.TrackingProtectionBlockingDisabled.Description" = "Blokir pelacak daring";
@@ -683,7 +683,7 @@
 "Okay" = "Oké";
 
 /* Title for prompt displayed to user after the app crashes */
-"Oops! Impervious crashed" = "Dhuh! Firefoxé mogok";
+"Oops! Beacon crashed" = "Dhuh! Firefoxé mogok";
 
 /* See http://mzl.la/1G7uHo7 */
 "Open Settings" = "Bukak Setélan";
@@ -779,7 +779,7 @@
 "SendTo.NavBar.Title" = "Kirim Tab";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Title" = "Sampèyan durung mlebu menyang Akun Impervious.";
+"SendTo.NotSignedIn.Title" = "Sampèyan durung mlebu menyang Akun Beacon.";
 
 /* Navigation bar button to Send the current page to a device */
 "SendTo.SendAction.Text" = "Kirim";
@@ -788,7 +788,7 @@
 "SentTab.BookmarkAction.title" = "Tetenger";
 
 /* Title of notification received after a spurious message from FxA has been received. */
-"SentTab.NoTabArrivingNotification.title" = "Impervious Sync";
+"SentTab.NoTabArrivingNotification.title" = "Beacon Sync";
 
 /* Label for an action used to view one or more tabs from a notification. */
 "SentTab.ViewAction.title" = "Deleng";
@@ -867,7 +867,7 @@
 "Settings.FxA.DeviceName" = "Jeneng Piranti";
 
 /* Title displayed in header of the FxA settings panel. */
-"Settings.FxA.Title" = "Akun Impervious";
+"Settings.FxA.Title" = "Akun Beacon";
 
 /* General settings section title */
 "Settings.General.SectionName" = "Umum";
@@ -884,8 +884,8 @@
 /* Option in settings to show bookmarks when you open a new tab */
 "Settings.NewTab.Option.Bookmarks" = "Tetenger";
 
-/* Option in settings to show Impervious Home when you open a new tab */
-"Settings.NewTab.Option.FirefoxHome" = "Impervious Home";
+/* Option in settings to show Beacon Home when you open a new tab */
+"Settings.NewTab.Option.FirefoxHome" = "Beacon Home";
 
 /* Option in settings to turn off history in the highlights section */
 "Settings.NewTab.Option.HighlightsHistory" = "Katekan";
@@ -906,7 +906,7 @@
 "Settings.NewTab.TopSectionName" = "Tuduhaké";
 
 /* Description displayed under the ”Offer to Open Copied Link” option. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
-"Settings.OfferClipboardBar.Status" = "Nalika Mbukak Impervious";
+"Settings.OfferClipboardBar.Status" = "Nalika Mbukak Beacon";
 
 /* Label used as an item in Settings. When touched it will open a dialog to configure the open with (mail links) behavior. */
 "Settings.OpenWith.SectionName" = "Aplikasi Mail";
@@ -938,32 +938,32 @@
 /* Title displayed in header of the Data Management panel. */
 "Settings.WebsiteData.Title" = "Dhata Situs Wèb";
 
-/* Action label on share extension to add page to the Impervious reading list. */
+/* Action label on share extension to add page to the Beacon reading list. */
 "ShareExtension.AddToReadingListAction.Title" = "Tambah menyang Daptar Waca";
 
 /* Share extension label shown after user has performed 'Add to Reading List' action. */
 "ShareExtension.AddToReadingListActionDone.Title" = "Ditambahaké menyang Daptar Waca";
 
-/* Action label on share extension to bookmark the page in Impervious. */
+/* Action label on share extension to bookmark the page in Beacon. */
 "ShareExtension.BookmarkThisPageAction.Title" = "Tengeri Kaca Iki";
 
 /* Share extension label shown after user has performed 'Bookmark this Page' action. */
 "ShareExtension.BookmarkThisPageActionDone.Title" = "Ditengeri";
 
-/* Action label on share extension to load the page in Impervious when user switches apps to bring it to foreground. */
+/* Action label on share extension to load the page in Beacon when user switches apps to bring it to foreground. */
 "ShareExtension.LoadInBackgroundAction.Title" = "Amot ing Latar";
 
 /* Share extension label shown after user has performed 'Load in Background' action. */
-"ShareExtension.LoadInBackgroundActionDone.Title" = "Ngamot ing Impervious";
+"ShareExtension.LoadInBackgroundActionDone.Title" = "Ngamot ing Beacon";
 
-/* Action label on share extension to immediately open page in Impervious. */
-"ShareExtension.OpenInFirefoxAction.Title" = "Bukak ing Impervious";
+/* Action label on share extension to immediately open page in Beacon. */
+"ShareExtension.OpenInFirefoxAction.Title" = "Bukak ing Beacon";
 
-/* Action label on share extension to immediately open page in Impervious in private mode. */
+/* Action label on share extension to immediately open page in Beacon in private mode. */
 "ShareExtension.OpenInPrivateModeAction.Title" = "Bukak ing Modhe Pribadi";
 
-/* Action label on share extension to search for the selected text in Impervious. */
-"ShareExtension.SeachInFirefoxAction.Title" = "Golèk ing Impervious";
+/* Action label on share extension to search for the selected text in Beacon. */
+"ShareExtension.SeachInFirefoxAction.Title" = "Golèk ing Beacon";
 
 /* Accessibility Label for the tab toolbar Stop button */
 "Stop" = "Lèrèn";

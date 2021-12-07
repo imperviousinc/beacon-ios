@@ -1,10 +1,10 @@
-/* Button string to open settings that allows user to switch their default browser to Impervious. */
+/* Button string to open settings that allows user to switch their default browser to Beacon. */
 "DefaultBrowserCard.Button" = "सेटिंग मध्ये जा";
 
 /* Button string to learn how to set your default browser. */
 "DefaultBrowserCard.Button.v2" = "कसे ते शिका";
 
-/* Button string to open settings that allows user to switch their default browser to Impervious. */
+/* Button string to open settings that allows user to switch their default browser to Beacon. */
 "DefaultBrowserOnboarding.Button" = "सेटिंग मध्ये जा";
 
 /* Description for default browser onboarding card. */

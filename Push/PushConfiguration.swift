@@ -9,7 +9,7 @@ public enum PushConfigurationLabel: String {
     case fennecEnterprise = "FennecEnterprise"
     case firefoxBeta = "FirefoxBeta"
     case firefoxNightlyEnterprise = "FirefoxNightly"
-    case firefox = "Firefox"
+    case firefox = "Beacon"
 
     public func toConfiguration() -> PushConfiguration {
         switch self {

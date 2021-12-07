@@ -188,7 +188,7 @@ func answerHINFO(msg *dns.Msg, hinfoStr string) {
 			Ttl:    1,
 		},
 		Cpu: hinfoStr,
-		Os:  "Impervious Resolver",
+		Os:  "Beacon Resolver",
 	}
 
 	msg.Ns = append(msg.Ns, rr)

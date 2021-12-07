@@ -198,7 +198,7 @@ class TelemetryWrapper {
         } else {
             GleanMetrics.Preferences.newTabExperience.set(NewTabAccessors.Default.rawValue)
         }
-        // Record `Home` setting, where Firefox Home is "Home", a custom URL is "other" and blank is "Blank".
+        // Record `Home` setting, where Beacon Home is "Home", a custom URL is "other" and blank is "Blank".
         let homePageSetting = NewTabAccessors.getHomePage(prefs)
         switch homePageSetting {
         case .topSites:
@@ -677,7 +677,7 @@ extension TelemetryWrapper {
         case (.action, .tap, .groupedTabPerformSearch, _, _):
             GleanMetrics.Tabs.groupedTabSearch.add()
             
-        // Firefox Homepage
+        // Beacon Homepage
         case (.action, .tap, .firefoxHomepage, EventValue.yourLibrarySection.rawValue, let extras):
             if let panel = extras?[EventObject.libraryPanel.rawValue] as? String {
                 GleanMetrics.FirefoxHomePage.yourLibrary[panel].add()

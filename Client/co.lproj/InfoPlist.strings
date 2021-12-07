@@ -1,8 +1,8 @@
 /* Privacy - Camera Usage Description */
-"NSCameraUsageDescription" = "Impervious impiega u vostru apparechju-fotò per analizà codici QR è piglià fotò è video.";
+"NSCameraUsageDescription" = "Beacon impiega u vostru apparechju-fotò per analizà codici QR è piglià fotò è video.";
 
 /* Privacy - Face ID Usage Description */
-"NSFaceIDUsageDescription" = "Impervious richiede Face ID per accede à e vostre identificazioni di cunnessione arregistrate.";
+"NSFaceIDUsageDescription" = "Beacon richiede Face ID per accede à e vostre identificazioni di cunnessione arregistrate.";
 
 /* This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -10,7 +10,7 @@
 "NSLocationWhenInUseUsageDescription" = "I siti web chì vò visitate ponu richiede à cunnosce a vostra lucalizazione.";
 
 /* Privacy - Microphone Usage Description */
-"NSMicrophoneUsageDescription" = "Impervious impiega u vostru microfonu per arregistrà è incaricà l’audio.";
+"NSMicrophoneUsageDescription" = "Beacon impiega u vostru microfonu per arregistrà è incaricà l’audio.";
 
 /* Privacy - Photo Library Additions Usage Description */
 "NSPhotoLibraryAddUsageDescription" = "Quessu vi permette d’arregistrà fotò.";

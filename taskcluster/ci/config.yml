@@ -9,7 +9,7 @@ taskgraph:
     register: ffios_taskgraph:register
     repositories:
         mobile:
-            name: "Firefox for iOS"
+            name: "Beacon for iOS"
     cached-task-prefix: mobile.v2.firefox-ios
 
 workers:

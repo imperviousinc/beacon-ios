@@ -5,8 +5,8 @@
 import UIKit
 
 public enum AppName: String, CustomStringConvertible {
-    case shortName = "Impervious"
-    case longName = "Impervious "
+    case shortName = "Beacon"
+    case longName = "Beacon "
 
     public var description: String {
         return self.rawValue
@@ -63,8 +63,8 @@ public struct AppConstants {
         }
 
         let scheme = identifier.replacingOccurrences(of: "com.impervious.ios.", with: "")
-        if scheme == "ImperviousNightly.enterprise" {
-            return "ImperviousNightly"
+        if scheme == "BeaconNightly.enterprise" {
+            return "BeaconNightly"
         }
         return scheme
     }()
@@ -86,12 +86,12 @@ public struct AppConstants {
         #endif
     }()
 
-    /// The maximum length of a URL stored by Firefox. Shared with Places on desktop.
+    /// The maximum length of a URL stored by Beacon. Shared with Places on desktop.
     public static let DB_URL_LENGTH_MAX = 65536
 
-    /// The maximum length of a page title stored by Firefox. Shared with Places on desktop.
+    /// The maximum length of a page title stored by Beacon. Shared with Places on desktop.
     public static let DB_TITLE_LENGTH_MAX = 4096
 
-    /// The maximum length of a bookmark description stored by Firefox. Shared with Places on desktop.
+    /// The maximum length of a bookmark description stored by Beacon. Shared with Places on desktop.
     public static let DB_DESCRIPTION_LENGTH_MAX = 1024
 }

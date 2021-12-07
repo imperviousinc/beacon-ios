@@ -1,16 +1,16 @@
-/* Button string to open settings that allows user to switch their default browser to Impervious. */
+/* Button string to open settings that allows user to switch their default browser to Beacon. */
 "DefaultBrowserCard.Button" = "Ugrás a beállításokhoz";
 
 /* Button string to learn how to set your default browser. */
 "DefaultBrowserCard.Button.v2" = "Tudja meg hogyan";
 
-/* Description for small card shown that allows user to switch their default browser to Impervious. */
+/* Description for small card shown that allows user to switch their default browser to Beacon. */
 "DefaultBrowserCard.Description" = "Állítsa be a webhelyek, e-mailek és üzenetek hivatkozásait, hogy azok automatikusan a Firefoxban nyíljanak meg.";
 
-/* Title for small card shown that allows user to switch their default browser to Impervious. */
+/* Title for small card shown that allows user to switch their default browser to Beacon. */
 "DefaultBrowserCard.Title" = "Az alapértelmezett böngésző módosítása";
 
-/* Button string to open settings that allows user to switch their default browser to Impervious. */
+/* Button string to open settings that allows user to switch their default browser to Beacon. */
 "DefaultBrowserOnboarding.Button" = "Ugrás a beállításokhoz";
 
 /* Description for default browser onboarding card. */
@@ -22,9 +22,9 @@
 /* Description for default browser onboarding card. */
 "DefaultBrowserOnboarding.Description3" = "3. Válassza a Firefoxot";
 
-/* Text for the screenshot of the iOS system settings page for Impervious. */
+/* Text for the screenshot of the iOS system settings page for Beacon. */
 "DefaultBrowserOnboarding.Screenshot" = "Alapértelmezett böngésző";
 
-/* Menu option for setting Impervious as default browser. */
+/* Menu option for setting Beacon as default browser. */
 "Settings.DefaultBrowserMenuItem" = "Beállítás alapértelmezett böngészőként";
 

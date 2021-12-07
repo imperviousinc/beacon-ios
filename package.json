@@ -1,7 +1,7 @@
 {
   "name": "firefox-ios",
   "version": "1.0.0",
-  "description": "Firefox for iOS",
+  "description": "Beacon for iOS",
   "scripts": {
     "build": "webpack --config webpack.config.js"
   },

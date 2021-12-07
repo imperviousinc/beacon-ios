@@ -22,8 +22,8 @@
 /* Quick Actions drop down menu item for new search when widget enters edit mode and drop down menu expands */
 "TodayWidget.DropDownMenuItemNewSearch" = "Nauja paieška";
 
-/* Description for medium size widget to add Impervious Shortcut to home screen */
-"TodayWidget.FirefoxShortcutGalleryDescription" = "Pridėkite „Firefox“ leistukų į savo pradžios ekraną.";
+/* Description for medium size widget to add Beacon Shortcut to home screen */
+"TodayWidget.FirefoxShortcutGalleryDescription" = "Pridėkite „Beacon“ leistukų į savo pradžios ekraną.";
 
 /* Go to link pasted on the clipboard */
 "TodayWidget.GoToCopiedLinkLabelV1" = "Atverti nukopijuotą saitą";
@@ -44,7 +44,7 @@
 "TodayWidget.NewPrivateTabButtonLabelV2" = "Atverti privačiojoje kortelėje";
 
 /* Open New Tab button label */
-"TodayWidget.NewSearchButtonLabelV1" = "Ieškoti per „Firefox“";
+"TodayWidget.NewSearchButtonLabelV1" = "Ieškoti per „Beacon“";
 
 /* Open New Tab button label */
 "TodayWidget.NewTabButtonLabelV1" = "Nauja paieška";
@@ -55,38 +55,38 @@
 /* Label that is shown when there are no tabs opened in tab tray i.e. Empty State */
 "TodayWidget.NoOpenTabsLabelV2" = "Nėra atvertų kortelių";
 
-/* Open Impervious when there are no tabs opened in tab tray i.e. Empty State */
-"TodayWidget.OpenFirefoxLabel" = "Atverti „Firefox“";
+/* Open Beacon when there are no tabs opened in tab tray i.e. Empty State */
+"TodayWidget.OpenFirefoxLabel" = "Atverti „Beacon“";
 
-/* Description for Impervious Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app. */
+/* Description for Beacon Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app. */
 "TodayWidget.PocketWidgetGalleryDescription" = "Atraskite stebinančių ir mąstyti verčiančių istorijų iš interneto, kurias pateikia „Pocket“.";
 
-/* Sub label for medium size Impervious Pocket stories widge widget. Pocket is the name of another app. */
-"TodayWidget.PocketWidgetSubLabel" = "„Firefox“ – rekomenduoja „Pocket“";
+/* Sub label for medium size Beacon Pocket stories widge widget. Pocket is the name of another app. */
+"TodayWidget.PocketWidgetSubLabel" = "„Beacon“ – rekomenduoja „Pocket“";
 
-/* Title for Impervious Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app. */
+/* Title for Beacon Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app. */
 "TodayWidget.PocketWidgetTitle" = "„Pocket“ rekomenduoja";
 
 /* Open New Private Tab button label */
 "TodayWidget.PrivateTabButtonLabelV1" = "Privačioji paieška";
 
 /* Quick action description when widget enters edit mode */
-"TodayWidget.QuickActionDescription" = "Pasirinkite norimą „Firefox“ leistuką pradžios ekranui.";
+"TodayWidget.QuickActionDescription" = "Pasirinkite norimą „Beacon“ leistuką pradžios ekranui.";
 
 /* Quick Actions left label text for dropdown menu when widget enters edit mode */
 "TodayWidget.QuickActionDropDownMenu" = "Spartusis veiksmas";
 
 /* Description for small size widget to add it to home screen */
-"TodayWidget.QuickActionGalleryDescription" = "Pridėkite „Firefox“ leistuką į savo pradžios ekraną. Pridėję valdiklį, palieskite ir palaikykite norėdami jį keisti, ir pasirinkti kitą leistuką.";
+"TodayWidget.QuickActionGalleryDescription" = "Pridėkite „Beacon“ leistuką į savo pradžios ekraną. Pridėję valdiklį, palieskite ir palaikykite norėdami jį keisti, ir pasirinkti kitą leistuką.";
 
 /* Quick Actions title when widget enters edit mode */
 "TodayWidget.QuickActionsGalleryTitle" = "Spartieji veiksmai";
 
-/* Impervious shortcuts title when widget enters edit mode. Do not translate the word Impervious. */
-"TodayWidget.QuickActionsGalleryTitleV2" = "„Firefox“ leistukai";
+/* Beacon shortcuts title when widget enters edit mode. Do not translate the word Beacon. */
+"TodayWidget.QuickActionsGalleryTitleV2" = "„Beacon“ leistukai";
 
 /* Sub label for medium size quick action widget */
-"TodayWidget.QuickActionsSubLabel" = "„Firefox“ – spartieji veiksmai";
+"TodayWidget.QuickActionsSubLabel" = "„Beacon“ – spartieji veiksmai";
 
 /* Description for Quick View widget in Gallery View where user can add it to home screen */
 "TodayWidget.QuickViewGalleryDescription" = "Pasiekite savo atvertas korteles tiesiai iš pradžios ekrano.";
@@ -101,35 +101,35 @@
 "TodayWidget.QuickViewLargeGalleryDescription" = "Pridėkite leistukų į savo atvertas korteles.";
 
 /* Sub label for Top Sites widget */
-"TodayWidget.QuickViewOpenTabsSubLabel" = "„Firefox“ – atvertos kortelės";
+"TodayWidget.QuickViewOpenTabsSubLabel" = "„Beacon“ – atvertos kortelės";
 
-/* Title for small size widget which allows users to search in Impervious. Do not translate the word Impervious. */
-"TodayWidget.SearchInFirefoxTitle" = "Ieškoti per „Firefox“";
+/* Title for small size widget which allows users to search in Beacon. Do not translate the word Beacon. */
+"TodayWidget.SearchInFirefoxTitle" = "Ieškoti per „Beacon“";
 
-/* Search in Impervious. Do not translate the word Impervious */
-"TodayWidget.SearchInFirefoxV2" = "Ieškoti per „Firefox“";
+/* Search in Beacon. Do not translate the word Beacon */
+"TodayWidget.SearchInFirefoxV2" = "Ieškoti per „Beacon“";
 
 /* Search in private tab */
 "TodayWidget.SearchInPrivateTabLabelV2" = "Atverti privačiojoje kortelėje";
 
-/* Description for top sites widget to add Impervious top sites shotcuts to home screen */
+/* Description for top sites widget to add Beacon top sites shotcuts to home screen */
 "TodayWidget.TopSitesGalleryDescription" = "Pridėkite leistukų į dažnas ir paskiausias lankytas svetaines.";
 
-/* Title for top sites widget to add Impervious top sites shotcuts to home screen */
+/* Title for top sites widget to add Beacon top sites shotcuts to home screen */
 "TodayWidget.TopSitesGalleryTitle" = "Lankomiausios svetainės";
 
-/* Title for top sites widget to add Impervious top sites shotcuts to home screen */
+/* Title for top sites widget to add Beacon top sites shotcuts to home screen */
 "TodayWidget.TopSitesGalleryTitleV2" = "Svetainių leistukai";
 
 /* Sub label for Top Sites widget */
-"TodayWidget.TopSitesSubLabel" = "„Firefox“ – lankomiausios svetainės";
+"TodayWidget.TopSitesSubLabel" = "„Beacon“ – lankomiausios svetainės";
 
 /* Sub label for Shortcuts widget */
-"TodayWidget.TopSitesSubLabel2" = "„Firefox“ - svetainių leistukai";
+"TodayWidget.TopSitesSubLabel2" = "„Beacon“ - svetainių leistukai";
 
 /* View More for Quick View widget in Gallery View where we don't know how many tabs might be opened */
 "TodayWidget.ViewMore" = "Rodyti daugiau";
 
-/* View More… for Impervious Pocket stories widget where we don't know how many articles are available. */
+/* View More… for Beacon Pocket stories widget where we don't know how many articles are available. */
 "TodayWidget.ViewMoreDots" = "Rodyti daugiau…";
 

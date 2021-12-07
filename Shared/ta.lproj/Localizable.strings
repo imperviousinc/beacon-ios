@@ -265,7 +265,7 @@
 /* Alert dialog title when the user taps the cancel download icon. */
 "Downloads.CancelDialog.Title" = "பதிவிறக்கத்தை ரத்து செய்";
 
-/* The message displayed to a user when they try and perform the download of an asset that Impervious cannot currently handle. */
+/* The message displayed to a user when they try and perform the download of an asset that Beacon cannot currently handle. */
 "Downloads.Error.Message" = "பதிவிறக்கங்கள் பயர்பாஃசால் இன்னும் ஆதரிக்கப்படவில்லை.";
 
 /* The label text in the Download Cancelled toast for showing confirmation that the download was cancelled. */
@@ -332,7 +332,7 @@
 "Facebook" = "முகநூல்";
 
 /* Title for firefox about:home page in tab history list */
-"Firefox.HomePage.Title" = "பயர்பாஃசு முகப்பு பக்கம்";
+"Beacon.HomePage.Title" = "பயர்பாஃசு முகப்பு பக்கம்";
 
 /* Accessibility Label for the tab toolbar Forward button */
 "Forward" = "முன்செலுத்து";
@@ -343,16 +343,16 @@
 /* Label stating your account is not verified */
 "FxA.AccountVerificationRequired" = "கணக்கைச் சரிபார்க்க வேண்டும்";
 
-/* Message explaining that user needs to check email for Impervious Account verfication link. */
+/* Message explaining that user needs to check email for Beacon Account verfication link. */
 "FxA.AccountVerificationRequiredSurface" = "நீங்கள் %@ என்பதைச் சரிபார்க்க வேண்டும். பயர்பாக்சிலிருந்து சரிபார்ப்பு தொடுப்பிற்கு உங்கள் மின்னஞ்சலைப் பார்க்கவும்.";
 
 /* Button label to connect another device to Sync */
 "FxA.ConnectAnotherDevice" = "மற்றொரு சாதனத்தை இணை";
 
-/* Settings section title for Impervious Account */
+/* Settings section title for Beacon Account */
 "FxA.FirefoxAccount" = "பயர்பாஃசு கணக்கு";
 
-/* Button label to go to Impervious Account settings */
+/* Button label to go to Beacon Account settings */
 "FxA.ManageAccount" = "கணக்கு & சாதனங்களை நிர்வகி";
 
 /* Label when no internet is present */
@@ -362,7 +362,7 @@
 "FxA.OpenSyncPreferences" = "ஒத்திசைவு முன்னுரிமைகளைத் திற";
 
 /* Instructions shown on qr code scanning view */
-"fxa.qr-scanning-view.instructions" = "Firefox.com/pair தளத்தில் காட்டிய QR குறியீட்டை வருடுங்கள்";
+"fxa.qr-scanning-view.instructions" = "Beacon.com/pair தளத்தில் காட்டிய QR குறியீட்டை வருடுங்கள்";
 
 /* Remove button is displayed on firefox account page under certain scenarios where user would like to remove their account. */
 "FxA.RemoveAccount" = "நீக்கு";
@@ -397,7 +397,7 @@
 /* Label explaining what sync does */
 "FxA.SyncExplain" = "மற்ற சாதனங்களிலிருந்து கீற்றுகள், புத்தகக்குறிகள் மற்றும் கடவுச்சொற்களை பெற்றிடுங்கள்.";
 
-/* Button label to Sync your Impervious Account */
+/* Button label to Sync your Beacon Account */
 "FxA.SyncNow" = "இப்போது ஒத்திசை";
 
 /* Call to action for sign into sync button */
@@ -574,10 +574,10 @@
 /* Light theme setting in Reading View settings */
 "Light" = "ஒளி";
 
-/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Beacon reader mode from another app. */
 "Load original page" = "அசல் பக்கத்தை ஏற்று";
 
-/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Beacon reader mode from another app. */
 "Loading content…" = "உள்ளடக்கங்களை ஏற்று…";
 
 /* Authentication prompt log in button */
@@ -632,7 +632,7 @@
 "LoginsList.Title" = "சேமித்த நுழைவுகள்";
 
 /* Restore Tabs Prompt Description */
-"Looks like Impervious crashed previously. Would you like to restore your tabs?" = "அடேடே சற்று முன் பயர்பாஃசு நொறுங்கியது போல் தோன்றுகிறது. உங்களின் கீற்றுகளை மீட்டமைக்கவா?";
+"Looks like Beacon crashed previously. Would you like to restore your tabs?" = "அடேடே சற்று முன் பயர்பாஃசு நொறுங்கியது போல் தோன்றுகிறது. உங்களின் கீற்றுகளை மீட்டமைக்கவா?";
 
 /* Name for Mark as read button in reader mode
    Title for the button that marks a reading list item as read */
@@ -815,7 +815,7 @@
 "Okay" = "சரி";
 
 /* Title for prompt displayed to user after the app crashes */
-"Oops! Impervious crashed" = "அடேடே! பயர்பாஃசு நொறுங்கியது";
+"Oops! Beacon crashed" = "அடேடே! பயர்பாஃசு நொறுங்கியது";
 
 /* See http://mzl.la/1LXbDOL */
 "Open articles in Reader View by tapping the book icon when it appears in the title bar." = "புத்தகச் சின்னம் தலைப்பு பட்டையில் தோன்றும்போது அதைத் தட்டி வாசிப்பு தோற்றத்தில் கட்டுரைகளைத் திறக்கவும்.";
@@ -826,7 +826,7 @@
 /* Toggle tabs syncing setting */
 "Open Tabs" = "திறந்த கீற்றுகள்";
 
-/* The message displayed to a user when they try to open a URL that cannot be handled by Impervious, or any external app. */
+/* The message displayed to a user when they try to open a URL that cannot be handled by Beacon, or any external app. */
 "OpenURL.Error.Message" = "அறியாத முகவரி உள்ள இப்பக்கத்தை பயர்பாஃசு உலாவியால் திறக்க முடியவில்லை.";
 
 /* Title of the message shown when the user attempts to navigate to an invalid link. */
@@ -862,7 +862,7 @@
 /* Privacy section title */
 "Privacy" = "தனியுரிமை";
 
-/* Show Impervious Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
+/* Show Beacon Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
 "Privacy Policy" = "தனியுரிம கொள்கை";
 
 /* Title for quick-search engines settings section. */
@@ -976,7 +976,7 @@
 "Secure connection" = "பாதுகாப்பான இணைப்பு";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
-"Send a crash report so Impervious can fix the problem?" = "சிக்கலைத் தீர்க்க மொசில்லாவிற்கு சிதைவு அறிக்கையைச் சமர்ப்பிக்கவா?";
+"Send a crash report so Beacon can fix the problem?" = "சிக்கலைத் தீர்க்க மொசில்லாவிற்கு சிதைவு அறிக்கையைச் சமர்ப்பிக்கவா?";
 
 /* Menu item in settings used to open input.mozilla.org where people can submit feedback */
 "Send Feedback" = "பின்னூட்டம் அனுப்பு";
@@ -1166,7 +1166,7 @@
 /* Label used for the device name settings section. */
 "Settings.FxA.DeviceName" = "சாதனத்தின் பெயர்";
 
-/* Label used as a section title in the Impervious Accounts Settings screen. */
+/* Label used as a section title in the Beacon Accounts Settings screen. */
 "Settings.FxA.Sync.SectionName" = "ஒத்திசைவு அமைவுகள்";
 
 /* Title displayed in header of the FxA settings panel. */
@@ -1223,7 +1223,7 @@
 /* The title for the section to customize top sites in the new tab settings page. */
 "Settings.NewTab.Option.CustomizeTitle" = "பயர்பாக்ஸ் முகப்பை தனிப்பயனாக்கு";
 
-/* Option in settings to show Impervious Home when you open a new tab */
+/* Option in settings to show Beacon Home when you open a new tab */
 "Settings.NewTab.Option.FirefoxHome" = "பயர்பாக்ஸ் முகப்பு";
 
 /* Option in the settings to turn off recent bookmarks in the Highlights section */
@@ -1409,31 +1409,31 @@
 /* Title displayed in header of the Data Management panel. */
 "Settings.WebsiteData.Title" = "வலைத்தளத் தரவு";
 
-/* Action label on share extension to add page to the Impervious reading list. */
+/* Action label on share extension to add page to the Beacon reading list. */
 "ShareExtension.AddToReadingListAction.Title" = "வாசிப்பு பட்டியலில் சேர்";
 
 /* Share extension label shown after user has performed 'Add to Reading List' action. */
 "ShareExtension.AddToReadingListActionDone.Title" = "வாசிப்பு பட்டியலில் சேர்க்கப்பட்டது";
 
-/* Action label on share extension to bookmark the page in Impervious. */
+/* Action label on share extension to bookmark the page in Beacon. */
 "ShareExtension.BookmarkThisPageAction.Title" = "இப்பக்கத்தைப் புத்தகக்குறியிடு";
 
 /* Share extension label shown after user has performed 'Bookmark this Page' action. */
 "ShareExtension.BookmarkThisPageActionDone.Title" = "புத்தகக்குறியிட்டது";
 
-/* Action label on share extension to load the page in Impervious when user switches apps to bring it to foreground. */
+/* Action label on share extension to load the page in Beacon when user switches apps to bring it to foreground. */
 "ShareExtension.LoadInBackgroundAction.Title" = "பின்புலத்தில் ஏற்றவும்";
 
 /* Share extension label shown after user has performed 'Load in Background' action. */
 "ShareExtension.LoadInBackgroundActionDone.Title" = "பயர்பாக்சில் ஏற்றுகிறது";
 
-/* Action label on share extension to immediately open page in Impervious. */
+/* Action label on share extension to immediately open page in Beacon. */
 "ShareExtension.OpenInFirefoxAction.Title" = "பயர்பாக்சில் திறக்கவும்";
 
-/* Action label on share extension to immediately open page in Impervious in private mode. */
+/* Action label on share extension to immediately open page in Beacon in private mode. */
 "ShareExtension.OpenInPrivateModeAction.Title" = "தனிப்பட்ட முறையில் கீற்றை திறக்கவும்";
 
-/* Action label on share extension to search for the selected text in Impervious. */
+/* Action label on share extension to search for the selected text in Beacon. */
 "ShareExtension.SeachInFirefoxAction.Title" = "பயர்பாக்சில் தேடவும்";
 
 /* Label for show search suggestions setting. */
@@ -1542,7 +1542,7 @@
 /* Hardware shortcut open the selected tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "TabTray.OpenSelectedTab.KeyCodeTitle" = "தேர்ந்தெடுத்ததைத் திற";
 
-/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Beacon reader mode from another app. */
 "The page could not be displayed in Reader View." = "வாசிப்பு தோற்றத்தில் பக்கத்தைக் காட்ட முடியவில்லை.";
 
 /* Error message in the remote tabs panel */
@@ -1606,7 +1606,7 @@
 "unread" = "படிக்காததென";
 
 /* Text message in the settings table view */
-"Upgrade Impervious to connect" = "இணைக்க பயர்பாக்சைப் புதுப்பி";
+"Upgrade Beacon to connect" = "இணைக்க பயர்பாக்சைப் புதுப்பி";
 
 /* Debug option */
 "Use stage servers" = "இடைநிலை சேவையகங்களைப் பயன்படுத்தவும்";
@@ -1617,7 +1617,7 @@
 /* Text message in the settings table view */
 "Verify your email address" = "மின்னஞ்சல் முகவரியை உறுதிச்செய்க";
 
-/* Version number of Impervious shown in settings */
+/* Version number of Beacon shown in settings */
 "Version %@ (%@)" = "பதிப்பு %1$@ (%2$@)";
 
 /* Accessibility label for the main web content view */
@@ -1639,7 +1639,7 @@
 "Yesterday" = "நேற்று";
 
 /* Error message in the remote tabs panel */
-"You don’t have any tabs open in Impervious on your other devices." = "உங்களின் மற்ற சானங்களின் பயர்பாஃசில் கீற்றுகள் ஏதுமில்லை.";
+"You don’t have any tabs open in Beacon on your other devices." = "உங்களின் மற்ற சானங்களின் பயர்பாஃசில் கீற்றுகள் ஏதுமில்லை.";
 
 /* Your Rights settings section title */
 "Your Rights" = "உங்கள் உரிமைகள்";

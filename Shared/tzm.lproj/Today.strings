@@ -7,16 +7,16 @@
 /* Open New Tab button label */
 "TodayWidget.NewTabButtonLabelV1" = "ⴰⵔⵣⵣⵓ ⴰⵎⴰⵢⵏⵓ";
 
-/* Open Impervious when there are no tabs opened in tab tray i.e. Empty State */
+/* Open Beacon when there are no tabs opened in tab tray i.e. Empty State */
 "TodayWidget.OpenFirefoxLabel" = "ⵕⵥⵎ ⴼⴰⵢⵔⴼⵓⴽⵙ";
 
 /* Open New Private Tab button label */
 "TodayWidget.PrivateTabButtonLabelV1" = "ⴰⵔⵣⵣⵓ ⵓⵙⵍⵓⴳ";
 
-/* Title for small size widget which allows users to search in Impervious. Do not translate the word Impervious. */
+/* Title for small size widget which allows users to search in Beacon. Do not translate the word Beacon. */
 "TodayWidget.SearchInFirefoxTitle" = "ⵔⵣⵓ ⴳ ⴼⴰⵢⵔⴼⵓⴽⵙ";
 
-/* Search in Impervious. Do not translate the word Impervious */
+/* Search in Beacon. Do not translate the word Beacon */
 "TodayWidget.SearchInFirefoxV2" = "ⵔⵣⵓ ⴳ ⴼⴰⵢⵔⴼⵓⴽⵙ";
 
 /* Search in private tab */

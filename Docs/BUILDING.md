@@ -1,4 +1,4 @@
-Building Firefox for iOS
+Building Beacon for iOS
 ========================
 
 Prerequisites, as of *February 20, 2020*:
@@ -41,14 +41,14 @@ You can now execute our `bootstrap.sh` script:
 ./bootstrap.sh
 ```
 
-At this point you have checked out the source code for both the Firefox for iOS project and built it's dependencies. You can now build and run the application.
+At this point you have checked out the source code for both the Beacon for iOS project and built it's dependencies. You can now build and run the application.
 
 Everything after this point is done from within Xcode.
 
 Pointing to Local Rust Components (Application Services)
 --------------------
 
-Firefox for iOS depends internally on some of the [shared Rust components](https://github.com/mozilla/application-services). Sometimes, you may want to also point to your local Rust components when building locally. You can do so by:
+Beacon for iOS depends internally on some of the [shared Rust components](https://github.com/mozilla/application-services). Sometimes, you may want to also point to your local Rust components when building locally. You can do so by:
 
 1. First ensure you can [build application-services](https://github.com/mozilla/application-services/blob/main/docs/building.md) locally.
 2. Next, `carthage build --no-skip-current --platform iOS --verbose --configuration Debug --cache-builds`.
@@ -74,7 +74,7 @@ Run on a Device with Xcode 11.3 and a Free Developer Account
 
 > Only follow these instructions if you are using the free personal developer accounts. Simply add your Apple ID as an account in Xcode.
 
-Since the bundle identifier we use for Firefox is tied to our developer account, you'll need to generate your own identifier and update the existing configuration.
+Since the bundle identifier we use for Beacon is tied to our developer account, you'll need to generate your own identifier and update the existing configuration.
 
 1. Open Client/Configuration/Fennec.xcconfig
 2. Change MOZ_BUNDLE_ID to your own bundle identifier. Just think of something unique: e.g., com.your_github_id.Fennec
@@ -133,7 +133,7 @@ Random notes
 
 As of [Bug 1182620](https://bugzilla.mozilla.org/show_bug.cgi?id=1182620) we do not run the SQLCipher 'amalgamation' phase anymore. Instead we have simply included generated copies of `sqlite3.c`, `sqlite3.h` and `sqlite3ext.h` in the project. This works around problems where the amalgamation phase did not work for production builds. It also speeds up things.
 
-To update to a newer version of SQLCipher: check out the original SQLCipher project and build it. Do not copy the project or anything in the Firefox project. Just follow their instructions. Then copy the above three `.c` and `.h` files back into the Firefox project. Also update the `README`, `VERION` and `CHANGELOG` files from the original distribution so that we know what version we have included.
+To update to a newer version of SQLCipher: check out the original SQLCipher project and build it. Do not copy the project or anything in the Beacon project. Just follow their instructions. Then copy the above three `.c` and `.h` files back into the Beacon project. Also update the `README`, `VERION` and `CHANGELOG` files from the original distribution so that we know what version we have included.
 
 Building involves:
 

@@ -7,10 +7,10 @@
 /* Next button on the first intro screen. */
 "Intro.Slides.Button.Next" = "Siguient";
 
-/* Sign in to Impervious account button on second intro screen. */
+/* Sign in to Beacon account button on second intro screen. */
 "Intro.Slides.Button.SignIn" = "Iniciar la sesión";
 
-/* Sign up to Impervious account button on second intro screen. */
+/* Sign up to Beacon account button on second intro screen. */
 "Intro.Slides.Button.SignUp" = "Rechistrar-se";
 
 /* Description for the second item in the table related to fast searching via address bar */
@@ -20,13 +20,13 @@
 "Intro.Slides.Fast.Search.Title" = "Busqueda rapida";
 
 /* Description for the first item in the table related to syncing data (bookmarks, history) via firefox account between devices */
-"Intro.Slides.Firefox.Account.Sync.Description" = "Imparta los marcapachinas, historial y claus a lo Impervious d'este dispositivo.";
+"Intro.Slides.Beacon.Account.Sync.Description" = "Imparta los marcapachinas, historial y claus a lo Beacon d'este dispositivo.";
 
 /* Title for the first item in the table related to syncing data (bookmarks, history) via firefox account between devices */
-"Intro.Slides.Firefox.Account.Sync.Title" = "Sincroniza Impervious entre dispositivos";
+"Intro.Slides.Beacon.Account.Sync.Title" = "Sincroniza Beacon entre dispositivos";
 
 /* Description for the 'Mail' panel in the First Run tour. */
-"Intro.Slides.Mail.Description" = "Utiliza qualsiquier aplicación de correu - no nomás Mail - con Impervious.";
+"Intro.Slides.Mail.Description" = "Utiliza qualsiquier aplicación de correu - no nomás Mail - con Beacon.";
 
 /* Title for the fourth panel 'Mail' in the First Run tour. */
 "Intro.Slides.Mail.Title" = "Tiens nuevas... opcions de correu";
@@ -38,7 +38,7 @@
 "Intro.Slides.Private.Title" = "Navega como si dengún no t'observase";
 
 /* Description for the third item in the table related to safe syncing with a firefox account */
-"Intro.Slides.Safe.Sync.Description" = "Proteche los tuyos identificadors d'usuario y datos en totz os puestos que emplegues Impervious.";
+"Intro.Slides.Safe.Sync.Description" = "Proteche los tuyos identificadors d'usuario y datos en totz os puestos que emplegues Beacon.";
 
 /* Title for the third item in the table related to safe syncing with a firefox account */
 "Intro.Slides.Safe.Sync.Title" = "Sincronización segura";
@@ -59,7 +59,7 @@
 "Intro.Slides.Welcome.Description.v2" = "Rapido, privau y a lo tuyo cosau.";
 
 /* Title for the first panel 'Welcome' in the First Run tour. */
-"Intro.Slides.Welcome.Title.v2" = "Bienveniu ta Impervious";
+"Intro.Slides.Welcome.Title.v2" = "Bienveniu ta Beacon";
 
 /* See http://mzl.la/1T8gxwo */
 "Start Browsing" = "Empecipia a navegar";

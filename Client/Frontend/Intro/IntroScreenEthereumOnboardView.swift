@@ -45,7 +45,7 @@ class IntroScreenEthereumOnboardView: UIView, CardTheme {
         return theme == .dark ? .white : .black
     }
     private var fxBackgroundThemeColour: UIColor {
-        return theme == .dark ? UIColor.Firefox.DarkGrey10 : .white
+        return theme == .dark ? UIColor.Beacon.DarkGrey10 : .white
     }
     private lazy var titleImageView: UIImageView = {
         let imgView = UIImageView(image: #imageLiteral(resourceName: "tour-Sync"))
@@ -72,7 +72,7 @@ class IntroScreenEthereumOnboardView: UIView, CardTheme {
     }()
     private lazy var descriptionLabel2: UILabel = {
         let label = UILabel()
-        label.text = "Impervious allows you to access names on Etherem Name System too, try humbly.eth!"
+        label.text = "Beacon allows you to access names on Etherem Name System too, try humbly.eth!"
         label.textColor = fxTextThemeColour
         label.font = UIFont.systemFont(ofSize: 16, weight: .regular)
         label.textAlignment = .left

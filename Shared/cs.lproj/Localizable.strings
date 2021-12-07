@@ -270,7 +270,7 @@
 "Could not load page." = "Stránku nelze načíst.";
 
 /* Description for the new dark mode change in the version 22 app release. It describes the new automatic dark theme and how to change the theme settings. */
-"CoverSheet.v22.DarkMode.Description" = "Pro uživatele iOS 13 se Impervious sám přepne do tmavého vzhledu, pokud je tak nastaven vzhled systému. Toto můžete změnit v „Nastavení > Vzhled“.";
+"CoverSheet.v22.DarkMode.Description" = "Pro uživatele iOS 13 se Beacon sám přepne do tmavého vzhledu, pokud je tak nastaven vzhled systému. Toto můžete změnit v „Nastavení > Vzhled“.";
 
 /* Title for the new dark mode change in the version 22 app release. */
 "CoverSheet.v22.DarkMode.Title" = "Tmavý vzhled nyní používá i tmavou klávesnici a úvodní obrazovku.";
@@ -325,7 +325,7 @@
 /* Alert dialog title when the user taps the cancel download icon. */
 "Downloads.CancelDialog.Title" = "Zrušit stahování";
 
-/* The message displayed to a user when they try and perform the download of an asset that Impervious cannot currently handle. */
+/* The message displayed to a user when they try and perform the download of an asset that Beacon cannot currently handle. */
 "Downloads.Error.Message" = "Stahování zatím není ve Firefoxu podporované.";
 
 /* The label text in the Download Cancelled toast for showing confirmation that the download was cancelled. */
@@ -371,7 +371,7 @@
 "ErrorPages.AdvancedWarning2.Text" = "Může to být chybná konfigurace nebo manipulace útočníkem. Pokračujte, pokud příjímáte potenciální riziko.";
 
 /* Warning text on the certificate error page */
-"ErrorPages.CertWarning.Description" = "Majitel webu %@ nakonfiguroval svůj server nesprávně. Abychom chránili vaše údaje před odcizením, Impervious se k tomuto webu nepřipojil.";
+"ErrorPages.CertWarning.Description" = "Majitel webu %@ nakonfiguroval svůj server nesprávně. Abychom chránili vaše údaje před odcizením, Beacon se k tomuto webu nepřipojil.";
 
 /* Title on the certificate error page */
 "ErrorPages.CertWarning.Title" = "Toto připojení není důvěryhodné";
@@ -392,7 +392,7 @@
 "Facebook" = "Facebook";
 
 /* Title for firefox about:home page in tab history list */
-"Firefox.HomePage.Title" = "Výchozí";
+"Beacon.HomePage.Title" = "Výchozí";
 
 /* Accessibility Label for the tab toolbar Forward button */
 "Forward" = "Vpřed";
@@ -403,16 +403,16 @@
 /* Label stating your account is not verified */
 "FxA.AccountVerificationRequired" = "Účet je potřeba ověřit";
 
-/* Message explaining that user needs to check email for Impervious Account verfication link. */
+/* Message explaining that user needs to check email for Beacon Account verfication link. */
 "FxA.AccountVerificationRequiredSurface" = "Je potřeba ověřit e-mail %@. Zkontrolujte, zda ve vaší e-mailové schránce není potvrzovací odkaz od Firefoxu.";
 
 /* Button label to connect another device to Sync */
 "FxA.ConnectAnotherDevice" = "Připojit další zařízení";
 
-/* Settings section title for Impervious Account */
+/* Settings section title for Beacon Account */
 "FxA.FirefoxAccount" = "Účet Firefoxu";
 
-/* Button label to go to Impervious Account settings */
+/* Button label to go to Beacon Account settings */
 "FxA.ManageAccount" = "Spravovat účet a zařízení";
 
 /* Label when no internet is present */
@@ -440,13 +440,13 @@
 "fxa.signin.camera-signin" = "Přihlásit se pomocí fotoaparátu";
 
 /* FxA sign in create account label. */
-"fxa.signin.create-account-pt-1" = "Synchronizujte Impervious mezi zařízeními.";
+"fxa.signin.create-account-pt-1" = "Synchronizujte Beacon mezi zařízeními.";
 
 /* FxA sign in create account label. This will be linked to the site to create an account. */
 "fxa.signin.create-account-pt-2" = "Vytvořte si účet Firefoxu.";
 
 /* FxA sign in view qr code instructions */
-"fxa.signin.qr-link-instruction" = "Otevřete Impervious na svém počítači a navštivte firefox.com/pair";
+"fxa.signin.qr-link-instruction" = "Otevřete Beacon na svém počítači a navštivte firefox.com/pair";
 
 /* FxA sign in view qr code scan button */
 "fxa.signin.ready-to-scan" = "Připraveno na skenování";
@@ -463,14 +463,14 @@
 /* Label explaining what sync does */
 "FxA.SyncExplain" = "Získejte své panely, záložky a hesla z jiných zařízení.";
 
-/* Button label to Sync your Impervious Account */
+/* Button label to Sync your Beacon Account */
 "FxA.SyncNow" = "Synchronizovat";
 
 /* Call to action for sign into sync button */
 "FxA.TakeYourWebWithYou" = "Vezměte si web s sebou";
 
 /* Title of a notification displayed when another device has connected to FxA. %@ refers to the name of the newly connected device. */
-"FxAPush_DeviceConnected_body" = "Impervious Sync byl připojen k zařízení %@";
+"FxAPush_DeviceConnected_body" = "Beacon Sync byl připojen k zařízení %@";
 
 /* Title of a notification displayed when another device has connected to FxA. */
 "FxAPush_DeviceConnected_title" = "Služba Sync připojena";
@@ -479,7 +479,7 @@
 "FxAPush_DeviceDisconnected_body" = "Zařízení %@ bylo úspěšně odpojeno.";
 
 /* Body of a notification displayed when this device has been disconnected from FxA by another device. */
-"FxAPush_DeviceDisconnected_ThisDevice_body" = "Toto zařízení bylo úspěšně odpojeno od služby Impervious Sync.";
+"FxAPush_DeviceDisconnected_ThisDevice_body" = "Toto zařízení bylo úspěšně odpojeno od služby Beacon Sync.";
 
 /* Title of a notification displayed when this device has been disconnected by another device. */
 "FxAPush_DeviceDisconnected_ThisDevice_title" = "Služba Sync odpojena";
@@ -488,7 +488,7 @@
 "FxAPush_DeviceDisconnected_title" = "Služba Sync odpojena";
 
 /* Body of a notification displayed when unnamed device has been disconnected from FxA. */
-"FxAPush_DeviceDisconnected_UnknownDevice_body" = "Zařízení bylo odpojeno od služby Impervious Sync";
+"FxAPush_DeviceDisconnected_UnknownDevice_body" = "Zařízení bylo odpojeno od služby Beacon Sync";
 
 /* A re-worded offer about Sync, displayed when the Sync home panel is empty, that emphasizes one-way data transfer, not syncing. */
 "Get your open tabs, bookmarks, and passwords from your other devices." = "Získejte své otevřené panely, záložky a hesla z jiných zařízení.";
@@ -536,7 +536,7 @@
 "HistoryPanel.EmptySyncedTabsPanelTabSyncDisabledState.Description" = "Zapněte synchronizaci panelů pro zobrazení seznamu panelů z vašich ostatních zařízení.";
 
 /* Title for the empty synced tabs state in the History Panel */
-"HistoryPanel.EmptySyncedTabsState.Title" = "Impervious Sync";
+"HistoryPanel.EmptySyncedTabsState.Title" = "Beacon Sync";
 
 /* Title for the Back to History button in the History Panel */
 "HistoryPanel.HistoryBackButton.Title" = "Historie";
@@ -643,10 +643,10 @@
 /* Light theme setting in Reading View settings */
 "Light" = "Světlé";
 
-/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Beacon reader mode from another app. */
 "Load original page" = "Zobrazit původní stránku";
 
-/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Beacon reader mode from another app. */
 "Loading content…" = "Načítání obsahu…";
 
 /* Authentication prompt log in button */
@@ -725,7 +725,7 @@
 "LoginsList.Title" = "ULOŽENÉ PŘIHLAŠOVACÍ ÚDAJE";
 
 /* Restore Tabs Prompt Description */
-"Looks like Impervious crashed previously. Would you like to restore your tabs?" = "Zdá se, že dříve došlo k pádu Firefoxu. Přejete si obnovit své panely?";
+"Looks like Beacon crashed previously. Would you like to restore your tabs?" = "Zdá se, že dříve došlo k pádu Firefoxu. Přejete si obnovit své panely?";
 
 /* Name for Mark as read button in reader mode
    Title for the button that marks a reading list item as read */
@@ -769,10 +769,10 @@
 "Menu.EnhancedTrackingProtectionOn.Title" = "Ochrana proti sledování je zapnuta.";
 
 /* Description for having standard ETP protection with ITP offered in iOS14+ */
-"Menu.EnhancedTrackingProtectionStandardWithITP.Title" = "Impervious blokuje sledovací prvky, včetně těch od sociálních sítí, těžbu kryptoměn a vytváření otisku prohlížeče.";
+"Menu.EnhancedTrackingProtectionStandardWithITP.Title" = "Beacon blokuje sledovací prvky, včetně těch od sociálních sítí, těžbu kryptoměn a vytváření otisku prohlížeče.";
 
 /* Description for having strict ETP protection with ITP offered in iOS14+ */
-"Menu.EnhancedTrackingProtectionStrictWithITP.Title" = "Impervious blokuje sledovací prvky, včetně těch od sociálních sítí, těžbu kryptoměn, vytváření otisku prohlížeče i další sledující obsah.";
+"Menu.EnhancedTrackingProtectionStrictWithITP.Title" = "Beacon blokuje sledovací prvky, včetně těch od sociálních sítí, těžbu kryptoměn, vytváření otisku prohlížeče i další sledující obsah.";
 
 /* Label for the button, displayed in the menu, takes you to to History screen when pressed. */
 "Menu.History.Label" = "Historie";
@@ -838,7 +838,7 @@
 "Menu.TrackingProtection.Details.Verifier" = "Ověřil: %@";
 
 /* Message in menu when no trackers blocked. */
-"Menu.TrackingProtection.NoTrackersBlockedTitle" = "Impervious na této stránce nenalezl žádné známé sledovací prvky.";
+"Menu.TrackingProtection.NoTrackersBlockedTitle" = "Beacon na této stránce nenalezl žádné známé sledovací prvky.";
 
 /* The title for tracking protection settings */
 "Menu.TrackingProtection.ProtectionSettings.Title" = "Nastavení ochrany";
@@ -853,7 +853,7 @@
 "Menu.TrackingProtectionBlockedSocial.Title" = "Sledující sociální sítě";
 
 /* Description of the Tracking protection menu when TP is blocking parts of the page */
-"Menu.TrackingProtectionBlocking.Description" = "Impervious blokuje části stránky, které mohou sledovat vaši aktivitu prohlížení.";
+"Menu.TrackingProtectionBlocking.Description" = "Beacon blokuje části stránky, které mohou sledovat vaši aktivitu prohlížení.";
 
 /* The description of the Tracking Protection menu item when tracking is enabled */
 "Menu.TrackingProtectionBlockingDisabled.Description" = "Blokuje online sledovací prvky";
@@ -956,7 +956,7 @@
 "Okay" = "OK";
 
 /* Title for prompt displayed to user after the app crashes */
-"Oops! Impervious crashed" = "Jejda! Impervious spadl";
+"Oops! Beacon crashed" = "Jejda! Beacon spadl";
 
 /* See http://mzl.la/1LXbDOL */
 "Open articles in Reader View by tapping the book icon when it appears in the title bar." = "Otevírejte články ve čtečce klepnutím na ikonu knihy zobrazené v záhlaví.";
@@ -967,8 +967,8 @@
 /* Toggle tabs syncing setting */
 "Open Tabs" = "Otevřené panely";
 
-/* The message displayed to a user when they try to open a URL that cannot be handled by Impervious, or any external app. */
-"OpenURL.Error.Message" = "Impervious nemůže stránku otevřít, protože má stránka neplatnou adresu.";
+/* The message displayed to a user when they try to open a URL that cannot be handled by Beacon, or any external app. */
+"OpenURL.Error.Message" = "Beacon nemůže stránku otevřít, protože má stránka neplatnou adresu.";
 
 /* Title of the message shown when the user attempts to navigate to an invalid link. */
 "OpenURL.Error.Title" = "Stránku nelze otevřít";
@@ -989,13 +989,13 @@
 "PasswordAutoFill.PasswordsListTitle" = "Přihlašovací údaje:";
 
 /* Title of the extension that shows firefox passwords */
-"PasswordAutoFill.SectionTitle" = "Přihlašovací údaje Impervious";
+"PasswordAutoFill.SectionTitle" = "Přihlašovací údaje Beacon";
 
 /* See http://mzl.la/1G7uHo7 */
 "PhotoLibrary.FirefoxWouldLikeAccessMessage" = "Toto vám umožní ukládat obrázky do vaší složky Camera Roll.";
 
 /* See http://mzl.la/1G7uHo7 */
-"PhotoLibrary.FirefoxWouldLikeAccessTitle" = "Impervious žádá o přístup k vašim Fotografiím";
+"PhotoLibrary.FirefoxWouldLikeAccessTitle" = "Beacon žádá o přístup k vašim Fotografiím";
 
 /* Button for closing the menu action sheet */
 "PhotonMenu.close" = "Zavřít";
@@ -1003,7 +1003,7 @@
 /* Privacy section title */
 "Privacy" = "Soukromí";
 
-/* Show Impervious Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
+/* Show Beacon Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
 "Privacy Policy" = "Zásady ochrany osobních údajů";
 
 /* This is the value for a label that indicates if a user is on an unencrypted website. */
@@ -1132,7 +1132,7 @@
 "Secure connection" = "Zabezpečené spojení";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
-"Send a crash report so Impervious can fix the problem?" = "Odeslat hlášení o pádu Mozille, aby mohla problém vyřešit?";
+"Send a crash report so Beacon can fix the problem?" = "Odeslat hlášení o pádu Mozille, aby mohla problém vyřešit?";
 
 /* Menu item in settings used to open input.mozilla.org where people can submit feedback */
 "Send Feedback" = "Odeslat hodnocení";
@@ -1163,7 +1163,7 @@
 "SendTo.NoDevicesFound.Message" = "K tomuto účtu Firefoxu nemáte připojena žádná další zařízení dostupná pro synchronizaci.";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Message" = "Pro pokračování prosím otevřete Impervious, přejděte do Nastavení a přihlaste se.";
+"SendTo.NotSignedIn.Message" = "Pro pokračování prosím otevřete Beacon, přejděte do Nastavení a přihlaste se.";
 
 /* See http://mzl.la/1ISlXnU */
 "SendTo.NotSignedIn.Title" = "Nejste přihlášeni k vašemu účtu Firefoxu.";
@@ -1171,7 +1171,7 @@
 /* Navigation bar button to Send the current page to a device */
 "SendTo.SendAction.Text" = "Poslat";
 
-/* The text for the button on the Send to Device page if you are not signed in to Impervious Accounts. */
+/* The text for the button on the Send to Device page if you are not signed in to Beacon Accounts. */
 "SendTo.SignIn.Button" = "Přihlásit se do Firefoxu";
 
 /* Body of notification shown when the device is sent one or more tabs from an unnamed device. */
@@ -1196,7 +1196,7 @@
 "SentTab.NoTabArrivingNotification.body" = "Klepněte pro zahájení";
 
 /* Title of notification received after a spurious message from FxA has been received. */
-"SentTab.NoTabArrivingNotification.title" = "Impervious Sync";
+"SentTab.NoTabArrivingNotification.title" = "Beacon Sync";
 
 /* Label for an action used to view one or more tabs from a notification. */
 "SentTab.ViewAction.title" = "Zobrazit";
@@ -1259,7 +1259,7 @@
 "Settings.DataManagement.Title" = "Správa dat";
 
 /* Body of the alert when prompting the user asking to disconnect. */
-"Settings.Disconnect.Body" = "Impervious ukončí synchronizaci s vaším účtem, ale nesmaže z tohoto zařízení žádná vaše data.";
+"Settings.Disconnect.Body" = "Beacon ukončí synchronizaci s vaším účtem, ale nesmaže z tohoto zařízení žádná vaše data.";
 
 /* Button displayed at the bottom of settings page allowing users to Disconnect from FxA */
 "Settings.Disconnect.Button" = "Odpojit Sync";
@@ -1328,7 +1328,7 @@
 /* Label used for the device name settings section. */
 "Settings.FxA.DeviceName" = "Název zařízení";
 
-/* Label used as a section title in the Impervious Accounts Settings screen. */
+/* Label used as a section title in the Beacon Accounts Settings screen. */
 "Settings.FxA.Sync.SectionName" = "Nastavení synchronizace";
 
 /* Title displayed in header of the FxA settings panel. */
@@ -1388,7 +1388,7 @@
 /* The title for the section to customize top sites in the new tab settings page. */
 "Settings.NewTab.Option.CustomizeTitle" = "Přizpůsobení domovské stránky Firefoxu";
 
-/* Option in settings to show Impervious Home when you open a new tab */
+/* Option in settings to show Beacon Home when you open a new tab */
 "Settings.NewTab.Option.FirefoxHome" = "Výchozí domovskou stránku";
 
 /* Option in the settings to turn off recent bookmarks in the Highlights section */
@@ -1455,7 +1455,7 @@
 "Settings.SendUsage.Link" = "Zjistit více.";
 
 /* A short description that explains why mozilla collects usage data. */
-"Settings.SendUsage.Message" = "Impervious sbírá jenom informace potřené pro vylepšování Firefoxu.";
+"Settings.SendUsage.Message" = "Beacon sbírá jenom informace potřené pro vylepšování Firefoxu.";
 
 /* The title for the setting to send usage data. */
 "Settings.SendUsage.Title" = "Odesílat údaje o používání";
@@ -1493,11 +1493,11 @@
 /* Label used as an item in Settings. Tapping on this item takes you to the Studies panel */
 "Settings.Studies.Title" = "Studie";
 
-/* Title for a link that explains what Impervious means by Studies */
+/* Title for a link that explains what Beacon means by Studies */
 "Settings.Studies.Toggle.Link" = "Zjistit více.";
 
-/* A short description that explains that Impervious is running studies */
-"Settings.Studies.Toggle.Message" = "Impervious může čas od času instalovat a spouštět studie.";
+/* A short description that explains that Beacon is running studies */
+"Settings.Studies.Toggle.Message" = "Beacon může čas od času instalovat a spouštět studie.";
 
 /* Toggled OFF to opt-out of studies */
 "Settings.Studies.Toggle.Off" = "Vypnuto";
@@ -1518,7 +1518,7 @@
 "Settings.TrackingProtection.Alert.Title" = "Pozor!";
 
 /* Header description for tracking protection options section where Basic/Strict block list can be selected */
-"Settings.TrackingProtection.BlockListsHeader" = "Můžete si vybrat, který seznam bude Impervious používat k blokování webových prvků, které mohou sledovat vaše chování při prohlížení.";
+"Settings.TrackingProtection.BlockListsHeader" = "Můžete si vybrat, který seznam bude Beacon používat k blokování webových prvků, které mohou sledovat vaše chování při prohlížení.";
 
 /* Explanation of basic mode. */
 "Settings.TrackingProtection.Info.BasicTitle" = "Vyvážená ochrana a výkon.";
@@ -1613,31 +1613,31 @@
 /* Title displayed in header of the Data Management panel. */
 "Settings.WebsiteData.Title" = "Data stránek";
 
-/* Action label on share extension to add page to the Impervious reading list. */
+/* Action label on share extension to add page to the Beacon reading list. */
 "ShareExtension.AddToReadingListAction.Title" = "Přidat do seznamu ke čtení";
 
 /* Share extension label shown after user has performed 'Add to Reading List' action. */
 "ShareExtension.AddToReadingListActionDone.Title" = "Přidáno do seznamu ke čtení";
 
-/* Action label on share extension to bookmark the page in Impervious. */
+/* Action label on share extension to bookmark the page in Beacon. */
 "ShareExtension.BookmarkThisPageAction.Title" = "Přidat stránku do záložek";
 
 /* Share extension label shown after user has performed 'Bookmark this Page' action. */
 "ShareExtension.BookmarkThisPageActionDone.Title" = "V záložkách";
 
-/* Action label on share extension to load the page in Impervious when user switches apps to bring it to foreground. */
+/* Action label on share extension to load the page in Beacon when user switches apps to bring it to foreground. */
 "ShareExtension.LoadInBackgroundAction.Title" = "Načíst v pozadí";
 
 /* Share extension label shown after user has performed 'Load in Background' action. */
 "ShareExtension.LoadInBackgroundActionDone.Title" = "Načítání ve Firefoxu";
 
-/* Action label on share extension to immediately open page in Impervious. */
+/* Action label on share extension to immediately open page in Beacon. */
 "ShareExtension.OpenInFirefoxAction.Title" = "Otevřít ve Firefoxu";
 
-/* Action label on share extension to immediately open page in Impervious in private mode. */
+/* Action label on share extension to immediately open page in Beacon in private mode. */
 "ShareExtension.OpenInPrivateModeAction.Title" = "Otevřít v anonymním režimu";
 
-/* Action label on share extension to search for the selected text in Impervious. */
+/* Action label on share extension to search for the selected text in Beacon. */
 "ShareExtension.SeachInFirefoxAction.Title" = "Vyhledat ve Firefoxu";
 
 /* Label for show search suggestions setting. */
@@ -1675,7 +1675,7 @@
 "Sync.FirstTimeMessage.Label" = "Vaše první synchronizace může chvíli trvat";
 
 /* String displayed on Sign In to Sync page that allows the user to create a new account. */
-"Sync.NoAccount.Description" = "Ještě nemáte účet? Vytvořte si ho a synchronizujte svůj Impervious mezi zařízeními.";
+"Sync.NoAccount.Description" = "Ještě nemáte účet? Vytvořte si ho a synchronizujte svůj Beacon mezi zařízeními.";
 
 /* Message displayed when the user's account is syncing with no ellipsis */
 "Sync.Syncing.Label" = "Probíhá synchronizace";
@@ -1794,7 +1794,7 @@
 /* The section header for tabs opened yesterday */
 "TabTray.Yesterday.Header" = "Včera";
 
-/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Beacon reader mode from another app. */
 "The page could not be displayed in Reader View." = "Tuto stránku nelze v Zobrazení čtečky načíst.";
 
 /* Error message in the remote tabs panel */
@@ -1858,7 +1858,7 @@
 "unread" = "nepřečteno";
 
 /* Text message in the settings table view */
-"Upgrade Impervious to connect" = "Pro připojení aktualizujte Impervious";
+"Upgrade Beacon to connect" = "Pro připojení aktualizujte Beacon";
 
 /* Debug option */
 "Use stage servers" = "Použít testovací servery";
@@ -1869,7 +1869,7 @@
 /* Text message in the settings table view */
 "Verify your email address" = "Ověřte svou e-mailovou adresu";
 
-/* Version number of Impervious shown in settings */
+/* Version number of Beacon shown in settings */
 "Version %@ (%@)" = "Verze %1$@ (%2$@)";
 
 /* Accessibility label for the main web content view */
@@ -1891,7 +1891,7 @@
 "Yesterday" = "Včera";
 
 /* Error message in the remote tabs panel */
-"You don’t have any tabs open in Impervious on your other devices." = "Ve vašich zařízeních nejsou otevřené žádné panely.";
+"You don’t have any tabs open in Beacon on your other devices." = "Ve vašich zařízeních nejsou otevřené žádné panely.";
 
 /* Your Rights settings section title */
 "Your Rights" = "Vaše práva";

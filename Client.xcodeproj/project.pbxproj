@@ -405,7 +405,7 @@
 		9FED50472730AA51001B3561 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FED50332730A7E9001B3561 /* NetworkExtension.framework */; };
 		9FED504A2730AA51001B3561 /* PacketTunnelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FED50492730AA51001B3561 /* PacketTunnelProvider.swift */; };
 		9FED504F2730AA51001B3561 /* DNSAppExt.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9FED50462730AA51001B3561 /* DNSAppExt.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		9FED505D2731098F001B3561 /* ImperviousAccessors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FED505C2731098F001B3561 /* ImperviousAccessors.swift */; };
+		9FED505D2731098F001B3561 /* BeaconAccessors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FED505C2731098F001B3561 /* BeaconAccessors.swift */; };
 		A83E5AB71C1D993D0026D912 /* UIPasteboardExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E5AB61C1D993D0026D912 /* UIPasteboardExtensions.swift */; };
 		A83E5B1A1C1DA8BF0026D912 /* image.gif in Resources */ = {isa = PBXBuildFile; fileRef = A83E5B181C1DA8BF0026D912 /* image.gif */; };
 		A83E5B1B1C1DA8BF0026D912 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = A83E5B191C1DA8BF0026D912 /* image.png */; };
@@ -1992,8 +1992,8 @@
 		435D7CC4246209AA0043ACB9 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		436715882488216A006D1D4E /* TabTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTableViewCell.swift; sourceTree = "<group>"; };
 		436B4FD998EBB793AB68FAA8 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/PrivateBrowsing.strings; sourceTree = "<group>"; };
-		437475CA26DD1B7300DF2822 /* CredentialProviderImperviousBeta.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CredentialProviderImperviousBeta.entitlements; sourceTree = "<group>"; };
-		437475CB26DD1E5B00DF2822 /* CredentialProviderImpervious.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CredentialProviderImpervious.entitlements; sourceTree = "<group>"; };
+		437475CA26DD1B7300DF2822 /* CredentialProviderBeaconBeta.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CredentialProviderBeaconBeta.entitlements; sourceTree = "<group>"; };
+		437475CB26DD1E5B00DF2822 /* CredentialProviderBeacon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CredentialProviderBeacon.entitlements; sourceTree = "<group>"; };
 		437A9B672681256800FB41C1 /* InactiveTabCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InactiveTabCell.swift; sourceTree = "<group>"; };
 		437A9B692681257F00FB41C1 /* InactiveTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InactiveTabViewModel.swift; sourceTree = "<group>"; };
 		43904ED28118BAD713896491 /* bg */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bg; path = bg.lproj/HistoryPanel.strings; sourceTree = "<group>"; };
@@ -2715,7 +2715,7 @@
 		9F1E48F5BEF75CE68465B2E0 /* br */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = br; path = br.lproj/Storage.strings; sourceTree = "<group>"; };
 		9F334BC995447815E1BD4BCA /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Storage.strings; sourceTree = "<group>"; };
 		9F3D4B77870190C941F00722 /* hi-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hi-IN"; path = "hi-IN.lproj/ClearHistoryConfirm.strings"; sourceTree = "<group>"; };
-		9F42D9D22732B65E00292647 /* DNSAppExtImperviousBeta.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DNSAppExtImperviousBeta.entitlements; sourceTree = "<group>"; };
+		9F42D9D22732B65E00292647 /* DNSAppExtBeaconBeta.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DNSAppExtBeaconBeta.entitlements; sourceTree = "<group>"; };
 		9F4B414CB9293A0DA71796A6 /* bn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bn; path = bn.lproj/HistoryPanel.strings; sourceTree = "<group>"; };
 		9F604216BAE66894BFDC17BF /* kk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = kk; path = kk.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9F634ECAB2BF0DAD9583F136 /* nn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nn; path = nn.lproj/ClearPrivateDataConfirm.strings; sourceTree = "<group>"; };
@@ -2736,7 +2736,7 @@
 		9FED50492730AA51001B3561 /* PacketTunnelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketTunnelProvider.swift; sourceTree = "<group>"; };
 		9FED504B2730AA51001B3561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FED504C2730AA51001B3561 /* DNSAppExt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DNSAppExt.entitlements; sourceTree = "<group>"; };
-		9FED505C2731098F001B3561 /* ImperviousAccessors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImperviousAccessors.swift; sourceTree = "<group>"; };
+		9FED505C2731098F001B3561 /* BeaconAccessors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconAccessors.swift; sourceTree = "<group>"; };
 		9FED505E2731307A001B3561 /* EncryptedDNSVPNViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptedDNSVPNViewController.swift; sourceTree = "<group>"; };
 		A00D4D7599E56079EE99A4C9 /* eu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = eu; path = eu.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A0584C2091A7B47A062CD7ED /* kab */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = kab; path = kab.lproj/Intro.strings; sourceTree = "<group>"; };
@@ -3787,8 +3787,8 @@
 		E3E74943AB243C8AA5730FF5 /* es-AR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-AR"; path = "es-AR.lproj/Shared.strings"; sourceTree = "<group>"; };
 		E40A18F71EDC73D5006B7F28 /* Trill.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Trill.entitlements; sourceTree = "<group>"; };
 		E40A18F81EDC73D5006B7F28 /* TrillEnterprise.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = TrillEnterprise.entitlements; sourceTree = "<group>"; };
-		E40A18F91EDC73D5006B7F28 /* Impervious.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Impervious.entitlements; sourceTree = "<group>"; };
-		E40A18FA1EDC73D5006B7F28 /* ImperviousBeta.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = ImperviousBeta.entitlements; sourceTree = "<group>"; };
+		E40A18F91EDC73D5006B7F28 /* Beacon.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Beacon.entitlements; sourceTree = "<group>"; };
+		E40A18FA1EDC73D5006B7F28 /* BeaconBeta.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = BeaconBeta.entitlements; sourceTree = "<group>"; };
 		E40AFC531DD0E93300DA5651 /* L10nPermissionStringsSnapshotTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L10nPermissionStringsSnapshotTests.swift; sourceTree = "<group>"; };
 		E40AFC641DD0F25500DA5651 /* L10nBaseSnapshotTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L10nBaseSnapshotTests.swift; sourceTree = "<group>"; };
 		E40AFC6B1DD128DA00DA5651 /* L10nSuite1SnapshotTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L10nSuite1SnapshotTests.swift; sourceTree = "<group>"; };
@@ -3844,7 +3844,7 @@
 		E5C24864B9BA6790B352962E /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Search.strings; sourceTree = "<group>"; };
 		E5D343558F3C933F5CA7690C /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Storage.strings"; sourceTree = "<group>"; };
 		E60961861B62B8A700DD640F /* Trill.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Trill.xcconfig; path = Configuration/Trill.xcconfig; sourceTree = "<group>"; };
-		E60961891B62B8C800DD640F /* Impervious.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Impervious.xcconfig; path = Configuration/Impervious.xcconfig; sourceTree = "<group>"; };
+		E60961891B62B8C800DD640F /* Beacon.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Beacon.xcconfig; path = Configuration/Beacon.xcconfig; sourceTree = "<group>"; };
 		E60D03171D511398002FE3F6 /* SyncStatusResolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyncStatusResolver.swift; sourceTree = "<group>"; };
 		E60D03291D5118DB002FE3F6 /* SyncStatusResolverTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyncStatusResolverTests.swift; sourceTree = "<group>"; };
 		E6108FF81C84E91C005D25E8 /* BasePasscodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasePasscodeViewController.swift; sourceTree = "<group>"; };
@@ -3965,12 +3965,12 @@
 		E6EDE81D1D524475007A0732 /* BatchingClientTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BatchingClientTests.swift; path = SyncTests/BatchingClientTests.swift; sourceTree = "<group>"; };
 		E6F368281D7F594F008CDD67 /* SQLiteHistoryRecommendations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteHistoryRecommendations.swift; sourceTree = "<group>"; };
 		E6F738741EB7A8D300B50143 /* TrillApplication.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrillApplication.entitlements; sourceTree = "<group>"; };
-		E6F738751EB7A97100B50143 /* ImperviousBetaApplication.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ImperviousBetaApplication.entitlements; sourceTree = "<group>"; };
-		E6F738761EB7A97500B50143 /* ImperviousApplication.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ImperviousApplication.entitlements; sourceTree = "<group>"; };
+		E6F738751EB7A97100B50143 /* BeaconBetaApplication.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BeaconBetaApplication.entitlements; sourceTree = "<group>"; };
+		E6F738761EB7A97500B50143 /* BeaconApplication.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BeaconApplication.entitlements; sourceTree = "<group>"; };
 		E6F9650C1B2F1CF20034B023 /* SharedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6F9650F1B2F1CF20034B023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6F9653B1B2F1D5D0034B023 /* NSURLExtensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSURLExtensionsTests.swift; sourceTree = "<group>"; };
-		E6FCC43C1C40565200DF6113 /* ImperviousBeta.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = ImperviousBeta.xcconfig; path = Configuration/ImperviousBeta.xcconfig; sourceTree = "<group>"; };
+		E6FCC43C1C40565200DF6113 /* BeaconBeta.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = BeaconBeta.xcconfig; path = Configuration/BeaconBeta.xcconfig; sourceTree = "<group>"; };
 		E6FF6AC91D873CFF0070C294 /* PageMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageMetadata.swift; sourceTree = "<group>"; };
 		E70049799CF2243911759906 /* oc */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = oc; path = oc.lproj/Storage.strings; sourceTree = "<group>"; };
 		E70B441A9D02B00C3000646B /* te */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = te; path = te.lproj/Storage.strings; sourceTree = "<group>"; };
@@ -4854,7 +4854,7 @@
 			children = (
 				392ED7E31D0AEF56009D9B62 /* NewTabAccessors.swift */,
 				392ED7E51D0AEFEF009D9B62 /* HomePageAccessors.swift */,
-				9FED505C2731098F001B3561 /* ImperviousAccessors.swift */,
+				9FED505C2731098F001B3561 /* BeaconAccessors.swift */,
 			);
 			name = Accessors;
 			sourceTree = "<group>";
@@ -5163,7 +5163,7 @@
 		9FED50482730AA51001B3561 /* DNSAppExt */ = {
 			isa = PBXGroup;
 			children = (
-				9F42D9D22732B65E00292647 /* DNSAppExtImperviousBeta.entitlements */,
+				9F42D9D22732B65E00292647 /* DNSAppExtBeaconBeta.entitlements */,
 				9FED50492730AA51001B3561 /* PacketTunnelProvider.swift */,
 				9FED504B2730AA51001B3561 /* Info.plist */,
 				9FED504C2730AA51001B3561 /* DNSAppExt.entitlements */,
@@ -5741,8 +5741,8 @@
 			children = (
 				E40A18F71EDC73D5006B7F28 /* Trill.entitlements */,
 				E40A18F81EDC73D5006B7F28 /* TrillEnterprise.entitlements */,
-				E40A18F91EDC73D5006B7F28 /* Impervious.entitlements */,
-				E40A18FA1EDC73D5006B7F28 /* ImperviousBeta.entitlements */,
+				E40A18F91EDC73D5006B7F28 /* Beacon.entitlements */,
+				E40A18FA1EDC73D5006B7F28 /* BeaconBeta.entitlements */,
 			);
 			path = Entitlements;
 			sourceTree = "<group>";
@@ -5842,8 +5842,8 @@
 			children = (
 				E60961861B62B8A700DD640F /* Trill.xcconfig */,
 				E6DCC1ED1DCBB6AA00CEC4B7 /* Trill.enterprise.xcconfig */,
-				E6FCC43C1C40565200DF6113 /* ImperviousBeta.xcconfig */,
-				E60961891B62B8C800DD640F /* Impervious.xcconfig */,
+				E6FCC43C1C40565200DF6113 /* BeaconBeta.xcconfig */,
+				E60961891B62B8C800DD640F /* Beacon.xcconfig */,
 			);
 			name = Configuration;
 			sourceTree = "<group>";
@@ -5924,8 +5924,8 @@
 		E689C6FF1E0C716F008BAADB /* Entitlements */ = {
 			isa = PBXGroup;
 			children = (
-				E6F738761EB7A97500B50143 /* ImperviousApplication.entitlements */,
-				E6F738751EB7A97100B50143 /* ImperviousBetaApplication.entitlements */,
+				E6F738761EB7A97500B50143 /* BeaconApplication.entitlements */,
+				E6F738751EB7A97100B50143 /* BeaconBetaApplication.entitlements */,
 				E6F738741EB7A8D300B50143 /* TrillApplication.entitlements */,
 				E62AC15F1E956AFC00843532 /* TrillEnterpriseApplication.entitlements */,
 			);
@@ -6139,10 +6139,10 @@
 				F80DF7402703BC8E00E4C37D /* CredentialPasscodeRequirementViewController.swift */,
 				F8324A0E2649A188007E4BFA /* Info.plist */,
 				F8324A0F2649A188007E4BFA /* CredentialProvider.entitlements */,
-				437475CB26DD1E5B00DF2822 /* CredentialProviderImpervious.entitlements */,
+				437475CB26DD1E5B00DF2822 /* CredentialProviderBeacon.entitlements */,
 				C893075C265501EE00A1DB2F /* CredentialAssets.xcassets */,
 				F8324AE12649B3E7007E4BFA /* CredentialProviderTrill.entitlements */,
-				437475CA26DD1B7300DF2822 /* CredentialProviderImperviousBeta.entitlements */,
+				437475CA26DD1B7300DF2822 /* CredentialProviderBeaconBeta.entitlements */,
 			);
 			path = CredentialProvider;
 			sourceTree = "<group>";
@@ -8354,7 +8354,7 @@
 				2816F0001B33E05400522243 /* UIConstants.swift in Sources */,
 				EBB89508219398E500EB91A0 /* ContentBlocker+Safelist.swift in Sources */,
 				437A9B6A2681257F00FB41C1 /* InactiveTabViewModel.swift in Sources */,
-				9FED505D2731098F001B3561 /* ImperviousAccessors.swift in Sources */,
+				9FED505D2731098F001B3561 /* BeaconAccessors.swift in Sources */,
 				D0B9483422A03468002F4AA1 /* BookmarkDetailPanel.swift in Sources */,
 				3B6889C51D66950E002AC85E /* UIImageColors.swift in Sources */,
 				392ED7E41D0AEF56009D9B62 /* NewTabAccessors.swift in Sources */,
@@ -10938,10 +10938,10 @@
 			};
 			name = Trill;
 		};
-		39409A411C90E68300DAE683 /* Impervious */ = {
+		39409A411C90E68300DAE683 /* Beacon */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/Impervious.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/Beacon.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 4;
@@ -10950,15 +10950,15 @@
 				OTHER_SWIFT_FLAGS = "-DMOZ_CHANNEL_RELEASE -DMOZ_TARGET_TODAY";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MOZ_BUNDLE_ID).$(PRODUCT_NAME)";
 				PRODUCT_NAME = Today;
-				PROVISIONING_PROFILE_SPECIFIER = "com.impervious.ios.Browser.Today 2021-08-12";
+				PROVISIONING_PROFILE_SPECIFIER = "Beacon Browser - Today";
 				SKIP_INSTALL = NO;
 			};
-			name = Impervious;
+			name = Beacon;
 		};
-		39409A421C90E68300DAE683 /* ImperviousBeta */ = {
+		39409A421C90E68300DAE683 /* BeaconBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/ImperviousBeta.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/BeaconBeta.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 4;
@@ -10967,10 +10967,10 @@
 				OTHER_SWIFT_FLAGS = "-DMOZ_CHANNEL_BETA -DMOZ_TARGET_TODAY";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MOZ_BUNDLE_ID).$(PRODUCT_NAME)";
 				PRODUCT_NAME = Today;
-				PROVISIONING_PROFILE_SPECIFIER = "Impervious Browser Beta - Today";
+				PROVISIONING_PROFILE_SPECIFIER = "Beacon Browser Beta - Today";
 				SKIP_INSTALL = NO;
 			};
-			name = ImperviousBeta;
+			name = BeaconBeta;
 		};
 		3958DAB01ED98DCB0054AA27 /* Trill_Enterprise */ = {
 			isa = XCBuildConfiguration;
@@ -11004,26 +11004,26 @@
 			};
 			name = Trill;
 		};
-		397848E51ED86605004C0C0B /* Impervious */ = {
+		397848E51ED86605004C0C0B /* Beacon */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/Impervious.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/Beacon.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 4MA7A64R76;
 				INFOPLIST_FILE = Extensions/NotificationService/Info.plist;
 				OTHER_SWIFT_FLAGS = "-DMOZ_CHANNEL_RELEASE -DMOZ_TARGET_NOTIFICATIONSERVICE";
-				PRODUCT_BUNDLE_IDENTIFIER = "$(MOZ_BUNDLE_ID).$(PRODUCT_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "com.impervious.ios.Browser.NotificationService 210812";
+				PRODUCT_BUNDLE_IDENTIFIER = com.impervious.ios.Browser.NotificationService;
+				PROVISIONING_PROFILE_SPECIFIER = "Beacon Browser - Notification service 0";
 				SKIP_INSTALL = NO;
 			};
-			name = Impervious;
+			name = Beacon;
 		};
-		397848E61ED86605004C0C0B /* ImperviousBeta */ = {
+		397848E61ED86605004C0C0B /* BeaconBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/ImperviousBeta.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/BeaconBeta.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 4;
@@ -11032,10 +11032,10 @@
 				OTHER_SWIFT_FLAGS = "-DMOZ_CHANNEL_BETA -DMOZ_TARGET_NOTIFICATIONSERVICE";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MOZ_BUNDLE_ID).$(PRODUCT_NAME)2";
 				PRODUCT_NAME = NotificationService;
-				PROVISIONING_PROFILE_SPECIFIER = "Impervious Browser Beta - Notification Service";
+				PROVISIONING_PROFILE_SPECIFIER = "Beacon Browser Beta - Notification Service";
 				SKIP_INSTALL = NO;
 			};
-			name = ImperviousBeta;
+			name = BeaconBeta;
 		};
 		3B43E3D71D95C48E00BBA9DB /* Trill */ = {
 			isa = XCBuildConfiguration;
@@ -11047,23 +11047,23 @@
 			};
 			name = Trill;
 		};
-		3B43E3D81D95C48E00BBA9DB /* Firefox */ = {
+		3B43E3D81D95C48E00BBA9DB /* Beacon */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
 				INFOPLIST_FILE = StoragePerfTests/Info.plist;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = Firefox;
+			name = Beacon;
 		};
-		3B43E3D91D95C48E00BBA9DB /* ImperviousBeta */ = {
+		3B43E3D91D95C48E00BBA9DB /* BeaconBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
 				INFOPLIST_FILE = StoragePerfTests/Info.plist;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = ImperviousBeta;
+			name = BeaconBeta;
 		};
 		3BFE4B0E1D342FB900DDF53F /* Trill */ = {
 			isa = XCBuildConfiguration;
@@ -11079,7 +11079,7 @@
 			};
 			name = Trill;
 		};
-		3BFE4B0F1D342FB900DDF53F /* Firefox */ = {
+		3BFE4B0F1D342FB900DDF53F /* Beacon */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -11089,9 +11089,9 @@
 				PROVISIONING_PROFILE_SPECIFIER = "com.impervious.ios.XCUITests 2021-08-12";
 				TEST_TARGET_NAME = Client;
 			};
-			name = Firefox;
+			name = Beacon;
 		};
-		3BFE4B101D342FB900DDF53F /* ImperviousBeta */ = {
+		3BFE4B101D342FB900DDF53F /* BeaconBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -11101,7 +11101,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "com.impervious.ios.XCUITests 2021-08-12";
 				TEST_TARGET_NAME = Client;
 			};
-			name = ImperviousBeta;
+			name = BeaconBeta;
 		};
 		4354D3E124EEEEC5001184F6 /* Trill */ = {
 			isa = XCBuildConfiguration;
@@ -11133,49 +11133,49 @@
 			};
 			name = Trill_Enterprise;
 		};
-		4354D3E324EEEEC5001184F6 /* Impervious */ = {
+		4354D3E324EEEEC5001184F6 /* Beacon */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = Extensions/Entitlements/Impervious.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Extensions/Entitlements/Beacon.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 4MA7A64R76;
 				INFOPLIST_FILE = WidgetKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MOZ_BUNDLE_ID).WidgetKit";
-				PROVISIONING_PROFILE_SPECIFIER = "com.impervious.ios.Browser.WidgetKit 2021-08-12";
+				PROVISIONING_PROFILE_SPECIFIER = "Beacon Browser - WidgetKit";
 				SKIP_INSTALL = NO;
 			};
-			name = Impervious;
+			name = Beacon;
 		};
-		4354D3E424EEEEC5001184F6 /* ImperviousBeta */ = {
+		4354D3E424EEEEC5001184F6 /* BeaconBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = Extensions/Entitlements/ImperviousBeta.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Extensions/Entitlements/BeaconBeta.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 4MA7A64R76;
 				INFOPLIST_FILE = WidgetKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MOZ_BUNDLE_ID).WidgetKit";
-				PROVISIONING_PROFILE_SPECIFIER = "Impervious Browser Beta - WidgetKit";
+				PROVISIONING_PROFILE_SPECIFIER = "Beacon Browser Beta - WidgetKit";
 				SKIP_INSTALL = NO;
 			};
-			name = ImperviousBeta;
+			name = BeaconBeta;
 		};
-		9FB7E6DB2717E52F0039C9DC /* Impervious */ = {
+		9FB7E6DB2717E52F0039C9DC /* Beacon */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = XCUITests;
 			};
-			name = Impervious;
+			name = Beacon;
 		};
-		9FB7E6DC2717E52F0039C9DC /* Impervious */ = {
+		9FB7E6DC2717E52F0039C9DC /* Beacon */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = StoragePerfTests;
 			};
-			name = Impervious;
+			name = Beacon;
 		};
 		9FED50512730AA52001B3561 /* Trill */ = {
 			isa = XCBuildConfiguration;
@@ -11238,7 +11238,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DNSAppExt/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = DNSAppExt;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2021 Impervious. All rights reserved.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2021 Beacon. All rights reserved.";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -11317,7 +11317,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DNSAppExt/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = DNSAppExt;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2021 Impervious. All rights reserved.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2021 Beacon. All rights reserved.";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -11341,7 +11341,7 @@
 			};
 			name = Trill_Enterprise;
 		};
-		9FED50532730AA52001B3561 /* Impervious */ = {
+		9FED50532730AA52001B3561 /* Beacon */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -11396,7 +11396,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DNSAppExt/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = DNSAppExt;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2021 Impervious. All rights reserved.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2021 Beacon. All rights reserved.";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -11419,9 +11419,9 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Impervious;
+			name = Beacon;
 		};
-		9FED50542730AA52001B3561 /* ImperviousBeta */ = {
+		9FED50542730AA52001B3561 /* BeaconBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -11455,7 +11455,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_ENTITLEMENTS = DNSAppExt/DNSAppExtImperviousBeta.entitlements;
+				CODE_SIGN_ENTITLEMENTS = DNSAppExt/DNSAppExtBeaconBeta.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Distribution";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
@@ -11476,7 +11476,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DNSAppExt/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = DNSAppExt;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2021 Impervious. All rights reserved.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2021 Beacon. All rights reserved.";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -11488,7 +11488,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.impervious.ios.BrowserBeta.DNSAppExt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Impervious Browser Beta - DNS Extension";
+				PROVISIONING_PROFILE_SPECIFIER = "Beacon Browser Beta - DNS Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -11499,7 +11499,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = ImperviousBeta;
+			name = BeaconBeta;
 		};
 		D39FA1681A83E0EC00EE869C /* Trill */ = {
 			isa = XCBuildConfiguration;
@@ -11521,14 +11521,14 @@
 			};
 			name = Release;
 		};
-		E448FC9D1AEE7A6000869B6C /* Impervious */ = {
+		E448FC9D1AEE7A6000869B6C /* Beacon */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E60961891B62B8C800DD640F /* Impervious.xcconfig */;
+			baseConfigurationReference = E60961891B62B8C800DD640F /* Beacon.xcconfig */;
 			buildSettings = {
 			};
-			name = Impervious;
+			name = Beacon;
 		};
-		E448FC9E1AEE7A6000869B6C /* Impervious */ = {
+		E448FC9E1AEE7A6000869B6C /* Beacon */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -11550,14 +11550,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MOZ_BUNDLE_ID)";
 				PRODUCT_MODULE_NAME = Client;
 				PRODUCT_NAME = Client;
-				PROVISIONING_PROFILE_SPECIFIER = "com.impervious.ios.Browser 2021-08-12";
+				PROVISIONING_PROFILE_SPECIFIER = "Beacon Browser";
 				SKIP_INSTALL = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Client/Client-Bridging-Header.h";
 				VALIDATE_WORKSPACE = YES;
 			};
-			name = Impervious;
+			name = Beacon;
 		};
-		E448FC9F1AEE7A6000869B6C /* Impervious */ = {
+		E448FC9F1AEE7A6000869B6C /* Beacon */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -11565,12 +11565,12 @@
 				PRODUCT_NAME = ClientTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = Impervious;
+			name = Beacon;
 		};
-		E448FCA01AEE7A6000869B6C /* Impervious */ = {
+		E448FCA01AEE7A6000869B6C /* Beacon */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/Impervious.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/Beacon.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 4;
@@ -11578,20 +11578,20 @@
 				INFOPLIST_FILE = Extensions/ShareTo/Info.plist;
 				OTHER_SWIFT_FLAGS = "-DMOZ_CHANNEL_RELEASE -DMOZ_TARGET_SHARETO";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MOZ_BUNDLE_ID).$(PRODUCT_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "com.impervious.ios.Browser.ShareTo 2021-08-12";
+				PROVISIONING_PROFILE_SPECIFIER = "Beacon Browser - ShareTo";
 				SKIP_INSTALL = NO;
 			};
-			name = Impervious;
+			name = Beacon;
 		};
-		E448FCA21AEE7A6000869B6C /* Impervious */ = {
+		E448FCA21AEE7A6000869B6C /* Beacon */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
 				VALIDATE_WORKSPACE = YES;
 			};
-			name = Impervious;
+			name = Beacon;
 		};
-		E448FCA31AEE7A6000869B6C /* Impervious */ = {
+		E448FCA31AEE7A6000869B6C /* Beacon */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -11611,9 +11611,9 @@
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Shared/Shared-Bridging-Header.h";
 			};
-			name = Impervious;
+			name = Beacon;
 		};
-		E448FCA41AEE7A6000869B6C /* Impervious */ = {
+		E448FCA41AEE7A6000869B6C /* Beacon */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
@@ -11621,9 +11621,9 @@
 				INFOPLIST_FILE = Storage/Info.plist;
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Storage/Storage-Bridging-Header.h";
 			};
-			name = Impervious;
+			name = Beacon;
 		};
-		E448FCA51AEE7A6000869B6C /* Impervious */ = {
+		E448FCA51AEE7A6000869B6C /* Beacon */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -11632,9 +11632,9 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Storage/Storage-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = Impervious;
+			name = Beacon;
 		};
-		E448FCA61AEE7A6000869B6C /* Impervious */ = {
+		E448FCA61AEE7A6000869B6C /* Beacon */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
@@ -11655,9 +11655,9 @@
 				);
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Account/Account-Bridging-Header.h";
 			};
-			name = Impervious;
+			name = Beacon;
 		};
-		E448FCA71AEE7A6000869B6C /* Impervious */ = {
+		E448FCA71AEE7A6000869B6C /* Beacon */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -11666,9 +11666,9 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Account/Account-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = Impervious;
+			name = Beacon;
 		};
-		E448FCA81AEE7A6000869B6C /* Impervious */ = {
+		E448FCA81AEE7A6000869B6C /* Beacon */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -11679,9 +11679,9 @@
 				INFOPLIST_FILE = Sync/Info.plist;
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Sync/Sync-Bridging-Header.h";
 			};
-			name = Impervious;
+			name = Beacon;
 		};
-		E448FCA91AEE7A6000869B6C /* Impervious */ = {
+		E448FCA91AEE7A6000869B6C /* Beacon */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -11689,7 +11689,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/SyncTests/SyncTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = Impervious;
+			name = Beacon;
 		};
 		E601384C1C89EAE600DF9756 /* Trill */ = {
 			isa = XCBuildConfiguration;
@@ -11701,7 +11701,7 @@
 			};
 			name = Trill;
 		};
-		E601384D1C89EAE600DF9756 /* Impervious */ = {
+		E601384D1C89EAE600DF9756 /* Beacon */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -11709,9 +11709,9 @@
 				TEST_TARGET_NAME = Client;
 				USES_XCTRUNNER = YES;
 			};
-			name = Impervious;
+			name = Beacon;
 		};
-		E601384E1C89EAE600DF9756 /* ImperviousBeta */ = {
+		E601384E1C89EAE600DF9756 /* BeaconBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -11719,7 +11719,7 @@
 				TEST_TARGET_NAME = Client;
 				USES_XCTRUNNER = YES;
 			};
-			name = ImperviousBeta;
+			name = BeaconBeta;
 		};
 		E60138511C89EAE600DF9756 /* Trill */ = {
 			isa = XCBuildConfiguration;
@@ -11729,21 +11729,21 @@
 			};
 			name = Trill;
 		};
-		E60138521C89EAE600DF9756 /* Impervious */ = {
+		E60138521C89EAE600DF9756 /* Beacon */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
 				PRODUCT_NAME = MarketingUITests;
 			};
-			name = Impervious;
+			name = Beacon;
 		};
-		E60138531C89EAE600DF9756 /* ImperviousBeta */ = {
+		E60138531C89EAE600DF9756 /* BeaconBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
 				PRODUCT_NAME = MarketingUITests;
 			};
-			name = ImperviousBeta;
+			name = BeaconBeta;
 		};
 		E69DB08D1E97DEAA008A67E6 /* Trill */ = {
 			isa = XCBuildConfiguration;
@@ -11759,19 +11759,19 @@
 			};
 			name = Trill_Enterprise;
 		};
-		E69DB08F1E97DEAA008A67E6 /* Impervious */ = {
+		E69DB08F1E97DEAA008A67E6 /* Beacon */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = SyncTelemetry/Info.plist;
 			};
-			name = Impervious;
+			name = Beacon;
 		};
-		E69DB0901E97DEAA008A67E6 /* ImperviousBeta */ = {
+		E69DB0901E97DEAA008A67E6 /* BeaconBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = SyncTelemetry/Info.plist;
 			};
-			name = ImperviousBeta;
+			name = BeaconBeta;
 		};
 		E69DB0931E97DEAA008A67E6 /* Trill */ = {
 			isa = XCBuildConfiguration;
@@ -11791,23 +11791,23 @@
 			};
 			name = Trill_Enterprise;
 		};
-		E69DB0951E97DEAA008A67E6 /* Impervious */ = {
+		E69DB0951E97DEAA008A67E6 /* Beacon */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
 				INFOPLIST_FILE = SyncTelemetryTests/Info.plist;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = Impervious;
+			name = Beacon;
 		};
-		E69DB0961E97DEAA008A67E6 /* ImperviousBeta */ = {
+		E69DB0961E97DEAA008A67E6 /* BeaconBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
 				INFOPLIST_FILE = SyncTelemetryTests/Info.plist;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = ImperviousBeta;
+			name = BeaconBeta;
 		};
 		E6DCC2051DCBB6F100CEC4B7 /* Trill_Enterprise */ = {
 			isa = XCBuildConfiguration;
@@ -12054,7 +12054,7 @@
 			};
 			name = Trill;
 		};
-		E6F965171B2F1CF20034B023 /* Impervious */ = {
+		E6F965171B2F1CF20034B023 /* Beacon */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -12062,17 +12062,17 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Shared/Shared-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = Impervious;
+			name = Beacon;
 		};
-		E6FCC4291C40562400DF6113 /* ImperviousBeta */ = {
+		E6FCC4291C40562400DF6113 /* BeaconBeta */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6FCC43C1C40565200DF6113 /* ImperviousBeta.xcconfig */;
+			baseConfigurationReference = E6FCC43C1C40565200DF6113 /* BeaconBeta.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Distribution";
 			};
-			name = ImperviousBeta;
+			name = BeaconBeta;
 		};
-		E6FCC42A1C40562400DF6113 /* ImperviousBeta */ = {
+		E6FCC42A1C40562400DF6113 /* BeaconBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -12093,14 +12093,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MOZ_BUNDLE_ID)";
 				PRODUCT_MODULE_NAME = Client;
 				PRODUCT_NAME = Client;
-				PROVISIONING_PROFILE_SPECIFIER = "Impervious Browser Beta";
+				PROVISIONING_PROFILE_SPECIFIER = "Beacon Browser Beta";
 				SKIP_INSTALL = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Client/Client-Bridging-Header.h";
 				VALIDATE_WORKSPACE = YES;
 			};
-			name = ImperviousBeta;
+			name = BeaconBeta;
 		};
-		E6FCC42B1C40562400DF6113 /* ImperviousBeta */ = {
+		E6FCC42B1C40562400DF6113 /* BeaconBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -12108,12 +12108,12 @@
 				PRODUCT_NAME = ClientTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = ImperviousBeta;
+			name = BeaconBeta;
 		};
-		E6FCC42D1C40562400DF6113 /* ImperviousBeta */ = {
+		E6FCC42D1C40562400DF6113 /* BeaconBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/ImperviousBeta.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "$(inherit)Extensions/Entitlements/BeaconBeta.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 4;
@@ -12121,20 +12121,20 @@
 				INFOPLIST_FILE = Extensions/ShareTo/Info.plist;
 				OTHER_SWIFT_FLAGS = "-DMOZ_CHANNEL_BETA -DMOZ_TARGET_SHARETO";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MOZ_BUNDLE_ID).$(PRODUCT_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Impervious Browser Beta - ShareTo";
+				PROVISIONING_PROFILE_SPECIFIER = "Beacon Browser Beta - ShareTo";
 				SKIP_INSTALL = NO;
 			};
-			name = ImperviousBeta;
+			name = BeaconBeta;
 		};
-		E6FCC42F1C40562400DF6113 /* ImperviousBeta */ = {
+		E6FCC42F1C40562400DF6113 /* BeaconBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
 				VALIDATE_WORKSPACE = YES;
 			};
-			name = ImperviousBeta;
+			name = BeaconBeta;
 		};
-		E6FCC4311C40562400DF6113 /* ImperviousBeta */ = {
+		E6FCC4311C40562400DF6113 /* BeaconBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -12153,18 +12153,18 @@
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Shared/Shared-Bridging-Header.h";
 			};
-			name = ImperviousBeta;
+			name = BeaconBeta;
 		};
-		E6FCC4321C40562400DF6113 /* ImperviousBeta */ = {
+		E6FCC4321C40562400DF6113 /* BeaconBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = Storage/Info.plist;
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Storage/Storage-Bridging-Header.h";
 			};
-			name = ImperviousBeta;
+			name = BeaconBeta;
 		};
-		E6FCC4331C40562400DF6113 /* ImperviousBeta */ = {
+		E6FCC4331C40562400DF6113 /* BeaconBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -12173,9 +12173,9 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Storage/Storage-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = ImperviousBeta;
+			name = BeaconBeta;
 		};
-		E6FCC4341C40562400DF6113 /* ImperviousBeta */ = {
+		E6FCC4341C40562400DF6113 /* BeaconBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
@@ -12197,9 +12197,9 @@
 				);
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Account/Account-Bridging-Header.h";
 			};
-			name = ImperviousBeta;
+			name = BeaconBeta;
 		};
-		E6FCC4351C40562400DF6113 /* ImperviousBeta */ = {
+		E6FCC4351C40562400DF6113 /* BeaconBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -12208,9 +12208,9 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Account/Account-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = ImperviousBeta;
+			name = BeaconBeta;
 		};
-		E6FCC4361C40562400DF6113 /* ImperviousBeta */ = {
+		E6FCC4361C40562400DF6113 /* BeaconBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -12225,9 +12225,9 @@
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Sync/Sync-Bridging-Header.h";
 			};
-			name = ImperviousBeta;
+			name = BeaconBeta;
 		};
-		E6FCC4371C40562400DF6113 /* ImperviousBeta */ = {
+		E6FCC4371C40562400DF6113 /* BeaconBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -12235,9 +12235,9 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/SyncTests/SyncTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = ImperviousBeta;
+			name = BeaconBeta;
 		};
-		E6FCC43A1C40562400DF6113 /* ImperviousBeta */ = {
+		E6FCC43A1C40562400DF6113 /* BeaconBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
@@ -12245,7 +12245,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Shared/Shared-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Client.app/Client";
 			};
-			name = ImperviousBeta;
+			name = BeaconBeta;
 		};
 		F8324A132649A189007E4BFA /* Trill */ = {
 			isa = XCBuildConfiguration;
@@ -12394,7 +12394,7 @@
 			};
 			name = Trill_Enterprise;
 		};
-		F8324A152649A189007E4BFA /* Impervious */ = {
+		F8324A152649A189007E4BFA /* Beacon */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -12427,7 +12427,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_ENTITLEMENTS = CredentialProvider/CredentialProviderImpervious.entitlements;
+				CODE_SIGN_ENTITLEMENTS = CredentialProvider/CredentialProviderBeacon.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
@@ -12454,7 +12454,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.impervious.ios.Browser.CredentialProvider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = com.impervious.ios.Browser.CredentialProvider;
+				PROVISIONING_PROFILE_SPECIFIER = "Beacon Browser - CredentialProvider";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -12463,9 +12463,9 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Impervious;
+			name = Beacon;
 		};
-		F8324A162649A189007E4BFA /* ImperviousBeta */ = {
+		F8324A162649A189007E4BFA /* BeaconBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -12498,7 +12498,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_ENTITLEMENTS = CredentialProvider/CredentialProviderImperviousBeta.entitlements;
+				CODE_SIGN_ENTITLEMENTS = CredentialProvider/CredentialProviderBeaconBeta.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
@@ -12525,7 +12525,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.impervious.ios.BrowserBeta.CredentialProvider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Impervious Browser Beta - Credential Provider";
+				PROVISIONING_PROFILE_SPECIFIER = "Beacon Browser Beta - Credential Provider";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -12534,7 +12534,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = ImperviousBeta;
+			name = BeaconBeta;
 		};
 		F84B21DB1A090F8100AAB793 /* Trill */ = {
 			isa = XCBuildConfiguration;
@@ -12607,8 +12607,8 @@
 			buildConfigurations = (
 				4354D3E124EEEEC5001184F6 /* Trill */,
 				4354D3E224EEEEC5001184F6 /* Trill_Enterprise */,
-				4354D3E324EEEEC5001184F6 /* Impervious */,
-				4354D3E424EEEEC5001184F6 /* ImperviousBeta */,
+				4354D3E324EEEEC5001184F6 /* Beacon */,
+				4354D3E424EEEEC5001184F6 /* BeaconBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Trill;
@@ -12618,8 +12618,8 @@
 			buildConfigurations = (
 				282731771ABC9BE800AA1954 /* Trill */,
 				E6DCC20E1DCBB6F100CEC4B7 /* Trill_Enterprise */,
-				E448FCA81AEE7A6000869B6C /* Impervious */,
-				E6FCC4361C40562400DF6113 /* ImperviousBeta */,
+				E448FCA81AEE7A6000869B6C /* Beacon */,
+				E6FCC4361C40562400DF6113 /* BeaconBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Trill;
@@ -12629,8 +12629,8 @@
 			buildConfigurations = (
 				2827317A1ABC9BE800AA1954 /* Trill */,
 				E6DCC2151DCBB6F100CEC4B7 /* Trill_Enterprise */,
-				E448FCA91AEE7A6000869B6C /* Impervious */,
-				E6FCC4371C40562400DF6113 /* ImperviousBeta */,
+				E448FCA91AEE7A6000869B6C /* Beacon */,
+				E6FCC4371C40562400DF6113 /* BeaconBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Trill;
@@ -12640,8 +12640,8 @@
 			buildConfigurations = (
 				288A2DA01AB8B3260023ABC3 /* Trill */,
 				E6DCC20B1DCBB6F100CEC4B7 /* Trill_Enterprise */,
-				E448FCA31AEE7A6000869B6C /* Impervious */,
-				E6FCC4311C40562400DF6113 /* ImperviousBeta */,
+				E448FCA31AEE7A6000869B6C /* Beacon */,
+				E6FCC4311C40562400DF6113 /* BeaconBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Trill;
@@ -12651,8 +12651,8 @@
 			buildConfigurations = (
 				2FA436151ABB83B4008031D1 /* Trill */,
 				E6DCC20D1DCBB6F100CEC4B7 /* Trill_Enterprise */,
-				E448FCA61AEE7A6000869B6C /* Impervious */,
-				E6FCC4341C40562400DF6113 /* ImperviousBeta */,
+				E448FCA61AEE7A6000869B6C /* Beacon */,
+				E6FCC4341C40562400DF6113 /* BeaconBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Trill;
@@ -12662,8 +12662,8 @@
 			buildConfigurations = (
 				2FA436191ABB83B4008031D1 /* Trill */,
 				E6DCC2141DCBB6F100CEC4B7 /* Trill_Enterprise */,
-				E448FCA71AEE7A6000869B6C /* Impervious */,
-				E6FCC4351C40562400DF6113 /* ImperviousBeta */,
+				E448FCA71AEE7A6000869B6C /* Beacon */,
+				E6FCC4351C40562400DF6113 /* BeaconBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Trill;
@@ -12673,8 +12673,8 @@
 			buildConfigurations = (
 				2FCAE2341ABB51F900877008 /* Trill */,
 				E6DCC20C1DCBB6F100CEC4B7 /* Trill_Enterprise */,
-				E448FCA41AEE7A6000869B6C /* Impervious */,
-				E6FCC4321C40562400DF6113 /* ImperviousBeta */,
+				E448FCA41AEE7A6000869B6C /* Beacon */,
+				E6FCC4321C40562400DF6113 /* BeaconBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Trill;
@@ -12684,8 +12684,8 @@
 			buildConfigurations = (
 				2FCAE2381ABB51F900877008 /* Trill */,
 				E6DCC2131DCBB6F100CEC4B7 /* Trill_Enterprise */,
-				E448FCA51AEE7A6000869B6C /* Impervious */,
-				E6FCC4331C40562400DF6113 /* ImperviousBeta */,
+				E448FCA51AEE7A6000869B6C /* Beacon */,
+				E6FCC4331C40562400DF6113 /* BeaconBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Trill;
@@ -12695,8 +12695,8 @@
 			buildConfigurations = (
 				39409A401C90E68300DAE683 /* Trill */,
 				E6DCC2091DCBB6F100CEC4B7 /* Trill_Enterprise */,
-				39409A411C90E68300DAE683 /* Impervious */,
-				39409A421C90E68300DAE683 /* ImperviousBeta */,
+				39409A411C90E68300DAE683 /* Beacon */,
+				39409A421C90E68300DAE683 /* BeaconBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Trill;
@@ -12705,8 +12705,8 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				397848E31ED86605004C0C0B /* Trill */,
-				397848E51ED86605004C0C0B /* Impervious */,
-				397848E61ED86605004C0C0B /* ImperviousBeta */,
+				397848E51ED86605004C0C0B /* Beacon */,
+				397848E61ED86605004C0C0B /* BeaconBeta */,
 				3958DAB01ED98DCB0054AA27 /* Trill_Enterprise */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -12717,9 +12717,9 @@
 			buildConfigurations = (
 				3B43E3D71D95C48E00BBA9DB /* Trill */,
 				E6DCC21B1DCBB6F100CEC4B7 /* Trill_Enterprise */,
-				3B43E3D81D95C48E00BBA9DB /* Firefox */,
-				3B43E3D91D95C48E00BBA9DB /* ImperviousBeta */,
-				9FB7E6DC2717E52F0039C9DC /* Impervious */,
+				3B43E3D81D95C48E00BBA9DB /* Beacon */,
+				3B43E3D91D95C48E00BBA9DB /* BeaconBeta */,
+				9FB7E6DC2717E52F0039C9DC /* Beacon */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Trill;
@@ -12729,9 +12729,9 @@
 			buildConfigurations = (
 				3BFE4B0E1D342FB900DDF53F /* Trill */,
 				E6DCC21A1DCBB6F100CEC4B7 /* Trill_Enterprise */,
-				3BFE4B0F1D342FB900DDF53F /* Firefox */,
-				3BFE4B101D342FB900DDF53F /* ImperviousBeta */,
-				9FB7E6DB2717E52F0039C9DC /* Impervious */,
+				3BFE4B0F1D342FB900DDF53F /* Beacon */,
+				3BFE4B101D342FB900DDF53F /* BeaconBeta */,
+				9FB7E6DB2717E52F0039C9DC /* Beacon */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Trill;
@@ -12741,8 +12741,8 @@
 			buildConfigurations = (
 				9FED50512730AA52001B3561 /* Trill */,
 				9FED50522730AA52001B3561 /* Trill_Enterprise */,
-				9FED50532730AA52001B3561 /* Impervious */,
-				9FED50542730AA52001B3561 /* ImperviousBeta */,
+				9FED50532730AA52001B3561 /* Beacon */,
+				9FED50542730AA52001B3561 /* BeaconBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Trill;
@@ -12753,8 +12753,8 @@
 				D39FA1681A83E0EC00EE869C /* Trill */,
 				E6DCC2111DCBB6F100CEC4B7 /* Trill_Enterprise */,
 				D39FA1691A83E0EC00EE869C /* Release */,
-				E448FCA21AEE7A6000869B6C /* Impervious */,
-				E6FCC42F1C40562400DF6113 /* ImperviousBeta */,
+				E448FCA21AEE7A6000869B6C /* Beacon */,
+				E6FCC42F1C40562400DF6113 /* BeaconBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Trill;
@@ -12764,8 +12764,8 @@
 			buildConfigurations = (
 				E601384C1C89EAE600DF9756 /* Trill */,
 				E6DCC2181DCBB6F100CEC4B7 /* Trill_Enterprise */,
-				E601384D1C89EAE600DF9756 /* Impervious */,
-				E601384E1C89EAE600DF9756 /* ImperviousBeta */,
+				E601384D1C89EAE600DF9756 /* Beacon */,
+				E601384E1C89EAE600DF9756 /* BeaconBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Trill;
@@ -12775,8 +12775,8 @@
 			buildConfigurations = (
 				E60138511C89EAE600DF9756 /* Trill */,
 				E6DCC2191DCBB6F100CEC4B7 /* Trill_Enterprise */,
-				E60138521C89EAE600DF9756 /* Impervious */,
-				E60138531C89EAE600DF9756 /* ImperviousBeta */,
+				E60138521C89EAE600DF9756 /* Beacon */,
+				E60138531C89EAE600DF9756 /* BeaconBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Trill;
@@ -12786,8 +12786,8 @@
 			buildConfigurations = (
 				E69DB08D1E97DEAA008A67E6 /* Trill */,
 				E69DB08E1E97DEAA008A67E6 /* Trill_Enterprise */,
-				E69DB08F1E97DEAA008A67E6 /* Impervious */,
-				E69DB0901E97DEAA008A67E6 /* ImperviousBeta */,
+				E69DB08F1E97DEAA008A67E6 /* Beacon */,
+				E69DB0901E97DEAA008A67E6 /* BeaconBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Trill;
@@ -12797,8 +12797,8 @@
 			buildConfigurations = (
 				E69DB0931E97DEAA008A67E6 /* Trill */,
 				E69DB0941E97DEAA008A67E6 /* Trill_Enterprise */,
-				E69DB0951E97DEAA008A67E6 /* Impervious */,
-				E69DB0961E97DEAA008A67E6 /* ImperviousBeta */,
+				E69DB0951E97DEAA008A67E6 /* Beacon */,
+				E69DB0961E97DEAA008A67E6 /* BeaconBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Trill;
@@ -12808,8 +12808,8 @@
 			buildConfigurations = (
 				E6F965151B2F1CF20034B023 /* Trill */,
 				E6DCC2171DCBB6F100CEC4B7 /* Trill_Enterprise */,
-				E6F965171B2F1CF20034B023 /* Impervious */,
-				E6FCC43A1C40562400DF6113 /* ImperviousBeta */,
+				E6F965171B2F1CF20034B023 /* Beacon */,
+				E6FCC43A1C40562400DF6113 /* BeaconBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Trill;
@@ -12819,8 +12819,8 @@
 			buildConfigurations = (
 				F8324A132649A189007E4BFA /* Trill */,
 				F8324A142649A189007E4BFA /* Trill_Enterprise */,
-				F8324A152649A189007E4BFA /* Impervious */,
-				F8324A162649A189007E4BFA /* ImperviousBeta */,
+				F8324A152649A189007E4BFA /* Beacon */,
+				F8324A162649A189007E4BFA /* BeaconBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Trill;
@@ -12830,8 +12830,8 @@
 			buildConfigurations = (
 				F84B21DB1A090F8100AAB793 /* Trill */,
 				E6DCC2051DCBB6F100CEC4B7 /* Trill_Enterprise */,
-				E448FC9D1AEE7A6000869B6C /* Impervious */,
-				E6FCC4291C40562400DF6113 /* ImperviousBeta */,
+				E448FC9D1AEE7A6000869B6C /* Beacon */,
+				E6FCC4291C40562400DF6113 /* BeaconBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Trill;
@@ -12841,8 +12841,8 @@
 			buildConfigurations = (
 				F84B21DE1A090F8100AAB793 /* Trill */,
 				E6DCC2061DCBB6F100CEC4B7 /* Trill_Enterprise */,
-				E448FC9E1AEE7A6000869B6C /* Impervious */,
-				E6FCC42A1C40562400DF6113 /* ImperviousBeta */,
+				E448FC9E1AEE7A6000869B6C /* Beacon */,
+				E6FCC42A1C40562400DF6113 /* BeaconBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Trill;
@@ -12852,8 +12852,8 @@
 			buildConfigurations = (
 				F84B21E11A090F8100AAB793 /* Trill */,
 				E6DCC2101DCBB6F100CEC4B7 /* Trill_Enterprise */,
-				E448FC9F1AEE7A6000869B6C /* Impervious */,
-				E6FCC42B1C40562400DF6113 /* ImperviousBeta */,
+				E448FC9F1AEE7A6000869B6C /* Beacon */,
+				E6FCC42B1C40562400DF6113 /* BeaconBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Trill;
@@ -12863,8 +12863,8 @@
 			buildConfigurations = (
 				F84B22561A0920C600AAB793 /* Trill */,
 				E6DCC2081DCBB6F100CEC4B7 /* Trill_Enterprise */,
-				E448FCA01AEE7A6000869B6C /* Impervious */,
-				E6FCC42D1C40562400DF6113 /* ImperviousBeta */,
+				E448FCA01AEE7A6000869B6C /* Beacon */,
+				E6FCC42D1C40562400DF6113 /* BeaconBeta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Trill;

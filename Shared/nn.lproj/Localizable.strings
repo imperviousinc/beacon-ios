@@ -270,7 +270,7 @@
 "Could not load page." = "Klarte ikkje å laste sida.";
 
 /* Description for the new dark mode change in the version 22 app release. It describes the new automatic dark theme and how to change the theme settings. */
-"CoverSheet.v22.DarkMode.Description" = "For iOS 13-brukarar byter Impervious no automatisk til eit mørkt tema når telefonen er sett til Mørk modus. Gå til Innstillingar > Tema, for å endre dette.";
+"CoverSheet.v22.DarkMode.Description" = "For iOS 13-brukarar byter Beacon no automatisk til eit mørkt tema når telefonen er sett til Mørk modus. Gå til Innstillingar > Tema, for å endre dette.";
 
 /* Title for the new dark mode change in the version 22 app release. */
 "CoverSheet.v22.DarkMode.Title" = "Mørkt tema inkluderer no eit mørkt tastatur og mørkt velkomstbilde.";
@@ -325,8 +325,8 @@
 /* Alert dialog title when the user taps the cancel download icon. */
 "Downloads.CancelDialog.Title" = "Avbryt nedlasting";
 
-/* The message displayed to a user when they try and perform the download of an asset that Impervious cannot currently handle. */
-"Downloads.Error.Message" = "Nedlastingar er ikkje støtta i Impervious enno.";
+/* The message displayed to a user when they try and perform the download of an asset that Beacon cannot currently handle. */
+"Downloads.Error.Message" = "Nedlastingar er ikkje støtta i Beacon enno.";
 
 /* The label text in the Download Cancelled toast for showing confirmation that the download was cancelled. */
 "Downloads.Toast.Cancelled.LabelText" = "Nedlasting avbroten";
@@ -371,7 +371,7 @@
 "ErrorPages.AdvancedWarning2.Text" = "Det kan vere ein feilkonfigurasjon eller ei manipulering av ein angripar. Fortset om du godtek risikoen.";
 
 /* Warning text on the certificate error page */
-"ErrorPages.CertWarning.Description" = "Eigaren av %@ har konfigurerat nettstaden sin feil. For å verne informasjonen din frå å verte stolen, har Impervious ikkje kopla seg til denne nettstaden.";
+"ErrorPages.CertWarning.Description" = "Eigaren av %@ har konfigurerat nettstaden sin feil. For å verne informasjonen din frå å verte stolen, har Beacon ikkje kopla seg til denne nettstaden.";
 
 /* Title on the certificate error page */
 "ErrorPages.CertWarning.Title" = "Denne tilkoplinga er usikker";
@@ -392,7 +392,7 @@
 "Facebook" = "Facebook";
 
 /* Title for firefox about:home page in tab history list */
-"Firefox.HomePage.Title" = "Impervious startside";
+"Beacon.HomePage.Title" = "Beacon startside";
 
 /* Accessibility Label for the tab toolbar Forward button */
 "Forward" = "Fram";
@@ -403,16 +403,16 @@
 /* Label stating your account is not verified */
 "FxA.AccountVerificationRequired" = "Kontostadfesting er påkravd";
 
-/* Message explaining that user needs to check email for Impervious Account verfication link. */
-"FxA.AccountVerificationRequiredSurface" = "Du må stadfeste %@. Sjekk e-posten din for verifiseringslenka frå Impervious.";
+/* Message explaining that user needs to check email for Beacon Account verfication link. */
+"FxA.AccountVerificationRequiredSurface" = "Du må stadfeste %@. Sjekk e-posten din for verifiseringslenka frå Beacon.";
 
 /* Button label to connect another device to Sync */
 "FxA.ConnectAnotherDevice" = "Kople til ei anna eining";
 
-/* Settings section title for Impervious Account */
-"FxA.FirefoxAccount" = "Firefox-konto";
+/* Settings section title for Beacon Account */
+"FxA.FirefoxAccount" = "Beacon-konto";
 
-/* Button label to go to Impervious Account settings */
+/* Button label to go to Beacon Account settings */
 "FxA.ManageAccount" = "Handter kontoen og einingar";
 
 /* Label when no internet is present */
@@ -428,7 +428,7 @@
 "FxA.RemoveAccount" = "Fjern";
 
 /* Description string for alert view that gets presented when user tries to remove an account. */
-"FxA.RemoveAccountAlertMessage" = "Fjern Impervious-kontoen som er tilknytta denne eininga, for å logge på som ein annan brukar.";
+"FxA.RemoveAccountAlertMessage" = "Fjern Beacon-kontoen som er tilknytta denne eininga, for å logge på som ein annan brukar.";
 
 /* Remove account alert is the final confirmation before user removes their firefox account */
 "FxA.RemoveAccountAlertTitle" = "Fjern konto";
@@ -440,13 +440,13 @@
 "fxa.signin.camera-signin" = "Logg inn med kameraet ditt";
 
 /* FxA sign in create account label. */
-"fxa.signin.create-account-pt-1" = "Synkroniser Impervious mellom einingar med ein konto.";
+"fxa.signin.create-account-pt-1" = "Synkroniser Beacon mellom einingar med ein konto.";
 
 /* FxA sign in create account label. This will be linked to the site to create an account. */
-"fxa.signin.create-account-pt-2" = "Opprett ein Impervious-konto";
+"fxa.signin.create-account-pt-2" = "Opprett ein Beacon-konto";
 
 /* FxA sign in view qr code instructions */
-"fxa.signin.qr-link-instruction" = "Opne Impervious på datamaskina di og gå til firefox.com/pair";
+"fxa.signin.qr-link-instruction" = "Opne Beacon på datamaskina di og gå til firefox.com/pair";
 
 /* FxA sign in view qr code scan button */
 "fxa.signin.ready-to-scan" = "Klar til å skanne";
@@ -463,14 +463,14 @@
 /* Label explaining what sync does */
 "FxA.SyncExplain" = "Få faner, bokmerke og passord frå dei andre einingane dine.";
 
-/* Button label to Sync your Impervious Account */
+/* Button label to Sync your Beacon Account */
 "FxA.SyncNow" = "Synkroniser no";
 
 /* Call to action for sign into sync button */
 "FxA.TakeYourWebWithYou" = "Ta med deg nettet";
 
 /* Title of a notification displayed when another device has connected to FxA. %@ refers to the name of the newly connected device. */
-"FxAPush_DeviceConnected_body" = "Impervious Sync har kopla til %@";
+"FxAPush_DeviceConnected_body" = "Beacon Sync har kopla til %@";
 
 /* Title of a notification displayed when another device has connected to FxA. */
 "FxAPush_DeviceConnected_title" = "Sync er tilkopla";
@@ -479,7 +479,7 @@
 "FxAPush_DeviceDisconnected_body" = "%@ har blitt kopla frå.";
 
 /* Body of a notification displayed when this device has been disconnected from FxA by another device. */
-"FxAPush_DeviceDisconnected_ThisDevice_body" = "Denne eininga er kopla frå Impervious Sync.";
+"FxAPush_DeviceDisconnected_ThisDevice_body" = "Denne eininga er kopla frå Beacon Sync.";
 
 /* Title of a notification displayed when this device has been disconnected by another device. */
 "FxAPush_DeviceDisconnected_ThisDevice_title" = "Sync er fråkopla";
@@ -488,7 +488,7 @@
 "FxAPush_DeviceDisconnected_title" = "Sync er fråkopla";
 
 /* Body of a notification displayed when unnamed device has been disconnected from FxA. */
-"FxAPush_DeviceDisconnected_UnknownDevice_body" = "Ei eining har blitt kopla frå Impervious Sync";
+"FxAPush_DeviceDisconnected_UnknownDevice_body" = "Ei eining har blitt kopla frå Beacon Sync";
 
 /* A re-worded offer about Sync, displayed when the Sync home panel is empty, that emphasizes one-way data transfer, not syncing. */
 "Get your open tabs, bookmarks, and passwords from your other devices." = "Få opne faner, bokmerke og passord frå dei andre einingane dine.";
@@ -536,7 +536,7 @@
 "HistoryPanel.EmptySyncedTabsPanelTabSyncDisabledState.Description" = "Slå på fanesynkronisering for å vise ei liste med faner frå dei andre einingane dine.";
 
 /* Title for the empty synced tabs state in the History Panel */
-"HistoryPanel.EmptySyncedTabsState.Title" = "Impervious Sync";
+"HistoryPanel.EmptySyncedTabsState.Title" = "Beacon Sync";
 
 /* Title for the Back to History button in the History Panel */
 "HistoryPanel.HistoryBackButton.Title" = "Historikk";
@@ -643,10 +643,10 @@
 /* Light theme setting in Reading View settings */
 "Light" = "Ljos";
 
-/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Beacon reader mode from another app. */
 "Load original page" = "Last originalsida";
 
-/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Beacon reader mode from another app. */
 "Loading content…" = "Lastar innhald…";
 
 /* Authentication prompt log in button */
@@ -701,7 +701,7 @@
 "LoginsList.LoginsListSearchPlaceholder" = "Filter";
 
 /* Label shown when there are no logins to list */
-"LoginsList.NoLoginsFound.Description" = "Lagra innloggingar vil visast her. Om du har lagra inloggningane dine i Impervious på ei anna eining, loggar du inn på Impervious-kontoen din.";
+"LoginsList.NoLoginsFound.Description" = "Lagra innloggingar vil visast her. Om du har lagra inloggningane dine i Beacon på ei anna eining, loggar du inn på Beacon-kontoen din.";
 
 /* Label shown when there are no logins saved */
 "LoginsList.NoLoginsFound.Title" = "Fann ingen innloggingar";
@@ -725,7 +725,7 @@
 "LoginsList.Title" = "LAGRA INNLOGGINGAR";
 
 /* Restore Tabs Prompt Description */
-"Looks like Impervious crashed previously. Would you like to restore your tabs?" = "Det ser ut til at Impervious krasja tidlegare. Vil du rette oppatt fanene dine?";
+"Looks like Beacon crashed previously. Would you like to restore your tabs?" = "Det ser ut til at Beacon krasja tidlegare. Vil du rette oppatt fanene dine?";
 
 /* Name for Mark as read button in reader mode
    Title for the button that marks a reading list item as read */
@@ -769,10 +769,10 @@
 "Menu.EnhancedTrackingProtectionOn.Title" = "Utvida sporingsvern er slått PÅ for denne nettstaden.";
 
 /* Description for having standard ETP protection with ITP offered in iOS14+ */
-"Menu.EnhancedTrackingProtectionStandardWithITP.Title" = "Impervious blokkerer sporing på tvers av nettstadar, sporing via sosiale medium, kryptoutvinning og fingeravtrykksporarar.";
+"Menu.EnhancedTrackingProtectionStandardWithITP.Title" = "Beacon blokkerer sporing på tvers av nettstadar, sporing via sosiale medium, kryptoutvinning og fingeravtrykksporarar.";
 
 /* Description for having strict ETP protection with ITP offered in iOS14+ */
-"Menu.EnhancedTrackingProtectionStrictWithITP.Title" = "Impervious blokkerer sporing på tvers av nettstadar, sporing via sosiale medium, kryptoutvinning, fingeravtrykksporarar og sporingsinnhald.";
+"Menu.EnhancedTrackingProtectionStrictWithITP.Title" = "Beacon blokkerer sporing på tvers av nettstadar, sporing via sosiale medium, kryptoutvinning, fingeravtrykksporarar og sporingsinnhald.";
 
 /* Label for the button, displayed in the menu, takes you to to History screen when pressed. */
 "Menu.History.Label" = "Historikk";
@@ -838,7 +838,7 @@
 "Menu.TrackingProtection.Details.Verifier" = "Stadfesta av %@";
 
 /* Message in menu when no trackers blocked. */
-"Menu.TrackingProtection.NoTrackersBlockedTitle" = "Ingen sporarar kjende for Impervious vart oppdaga på denne sida.";
+"Menu.TrackingProtection.NoTrackersBlockedTitle" = "Ingen sporarar kjende for Beacon vart oppdaga på denne sida.";
 
 /* The title for tracking protection settings */
 "Menu.TrackingProtection.ProtectionSettings.Title" = "Verneinnstillingar";
@@ -853,7 +853,7 @@
 "Menu.TrackingProtectionBlockedSocial.Title" = "Sporing via sosiale medium";
 
 /* Description of the Tracking protection menu when TP is blocking parts of the page */
-"Menu.TrackingProtectionBlocking.Description" = "Impervious blokkerer delar av sida som kan spore surfinga di.";
+"Menu.TrackingProtectionBlocking.Description" = "Beacon blokkerer delar av sida som kan spore surfinga di.";
 
 /* The description of the Tracking Protection menu item when tracking is enabled */
 "Menu.TrackingProtectionBlockingDisabled.Description" = "Blokker online-sporarar";
@@ -956,7 +956,7 @@
 "Okay" = "OK";
 
 /* Title for prompt displayed to user after the app crashes */
-"Oops! Impervious crashed" = "Ops! Impervious krasja";
+"Oops! Beacon crashed" = "Ops! Beacon krasja";
 
 /* See http://mzl.la/1LXbDOL */
 "Open articles in Reader View by tapping the book icon when it appears in the title bar." = "Opne artiklar i lesevising ved å trykkje på bok-ikonet når du ser det i adresselinja.";
@@ -967,8 +967,8 @@
 /* Toggle tabs syncing setting */
 "Open Tabs" = "Opne faner";
 
-/* The message displayed to a user when they try to open a URL that cannot be handled by Impervious, or any external app. */
-"OpenURL.Error.Message" = "Impervious kan ikkje opne sida fordi ho har ei ugyldig adresse.";
+/* The message displayed to a user when they try to open a URL that cannot be handled by Beacon, or any external app. */
+"OpenURL.Error.Message" = "Beacon kan ikkje opne sida fordi ho har ei ugyldig adresse.";
 
 /* Title of the message shown when the user attempts to navigate to an invalid link. */
 "OpenURL.Error.Title" = "Klarte ikkje å opne sida";
@@ -983,19 +983,19 @@
 "Password" = "Passord";
 
 /* Error message shown in the remote tabs panel */
-"PasswordAutoFill.NoPasswordsFoundTitle" = "Du har ingen autentiseringsopplysningar synkroniserte frå Impervious-kontoen din";
+"PasswordAutoFill.NoPasswordsFoundTitle" = "Du har ingen autentiseringsopplysningar synkroniserte frå Beacon-kontoen din";
 
 /* Header for the list of credentials table */
 "PasswordAutoFill.PasswordsListTitle" = "Tilgjengelege autentiseringsopplysningar:";
 
 /* Title of the extension that shows firefox passwords */
-"PasswordAutoFill.SectionTitle" = "Firefox-autentiseringsopplysningar";
+"PasswordAutoFill.SectionTitle" = "Beacon-autentiseringsopplysningar";
 
 /* See http://mzl.la/1G7uHo7 */
 "PhotoLibrary.FirefoxWouldLikeAccessMessage" = "Dette vil tillate lagring av bildet til kamerarullen din.";
 
 /* See http://mzl.la/1G7uHo7 */
-"PhotoLibrary.FirefoxWouldLikeAccessTitle" = "Impervious ønskjer tilgang til bilda dine";
+"PhotoLibrary.FirefoxWouldLikeAccessTitle" = "Beacon ønskjer tilgang til bilda dine";
 
 /* Button for closing the menu action sheet */
 "PhotonMenu.close" = "Lat att";
@@ -1003,7 +1003,7 @@
 /* Privacy section title */
 "Privacy" = "Personvern";
 
-/* Show Impervious Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
+/* Show Beacon Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
 "Privacy Policy" = "Personvernpraksis";
 
 /* This is the value for a label that indicates if a user is on an unencrypted website. */
@@ -1076,7 +1076,7 @@
 "ScanQRCode.InvalidDataError.Message" = "Ugyldige data";
 
 /* Text of the prompt user to setup the camera authorization. */
-"ScanQRCode.PermissionError.Message" = "La Impervious få tilgang til kameraet i eininga, i «Innstilligar» -> «Personvern» -> «Kamera».";
+"ScanQRCode.PermissionError.Message" = "La Beacon få tilgang til kameraet i eininga, i «Innstilligar» -> «Personvern» -> «Kamera».";
 
 /* Title for the QR code scanner view. */
 "ScanQRCode.View.Title" = "Skann QR-kode";
@@ -1132,7 +1132,7 @@
 "Secure connection" = "Trygg tilkopling";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
-"Send a crash report so Impervious can fix the problem?" = "Sende inn ein krasjrapport slik at Impervious kan ordne problemet?";
+"Send a crash report so Beacon can fix the problem?" = "Sende inn ein krasjrapport slik at Beacon kan ordne problemet?";
 
 /* Menu item in settings used to open input.mozilla.org where people can submit feedback */
 "Send Feedback" = "Send tilbakemelding";
@@ -1160,19 +1160,19 @@
 "SendTo.NavBar.Title" = "Send fane";
 
 /* Error message shown in the remote tabs panel */
-"SendTo.NoDevicesFound.Message" = "Du har ingen andre einingar tilkopla til denne Impervious-kontoen som er tilgjengelege for synkronisering.";
+"SendTo.NoDevicesFound.Message" = "Du har ingen andre einingar tilkopla til denne Beacon-kontoen som er tilgjengelege for synkronisering.";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Message" = "Ver snill og opne Impervious, gå till Instillingar og logg inn for å fortsetje.";
+"SendTo.NotSignedIn.Message" = "Ver snill og opne Beacon, gå till Instillingar og logg inn for å fortsetje.";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Title" = "Du er ikkje innlogga med Impervious-kontoen din.";
+"SendTo.NotSignedIn.Title" = "Du er ikkje innlogga med Beacon-kontoen din.";
 
 /* Navigation bar button to Send the current page to a device */
 "SendTo.SendAction.Text" = "Send";
 
-/* The text for the button on the Send to Device page if you are not signed in to Impervious Accounts. */
-"SendTo.SignIn.Button" = "Logg inn på Impervious";
+/* The text for the button on the Send to Device page if you are not signed in to Beacon Accounts. */
+"SendTo.SignIn.Button" = "Logg inn på Beacon";
 
 /* Body of notification shown when the device is sent one or more tabs from an unnamed device. */
 "SentTab_TabArrivingNotification_NoDevice_body" = "Ny fane mottatt frå ei anna eining.";
@@ -1196,7 +1196,7 @@
 "SentTab.NoTabArrivingNotification.body" = "Trykk for å starte";
 
 /* Title of notification received after a spurious message from FxA has been received. */
-"SentTab.NoTabArrivingNotification.title" = "Impervious Sync";
+"SentTab.NoTabArrivingNotification.title" = "Beacon Sync";
 
 /* Label for an action used to view one or more tabs from a notification. */
 "SentTab.ViewAction.title" = "Vis";
@@ -1259,7 +1259,7 @@
 "Settings.DataManagement.Title" = "Databehandling";
 
 /* Body of the alert when prompting the user asking to disconnect. */
-"Settings.Disconnect.Body" = "Impervious vil slutta å synkronisera med kontoen din, men vil ikkje sletta nokon av nettlesardataa dine på denne eininga.";
+"Settings.Disconnect.Body" = "Beacon vil slutta å synkronisera med kontoen din, men vil ikkje sletta nokon av nettlesardataa dine på denne eininga.";
 
 /* Button displayed at the bottom of settings page allowing users to Disconnect from FxA */
 "Settings.Disconnect.Button" = "Kople frå Sync";
@@ -1328,11 +1328,11 @@
 /* Label used for the device name settings section. */
 "Settings.FxA.DeviceName" = "Einingsnamn";
 
-/* Label used as a section title in the Impervious Accounts Settings screen. */
+/* Label used as a section title in the Beacon Accounts Settings screen. */
 "Settings.FxA.Sync.SectionName" = "Sync-innstillingar";
 
 /* Title displayed in header of the FxA settings panel. */
-"Settings.FxA.Title" = "Firefox-konto";
+"Settings.FxA.Title" = "Beacon-konto";
 
 /* General settings section title */
 "Settings.General.SectionName" = "Generelt";
@@ -1386,10 +1386,10 @@
 "Settings.NewTab.Option.CustomizeFooter2" = "Nettstadar du lagrar eller besøkjer";
 
 /* The title for the section to customize top sites in the new tab settings page. */
-"Settings.NewTab.Option.CustomizeTitle" = "Tilpass Impervious-startsida";
+"Settings.NewTab.Option.CustomizeTitle" = "Tilpass Beacon-startsida";
 
-/* Option in settings to show Impervious Home when you open a new tab */
-"Settings.NewTab.Option.FirefoxHome" = "Impervious startside";
+/* Option in settings to show Beacon Home when you open a new tab */
+"Settings.NewTab.Option.FirefoxHome" = "Beacon startside";
 
 /* Option in the settings to turn off recent bookmarks in the Highlights section */
 "Settings.NewTab.Option.HighlightsBookmarks" = "Siste bokmerke";
@@ -1431,7 +1431,7 @@
 "Settings.NewTab.TopSectionNameFooter" = "Vel kva som skal lastast inn når du opnar ei ny fane";
 
 /* Description displayed under the ”Offer to Open Copied Link” option. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
-"Settings.OfferClipboardBar.Status" = "Når du opnar Impervious";
+"Settings.OfferClipboardBar.Status" = "Når du opnar Beacon";
 
 /* Title of setting to enable the Go to Copied URL feature. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
 "Settings.OfferClipboardBar.Title" = "Tilby å opne kopierte lenker";
@@ -1455,7 +1455,7 @@
 "Settings.SendUsage.Link" = "Les meir.";
 
 /* A short description that explains why mozilla collects usage data. */
-"Settings.SendUsage.Message" = "Impervious strevar etter å berre samle inn det vi treng for å tilby og forbetre Impervious for alle.";
+"Settings.SendUsage.Message" = "Beacon strevar etter å berre samle inn det vi treng for å tilby og forbetre Beacon for alle.";
 
 /* The title for the setting to send usage data. */
 "Settings.SendUsage.Title" = "Send bruksdata";
@@ -1473,7 +1473,7 @@
 "Settings.Siri.OpenTabShortcut" = "Opne ny fane";
 
 /* The description that describes what siri shortcuts are */
-"Settings.Siri.SectionDescription" = "Bruk Siri-snarvegar for å raskt opne Impervious via Siri";
+"Settings.Siri.SectionDescription" = "Bruk Siri-snarvegar for å raskt opne Beacon via Siri";
 
 /* The option that takes you to the siri shortcuts settings page */
 "Settings.Siri.SectionName" = "Siri-snarvegar";
@@ -1493,11 +1493,11 @@
 /* Label used as an item in Settings. Tapping on this item takes you to the Studies panel */
 "Settings.Studies.Title" = "Undersøkingar";
 
-/* Title for a link that explains what Impervious means by Studies */
+/* Title for a link that explains what Beacon means by Studies */
 "Settings.Studies.Toggle.Link" = "Les meir.";
 
-/* A short description that explains that Impervious is running studies */
-"Settings.Studies.Toggle.Message" = "Impervious kan installere og køyre studiar av og til.";
+/* A short description that explains that Beacon is running studies */
+"Settings.Studies.Toggle.Message" = "Beacon kan installere og køyre studiar av og til.";
 
 /* Toggled OFF to opt-out of studies */
 "Settings.Studies.Toggle.Off" = "Av";
@@ -1518,7 +1518,7 @@
 "Settings.TrackingProtection.Alert.Title" = "Varsel!";
 
 /* Header description for tracking protection options section where Basic/Strict block list can be selected */
-"Settings.TrackingProtection.BlockListsHeader" = "Du kan velje kva for lister Impervious skal bruke for å blokkere webelement som kan spore nettlesaraktiviteten din.";
+"Settings.TrackingProtection.BlockListsHeader" = "Du kan velje kva for lister Beacon skal bruke for å blokkere webelement som kan spore nettlesaraktiviteten din.";
 
 /* Explanation of basic mode. */
 "Settings.TrackingProtection.Info.BasicTitle" = "Balansert for vern og yting.";
@@ -1613,32 +1613,32 @@
 /* Title displayed in header of the Data Management panel. */
 "Settings.WebsiteData.Title" = "Nettstaddata";
 
-/* Action label on share extension to add page to the Impervious reading list. */
+/* Action label on share extension to add page to the Beacon reading list. */
 "ShareExtension.AddToReadingListAction.Title" = "Legg til i leselista";
 
 /* Share extension label shown after user has performed 'Add to Reading List' action. */
 "ShareExtension.AddToReadingListActionDone.Title" = "Lagt til i leselista";
 
-/* Action label on share extension to bookmark the page in Impervious. */
+/* Action label on share extension to bookmark the page in Beacon. */
 "ShareExtension.BookmarkThisPageAction.Title" = "Bokmerk denne sida";
 
 /* Share extension label shown after user has performed 'Bookmark this Page' action. */
 "ShareExtension.BookmarkThisPageActionDone.Title" = "Bokmerkt";
 
-/* Action label on share extension to load the page in Impervious when user switches apps to bring it to foreground. */
+/* Action label on share extension to load the page in Beacon when user switches apps to bring it to foreground. */
 "ShareExtension.LoadInBackgroundAction.Title" = "Last inn i bakgrunnen";
 
 /* Share extension label shown after user has performed 'Load in Background' action. */
-"ShareExtension.LoadInBackgroundActionDone.Title" = "Lastar i Impervious";
+"ShareExtension.LoadInBackgroundActionDone.Title" = "Lastar i Beacon";
 
-/* Action label on share extension to immediately open page in Impervious. */
-"ShareExtension.OpenInFirefoxAction.Title" = "Opne i Impervious";
+/* Action label on share extension to immediately open page in Beacon. */
+"ShareExtension.OpenInFirefoxAction.Title" = "Opne i Beacon";
 
-/* Action label on share extension to immediately open page in Impervious in private mode. */
+/* Action label on share extension to immediately open page in Beacon in private mode. */
 "ShareExtension.OpenInPrivateModeAction.Title" = "Opne i privatmodus";
 
-/* Action label on share extension to search for the selected text in Impervious. */
-"ShareExtension.SeachInFirefoxAction.Title" = "Søk i Impervious";
+/* Action label on share extension to search for the selected text in Beacon. */
+"ShareExtension.SeachInFirefoxAction.Title" = "Søk i Beacon";
 
 /* Label for show search suggestions setting. */
 "Show Search Suggestions" = "Vis søkjeforslag";
@@ -1675,7 +1675,7 @@
 "Sync.FirstTimeMessage.Label" = "Første synkronisering kan ta litt tid";
 
 /* String displayed on Sign In to Sync page that allows the user to create a new account. */
-"Sync.NoAccount.Description" = "Ingen konto? Lag ein for å synkronisere Impervious mellom einingar.";
+"Sync.NoAccount.Description" = "Ingen konto? Lag ein for å synkronisere Beacon mellom einingar.";
 
 /* Message displayed when the user's account is syncing with no ellipsis */
 "Sync.Syncing.Label" = "Synkroniserer";
@@ -1794,7 +1794,7 @@
 /* The section header for tabs opened yesterday */
 "TabTray.Yesterday.Header" = "I går";
 
-/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Beacon reader mode from another app. */
 "The page could not be displayed in Reader View." = "Denne sida kunne ikkje visast i lesevising.";
 
 /* Error message in the remote tabs panel */
@@ -1852,13 +1852,13 @@
 "UIMenuItem.PasteGo" = "Lim inn og gå til sida";
 
 /* Search in New Tab Text selection menu item */
-"UIMenuItem.SearchWithFirefox" = "Søk med Impervious";
+"UIMenuItem.SearchWithFirefox" = "Søk med Beacon";
 
 /* Accessibility label for unread article in reading list. It's a past participle - functions as an adjective. */
 "unread" = "ulesen";
 
 /* Text message in the settings table view */
-"Upgrade Impervious to connect" = "Oppgrader Impervious for å kople til";
+"Upgrade Beacon to connect" = "Oppgrader Beacon for å kople til";
 
 /* Debug option */
 "Use stage servers" = "Bruk testserver";
@@ -1869,7 +1869,7 @@
 /* Text message in the settings table view */
 "Verify your email address" = "Stadfest e-postadressa di";
 
-/* Version number of Impervious shown in settings */
+/* Version number of Beacon shown in settings */
 "Version %@ (%@)" = "Versjon %1$@ (%2$@)";
 
 /* Accessibility label for the main web content view */
@@ -1891,7 +1891,7 @@
 "Yesterday" = "I går";
 
 /* Error message in the remote tabs panel */
-"You don’t have any tabs open in Impervious on your other devices." = "Du har ingen faner opne i Impervious på andre einingar.";
+"You don’t have any tabs open in Beacon on your other devices." = "Du har ingen faner opne i Beacon på andre einingar.";
 
 /* Your Rights settings section title */
 "Your Rights" = "Dine rettar";

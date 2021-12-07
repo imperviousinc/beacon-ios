@@ -1,11 +1,11 @@
-Impervious iOS 
+Beacon iOS 
 ===============
 
-The first browser with support for native DNS-Based Authentication of Named Entities (DANE) with true downgrade protection, and the first browser to embed an SPV node to trustlessly verify DNSSEC over the [Handshake](https://handshake.org) network. Impervious iOS is a fork of [Firefox](https://github.com/mozilla-mobile/firefox-ios).
+The first browser with support for native DNS-Based Authentication of Named Entities (DANE) with true downgrade protection, and the first browser to embed an SPV node to trustlessly verify DNSSEC over the [Handshake](https://handshake.org) network. Beacon iOS is a fork of [Beacon](https://github.com/mozilla-mobile/firefox-ios).
 
 This branch works with [Xcode 13.0](https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_13/Xcode_13.xip), Swift 5.5 and supports iOS 13 and above.
 
-*Please note:* due to dependency issues, development of Impervious-iOS is currently only supported on Intel based Macs, and not Apple Silicon based Macs.
+*Please note:* due to dependency issues, development of Beacon-iOS is currently only supported on Intel based Macs, and not Apple Silicon based Macs.
 
 The current build bundles MobileHNS to build on a simulator you need to build it from source and bundle it for iossimulator. 
 
@@ -29,11 +29,11 @@ Building the code
     ```
 1. Clone the repository:
     ```shell
-    git clone https://github.com/imperviousinc/impervious-ios
+    git clone https://github.com/imperviousinc/beacon-ios
     ```
 1. Pull in the project dependencies:
     ```shell
-    cd impervious-ios
+    cd beacon-ios
     sh ./bootstrap.sh
     ```
 1. Open `Client.xcodeproj` in Xcode.

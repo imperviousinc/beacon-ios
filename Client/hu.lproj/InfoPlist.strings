@@ -2,7 +2,7 @@
 "NSCameraUsageDescription" = "Ez lehetővé teszi, hogy fényképeket készítsen és töltsön fel.";
 
 /* Privacy - Face ID Usage Description */
-"NSFaceIDUsageDescription" = "A Impervious a Face ID-t igényli a mentett bejelentkezések eléréséhez.";
+"NSFaceIDUsageDescription" = "A Beacon a Face ID-t igényli a mentett bejelentkezések eléréséhez.";
 
 /* This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this

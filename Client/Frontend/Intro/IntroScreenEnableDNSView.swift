@@ -46,7 +46,7 @@ class IntroScreenEnableDNSView: UIView, CardTheme {
         return theme == .dark ? .white : .black
     }
     private var fxBackgroundThemeColour: UIColor {
-        return theme == .dark ? UIColor.Firefox.DarkGrey10 : .white
+        return theme == .dark ? UIColor.Beacon.DarkGrey10 : .white
     }
     private lazy var titleImageView: UIImageView = {
         let imgView = UIImageView(image: #imageLiteral(resourceName: "tour-sync-v2"))
@@ -64,7 +64,7 @@ class IntroScreenEnableDNSView: UIView, CardTheme {
     }()
     private lazy var descriptionLabel: UILabel = {
         let label = UILabel()
-        label.text = "Your device needs to be able to resolve Handshake names to enable Impervious to resolve and verify HNS sites. Impervious uses a privacy-focused no logging resolver that encrypts your DNS queries but you can also specify your own from the app's settings."
+        label.text = "Your device needs to be able to resolve Handshake names to enable Beacon to resolve and verify HNS sites. Beacon uses a privacy-focused no logging resolver that encrypts your DNS queries but you can also specify your own from the app's settings."
         label.textColor = fxTextThemeColour
         label.font = UIFont.systemFont(ofSize: 16, weight: .regular)
         label.textAlignment = .left

@@ -22,8 +22,8 @@
 /* Quick Actions drop down menu item for new search when widget enters edit mode and drop down menu expands */
 "TodayWidget.DropDownMenuItemNewSearch" = "Новий пошук";
 
-/* Description for medium size widget to add Impervious Shortcut to home screen */
-"TodayWidget.FirefoxShortcutGalleryDescription" = "Додайте ярлики Impervious на головний екран.";
+/* Description for medium size widget to add Beacon Shortcut to home screen */
+"TodayWidget.FirefoxShortcutGalleryDescription" = "Додайте ярлики Beacon на головний екран.";
 
 /* Go to link pasted on the clipboard */
 "TodayWidget.GoToCopiedLinkLabelV1" = "Відкрити скопійоване посилання";
@@ -44,7 +44,7 @@
 "TodayWidget.NewPrivateTabButtonLabelV2" = "Шукати у приватній вкладці";
 
 /* Open New Tab button label */
-"TodayWidget.NewSearchButtonLabelV1" = "Шукати в Impervious";
+"TodayWidget.NewSearchButtonLabelV1" = "Шукати в Beacon";
 
 /* Open New Tab button label */
 "TodayWidget.NewTabButtonLabelV1" = "Новий пошук";
@@ -55,38 +55,38 @@
 /* Label that is shown when there are no tabs opened in tab tray i.e. Empty State */
 "TodayWidget.NoOpenTabsLabelV2" = "Немає відкритих вкладок";
 
-/* Open Impervious when there are no tabs opened in tab tray i.e. Empty State */
-"TodayWidget.OpenFirefoxLabel" = "Відкрити Impervious";
+/* Open Beacon when there are no tabs opened in tab tray i.e. Empty State */
+"TodayWidget.OpenFirefoxLabel" = "Відкрити Beacon";
 
-/* Description for Impervious Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app. */
+/* Description for Beacon Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app. */
 "TodayWidget.PocketWidgetGalleryDescription" = "Знаходьте захопливі історії та розповіді, що змушують задуматися, з усієї мережі, відібрані Pocket.";
 
-/* Sub label for medium size Impervious Pocket stories widge widget. Pocket is the name of another app. */
-"TodayWidget.PocketWidgetSubLabel" = "Impervious - рекомендовано Pocket";
+/* Sub label for medium size Beacon Pocket stories widge widget. Pocket is the name of another app. */
+"TodayWidget.PocketWidgetSubLabel" = "Beacon - рекомендовано Pocket";
 
-/* Title for Impervious Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app. */
+/* Title for Beacon Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app. */
 "TodayWidget.PocketWidgetTitle" = "Рекомендовано Pocket";
 
 /* Open New Private Tab button label */
 "TodayWidget.PrivateTabButtonLabelV1" = "Приватний пошук";
 
 /* Quick action description when widget enters edit mode */
-"TodayWidget.QuickActionDescription" = "Виберіть ярлик Impervious, який потрібно додати на головний екран.";
+"TodayWidget.QuickActionDescription" = "Виберіть ярлик Beacon, який потрібно додати на головний екран.";
 
 /* Quick Actions left label text for dropdown menu when widget enters edit mode */
 "TodayWidget.QuickActionDropDownMenu" = "Швидка дія";
 
 /* Description for small size widget to add it to home screen */
-"TodayWidget.QuickActionGalleryDescription" = "Додайте ярлик Impervious на головний екран. Після додавання віджета торкніться й утримуйте, щоб змінити його та вибрати інший ярлик.";
+"TodayWidget.QuickActionGalleryDescription" = "Додайте ярлик Beacon на головний екран. Після додавання віджета торкніться й утримуйте, щоб змінити його та вибрати інший ярлик.";
 
 /* Quick Actions title when widget enters edit mode */
 "TodayWidget.QuickActionsGalleryTitle" = "Швидкі дії";
 
-/* Impervious shortcuts title when widget enters edit mode. Do not translate the word Impervious. */
-"TodayWidget.QuickActionsGalleryTitleV2" = "Ярлики Impervious";
+/* Beacon shortcuts title when widget enters edit mode. Do not translate the word Beacon. */
+"TodayWidget.QuickActionsGalleryTitleV2" = "Ярлики Beacon";
 
 /* Sub label for medium size quick action widget */
-"TodayWidget.QuickActionsSubLabel" = "Impervious - Швидкі дії";
+"TodayWidget.QuickActionsSubLabel" = "Beacon - Швидкі дії";
 
 /* Description for Quick View widget in Gallery View where user can add it to home screen */
 "TodayWidget.QuickViewGalleryDescription" = "Доступ до відкритих вкладок безпосередньо з головного екрана.";
@@ -101,35 +101,35 @@
 "TodayWidget.QuickViewLargeGalleryDescription" = "Додати ярлики до відкритих вкладок.";
 
 /* Sub label for Top Sites widget */
-"TodayWidget.QuickViewOpenTabsSubLabel" = "Impervious - Відкриті вкладки";
+"TodayWidget.QuickViewOpenTabsSubLabel" = "Beacon - Відкриті вкладки";
 
-/* Title for small size widget which allows users to search in Impervious. Do not translate the word Impervious. */
-"TodayWidget.SearchInFirefoxTitle" = "Шукати в Impervious";
+/* Title for small size widget which allows users to search in Beacon. Do not translate the word Beacon. */
+"TodayWidget.SearchInFirefoxTitle" = "Шукати в Beacon";
 
-/* Search in Impervious. Do not translate the word Impervious */
-"TodayWidget.SearchInFirefoxV2" = "Шукати в Impervious";
+/* Search in Beacon. Do not translate the word Beacon */
+"TodayWidget.SearchInFirefoxV2" = "Шукати в Beacon";
 
 /* Search in private tab */
 "TodayWidget.SearchInPrivateTabLabelV2" = "Шукати у приватній вкладці";
 
-/* Description for top sites widget to add Impervious top sites shotcuts to home screen */
+/* Description for top sites widget to add Beacon top sites shotcuts to home screen */
 "TodayWidget.TopSitesGalleryDescription" = "Додайте ярлики для частих і недавніх сайтів.";
 
-/* Title for top sites widget to add Impervious top sites shotcuts to home screen */
+/* Title for top sites widget to add Beacon top sites shotcuts to home screen */
 "TodayWidget.TopSitesGalleryTitle" = "Часті сайти";
 
-/* Title for top sites widget to add Impervious top sites shotcuts to home screen */
+/* Title for top sites widget to add Beacon top sites shotcuts to home screen */
 "TodayWidget.TopSitesGalleryTitleV2" = "Ярлики вебсайтів";
 
 /* Sub label for Top Sites widget */
-"TodayWidget.TopSitesSubLabel" = "Impervious - Часті сайти";
+"TodayWidget.TopSitesSubLabel" = "Beacon - Часті сайти";
 
 /* Sub label for Shortcuts widget */
-"TodayWidget.TopSitesSubLabel2" = "Impervious — ярлики вебсайтів";
+"TodayWidget.TopSitesSubLabel2" = "Beacon — ярлики вебсайтів";
 
 /* View More for Quick View widget in Gallery View where we don't know how many tabs might be opened */
 "TodayWidget.ViewMore" = "Дивитися більше";
 
-/* View More… for Impervious Pocket stories widget where we don't know how many articles are available. */
+/* View More… for Beacon Pocket stories widget where we don't know how many articles are available. */
 "TodayWidget.ViewMoreDots" = "Дивитись більше…";
 

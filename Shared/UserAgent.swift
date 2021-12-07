@@ -29,19 +29,19 @@ open class UserAgent {
     }
 
     public static var syncUserAgent: String {
-        return clientUserAgent(prefix: "Firefox-iOS-Sync")
+        return clientUserAgent(prefix: "Beacon-iOS-Sync")
     }
 
     public static var tokenServerClientUserAgent: String {
-        return clientUserAgent(prefix: "Firefox-iOS-Token")
+        return clientUserAgent(prefix: "Beacon-iOS-Token")
     }
 
     public static var fxaUserAgent: String {
-        return clientUserAgent(prefix: "Firefox-iOS-FxA")
+        return clientUserAgent(prefix: "Beacon-iOS-FxA")
     }
 
     public static var defaultClientUserAgent: String {
-        return clientUserAgent(prefix: "Firefox-iOS")
+        return clientUserAgent(prefix: "Beacon-iOS")
     }
 
     public static func isDesktop(ua: String) -> Bool {

@@ -214,7 +214,7 @@ tasks:
                                         TASKGRAPH_HEAD_REPOSITORY: https://hg.mozilla.org/ci/${taskgraph.branch}
                                         TASKGRAPH_HEAD_REV: ${taskgraph.revision}
                                         TASKGRAPH_REPOSITORY_TYPE: hg
-                                        REPOSITORIES: {$json: {mobile: "Firefox for iOS", taskgraph: "Taskgraph"}}
+                                        REPOSITORIES: {$json: {mobile: "Beacon for iOS", taskgraph: "Taskgraph"}}
                                         HG_STORE_PATH: /builds/worker/checkouts/hg-store
                                         ANDROID_SDK_ROOT: /builds/worker/android-sdk
                                       - $if: 'tasks_for in ["github-pull-request"]'

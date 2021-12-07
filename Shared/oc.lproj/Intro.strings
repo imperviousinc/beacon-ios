@@ -1,14 +1,14 @@
 /* Next button on the first intro screen. */
 "Intro.Slides.Button.Next" = "Seguent";
 
-/* Sign in to Impervious account button on second intro screen. */
+/* Sign in to Beacon account button on second intro screen. */
 "Intro.Slides.Button.SignIn" = "Se connectar";
 
-/* Sign up to Impervious account button on second intro screen. */
+/* Sign up to Beacon account button on second intro screen. */
 "Intro.Slides.Button.SignUp" = "S’inscriure";
 
 /* Description for the 'Mail' panel in the First Run tour. */
-"Intro.Slides.Mail.Description" = "Utilizatz quin que siá aplicacion de corrièr — mai que Mail — amb Impervious.";
+"Intro.Slides.Mail.Description" = "Utilizatz quin que siá aplicacion de corrièr — mai que Mail — amb Beacon.";
 
 /* Title for the fourth panel 'Mail' in the First Run tour. */
 "Intro.Slides.Mail.Title" = "Mai d’opcion pels corrièls";
@@ -26,7 +26,7 @@
 "Intro.Slides.Search.Title" = "Recercatz de vòstre biais";
 
 /* Title for the first panel 'Welcome' in the First Run tour. */
-"Intro.Slides.Welcome.Title.v2" = "Benvenguda dins Impervious";
+"Intro.Slides.Welcome.Title.v2" = "Benvenguda dins Beacon";
 
 /* See http://mzl.la/1T8gxwo */
 "Start Browsing" = "Començar de navegar";

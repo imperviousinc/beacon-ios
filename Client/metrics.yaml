@@ -291,10 +291,10 @@ app:
     type: counter
     description: |
       Counts the number of times the app is opened from an external
-      link, implying the client has Firefox set as a default browser.
+      link, implying the client has Beacon set as a default browser.
 
       Currently this is our most accurate way of measuring how
-      often Firefox is set as the default browser.
+      often Beacon is set as the default browser.
     bugs:
       - https://github.com/mozilla-mobile/firefox-ios/issues/7151
     data_reviews:
@@ -466,7 +466,7 @@ firefox_home_page:
   open_from_menu_home_button:
     type: counter
     description: |
-        Counts when user opens Firefox Home from
+        Counts when user opens Beacon Home from
         bottom right hamburger menu Home button
         and New Tab button.
     bugs:
@@ -479,7 +479,7 @@ firefox_home_page:
   open_from_awesomebar:
     type: counter
     description: |
-        Counts when a user opens Firefox Home
+        Counts when a user opens Beacon Home
         from awesomebar.
     bugs:
       - https://github.com/mozilla-mobile/firefox-ios/issues/8481
@@ -534,7 +534,7 @@ firefox_home_page:
     description: |
       Counts the number of reading list items
       appearing in the Recently Saved section
-      on the Firefox home page.
+      on the Beacon home page.
     extra_keys:
       reading_list_count:
         description: |
@@ -611,7 +611,7 @@ firefox_home_page:
     type: counter
     description: |
       Counts the number of times a user taps to open the
-      settings menu to customize the Firefox Homepage
+      settings menu to customize the Beacon Homepage
     bugs:
       - https://mozilla-hub.atlassian.net/browse/FXIOS-3151
     data_reviews:
@@ -807,7 +807,7 @@ pocket:
     type: labeled_counter
     description: |
         Counts when a user opens Pocket article from
-        Firefox Home Pocket feed.
+        Beacon Home Pocket feed.
         The label is position of tile i.e. 0,1,2...
     bugs:
       - https://github.com/mozilla-mobile/firefox-ios/issues/8481
@@ -820,7 +820,7 @@ pocket:
     type: counter
     description: |
         Counts when a user gets to pocket section
-        on Firefox Home
+        on Beacon Home
     bugs:
       - https://github.com/mozilla-mobile/firefox-ios/issues/8481
     data_reviews:
@@ -870,7 +870,7 @@ preferences:
     type: string
     description: |
       The setting a user chooses as their Home page. By default,
-      it is initially set to Firefox Home.
+      it is initially set to Beacon Home.
     bugs:
       - https://mozilla-hub.atlassian.net/browse/FXIOS-1739
     data_reviews:
@@ -1024,7 +1024,7 @@ search:
     description: |
       The labels for this counter are `{search-engine-name}.{source}`
 
-      If the search engine is bundled with Firefox-iOS, then
+      If the search engine is bundled with Beacon-iOS, then
       `search-engine-name` will be the name of the search engine. If
       it is a custom search engine, the value will be `custom`.
 
@@ -1045,7 +1045,7 @@ search:
     lifetime: application
     description: |
       The default search engine identifier if the search engine is
-      pre-loaded with Firefox-iOS.  If it's a custom search engine,
+      pre-loaded with Beacon-iOS.  If it's a custom search engine,
       then the value will be 'custom'.
     bugs:
       - https://bugzilla.mozilla.org/show_bug.cgi?id=1644846

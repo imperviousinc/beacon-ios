@@ -1,10 +1,10 @@
 /* Next button on the first intro screen. */
 "Intro.Slides.Button.Next" = "അടുത്തത്";
 
-/* Sign in to Impervious account button on second intro screen. */
+/* Sign in to Beacon account button on second intro screen. */
 "Intro.Slides.Button.SignIn" = "പ്രവേശിക്കുക";
 
-/* Sign up to Impervious account button on second intro screen. */
+/* Sign up to Beacon account button on second intro screen. */
 "Intro.Slides.Button.SignUp" = "അംഗത്വമെടുക്കുക";
 
 /* Description for the 'Mail' panel in the First Run tour. */

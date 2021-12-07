@@ -22,8 +22,8 @@
 /* Quick Actions drop down menu item for new search when widget enters edit mode and drop down menu expands */
 "TodayWidget.DropDownMenuItemNewSearch" = "Neue Suche";
 
-/* Description for medium size widget to add Impervious Shortcut to home screen */
-"TodayWidget.FirefoxShortcutGalleryDescription" = "Fügen Sie Impervious-Verknüpfungen auf Ihrem Startbildschirm hinzu.";
+/* Description for medium size widget to add Beacon Shortcut to home screen */
+"TodayWidget.FirefoxShortcutGalleryDescription" = "Fügen Sie Beacon-Verknüpfungen auf Ihrem Startbildschirm hinzu.";
 
 /* Go to link pasted on the clipboard */
 "TodayWidget.GoToCopiedLinkLabelV1" = "Link in der Zwischenablage aufrufen";
@@ -44,7 +44,7 @@
 "TodayWidget.NewPrivateTabButtonLabelV2" = "In privatem Tab suchen";
 
 /* Open New Tab button label */
-"TodayWidget.NewSearchButtonLabelV1" = "In Impervious suchen";
+"TodayWidget.NewSearchButtonLabelV1" = "In Beacon suchen";
 
 /* Open New Tab button label */
 "TodayWidget.NewTabButtonLabelV1" = "Neue Suche";
@@ -55,38 +55,38 @@
 /* Label that is shown when there are no tabs opened in tab tray i.e. Empty State */
 "TodayWidget.NoOpenTabsLabelV2" = "Keine offenen Tabs";
 
-/* Open Impervious when there are no tabs opened in tab tray i.e. Empty State */
-"TodayWidget.OpenFirefoxLabel" = "Impervious öffnen";
+/* Open Beacon when there are no tabs opened in tab tray i.e. Empty State */
+"TodayWidget.OpenFirefoxLabel" = "Beacon öffnen";
 
-/* Description for Impervious Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app. */
+/* Description for Beacon Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app. */
 "TodayWidget.PocketWidgetGalleryDescription" = "Entdecken Sie faszinierende und zum Nachdenken anregende Geschichten aus dem Internet, die von Pocket kuratiert wurden.";
 
-/* Sub label for medium size Impervious Pocket stories widge widget. Pocket is the name of another app. */
-"TodayWidget.PocketWidgetSubLabel" = "Impervious – Empfohlen von Pocket";
+/* Sub label for medium size Beacon Pocket stories widge widget. Pocket is the name of another app. */
+"TodayWidget.PocketWidgetSubLabel" = "Beacon – Empfohlen von Pocket";
 
-/* Title for Impervious Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app. */
+/* Title for Beacon Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app. */
 "TodayWidget.PocketWidgetTitle" = "Empfehlung von Pocket";
 
 /* Open New Private Tab button label */
 "TodayWidget.PrivateTabButtonLabelV1" = "Private Suche";
 
 /* Quick action description when widget enters edit mode */
-"TodayWidget.QuickActionDescription" = "Wählen Sie eine Impervious-Verknüpfung aus, die Sie Ihrem Startbildschirm hinzufügen möchten.";
+"TodayWidget.QuickActionDescription" = "Wählen Sie eine Beacon-Verknüpfung aus, die Sie Ihrem Startbildschirm hinzufügen möchten.";
 
 /* Quick Actions left label text for dropdown menu when widget enters edit mode */
 "TodayWidget.QuickActionDropDownMenu" = "Schnellaktion";
 
 /* Description for small size widget to add it to home screen */
-"TodayWidget.QuickActionGalleryDescription" = "Fügen Sie Ihrem Startbildschirm eine Impervious-Verknüpfung hinzu. Berühren und halten Sie das Widget nach dem Hinzufügen, um es zu bearbeiten und eine andere Verknüpfung auszuwählen.";
+"TodayWidget.QuickActionGalleryDescription" = "Fügen Sie Ihrem Startbildschirm eine Beacon-Verknüpfung hinzu. Berühren und halten Sie das Widget nach dem Hinzufügen, um es zu bearbeiten und eine andere Verknüpfung auszuwählen.";
 
 /* Quick Actions title when widget enters edit mode */
 "TodayWidget.QuickActionsGalleryTitle" = "Schnellaktionen";
 
-/* Impervious shortcuts title when widget enters edit mode. Do not translate the word Impervious. */
-"TodayWidget.QuickActionsGalleryTitleV2" = "Firefox-Verknüpfungen";
+/* Beacon shortcuts title when widget enters edit mode. Do not translate the word Beacon. */
+"TodayWidget.QuickActionsGalleryTitleV2" = "Beacon-Verknüpfungen";
 
 /* Sub label for medium size quick action widget */
-"TodayWidget.QuickActionsSubLabel" = "Impervious – Schnellaktionen";
+"TodayWidget.QuickActionsSubLabel" = "Beacon – Schnellaktionen";
 
 /* Description for Quick View widget in Gallery View where user can add it to home screen */
 "TodayWidget.QuickViewGalleryDescription" = "Greifen Sie auf Ihrem Startbildschirm direkt auf Ihre offenen Tabs zu.";
@@ -101,35 +101,35 @@
 "TodayWidget.QuickViewLargeGalleryDescription" = "Fügen Sie Verknüpfungen zu Ihren offenen Tabs hinzu.";
 
 /* Sub label for Top Sites widget */
-"TodayWidget.QuickViewOpenTabsSubLabel" = "Impervious – Offene Tabs";
+"TodayWidget.QuickViewOpenTabsSubLabel" = "Beacon – Offene Tabs";
 
-/* Title for small size widget which allows users to search in Impervious. Do not translate the word Impervious. */
-"TodayWidget.SearchInFirefoxTitle" = "In Impervious suchen";
+/* Title for small size widget which allows users to search in Beacon. Do not translate the word Beacon. */
+"TodayWidget.SearchInFirefoxTitle" = "In Beacon suchen";
 
-/* Search in Impervious. Do not translate the word Impervious */
-"TodayWidget.SearchInFirefoxV2" = "In Impervious suchen";
+/* Search in Beacon. Do not translate the word Beacon */
+"TodayWidget.SearchInFirefoxV2" = "In Beacon suchen";
 
 /* Search in private tab */
 "TodayWidget.SearchInPrivateTabLabelV2" = "In privatem Tab suchen";
 
-/* Description for top sites widget to add Impervious top sites shotcuts to home screen */
+/* Description for top sites widget to add Beacon top sites shotcuts to home screen */
 "TodayWidget.TopSitesGalleryDescription" = "Fügen Sie Verknüpfungen zu häufig und kürzlich besuchten Websites hinzu.";
 
-/* Title for top sites widget to add Impervious top sites shotcuts to home screen */
+/* Title for top sites widget to add Beacon top sites shotcuts to home screen */
 "TodayWidget.TopSitesGalleryTitle" = "Meistbesuchte Seiten";
 
-/* Title for top sites widget to add Impervious top sites shotcuts to home screen */
+/* Title for top sites widget to add Beacon top sites shotcuts to home screen */
 "TodayWidget.TopSitesGalleryTitleV2" = "Website-Verknüpfungen";
 
 /* Sub label for Top Sites widget */
-"TodayWidget.TopSitesSubLabel" = "Impervious – Meistbesuchte Seiten";
+"TodayWidget.TopSitesSubLabel" = "Beacon – Meistbesuchte Seiten";
 
 /* Sub label for Shortcuts widget */
-"TodayWidget.TopSitesSubLabel2" = "Impervious – Website-Verknüpfungen";
+"TodayWidget.TopSitesSubLabel2" = "Beacon – Website-Verknüpfungen";
 
 /* View More for Quick View widget in Gallery View where we don't know how many tabs might be opened */
 "TodayWidget.ViewMore" = "Mehr anzeigen";
 
-/* View More… for Impervious Pocket stories widget where we don't know how many articles are available. */
+/* View More… for Beacon Pocket stories widget where we don't know how many articles are available. */
 "TodayWidget.ViewMoreDots" = "Mehr anzeigen…";
 

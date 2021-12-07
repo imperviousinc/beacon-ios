@@ -1,16 +1,16 @@
-/* Button string to open settings that allows user to switch their default browser to Impervious. */
+/* Button string to open settings that allows user to switch their default browser to Beacon. */
 "DefaultBrowserCard.Button" = "ਸੈਟਿੰਗਾਂ ਉੱਤੇ ਜਾਓ";
 
 /* Button string to learn how to set your default browser. */
 "DefaultBrowserCard.Button.v2" = "ਹੋਰ ਸਿੱਖੋ";
 
-/* Description for small card shown that allows user to switch their default browser to Impervious. */
-"DefaultBrowserCard.Description" = "ਵੈੱਬਸਾਈਟਾਂ, ਈਮੇਲਾਂ ਅਤੇ ਸੁਨੇਹਿਆਂ ਵਿੱਚੋਂ ਲਿੰਕਾਂ ਨੂੰ Impervious ਵਿੱਚ ਸਿੱਧਾ ਖੋਲ੍ਹਣ ਲਈ ਸੈੱਟ ਕਰੋ।";
+/* Description for small card shown that allows user to switch their default browser to Beacon. */
+"DefaultBrowserCard.Description" = "ਵੈੱਬਸਾਈਟਾਂ, ਈਮੇਲਾਂ ਅਤੇ ਸੁਨੇਹਿਆਂ ਵਿੱਚੋਂ ਲਿੰਕਾਂ ਨੂੰ Beacon ਵਿੱਚ ਸਿੱਧਾ ਖੋਲ੍ਹਣ ਲਈ ਸੈੱਟ ਕਰੋ।";
 
-/* Title for small card shown that allows user to switch their default browser to Impervious. */
+/* Title for small card shown that allows user to switch their default browser to Beacon. */
 "DefaultBrowserCard.Title" = "ਆਪਣੇ ਮੂਲ ਬਰਾਊਜ਼ਰ ਨੂੰ ਬਦਲੋ";
 
-/* Button string to open settings that allows user to switch their default browser to Impervious. */
+/* Button string to open settings that allows user to switch their default browser to Beacon. */
 "DefaultBrowserOnboarding.Button" = "ਸੈਟਿੰਗਾਂ ਉੱਤੇ ਜਾਓ";
 
 /* Description for default browser onboarding card. */
@@ -20,11 +20,11 @@
 "DefaultBrowserOnboarding.Description2" = "2. Default Browser App ਨੂੰ ਛੂਹੋ";
 
 /* Description for default browser onboarding card. */
-"DefaultBrowserOnboarding.Description3" = "3. Impervious ਚੁਣੋ";
+"DefaultBrowserOnboarding.Description3" = "3. Beacon ਚੁਣੋ";
 
-/* Text for the screenshot of the iOS system settings page for Impervious. */
+/* Text for the screenshot of the iOS system settings page for Beacon. */
 "DefaultBrowserOnboarding.Screenshot" = "ਮੂਲ ਬਰਾਊਜ਼ਰ ਐਪ";
 
-/* Menu option for setting Impervious as default browser. */
+/* Menu option for setting Beacon as default browser. */
 "Settings.DefaultBrowserMenuItem" = "ਮੂਲ ਬਰਾਊਜ਼ਰ ਵਜੋਂ ਸੈੱਟ ਕਰੋ";
 

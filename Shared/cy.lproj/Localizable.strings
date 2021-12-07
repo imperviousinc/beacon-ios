@@ -270,7 +270,7 @@
 "Could not load page." = "Methu llwytho'r dudalen.";
 
 /* Description for the new dark mode change in the version 22 app release. It describes the new automatic dark theme and how to change the theme settings. */
-"CoverSheet.v22.DarkMode.Description" = "Ar gyfer defnyddwyr iOS 13, mae Impervious bellach yn newid yn awtomatig i thema dywyll pan fydd eich ffôn wedi'i osod i'r Modd Tywyll. I newid yr ymddygiad hwn, ewch i Settings > Theme.";
+"CoverSheet.v22.DarkMode.Description" = "Ar gyfer defnyddwyr iOS 13, mae Beacon bellach yn newid yn awtomatig i thema dywyll pan fydd eich ffôn wedi'i osod i'r Modd Tywyll. I newid yr ymddygiad hwn, ewch i Settings > Theme.";
 
 /* Title for the new dark mode change in the version 22 app release. */
 "CoverSheet.v22.DarkMode.Title" = "Mae'r thema dywyll bellach yn cynnwys bysellfwrdd tywyll a sgrin sblash tywyll.";
@@ -325,8 +325,8 @@
 /* Alert dialog title when the user taps the cancel download icon. */
 "Downloads.CancelDialog.Title" = "Diddymu Llwytho i Lawr";
 
-/* The message displayed to a user when they try and perform the download of an asset that Impervious cannot currently handle. */
-"Downloads.Error.Message" = "Nid yw llwythi'n cael eu cynnal gan Impervious eto.";
+/* The message displayed to a user when they try and perform the download of an asset that Beacon cannot currently handle. */
+"Downloads.Error.Message" = "Nid yw llwythi'n cael eu cynnal gan Beacon eto.";
 
 /* The label text in the Download Cancelled toast for showing confirmation that the download was cancelled. */
 "Downloads.Toast.Cancelled.LabelText" = "Wedi Diddymu'r Llwytho";
@@ -371,7 +371,7 @@
 "ErrorPages.AdvancedWarning2.Text" = "Gall fod yn un ai cam ffurfweddu neu ymyrraeth gan ymosodwr. Parhewch os ydych yn derbyn y risg posib.";
 
 /* Warning text on the certificate error page */
-"ErrorPages.CertWarning.Description" = "Mae perchennog %@ wedi cam ffurfweddu eu gwefan. I rwystro eich manylion rhag cael eu dwyn, nid yw Impervious wedi cysylltu â'r wefan hon.";
+"ErrorPages.CertWarning.Description" = "Mae perchennog %@ wedi cam ffurfweddu eu gwefan. I rwystro eich manylion rhag cael eu dwyn, nid yw Beacon wedi cysylltu â'r wefan hon.";
 
 /* Title on the certificate error page */
 "ErrorPages.CertWarning.Title" = "Dim Ymddiriedaeth i'r Cysylltiad";
@@ -392,7 +392,7 @@
 "Facebook" = "Facebook";
 
 /* Title for firefox about:home page in tab history list */
-"Firefox.HomePage.Title" = "Tudalen Cartref Impervious";
+"Beacon.HomePage.Title" = "Tudalen Cartref Beacon";
 
 /* Accessibility Label for the tab toolbar Forward button */
 "Forward" = "Ymlaen";
@@ -403,16 +403,16 @@
 /* Label stating your account is not verified */
 "FxA.AccountVerificationRequired" = "Mae Angen Gwirio'r Cyfrif";
 
-/* Message explaining that user needs to check email for Impervious Account verfication link. */
-"FxA.AccountVerificationRequiredSurface" = "Mae angen i chi wirio %@. Edrychwch yn eich e-bost am y ddolen gwirio gan Impervious.";
+/* Message explaining that user needs to check email for Beacon Account verfication link. */
+"FxA.AccountVerificationRequiredSurface" = "Mae angen i chi wirio %@. Edrychwch yn eich e-bost am y ddolen gwirio gan Beacon.";
 
 /* Button label to connect another device to Sync */
 "FxA.ConnectAnotherDevice" = "Cysylltu Dyfais Arall";
 
-/* Settings section title for Impervious Account */
-"FxA.FirefoxAccount" = "Cyfrif Impervious";
+/* Settings section title for Beacon Account */
+"FxA.FirefoxAccount" = "Cyfrif Beacon";
 
-/* Button label to go to Impervious Account settings */
+/* Button label to go to Beacon Account settings */
 "FxA.ManageAccount" = "Rheoli Cyfrif a Dyfeisiau";
 
 /* Label when no internet is present */
@@ -428,7 +428,7 @@
 "FxA.RemoveAccount" = "Tynnu";
 
 /* Description string for alert view that gets presented when user tries to remove an account. */
-"FxA.RemoveAccountAlertMessage" = "Tynnwch y Cyfrif Impervious sy'n gysylltiedig â'r ddyfais hon i fewngofnodi fel defnyddiwr gwahanol.";
+"FxA.RemoveAccountAlertMessage" = "Tynnwch y Cyfrif Beacon sy'n gysylltiedig â'r ddyfais hon i fewngofnodi fel defnyddiwr gwahanol.";
 
 /* Remove account alert is the final confirmation before user removes their firefox account */
 "FxA.RemoveAccountAlertTitle" = "Tynnu Cyfrif";
@@ -440,13 +440,13 @@
 "fxa.signin.camera-signin" = "Mewngofnodi gyda’ch camera";
 
 /* FxA sign in create account label. */
-"fxa.signin.create-account-pt-1" = "Cydweddwch Impervious rhwng dyfeisiau gyda chyfrif.";
+"fxa.signin.create-account-pt-1" = "Cydweddwch Beacon rhwng dyfeisiau gyda chyfrif.";
 
 /* FxA sign in create account label. This will be linked to the site to create an account. */
-"fxa.signin.create-account-pt-2" = "Crëwch gyfrif Impervious.";
+"fxa.signin.create-account-pt-2" = "Crëwch gyfrif Beacon.";
 
 /* FxA sign in view qr code instructions */
-"fxa.signin.qr-link-instruction" = "Ar eich cyfrifiadur, agorwch Impervious ac ewch i <b>https://firefox.com/pair</b>";
+"fxa.signin.qr-link-instruction" = "Ar eich cyfrifiadur, agorwch Beacon ac ewch i <b>https://firefox.com/pair</b>";
 
 /* FxA sign in view qr code scan button */
 "fxa.signin.ready-to-scan" = "Yn Barod i Sganio";
@@ -463,14 +463,14 @@
 /* Label explaining what sync does */
 "FxA.SyncExplain" = "Cael mynediad at eich tabiau agored, nodau tudalen a chyfrineiriau o'ch dyfeisiau eraill.";
 
-/* Button label to Sync your Impervious Account */
+/* Button label to Sync your Beacon Account */
 "FxA.SyncNow" = "Cydweddu Nawr";
 
 /* Call to action for sign into sync button */
 "FxA.TakeYourWebWithYou" = "Ewch a'ch Gwe Gyda Chi";
 
 /* Title of a notification displayed when another device has connected to FxA. %@ refers to the name of the newly connected device. */
-"FxAPush_DeviceConnected_body" = "Mae Impervious Sync wedi cysylltu i %@";
+"FxAPush_DeviceConnected_body" = "Mae Beacon Sync wedi cysylltu i %@";
 
 /* Title of a notification displayed when another device has connected to FxA. */
 "FxAPush_DeviceConnected_title" = "Mae Sync wedi Cysylltu";
@@ -479,7 +479,7 @@
 "FxAPush_DeviceDisconnected_body" = "Mae %@ wedi ei ddatgysylltu'n llwyddiannus.";
 
 /* Body of a notification displayed when this device has been disconnected from FxA by another device. */
-"FxAPush_DeviceDisconnected_ThisDevice_body" = "Mae'r ddyfais wedi'i ddatgysylltu'n llwyddiannus o Impervious Sync.";
+"FxAPush_DeviceDisconnected_ThisDevice_body" = "Mae'r ddyfais wedi'i ddatgysylltu'n llwyddiannus o Beacon Sync.";
 
 /* Title of a notification displayed when this device has been disconnected by another device. */
 "FxAPush_DeviceDisconnected_ThisDevice_title" = "Datgysylltodd Sync";
@@ -488,7 +488,7 @@
 "FxAPush_DeviceDisconnected_title" = "Datgysylltodd Sync";
 
 /* Body of a notification displayed when unnamed device has been disconnected from FxA. */
-"FxAPush_DeviceDisconnected_UnknownDevice_body" = "Mae'r ddyfais wedi'i ddatgysylltu o Impervious Sync";
+"FxAPush_DeviceDisconnected_UnknownDevice_body" = "Mae'r ddyfais wedi'i ddatgysylltu o Beacon Sync";
 
 /* A re-worded offer about Sync, displayed when the Sync home panel is empty, that emphasizes one-way data transfer, not syncing. */
 "Get your open tabs, bookmarks, and passwords from your other devices." = "Cael mynediad at eich tabiau agored, nodau tudalen a chyfrineiriau o'ch dyfeisiau eraill.";
@@ -536,7 +536,7 @@
 "HistoryPanel.EmptySyncedTabsPanelTabSyncDisabledState.Description" = "Cychwynnwch gydweddu tabiau er mwyn gweld rhestr o dabiau o'ch dyfeisiau eraill.";
 
 /* Title for the empty synced tabs state in the History Panel */
-"HistoryPanel.EmptySyncedTabsState.Title" = "Impervious Sync";
+"HistoryPanel.EmptySyncedTabsState.Title" = "Beacon Sync";
 
 /* Title for the Back to History button in the History Panel */
 "HistoryPanel.HistoryBackButton.Title" = "Hanes";
@@ -643,10 +643,10 @@
 /* Light theme setting in Reading View settings */
 "Light" = "Golau";
 
-/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Beacon reader mode from another app. */
 "Load original page" = "Llwytho'r dudalen wreiddiol";
 
-/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Beacon reader mode from another app. */
 "Loading content…" = "Llwytho cynnwys…";
 
 /* Authentication prompt log in button */
@@ -701,7 +701,7 @@
 "LoginsList.LoginsListSearchPlaceholder" = "Hidl";
 
 /* Label shown when there are no logins to list */
-"LoginsList.NoLoginsFound.Description" = "Bydd mewngofnodi wedi'u cadw yn ymddangos yma. Os ydych wedi cadw eich mewngofnodion i Impervious ar ddyfais wahanol, mewngofnodwch i'ch Cyfrif Impervious.";
+"LoginsList.NoLoginsFound.Description" = "Bydd mewngofnodi wedi'u cadw yn ymddangos yma. Os ydych wedi cadw eich mewngofnodion i Beacon ar ddyfais wahanol, mewngofnodwch i'ch Cyfrif Beacon.";
 
 /* Label shown when there are no logins saved */
 "LoginsList.NoLoginsFound.Title" = "Heb ganfod mewngofnodion";
@@ -725,7 +725,7 @@
 "LoginsList.Title" = "MEWNGOFNODION WEDI'U CADW";
 
 /* Restore Tabs Prompt Description */
-"Looks like Impervious crashed previously. Would you like to restore your tabs?" = "Bosib fod Impervious wedi chwalu y tro diwethaf. Hoffech chi adfer eich tabiau?";
+"Looks like Beacon crashed previously. Would you like to restore your tabs?" = "Bosib fod Beacon wedi chwalu y tro diwethaf. Hoffech chi adfer eich tabiau?";
 
 /* Name for Mark as read button in reader mode
    Title for the button that marks a reading list item as read */
@@ -769,10 +769,10 @@
 "Menu.EnhancedTrackingProtectionOn.Title" = "Mae Diogelwch Uwch Rhag Tracio YMLAEN ar y wefan hon";
 
 /* Description for having standard ETP protection with ITP offered in iOS14+ */
-"Menu.EnhancedTrackingProtectionStandardWithITP.Title" = "Mae Impervious yn rhwystro tracwyr traws-safle, tracwyr cymdeithasol, cryptogloddwyr a bysbrintwyr.";
+"Menu.EnhancedTrackingProtectionStandardWithITP.Title" = "Mae Beacon yn rhwystro tracwyr traws-safle, tracwyr cymdeithasol, cryptogloddwyr a bysbrintwyr.";
 
 /* Description for having strict ETP protection with ITP offered in iOS14+ */
-"Menu.EnhancedTrackingProtectionStrictWithITP.Title" = "Mae Impervious yn rhwystro tracwyr traws-safle, tracwyr cymdeithasol, cryptogloddwyr, bysbrintwyr a chynnwys tracio.";
+"Menu.EnhancedTrackingProtectionStrictWithITP.Title" = "Mae Beacon yn rhwystro tracwyr traws-safle, tracwyr cymdeithasol, cryptogloddwyr, bysbrintwyr a chynnwys tracio.";
 
 /* Label for the button, displayed in the menu, takes you to to History screen when pressed. */
 "Menu.History.Label" = "Hanes";
@@ -838,7 +838,7 @@
 "Menu.TrackingProtection.Details.Verifier" = "Gwiriwyd gan %@";
 
 /* Message in menu when no trackers blocked. */
-"Menu.TrackingProtection.NoTrackersBlockedTitle" = "Dim tracwyr hysbys i Impervious wedi eu canfod ar y dudalen hon.";
+"Menu.TrackingProtection.NoTrackersBlockedTitle" = "Dim tracwyr hysbys i Beacon wedi eu canfod ar y dudalen hon.";
 
 /* The title for tracking protection settings */
 "Menu.TrackingProtection.ProtectionSettings.Title" = "Gosodiadau Diogelu";
@@ -853,7 +853,7 @@
 "Menu.TrackingProtectionBlockedSocial.Title" = "Tracwyr Cymdeithasol";
 
 /* Description of the Tracking protection menu when TP is blocking parts of the page */
-"Menu.TrackingProtectionBlocking.Description" = "Mae Impervious yn rhwystro rhannau o'r dudalen gall fod yn tracio eich pori.";
+"Menu.TrackingProtectionBlocking.Description" = "Mae Beacon yn rhwystro rhannau o'r dudalen gall fod yn tracio eich pori.";
 
 /* The description of the Tracking Protection menu item when tracking is enabled */
 "Menu.TrackingProtectionBlockingDisabled.Description" = "Rhwystro tracwyr ar-lein";
@@ -956,7 +956,7 @@
 "Okay" = "Iawn";
 
 /* Title for prompt displayed to user after the app crashes */
-"Oops! Impervious crashed" = "Wps! Mae Impervious wedi chwalu";
+"Oops! Beacon crashed" = "Wps! Mae Beacon wedi chwalu";
 
 /* See http://mzl.la/1LXbDOL */
 "Open articles in Reader View by tapping the book icon when it appears in the title bar." = "Agorwch erthyglau yn y Golwg Darllen drwy dapio ar yr eicon llyfr pan mae'n ymddangos yn y bar teitl.";
@@ -967,8 +967,8 @@
 /* Toggle tabs syncing setting */
 "Open Tabs" = "Agor Tabiau";
 
-/* The message displayed to a user when they try to open a URL that cannot be handled by Impervious, or any external app. */
-"OpenURL.Error.Message" = "Nid yw Impervious yn gallu agor y dudalen gan fod ganddo gyfeiriad annilys.";
+/* The message displayed to a user when they try to open a URL that cannot be handled by Beacon, or any external app. */
+"OpenURL.Error.Message" = "Nid yw Beacon yn gallu agor y dudalen gan fod ganddo gyfeiriad annilys.";
 
 /* Title of the message shown when the user attempts to navigate to an invalid link. */
 "OpenURL.Error.Title" = "Methu Agor Tudalen";
@@ -983,19 +983,19 @@
 "Password" = "Cyfrinair";
 
 /* Error message shown in the remote tabs panel */
-"PasswordAutoFill.NoPasswordsFoundTitle" = "Nid oes gennych unrhyw fanylion wedi eu cydweddu o'ch Cyfrif Impervious";
+"PasswordAutoFill.NoPasswordsFoundTitle" = "Nid oes gennych unrhyw fanylion wedi eu cydweddu o'ch Cyfrif Beacon";
 
 /* Header for the list of credentials table */
 "PasswordAutoFill.PasswordsListTitle" = "Manylion ar Gael:";
 
 /* Title of the extension that shows firefox passwords */
-"PasswordAutoFill.SectionTitle" = "Manylion Impervious";
+"PasswordAutoFill.SectionTitle" = "Manylion Beacon";
 
 /* See http://mzl.la/1G7uHo7 */
 "PhotoLibrary.FirefoxWouldLikeAccessMessage" = "Mae hyn yn caniatáu i chi gadw'r ddelwedd i'ch Camera Roll.";
 
 /* See http://mzl.la/1G7uHo7 */
-"PhotoLibrary.FirefoxWouldLikeAccessTitle" = "Hoffai Impervious gael mynediad at eich Lluniau";
+"PhotoLibrary.FirefoxWouldLikeAccessTitle" = "Hoffai Beacon gael mynediad at eich Lluniau";
 
 /* Button for closing the menu action sheet */
 "PhotonMenu.close" = "Cau";
@@ -1003,7 +1003,7 @@
 /* Privacy section title */
 "Privacy" = "Preifatrwydd";
 
-/* Show Impervious Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
+/* Show Beacon Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
 "Privacy Policy" = "Polisi Preifatrwydd";
 
 /* This is the value for a label that indicates if a user is on an unencrypted website. */
@@ -1076,7 +1076,7 @@
 "ScanQRCode.InvalidDataError.Message" = "Mae'r data'n annilys";
 
 /* Text of the prompt user to setup the camera authorization. */
-"ScanQRCode.PermissionError.Message" = "Caniatewch i Impervious to gael mynediad i gamera eich dyfais yn 'Gosodiadau' -> 'Preifatrwydd' -> 'Camera'.";
+"ScanQRCode.PermissionError.Message" = "Caniatewch i Beacon to gael mynediad i gamera eich dyfais yn 'Gosodiadau' -> 'Preifatrwydd' -> 'Camera'.";
 
 /* Title for the QR code scanner view. */
 "ScanQRCode.View.Title" = "Sganio'r Cod QR";
@@ -1132,7 +1132,7 @@
 "Secure connection" = "Cysylltiad diogel";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
-"Send a crash report so Impervious can fix the problem?" = "Anfon adroddiad chwalu fel bod modd i Impervious drwsio'r anhawster?";
+"Send a crash report so Beacon can fix the problem?" = "Anfon adroddiad chwalu fel bod modd i Beacon drwsio'r anhawster?";
 
 /* Menu item in settings used to open input.mozilla.org where people can submit feedback */
 "Send Feedback" = "Anfon Adborth";
@@ -1160,19 +1160,19 @@
 "SendTo.NavBar.Title" = "Anfon Tab";
 
 /* Error message shown in the remote tabs panel */
-"SendTo.NoDevicesFound.Message" = "Nid oes gennych unrhyw ddyfeisiau eraill sy'n gysylltiedig â'r Cyfrif Impervious sydd ar gael i'w gydweddu.";
+"SendTo.NoDevicesFound.Message" = "Nid oes gennych unrhyw ddyfeisiau eraill sy'n gysylltiedig â'r Cyfrif Beacon sydd ar gael i'w gydweddu.";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Message" = "Agorwch Impervious, ewch i'r Gosodiadau a mewngofnodi i barhau.";
+"SendTo.NotSignedIn.Message" = "Agorwch Beacon, ewch i'r Gosodiadau a mewngofnodi i barhau.";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Title" = "Nid ydych wedi eich mewngofnodi i'ch Cyfrif Impervious.";
+"SendTo.NotSignedIn.Title" = "Nid ydych wedi eich mewngofnodi i'ch Cyfrif Beacon.";
 
 /* Navigation bar button to Send the current page to a device */
 "SendTo.SendAction.Text" = "Anfon";
 
-/* The text for the button on the Send to Device page if you are not signed in to Impervious Accounts. */
-"SendTo.SignIn.Button" = "Mewngofnodi i Impervious";
+/* The text for the button on the Send to Device page if you are not signed in to Beacon Accounts. */
+"SendTo.SignIn.Button" = "Mewngofnodi i Beacon";
 
 /* Body of notification shown when the device is sent one or more tabs from an unnamed device. */
 "SentTab_TabArrivingNotification_NoDevice_body" = "Cyrhaeddodd tab newydd o ddyfais arall.";
@@ -1196,7 +1196,7 @@
 "SentTab.NoTabArrivingNotification.body" = "Tapio i gychwyn";
 
 /* Title of notification received after a spurious message from FxA has been received. */
-"SentTab.NoTabArrivingNotification.title" = "Impervious Sync";
+"SentTab.NoTabArrivingNotification.title" = "Beacon Sync";
 
 /* Label for an action used to view one or more tabs from a notification. */
 "SentTab.ViewAction.title" = "Golwg";
@@ -1259,7 +1259,7 @@
 "Settings.DataManagement.Title" = "Rheoli Data";
 
 /* Body of the alert when prompting the user asking to disconnect. */
-"Settings.Disconnect.Body" = "Bydd Impervious yn peidio cydweddu eich cyfrif ond ni fydd yn dileu eich data pori ar y ddyfais hon.";
+"Settings.Disconnect.Body" = "Bydd Beacon yn peidio cydweddu eich cyfrif ond ni fydd yn dileu eich data pori ar y ddyfais hon.";
 
 /* Button displayed at the bottom of settings page allowing users to Disconnect from FxA */
 "Settings.Disconnect.Button" = "Datgysylltu Sync";
@@ -1328,11 +1328,11 @@
 /* Label used for the device name settings section. */
 "Settings.FxA.DeviceName" = "Enw Dyfais";
 
-/* Label used as a section title in the Impervious Accounts Settings screen. */
+/* Label used as a section title in the Beacon Accounts Settings screen. */
 "Settings.FxA.Sync.SectionName" = "Gosodiadau Sync";
 
 /* Title displayed in header of the FxA settings panel. */
-"Settings.FxA.Title" = "Cyfrif Impervious";
+"Settings.FxA.Title" = "Cyfrif Beacon";
 
 /* General settings section title */
 "Settings.General.SectionName" = "Cyffredinol";
@@ -1386,10 +1386,10 @@
 "Settings.NewTab.Option.CustomizeFooter2" = "Gwefannau rydych yn eu cadw neu'n ymweld â nhw";
 
 /* The title for the section to customize top sites in the new tab settings page. */
-"Settings.NewTab.Option.CustomizeTitle" = "Cyfaddasu Cartref Impervious";
+"Settings.NewTab.Option.CustomizeTitle" = "Cyfaddasu Cartref Beacon";
 
-/* Option in settings to show Impervious Home when you open a new tab */
-"Settings.NewTab.Option.FirefoxHome" = "Cartref Impervious";
+/* Option in settings to show Beacon Home when you open a new tab */
+"Settings.NewTab.Option.FirefoxHome" = "Cartref Beacon";
 
 /* Option in the settings to turn off recent bookmarks in the Highlights section */
 "Settings.NewTab.Option.HighlightsBookmarks" = "Nodau Tudalen Diweddar";
@@ -1431,7 +1431,7 @@
 "Settings.NewTab.TopSectionNameFooter" = "Dewis beth i'w lwytho wrth agor tab newydd";
 
 /* Description displayed under the ”Offer to Open Copied Link” option. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
-"Settings.OfferClipboardBar.Status" = "Wrth Agor Impervious";
+"Settings.OfferClipboardBar.Status" = "Wrth Agor Beacon";
 
 /* Title of setting to enable the Go to Copied URL feature. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
 "Settings.OfferClipboardBar.Title" = "Cynnig Agor Dolenni Wedi'u Copïo";
@@ -1455,7 +1455,7 @@
 "Settings.SendUsage.Link" = "Dysgu Rhagor.";
 
 /* A short description that explains why mozilla collects usage data. */
-"Settings.SendUsage.Message" = "Mae Impervious'n ceisio casglu dim ond yr hyn sydd ei angen arnom i ddarparu a gwella Impervious ar gyfer pawb.";
+"Settings.SendUsage.Message" = "Mae Beacon'n ceisio casglu dim ond yr hyn sydd ei angen arnom i ddarparu a gwella Beacon ar gyfer pawb.";
 
 /* The title for the setting to send usage data. */
 "Settings.SendUsage.Title" = "Anfon Data Defnydd";
@@ -1473,7 +1473,7 @@
 "Settings.Siri.OpenTabShortcut" = "Agor Tab Newydd";
 
 /* The description that describes what siri shortcuts are */
-"Settings.Siri.SectionDescription" = "Defnyddio llwybrau byr Siri ni agor Impervious yn sydyn drwy Siri";
+"Settings.Siri.SectionDescription" = "Defnyddio llwybrau byr Siri ni agor Beacon yn sydyn drwy Siri";
 
 /* The option that takes you to the siri shortcuts settings page */
 "Settings.Siri.SectionName" = "Llwybrau Byr Siri";
@@ -1493,11 +1493,11 @@
 /* Label used as an item in Settings. Tapping on this item takes you to the Studies panel */
 "Settings.Studies.Title" = "Astudiaethau";
 
-/* Title for a link that explains what Impervious means by Studies */
+/* Title for a link that explains what Beacon means by Studies */
 "Settings.Studies.Toggle.Link" = "Dysgu Rhagor.";
 
-/* A short description that explains that Impervious is running studies */
-"Settings.Studies.Toggle.Message" = "Gall Impervious osod a rhedeg astudiaethau o bryd i'w gilydd.";
+/* A short description that explains that Beacon is running studies */
+"Settings.Studies.Toggle.Message" = "Gall Beacon osod a rhedeg astudiaethau o bryd i'w gilydd.";
 
 /* Toggled OFF to opt-out of studies */
 "Settings.Studies.Toggle.Off" = "Diffodd";
@@ -1518,7 +1518,7 @@
 "Settings.TrackingProtection.Alert.Title" = "Rhybudd!";
 
 /* Header description for tracking protection options section where Basic/Strict block list can be selected */
-"Settings.TrackingProtection.BlockListsHeader" = "Gallwch ddewis pa restr fydd Impervious yn ei ddefnyddio i rwystro elfennau Gwe gall fod yn tracio eich gweithgaredd pori.";
+"Settings.TrackingProtection.BlockListsHeader" = "Gallwch ddewis pa restr fydd Beacon yn ei ddefnyddio i rwystro elfennau Gwe gall fod yn tracio eich gweithgaredd pori.";
 
 /* Explanation of basic mode. */
 "Settings.TrackingProtection.Info.BasicTitle" = "Cytbwys ar gyfer diogelu a pherfformiad.";
@@ -1613,32 +1613,32 @@
 /* Title displayed in header of the Data Management panel. */
 "Settings.WebsiteData.Title" = "Data Gwefan";
 
-/* Action label on share extension to add page to the Impervious reading list. */
+/* Action label on share extension to add page to the Beacon reading list. */
 "ShareExtension.AddToReadingListAction.Title" = "Ychwanegu at y Rhestr Ddarllen";
 
 /* Share extension label shown after user has performed 'Add to Reading List' action. */
 "ShareExtension.AddToReadingListActionDone.Title" = "Ychwanegwyd i'r Rhestr Ddarllen";
 
-/* Action label on share extension to bookmark the page in Impervious. */
+/* Action label on share extension to bookmark the page in Beacon. */
 "ShareExtension.BookmarkThisPageAction.Title" = "Gosod Nod Tudalen i'r Dudalen";
 
 /* Share extension label shown after user has performed 'Bookmark this Page' action. */
 "ShareExtension.BookmarkThisPageActionDone.Title" = "Nod Tudalen Wedi ei Osod";
 
-/* Action label on share extension to load the page in Impervious when user switches apps to bring it to foreground. */
+/* Action label on share extension to load the page in Beacon when user switches apps to bring it to foreground. */
 "ShareExtension.LoadInBackgroundAction.Title" = "Llwytho yn y Cefndir";
 
 /* Share extension label shown after user has performed 'Load in Background' action. */
-"ShareExtension.LoadInBackgroundActionDone.Title" = "Llwytho yn Impervious";
+"ShareExtension.LoadInBackgroundActionDone.Title" = "Llwytho yn Beacon";
 
-/* Action label on share extension to immediately open page in Impervious. */
-"ShareExtension.OpenInFirefoxAction.Title" = "Agor yn Impervious";
+/* Action label on share extension to immediately open page in Beacon. */
+"ShareExtension.OpenInFirefoxAction.Title" = "Agor yn Beacon";
 
-/* Action label on share extension to immediately open page in Impervious in private mode. */
+/* Action label on share extension to immediately open page in Beacon in private mode. */
 "ShareExtension.OpenInPrivateModeAction.Title" = "Agored yn y Modd Preifat";
 
-/* Action label on share extension to search for the selected text in Impervious. */
-"ShareExtension.SeachInFirefoxAction.Title" = "Chwilio yn Impervious";
+/* Action label on share extension to search for the selected text in Beacon. */
+"ShareExtension.SeachInFirefoxAction.Title" = "Chwilio yn Beacon";
 
 /* Label for show search suggestions setting. */
 "Show Search Suggestions" = "Dangos Awgrymiadau Chwilio";
@@ -1675,7 +1675,7 @@
 "Sync.FirstTimeMessage.Label" = "Gall eich cydweddiad cyntaf gymryd peth amser";
 
 /* String displayed on Sign In to Sync page that allows the user to create a new account. */
-"Sync.NoAccount.Description" = "Dim cyfrif? Crëwch un i gydweddu Impervious rhwng dyfeisiau.";
+"Sync.NoAccount.Description" = "Dim cyfrif? Crëwch un i gydweddu Beacon rhwng dyfeisiau.";
 
 /* Message displayed when the user's account is syncing with no ellipsis */
 "Sync.Syncing.Label" = "Cydweddu";
@@ -1794,7 +1794,7 @@
 /* The section header for tabs opened yesterday */
 "TabTray.Yesterday.Header" = "Ddoe";
 
-/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Beacon reader mode from another app. */
 "The page could not be displayed in Reader View." = "Nid oedd modd dangos y dudalen yn y Golwg Darllen.";
 
 /* Error message in the remote tabs panel */
@@ -1852,13 +1852,13 @@
 "UIMenuItem.PasteGo" = "Gludo a Mynd";
 
 /* Search in New Tab Text selection menu item */
-"UIMenuItem.SearchWithFirefox" = "Chwilio gyda Impervious";
+"UIMenuItem.SearchWithFirefox" = "Chwilio gyda Beacon";
 
 /* Accessibility label for unread article in reading list. It's a past participle - functions as an adjective. */
 "unread" = "heb ei ddarllen";
 
 /* Text message in the settings table view */
-"Upgrade Impervious to connect" = "Diweddarwch Impervious i gysylltu";
+"Upgrade Beacon to connect" = "Diweddarwch Beacon i gysylltu";
 
 /* Debug option */
 "Use stage servers" = "Defnyddio weinyddion llwyfan";
@@ -1869,7 +1869,7 @@
 /* Text message in the settings table view */
 "Verify your email address" = "Dilyswch eich cyfeiriad e-bost";
 
-/* Version number of Impervious shown in settings */
+/* Version number of Beacon shown in settings */
 "Version %@ (%@)" = "Fersiwn %1$@ (%2$@)";
 
 /* Accessibility label for the main web content view */
@@ -1891,7 +1891,7 @@
 "Yesterday" = "Ddoe";
 
 /* Error message in the remote tabs panel */
-"You don’t have any tabs open in Impervious on your other devices." = "Nid oes gennych unrhyw dabiau ar agor yn Impervious ar eich dyfeisiau eraill.";
+"You don’t have any tabs open in Beacon on your other devices." = "Nid oes gennych unrhyw dabiau ar agor yn Beacon ar eich dyfeisiau eraill.";
 
 /* Your Rights settings section title */
 "Your Rights" = "Eich Hawliau";

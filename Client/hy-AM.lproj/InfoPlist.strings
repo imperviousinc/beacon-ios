@@ -2,7 +2,7 @@
 "NSCameraUsageDescription" = "Սա հնարավորություն է տալիս ստանալ և վերբեռնել լուսանկարներ:";
 
 /* Privacy - Face ID Usage Description */
-"NSFaceIDUsageDescription" = "Ձեր պահված մուտքերը մուտք գործելու համար Impervious- ը պահանջում է Face ID:";
+"NSFaceIDUsageDescription" = "Ձեր պահված մուտքերը մուտք գործելու համար Beacon- ը պահանջում է Face ID:";
 
 /* This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this

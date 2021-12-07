@@ -22,8 +22,8 @@
 /* Quick Actions drop down menu item for new search when widget enters edit mode and drop down menu expands */
 "TodayWidget.DropDownMenuItemNewSearch" = "การค้นหาใหม่";
 
-/* Description for medium size widget to add Impervious Shortcut to home screen */
-"TodayWidget.FirefoxShortcutGalleryDescription" = "เพิ่มทางลัด Impervious ไปยังหน้าจอหลักของคุณ";
+/* Description for medium size widget to add Beacon Shortcut to home screen */
+"TodayWidget.FirefoxShortcutGalleryDescription" = "เพิ่มทางลัด Beacon ไปยังหน้าจอหลักของคุณ";
 
 /* Go to link pasted on the clipboard */
 "TodayWidget.GoToCopiedLinkLabelV1" = "ไปยังลิงก์ที่คัดลอก";
@@ -44,7 +44,7 @@
 "TodayWidget.NewPrivateTabButtonLabelV2" = "ค้นหาในแท็บส่วนตัว";
 
 /* Open New Tab button label */
-"TodayWidget.NewSearchButtonLabelV1" = "ค้นหาใน Impervious";
+"TodayWidget.NewSearchButtonLabelV1" = "ค้นหาใน Beacon";
 
 /* Open New Tab button label */
 "TodayWidget.NewTabButtonLabelV1" = "การค้นหาใหม่";
@@ -55,38 +55,38 @@
 /* Label that is shown when there are no tabs opened in tab tray i.e. Empty State */
 "TodayWidget.NoOpenTabsLabelV2" = "ไม่มีแท็บที่เปิดอยู่";
 
-/* Open Impervious when there are no tabs opened in tab tray i.e. Empty State */
-"TodayWidget.OpenFirefoxLabel" = "เปิด Impervious";
+/* Open Beacon when there are no tabs opened in tab tray i.e. Empty State */
+"TodayWidget.OpenFirefoxLabel" = "เปิด Beacon";
 
-/* Description for Impervious Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app. */
+/* Description for Beacon Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app. */
 "TodayWidget.PocketWidgetGalleryDescription" = "ค้นพบเรื่องราวที่น่าสนใจและกระตุ้นความคิดจากเว็บทั่วทุกมุมโลกที่ดูแลโดย Pocket";
 
-/* Sub label for medium size Impervious Pocket stories widge widget. Pocket is the name of another app. */
-"TodayWidget.PocketWidgetSubLabel" = "Impervious - แนะนำโดย Pocket";
+/* Sub label for medium size Beacon Pocket stories widge widget. Pocket is the name of another app. */
+"TodayWidget.PocketWidgetSubLabel" = "Beacon - แนะนำโดย Pocket";
 
-/* Title for Impervious Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app. */
+/* Title for Beacon Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app. */
 "TodayWidget.PocketWidgetTitle" = "แนะนำโดย Pocket";
 
 /* Open New Private Tab button label */
 "TodayWidget.PrivateTabButtonLabelV1" = "การค้นหาแบบส่วนตัว";
 
 /* Quick action description when widget enters edit mode */
-"TodayWidget.QuickActionDescription" = "เลือกทางลัด Impervious ที่ต้องการเพิ่มไปยังหน้าจอหลักของคุณ";
+"TodayWidget.QuickActionDescription" = "เลือกทางลัด Beacon ที่ต้องการเพิ่มไปยังหน้าจอหลักของคุณ";
 
 /* Quick Actions left label text for dropdown menu when widget enters edit mode */
 "TodayWidget.QuickActionDropDownMenu" = "การกระทำด่วน";
 
 /* Description for small size widget to add it to home screen */
-"TodayWidget.QuickActionGalleryDescription" = "เพิ่มทางลัด Impervious ลงในหน้าจอโฮมของคุณ หลังจากเพิ่มวิดเจ็ตแล้ว ให้แตะค้างไว้เพื่อแก้ไขและเลือกทางลัดอื่น";
+"TodayWidget.QuickActionGalleryDescription" = "เพิ่มทางลัด Beacon ลงในหน้าจอโฮมของคุณ หลังจากเพิ่มวิดเจ็ตแล้ว ให้แตะค้างไว้เพื่อแก้ไขและเลือกทางลัดอื่น";
 
 /* Quick Actions title when widget enters edit mode */
 "TodayWidget.QuickActionsGalleryTitle" = "การกระทำด่วน";
 
-/* Impervious shortcuts title when widget enters edit mode. Do not translate the word Impervious. */
-"TodayWidget.QuickActionsGalleryTitleV2" = "Impervious Shortcuts";
+/* Beacon shortcuts title when widget enters edit mode. Do not translate the word Beacon. */
+"TodayWidget.QuickActionsGalleryTitleV2" = "Beacon Shortcuts";
 
 /* Sub label for medium size quick action widget */
-"TodayWidget.QuickActionsSubLabel" = "Impervious - การกระทำด่วน";
+"TodayWidget.QuickActionsSubLabel" = "Beacon - การกระทำด่วน";
 
 /* Description for Quick View widget in Gallery View where user can add it to home screen */
 "TodayWidget.QuickViewGalleryDescription" = "เข้าถึงแท็บที่เปิดอยู่ของคุณได้โดยตรงบนหน้าจอโฮมของคุณ";
@@ -101,35 +101,35 @@
 "TodayWidget.QuickViewLargeGalleryDescription" = "เพิ่มทางลัดไปยังแท็บที่เปิดอยู่ของคุณ";
 
 /* Sub label for Top Sites widget */
-"TodayWidget.QuickViewOpenTabsSubLabel" = "Impervious - แท็บที่เปิดอยู่";
+"TodayWidget.QuickViewOpenTabsSubLabel" = "Beacon - แท็บที่เปิดอยู่";
 
-/* Title for small size widget which allows users to search in Impervious. Do not translate the word Impervious. */
-"TodayWidget.SearchInFirefoxTitle" = "ค้นหาใน Impervious";
+/* Title for small size widget which allows users to search in Beacon. Do not translate the word Beacon. */
+"TodayWidget.SearchInFirefoxTitle" = "ค้นหาใน Beacon";
 
-/* Search in Impervious. Do not translate the word Impervious */
-"TodayWidget.SearchInFirefoxV2" = "ค้นหาใน Impervious";
+/* Search in Beacon. Do not translate the word Beacon */
+"TodayWidget.SearchInFirefoxV2" = "ค้นหาใน Beacon";
 
 /* Search in private tab */
 "TodayWidget.SearchInPrivateTabLabelV2" = "ค้นหาในแท็บส่วนตัว";
 
-/* Description for top sites widget to add Impervious top sites shotcuts to home screen */
+/* Description for top sites widget to add Beacon top sites shotcuts to home screen */
 "TodayWidget.TopSitesGalleryDescription" = "เพิ่มทางลัดไปยังไซต์ที่เข้าชมบ่อยและล่าสุด";
 
-/* Title for top sites widget to add Impervious top sites shotcuts to home screen */
+/* Title for top sites widget to add Beacon top sites shotcuts to home screen */
 "TodayWidget.TopSitesGalleryTitle" = "ไซต์เด่น";
 
-/* Title for top sites widget to add Impervious top sites shotcuts to home screen */
+/* Title for top sites widget to add Beacon top sites shotcuts to home screen */
 "TodayWidget.TopSitesGalleryTitleV2" = "ทางลัดเว็บไซต์";
 
 /* Sub label for Top Sites widget */
-"TodayWidget.TopSitesSubLabel" = "Impervious - ไซต์เด่น";
+"TodayWidget.TopSitesSubLabel" = "Beacon - ไซต์เด่น";
 
 /* Sub label for Shortcuts widget */
-"TodayWidget.TopSitesSubLabel2" = "Impervious - คำสั่งลัดเว็บไซต์";
+"TodayWidget.TopSitesSubLabel2" = "Beacon - คำสั่งลัดเว็บไซต์";
 
 /* View More for Quick View widget in Gallery View where we don't know how many tabs might be opened */
 "TodayWidget.ViewMore" = "ดูเพิ่มเติม";
 
-/* View More… for Impervious Pocket stories widget where we don't know how many articles are available. */
+/* View More… for Beacon Pocket stories widget where we don't know how many articles are available. */
 "TodayWidget.ViewMoreDots" = "ดูเพิ่มเติม…";
 

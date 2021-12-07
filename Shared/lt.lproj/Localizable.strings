@@ -270,7 +270,7 @@
 "Could not load page." = "Nepavyko įkelti tinklalapio.";
 
 /* Description for the new dark mode change in the version 22 app release. It describes the new automatic dark theme and how to change the theme settings. */
-"CoverSheet.v22.DarkMode.Description" = "Turintiems „iOS“ 13, „Firefox“ automatiškai naudos tamsų grafinį apvalkalą, jei telefone įjungta tamsioji veiksena. Norėdami tai pakeisti, eikite į „Nuostatos“ > „Grafinis apvalkalas“.";
+"CoverSheet.v22.DarkMode.Description" = "Turintiems „iOS“ 13, „Beacon“ automatiškai naudos tamsų grafinį apvalkalą, jei telefone įjungta tamsioji veiksena. Norėdami tai pakeisti, eikite į „Nuostatos“ > „Grafinis apvalkalas“.";
 
 /* Title for the new dark mode change in the version 22 app release. */
 "CoverSheet.v22.DarkMode.Title" = "Tamsus grafinis apvalkalas dabar naudoja tamsią klaviatūrą bei tamsų paleidimo ekraną.";
@@ -325,8 +325,8 @@
 /* Alert dialog title when the user taps the cancel download icon. */
 "Downloads.CancelDialog.Title" = "Atsisakyti atsiuntimo";
 
-/* The message displayed to a user when they try and perform the download of an asset that Impervious cannot currently handle. */
-"Downloads.Error.Message" = "Atsiuntimų „Firefox“ dar nepalaiko.";
+/* The message displayed to a user when they try and perform the download of an asset that Beacon cannot currently handle. */
+"Downloads.Error.Message" = "Atsiuntimų „Beacon“ dar nepalaiko.";
 
 /* The label text in the Download Cancelled toast for showing confirmation that the download was cancelled. */
 "Downloads.Toast.Cancelled.LabelText" = "Atsiuntimas nutrauktas";
@@ -371,7 +371,7 @@
 "ErrorPages.AdvancedWarning2.Text" = "Taip gali būti dėl netinkamos konfigūracijos arba piktavalio „kišamų nagų“. Tęskite, jei sutinkate su galima rizika.";
 
 /* Warning text on the certificate error page */
-"ErrorPages.CertWarning.Description" = "%@ savininkas netinkamai sukonfigūravo savo svetainę. „Firefox“ nesijungė prie šios svetainės, kad apsaugotų jūsų duomenis nuo perėmimo.";
+"ErrorPages.CertWarning.Description" = "%@ savininkas netinkamai sukonfigūravo savo svetainę. „Beacon“ nesijungė prie šios svetainės, kad apsaugotų jūsų duomenis nuo perėmimo.";
 
 /* Title on the certificate error page */
 "ErrorPages.CertWarning.Title" = "Šis ryšys nepatikimas";
@@ -392,7 +392,7 @@
 "Facebook" = "Facebook";
 
 /* Title for firefox about:home page in tab history list */
-"Firefox.HomePage.Title" = "„Firefox“ pradžios tinklalapis";
+"Beacon.HomePage.Title" = "„Beacon“ pradžios tinklalapis";
 
 /* Accessibility Label for the tab toolbar Forward button */
 "Forward" = "Pirmyn";
@@ -403,16 +403,16 @@
 /* Label stating your account is not verified */
 "FxA.AccountVerificationRequired" = "Reikalingas paskyros patvirtinimas";
 
-/* Message explaining that user needs to check email for Impervious Account verfication link. */
-"FxA.AccountVerificationRequiredSurface" = "Jūs turite patvirtinti %@. Savo el. pašte ieškokite patvirtinimo nuorodos iš „Firefox“.";
+/* Message explaining that user needs to check email for Beacon Account verfication link. */
+"FxA.AccountVerificationRequiredSurface" = "Jūs turite patvirtinti %@. Savo el. pašte ieškokite patvirtinimo nuorodos iš „Beacon“.";
 
 /* Button label to connect another device to Sync */
 "FxA.ConnectAnotherDevice" = "Susieti kitą įrenginį";
 
-/* Settings section title for Impervious Account */
-"FxA.FirefoxAccount" = "„Firefox“ paskyra";
+/* Settings section title for Beacon Account */
+"FxA.FirefoxAccount" = "„Beacon“ paskyra";
 
-/* Button label to go to Impervious Account settings */
+/* Button label to go to Beacon Account settings */
 "FxA.ManageAccount" = "Tvarkyti paskyrą ir įrenginius";
 
 /* Label when no internet is present */
@@ -428,7 +428,7 @@
 "FxA.RemoveAccount" = "Pašalinti";
 
 /* Description string for alert view that gets presented when user tries to remove an account. */
-"FxA.RemoveAccountAlertMessage" = "Pašalinti su šiuo įrenginiu susietą „Firefox“ paskyrą, kad būtų galima prisijungti su kitu naudotoju.";
+"FxA.RemoveAccountAlertMessage" = "Pašalinti su šiuo įrenginiu susietą „Beacon“ paskyrą, kad būtų galima prisijungti su kitu naudotoju.";
 
 /* Remove account alert is the final confirmation before user removes their firefox account */
 "FxA.RemoveAccountAlertTitle" = "Pašalinti paskyrą";
@@ -440,13 +440,13 @@
 "fxa.signin.camera-signin" = "Prisijunkite su savo kamera";
 
 /* FxA sign in create account label. */
-"fxa.signin.create-account-pt-1" = "Sinchronizuokite „Firefox“ tarp įrenginių su paskyra.";
+"fxa.signin.create-account-pt-1" = "Sinchronizuokite „Beacon“ tarp įrenginių su paskyra.";
 
 /* FxA sign in create account label. This will be linked to the site to create an account. */
-"fxa.signin.create-account-pt-2" = "Susikurkite „Firefox“ paskyrą.";
+"fxa.signin.create-account-pt-2" = "Susikurkite „Beacon“ paskyrą.";
 
 /* FxA sign in view qr code instructions */
-"fxa.signin.qr-link-instruction" = "Atverkite „Firefox“ savo kompiuteryje, ir eikite į firefox.com/pair";
+"fxa.signin.qr-link-instruction" = "Atverkite „Beacon“ savo kompiuteryje, ir eikite į firefox.com/pair";
 
 /* FxA sign in view qr code scan button */
 "fxa.signin.ready-to-scan" = "Pasiruošti nuskaitymui";
@@ -463,14 +463,14 @@
 /* Label explaining what sync does */
 "FxA.SyncExplain" = "Gaukite korteles, adresyną bei slaptažodžius iš kitų savo įrenginių.";
 
-/* Button label to Sync your Impervious Account */
+/* Button label to Sync your Beacon Account */
 "FxA.SyncNow" = "Sinchronizuoti dabar";
 
 /* Call to action for sign into sync button */
 "FxA.TakeYourWebWithYou" = "Pasiimkite savo saityną kartu";
 
 /* Title of a notification displayed when another device has connected to FxA. %@ refers to the name of the newly connected device. */
-"FxAPush_DeviceConnected_body" = "„Impervious Sync“ prisijungė prie „%@“";
+"FxAPush_DeviceConnected_body" = "„Beacon Sync“ prisijungė prie „%@“";
 
 /* Title of a notification displayed when another device has connected to FxA. */
 "FxAPush_DeviceConnected_title" = "„Sync“ prisijungė";
@@ -479,7 +479,7 @@
 "FxAPush_DeviceDisconnected_body" = "„%@“ buvo sėkmingai atjungtas.";
 
 /* Body of a notification displayed when this device has been disconnected from FxA by another device. */
-"FxAPush_DeviceDisconnected_ThisDevice_body" = "Šis įrenginys buvo sėkmingai atjungtas nuo „Impervious Sync“.";
+"FxAPush_DeviceDisconnected_ThisDevice_body" = "Šis įrenginys buvo sėkmingai atjungtas nuo „Beacon Sync“.";
 
 /* Title of a notification displayed when this device has been disconnected by another device. */
 "FxAPush_DeviceDisconnected_ThisDevice_title" = "„Sync“ atsijungė";
@@ -488,7 +488,7 @@
 "FxAPush_DeviceDisconnected_title" = "„Sync“ atsijungė";
 
 /* Body of a notification displayed when unnamed device has been disconnected from FxA. */
-"FxAPush_DeviceDisconnected_UnknownDevice_body" = "Įrenginys buvo atjungtas nuo „Impervious Sync“";
+"FxAPush_DeviceDisconnected_UnknownDevice_body" = "Įrenginys buvo atjungtas nuo „Beacon Sync“";
 
 /* A re-worded offer about Sync, displayed when the Sync home panel is empty, that emphasizes one-way data transfer, not syncing. */
 "Get your open tabs, bookmarks, and passwords from your other devices." = "Gaukite atviras korteles, adresyną bei slaptažodžius iš kitų savo įrenginių.";
@@ -536,7 +536,7 @@
 "HistoryPanel.EmptySyncedTabsPanelTabSyncDisabledState.Description" = "Įjunkite kortelių sinchronizavimą, norėdami peržiūrėti kituose įrenginiuose esančias korteles.";
 
 /* Title for the empty synced tabs state in the History Panel */
-"HistoryPanel.EmptySyncedTabsState.Title" = "„Impervious Sync“";
+"HistoryPanel.EmptySyncedTabsState.Title" = "„Beacon Sync“";
 
 /* Title for the Back to History button in the History Panel */
 "HistoryPanel.HistoryBackButton.Title" = "Žurnalas";
@@ -640,10 +640,10 @@
 /* Light theme setting in Reading View settings */
 "Light" = "Šviesi";
 
-/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Beacon reader mode from another app. */
 "Load original page" = "Įkelti pirminį tinklalapį";
 
-/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Beacon reader mode from another app. */
 "Loading content…" = "Įkeliamas turinys…";
 
 /* Authentication prompt log in button */
@@ -698,7 +698,7 @@
 "LoginsList.LoginsListSearchPlaceholder" = "Filtras";
 
 /* Label shown when there are no logins to list */
-"LoginsList.NoLoginsFound.Description" = "Įrašyti prisijungimai atsiras čia. Jei įrašėte prisijungimus su „Firefox“ kitame įrenginyje, prisijunkite prie savo „Firefox“ paskyros.";
+"LoginsList.NoLoginsFound.Description" = "Įrašyti prisijungimai atsiras čia. Jei įrašėte prisijungimus su „Beacon“ kitame įrenginyje, prisijunkite prie savo „Beacon“ paskyros.";
 
 /* Label that appears after the search if there are no logins matching the search */
 "LoginsList.NoMatchingResult.Subtitle" = "Nėra jūsų paiešką atitinkančių rezultatų.";
@@ -719,7 +719,7 @@
 "LoginsList.Title" = "ĮRAŠYTI PRISIJUNGIMAI";
 
 /* Restore Tabs Prompt Description */
-"Looks like Impervious crashed previously. Would you like to restore your tabs?" = "Panašu, kad „Firefox“ praėjusį kartą užstrigo. Ar norite atkurti savo korteles?";
+"Looks like Beacon crashed previously. Would you like to restore your tabs?" = "Panašu, kad „Beacon“ praėjusį kartą užstrigo. Ar norite atkurti savo korteles?";
 
 /* Name for Mark as read button in reader mode
    Title for the button that marks a reading list item as read */
@@ -763,10 +763,10 @@
 "Menu.EnhancedTrackingProtectionOn.Title" = "Išplėsta apsauga nuo stebėjimo šioje svetainėje įjungta.";
 
 /* Description for having standard ETP protection with ITP offered in iOS14+ */
-"Menu.EnhancedTrackingProtectionStandardWithITP.Title" = "„Firefox“ blokuoja tarp svetainių veikiančius stebėjimo elementus, soc. tinklų stebėjimo elementus, kriptovaliutų kasėjus, ir skaitmeninių atspaudų stebėjimą.";
+"Menu.EnhancedTrackingProtectionStandardWithITP.Title" = "„Beacon“ blokuoja tarp svetainių veikiančius stebėjimo elementus, soc. tinklų stebėjimo elementus, kriptovaliutų kasėjus, ir skaitmeninių atspaudų stebėjimą.";
 
 /* Description for having strict ETP protection with ITP offered in iOS14+ */
-"Menu.EnhancedTrackingProtectionStrictWithITP.Title" = "„Firefox“ blokuoja tarp svetainių veikiančius stebėjimo elementus, soc. tinklų stebėjimo elementus, kriptovaliutų kasėjus, skaitmeninių atspaudų stebėjimą, ir stebėjimui naudojamas turinį.";
+"Menu.EnhancedTrackingProtectionStrictWithITP.Title" = "„Beacon“ blokuoja tarp svetainių veikiančius stebėjimo elementus, soc. tinklų stebėjimo elementus, kriptovaliutų kasėjus, skaitmeninių atspaudų stebėjimą, ir stebėjimui naudojamas turinį.";
 
 /* Label for the button, displayed in the menu, takes you to to History screen when pressed. */
 "Menu.History.Label" = "Žurnalas";
@@ -829,7 +829,7 @@
 "Menu.TrackingProtection.BlockedTitle" = "Užblokuota";
 
 /* Message in menu when no trackers blocked. */
-"Menu.TrackingProtection.NoTrackersBlockedTitle" = "Tinklalapyje nerasta „Firefox“ žinomų stebėjimo elementų.";
+"Menu.TrackingProtection.NoTrackersBlockedTitle" = "Tinklalapyje nerasta „Beacon“ žinomų stebėjimo elementų.";
 
 /* The title for tracking protection settings */
 "Menu.TrackingProtection.ProtectionSettings.Title" = "Apsaugos nuostatos";
@@ -844,7 +844,7 @@
 "Menu.TrackingProtectionBlockedSocial.Title" = "Socialiniai stebėjimo elementai";
 
 /* Description of the Tracking protection menu when TP is blocking parts of the page */
-"Menu.TrackingProtectionBlocking.Description" = "„Firefox“ blokuoja jūsų naršymą galinčias stebėti šio tinklalapio dalis.";
+"Menu.TrackingProtectionBlocking.Description" = "„Beacon“ blokuoja jūsų naršymą galinčias stebėti šio tinklalapio dalis.";
 
 /* The description of the Tracking Protection menu item when tracking is enabled */
 "Menu.TrackingProtectionBlockingDisabled.Description" = "Blokuoti stebėjimo elementus";
@@ -947,7 +947,7 @@
 "Okay" = "Gerai";
 
 /* Title for prompt displayed to user after the app crashes */
-"Oops! Impervious crashed" = "Oi! „Firefox“ užstrigo";
+"Oops! Beacon crashed" = "Oi! „Beacon“ užstrigo";
 
 /* See http://mzl.la/1LXbDOL */
 "Open articles in Reader View by tapping the book icon when it appears in the title bar." = "Atverkite straipsnius skaitymo veiksenoje, bakstelėdami knygos piktogramą, pasirodančią antraštės juostoje.";
@@ -958,8 +958,8 @@
 /* Toggle tabs syncing setting */
 "Open Tabs" = "Atvertos kortelės";
 
-/* The message displayed to a user when they try to open a URL that cannot be handled by Impervious, or any external app. */
-"OpenURL.Error.Message" = "„Firefox“ negali atverti nurodyto tinklalapio, nes jo adresas nėra tinkamas.";
+/* The message displayed to a user when they try to open a URL that cannot be handled by Beacon, or any external app. */
+"OpenURL.Error.Message" = "„Beacon“ negali atverti nurodyto tinklalapio, nes jo adresas nėra tinkamas.";
 
 /* Title of the message shown when the user attempts to navigate to an invalid link. */
 "OpenURL.Error.Title" = "Nepavyko atverti tinklalapio.";
@@ -974,19 +974,19 @@
 "Password" = "Slaptažodis";
 
 /* Error message shown in the remote tabs panel */
-"PasswordAutoFill.NoPasswordsFoundTitle" = "Jūs neturite jokių iš savo „Firefox“ paskyros sinchronizuotų prisijungimų duomenų";
+"PasswordAutoFill.NoPasswordsFoundTitle" = "Jūs neturite jokių iš savo „Beacon“ paskyros sinchronizuotų prisijungimų duomenų";
 
 /* Header for the list of credentials table */
 "PasswordAutoFill.PasswordsListTitle" = "Galimi prisijungimai:";
 
 /* Title of the extension that shows firefox passwords */
-"PasswordAutoFill.SectionTitle" = "„Firefox“ prisijungimai";
+"PasswordAutoFill.SectionTitle" = "„Beacon“ prisijungimai";
 
 /* See http://mzl.la/1G7uHo7 */
 "PhotoLibrary.FirefoxWouldLikeAccessMessage" = "Tai jums leis paveikslą įrašyti į „Camera Roll“.";
 
 /* See http://mzl.la/1G7uHo7 */
-"PhotoLibrary.FirefoxWouldLikeAccessTitle" = "„Firefox“ prašo prieigos prie jūsų nuotraukų";
+"PhotoLibrary.FirefoxWouldLikeAccessTitle" = "„Beacon“ prašo prieigos prie jūsų nuotraukų";
 
 /* Button for closing the menu action sheet */
 "PhotonMenu.close" = "Užverti";
@@ -994,7 +994,7 @@
 /* Privacy section title */
 "Privacy" = "Privatumas";
 
-/* Show Impervious Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
+/* Show Beacon Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
 "Privacy Policy" = "Privatumo nuostatai";
 
 /* Title for quick-search engines settings section. */
@@ -1061,7 +1061,7 @@
 "ScanQRCode.InvalidDataError.Message" = "Netinkami duomenys";
 
 /* Text of the prompt user to setup the camera authorization. */
-"ScanQRCode.PermissionError.Message" = "Prašome leisti „Firefox“ pasiekti jūsų įrenginio kamerą per „Nustatymai“ -> „Privatumas“ -> „Kamera“.";
+"ScanQRCode.PermissionError.Message" = "Prašome leisti „Beacon“ pasiekti jūsų įrenginio kamerą per „Nustatymai“ -> „Privatumas“ -> „Kamera“.";
 
 /* Title for the QR code scanner view. */
 "ScanQRCode.View.Title" = "Skenuoti QR kodą";
@@ -1117,7 +1117,7 @@
 "Secure connection" = "Saugus ryšys";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
-"Send a crash report so Impervious can fix the problem?" = "Siųsti strigties pranešimą, kad „Mozilla“ galėtų išspręsti problemą?";
+"Send a crash report so Beacon can fix the problem?" = "Siųsti strigties pranešimą, kad „Mozilla“ galėtų išspręsti problemą?";
 
 /* Menu item in settings used to open input.mozilla.org where people can submit feedback */
 "Send Feedback" = "Siųsti atsiliepimą";
@@ -1145,19 +1145,19 @@
 "SendTo.NavBar.Title" = "Nusiųsti kortelę";
 
 /* Error message shown in the remote tabs panel */
-"SendTo.NoDevicesFound.Message" = "Su šia „Firefox“ paskyra nesate susieję jokių kitų sinchronizuoti galinčių įrenginių.";
+"SendTo.NoDevicesFound.Message" = "Su šia „Beacon“ paskyra nesate susieję jokių kitų sinchronizuoti galinčių įrenginių.";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Message" = "Jei norite tęsti, atverkite „Firefox“, eikite į nuostatas ir prisijunkite.";
+"SendTo.NotSignedIn.Message" = "Jei norite tęsti, atverkite „Beacon“, eikite į nuostatas ir prisijunkite.";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Title" = "Jūs nesate prisijungę prie savo „Firefox“ paskyros.";
+"SendTo.NotSignedIn.Title" = "Jūs nesate prisijungę prie savo „Beacon“ paskyros.";
 
 /* Navigation bar button to Send the current page to a device */
 "SendTo.SendAction.Text" = "Siųsti";
 
-/* The text for the button on the Send to Device page if you are not signed in to Impervious Accounts. */
-"SendTo.SignIn.Button" = "Prisijungti prie „Firefox“";
+/* The text for the button on the Send to Device page if you are not signed in to Beacon Accounts. */
+"SendTo.SignIn.Button" = "Prisijungti prie „Beacon“";
 
 /* Body of notification shown when the device is sent one or more tabs from an unnamed device. */
 "SentTab_TabArrivingNotification_NoDevice_body" = "Iš kito įrenginio atkeliavo nauja kortelė";
@@ -1181,7 +1181,7 @@
 "SentTab.NoTabArrivingNotification.body" = "Bakstelėkite pradėjimui";
 
 /* Title of notification received after a spurious message from FxA has been received. */
-"SentTab.NoTabArrivingNotification.title" = "Impervious Sync";
+"SentTab.NoTabArrivingNotification.title" = "Beacon Sync";
 
 /* Label for an action used to view one or more tabs from a notification. */
 "SentTab.ViewAction.title" = "Rodyti";
@@ -1244,7 +1244,7 @@
 "Settings.DataManagement.Title" = "Duomenų tvarkymas";
 
 /* Body of the alert when prompting the user asking to disconnect. */
-"Settings.Disconnect.Body" = "„Firefox“ nebesinchronizuos duomenų su jūsų paskyra, tačiau šiame įrenginyje esančių naršymo duomenų nepašalins.";
+"Settings.Disconnect.Body" = "„Beacon“ nebesinchronizuos duomenų su jūsų paskyra, tačiau šiame įrenginyje esančių naršymo duomenų nepašalins.";
 
 /* Button displayed at the bottom of settings page allowing users to Disconnect from FxA */
 "Settings.Disconnect.Button" = "Atjungti „Sync“";
@@ -1313,11 +1313,11 @@
 /* Label used for the device name settings section. */
 "Settings.FxA.DeviceName" = "Įrenginio pavadinimas";
 
-/* Label used as a section title in the Impervious Accounts Settings screen. */
+/* Label used as a section title in the Beacon Accounts Settings screen. */
 "Settings.FxA.Sync.SectionName" = "Sinchronizavimo nuostatos";
 
 /* Title displayed in header of the FxA settings panel. */
-"Settings.FxA.Title" = "„Firefox“ paskyra";
+"Settings.FxA.Title" = "„Beacon“ paskyra";
 
 /* General settings section title */
 "Settings.General.SectionName" = "Bendrosios";
@@ -1371,10 +1371,10 @@
 "Settings.NewTab.Option.CustomizeFooter2" = "Jūsų įrašytos arba lankomos svetainės";
 
 /* The title for the section to customize top sites in the new tab settings page. */
-"Settings.NewTab.Option.CustomizeTitle" = "„Firefox“ pradžios tinklalapio individualizavimas";
+"Settings.NewTab.Option.CustomizeTitle" = "„Beacon“ pradžios tinklalapio individualizavimas";
 
-/* Option in settings to show Impervious Home when you open a new tab */
-"Settings.NewTab.Option.FirefoxHome" = "„Firefox“ pradžios tinklalapis";
+/* Option in settings to show Beacon Home when you open a new tab */
+"Settings.NewTab.Option.FirefoxHome" = "„Beacon“ pradžios tinklalapis";
 
 /* Option in the settings to turn off recent bookmarks in the Highlights section */
 "Settings.NewTab.Option.HighlightsBookmarks" = "Paskiausi adresyno įrašai";
@@ -1416,7 +1416,7 @@
 "Settings.NewTab.TopSectionNameFooter" = "Pasirinkite, ką įkelti atveriant naują kortelę";
 
 /* Description displayed under the ”Offer to Open Copied Link” option. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
-"Settings.OfferClipboardBar.Status" = "Kai atveriama „Firefox“";
+"Settings.OfferClipboardBar.Status" = "Kai atveriama „Beacon“";
 
 /* Title of setting to enable the Go to Copied URL feature. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
 "Settings.OfferClipboardBar.Title" = "Siūlyti atverti nukopijuotus saitus";
@@ -1440,7 +1440,7 @@
 "Settings.SendUsage.Link" = "Sužinoti daugiau.";
 
 /* A short description that explains why mozilla collects usage data. */
-"Settings.SendUsage.Message" = "„Mozilla“ siekia rinkti tik tai, ko reikia norint pagerinti „Firefox“ visiems.";
+"Settings.SendUsage.Message" = "„Mozilla“ siekia rinkti tik tai, ko reikia norint pagerinti „Beacon“ visiems.";
 
 /* The title for the setting to send usage data. */
 "Settings.SendUsage.Title" = "Siųsti naudojimo duomenis";
@@ -1458,7 +1458,7 @@
 "Settings.Siri.OpenTabShortcut" = "Atverti naują kortelę";
 
 /* The description that describes what siri shortcuts are */
-"Settings.Siri.SectionDescription" = "Naudoti „Siri“ leistukus norint greitai atverti „Firefox“";
+"Settings.Siri.SectionDescription" = "Naudoti „Siri“ leistukus norint greitai atverti „Beacon“";
 
 /* The option that takes you to the siri shortcuts settings page */
 "Settings.Siri.SectionName" = "„Siri“ leistukai";
@@ -1478,11 +1478,11 @@
 /* Label used as an item in Settings. Tapping on this item takes you to the Studies panel */
 "Settings.Studies.Title" = "Tyrimai";
 
-/* Title for a link that explains what Impervious means by Studies */
+/* Title for a link that explains what Beacon means by Studies */
 "Settings.Studies.Toggle.Link" = "Sužinoti daugiau.";
 
-/* A short description that explains that Impervious is running studies */
-"Settings.Studies.Toggle.Message" = "„Firefox“ retkarčiais gali įdiegti ir vykdyti tyrimus.";
+/* A short description that explains that Beacon is running studies */
+"Settings.Studies.Toggle.Message" = "„Beacon“ retkarčiais gali įdiegti ir vykdyti tyrimus.";
 
 /* Toggled OFF to opt-out of studies */
 "Settings.Studies.Toggle.Off" = "Išjungta";
@@ -1503,7 +1503,7 @@
 "Settings.TrackingProtection.Alert.Title" = "Dėmesio!";
 
 /* Header description for tracking protection options section where Basic/Strict block list can be selected */
-"Settings.TrackingProtection.BlockListsHeader" = "Galite pasirinkti, kurį sąrašą „Firefox“ naudos blokavimui saityno elementų, kurie gali sekti jūsų veiklą internete.";
+"Settings.TrackingProtection.BlockListsHeader" = "Galite pasirinkti, kurį sąrašą „Beacon“ naudos blokavimui saityno elementų, kurie gali sekti jūsų veiklą internete.";
 
 /* Explanation of basic mode. */
 "Settings.TrackingProtection.Info.BasicTitle" = "Subalansuota apsauga ir našumas.";
@@ -1598,32 +1598,32 @@
 /* Title displayed in header of the Data Management panel. */
 "Settings.WebsiteData.Title" = "Svetainių duomenys";
 
-/* Action label on share extension to add page to the Impervious reading list. */
+/* Action label on share extension to add page to the Beacon reading list. */
 "ShareExtension.AddToReadingListAction.Title" = "Įtraukti į skaitinių sąrašą";
 
 /* Share extension label shown after user has performed 'Add to Reading List' action. */
 "ShareExtension.AddToReadingListActionDone.Title" = "Įtraukta į skaitinių sąrašą";
 
-/* Action label on share extension to bookmark the page in Impervious. */
+/* Action label on share extension to bookmark the page in Beacon. */
 "ShareExtension.BookmarkThisPageAction.Title" = "Įrašyti į adresyną";
 
 /* Share extension label shown after user has performed 'Bookmark this Page' action. */
 "ShareExtension.BookmarkThisPageActionDone.Title" = "Adresyne";
 
-/* Action label on share extension to load the page in Impervious when user switches apps to bring it to foreground. */
+/* Action label on share extension to load the page in Beacon when user switches apps to bring it to foreground. */
 "ShareExtension.LoadInBackgroundAction.Title" = "Įkelti fone";
 
 /* Share extension label shown after user has performed 'Load in Background' action. */
-"ShareExtension.LoadInBackgroundActionDone.Title" = "Įkeliama per „Firefox“";
+"ShareExtension.LoadInBackgroundActionDone.Title" = "Įkeliama per „Beacon“";
 
-/* Action label on share extension to immediately open page in Impervious. */
-"ShareExtension.OpenInFirefoxAction.Title" = "Atverti per „Firefox“";
+/* Action label on share extension to immediately open page in Beacon. */
+"ShareExtension.OpenInFirefoxAction.Title" = "Atverti per „Beacon“";
 
-/* Action label on share extension to immediately open page in Impervious in private mode. */
+/* Action label on share extension to immediately open page in Beacon in private mode. */
 "ShareExtension.OpenInPrivateModeAction.Title" = "Atverti privačiojoje kortelėje";
 
-/* Action label on share extension to search for the selected text in Impervious. */
-"ShareExtension.SeachInFirefoxAction.Title" = "Ieškoti per „Firefox“";
+/* Action label on share extension to search for the selected text in Beacon. */
+"ShareExtension.SeachInFirefoxAction.Title" = "Ieškoti per „Beacon“";
 
 /* Label for show search suggestions setting. */
 "Show Search Suggestions" = "Rodyti paieškos žodžių siūlymus";
@@ -1660,7 +1660,7 @@
 "Sync.FirstTimeMessage.Label" = "Jūsų pirmas sinchronizavimas gali užtrukti";
 
 /* String displayed on Sign In to Sync page that allows the user to create a new account. */
-"Sync.NoAccount.Description" = "Neturite paskyros? Susikurkite, norėdami sinchronizuoti „Firefox“ tarp įrenginių.";
+"Sync.NoAccount.Description" = "Neturite paskyros? Susikurkite, norėdami sinchronizuoti „Beacon“ tarp įrenginių.";
 
 /* Message displayed when the user's account is syncing with no ellipsis */
 "Sync.Syncing.Label" = "Sinchronizuojama";
@@ -1779,7 +1779,7 @@
 /* The section header for tabs opened yesterday */
 "TabTray.Yesterday.Header" = "Vakar";
 
-/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Beacon reader mode from another app. */
 "The page could not be displayed in Reader View." = "Šio tinklalapio atvaizduoti skaitymo veiksenoje nepavyko.";
 
 /* Error message in the remote tabs panel */
@@ -1837,13 +1837,13 @@
 "UIMenuItem.PasteGo" = "Įdėti ir atverti";
 
 /* Search in New Tab Text selection menu item */
-"UIMenuItem.SearchWithFirefox" = "Ieškoti per „Firefox“";
+"UIMenuItem.SearchWithFirefox" = "Ieškoti per „Beacon“";
 
 /* Accessibility label for unread article in reading list. It's a past participle - functions as an adjective. */
 "unread" = "neskaityta";
 
 /* Text message in the settings table view */
-"Upgrade Impervious to connect" = "Norėdami prisijungti, atnaujinkite „Firefox“";
+"Upgrade Beacon to connect" = "Norėdami prisijungti, atnaujinkite „Beacon“";
 
 /* Debug option */
 "Use stage servers" = "Naudoti bandomuosius serverius";
@@ -1854,7 +1854,7 @@
 /* Text message in the settings table view */
 "Verify your email address" = "Patvirtinkite el. pašto adresą";
 
-/* Version number of Impervious shown in settings */
+/* Version number of Beacon shown in settings */
 "Version %@ (%@)" = "Versija %1$@ (%2$@)";
 
 /* Accessibility label for the main web content view */
@@ -1876,7 +1876,7 @@
 "Yesterday" = "Vakar";
 
 /* Error message in the remote tabs panel */
-"You don’t have any tabs open in Impervious on your other devices." = "Kituose savo įrenginiuose su „Firefox“ neturite atvertų kortelių.";
+"You don’t have any tabs open in Beacon on your other devices." = "Kituose savo įrenginiuose su „Beacon“ neturite atvertų kortelių.";
 
 /* Your Rights settings section title */
 "Your Rights" = "Jūsų teisės";

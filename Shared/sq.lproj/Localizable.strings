@@ -258,7 +258,7 @@
 "Could not load page." = "Faqja s’u shtua dot.";
 
 /* Description for the new dark mode change in the version 22 app release. It describes the new automatic dark theme and how to change the theme settings. */
-"CoverSheet.v22.DarkMode.Description" = "Për përdorues të iOS 13-s, Impervious-i tani kalon automatikisht nën një temë të errët, kur për telefonin tuaj është zgjedhur Dark Mode. Që të ndryshoni këtë sjellje, kaloni te Rregullime > Temë.";
+"CoverSheet.v22.DarkMode.Description" = "Për përdorues të iOS 13-s, Beacon-i tani kalon automatikisht nën një temë të errët, kur për telefonin tuaj është zgjedhur Dark Mode. Që të ndryshoni këtë sjellje, kaloni te Rregullime > Temë.";
 
 /* Title for the new dark mode change in the version 22 app release. */
 "CoverSheet.v22.DarkMode.Title" = "Tema e errët tani përfshin një tastierë të errët dhe një skenë përshëndetëse të errët.";
@@ -313,8 +313,8 @@
 /* Alert dialog title when the user taps the cancel download icon. */
 "Downloads.CancelDialog.Title" = "Anuloje Shkarkimin";
 
-/* The message displayed to a user when they try and perform the download of an asset that Impervious cannot currently handle. */
-"Downloads.Error.Message" = "Ky lloj shkarkimi s’mbulohet ende nga Impervious-i.";
+/* The message displayed to a user when they try and perform the download of an asset that Beacon cannot currently handle. */
+"Downloads.Error.Message" = "Ky lloj shkarkimi s’mbulohet ende nga Beacon-i.";
 
 /* The label text in the Download Cancelled toast for showing confirmation that the download was cancelled. */
 "Downloads.Toast.Cancelled.LabelText" = "Shkarkimi u Anulua";
@@ -359,7 +359,7 @@
 "ErrorPages.AdvancedWarning2.Text" = "Mund të jetë një keqformësim ose futje hundësh nga dikush që po sulmon. Vazhdoni, nëse e pranoni rrezikun potencial.";
 
 /* Warning text on the certificate error page */
-"ErrorPages.CertWarning.Description" = "I zoti i %@ e ka formësuar keq sajtin e tij. Që të mbrohen nga vjedhjet të dhënat tuaja, Impervious-i nuk u lidh me këtë sajt.";
+"ErrorPages.CertWarning.Description" = "I zoti i %@ e ka formësuar keq sajtin e tij. Që të mbrohen nga vjedhjet të dhënat tuaja, Beacon-i nuk u lidh me këtë sajt.";
 
 /* Title on the certificate error page */
 "ErrorPages.CertWarning.Title" = "Kjo Lidhje Nuk Besohet";
@@ -380,7 +380,7 @@
 "Facebook" = "Facebook";
 
 /* Title for firefox about:home page in tab history list */
-"Firefox.HomePage.Title" = "Faqja Hyrëse e Impervious-it";
+"Beacon.HomePage.Title" = "Faqja Hyrëse e Beacon-it";
 
 /* Accessibility Label for the tab toolbar Forward button */
 "Forward" = "Përpara";
@@ -391,16 +391,16 @@
 /* Label stating your account is not verified */
 "FxA.AccountVerificationRequired" = "Lypset Verifikim Llogarie";
 
-/* Message explaining that user needs to check email for Impervious Account verfication link. */
-"FxA.AccountVerificationRequiredSurface" = "Lypset të verifikoni %@. Shihni te email-et tuaj për lidhjen e verifikimit nga Impervious-i.";
+/* Message explaining that user needs to check email for Beacon Account verfication link. */
+"FxA.AccountVerificationRequiredSurface" = "Lypset të verifikoni %@. Shihni te email-et tuaj për lidhjen e verifikimit nga Beacon-i.";
 
 /* Button label to connect another device to Sync */
 "FxA.ConnectAnotherDevice" = "Lidhni Pajisje Tjetër";
 
-/* Settings section title for Impervious Account */
-"FxA.FirefoxAccount" = "Llogari Impervious";
+/* Settings section title for Beacon Account */
+"FxA.FirefoxAccount" = "Llogari Beacon";
 
-/* Button label to go to Impervious Account settings */
+/* Button label to go to Beacon Account settings */
 "FxA.ManageAccount" = "Administroni Llogari & Pajisje";
 
 /* Label when no internet is present */
@@ -416,7 +416,7 @@
 "FxA.RemoveAccount" = "Hiqe";
 
 /* Description string for alert view that gets presented when user tries to remove an account. */
-"FxA.RemoveAccountAlertMessage" = "Hiqeni Llogarinë Impervious përshoqëruar kësaj pajisjeje, për të hyrë si përdorues tjetër.";
+"FxA.RemoveAccountAlertMessage" = "Hiqeni Llogarinë Beacon përshoqëruar kësaj pajisjeje, për të hyrë si përdorues tjetër.";
 
 /* Remove account alert is the final confirmation before user removes their firefox account */
 "FxA.RemoveAccountAlertTitle" = "Hiqe Llogarinë";
@@ -428,13 +428,13 @@
 "fxa.signin.camera-signin" = "Hyni Me Kamerën Tuaj";
 
 /* FxA sign in create account label. */
-"fxa.signin.create-account-pt-1" = "Njëkohësoni Impervious-in mes pajisjesh me një llogari.";
+"fxa.signin.create-account-pt-1" = "Njëkohësoni Beacon-in mes pajisjesh me një llogari.";
 
 /* FxA sign in create account label. This will be linked to the site to create an account. */
-"fxa.signin.create-account-pt-2" = "Krijoni llogari Impervious.";
+"fxa.signin.create-account-pt-2" = "Krijoni llogari Beacon.";
 
 /* FxA sign in view qr code instructions */
-"fxa.signin.qr-link-instruction" = "Te kompjuteri juaj, hapni Impervious-in dhe kaloni te firefox.com/pair";
+"fxa.signin.qr-link-instruction" = "Te kompjuteri juaj, hapni Beacon-in dhe kaloni te firefox.com/pair";
 
 /* FxA sign in view qr code scan button */
 "fxa.signin.ready-to-scan" = "Gati për Skanim";
@@ -451,14 +451,14 @@
 /* Label explaining what sync does */
 "FxA.SyncExplain" = "Merrni skedat, faqerojtësit dhe fjalëkalimet tuaja nga pajisje të tjera tuajat.";
 
-/* Button label to Sync your Impervious Account */
+/* Button label to Sync your Beacon Account */
 "FxA.SyncNow" = "Njëkohësoji Tani";
 
 /* Call to action for sign into sync button */
 "FxA.TakeYourWebWithYou" = "Merreni Web-in Me Vete";
 
 /* Title of a notification displayed when another device has connected to FxA. %@ refers to the name of the newly connected device. */
-"FxAPush_DeviceConnected_body" = "Impervious Sync është lidhur me %@";
+"FxAPush_DeviceConnected_body" = "Beacon Sync është lidhur me %@";
 
 /* Title of a notification displayed when another device has connected to FxA. */
 "FxAPush_DeviceConnected_title" = "Lidhur Me Sync";
@@ -467,7 +467,7 @@
 "FxAPush_DeviceDisconnected_body" = "%@ u shkëput me sukses.";
 
 /* Body of a notification displayed when this device has been disconnected from FxA by another device. */
-"FxAPush_DeviceDisconnected_ThisDevice_body" = "Kjo pajisje është shkëputur me sukses nga shërbimi Impervious Sync.";
+"FxAPush_DeviceDisconnected_ThisDevice_body" = "Kjo pajisje është shkëputur me sukses nga shërbimi Beacon Sync.";
 
 /* Title of a notification displayed when this device has been disconnected by another device. */
 "FxAPush_DeviceDisconnected_ThisDevice_title" = "Me Sync të Shkëputur";
@@ -476,7 +476,7 @@
 "FxAPush_DeviceDisconnected_title" = "Me Sync të Shkëputur";
 
 /* Body of a notification displayed when unnamed device has been disconnected from FxA. */
-"FxAPush_DeviceDisconnected_UnknownDevice_body" = "Është shkëputur një pajisje nga Impervious Sync-u";
+"FxAPush_DeviceDisconnected_UnknownDevice_body" = "Është shkëputur një pajisje nga Beacon Sync-u";
 
 /* A re-worded offer about Sync, displayed when the Sync home panel is empty, that emphasizes one-way data transfer, not syncing. */
 "Get your open tabs, bookmarks, and passwords from your other devices." = "Merrni skedat tuaja të hapura, faqerojtësit dhe fjalëkalimet tuaja nga pajisje të tjera tuajat.";
@@ -524,7 +524,7 @@
 "HistoryPanel.EmptySyncedTabsPanelTabSyncDisabledState.Description" = "Aktivizoni njëkohësim skedash që të shihni një listë skedash prej pajisjeve tuaja të tjera.";
 
 /* Title for the empty synced tabs state in the History Panel */
-"HistoryPanel.EmptySyncedTabsState.Title" = "Impervious Sync";
+"HistoryPanel.EmptySyncedTabsState.Title" = "Beacon Sync";
 
 /* Title for the Back to History button in the History Panel */
 "HistoryPanel.HistoryBackButton.Title" = "Historik";
@@ -628,10 +628,10 @@
 /* Light theme setting in Reading View settings */
 "Light" = "E çelët";
 
-/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Beacon reader mode from another app. */
 "Load original page" = "Ngarko faqen origjinale";
 
-/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Beacon reader mode from another app. */
 "Loading content…" = "Po ngarkohet lëndë…";
 
 /* Authentication prompt log in button */
@@ -686,7 +686,7 @@
 "LoginsList.Title" = "KREDENCIALE HYRJESH TË RUAJTURA";
 
 /* Restore Tabs Prompt Description */
-"Looks like Impervious crashed previously. Would you like to restore your tabs?" = "Duket se Impervious-i, më herët, u vithis. Do të donit të rikthehen skedat tuaja?";
+"Looks like Beacon crashed previously. Would you like to restore your tabs?" = "Duket se Beacon-i, më herët, u vithis. Do të donit të rikthehen skedat tuaja?";
 
 /* Name for Mark as read button in reader mode
    Title for the button that marks a reading list item as read */
@@ -730,10 +730,10 @@
 "Menu.EnhancedTrackingProtectionOn.Title" = "Mbrojtja e Thelluar Nga Gjurmimet është ON për këtë sajt.";
 
 /* Description for having standard ETP protection with ITP offered in iOS14+ */
-"Menu.EnhancedTrackingProtectionStandardWithITP.Title" = "Firefox-i bllokon gjurmues nga sajti në sajt, gjurmues shoqërorësh, nxjerrës kriptomonedhash dhe profilizues.";
+"Menu.EnhancedTrackingProtectionStandardWithITP.Title" = "Beacon-i bllokon gjurmues nga sajti në sajt, gjurmues shoqërorësh, nxjerrës kriptomonedhash dhe profilizues.";
 
 /* Description for having strict ETP protection with ITP offered in iOS14+ */
-"Menu.EnhancedTrackingProtectionStrictWithITP.Title" = "Firefox-i bllokon gjurmues nga sajti në sajt, gjurmues shoqërorësh, nxjerrës kriptomonedhash, profilizues dhe lëndë ndjekjeje.";
+"Menu.EnhancedTrackingProtectionStrictWithITP.Title" = "Beacon-i bllokon gjurmues nga sajti në sajt, gjurmues shoqërorësh, nxjerrës kriptomonedhash, profilizues dhe lëndë ndjekjeje.";
 
 /* Label for the button, displayed in the menu, takes you to to History screen when pressed. */
 "Menu.History.Label" = "Historik";
@@ -796,7 +796,7 @@
 "Menu.TrackingProtection.BlockedTitle" = "Të bllokuar";
 
 /* Message in menu when no trackers blocked. */
-"Menu.TrackingProtection.NoTrackersBlockedTitle" = "Në këtë faqe s’u pikasën gjurmues të ditur nga Impervious-i.";
+"Menu.TrackingProtection.NoTrackersBlockedTitle" = "Në këtë faqe s’u pikasën gjurmues të ditur nga Beacon-i.";
 
 /* The title for tracking protection settings */
 "Menu.TrackingProtection.ProtectionSettings.Title" = "Rregullime për Mbrojtje";
@@ -811,7 +811,7 @@
 "Menu.TrackingProtectionBlockedSocial.Title" = "Gjurmues Shoqërorësh";
 
 /* Description of the Tracking protection menu when TP is blocking parts of the page */
-"Menu.TrackingProtectionBlocking.Description" = "Firefox-i po bllokon pjesë të kësaj faqeje që mund të ndjekin shfletimin tuaj.";
+"Menu.TrackingProtectionBlocking.Description" = "Beacon-i po bllokon pjesë të kësaj faqeje që mund të ndjekin shfletimin tuaj.";
 
 /* The description of the Tracking Protection menu item when tracking is enabled */
 "Menu.TrackingProtectionBlockingDisabled.Description" = "Blloko gjurmues internetorë";
@@ -914,7 +914,7 @@
 "Okay" = "OK";
 
 /* Title for prompt displayed to user after the app crashes */
-"Oops! Impervious crashed" = "Hëm! Impervious-i u vithis";
+"Oops! Beacon crashed" = "Hëm! Beacon-i u vithis";
 
 /* See http://mzl.la/1LXbDOL */
 "Open articles in Reader View by tapping the book icon when it appears in the title bar." = "Artikujt nën Pamjen Lexues i hapni duke prekur ikonën libër, kur shfaqet te shtylla e titullit.";
@@ -925,8 +925,8 @@
 /* Toggle tabs syncing setting */
 "Open Tabs" = "Hapi Skedat";
 
-/* The message displayed to a user when they try to open a URL that cannot be handled by Impervious, or any external app. */
-"OpenURL.Error.Message" = "Firefox-i s’e hap dot faqen, ngaqë ajo ka një adresë të pavlefshme.";
+/* The message displayed to a user when they try to open a URL that cannot be handled by Beacon, or any external app. */
+"OpenURL.Error.Message" = "Beacon-i s’e hap dot faqen, ngaqë ajo ka një adresë të pavlefshme.";
 
 /* Title of the message shown when the user attempts to navigate to an invalid link. */
 "OpenURL.Error.Title" = "S’hap Dot Faqen";
@@ -941,19 +941,19 @@
 "Password" = "Fjalëkalim";
 
 /* Error message shown in the remote tabs panel */
-"PasswordAutoFill.NoPasswordsFoundTitle" = "S’keni kredenciale hyrjesh të njëkohësuara prej Llogarisë tuaj Impervious";
+"PasswordAutoFill.NoPasswordsFoundTitle" = "S’keni kredenciale hyrjesh të njëkohësuara prej Llogarisë tuaj Beacon";
 
 /* Header for the list of credentials table */
 "PasswordAutoFill.PasswordsListTitle" = "Kredenciale Hyrjesh të Gatshëm:";
 
 /* Title of the extension that shows firefox passwords */
-"PasswordAutoFill.SectionTitle" = "Kredenciale Hyrjesh Impervious";
+"PasswordAutoFill.SectionTitle" = "Kredenciale Hyrjesh Beacon";
 
 /* See http://mzl.la/1G7uHo7 */
 "PhotoLibrary.FirefoxWouldLikeAccessMessage" = "Kjo ju lejon të ruani figurën te Camera Roll juaj.";
 
 /* See http://mzl.la/1G7uHo7 */
-"PhotoLibrary.FirefoxWouldLikeAccessTitle" = "Firefox-i do të donte të hynte te Fotot tuaja";
+"PhotoLibrary.FirefoxWouldLikeAccessTitle" = "Beacon-i do të donte të hynte te Fotot tuaja";
 
 /* Button for closing the menu action sheet */
 "PhotonMenu.close" = "Mbylle";
@@ -961,7 +961,7 @@
 /* Privacy section title */
 "Privacy" = "Privatësi";
 
-/* Show Impervious Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
+/* Show Beacon Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/ */
 "Privacy Policy" = "Rregulla Privatësie";
 
 /* Title for quick-search engines settings section. */
@@ -1025,7 +1025,7 @@
 "ScanQRCode.InvalidDataError.Message" = "Të dhënat janë të pavlefshme";
 
 /* Text of the prompt user to setup the camera authorization. */
-"ScanQRCode.PermissionError.Message" = "Ju lutemi, lejojeni Impervious-in të hyjë te kamera e pajisjes tuaj, që nga ‘Rregullime’ -> ‘Privatësi’ -> ‘Kamera’.";
+"ScanQRCode.PermissionError.Message" = "Ju lutemi, lejojeni Beacon-in të hyjë te kamera e pajisjes tuaj, që nga ‘Rregullime’ -> ‘Privatësi’ -> ‘Kamera’.";
 
 /* Title for the QR code scanner view. */
 "ScanQRCode.View.Title" = "Skanonin Kodin QR";
@@ -1081,7 +1081,7 @@
 "Secure connection" = "Lidhje e sigurt";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
-"Send a crash report so Impervious can fix the problem?" = "Të dërgohet një raport vithisjeje, që kështu Impervious të mund të ndreqë problemin?";
+"Send a crash report so Beacon can fix the problem?" = "Të dërgohet një raport vithisjeje, që kështu Beacon të mund të ndreqë problemin?";
 
 /* Menu item in settings used to open input.mozilla.org where people can submit feedback */
 "Send Feedback" = "Dërgoni Përshtypjet";
@@ -1109,19 +1109,19 @@
 "SendTo.NavBar.Title" = "Dërgo Skedë";
 
 /* Error message shown in the remote tabs panel */
-"SendTo.NoDevicesFound.Message" = "S’keni ndonjë pajisje tjetër të lidhur te kjo Llogari Impervious-i të gatshme për njëkohësim.";
+"SendTo.NoDevicesFound.Message" = "S’keni ndonjë pajisje tjetër të lidhur te kjo Llogari Beacon-i të gatshme për njëkohësim.";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Message" = "Ju lutemi, që të vazhdohet, hapni Impervious-in, shkoni te Rregullimet dhe bëni hyrjen.";
+"SendTo.NotSignedIn.Message" = "Ju lutemi, që të vazhdohet, hapni Beacon-in, shkoni te Rregullimet dhe bëni hyrjen.";
 
 /* See http://mzl.la/1ISlXnU */
-"SendTo.NotSignedIn.Title" = "S’keni bërë hyrjen te Llogaria juaj Impervious.";
+"SendTo.NotSignedIn.Title" = "S’keni bërë hyrjen te Llogaria juaj Beacon.";
 
 /* Navigation bar button to Send the current page to a device */
 "SendTo.SendAction.Text" = "Dërgoje";
 
-/* The text for the button on the Send to Device page if you are not signed in to Impervious Accounts. */
-"SendTo.SignIn.Button" = "Hyni në Impervious";
+/* The text for the button on the Send to Device page if you are not signed in to Beacon Accounts. */
+"SendTo.SignIn.Button" = "Hyni në Beacon";
 
 /* Body of notification shown when the device is sent one or more tabs from an unnamed device. */
 "SentTab_TabArrivingNotification_NoDevice_body" = "Ka ardhur skedë e re prej pajisjeje tjetër.";
@@ -1145,7 +1145,7 @@
 "SentTab.NoTabArrivingNotification.body" = "Prekeni që të fillohet";
 
 /* Title of notification received after a spurious message from FxA has been received. */
-"SentTab.NoTabArrivingNotification.title" = "Impervious Sync";
+"SentTab.NoTabArrivingNotification.title" = "Beacon Sync";
 
 /* Label for an action used to view one or more tabs from a notification. */
 "SentTab.ViewAction.title" = "Shiheni";
@@ -1205,7 +1205,7 @@
 "Settings.DataManagement.Title" = "Administrim të Dhënash";
 
 /* Body of the alert when prompting the user asking to disconnect. */
-"Settings.Disconnect.Body" = "Firefox-i do të reshtë së njëkohësuari me llogarinë tuaj, por nuk do të fshihet ndonjë nga të dhënat e shfletimeve tuaja në këtë pajisje.";
+"Settings.Disconnect.Body" = "Beacon-i do të reshtë së njëkohësuari me llogarinë tuaj, por nuk do të fshihet ndonjë nga të dhënat e shfletimeve tuaja në këtë pajisje.";
 
 /* Button displayed at the bottom of settings page allowing users to Disconnect from FxA */
 "Settings.Disconnect.Button" = "Shkëputeni Sync-un";
@@ -1274,11 +1274,11 @@
 /* Label used for the device name settings section. */
 "Settings.FxA.DeviceName" = "Emër Pajisjeje";
 
-/* Label used as a section title in the Impervious Accounts Settings screen. */
+/* Label used as a section title in the Beacon Accounts Settings screen. */
 "Settings.FxA.Sync.SectionName" = "Rregullime Njëkohësimesh";
 
 /* Title displayed in header of the FxA settings panel. */
-"Settings.FxA.Title" = "Llogari Impervious";
+"Settings.FxA.Title" = "Llogari Beacon";
 
 /* General settings section title */
 "Settings.General.SectionName" = "Të përgjithshme";
@@ -1332,10 +1332,10 @@
 "Settings.NewTab.Option.CustomizeFooter2" = "Sajte që ruani ose vizitoni";
 
 /* The title for the section to customize top sites in the new tab settings page. */
-"Settings.NewTab.Option.CustomizeTitle" = "Përshtatni Kreun për Impervious-in";
+"Settings.NewTab.Option.CustomizeTitle" = "Përshtatni Kreun për Beacon-in";
 
-/* Option in settings to show Impervious Home when you open a new tab */
-"Settings.NewTab.Option.FirefoxHome" = "Kreun e Impervious-it";
+/* Option in settings to show Beacon Home when you open a new tab */
+"Settings.NewTab.Option.FirefoxHome" = "Kreun e Beacon-it";
 
 /* Option in the settings to turn off recent bookmarks in the Highlights section */
 "Settings.NewTab.Option.HighlightsBookmarks" = "Faqerojtës Së Fundi";
@@ -1377,7 +1377,7 @@
 "Settings.NewTab.TopSectionNameFooter" = "Zgjidhni ç’të ngarkohet kur hapet një skedë e re";
 
 /* Description displayed under the ”Offer to Open Copied Link” option. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
-"Settings.OfferClipboardBar.Status" = "Kur Hapet Impervious-i";
+"Settings.OfferClipboardBar.Status" = "Kur Hapet Beacon-i";
 
 /* Title of setting to enable the Go to Copied URL feature. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349 */
 "Settings.OfferClipboardBar.Title" = "Ofro Hapje Lidhjesh të Kopjuara";
@@ -1401,7 +1401,7 @@
 "Settings.SendUsage.Link" = "Mësoni Më Tepër.";
 
 /* A short description that explains why mozilla collects usage data. */
-"Settings.SendUsage.Message" = "Impervious rreket të grumbullojë vetëm sa na duhen për të ofruar dhe përmirësuar Impervious-in për këdo.";
+"Settings.SendUsage.Message" = "Beacon rreket të grumbullojë vetëm sa na duhen për të ofruar dhe përmirësuar Beacon-in për këdo.";
 
 /* The title for the setting to send usage data. */
 "Settings.SendUsage.Title" = "Dërgo të Dhëna Përdorimi";
@@ -1419,7 +1419,7 @@
 "Settings.Siri.OpenTabShortcut" = "Hap Skedë të Re";
 
 /* The description that describes what siri shortcuts are */
-"Settings.Siri.SectionDescription" = "Përdorni shkurtore Siri për ta hapur shpejt e shpejt Impervious-in përmes Siri-t";
+"Settings.Siri.SectionDescription" = "Përdorni shkurtore Siri për ta hapur shpejt e shpejt Beacon-in përmes Siri-t";
 
 /* The option that takes you to the siri shortcuts settings page */
 "Settings.Siri.SectionName" = "Shkurtore Siri";
@@ -1439,11 +1439,11 @@
 /* Label used as an item in Settings. Tapping on this item takes you to the Studies panel */
 "Settings.Studies.Title" = "Studime";
 
-/* Title for a link that explains what Impervious means by Studies */
+/* Title for a link that explains what Beacon means by Studies */
 "Settings.Studies.Toggle.Link" = "Mësoni Më Tepër.";
 
-/* A short description that explains that Impervious is running studies */
-"Settings.Studies.Toggle.Message" = "Firefox-i mund të instalojë dhe zhvillojë studime herë pas here.";
+/* A short description that explains that Beacon is running studies */
+"Settings.Studies.Toggle.Message" = "Beacon-i mund të instalojë dhe zhvillojë studime herë pas here.";
 
 /* Toggled OFF to opt-out of studies */
 "Settings.Studies.Toggle.Off" = "Off";
@@ -1464,7 +1464,7 @@
 "Settings.TrackingProtection.Alert.Title" = "Kini mendjen!";
 
 /* Header description for tracking protection options section where Basic/Strict block list can be selected */
-"Settings.TrackingProtection.BlockListsHeader" = "Mund të zgjidhni cilën listë do të përdorë Impervious-i për të bllokuar elementë Web që mund të gjurmojnë veprimtarinë tuaj të shfletimit.";
+"Settings.TrackingProtection.BlockListsHeader" = "Mund të zgjidhni cilën listë do të përdorë Beacon-i për të bllokuar elementë Web që mund të gjurmojnë veprimtarinë tuaj të shfletimit.";
 
 /* Explanation of basic mode. */
 "Settings.TrackingProtection.Info.BasicTitle" = "E baraspeshuar për mbrojtje dhe funksionim.";
@@ -1556,32 +1556,32 @@
 /* Title displayed in header of the Data Management panel. */
 "Settings.WebsiteData.Title" = "Të dhëna Sajtesh";
 
-/* Action label on share extension to add page to the Impervious reading list. */
+/* Action label on share extension to add page to the Beacon reading list. */
 "ShareExtension.AddToReadingListAction.Title" = "Shtoje te Listë Leximesh";
 
 /* Share extension label shown after user has performed 'Add to Reading List' action. */
 "ShareExtension.AddToReadingListActionDone.Title" = "U shtua te Listë Leximesh";
 
-/* Action label on share extension to bookmark the page in Impervious. */
+/* Action label on share extension to bookmark the page in Beacon. */
 "ShareExtension.BookmarkThisPageAction.Title" = "Faqeruaje Këtë Faqe";
 
 /* Share extension label shown after user has performed 'Bookmark this Page' action. */
 "ShareExtension.BookmarkThisPageActionDone.Title" = "U faqeruajt";
 
-/* Action label on share extension to load the page in Impervious when user switches apps to bring it to foreground. */
+/* Action label on share extension to load the page in Beacon when user switches apps to bring it to foreground. */
 "ShareExtension.LoadInBackgroundAction.Title" = "Ngarkoje në Prapaskenë";
 
 /* Share extension label shown after user has performed 'Load in Background' action. */
-"ShareExtension.LoadInBackgroundActionDone.Title" = "Po ngarkohet në Impervious";
+"ShareExtension.LoadInBackgroundActionDone.Title" = "Po ngarkohet në Beacon";
 
-/* Action label on share extension to immediately open page in Impervious. */
-"ShareExtension.OpenInFirefoxAction.Title" = "Hape në Impervious";
+/* Action label on share extension to immediately open page in Beacon. */
+"ShareExtension.OpenInFirefoxAction.Title" = "Hape në Beacon";
 
-/* Action label on share extension to immediately open page in Impervious in private mode. */
+/* Action label on share extension to immediately open page in Beacon in private mode. */
 "ShareExtension.OpenInPrivateModeAction.Title" = "Hape nën Mënyrën Private";
 
-/* Action label on share extension to search for the selected text in Impervious. */
-"ShareExtension.SeachInFirefoxAction.Title" = "Kërko në Impervious";
+/* Action label on share extension to search for the selected text in Beacon. */
+"ShareExtension.SeachInFirefoxAction.Title" = "Kërko në Beacon";
 
 /* Label for show search suggestions setting. */
 "Show Search Suggestions" = "Shfaq Sugjerime Kërkimi";
@@ -1618,7 +1618,7 @@
 "Sync.FirstTimeMessage.Label" = "Njëkohësimi juaj i parë mund të hajë ca kohë";
 
 /* String displayed on Sign In to Sync page that allows the user to create a new account. */
-"Sync.NoAccount.Description" = "Pa llogari? Krijoni një të tillë, që të njëkohësoni Impervious-in mes pajisjesh.";
+"Sync.NoAccount.Description" = "Pa llogari? Krijoni një të tillë, që të njëkohësoni Beacon-in mes pajisjesh.";
 
 /* Message displayed when the user's account is syncing with no ellipsis */
 "Sync.Syncing.Label" = "Po njëkohësohet";
@@ -1728,7 +1728,7 @@
 /* The section header for tabs opened yesterday */
 "TabTray.Yesterday.Header" = "Dje";
 
-/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Impervious reader mode from another app. */
+/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Beacon reader mode from another app. */
 "The page could not be displayed in Reader View." = "Faqja s’u shfaq dot nën Pamjen Lexues.";
 
 /* Error message in the remote tabs panel */
@@ -1786,13 +1786,13 @@
 "UIMenuItem.PasteGo" = "Ngjite & Shko";
 
 /* Search in New Tab Text selection menu item */
-"UIMenuItem.SearchWithFirefox" = "Kërko me Impervious";
+"UIMenuItem.SearchWithFirefox" = "Kërko me Beacon";
 
 /* Accessibility label for unread article in reading list. It's a past participle - functions as an adjective. */
 "unread" = "të palexuara";
 
 /* Text message in the settings table view */
-"Upgrade Impervious to connect" = "Përmirësoni Impervious-in që të bëhet lidhja";
+"Upgrade Beacon to connect" = "Përmirësoni Beacon-in që të bëhet lidhja";
 
 /* Debug option */
 "Use stage servers" = "Përdor shërbyes provash";
@@ -1803,7 +1803,7 @@
 /* Text message in the settings table view */
 "Verify your email address" = "Verifikoni adresën tuaj email";
 
-/* Version number of Impervious shown in settings */
+/* Version number of Beacon shown in settings */
 "Version %@ (%@)" = "Versioni %1$@ (%2$@)";
 
 /* Accessibility label for the main web content view */
@@ -1825,7 +1825,7 @@
 "Yesterday" = "Dje";
 
 /* Error message in the remote tabs panel */
-"You don’t have any tabs open in Impervious on your other devices." = "S’keni ndonjë skedë të hapur te Impervious-i në pajisje tuajat të tjera.";
+"You don’t have any tabs open in Beacon on your other devices." = "S’keni ndonjë skedë të hapur te Beacon-i në pajisje tuajat të tjera.";
 
 /* Your Rights settings section title */
 "Your Rights" = "Të drejtat Tuaja";
