@@ -15,10 +15,10 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash" translatesAutoresizingMaskIntoConstraints="NO" id="8jg-1f-0sB">
-                    <rect key="frame" x="175" y="175" width="100" height="148"/>
+                    <rect key="frame" x="140" y="186" width="200" height="108"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="100" id="V8U-lj-86g"/>
-                        <constraint firstAttribute="height" constant="148" id="eV3-E9-QZk"/>
+                        <constraint firstAttribute="width" constant="200" id="V8U-lj-86g"/>
+                        <constraint firstAttribute="height" constant="108" id="eV3-E9-QZk"/>
                     </constraints>
                 </imageView>
             </subviews>
@@ -33,7 +33,7 @@
         </view>
     </objects>
     <resources>
-        <image name="splash" width="100" height="148"/>
+        <image name="splash" width="218.66667175292969" height="117.66666412353516"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

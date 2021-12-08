@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "browser-ios-welcome.png",
+      "filename" : "icon-gradient.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "browser-ios-welcome@2x.png",
+      "filename" : "icon-gradient@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "browser-ios-welcome@3x.png",
+      "filename" : "icon-gradient@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

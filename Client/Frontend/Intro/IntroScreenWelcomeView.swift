@@ -30,7 +30,7 @@ class IntroScreenWelcomeView: UIView, CardTheme {
         label.text = Strings.CardTitleWelcome
         label.textColor = fxTextThemeColour
         label.font = UIFont.systemFont(ofSize: 32, weight: .bold)
-        label.textAlignment = .center
+        label.textAlignment = .left
         label.adjustsFontSizeToFitWidth = true
         return label
     }()

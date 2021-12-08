@@ -396,6 +396,7 @@
 		9FA09E09271CF47000E8E54E /* libuv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA09E07271CF46F00E8E54E /* libuv.a */; };
 		9FA1418B2746839000EBF61E /* MobileHNS.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA1418A2746839000EBF61E /* MobileHNS.xcframework */; };
 		9FA1418F2747784900EBF61E /* DNSAuthExclusions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA1418E2747784900EBF61E /* DNSAuthExclusions.swift */; };
+		9FA8C8F6275FE279003F0E07 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FED50332730A7E9001B3561 /* NetworkExtension.framework */; };
 		9FB7E6DE2717F5300039C9DC /* EncryptedDNSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7E6DD2717F5300039C9DC /* EncryptedDNSViewController.swift */; };
 		9FC85610274E12DA00A5FE1D /* HNSHomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC8560F274E12DA00A5FE1D /* HNSHomeHeaderView.swift */; };
 		9FDBFD9F2747ACB400143C8D /* DNSExt.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDBFD9D2747ACA900143C8D /* DNSExt.xcframework */; };
@@ -2725,6 +2726,7 @@
 		9FA1418A2746839000EBF61E /* MobileHNS.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MobileHNS.xcframework; sourceTree = "<group>"; };
 		9FA1418E2747784900EBF61E /* DNSAuthExclusions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNSAuthExclusions.swift; sourceTree = "<group>"; };
 		9FA740EF995B25873421D001 /* gl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = gl; path = gl.lproj/AuthenticationManager.strings; sourceTree = "<group>"; };
+		9FA8C8F7275FE2B2003F0E07 /* DNSAppExtBeacon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DNSAppExtBeacon.entitlements; sourceTree = "<group>"; };
 		9FB7E6DD2717F5300039C9DC /* EncryptedDNSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptedDNSViewController.swift; sourceTree = "<group>"; };
 		9FC8560F274E12DA00A5FE1D /* HNSHomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HNSHomeHeaderView.swift; sourceTree = "<group>"; };
 		9FDBFD9D2747ACA900143C8D /* DNSExt.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = DNSExt.xcframework; sourceTree = "<group>"; };
@@ -4270,6 +4272,7 @@
 				7B604FA21C495268006EEEC3 /* SnapKit.framework in Frameworks */,
 				3B4988CE1E42B01800A12FDA /* SwiftyJSON.framework in Frameworks */,
 				EBA31D861F799BE20055463D /* Telemetry.framework in Frameworks */,
+				9FA8C8F6275FE279003F0E07 /* NetworkExtension.framework in Frameworks */,
 				7B604FBB1C495D8A006EEEC3 /* XCGLogger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -5163,6 +5166,7 @@
 		9FED50482730AA51001B3561 /* DNSAppExt */ = {
 			isa = PBXGroup;
 			children = (
+				9FA8C8F7275FE2B2003F0E07 /* DNSAppExtBeacon.entitlements */,
 				9F42D9D22732B65E00292647 /* DNSAppExtBeaconBeta.entitlements */,
 				9FED50492730AA51001B3561 /* PacketTunnelProvider.swift */,
 				9FED504B2730AA51001B3561 /* Info.plist */,
@@ -11375,7 +11379,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_ENTITLEMENTS = DNSAppExt/DNSAppExt.entitlements;
+				CODE_SIGN_ENTITLEMENTS = DNSAppExt/DNSAppExtBeacon.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
@@ -11406,9 +11410,9 @@
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.impervious.ios.BrowserBeta.DNSAppExt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.impervious.ios.Browser.DNSAppExt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Impervious Browser Beta - DNS Extension";
+				PROVISIONING_PROFILE_SPECIFIER = "Beacon Browser - DNS Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
