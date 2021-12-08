@@ -83,7 +83,7 @@ class HomePageSettingViewController: SettingsTableViewController, FeatureFlagsPr
         sectionItems.append(jumpBackInSetting)
         sectionItems.append(recentlySavedSetting)
 //        sectionItems.append(recentlyVisitedSetting)
-        sectionItems.append(pocketSetting)
+//        sectionItems.append(pocketSetting)
 
         return SettingSection(title: NSAttributedString(string: Strings.SettingsTopSitesCustomizeTitle),
                               footerTitle: NSAttributedString(string: .SettingsCustomizeHomeDescritpion),
