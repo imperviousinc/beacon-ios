@@ -279,8 +279,9 @@ class FirefoxHomeViewController: UICollectionViewController, HomePanel, FeatureF
         self.collectionView?.register(ASHeaderView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: "Header")
         collectionView?.keyboardDismissMode = .onDrag
         collectionView?.backgroundColor = .clear
-
-        if #available(iOS 14.0, *), !UserDefaults.standard.bool(forKey: "DidDismissDefaultBrowserCard") {
+        
+        // disable default browser for now Beacon doesn't have the entitlement yet
+        if #available(iOS 14.0, *), !UserDefaults.standard.bool(forKey: "DidDismissDefaultBrowserCard"), false {
             self.view.addSubview(defaultBrowserCard)
             NSLayoutConstraint.activate([
                 defaultBrowserCard.topAnchor.constraint(equalTo: view.topAnchor),

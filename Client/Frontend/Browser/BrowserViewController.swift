@@ -1910,6 +1910,10 @@ extension BrowserViewController {
 
     // Default browser onboarding
     func presentDBOnboardingViewController(_ force: Bool = false) {
+        // disabled because Beacon doesn't have the entitlement for now
+        if true {
+            return
+        }
         guard #available(iOS 14.0, *) else { return }
         guard !hasTriedToPresentDBCardAlready || force else { return }
         hasTriedToPresentDBCardAlready = true

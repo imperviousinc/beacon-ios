@@ -171,7 +171,8 @@ class AppSettingsTableViewController: SettingsTableViewController, FeatureFlagsP
                         statusText: Strings.SettingsShowLinkPreviewsStatus)
         ]
 
-        if #available(iOS 14.0, *) {
+        // disable set as default Beacon doesn't have entitlement yet
+        if #available(iOS 14.0, *), false {
             settings += [
                 SettingSection(footerTitle: NSAttributedString(string: String.DefaultBrowserCardDescription), children: [DefaultBrowserSetting()])
             ]
