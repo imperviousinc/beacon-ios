@@ -1378,6 +1378,8 @@ extension String {
 extension String {
     public static let DefaultSuggestedProofofconept = MZLocalizedString("Proofofconcept", comment: "Tile title for Proofofconcept")
     public static let DefaultSuggestedBlockClock = MZLocalizedString("Blockclock", comment: "Tile title for Blockclock")
+    public static let DefaultSuggestedImpervious = MZLocalizedString("Impervious", comment: "Tile title for Impervious")
+    public static let DefaultSuggestedForever = MZLocalizedString("Forever", comment: "Tile title for Forever")
     public static let DefaultSuggestedFacebook = MZLocalizedString("Facebook", comment: "Tile title for Facebook")
     public static let DefaultSuggestedYouTube = MZLocalizedString("YouTube", comment: "Tile title for YouTube")
     public static let DefaultSuggestedAmazon = MZLocalizedString("Amazon", comment: "Tile title for Amazon")

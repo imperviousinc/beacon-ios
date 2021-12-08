@@ -52,20 +52,20 @@ open class DefaultSuggestedSites {
                 title: .DefaultSuggestedProofofconept
             ),
             SuggestedSiteData(
-                url: "https://m.youtube.com/",
+                url: "https://impervious/",
                 bgColor: "0xcd201f",
-                imageUrl: "asset://suggestedsites_youtube",
+                imageUrl: "asset://suggestedsites_impervious",
                 faviconUrl: "asset://defaultFavicon",
                 trackingId: 631,
-                title: .DefaultSuggestedYouTube
+                title: .DefaultSuggestedImpervious
             ),
             SuggestedSiteData(
-                url: "https://www.amazon.com/",
+                url: "https://foreverdomains.io/",
                 bgColor: "0x000000",
-                imageUrl: "asset://suggestedsites_amazon",
+                imageUrl: "asset://suggestedsites_forever",
                 faviconUrl: "asset://defaultFavicon",
                 trackingId: 630,
-                title: .DefaultSuggestedAmazon
+                title: .DefaultSuggestedForever
             ),
             SuggestedSiteData(
                 url: "https://mobile.twitter.com/",
