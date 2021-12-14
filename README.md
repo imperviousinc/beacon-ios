@@ -1,7 +1,7 @@
 Beacon iOS 
 ===============
 
-The first browser with support for native DNS-Based Authentication of Named Entities (DANE) with true downgrade protection, and the first browser to embed an SPV node to trustlessly verify DNSSEC over the [Handshake](https://handshake.org) network. Beacon iOS is a fork of [Firefox](https://github.com/mozilla-mobile/firefox-ios).
+Beacon is a privacy and security-focused browser with native DANE support and a decentralized p2p light client. Zero-Trust HTTPS/TLS! Beacon trustlessly verifies DNSSEC over the [Handshake](https://handshake.org) network. The browser uses [hnsquery](https://github.com/imperviousinc/hnsquery) and [PowDoH](https://github.com/imperviousinc/hnsquery#powdoh)!
 
 This branch works with [Xcode 13.0](https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_13/Xcode_13.xip), Swift 5.5 and supports iOS 13 and above.
 
