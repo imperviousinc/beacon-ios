@@ -53,10 +53,10 @@
 "Intro.Slides.TrailheadSync.Description" = "Sign in to your account to sync and access more features.";
 
 /* Title for the second panel 'Sync' in the First Run tour. */
-"Intro.Slides.TrailheadSync.Title.v2" = "First browser with an experimental P2P light client that verifies certificates!";
+"Intro.Slides.TrailheadSync.Title.v2" = "Sync your bookmarks, history, and passwords to your phone.";
 
 /* Description for the 'Welcome' panel in the First Run tour. */
-"Intro.Slides.Welcome.Description.v2" = "Hanshake P2P light client is syncing. You're a few seconds a way from accessing the decentralized web!";
+"Intro.Slides.Welcome.Description.v2" = "Fast, private, and on your side.";
 
 /* Title for the first panel 'Welcome' in the First Run tour. */
 "Intro.Slides.Welcome.Title.v2" = "Welcome to Beacon";

@@ -37,7 +37,7 @@ class IntroScreenWelcomeView: UIView, CardTheme {
     private lazy var subTitleLabelPage1: UILabel = {
         let fontSize: CGFloat = screenSize.width <= 320 ? 16 : 18
         let label = UILabel()
-        label.text = Strings.CardTextWelcome
+        label.text = "Handshake P2P light client is syncing. You're a few seconds a way from accessing the decentralized web!"
         label.textColor = fxTextThemeColour
         label.font = UIFont.systemFont(ofSize: fontSize)
         label.textAlignment = .left
