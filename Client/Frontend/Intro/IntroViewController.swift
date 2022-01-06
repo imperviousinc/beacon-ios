@@ -65,13 +65,11 @@ class IntroViewController: UIViewController, OnViewDismissable {
         let p = HandshakeCtx?.progress() ?? 0
         let height = HandshakeCtx?.height() ?? 0
         syncCard.updateProgress(progress: p, height: Int64(height))
-        
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         self.timer = Timer.scheduledTimer(timeInterval: 0.3, target: self, selector: #selector(updateProgressView), userInfo: nil, repeats: true)
-
     }
 
     override func viewDidDisappear(_ animated: Bool) {
@@ -103,6 +101,14 @@ class IntroViewController: UIViewController, OnViewDismissable {
         setupEnableDNSCard()
     }
     
+    private func hideSyncCard() {
+        UIView.animate(withDuration: 0.3, animations: {
+            self.syncCard.alpha = 0
+        }) { _ in
+            self.syncCard.isHidden = true
+        }
+    }
+    
     private func setupSyncCard() {
         NSLayoutConstraint.activate([
             syncCard.topAnchor.constraint(equalTo: view.topAnchor),
@@ -114,11 +120,7 @@ class IntroViewController: UIViewController, OnViewDismissable {
         // Buton action closures
         // Next button action
         syncCard.onNext = {
-            UIView.animate(withDuration: 0.3, animations: {
-                self.syncCard.alpha = 0
-            }) { _ in
-                self.syncCard.isHidden = true
-            }
+            self.hideSyncCard()
         }
         // Close button action
 //        syncCard.closeClosure = {
@@ -198,9 +200,14 @@ class IntroViewController: UIViewController, OnViewDismissable {
         enableDNSCard.startBrowsing = {
             self.didFinishClosure?(self, nil)
         }
-        // Sign-up browsing button action
-        enableDNSCard.onNext = {
-            self.didFinishClosure?(self, nil)
+        // enable HNS resolver
+        enableDNSCard.onEnableHNSResolver = {
+            let confirm = EncryptedDNSTunnel.enableVPNWithUserConfirmation({ confirmed in
+                if confirmed {
+                    self.didFinishClosure?(self, nil)
+                }
+            })
+            self.present(confirm, animated: true, completion: nil)
         }
     }
     
@@ -215,12 +222,20 @@ class IntroViewController: UIViewController, OnViewDismissable {
         ethereumCard.startBrowsing = {
             self.didFinishClosure?(self, nil)
         }
-        // Sign-up browsing button action
+        // Next -> sync view
         ethereumCard.onNext = {
             UIView.animate(withDuration: 0.3, animations: {
                 self.ethereumCard.alpha = 0
             }) { _ in
                 self.ethereumCard.isHidden = true
+            }
+            
+            // Skip sync card if already synced
+            guard let ctx = HandshakeCtx else {
+                return
+            }
+            if ctx.progress() > 0.98 {
+                self.hideSyncCard()
             }
         }
     }

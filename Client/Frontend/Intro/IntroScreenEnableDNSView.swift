@@ -64,7 +64,7 @@ class IntroScreenEnableDNSView: UIView, CardTheme {
     }()
     private lazy var descriptionLabel: UILabel = {
         let label = UILabel()
-        label.text = "Your device needs to be able to resolve Handshake names to enable Beacon to resolve and verify HNS sites. Beacon uses a privacy-focused no logging resolver that encrypts your DNS queries but you can also specify your own from the app's settings."
+        label.text = "Your device needs to resolve Handshake names to enable Beacon to resolve and verify HNS sites. Beacon uses a privacy-focused no logging resolver that encrypts your DNS queries, but you can also specify your own from the app's settings."
         label.textColor = fxTextThemeColour
         label.font = UIFont.systemFont(ofSize: 16, weight: .regular)
         label.textAlignment = .left
@@ -80,13 +80,13 @@ class IntroScreenEnableDNSView: UIView, CardTheme {
         label.numberOfLines = 0
         return label
     }()
-    private var nextButton: UIButton = {
+    private var enableHNSResolverButton: UIButton = {
         let button = UIButton()
         button.titleLabel?.font = UIFont.systemFont(ofSize: 18, weight: .semibold)
         button.layer.cornerRadius = 10
         button.backgroundColor = UIColor.Photon.Blue50
         button.setTitle("Enable HNS Resolver", for: .normal)
-        button.accessibilityIdentifier = "signUpButtonSyncView"
+        button.accessibilityIdentifier = "enableHNSButtonDNSView"
         return button
     }()
     private lazy var startBrowsingButton: UIButton = {
@@ -96,7 +96,7 @@ class IntroScreenEnableDNSView: UIView, CardTheme {
         button.setTitleColor(UIColor.Photon.Blue50, for: .normal)
         button.setTitle("Skip", for: .normal)
         button.titleLabel?.textAlignment = .center
-        button.accessibilityIdentifier = "startBrowsingButtonSyncView"
+        button.accessibilityIdentifier = "skipButtonDNSView"
         return button
     }()
     // Container and combined views
@@ -105,7 +105,7 @@ class IntroScreenEnableDNSView: UIView, CardTheme {
     // Orientation independent screen size
     private let screenSize = DeviceInfo.screenSizeOrientationIndependent()
     // Closure delegates
-    var onNext: (() -> Void)?
+    var onEnableHNSResolver: (() -> Void)?
     var startBrowsing: (() -> Void)?
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
@@ -125,7 +125,7 @@ class IntroScreenEnableDNSView: UIView, CardTheme {
         combinedView.addSubview(descriptionLabel2)
         topContainerView.addSubview(combinedView)
         addSubview(topContainerView)
-        addSubview(nextButton)
+        addSubview(enableHNSResolverButton)
         addSubview(startBrowsingButton)
     }
     
@@ -161,7 +161,7 @@ class IntroScreenEnableDNSView: UIView, CardTheme {
         // Top container view constraints
         topContainerView.snp.makeConstraints { make in
             make.top.equalTo(safeArea.top)
-            make.bottom.equalTo(nextButton.snp.top)
+            make.bottom.equalTo(enableHNSResolverButton.snp.top)
             make.left.right.equalToSuperview()
         }
         
@@ -177,38 +177,34 @@ class IntroScreenEnableDNSView: UIView, CardTheme {
         let buttonEdgeInset = 15
         let buttonHeight = 46
         
-        nextButton.snp.makeConstraints { make in
+        enableHNSResolverButton.snp.makeConstraints { make in
             make.left.right.equalToSuperview().inset(buttonEdgeInset)
             // On large iPhone screens, bump this up from the bottom
             make.bottom.equalToSuperview().inset(95)
             make.height.equalTo(buttonHeight)
         }
         
-        nextButton.addTarget(self, action: #selector(nextAction), for: .touchUpInside)
+        enableHNSResolverButton.addTarget(self, action: #selector(nextAction), for: .touchUpInside)
         
         startBrowsingButton.snp.makeConstraints { make in
             make.left.right.equalToSuperview().inset(100)
             // On large iPhone screens, bump this up from the bottom
-            make.top.equalTo(nextButton.snp.bottom).offset(20)
+            make.top.equalTo(enableHNSResolverButton.snp.bottom).offset(20)
             make.height.equalTo(buttonHeight)
         }
         
-        nextButton.addTarget(self, action: #selector(nextAction), for: .touchUpInside)
+        enableHNSResolverButton.addTarget(self, action: #selector(nextAction), for: .touchUpInside)
         startBrowsingButton.addTarget(self, action: #selector(startBrowsingAction), for: .touchUpInside)
     }
     
     // MARK: Button Actions
     @objc private func nextAction() {
-        installOrEnableVPN()
-        startBrowsing?()
+        onEnableHNSResolver?()
     }
     
     @objc private func startBrowsingAction() {
         startBrowsing?()
     }
     
-    func installOrEnableVPN() {
-        DNSVPNConfiguration.enableVPN()
-    }
 }
 

@@ -6,6 +6,59 @@ import Foundation
 import Shared
 import NetworkExtension
 
+class DoHURLSetting: StringPrefSetting {
+    let isChecked: () -> Bool
+
+    init(prefs: Prefs, prefKey: String, defaultValue: String? = nil, placeholder: String, accessibilityIdentifier: String, isChecked: @escaping () -> Bool = { return false }, settingDidChange: ((String?) -> Void)? = nil) {
+        self.isChecked = isChecked
+        super.init(prefs: prefs,
+                   prefKey: prefKey,
+                   defaultValue: defaultValue,
+                   placeholder: placeholder,
+                   accessibilityIdentifier: accessibilityIdentifier,
+                   settingIsValid: DoHURLSetting.isURLOrEmpty,
+                   settingDidChange: settingDidChange)
+        textField.keyboardType = .URL
+        textField.autocapitalizationType = .none
+        textField.autocorrectionType = .no
+    }
+
+    override func prepareValidValue(userInput value: String?) -> String? {
+        guard let value = value else {
+            return nil
+        }
+        
+        guard let url =  URIFixup.getURL(value) else {
+            return nil
+        }
+        
+        var comp = URLComponents(url: url, resolvingAgainstBaseURL: true)
+        comp?.scheme = "https"
+        if comp?.path ?? "" == "" {
+            comp?.path = "/dns-query"
+        }
+      
+        return comp?.string
+    }
+
+    override func onConfigureCell(_ cell: UITableViewCell) {
+        super.onConfigureCell(cell)
+        cell.accessoryType = isChecked() ? .checkmark : .none
+        textField.textAlignment = .left
+    }
+
+    static func isURLOrEmpty(_ string: String?) -> Bool {
+        guard let string = string, !string.isEmpty else {
+            return true
+        }
+        guard let url = URL(string: string) else {
+            return false
+        }
+        
+        return url.scheme == "https"
+    }
+}
+
 class EncryptedDNSViewController: SettingsTableViewController {
     /* variables for checkmark settings */
     let prefs: Prefs
@@ -28,13 +81,13 @@ class EncryptedDNSViewController: SettingsTableViewController {
         let onFinished = {
             self.prefs.setString(self.currentChoice, forKey: BeaconConstants.SecureDNSPrefKey)
             self.tableView.reloadData()
-            DNSVPNConfiguration.getManager() {m in
+            EncryptedDNSTunnel.getManager() {m in
                 guard let manager = m else {
                     return
                 }
                 
                 if manager.connection.status == NEVPNStatus.connected {
-                    DNSVPNConfiguration.restartVPN()
+                    EncryptedDNSTunnel.reloadSettings()
                 }
             }
         }
@@ -45,14 +98,14 @@ class EncryptedDNSViewController: SettingsTableViewController {
         })
         
        
-        let customDoHServer = WebPageSetting(prefs: prefs, prefKey: BeaconConstants.SecureDNSURLPrefKey, defaultValue: nil, placeholder: "https://server.example/dns-query", accessibilityIdentifier: "CustomDNSServer", isChecked: {return !defaultDoHServer.isChecked()}, settingDidChange: { (string) in
+        let customDoHServer = DoHURLSetting(prefs: prefs, prefKey: BeaconConstants.SecureDNSURLPrefKey, defaultValue: nil, placeholder: "https://server.example/dns-query", accessibilityIdentifier: "CustomDNSServer", isChecked: {return !defaultDoHServer.isChecked()}, settingDidChange: { (string) in
             self.currentChoice = BeaconConstants.SecureDNSCustomOption
             onFinished()
         })
         
         customDoHServer.textField.textAlignment = .natural
 
-        let section = SettingSection(title: NSAttributedString(string: "DoH Server"), footerTitle: NSAttributedString(string: "Used for system DNS (if enabled) and for requesting DNSSEC chain"), children: [defaultDoHServer, customDoHServer])
+        let section = SettingSection(title: NSAttributedString(string: "DoH Server"), footerTitle: NSAttributedString(string: "Used for system DNS (if enabled) and for requesting DNSSEC chain. Restart the app for the setting to take effect."), children: [defaultDoHServer, customDoHServer])
 
         return [section]
     }
@@ -60,7 +113,7 @@ class EncryptedDNSViewController: SettingsTableViewController {
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
         NotificationCenter.default.post(name: .HomePanelPrefsChanged, object: nil)
-        _ = DNSVPNConfiguration.updateConnected()
+        _ = EncryptedDNSTunnel.updateConnected()
     }
 
     override func viewDidLoad() {

@@ -692,7 +692,7 @@ class YourRightsSetting: Setting {
     }
 
     override var url: URL? {
-        return URL(string: "https://impervious.com/browser/terms-of-use")
+        return URL(string: BeaconConstants.TermsOfUse)
     }
 
     override func onClick(_ navigationController: UINavigationController?) {
@@ -750,18 +750,12 @@ class DNSVPNSetting : BoolSetting {
             attributedStatusText: statusText,
             settingDidChange: { enabled in
                 callback(enabled)
-                if enabled {
-                    DNSVPNConfiguration.enableVPN()                    
-                } else {
-                    DNSVPNConfiguration.stopVPN()
-                    
-                }
             }
         )
     }
     
     override func displayBool(_ control: UISwitch) {
-        control.isOn = DNSVPNConfiguration.updateConnected()
+        control.isOn = EncryptedDNSTunnel.updateConnected()
     }
 }
 
@@ -989,7 +983,7 @@ class PrivacyPolicySetting: Setting {
     }
 
     override var url: URL? {
-        return URL(string: "https://impervious.com/browser/privacy")
+        return URL(string: BeaconConstants.PrivacyPolicy)
     }
 
     override func onClick(_ navigationController: UINavigationController?) {

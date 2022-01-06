@@ -15,28 +15,24 @@ class BeaconConstants {
     public static let SecureDNSCustomOption = "Custom"
     public static let SecureDNSDisabled = "Disabled"
     public static let SecureDNSDefaultURL = "https://hs.dnssec.dev/dns-query"
+    public static let PrivacyPolicy = "https://impervious.com/browser/privacy"
+    public static let TermsOfUse = "https://impervious.com/browser/terms-of-use"
 }
 
-class DNSVPNConfiguration {
-    static var status = false
-    
-    static func initObserver() {
-        
-    }
+class EncryptedDNSTunnel {
+    static var connected = false
     
     static func updateConnected() -> Bool {
         getManager() { m in
             guard let manager = m else {
-                status = false
+                connected = false
                 return
             }
-            
-            let state = manager.connection.status
-            status = connStatus(state)
+  
+            connected = manager.connection.status == .connected
         }
         
-       
-        return status
+        return connected
     }
     
     static func getDoHURL() -> String {
@@ -49,26 +45,31 @@ class DNSVPNConfiguration {
     }
     
     static func startVPN() {
-        var url = BeaconConstants.SecureDNSDefaultURL
-        let choice = NSUserDefaultsPrefs(prefix: "profile").stringForKey(BeaconConstants.SecureDNSPrefKey)
-        if choice == "Custom" {
-            url = NSUserDefaultsPrefs(prefix: "profile").stringForKey(BeaconConstants.SecureDNSURLPrefKey) ?? BeaconConstants.SecureDNSDefaultURL
-        }
-        
         getManager() { m in
             do {
-                try m?.connection.startVPNTunnel(options: ["SecureDNSURL": url as NSObject])
-                print("vpn: starting tunnel with url: \(url)")
+                try m?.connection.startVPNTunnel()
             } catch   {
-                print("failed starting")
+                print("failed starting VPN")
             }
         }
     }
-    
-    static func restartVPN() {
-        stopVPN()
-        DispatchQueue.main.asyncAfter(deadline: .now() + 6) {
-            startVPN()
+   
+    static func reloadSettings() {
+        getManager() { m in
+            guard let manager = m else {
+                enableVPN()
+                return
+            }
+            
+            if manager.connection.status != .connected {
+                return
+            }
+            
+            manager.protocolConfiguration = createProtoConfig()
+            manager.saveToPreferences { err in
+                let session = manager.connection as? NETunnelProviderSession
+                try? session?.sendProviderMessage("reloadSettings".data(using: String.Encoding.utf8)!)
+            }
         }
     }
     
@@ -94,21 +95,49 @@ class DNSVPNConfiguration {
             }
         }
     }
-    
-    static func connStatus(_ s : NEVPNStatus) -> Bool {
-        return s == NEVPNStatus.connected
+  
+    private static func createProtoConfig() -> NETunnelProviderProtocol {
+        let protoConfig = NETunnelProviderProtocol()
+        protoConfig.providerBundleIdentifier = (Bundle.main.bundleIdentifier ?? "com.impervious.ios.browser") + ".DNSAppExt"
+        protoConfig.serverAddress = "Beacon DNS"
+        protoConfig.providerConfiguration = ["dohURL": getDoHURL()]
+        return protoConfig
     }
     
-
+    static func enableVPNWithUserConfirmation(_ handler : ((Bool) -> Void)?) -> UIAlertController {
+        var vpnAlert = UIAlertController(title: "Beacon will add a VPN", message: "VPN is needed to set up custom DNS settings for your device. The VPN is local and no traffic will be routed through any servers. We do not collect any data when you use this profile.", preferredStyle: UIAlertController.Style.alert)
+        
+        vpnAlert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { _ in
+            if let handler = handler {
+                handler(true)
+            }
+            enableVPN()
+        }))
+        
+        vpnAlert.addAction(UIAlertAction(title: "Privacy policy", style: .default, handler: { _ in
+            if let handler = handler {
+                handler(false)
+            }
+            if let url = URL(string: BeaconConstants.PrivacyPolicy) {
+                UIApplication.shared.open(url)
+            }
+        }))
+        
+        vpnAlert.addAction(UIAlertAction(title: "Cancel", style: .default, handler: { _ in
+            if let handler = handler {
+                handler(false)
+            }
+        }))
+        
+        return vpnAlert
+    }
+    
     static func enableVPN() {
-        status = true
+        connected = true
         getManager() { m in
             guard let manager = m else {
                 let manager = NETunnelProviderManager()
-                let protoConfig = NETunnelProviderProtocol()
-                protoConfig.providerBundleIdentifier = (Bundle.main.bundleIdentifier ?? "com.impervious.ios.browser") + ".DNSAppExt"
-                protoConfig.serverAddress = "Beacon DNS"
-                protoConfig.providerConfiguration = ["l": 1]
+                let protoConfig = createProtoConfig()
                 let connectRule = NEOnDemandRuleConnect()
                 manager.onDemandRules = [connectRule]
                 manager.localizedDescription = "Beacon DNS"

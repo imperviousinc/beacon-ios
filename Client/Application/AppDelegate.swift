@@ -88,7 +88,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UIViewControllerRestorati
         
         // start hns
         let hnsVerifierInitError : NSErrorPointer = nil
-        HandshakeCtx = MobileNewVerifier(DNSVPNConfiguration.getDoHURL(), hnsVerifierInitError)
+        HandshakeCtx = MobileNewVerifier(EncryptedDNSTunnel.getDoHURL(), hnsVerifierInitError)
 
 
         // Need to get "settings.sendUsageData" this way so that Sentry can be initialized
@@ -412,14 +412,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UIViewControllerRestorati
     }
 
     func applicationDidEnterBackground(_ application: UIApplication) {
-        _ = DNSVPNConfiguration.updateConnected()
         //
         // At this point we are happy to mark the app as CleanlyBackgrounded. If a crash happens in background
         // sync then that crash will still be reported. But we won't bother the user with the Restore Tabs
         // dialog. We don't have to because at this point we already saved the tab state properly.
         //
         
-
         let defaults = UserDefaults()
         defaults.set(true, forKey: "ApplicationCleanlyBackgrounded")
 
@@ -467,7 +465,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UIViewControllerRestorati
         // is that this method is only invoked whenever the application is entering the foreground where as
         // `applicationDidBecomeActive` will get called whenever the Touch ID authentication overlay disappears.
         self.updateAuthenticationInfo()
-        _ = DNSVPNConfiguration.updateConnected()
+        _ = EncryptedDNSTunnel.updateConnected()
     }
 
     fileprivate func updateAuthenticationInfo() {
