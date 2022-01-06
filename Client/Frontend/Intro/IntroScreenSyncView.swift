@@ -91,7 +91,7 @@ class IntroScreenSyncView: UIView, CardTheme {
         button.backgroundColor = UIColor.Photon.Grey50
         //button.backgroundColor = UIColor.Photon.Blue50
         button.setTitle(Strings.IntroNextButtonTitle, for: .normal)
-        button.accessibilityIdentifier = "signUpButtonSyncView"
+        button.accessibilityIdentifier = "nextButtonSyncView"
         button.isEnabled = false
         return button
     }()
@@ -137,7 +137,6 @@ class IntroScreenSyncView: UIView, CardTheme {
     }
     
     func updateProgress(progress : Float, height : Int64) {
-    
         blockHeightLabel.text = "Block height: #\(height)"
         progressBar.setProgress(progress, animated: true)
         
